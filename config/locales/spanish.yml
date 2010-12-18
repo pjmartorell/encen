@@ -1,0 +1,21 @@
+es:
+  home: Inicio
+  contact: Contacto
+
+  metakeywords: "ejemplo,itnig,test"
+  metadescription: "Ejemplo de plan basico"
+  locality: Barcelona
+  geo_region: Spain
+  geo_placename: Spain
+  geo_position: Alguna posicion
+  icbm: Algun numero icbm
+
+
+  static:
+    index:
+      title: "Inicio -- Ejemplo Plan Basico"
+      line1: "Esto es la pagina de inicio"
+
+    contact:
+      title: "Contacto -- Ejemplo Plan Basico"
+      line1: "Y esto es la pagina de contacto"

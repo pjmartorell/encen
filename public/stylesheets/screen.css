@@ -1062,3 +1062,7 @@ form.inline {
 form.inline p {
   margin-bottom: 0;
 }
+
+ul .current {
+  font-weight: bold;
+}
