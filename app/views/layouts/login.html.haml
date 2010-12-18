@@ -1,0 +1,12 @@
+!!! 5
+%html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => I18n.locale }
+  %head
+    %title= yield :title
+    = csrf_meta_tag
+    = include_stylesheets :frontend_screen, :media => :screen
+    /[if lt IE 8 ]
+      = stylesheet_link_tag 'ie8', :media => 'screen, projection'
+
+  %body
+    = flash.inspect
+    = yield
