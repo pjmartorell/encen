@@ -1,4 +1,4 @@
-BasicApp::Application.routes.draw do
+Encen::Application.routes.draw do
   devise_for :users
 
   match 'contact', :to => "static#contact"

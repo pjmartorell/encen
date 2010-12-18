@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-BasicApp::Application.load_tasks
+Encen::Application.load_tasks
