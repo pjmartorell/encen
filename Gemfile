@@ -19,5 +19,5 @@ group :production, :staging do
 end
 
 group :production do
-  gem 'exception_notification'
+  gem "exception_notification", :git => "http://github.com/rails/exception_notification.git", :require => 'exception_notifier'
 end
