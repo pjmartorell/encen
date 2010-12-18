@@ -15,7 +15,6 @@
     %meta{:content => t(:geo_placename), :name => "geo.placename"}
     %meta{:content => t(:geo_position), :name => "geo.position"}
     %meta{:content => t(:icbm), :name => "ICBM"}
-    = current_user_tag if current_user
     = csrf_meta_tag
     -#%link{ :rel => "shortcut icon", :href => "/images/favicon.png" }
     = include_stylesheets :frontend_screen, :media => :screen
