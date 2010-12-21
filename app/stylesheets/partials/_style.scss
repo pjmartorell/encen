@@ -2,6 +2,7 @@ body{
 	margin: 0 auto;
 	#container{
 		font-family: $main-font-family;
+		font-size: $main-font-size;
 		color: white;
 		text-align: justify;
 
@@ -10,11 +11,38 @@ body{
 			background-image: url("/images/back_menu.png");
 			background-repeat: no-repeat;
 			background-position: center;
+	    height: 100px;
+	    margin-top: 20px;
+	    margin-bottom: 40px;
+			text-align: center;
+			ul{
+				padding-top: 40px;
+				margin-bottom:0;
+			}
+			li{
+				display: inline;
+				padding-right: 20px;
+			}
+			a{
+				color: white;
+				text-decoration: none;
+				font-size: 1.5em;
+			}
+			.current{color: $back-brown-color;}
 		}
 		#header{
 			background-image: url("/images/back_header.jpg");
 			background-repeat: repeat-x;
-			height: 500px;
+			color: $back-brown-color;
+			height: 130px;
+	    padding-top: 370px;
+			text-align: center;
+			h1{
+				font-size: 3em;
+				margin-bottom: 0;
+			}
+
+			p{font-size: 1.5em;}
 		}
 		
 // INFO BOX

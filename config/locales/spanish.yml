@@ -1,6 +1,9 @@
 es:
   home: Inicio
+  aboutus: Nosotros
   contact: Contacto
+  subtitle: ASSESORIA JURÍDICA I EMPRESARIAL
+  first_paragraph: “Una adequada orientació legal és el millor camí per resoldre molts dels seus problemes”
 
   metakeywords: "ejemplo,itnig,test"
   metadescription: "Ejemplo de plan basico"
@@ -15,6 +18,11 @@ es:
     index:
       title: "Inicio -- Ejemplo Plan Basico"
       line1: "Esto es la pagina de inicio"
+      
+  static:
+    aboutus:
+      title: "Inicio -- Ejemplo Plan Basico"
+      line1: "Esto es la pagina de Nosotros"
 
     contact:
       title: "Contacto -- Ejemplo Plan Basico"
