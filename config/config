@@ -1,0 +1,67 @@
+staging:
+  hosts:
+    example_english_host: en
+    example_spanish_host: es
+
+  mail:
+    user_name: name@domain.com
+    password: password
+    address: smtp.gmail.com
+    port: 587
+    domain: domain
+    authentication: plain
+    enable_starttls_auto: true
+
+  hostname: hostname
+  hosting: true
+
+production:
+  hosts:
+    example_english_host: en
+    example_spanish_host: es
+
+  mail:
+    user_name: name@domain.com
+    password: password
+    address: smtp.gmail.com
+    port: 587
+    domain: domain
+    authentication: plain
+    enable_starttls_auto: true
+
+  hostname: hostname
+  hosting: true
+
+development:
+  hosts:
+    example_english_host: en
+    example_spanish_host: es
+
+  mail:
+    user_name: name@domain.com
+    password: password
+    address: smtp.gmail.com
+    port: 587
+    domain: domain
+    authentication: plain
+    enable_starttls_auto: true
+
+  hostname: hostname
+  hosting: false
+
+test:
+  hosts:
+    example_english_host: en
+    example_spanish_host: es
+
+  mail:
+    user_name: name@domain.com
+    password: password
+    address: smtp.gmail.com
+    port: 587
+    domain: domain
+    authentication: plain
+    enable_starttls_auto: true
+
+  hostname: hostname
+  hosting: false
