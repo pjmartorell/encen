@@ -130,12 +130,12 @@ body #container #menu li {
   padding-right: 20px;
 }
 body #container #menu a {
-  color: white;
+  color: #ebe77b;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 body #container #menu .current {
-  color: #27211c;
+  color: white;
 }
 body #container #header {
   background-image: url("/images/back_header.jpg");
@@ -1173,8 +1173,4 @@ form.inline {
 }
 form.inline p {
   margin-bottom: 0;
-}
-
-ul .current {
-  font-weight: bold;
 }

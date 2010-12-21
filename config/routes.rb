@@ -3,7 +3,10 @@ Encen::Application.routes.draw do
 
   match 'contact', :to => "static#contact"
   match 'gallery', :to => "static#gallery"
-  match 'aboutus', :to => "static#aboutus"
+  match 'particular', :to => "static#particular"
+  match 'empresas', :to => "static#empresas"
+  match 'finques', :to => "static#finques"
+  match 'seguros', :to => "static#seguros"
 
   root :to => "static#index"
 end
