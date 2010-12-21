@@ -1,11 +1,12 @@
 @import "partials/one_col";
+@import "compass/css3/box-shadow";
 
 
 // Here is where you can define your constants for your application and to configure the blueprint framework.
 // Feel free to delete these if you want keep the defaults:
 
 $blueprint-grid-columns: 24;
-$blueprint-grid-width: 30px;
+$blueprint-grid-width: 950px;
 $blueprint-grid-margin: 10px;
 
 // If you change your grid column dimensions
@@ -14,8 +15,20 @@ $blueprint-grid-margin: 10px;
 
 $main-font-family: "Hoefler Text","Garamond","Times", serif;
 $title-font-family: "Times New Roman, Times New Roman, Times, serif";
+$main-font-color: #d9cdc2;
 $brown-font-color: #27211c;
 $cream-font-color: #e3bd8d;
-$main-font-size: .9em;
+$main-font-size: 1.2em;
 $title-font-size: 2em;
 $back-brown-color: #27211c;
+
+
+
+.line_separator{
+  background-image: url("/images/line_space.png");
+  height:10em;
+  margin-top: -90px;
+  padding-bottom: 20px;
+  clear:both;
+  overflow:hidden;
+}

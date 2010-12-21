@@ -1,9 +1,8 @@
 body{
 	margin: 0 auto;
 	#container{
+	  @include box-shadow(#ccc, 0, -29px, 25px, 1px);
 		font-family: $main-font-family;
-		font-size: $main-font-size;
-		color: white;
 		text-align: justify;
 
 // HEADER and MENU:
@@ -44,11 +43,42 @@ body{
 
 			p{font-size: 1.5em;}
 		}
-		
+
 // INFO BOX
 		#info_box{
 			background-color: $back-brown-color;
+			color: #d9cdc2;
+  		font-size: $main-font-size;
+  		padding-top: 30px;
+  		padding-bottom: 80px;
+			h1{
+				color: white;
+				font-family: $title-font-family;
+				font-style: italic;
+				padding-bottom: 20px;
+				padding-top: 40px;
+			}
+			h2{
+			  color: white;
+			  font-style: italic;
+				padding-bottom: 20px;
+				padding-top: 40px;
+			}
+
+			p{ color: $main-font-color;}
+
+			#first_paragraph{
+			  color: $cream-font-color;
+			  font-size: 1.3em;
+			  font-weight: normal;
+			}
 		}
 
+//FOOTER		
+
+    #footer{
+      background-color: #2f2721;
+      height: 200px;
+    }
 	}
 }

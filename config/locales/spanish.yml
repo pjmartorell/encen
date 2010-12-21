@@ -4,6 +4,7 @@ es:
   contact: Contacto
   subtitle: ASSESORIA JURÍDICA I EMPRESARIAL
   first_paragraph: “Una adequada orientació legal és el millor camí per resoldre molts dels seus problemes”
+  footer: footer
 
   metakeywords: "ejemplo,itnig,test"
   metadescription: "Ejemplo de plan basico"
@@ -13,16 +14,21 @@ es:
   geo_position: Alguna posicion
   icbm: Algun numero icbm
 
-
   static:
     index:
       title: "Inicio -- Ejemplo Plan Basico"
-      line1: "Esto es la pagina de inicio"
-      
-  static:
+      subtitle: "Inicio"
+      paragraph: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
+      subtitle: Nosotros
+      paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
+      subtitle1: Tema1
+      paragraph2: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
+      subtitle2: Tema2
+
     aboutus:
       title: "Inicio -- Ejemplo Plan Basico"
-      line1: "Esto es la pagina de Nosotros"
+      subtitle: Nosotros
+      paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers.When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
 
     contact:
       title: "Contacto -- Ejemplo Plan Basico"
