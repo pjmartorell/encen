@@ -1,3 +1,6 @@
+@import "partials/one_col";
+
+
 // Here is where you can define your constants for your application and to configure the blueprint framework.
 // Feel free to delete these if you want keep the defaults:
 
@@ -8,3 +11,11 @@ $blueprint-grid-margin: 10px;
 // If you change your grid column dimensions
 // you can make a new grid background image from the command line like this:
 // compass grid-img 30+10x16
+
+$main-font-family: "Hoefler Text","Garamond","Times", serif;
+$title-font-family: "Times New Roman, Times New Roman, Times, serif";
+$brown-font-color: #27211c;
+$cream-font-color: #e3bd8d;
+$main-font-size: .9em;
+$title-font-size: 2em;
+$back-brown-color: #27211c;

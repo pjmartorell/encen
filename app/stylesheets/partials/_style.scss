@@ -1,2 +1,26 @@
+body{
+	margin: 0 auto;
+	#container{
+		font-family: $main-font-family;
+		color: white;
+		text-align: justify;
 
-background-color:  red;;
+// HEADER and MENU:
+		#menu{
+			background-image: url("/images/back_menu.png");
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+		#header{
+			background-image: url("/images/back_header.jpg");
+			background-repeat: repeat-x;
+			height: 500px;
+		}
+		
+// INFO BOX
+		#info_box{
+			background-color: $back-brown-color;
+		}
+
+	}
+}

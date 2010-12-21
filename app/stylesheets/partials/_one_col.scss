@@ -1,0 +1,12 @@
+body.one_col{
+  #container {
+		@include span(20);
+		#header{
+			@include span(24);
+		}
+		#info_box{
+			@include span(24);
+		}
+
+	}
+}

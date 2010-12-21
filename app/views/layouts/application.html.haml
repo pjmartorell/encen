@@ -1,4 +1,3 @@
-!!! 5
 %html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => I18n.locale }
   %head
     %title= yield :title
@@ -21,10 +20,15 @@
     /[if lt IE 8 ]
       = stylesheet_link_tag 'ie8', :media => 'screen, projection'
   %body
-    = render 'shared/header'
-    = render 'shared/menu'
+  #container
+    #menu
+      = render 'shared/menu'
 
-    = yield
+    #header
+      = render 'shared/header'
+
+    #info_box
+      = yield
 
     = render 'shared/footer'
     %script{:type => "text/javascript", :src  => "http://www.google.com/jsapi?key=ABQIAAAALy3hj-F80ucolZq1sevJGxQy9TusGK6D_dw7xKWtcTJbKPyiEhQ2HXkEN9UJJowAVIun52JrUbnugQ"}

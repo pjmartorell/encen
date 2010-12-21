@@ -73,6 +73,38 @@ a img {
   border: none;
 }
 
+body.one_col #container {
+  width: 790px;
+}
+body.one_col #container #header {
+  width: 950px;
+}
+body.one_col #container #info_box {
+  width: 950px;
+}
+
+body {
+  margin: 0 auto;
+}
+body #container {
+  font-family: "Hoefler Text", "Garamond", "Times", serif;
+  color: white;
+  text-align: justify;
+}
+body #container #menu {
+  background-image: url("/images/back_menu.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+body #container #header {
+  background-image: url("/images/back_header.jpg");
+  background-repeat: repeat-x;
+  height: 500px;
+}
+body #container #info_box {
+  background-color: #27211c;
+}
+
 body {
   line-height: 1.5;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
@@ -898,7 +930,7 @@ input.span-24, textarea.span-24, select.span-24 {
 }
 
 .showgrid {
-  background: url('/images/grid.png?1292864061');
+  background: url('/images/grid.png?1292870137');
 }
 
 .error {
