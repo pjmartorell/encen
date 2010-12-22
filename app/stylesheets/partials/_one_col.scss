@@ -3,10 +3,6 @@ body.one_col{
 		@include container;
 		#header{
 			@include span(24);
-			#menu{
-			  @include prepend(4);
-			  @include append(4);
-			}
 		}
 		#info_box{
 		  @include span(20);

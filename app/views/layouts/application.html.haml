@@ -22,10 +22,9 @@
       = stylesheet_link_tag 'ie8', :media => 'screen, projection'
   %body.one_col
     #container
-      #menu
-        = render 'shared/menu'
-
       #header
+        #menu
+          = render 'shared/menu'
         = render 'shared/header'
 
       #info_box

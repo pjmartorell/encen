@@ -30,11 +30,27 @@ es:
       paragraph2: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
       subtitle2: Tema2
 
-    aboutus:
-      title: "Inicio -- Ejemplo Plan Basico"
-      subtitle: Nosotros
-      paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers.When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
+    particular:
+      title: "Serveis Juridics a Particular -- Ejemplo Plan Basico"
+      subtitle: Serveis Juridics a Particular
+      paragraph1: "something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers.something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websitessomething quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites"
 
+    empresas:
+      title: "Serveis Empresarials -- Ejemplo Plan Basico"
+      subtitle: Serveis Empresarials
+      paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
+          
+    finques:
+      title: "Administracio de Finques -- Ejemplo Plan Basico"
+      subtitle: Administracio de Finques
+      paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
+    
+    seguros:
+      title: "Assegurence -- Ejemplo Plan Basico"
+      subtitle: Assegurence
+      paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
+      
+    
     contact:
       title: "Contacto -- Ejemplo Plan Basico"
       line1: "Y esto es la pagina de contacto"
