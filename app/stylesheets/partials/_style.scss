@@ -47,7 +47,7 @@ body{
 // INFO BOX
 		#info_box{
 			background-color: $back-brown-color;
-			color: #d9cdc2;
+			color: $main-font-color;
   		font-size: $main-font-size;
   		padding-top: 30px;
   		padding-bottom: 80px;
@@ -72,6 +72,51 @@ body{
 			  font-size: 1.3em;
 			  font-weight: normal;
 			}
+			
+//Contact
+      #contact_info{
+        margin-top: 20px;
+        .contact_titles{
+  			  p{
+  			    color: $cream-font-color;
+  			    font-size: 1.5em;
+  			    margin-bottom: 0;
+  			  }
+  			}
+  			.contact_answere{
+  			  margin-left: 10px;
+  			  margin-bottom: 40px;
+  			  p{
+  			    font-size: 1.2em;
+  			    font-family: $title-font-family;
+  			    margin-bottom: 0;
+  			  }
+  			  a{
+  			    font-family: $title-font-family;
+  			    color: $main-font-color;
+  			    font-size: 1.2em;
+  			    text-decoration: none;
+  			  }
+  			  a:hover{color: $cream-font-color;}
+  			} 
+      }
+      #map_canvas{
+ 	      border: solid 1px white;
+ 	      outline: solid 2px #ccc;
+       	height: 330px;
+       	#infowindow{
+       	  h3{
+            border-bottom: 1px solid #ccc;
+            font-size: 1em;
+            margin-bottom: 5px;
+            width: 170px;
+          }
+       		p{font-size: .8em;}
+       	}
+       #gmimap0{
+       	  background-color: blue;
+       	}
+      }
 		}
 
 //FOOTER		

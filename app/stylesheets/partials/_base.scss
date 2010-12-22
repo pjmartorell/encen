@@ -23,6 +23,11 @@ $title-font-size: 2em;
 $back-brown-color: #27211c;
 
 
+.clear {
+  clear:both;
+  height:1px;
+  overflow:hidden;
+}
 
 .line_separator{
   background-image: url("/images/line_space.png");

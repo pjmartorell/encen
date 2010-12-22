@@ -8,6 +8,12 @@ body.one_col{
 		  @include span(20);
 			@include prepend(2);
 			@include append(2);
+			#contact_info{
+			  @include column(7);
+			}
+			#map_canvas{
+			  @include column(12);
+			}
 		}
 
 	}

@@ -53,4 +53,11 @@ es:
     
     contact:
       title: "Contacto -- Ejemplo Plan Basico"
+      subtitle: Contacto
       line1: "Y esto es la pagina de contacto"
+      address_title: Dirección
+      address: Fabra i Pug 267-269. 08031 Bcn
+      tel_title: Tel. / Fax
+      tel: Tel. 93.407.22.02
+      fax: Fax. 93.420.74.29
+      email_title: Email

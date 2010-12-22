@@ -1,5 +1,29 @@
 - title t(".title")
 
-%p
-  = t ".line1"
+%h1
+  = t ".subtitle"
 
+#contact_info
+  .contact_titles
+    %p= t ".address_title"
+
+  .contact_answere
+    %p= t ".address"
+  
+  .contact_titles
+    %p= t ".tel_title"
+
+  .contact_answere
+    %p= t ".tel"
+    %p= t ".fax"
+  
+  .contact_titles
+    %p= t ".email_title"
+
+  .contact_answere
+    = mail_to 'info@nova-gestion.cat', nil, :encode => :hex
+  
+  
+#map_canvas
+
+.clear
