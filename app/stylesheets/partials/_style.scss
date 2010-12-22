@@ -72,6 +72,19 @@ body{
 			  font-size: 1.3em;
 			  font-weight: normal;
 			}
+			.up_button{
+			  background-image: url("/images/back_up_button.png");
+			  background-repeat: no-repeat;
+			  text-align:center;
+        height: 35px;
+        margin-left: 700px;
+        padding-top: 10px;
+        width: 90px;
+        a{
+			    color: white;
+			    text-decoration: none;
+			  }
+			}
 			
 //Contact
       #contact_info{

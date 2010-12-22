@@ -200,6 +200,19 @@ body #container #info_box #first_paragraph {
   font-size: 1.3em;
   font-weight: normal;
 }
+body #container #info_box .up_button {
+  background-image: url("/images/back_up_button.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 35px;
+  margin-left: 700px;
+  padding-top: 10px;
+  width: 90px;
+}
+body #container #info_box .up_button a {
+  color: white;
+  text-decoration: none;
+}
 body #container #info_box #contact_info {
   margin-top: 20px;
 }
