@@ -8,6 +8,16 @@ GIT
       warden (~> 1.0.3)
 
 GIT
+  remote: git://github.com/rogercampos/interpret.git
+  revision: 6194271c83b9ad0c05f902c605806f357d38c27c
+  specs:
+    interpret (0.1.0)
+      i18n (~> 0.5.0)
+      i18n-active_record
+      rails (~> 3.0.3)
+      ya2yaml (>= 0.30.0)
+
+GIT
   remote: http://github.com/rails/exception_notification.git
   revision: 192a49a02d63d28b23ed41cebadfedd490929cf1
   specs:
@@ -59,6 +69,7 @@ GEM
       haml (~> 3.0)
       railties (~> 3.0)
     i18n (0.5.0)
+    i18n-active_record (0.0.1)
     jammit (0.5.4)
       closure-compiler (>= 0.1.0)
       yui-compressor (>= 0.9.1)
@@ -122,6 +133,7 @@ DEPENDENCIES
   exception_notification!
   haml-rails
   i18n (~> 0.5.0)
+  interpret!
   jammit
   mysql2
   rails (~> 3.0.0)
