@@ -3,10 +3,14 @@
   %head
     %title= yield :title
     = csrf_meta_tag
-    = include_stylesheets :frontend_screen, :media => :screen
+    = stylesheet_link_tag "private"    
     /[if lt IE 8 ]
       = stylesheet_link_tag 'ie8', :media => 'screen, projection'
 
-  %body
-    = flash.inspect
-    = yield
+  %body.one_col
+    #container
+      #login_box
+        = flash.inspect
+        = yield
+
+
