@@ -8,5 +8,6 @@ Encen::Application.routes.draw do
   match 'finques', :to => "static#finques"
   match 'seguros', :to => "static#seguros"
 
+  match 'admin', :to => "admin/translations#index"
   root :to => "static#index"
 end
