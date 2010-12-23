@@ -13,6 +13,40 @@ body {
       padding-top: 40px;
       padding-bottom: 30px;
       margin-top: 100px;
+      margin-left: 250px;
+      p{
+        margin-bottom: 20px;
+        text-align: center;
+      }
+      input#user_login{
+        border: 1px solid #BBBBBB;
+        color: $font-color;
+        text-align: center;
+        font-size: 16px;
+        height: 30px;
+        padding: 2px;
+        width: 275px;
+      }
+      input#user_password{
+        border: 1px solid #BBBBBB;
+        color: $font-color;
+        text-align: center;
+        font-size: 16px;
+        height: 30px;
+        padding: 2px;
+        width: 275px;
+      }
+      input#user_submit{
+        background-color: #000000;
+        color: white;
+        border: medium none;
+        height: 25px;
+        margin-bottom: 10px;
+        width: 125px;
+      }
+      input#user_submit:hover{
+        background-color: #666;
+      }
 		}
 	}
 }
