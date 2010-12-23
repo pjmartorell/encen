@@ -89,13 +89,7 @@ body.one_col #container #login_box {
   padding-right: 40px;
 }
 body.one_col #container #info_box {
-  width: 910px;
-}
-body.one_col #container #menu {
-  width: 910px;
-}
-body.one_col #container #info {
-  width: 790px;
+  width: 830px;
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -166,4 +160,15 @@ body #container #login_box input#user_submit {
 }
 body #container #login_box input#user_submit:hover {
   background-color: #666;
+}
+body #container #info_box {
+  background-color: #F1F1F1;
+  border: 2px solid #999999;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+body #container #info_box thead {
+  background-color: black;
+  color: white;
+  height: 25px;
 }

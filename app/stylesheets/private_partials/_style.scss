@@ -7,6 +7,9 @@ body {
 		font-family: $main-font-family;
 		font-size: $main-font-size;
 		color: $font-color;
+		
+// LOGIN
+		
 		#login_box{
 		  background-color: #F1F1F1;
       border: 2px solid #999999;
@@ -48,5 +51,20 @@ body {
         background-color: #666;
       }
 		}
+
+// BACKOFFICE
+  
+    #info_box{
+      background-color: #F1F1F1;
+      border: 2px solid #999999;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      thead{
+        background-color: black;
+        color: white;
+        height: 25px;
+      }
+    }
+
 	}
 }
