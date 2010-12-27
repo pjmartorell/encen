@@ -16,14 +16,15 @@
     %meta{:content => t(:geo_position), :name => "geo.position"}
     %meta{:content => t(:icbm), :name => "ICBM"}
     = csrf_meta_tag
-    = include_stylesheets :frontend_screen, :media => :screen
+    = stylesheet_link_tag "private"    
     = include_stylesheets :frontend_print, :media => :print
     /[if lt IE 8 ]
       = stylesheet_link_tag 'ie8', :media => 'screen, projection'
-  %body
-    = yield
+  %body.one_col
+    #container
+      = yield
 
-    = render 'shared/footer'
+      = render 'shared/footer'
     %script{:type => "text/javascript", :src  => "http://www.google.com/jsapi?key=ABQIAAAALy3hj-F80ucolZq1sevJGxQy9TusGK6D_dw7xKWtcTJbKPyiEhQ2HXkEN9UJJowAVIun52JrUbnugQ"}
     :javascript
       google.load("jquery", "1.4.2")

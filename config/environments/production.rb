@@ -47,5 +47,5 @@ Encen::Application.configure do
   config.middleware.use ExceptionNotifier,
     :email_prefix => "[Notifier-#{APP_CONFIG['name']}]",
     :sender_address => APP_CONFIG['exception_notification_sender'],
-    :exception_recipients => APP_CONFIG['exception_notification_recipients']
+    :exception_recipients => [APP_CONFIG['exception_notification_recipient']]
 end
