@@ -268,8 +268,8 @@ body #container #footer {
   color: #d9cdc2;
   font-family: "Times New Roman, Times New Roman, Times, serif";
   text-align: center;
-  height: 200px;
-  padding-top: 60px;
+  height: 170px;
+  padding-top: 70px;
 }
 body #container #footer li {
   border-right: 1px solid;
@@ -283,14 +283,27 @@ body #container #footer li:last-child {
   border-right: none;
 }
 body #container #footer a {
-  color: #d9cdc2;
+  color: #e3bd8d;
   text-decoration: none;
 }
 body #container #footer a:hover {
-  color: #e3bd8d;
+  color: white;
 }
 body #container #footer #mail {
   font-size: 1.2em;
+}
+body #container #footer #footer_title {
+  background-image: url("/images/back_title_footer.png");
+  background-repeat: no-repeat;
+  text-align: left;
+  height: 71px;
+  margin-top: -71px;
+  margin-bottom: 25px;
+  padding-left: 14px;
+  padding-top: 13px;
+}
+body #container #footer #footer_title h2 {
+  color: white;
 }
 
 body {

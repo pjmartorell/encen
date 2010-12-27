@@ -141,8 +141,8 @@ body{
       color: $main-font-color;
       font-family: $title-font-family;
       text-align: center;
-      height: 200px;
-      padding-top: 60px;
+      height: 170px;
+      padding-top: 70px;
       li{
 				border-right: 1px solid;
 				font-size: 1.4em;
@@ -155,11 +155,22 @@ body{
 			  border-right: none;
 			}
 			a{
-			  color: $main-font-color;
+			  color: $wheat-font-color;
 			  text-decoration: none;
 			}
-			a:hover{color: $wheat-font-color;}
+			a:hover{color: white;}
 			#mail{font-size: 1.2em}
+			#footer_title{
+			  background-image: url("/images/back_title_footer.png");
+			  background-repeat: no-repeat;
+			  text-align: left;
+			  height: 71px;
+        margin-top: -71px;
+        margin-bottom: 25px;
+        padding-left: 14px;
+        padding-top: 13px;
+        h2{ color: white;}
+			}
     }
 
 	}
