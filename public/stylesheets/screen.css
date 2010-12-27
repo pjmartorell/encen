@@ -105,10 +105,15 @@ body.one_col #container #info_box #map_canvas {
 * html body.one_col #container #info_box #map_canvas {
   overflow-x: hidden;
 }
+body.one_col #container #footer {
+  width: 790px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
 
 .clear {
   clear: both;
-  height: 1px;
+  height: 1em;
   overflow: hidden;
 }
 
@@ -258,7 +263,34 @@ body #container #info_box #map_canvas #gmimap0 {
 }
 body #container #footer {
   background-color: #2f2721;
+  background-image: url("/images/back_footer.jpg");
+  border-top: 2px solid #2F2721;
+  color: #d9cdc2;
+  font-family: "Times New Roman, Times New Roman, Times, serif";
+  text-align: center;
   height: 200px;
+  padding-top: 60px;
+}
+body #container #footer li {
+  border-right: 1px solid;
+  font-size: 1.4em;
+  color: white;
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+body #container #footer li:last-child {
+  border-right: none;
+}
+body #container #footer a {
+  color: #d9cdc2;
+  text-decoration: none;
+}
+body #container #footer a:hover {
+  color: #e3bd8d;
+}
+body #container #footer #mail {
+  font-size: 1.2em;
 }
 
 body {

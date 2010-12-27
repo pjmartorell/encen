@@ -68,7 +68,7 @@ body{
 			p{ color: $main-font-color;}
 
 			#first_paragraph{
-			  color: $cream-font-color;
+			  color: $wheat-font-color;
 			  font-size: 1.3em;
 			  font-weight: normal;
 			}
@@ -91,7 +91,7 @@ body{
         margin-top: 20px;
         .contact_titles{
   			  p{
-  			    color: $cream-font-color;
+  			    color: $wheat-font-color;
   			    font-size: 1.5em;
   			    margin-bottom: 0;
   			  }
@@ -110,7 +110,7 @@ body{
   			    font-size: 1.2em;
   			    text-decoration: none;
   			  }
-  			  a:hover{color: $cream-font-color;}
+  			  a:hover{color: $wheat-font-color;}
   			} 
       }
       #map_canvas{
@@ -136,7 +136,31 @@ body{
 
     #footer{
       background-color: #2f2721;
+      background-image: url("/images/back_footer.jpg");
+      border-top: 2px solid #2F2721;
+      color: $main-font-color;
+      font-family: $title-font-family;
+      text-align: center;
       height: 200px;
+      padding-top: 60px;
+      li{
+				border-right: 1px solid;
+				font-size: 1.4em;
+				color: white;
+        display: inline;
+        padding-left: 30px;
+        padding-right: 30px;
+			}
+			li:last-child{
+			  border-right: none;
+			}
+			a{
+			  color: $main-font-color;
+			  text-decoration: none;
+			}
+			a:hover{color: $wheat-font-color;}
+			#mail{font-size: 1.2em}
     }
+
 	}
 }

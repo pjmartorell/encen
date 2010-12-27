@@ -15,6 +15,11 @@ body.one_col{
 			  @include column(12);
 			}
 		}
+		#footer{
+		  @include span(20);
+		  @include prepend(2);
+			@include append(2);
+		}
 
 	}
 }
