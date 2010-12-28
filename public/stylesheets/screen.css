@@ -119,8 +119,7 @@ body.one_col #container #footer {
 
 .line_separator {
   background-image: url("/images/line_space.png");
-  height: 10em;
-  margin-top: -135px;
+  background-repeat: repeat-x;
   padding-bottom: 20px;
   clear: both;
   overflow: hidden;
@@ -274,7 +273,7 @@ body #container #info_box #map_canvas #gmimap0 {
 body #container #footer {
   background-color: #2f2721;
   background-image: url("/images/back_footer.jpg");
-  border-top: 2px solid #2F2721;
+  border-top: 3px solid #2F2721;
   color: #d9cdc2;
   font-family: "Times New Roman, Times New Roman, Times, serif";
   text-align: center;

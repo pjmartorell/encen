@@ -31,8 +31,7 @@ $back-brown-color: #27211c;
 
 .line_separator{
   background-image: url("/images/line_space.png");
-  height:10em;
-  margin-top: -135px;
+  background-repeat: repeat-x;
   padding-bottom: 20px;
   clear:both;
   overflow:hidden;
