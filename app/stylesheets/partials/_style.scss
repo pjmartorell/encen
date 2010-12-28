@@ -65,18 +65,20 @@ body{
 				padding-top: 40px;
 			}
 
-			p{ color: $main-font-color;}
+			p{ color: $main-font-color; margin-bottom:0;}
 
 			#first_paragraph{
 			  color: $wheat-font-color;
 			  font-size: 1.3em;
 			  font-weight: normal;
+			  margin-bottom: 70px;
 			}
 			.up_button{
 			  background-image: url("/images/back_up_button.png");
 			  background-repeat: no-repeat;
 			  text-align:center;
         height: 35px;
+        margin-top: 40px;
         margin-left: 700px;
         padding-top: 10px;
         width: 90px;
@@ -84,6 +86,13 @@ body{
 			    color: white;
 			    text-decoration: none;
 			  }
+			}
+			.read_more{
+			  a{
+			    color: $wheat-font-color;
+			    text-decoration: none;
+			  }
+			  a:hover{color:#a84830;}
 			}
 			
 //Contact

@@ -120,7 +120,7 @@ body.one_col #container #footer {
 .line_separator {
   background-image: url("/images/line_space.png");
   height: 10em;
-  margin-top: -90px;
+  margin-top: -135px;
   padding-bottom: 20px;
   clear: both;
   overflow: hidden;
@@ -199,17 +199,20 @@ body #container #info_box h2 {
 }
 body #container #info_box p {
   color: #d9cdc2;
+  margin-bottom: 0;
 }
 body #container #info_box #first_paragraph {
   color: #e3bd8d;
   font-size: 1.3em;
   font-weight: normal;
+  margin-bottom: 70px;
 }
 body #container #info_box .up_button {
   background-image: url("/images/back_up_button.png");
   background-repeat: no-repeat;
   text-align: center;
   height: 35px;
+  margin-top: 40px;
   margin-left: 700px;
   padding-top: 10px;
   width: 90px;
@@ -217,6 +220,13 @@ body #container #info_box .up_button {
 body #container #info_box .up_button a {
   color: white;
   text-decoration: none;
+}
+body #container #info_box .read_more a {
+  color: #e3bd8d;
+  text-decoration: none;
+}
+body #container #info_box .read_more a:hover {
+  color: #a84830;
 }
 body #container #info_box #contact_info {
   margin-top: 20px;
