@@ -54,6 +54,22 @@ body {
 
 // BACKOFFICE
   
+    #header{
+      background-color: #333;
+      margin-bottom: 30px;
+      margin-top: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      color: #999;
+      h1{
+        color: #f1f1f1;
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 12px;
+      }
+      a{color: #F1F1F1;}
+      p{margin-bottom: 5px;}
+    }
     #info_box{
       background-color: #F1F1F1;
       border: 2px solid #999999;
