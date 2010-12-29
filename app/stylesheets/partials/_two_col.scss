@@ -2,17 +2,16 @@ body.two_col{
   #container {
     @include container;
     #header{
-      @include span(22);
-      @include append(1);
-      @include prepend(1);
+      @include span(24);
     }
     #side_bar{
-      @include column(4);
+      @include column(5);
       @include append(1);
       @include prepend(1);
     }
     #info_box{
-      @include column(17);
+      @include column(15);
+      @include append(1);
       @include prepend(1);
     }
   }

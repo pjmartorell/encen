@@ -1,4 +1,6 @@
 @import "partials/two_col";
+@import "compass/css3/font-face";
+
 
 // Here is where you can define your constants for your application and to configure the blueprint framework.
 // Feel free to delete these if you want keep the defaults:
@@ -10,3 +12,16 @@ $blueprint-grid-margin: 10px;
 // If you change your grid column dimensions
 // you can make a new grid background image from the command line like this:
 // compass grid-img 30+10x16
+
+
+
+$yellow-color: #ffc325;
+$blue-color: #099fcc;
+$dark-blue: #055269;
+$dark-yellow: #957216;
+$title-font-family: "london";
+
+
+
+//Extra fonts.
+@include font-face("london", font-files("/fonts/LondonBetween.ttf", truetype));

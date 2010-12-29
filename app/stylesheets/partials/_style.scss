@@ -1,16 +1,26 @@
 body.two_col{
 	margin: 0 auto;
   #container{
-    background-color: #666;
     #header{
-      background-color: black;
+      background-color: $yellow-color;
+      font-family:$title-font-family;
+      text-align: center;
+      height: 80px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+      h1{
+        margin-bottom: 0;
+        color: white;
+      }
     }
     #side_bar{
-      background-color: #333;
-      margin-right:0;
+      background-color: $blue-color;
+      padding-top: 20px;
     }
     #info_box{
-      background-color: red;
+      background-color: $blue-color;
+      margin-right: 0;
+      padding-top: 20px;
     }
   }
 }
