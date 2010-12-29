@@ -20,7 +20,7 @@
     = include_stylesheets :frontend_print, :media => :print
     /[if lt IE 8 ]
       = stylesheet_link_tag 'ie8', :media => 'screen, projection'
-  %body
+  %body.two_col
     = render 'shared/header'
     = render 'shared/menu'
 

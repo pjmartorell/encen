@@ -1,0 +1,8 @@
+body.two_col{
+	margin: 0 auto;
+	background-color: #fff;
+  #container{
+    @include container;
+    background-color: #333;
+  }
+}
