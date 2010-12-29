@@ -11,8 +11,8 @@ Syntax error: Undefined mixin 'container'.
 4: // To configure blueprint, edit the partials/_base.sass file.
 5: @import "partials/base";
 6: 
-7: // Import all the default blueprint modules so that we can access their mixins.
-8: @import "blueprint";
+7: // Combine the partials into a single screen stylesheet.
+8: @import "partials/style";
 
 Backtrace:
 /Users/dulcemac/code/encen/app/stylesheets/partials/_two_col.scss:3:in `container'
@@ -125,4 +125,4 @@ script/rails:6
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined mixin 'container'.\A         on line 3 of /Users/dulcemac/code/encen/app/stylesheets/partials/_two_col.scss, in `container'\A         from line 3 of /Users/dulcemac/code/encen/app/stylesheets/partials/_two_col.scss\A         from line 1 of /Users/dulcemac/code/encen/app/stylesheets/partials/_base.scss\A         from line 5 of /Users/dulcemac/code/encen/app/stylesheets/screen.scss\A \A 1: // This import applies a global reset to any page that imports this stylesheet.\A 2: @import \"blueprint/reset\";\A 3: \A 4: // To configure blueprint, edit the partials/_base.sass file.\A 5: @import \"partials/base\";\A 6: \A 7: // Import all the default blueprint modules so that we can access their mixins.\A 8: @import \"blueprint\";"; }
+  content: "Syntax error: Undefined mixin 'container'.\A         on line 3 of /Users/dulcemac/code/encen/app/stylesheets/partials/_two_col.scss, in `container'\A         from line 3 of /Users/dulcemac/code/encen/app/stylesheets/partials/_two_col.scss\A         from line 1 of /Users/dulcemac/code/encen/app/stylesheets/partials/_base.scss\A         from line 5 of /Users/dulcemac/code/encen/app/stylesheets/screen.scss\A \A 1: // This import applies a global reset to any page that imports this stylesheet.\A 2: @import \"blueprint/reset\";\A 3: \A 4: // To configure blueprint, edit the partials/_base.sass file.\A 5: @import \"partials/base\";\A 6: \A 7: // Combine the partials into a single screen stylesheet.\A 8: @import \"partials/style\";"; }

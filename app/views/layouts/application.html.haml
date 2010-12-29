@@ -21,8 +21,9 @@
     /[if lt IE 8 ]
       = stylesheet_link_tag 'ie8', :media => 'screen, projection'
   %body.two_col
-    = render 'shared/header'
-    = render 'shared/menu'
+    #container
+      = render 'shared/header'
+      = render 'shared/menu'
 
     = yield
 
