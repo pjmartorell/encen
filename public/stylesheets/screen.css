@@ -138,16 +138,14 @@ body.two_col #container #side_bar ul li {
   background-color: #066d8c;
   list-style: none;
   margin-bottom: 2px;
-  padding: 3px 60px;
+  padding: 5px 10px;
 }
 body.two_col #container #side_bar a {
   color: white;
   text-decoration: none;
-  margin-left: -60px;
-  padding: 4px 62px;
 }
 body.two_col #container #side_bar a:hover {
-  background-color: #033949;
+  color: #FFC325;
 }
 body.two_col #container #info_box {
   background-color: #099fcc;
