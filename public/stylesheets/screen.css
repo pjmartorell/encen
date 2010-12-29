@@ -129,6 +129,25 @@ body.two_col #container #header h1 {
 body.two_col #container #side_bar {
   background-color: #099fcc;
   padding-top: 20px;
+  text-align: center;
+}
+body.two_col #container #side_bar ul {
+  padding-left: 0;
+}
+body.two_col #container #side_bar ul li {
+  background-color: #066d8c;
+  list-style: none;
+  margin-bottom: 2px;
+  padding: 3px 60px;
+}
+body.two_col #container #side_bar a {
+  color: white;
+  text-decoration: none;
+  margin-left: -60px;
+  padding: 4px 62px;
+}
+body.two_col #container #side_bar a:hover {
+  background-color: #033949;
 }
 body.two_col #container #info_box {
   background-color: #099fcc;
