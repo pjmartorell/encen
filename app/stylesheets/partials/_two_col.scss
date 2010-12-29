@@ -1,5 +1,8 @@
 body.two_col{
   #container {
     @include container;
+    #header{
+      @include span(22);
+    }
   }
 }
