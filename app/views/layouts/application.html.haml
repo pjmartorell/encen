@@ -22,10 +22,14 @@
       = stylesheet_link_tag 'ie8', :media => 'screen, projection'
   %body.two_col
     #container
-      = render 'shared/header'
-      = render 'shared/menu'
-
-    = yield
+      #header
+        = render 'shared/header'
+      
+      #side_bar
+        = render 'shared/menu'
+      
+      #info_box
+        = yield
 
     = render 'shared/footer'
     %script{:type => "text/javascript", :src  => "http://www.google.com/jsapi?key=ABQIAAAALy3hj-F80ucolZq1sevJGxQy9TusGK6D_dw7xKWtcTJbKPyiEhQ2HXkEN9UJJowAVIun52JrUbnugQ"}

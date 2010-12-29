@@ -2,5 +2,15 @@ body.two_col{
 	margin: 0 auto;
   #container{
     background-color: #666;
+    #header{
+      background-color: black;
+    }
+    #side_bar{
+      background-color: #333;
+      margin-right:0;
+    }
+    #info_box{
+      background-color: red;
+    }
   }
 }
