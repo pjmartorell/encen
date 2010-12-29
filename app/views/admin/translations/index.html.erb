@@ -6,7 +6,7 @@
     <%= form_tag upload_translations_path, :multipart => true do %>
       <%= label_tag "File:" %>
       <%= file_field_tag :file %>
-      <%= submit_tag "Upload" %>
+      <div id="upload_btn"><%= submit_tag "Upload" %></div>
     <% end %>
   </p>
 </div>

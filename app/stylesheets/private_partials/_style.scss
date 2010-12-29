@@ -55,12 +55,13 @@ body {
 // BACKOFFICE
   
     #header{
-      background-color: #333;
+      background-color: #555;
+      color: #eee;
+      font-size: 0.9em;
       margin-bottom: 30px;
       margin-top: 20px;
       padding-top: 10px;
       padding-bottom: 10px;
-      color: #999;
       h1{
         color: #f1f1f1;
         text-align: center;
@@ -69,6 +70,19 @@ body {
       }
       a{color: #F1F1F1;}
       p{margin-bottom: 5px;}
+
+      #upload_btn{
+        input{
+          background-color: black;
+          border: medium none;
+          color: #999999;
+          margin-top: 9px;
+          padding: 7px 15px;
+        }
+        input:hover{
+          background-color:#222;
+        }
+      }
     }
     #info_box{
       background-color: #F1F1F1;
