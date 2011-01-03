@@ -130,6 +130,41 @@ es:
       line9: "Ya sean motorizadas o con cinta, cajón exterior o con cajón de obra, con eje hexagonal, con eje estriado, con eje de 40mm. o de 60mm. ya sean normales o reforzados."
       line10: "Nuestra zona de servicio es en Barcelona y alrededores; para zonas más distanciadas, consúltenos un presupuesto sin compromiso."
     
+    rejas:
+      title: Rejas
+      line1: "Es un placer para nosotros poder contar con nuestra sección de rejas."
+      line2: "Nuestro lema como profesionales de rejas de seguridad, rejas de acero, rejas practicables, rejas de Ballesta, rejas plegables, etc... es poder ofrecerles un sevicio integral y personalizado a sus necesidades y deseos."
+      line3: "Con más de 20 años de experiencia en el sector de las rejas nos dan la fiabilidad de trabajar con los grandes fabricantes teniendo las mejores marcas en materiales de primerísima calidad, siempre apostando en tecnologia, acabados y servicio."
+      line4: "¿Por qué escogernos a nosotros a la hora de pedir asesoramiento o presupuesto sobre rejas?. Porque disponemos de 5 gamas de rejas de acero diferentes: ballestas, ornamental, rombo, clásica, o rectangular. Siendo ideales para proteger su vivienda, chalet, torre, ático, terraza, local, comercio, etc..." 
+      line5: Rejas de ballesta o plegables
+      line6: Rejas ornamental o barrote
+      line7: Rejas rombo o romboide 
+      line8: Rejas clásica o varilla
+      line9: Rejas rectangulares o cuadradillo
+    
+    cortinas:
+      title: Rejas
+      line1: "Disponemos de 5 modelos básicos de cortinas, todos ellos con una amplia gama de telas y colores: "
+      line2: "Cortinas venecianas"
+      line3: "Cortinas enrollables"
+      line4: "Cortinas verticales"
+      line5: Cortinas plisadas
+      line6: Cortinas plegables
+
+    motorizacion:
+      title: Motorización
+      line1: "En estanterías metálicas Horta disponemos de una amplia gama de motores para un sinfín de puertas, ventanas, persianas, toldos, celosías, etc... "
+      line2: Mando a distancia mini
+      line3: Mando a distancia normal
+      line4: Motor hidráulico para puertas batientes
+      line5: Motor para puertas correderas
+      line6: Motor para celosías
+      line7: Motor para persianas enrollables
+      line8: Motor para ventanas batientes
+      line9: Motor tubular para persianas y toldos
+      line10: Pulsador-Inversor
+      line11: Veleta o sensor sol-viento
+
     contact:
       title: "Contacto -- Ejemplo Plan Basico"
-      line1: "Y esto es la pagina de contacto"
+      line1: "Dirección: C/ Horta, 73 · 08032 Barcelona"
