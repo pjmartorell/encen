@@ -64,15 +64,17 @@ es:
     
     altillos:
       title: Altillos
-      line1: "Los altillos o entreplantas tienen la particularidad de duplicar o triplicar la superficie útil en gabricas, almacenes, locales, etc..."
-      line2: "Se compone por una estructura metálica atornillada y totalmente desmontable en color azul oscuro, adaptada a las necesidades concretas de espacio. Normalmente el suelo se compone de tablero de alta resistencia clavado en las viguetas, con multitud de accesorios como: barandillas, escaleras, etc..."
+      subtitle: Altillos
+      line1: "Los altillos o entreplantas tienen la particularidad de <span class='strong_word'>duplicar o triplicar la superficie útil</span> en gabricas, almacenes, locales, etc..."
+      line2: "Se <span class='strong_word'>compone por una estructura metálica atornillada y totalmente desmontable en color azul oscuro</span>, adaptada a las necesidades concretas de espacio. Normalmente el suelo se compone de tablero de alta resistencia clavado en las viguetas, con multitud de accesorios como: barandillas, escaleras, etc..."
 
     carpinteria:
       title: Carpinteria de aluminio.
-      line1: Es un placer para nosotros poder contar con nuestra sección de carpintería de aluminio.
-      line2: Nuestro interés como profesionales del aluminio és poder ofrecerles toda las gamas de carpintería de aluminio que disponemos actualmente con más de 20 años de experiencia en el sector del aluminio.
-      line3: "Con grandes fabricantes en carpintería de aluminio a nuestras espaldas que nos garantizan la fiabilidad de los mejores materiales y servicio técnico en el sector del aluminio."
-      line4: "Sus necesidades en tema de carpintería de aluminio son nuestra principal prioridad ofreciéndoles siempre lo último en tecnología y acabados basada en aluminio y cristal."
+      subtitle: Carpinteria de aluminio
+      line1: Es un placer para nosotros poder contar con nuestra sección de <span class='strong_word'>carpintería de aluminio.</span>
+      line2: Nuestro interés como profesionales del aluminio és poder ofrecerles toda las gamas de carpintería de aluminio que disponemos <span class='strong_word'>actualmente con más de 20 años de experiencia en el sector del aluminio.</span>
+      line3: "<span class='strong_word'>Con grandes fabricantes en carpintería de aluminio a nuestras espaldas que nos garantizan la fiabilidad de los mejores materiales y servicio técnico</span> en el sector del aluminio."
+      line4: "Sus necesidades en tema de carpintería de aluminio son nuestra principal prioridad <span class='strong_word'>ofreciéndoles siempre lo último en tecnología y acabados basada en aluminio y cristal.</span>"
       line5: "¿Por qué elegirnos a nosotros a la hora de pedir presupuesto de cualquier carpintería de aluminio?. Porque te damos por lo menos 9 razones para escogernos a la hora de tu montaje de aluminio:"
       line6: Puertas de aluminio
       line7: Mallorquinas de aluminio
@@ -90,7 +92,7 @@ es:
       line1: "Es un orgullo para nosotros poder contar con nuestra sección de toldos."
       line2: "Nuestro deseo como profesionales del sector de los toldos, capotas, toldos correderos,... es poder ofrecerles la solución perfecta con un servicio integral y personalizado a sus necesidades y deseos."
       line3: "Con más de 20 años de experiencia que nos avalan trabajando con primerísimas marcas y fabricantes, siempre apostando en tecnología, acabados y servicio."
-      line4: "¿Por qué elegirnos a nosotros a la hora de pedir asesoramiento o presupuesto sobre cualquier tipo de toldo?. Porque le ofrecemos 8 modelos de toldos diferentes ideales para su vivienda, chalet, torre, ático, terraza, local, comercio, etc..."
+      line4: "<span class='strong_word'>¿Por qué elegirnos a nosotros a la hora de pedir asesoramiento o presupuesto sobre cualquier tipo de toldo?.</span> Porque le ofrecemos 8 modelos de toldos diferentes ideales para su vivienda, chalet, torre, ático, terraza, local, comercio, etc..."
       line5: Toldo stor
       line6: Toldo stor con varilla
       line7: Toldo stor con guías

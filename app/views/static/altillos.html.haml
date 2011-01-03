@@ -1,7 +1,13 @@
 = title t(".title")
-
+%h1
+  = t ".subtitle"
 %p
-  = t ".line1"
+  = raw t ".line1"
 %p
-  = t ".line2"
+  = raw t ".line2"
 
+.image
+  %img{:alt => "ejemplo de altillos", :src => "/images/pic2.jpg"}
+  
+.image
+  %img{:alt => "ejemplo de altillos", :src => "/images/pic3.jpg"}
