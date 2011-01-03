@@ -4,7 +4,7 @@ es:
   reformas: Reformas en general
   estanterias: Estanterías
   altillos: Altillos
-  carpinteria: Carointería aluminio
+  carpinteria: Carpintería aluminio
   toldos: Toldos
   rep_persianas: Reparación de persianas
   persianas: Persianas
@@ -41,6 +41,11 @@ es:
     
     reformas:
       title: Reformas
+      line1: "En esta sección de Reformas en general les ofrecemos una galería de imágenes para que puedan ver una muestra de lo que hemos hecho; clicando sobre ellas, podrán verlas más grandes."
+      line2: "Si desean saber más o pedir un presupuesto no duden en ponerse en contacto con nosotros."
+      
+    estanterias:
+      title: Estanterías
       line1: "Es un orgullo para nosotros disponer de nuestra principal sección de estanterías metálicas y altillos."
       line2: "Nuestra filosofía como profesionales de las estanterías de carga ligera, estanterías de comercio, estanterías de media carga, estanterías de gran carga, altillos o entreplantas, etc..., es poder ofrecerles un servicio integral, innovador, personalizado y sin compromiso, que se adapte a sus necesidades o deseos."
       line3: "Con más de 20 años de experiencia en el sector de las estanterías, que nos dan su sello de confianza al trabajar con grandes marcas, teniendo y exigiendo materiales de primera calidad, siempre al acecho de las innovaciones en tecnologia, acabados, normativas, servicios y precio."
@@ -53,9 +58,30 @@ es:
       line10: "Nuestro técnico de montaje e instaladores, le instalarán o aconsejarán, el tipo de estantería adecuada para usted, sín ningún tipo de problema o compromiso."
       line11: "Sí sr. cliente, aparte de instalar estanterías, también hacemos traslado de ellas, piense antes de cambiar su estantería se puede trasladar y adaptar a su nueva ubicación. "
       line12: "Nuestro técnico instalador, le solucionará cualquier duda o problema que pueda surguir con su estantería o altillo."
-      
-      
+    
+    altillos:
+      title: Altillos
+      line1: "Los altillos o entreplantas tienen la particularidad de duplicar o triplicar la superficie útil en gabricas, almacenes, locales, etc..."
+      line2: "Se compone por una estructura metálica atornillada y totalmente desmontable en color azul oscuro, adaptada a las necesidades concretas de espacio. Normalmente el suelo se compone de tablero de alta resistencia clavado en las viguetas, con multitud de accesorios como: barandillas, escaleras, etc..."
 
+    carpinteria:
+      title: Carpinteria de aluminio.
+      line1: Es un placer para nosotros poder contar con nuestra sección de carpintería de aluminio.
+      line2: Nuestro interés como profesionales del aluminio és poder ofrecerles toda las gamas de carpintería de aluminio que disponemos actualmente con más de 20 años de experiencia en el sector del aluminio.
+      line3: "Con grandes fabricantes en carpintería de aluminio a nuestras espaldas que nos garantizan la fiabilidad de los mejores materiales y servicio técnico en el sector del aluminio."
+      line4: "Sus necesidades en tema de carpintería de aluminio son nuestra principal prioridad ofreciéndoles siempre lo último en tecnología y acabados basada en aluminio y cristal."
+      line5: "¿Por qué elegirnos a nosotros a la hora de pedir presupuesto de cualquier carpintería de aluminio?. Porque te damos por lo menos 9 razones para escogernos a la hora de tu montaje de aluminio:"
+      line6: Puertas de aluminio
+      line7: Mallorquinas de aluminio
+      line8: Cerramientos de aluminio
+      line9: Porticones de aluminio
+      line10: Persianas de aluminio
+      line11: Ventanas de aluminio
+      line12: Techos de aluminio
+      line13: Mamparas de baño
+      line14: Mosquiteras de aluminio
+      line15: Para más información sobre carpintería de aluminio no dude en contactar técnico en presupuestos y montaje de carpintería de aluminio.
+    
     contact:
       title: "Contacto -- Ejemplo Plan Basico"
       line1: "Y esto es la pagina de contacto"
