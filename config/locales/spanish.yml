@@ -33,7 +33,28 @@ es:
   static:
     index:
       title: "Inicio -- Ejemplo Plan Basico"
-      line1: "Esto es la pagina de inicio"
+      line1: "Bienvenidos a Estanterías Metálicas Horta"
+      line2: "Nuestra voluntad por servir cada día mejor a nuestros clientes nos hace desarrollar constantemente nuevos servicios."
+      line3: "Pídanos presupuesto sin compromiso."
+      line4: "Realizamos un asesoramiento integral a nuestros clientes."
+      line5: "Realizamos reparaciones, motorización e instalaciones de persianas y toldos."
+    
+    reformas:
+      title: Reformas
+      line1: "Es un orgullo para nosotros disponer de nuestra principal sección de estanterías metálicas y altillos."
+      line2: "Nuestra filosofía como profesionales de las estanterías de carga ligera, estanterías de comercio, estanterías de media carga, estanterías de gran carga, altillos o entreplantas, etc..., es poder ofrecerles un servicio integral, innovador, personalizado y sin compromiso, que se adapte a sus necesidades o deseos."
+      line3: "Con más de 20 años de experiencia en el sector de las estanterías, que nos dan su sello de confianza al trabajar con grandes marcas, teniendo y exigiendo materiales de primera calidad, siempre al acecho de las innovaciones en tecnologia, acabados, normativas, servicios y precio."
+      line4: "A la hora de elegir su estantería o altillo ¿por qué escogernos a nosotros?. Porque realizamos y exigimos el máximo para realizar una solución adecuada para usted."
+      line5: "Disponiendo de varios modelos de estanterías o altillos."
+      line6: "CARGA LIGERA (Ángulo ranurado, Comercio, Sin tornillos y Acero inoxidable)"
+      line7: "MEDIA CARGA (Sin tornillos, Picking y Bancos de trabajo)"
+      line8: "GRAN CARGA (Paletizada, Compacta y Cantiveler)"
+      line9: "En nuestro departamento de estanterías podrá disponer de todo tipo de estanterías como: ángulo ranurado, comercio, picking, paletizada, cantilever, compacta, altillos, entreplantas, etc... Ya sea carga manual, carga mecánica, carga frontal, carga lateral o para diferentes pesos y volúmenes."
+      line10: "Nuestro técnico de montaje e instaladores, le instalarán o aconsejarán, el tipo de estantería adecuada para usted, sín ningún tipo de problema o compromiso."
+      line11: "Sí sr. cliente, aparte de instalar estanterías, también hacemos traslado de ellas, piense antes de cambiar su estantería se puede trasladar y adaptar a su nueva ubicación. "
+      line12: "Nuestro técnico instalador, le solucionará cualquier duda o problema que pueda surguir con su estantería o altillo."
+      
+      
 
     contact:
       title: "Contacto -- Ejemplo Plan Basico"

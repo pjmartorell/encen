@@ -13,6 +13,9 @@ body.two_col{
         color: white;
       }
     }
+    h1{
+      font-family: $title-font-family;
+    }
 
 //MENU
 
@@ -55,11 +58,19 @@ body.two_col{
         p{padding-left: 10px; margin-bottom: 10px;}
       }
     }
-
+//INDEX
     #info_box{
       background-color: $blue-color;
       margin-right: 0;
       padding-top: 20px;
+      color: white;
+      h1{
+        font-size: 2em;
+      }
+      #galeria1{
+        border: 5px solid $yellow-color;
+        height: 100px;
+      }
     }
   }
 }
