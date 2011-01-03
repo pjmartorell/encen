@@ -34,10 +34,11 @@ es:
     index:
       title: "Inicio -- Ejemplo Plan Basico"
       line1: "Bienvenidos a Estanterías Metálicas Horta"
-      line2: "Nuestra voluntad por servir cada día mejor a nuestros clientes nos hace desarrollar constantemente nuevos servicios."
-      line3: "Pídanos presupuesto sin compromiso."
-      line4: "Realizamos un asesoramiento integral a nuestros clientes."
-      line5: "Realizamos reparaciones, motorización e instalaciones de persianas y toldos."
+      line2: "Nuestra voluntad por <span class='strong_word'>servir cada día mejor a nuestros clientes </span>nos hace <span class='strong_word'>desarrollar constantemente nuevos servicios.</span>"
+      line3: "Ofrecemos <span class='strong_word'>los mejores precios trabajando con las primeras marcas.</span>"
+      line4: "Pídanos <span class='strong_word'>presupuesto sin compromiso.</span>"
+      line5: "Realizamos un <span class='strong_word'>asesoramiento integral a nuestros clientes.</span>"
+      line6: "<span class='strong_word'>Realizamos reparaciones, motorización e instalaciones de persianas y toldos.</span>"
     
     reformas:
       title: Reformas

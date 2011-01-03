@@ -153,7 +153,7 @@ body.two_col #container #side_bar a {
   text-decoration: none;
 }
 body.two_col #container #side_bar a:hover {
-  background-color: #04495e;
+  background-color: #033d4e;
   padding: 6px 10px;
 }
 body.two_col #container #side_bar .contact_links_box {
@@ -177,15 +177,27 @@ body.two_col #container #side_bar .contact_links_box p {
 body.two_col #container #info_box {
   background-color: #3591cc;
   margin-right: 0;
-  padding-top: 20px;
+  padding-top: 40px;
   color: white;
 }
 body.two_col #container #info_box h1 {
   font-size: 2em;
+  color: #033d4e;
+  text-align: center;
+}
+body.two_col #container #info_box .strong_word {
+  color: #033d4e;
+  font-weight: bold;
+  font-style: italic;
 }
 body.two_col #container #info_box #galeria1 {
   border: 5px solid #ffc325;
   height: 100px;
+}
+body.two_col #container #info_box img {
+  border: 6px solid #286e9b;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 body {

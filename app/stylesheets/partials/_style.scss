@@ -39,7 +39,7 @@ body.two_col{
         text-decoration:none;
       }
       a:hover{
-        background-color: #04495e;
+        background-color: $extra-dark-blue;
         padding: 6px 10px;
       }
       .contact_links_box{
@@ -62,14 +62,26 @@ body.two_col{
     #info_box{
       background-color: $blue-color;
       margin-right: 0;
-      padding-top: 20px;
+      padding-top: 40px;
       color: white;
       h1{
         font-size: 2em;
+        color: $extra-dark-blue;
+        text-align: center;
+      }
+      .strong_word{
+        color: $extra-dark-blue;
+        font-weight: bold;
+        font-style: italic;
       }
       #galeria1{
         border: 5px solid $yellow-color;
         height: 100px;
+      }
+      img{
+        border: 6px solid $dark-blue;
+        margin-bottom: 20px;
+        margin-top: 20px;
       }
     }
   }
