@@ -133,6 +133,8 @@ body.two_col #container #side_bar {
 }
 body.two_col #container #side_bar ul {
   padding-left: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 body.two_col #container #side_bar ul li {
   background-color: #066d8c;
@@ -145,7 +147,26 @@ body.two_col #container #side_bar a {
   text-decoration: none;
 }
 body.two_col #container #side_bar a:hover {
-  color: #FFC325;
+  background-color: #04495e;
+  padding: 6px 10px;
+}
+body.two_col #container #side_bar .contact_links_box {
+  background-color: #066d8c;
+  border: solid 5px #ffc325;
+  text-align: left;
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+body.two_col #container #side_bar .contact_links_box h3.title {
+  background-color: #ffc325;
+  color: #957216;
+  text-align: center;
+  height: 25px;
+}
+body.two_col #container #side_bar .contact_links_box p {
+  padding-left: 10px;
+  margin-bottom: 10px;
 }
 body.two_col #container #info_box {
   background-color: #099fcc;

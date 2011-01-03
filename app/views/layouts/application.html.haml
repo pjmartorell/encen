@@ -24,10 +24,27 @@
     #container
       #header
         = render 'shared/header'
-      
+
       #side_bar
         = render 'shared/menu'
-      
+        .contact_links_box
+          %h3.title
+            = t "contact_info"
+          %p
+            = t "phone"
+          %p
+            = t "fax"
+          %p
+            = t "address"
+          %p
+            = t "email"
+
+        .contact_links_box
+          %h3.title
+            = t "links"
+          %p
+            = t "web1"
+
       #info_box
         = yield
 
