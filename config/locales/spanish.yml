@@ -41,20 +41,22 @@ es:
       line6: "<span class='strong_word'>Realizamos reparaciones, motorización e instalaciones de persianas y toldos.</span>"
     
     reformas:
-      title: Reformas
+      title: Reformas 
+      subtitle: Reformas
       line1: "En esta sección de Reformas en general les ofrecemos una galería de imágenes para que puedan ver una muestra de lo que hemos hecho; clicando sobre ellas, podrán verlas más grandes."
       line2: "Si desean saber más o pedir un presupuesto no duden en ponerse en contacto con nosotros."
       
     estanterias:
       title: Estanterías
+      subtitle: Estanterías
       line1: "Es un orgullo para nosotros disponer de nuestra principal sección de estanterías metálicas y altillos."
-      line2: "Nuestra filosofía como profesionales de las estanterías de carga ligera, estanterías de comercio, estanterías de media carga, estanterías de gran carga, altillos o entreplantas, etc..., es poder ofrecerles un servicio integral, innovador, personalizado y sin compromiso, que se adapte a sus necesidades o deseos."
+      line2: "Nuestra filosofía como profesionales de las <span class='strong_word'>estanterías de carga ligera, estanterías de comercio, estanterías de media carga, estanterías de gran carga, altillos o entreplantas, etc...,</span> es poder ofrecerles un servicio integral, innovador, personalizado y sin compromiso, que se adapte a sus necesidades o deseos."
       line3: "Con más de 20 años de experiencia en el sector de las estanterías, que nos dan su sello de confianza al trabajar con grandes marcas, teniendo y exigiendo materiales de primera calidad, siempre al acecho de las innovaciones en tecnologia, acabados, normativas, servicios y precio."
-      line4: "A la hora de elegir su estantería o altillo ¿por qué escogernos a nosotros?. Porque realizamos y exigimos el máximo para realizar una solución adecuada para usted."
+      line4: "A la hora de elegir su estantería o altillo <span class='strong_word'>¿por qué escogernos a nosotros?.</span> Porque realizamos y exigimos el máximo para realizar una solución adecuada para usted."
       line5: "Disponiendo de varios modelos de estanterías o altillos."
-      line6: "CARGA LIGERA (Ángulo ranurado, Comercio, Sin tornillos y Acero inoxidable)"
-      line7: "MEDIA CARGA (Sin tornillos, Picking y Bancos de trabajo)"
-      line8: "GRAN CARGA (Paletizada, Compacta y Cantiveler)"
+      line6: "CARGA LIGERA <span class='yellow_word'>(Ángulo ranurado, Comercio, Sin tornillos y Acero inoxidable)</span>"
+      line7: "MEDIA CARGA <span class='yellow_word'>(Sin tornillos, Picking y Bancos de trabajo)</span>"
+      line8: "GRAN CARGA <span class='yellow_word'>(Paletizada, Compacta y Cantiveler)</span>"
       line9: "En nuestro departamento de estanterías podrá disponer de todo tipo de estanterías como: ángulo ranurado, comercio, picking, paletizada, cantilever, compacta, altillos, entreplantas, etc... Ya sea carga manual, carga mecánica, carga frontal, carga lateral o para diferentes pesos y volúmenes."
       line10: "Nuestro técnico de montaje e instaladores, le instalarán o aconsejarán, el tipo de estantería adecuada para usted, sín ningún tipo de problema o compromiso."
       line11: "Sí sr. cliente, aparte de instalar estanterías, también hacemos traslado de ellas, piense antes de cambiar su estantería se puede trasladar y adaptar a su nueva ubicación. "

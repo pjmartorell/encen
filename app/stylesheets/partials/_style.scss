@@ -37,6 +37,7 @@ body.two_col{
       a{
         color:white;
         text-decoration:none;
+        font-size: 1.1em;
       }
       a:hover{
         background-color: $extra-dark-blue;
@@ -64,6 +65,8 @@ body.two_col{
       margin-right: 0;
       padding-top: 40px;
       color: white;
+      text-align: justify;
+      font-size: 1.1em;
       h1{
         font-size: 2em;
         color: $extra-dark-blue;
@@ -73,15 +76,25 @@ body.two_col{
         color: $extra-dark-blue;
         font-weight: bold;
         font-style: italic;
+        font-size: 1.2em;
+      }
+      .yellow_word{
+        font-weight: normal;
       }
       #galeria1{
         border: 5px solid $yellow-color;
-        height: 100px;
+        height: 200px;
+        margin-bottom: 40px;
+        margin-left: 200px;
       }
       img{
-        border: 6px solid $dark-blue;
+        border: 6px solid white;
         margin-bottom: 20px;
         margin-top: 20px;
+      }
+      ul{
+        color: $yellow-color;
+        font-weight: bold;
       }
     }
   }
