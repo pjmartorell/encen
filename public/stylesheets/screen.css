@@ -114,6 +114,12 @@ body.two_col #container #info_box #galeria1 {
   src: local("☺"), url(/fonts/LondonBetween.ttf) format('truetype');
 }
 
+.separator {
+  clear: both;
+  height: 2em;
+  overflow: hidden;
+}
+
 body.two_col {
   margin: 0 auto;
 }
@@ -200,8 +206,6 @@ body.two_col #container #info_box .yellow_word {
 }
 body.two_col #container #info_box img {
   border: 6px solid white;
-  margin-bottom: 20px;
-  margin-top: 20px;
 }
 body.two_col #container #info_box ul {
   color: #ffc325;
@@ -224,15 +228,11 @@ body.two_col #container #info_box nav li {
   display: inline;
 }
 body.two_col #container #info_box nav img {
-  opacity: 0.4;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
   border: 5px solid #033d4e;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-right: 12px;
 }
 body.two_col #container #info_box nav a:hover img {
-  opacity: .75;
+  opacity: .40;
 }
 body.two_col #container #info_box nav a:active img {
   margin-top: 1px;
@@ -250,8 +250,8 @@ body.two_col #container #info_box li[id] {
 body.two_col #container #info_box li[id] a:before {
   content: url(/images/close.png);
   position: absolute;
-  top: 10px;
-  right: 0;
+  right: -12px;
+  top: -9px;
   opacity: 0;
 }
 body.two_col #container #info_box li[id] a:hover:before {

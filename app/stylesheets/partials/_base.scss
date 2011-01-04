@@ -27,3 +27,10 @@ $title-font-family: "london";
 
 //Extra fonts.
 @include font-face("london", font-files("/fonts/LondonBetween.ttf", truetype));
+
+
+.separator {
+  clear:both;
+  height: 2em;
+  overflow:hidden;
+}

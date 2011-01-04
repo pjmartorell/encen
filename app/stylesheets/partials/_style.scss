@@ -84,8 +84,6 @@ body.two_col{
       }
       img{
         border: 6px solid white;
-        margin-bottom: 20px;
-        margin-top: 20px;
       }
       ul{
         color: $yellow-color;
@@ -109,12 +107,10 @@ body.two_col{
         display:inline;
       }
       nav img {
-        @include opacity(0.4);
         border: 5px solid $extra-dark-blue;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-right: 12px;
       }
-      nav a:hover img {opacity:.75;}
+      nav a:hover img {opacity:.40;}
       nav a:active img {margin-top:1px;}
       li[id] {
         overflow:hidden;
@@ -129,8 +125,8 @@ body.two_col{
       li[id] a:before {
         content:url(/images/close.png);
         position:absolute;
-        top:10px;
-        right:0;
+        right: -12px;
+        top: -9px;
         opacity:0;
       }
       li[id] a:hover:before {opacity:1;}

@@ -6,8 +6,42 @@
 %p
   = raw t ".line2"
 
-.image
-  %img{:alt => "ejemplo de altillos", :src => "/images/pic2.jpg"}
-  
-.image
-  %img{:alt => "ejemplo de altillos", :src => "/images/pic3.jpg"}
+.separator
+
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img{:alt => "Picture 1", :src => "/images/altillos_th1.jpg"}/
+    %li
+      %a{:href => "#pic2"}
+        %img{:alt => "Picture 2", :src => "/images/altillos_th2.jpg"}/
+    %li
+      %a{:href => "#pic3"}
+        %img{:alt => "Picture 3", :src => "/images/altillos_th3.jpg"}/
+    %li
+      %a{:href => "#pic4"}
+        %img{:alt => "Picture 4", :src => "/images/altillos_th4.jpg"}/
+    %li
+      %a{:href => "#pic5"}
+        %img{:alt => "Picture 5", :src => "/images/altillos_th5.jpg"}/
+
+  %ul
+    %li#pic1
+      %a{:href => "#"}
+        %img{:alt => "", :src => "/images/altillos_big1.jpg"}/
+    %li#pic2
+      %a{:href => "#"}
+        %img{:alt => "", :src => "/images/altillos_big2.jpg"}/
+    %li#pic3
+      %a{:href => "#"}
+        %img{:alt => "", :src => "/images/altillos_big3.jpg"}/
+    %li#pic4
+      %a{:href => "#"}
+        %img{:alt => "", :src => "/images/altillos_big4.jpg"}/
+    %li#pic5
+      %a{:href => "#"}
+        %img{:alt => "", :src => "/images/altillos_big5.jpg"}/
+        
+.separator
+
