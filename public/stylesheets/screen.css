@@ -224,7 +224,9 @@ body.two_col #container #info_box nav li {
   display: inline;
 }
 body.two_col #container #info_box nav img {
-  border-radius: 4px;
+  opacity: 0.4;
+  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -242,6 +244,7 @@ body.two_col #container #info_box li[id] {
   left: 0;
   top: 0;
   opacity: 0;
+  background: rgba(0, 0, 0, 0.8);
 }
 body.two_col #container #info_box li[id] a:before {
   content: url(/images/close.png);
