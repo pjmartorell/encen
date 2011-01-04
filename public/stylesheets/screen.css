@@ -108,15 +108,6 @@ body.two_col #container #info_box {
 body.two_col #container #info_box #galeria1 {
   width: 230px;
 }
-body.two_col #container #info_box .image {
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 270px;
-}
-* html body.two_col #container #info_box .image {
-  overflow-x: hidden;
-}
 
 @font-face {
   font-family: "london";

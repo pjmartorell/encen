@@ -16,9 +16,6 @@ body.two_col{
       #galeria1{
         @include span(6);
       }
-      .image{
-        @include column(7);
-      }
     }
   }
 }
