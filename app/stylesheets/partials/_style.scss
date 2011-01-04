@@ -110,6 +110,7 @@ body.two_col{
       }
       nav img {
         @include opacity(0.4);
+        border: 5px solid $extra-dark-blue;
         margin-top: 10px;
         margin-bottom: 10px;
       }
@@ -123,7 +124,7 @@ body.two_col{
         left:0;
         top:0;
         opacity:0;
-        background:rgba(0,0,0,.8);
+        background:rgba(20,54,75,.8);
       }
       li[id] a:before {
         content:url(/images/close.png);
