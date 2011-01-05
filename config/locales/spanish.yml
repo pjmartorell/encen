@@ -140,10 +140,11 @@ es:
     
     rejas:
       title: Rejas
+      subtitle: Rejas
       line1: "Es un placer para nosotros poder contar con nuestra sección de rejas."
-      line2: "Nuestro lema como profesionales de rejas de seguridad, rejas de acero, rejas practicables, rejas de Ballesta, rejas plegables, etc... es poder ofrecerles un sevicio integral y personalizado a sus necesidades y deseos."
-      line3: "Con más de 20 años de experiencia en el sector de las rejas nos dan la fiabilidad de trabajar con los grandes fabricantes teniendo las mejores marcas en materiales de primerísima calidad, siempre apostando en tecnologia, acabados y servicio."
-      line4: "¿Por qué escogernos a nosotros a la hora de pedir asesoramiento o presupuesto sobre rejas?. Porque disponemos de 5 gamas de rejas de acero diferentes: ballestas, ornamental, rombo, clásica, o rectangular. Siendo ideales para proteger su vivienda, chalet, torre, ático, terraza, local, comercio, etc..." 
+      line2: "Nuestro lema como profesionales de rejas de seguridad, rejas de acero, rejas practicables, rejas de Ballesta, rejas plegables, etc... <span class='strong_word'>es poder ofrecerles un sevicio integral y personalizado a sus necesidades y deseos.</span>"
+      line3: "<span class='strong_word'>Con más de 20 años de experiencia en el sector de las rejas</span> nos dan la fiabilidad de trabajar con los grandes fabricantes teniendo las mejores marcas en materiales de primerísima calidad, siempre apostando en tecnologia, acabados y servicio."
+      line4: "<span class='strong_word'>¿Por qué escogernos a nosotros a la hora de pedir asesoramiento o presupuesto sobre rejas?.</span> Porque disponemos de 5 gamas de rejas de acero diferentes: ballestas, ornamental, rombo, clásica, o rectangular. Siendo ideales para proteger su vivienda, chalet, torre, ático, terraza, local, comercio, etc..." 
       line5: Rejas de ballesta o plegables
       line6: Rejas ornamental o barrote
       line7: Rejas rombo o romboide 
@@ -151,7 +152,7 @@ es:
       line9: Rejas rectangulares o cuadradillo
     
     cortinas:
-      title: Rejas
+      title: cortinas
       line1: "Disponemos de 5 modelos básicos de cortinas, todos ellos con una amplia gama de telas y colores: "
       line2: "Cortinas venecianas"
       line3: "Cortinas enrollables"
