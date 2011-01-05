@@ -24,7 +24,6 @@
     #container
       #header
         = render 'shared/header'
-
       #side_bar
         = render 'shared/menu'
         .contact_links_box
@@ -52,5 +51,6 @@
     %script{:type => "text/javascript", :src  => "http://www.google.com/jsapi?key=ABQIAAAALy3hj-F80ucolZq1sevJGxQy9TusGK6D_dw7xKWtcTJbKPyiEhQ2HXkEN9UJJowAVIun52JrUbnugQ"}
     :javascript
       google.load("jquery", "1.4.2")
+      google.load("jqueryui","1.8.7")
     = include_javascripts :frontend
     = yield :custom_js
