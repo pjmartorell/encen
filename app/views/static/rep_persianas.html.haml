@@ -1,22 +1,46 @@
 = title t(".title")
 
+%h1
+  = raw t ".subtitle"
+
 %p
-  = t ".line1"
+  = raw t ".line1"
 %p
-  = t ".line2"
+  = raw t ".line2"
 %p
-  = t ".line3"
+  = raw t ".line3"
 %p
   = t ".line4"
 %p
-  = t ".line5"
+  = raw t ".line5"
 %p
   = t ".line6"
 %p
   = t ".line7"
 %p
-  = t ".line8"
+  = raw t ".line8"
 %p
-  = t ".line9"
+  = raw t ".line9"
+
+.separator
+
+%nav
+  %ul
+    %li
+      %img{:alt => "reparacion_persianas", :src => "/images/rep_persiana1.jpg"}/
+    %li
+      %img{:alt => "reparacion_persianas", :src => "/images/rep_persiana2.jpg"}/
+    %li
+      %img{:alt => "reparacion_persianas", :src => "/images/rep_persiana3.jpg"}/
+    %li
+      %img{:alt => "reparacion_persianas", :src => "/images/rep_persiana4.jpg"}/
+    %li
+      %img{:alt => "reparacion_persianas", :src => "/images/rep_persiana5.jpg"}/
+    %li
+      %img{:alt => "reparacion_persianas", :src => "/images/rep_persiana6.jpg"}/
+    %li
+
+.separator
+
 %p
   = t ".line10"

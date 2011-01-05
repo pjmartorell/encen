@@ -126,15 +126,16 @@ es:
     
     rep_persianas:
       title: Reparación de persianas
+      subtitle: Reparación de persianas
       line1: "En nuestra sección de reparación de persianas, nuestro interés como profesionales del sector, es poder ofrecerle un servicio íntegro y eficaz para cualquier situación dentro de la gama de persianas domésticas."
-      line2: "Disponemos actualmente con más de 20 años de experiencia como técnicos en reparación de persianas."
-      line3: "Trabajamos con primerísimas marcas y grandes fabricantes que nos respaldan en el sector de las persianas, que nos garantizan la fiabilidad de los mejores materiales y servicio técnico."
+      line2: "<span class='strong_word'>Disponemos actualmente con más de 20 años de experiencia como técnicos en reparación de persianas.</span>"
+      line3: "<span class='strong_word'>Trabajamos con primerísimas marcas y grandes fabricantes</span> que nos respaldan en el sector de las persianas, que nos garantizan la fiabilidad de los mejores materiales y servicio técnico."
       line4: "Reparamos persianas de: P.V.C., aluminio, aluminio extrusionado, madera, cajón de obra, cajón exterior, monoblock o compactas, alicantinas, etc... También las motorizamos con pulsador-inversor o vía rádio con mando a distáncia."
-      line5: "Sus necesidades en cualquier reparación de persianas son nuestra principal prioridad, ofreciendo siempre la mejor calidad y servicio."
+      line5: "<span class='strong_word'>Sus necesidades en cualquier reparación de persianas son nuestra principal prioridad, ofreciendo siempre la mejor calidad y servicio.</span>"
       line6: "Nuestros instaladores de persianas le repararán o aconsejarán sobre el problema de su persiana, sin ningún tipo de problema ni compromiso."
       line7: "Disponemos de un amplio abanico de opciones y calidades de persianas, accesorios apropiados, instalación y puesta en funcionamiento:"
-      line8: "Se cambian: cintas, lamas, ejes, discos, espigas, poleitas, motores, accesorios, se revisan de arriba a abajo, se les hace el mantenimiento, etc... "
-      line9: "Ya sean motorizadas o con cinta, cajón exterior o con cajón de obra, con eje hexagonal, con eje estriado, con eje de 40mm. o de 60mm. ya sean normales o reforzados."
+      line8: "<span class='strong_word'>Se cambian: cintas, lamas, ejes, discos, espigas, poleitas, motores, accesorios, se revisan de arriba a abajo, se les hace el mantenimiento, etc... </span>"
+      line9: "<span class='strong_word'>Ya sean motorizadas o con cinta, cajón exterior o con cajón de obra, con eje hexagonal, con eje estriado, con eje de 40mm. o de 60mm. ya sean normales o reforzados.</span>"
       line10: "Nuestra zona de servicio es en Barcelona y alrededores; para zonas más distanciadas, consúltenos un presupuesto sin compromiso."
     
     rejas:
