@@ -265,7 +265,7 @@ body.two_col #container #info_box li[id]:target {
 body.two_col #container #info_box li[id]:target a {
   position: absolute;
   top: 20%;
-  left: 40%;
+  left: 35%;
 }
 
 body {
