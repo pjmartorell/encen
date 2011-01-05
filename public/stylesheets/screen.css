@@ -231,7 +231,7 @@ body.two_col #container #info_box nav img {
   border: 5px solid #033d4e;
   margin-right: 12px;
 }
-body.two_col #container #info_box nav a:hover img {
+body.two_col #container #info_box nav a:hover img.thumbnail {
   opacity: .40;
 }
 body.two_col #container #info_box nav a:active img {

@@ -110,7 +110,7 @@ body.two_col{
         border: 5px solid $extra-dark-blue;
         margin-right: 12px;
       }
-      nav a:hover img {opacity:.40;}
+      nav a:hover img.thumbnail {opacity:.40;}
       nav a:active img {margin-top:1px;}
       li[id] {
         overflow:hidden;
