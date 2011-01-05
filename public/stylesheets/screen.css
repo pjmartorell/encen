@@ -160,9 +160,9 @@ body.two_col #container #side_bar a {
   text-decoration: none;
   font-size: 1.1em;
 }
-body.two_col #container #side_bar a:hover {
+body.two_col #container #side_bar li:hover {
   background-color: #033d4e;
-  padding: 6px 10px;
+  padding: 5px 10px;
 }
 body.two_col #container #side_bar .contact_links_box {
   background-color: #246289;
