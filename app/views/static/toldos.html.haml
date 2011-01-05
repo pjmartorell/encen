@@ -1,5 +1,8 @@
 = title t(".title")
 
+%h1
+  = t ".subtitle"
+
 %p
   = t ".line1"
 %p
@@ -26,6 +29,22 @@
     = t ".line12"
   %li
     = t ".line13"
+
+.separator
+
+%nav
+  %ul
+    %li
+      %img{:alt => "toldo", :src => "/images/toldo1.jpg"}/
+    %li
+      %img{:alt => "toldo", :src => "/images/toldo2.jpg"}/
+    %li
+      %img{:alt => "toldo", :src => "/images/toldo3.jpg"}/
+    %li
+      %img{:alt => "toldo", :src => "/images/toldo4.jpg"}/
+    %li
+    
+.separator
 
 %p
   = t ".line14"
