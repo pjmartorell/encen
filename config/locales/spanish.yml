@@ -11,6 +11,54 @@ es:
   rejas: Rejas
   cortinas: Cortinas
   motorizacion: Motorización
+  cargaligera: Carga Ligera
+  cargamedia: Carga Media
+  cargagrande: Carga Grande
+  puertas: Puertas
+  ventanas: Ventanas
+  mallorquinas: Mallorquinas
+  techos: Techos
+  cerramientos: Cerramientos
+  mamparas: Mamparas de baño
+  porticon: Porticón
+  mosquiteras: Mosquiteras
+  modelos: Modelos diferentes
+  t_stor: Toldo stor
+  t_stor_varilla: Toldo stor con varilla
+  t_stor_guias: Toldo stor con guias
+  t_punto: Toldo punto recto
+  brazos: Brazos articulados
+  capota: Capota
+  corredero: Corredero
+  toldo: Toldo cortina
+  marquesinas: Marquesinas
+  aluminio: Aluminio y Pvc
+  alicantinas: Alicantinas
+  celosias: Celosias
+  accesorios: Accesorios
+  c_obra: Cajón de obra
+  c_exterior: Cajón exterior
+  monoblock: Monoblock
+  r_ballesta: Rejas de ballesta o plegables
+  r_ornamental: Rejas ornamental o barrote
+  r_rombo: Rejas rombo o romboide
+  r_clasica: Rejas clásica o varilla
+  r_rectangular: Rejas rectangulares o cuadradillo
+  c_venecianas: Cortinas venecianas
+  c_enrollables: Cortinas enrollables
+  c_verticales: Cortinas verticales
+  c_plisadas: Cortinas plisadas
+  c_plegables: Cortinas plegables
+  mando_distancia_mini: Mando a distancia mini
+  mando_distancia_normal: Mando a distancia normal
+  motor_hidraulico: Motor hidráulico para puertas batientes
+  motor_puertas: Motor para puertas correderas
+  motor_celosias: Motor para celosías
+  motor_persianas: Motor para persianas enrollables
+  motor_ventanas: Motor para ventanas batientes
+  motor_tubular: Motor tubular para persianas y toldos
+  pulsador: Pulsador-Inversor
+  veleta: Veleta o sensor sol-viento
   contact_info: Contacto
   phone: T. 93 358 44 47
   fax: 93 358 44 47
@@ -18,8 +66,6 @@ es:
   email: estanteriashorta@gmail.com
   links: Webs de interés
   web1: www.komuni.cat
-  
-  
 
   metakeywords: "ejemplo,itnig,test"
   metadescription: "Ejemplo de plan basico"
@@ -39,13 +85,25 @@ es:
       line4: "Pídanos <span class='strong_word'>presupuesto sin compromiso.</span>"
       line5: "Realizamos un <span class='strong_word'>asesoramiento integral a nuestros clientes.</span>"
       line6: "<span class='strong_word'>Realizamos reparaciones, motorización e instalaciones de persianas y toldos.</span>"
-    
+
     reformas:
-      title: Reformas 
+      title: Reformas
       subtitle: Reformas
       line1: "En esta sección de Reformas en general les ofrecemos una galería de imágenes para que puedan ver una muestra de lo que hemos hecho; clicando sobre ellas, podrán verlas más grandes."
       line2: "Si desean saber más o pedir un presupuesto no duden en ponerse en contacto con nosotros."
-      
+
+    cargaligera:
+      title: Carga Ligera
+      subtitle: Carga Ligera
+
+    cargamedia:
+      title: Carga Media
+      subtitle: Carga Media
+
+    cargagrande:
+      title: Carga grande
+      subtitle: Carga grande
+
     estanterias:
       title: Estanterías
       subtitle: Estanterías
@@ -61,7 +119,7 @@ es:
       line10: "Nuestro técnico de montaje e instaladores, le instalarán o aconsejarán, el tipo de estantería adecuada para usted, sín ningún tipo de problema o compromiso."
       line11: "Sí sr. cliente, aparte de instalar estanterías, también hacemos traslado de ellas, piense antes de cambiar su estantería se puede trasladar y adaptar a su nueva ubicación. "
       line12: "Nuestro técnico instalador, le solucionará cualquier duda o problema que pueda surguir con su estantería o altillo."
-    
+
     altillos:
       title: Altillos
       subtitle: Altillos
@@ -86,7 +144,43 @@ es:
       line13: Mamparas de baño
       line14: Mosquiteras de aluminio
       line15: Para más información sobre carpintería de aluminio no dude en contactar técnico en presupuestos y montaje de carpintería de aluminio.
-    
+
+    puertas:
+      title: Puertas
+      subtitle: Puertas
+
+    ventanas:
+      title: ventanas
+      subtitle: Ventanas
+
+    mallorquinas:
+      title: mallorquinas
+      subtitle: Mallorquinas
+
+    techos:
+      title: techos
+      subtitle: Techos
+
+    cerramientos:
+      title: cerramientos
+      subtitle: Cerramientos
+
+    mamparas:
+      title: mamparas
+      subtitle: Mamparas de baño
+
+    porticon:
+      title: porticon
+      subtitle: Porticón
+
+    mosquiteras:
+      title: mosquiteras
+      subtitle: Mosquiteras
+
+    modelos:
+      title: modelos diferentes
+      subtitle: Modelos diferentes
+
     toldos:
       title: Toldos
       subtitle: Toldos
@@ -109,7 +203,43 @@ es:
       line17: "Ya sean toldos motorizados o con manivela, tanto para vivienda, torres, chalets, terrazas, locales, negocios, etc..., nuestros instaladores de toldos le instalarán o repararán su toldo sin ningún tipo de problema."
       line18: "Estimado cliente, aparte de instalar toldos también los reparamos. Nuestro técnico instalador le solucionará el problema que tenga con su toldo."
       line19: "Motorizamos todo tipo de toldos con el mínimo coste e intalación. Nuestros motores tienen 2 años de garantía siendo un motor muy fiable y silencioso. Con multitud de mecanismos como sensor de viento, sensor de lluvia, sensor de sol, mando a distancia, pulsador-inversor, etc..."
-    
+
+    t_stor:
+      title: Toldo stor
+      subtitle: Toldo stor
+
+    t_stor_varilla:
+      title: Toldo sotr con varilla
+      subtitle: Toldo sotr con varilla
+
+    t_stor_guias:
+      title: Toldo sotr con guias
+      subtitle: Toldo sotr con guías
+
+    t_punto:
+      title: Toldo punto recto
+      subtitle: Toldo punto recto
+
+    brazos:
+      title: Brazos articulados
+      subtitle: Brazos articulados
+
+    capota:
+      title: Capota
+      subtitle: Capota
+
+    corredero:
+      title: Corredero
+      subtitle: Corredero
+
+    toldo:
+      title: Toldo cortinas
+      subtitle: Toldo cortinas
+
+    marquesinas:
+      title: marquesinas
+      subtitle: Marquesinas
+
     persianas:
       title: Persianas
       subtitle: Persianas
@@ -123,7 +253,23 @@ es:
       line8: Alicantinas
       line9: Celosías
       line10: Accesorios
-    
+
+    aluminio:
+      title: aluminio
+      subtitle: Aluminio
+
+    alicantinas:
+      title: alicantinas
+      subtitle: Alicantinas
+
+    celosias:
+      title: celosias
+      subtitle: Celosias
+
+    accesorios:
+      title: Accesorios
+      subtitle: Accesorios
+
     rep_persianas:
       title: Reparación de persianas
       subtitle: Reparación de persianas
@@ -137,20 +283,52 @@ es:
       line8: "<span class='strong_word'>Se cambian: cintas, lamas, ejes, discos, espigas, poleitas, motores, accesorios, se revisan de arriba a abajo, se les hace el mantenimiento, etc... </span>"
       line9: "<span class='strong_word'>Ya sean motorizadas o con cinta, cajón exterior o con cajón de obra, con eje hexagonal, con eje estriado, con eje de 40mm. o de 60mm. ya sean normales o reforzados.</span>"
       line10: "Nuestra zona de servicio es en Barcelona y alrededores; para zonas más distanciadas, consúltenos un presupuesto sin compromiso."
-    
+
+    c_obra:
+      title: Cajón de obra
+      subtitle: Cajón de obra
+
+    c_exterior:
+      title: Cajón exterior
+      subtitle: Cajón exterior
+
+    monoblock:
+      title: monoblock
+      subtitle: Monoblock
+
     rejas:
       title: Rejas
       subtitle: Rejas
       line1: "Es un placer para nosotros poder contar con nuestra sección de rejas."
       line2: "Nuestro lema como profesionales de rejas de seguridad, rejas de acero, rejas practicables, rejas de Ballesta, rejas plegables, etc... <span class='strong_word'>es poder ofrecerles un sevicio integral y personalizado a sus necesidades y deseos.</span>"
       line3: "<span class='strong_word'>Con más de 20 años de experiencia en el sector de las rejas</span> nos dan la fiabilidad de trabajar con los grandes fabricantes teniendo las mejores marcas en materiales de primerísima calidad, siempre apostando en tecnologia, acabados y servicio."
-      line4: "<span class='strong_word'>¿Por qué escogernos a nosotros a la hora de pedir asesoramiento o presupuesto sobre rejas?.</span> Porque disponemos de 5 gamas de rejas de acero diferentes: ballestas, ornamental, rombo, clásica, o rectangular. Siendo ideales para proteger su vivienda, chalet, torre, ático, terraza, local, comercio, etc..." 
+      line4: "<span class='strong_word'>¿Por qué escogernos a nosotros a la hora de pedir asesoramiento o presupuesto sobre rejas?.</span> Porque disponemos de 5 gamas de rejas de acero diferentes: ballestas, ornamental, rombo, clásica, o rectangular. Siendo ideales para proteger su vivienda, chalet, torre, ático, terraza, local, comercio, etc..."
       line5: Rejas de ballesta o plegables
       line6: Rejas ornamental o barrote
-      line7: Rejas rombo o romboide 
+      line7: Rejas rombo o romboide
       line8: Rejas clásica o varilla
       line9: Rejas rectangulares o cuadradillo
-    
+
+    r_ballesta:
+      title: Rejas de ballesta o plegables
+      subtitle: Rejas de ballesta o plegables
+
+    r_ornamental:
+      title: Rejas ornamental o barrote
+      subtitle: Rejas ornamental o barrote
+
+    r_rombo:
+      title: Rejas rombo o romboide
+      subtitle: Rejas rombo o romboide
+
+    r_clasica:
+      title: Rejas clásica o varilla
+      subtitle: Rejas clásica o varilla
+
+    r_rectangular:
+      title: Rejas rectangulares o cuadradillo
+      subtitle: Rejas rectangulares o cuadradillo
+
     cortinas:
       title: cortinas
       line1: "Disponemos de 5 modelos básicos de cortinas, todos ellos con una amplia gama de telas y colores: "
@@ -159,6 +337,26 @@ es:
       line4: "Cortinas verticales"
       line5: Cortinas plisadas
       line6: Cortinas plegables
+
+    c_venecianas:
+      title: Cortinas venecianas
+      subtitle: Cortinas venecianas
+
+    c_enrollables:
+      title: Cortinas enrollables
+      subtitle: Cortinas enrollables
+
+    c_verticales:
+      title: Cortinas verticales
+      subtitle: Cortinas verticales
+
+    c_plisadas:
+      title: Cortinas plisadas
+      subtitle: Cortinas plisadas
+
+    c_plegables:
+      title: Cortinas plegables
+      subtitle: Cortinas plegables
 
     motorizacion:
       title: Motorización
@@ -173,6 +371,46 @@ es:
       line9: Motor tubular para persianas y toldos
       line10: Pulsador-Inversor
       line11: Veleta o sensor sol-viento
+
+    mando_distancia_mini:
+      title: Mando a distancia mini
+      subtitle: Mando a distancia mini
+
+    mando_distancia_normal:
+      title: Mando a distancia normal
+      subtitle: Mando a distancia normal
+
+    motor_hidraulico:
+      title: Motor hidráulico para puertas batientes
+      subtitle: Motor hidráulico para puertas batientes
+
+    motor_puertas:
+      title: Motor para puertas correderas
+      subtitle: Motor para puertas correderas
+
+    motor_celosias:
+      title: Motor para celosías
+      subtitle: Motor para celosías
+
+    motor_persianas:
+      title: Motor para persianas enrollables
+      subtitle: Motor para persianas enrollables
+
+    motor_ventanas:
+      title: Motor para ventanas batientes
+      subtitle: Motor para ventanas batientes
+
+    motor_tubular:
+      title: Motor tubular para persianas y toldos
+      subtitle: Motor tubular para persianas y toldos
+
+    pulsador:
+      title: Pulsador-Inversor
+      subtitle: Pulsador-Inversor
+
+    veleta:
+      title: Veleta o sensor sol-viento
+      subtitle: Veleta o sensor sol-viento
 
     contact:
       title: "Contacto -- Ejemplo Plan Basico"
