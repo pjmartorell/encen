@@ -144,25 +144,36 @@ body.two_col #container #side_bar {
   text-align: center;
   min-height: 755px;
 }
-body.two_col #container #side_bar ul {
+body.two_col #container #side_bar #menu {
   padding-left: 0;
   margin-left: 0;
   margin-right: 0;
 }
-body.two_col #container #side_bar ul li {
+body.two_col #container #side_bar #menu h3 {
   background-color: #246289;
   list-style: none;
   margin-bottom: 2px;
   padding: 5px 10px;
 }
-body.two_col #container #side_bar a {
+body.two_col #container #side_bar #menu a {
   color: white;
   text-decoration: none;
-  font-size: 1.1em;
-}
-body.two_col #container #side_bar li:hover {
-  background-color: #033d4e;
+  font-size: .7em;
   padding: 5px 10px;
+}
+body.two_col #container #side_bar #menu h3:hover {
+  background-color: #033d4e;
+}
+body.two_col #container #side_bar #menu p {
+  font-size: 1.5em;
+  border-top: 1px solid #3eb2fc;
+  margin-bottom: 0;
+}
+body.two_col #container #side_bar #menu p:hover {
+  background-color: #033d4e;
+}
+body.two_col #container #side_bar #menu div.ui-accordion-content {
+  background-color: #369ada;
 }
 body.two_col #container #side_bar .contact_links_box {
   background-color: #246289;

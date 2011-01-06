@@ -3,5 +3,4 @@
 
 $(document).ready(function() {
   $("#menu").accordion();
-  $("#accordion").accordion();
 });

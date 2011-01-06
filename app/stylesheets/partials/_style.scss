@@ -18,31 +18,35 @@ body.two_col{
     }
 
 //MENU
-
     #side_bar{
       background-color: $blue-color;
       padding-top: 20px;
       text-align: center;
       min-height: 755px;
-      ul{
+      #menu{
         padding-left: 0;
         margin-left: 0;
         margin-right: 0;
-        li{
+        h3{
           background-color: $dark-blue;
           list-style: none;
           margin-bottom: 2px;
           padding: 5px 10px;
         }
-      }
-      a{
-        color:white;
-        text-decoration:none;
-        font-size: 1.1em;
-      }
-      li:hover{
-        background-color: $extra-dark-blue;
-        padding: 5px 10px;
+        a{
+          color:white;
+          text-decoration:none;
+          font-size: .7em;
+          padding: 5px 10px;
+        }
+        h3:hover{background-color: $extra-dark-blue;}
+        p{
+          font-size: 1.5em;
+          border-top: 1px solid #3eb2fc;
+          margin-bottom: 0;
+        }
+        p:hover{background-color: $extra-dark-blue;}
+        div.ui-accordion-content{background-color:#369ada;}
       }
       .contact_links_box{
         background-color: $dark-blue;
