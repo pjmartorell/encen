@@ -2,5 +2,9 @@
 // This file is automatically included by javascript_include_tag :defaults
 
 $(document).ready(function() {
-  $("#menu").accordion();
+  $("#menu" ).accordion({
+		autoHeight: false,
+		navigation: true
+	});
+	
 });
