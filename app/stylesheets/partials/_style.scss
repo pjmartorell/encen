@@ -42,10 +42,11 @@ body.two_col{
         h3:hover{background-color: $extra-dark-blue;}
         p{
           font-size: 1.5em;
-          border-top: 1px solid #3eb2fc;
+          border-top: 1px solid $blue-color;
           margin-bottom: 0;
+          a{color: $extra-dark-blue;}
         }
-        p:hover{background-color: $extra-dark-blue;}
+        p:hover{background-color: #246289;}
         div.ui-accordion-content{background-color:#369ada;}
       }
       .contact_links_box{
