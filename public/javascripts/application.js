@@ -3,7 +3,13 @@
 
 $(document).ready(function() {
   $("#menu" ).accordion({
-		autoHeight: false,
-		navigation: true
-	});
+    autoHeight: false,
+    navigation: true
+  })
+
+  $("a").click(function() {
+    window.location = $(this).attr("href")
+  })
+   
 });
+
