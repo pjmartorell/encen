@@ -303,38 +303,67 @@ es:
     t_stor:
       title: Toldo stor
       subtitle: Toldo stor
+      line1: "Es un toldo vertical manual con mecanismo manual de manivela, típicamente conocido como toldo de balcón."
+      line2: "Fabricado en aluminio, está compuesto por 2 pequeños brazos de 50cm. para enganchar a la barandilla o al muro. Los brazitos poseen en la parte donde se enganchan al toldo un pequeño muelle recuperador que sirve para plegarlos cuando no estan enganchados a la barandilla o al muro y en el otro extremo se enganchan a la barandilla o al muro mediante un soporte con pasador. Lo que permite una perfecta protección solar y ventilación permanente."
+      line3: "No es aconsejable la motorización de este tipo de toldo, ya que al tenerlo que enganchar manualmente, si nos descuidamos de soltarlo del soporte de la barandilla o muro, se rompería el toldo o el motor ocasionando un destrozo y su peligrosidad seria extrema."
+      line4: "Disponemos de una ámplia gama en lonas de diferentes colores de alta calidad; accesorios y componentes en color blanco, plata, oro o negro; también disponibles en cualquier color de la carta RAL."
 
     t_stor_varilla:
       title: Toldo sotr con varilla
       subtitle: Toldo sotr con varilla
+      line1: "Es otra gama de toldo stor con mecanismo manual de manivela o motorizado; pero guiado por 2 varillas de aluminio una en cada extremo con 1 palomilla roscada en la parte inferior para trabarlo e impedir que se levante a causa del viento."
+      line2: "Este tipo de toldo abre a los profesionales del ramo y a los arquitectos innumerables posibilidades en balcones, terrazas, ventanas y puertas; con suficiente espacio para accionar la manivela si se precisa manualmente; siempre en vertical, son ideales para crear más intimidad en balcones, terrazas, ventanas o puertas."
+      line3: "Acordémonos que también se pueden motorizar con mecanismos mecánicos como pulsadores-inversores o via radio como mandos a distancia."
+      line4: "Disponemos de una amplia gama en lonas de diferentes colores de alta calidad; accesorios y componentes en color blanco, plata, oro o negro; también disponibles en cualquier color de la carta RAL."
 
     t_stor_guias:
       title: Toldo sotr con guias
       subtitle: Toldo sotr con guías
+      line1: "Típicamente conocido como cortavientos o quitavientos; és la última gama de toldos stor tanto manualmente con manivela como motorizado; pero con guías de aluminio, como los de una persiana."
+      line2: "Es perfecto para las terraza de un bar, un restaurante, una cafetería, etc.... También para las terrazas o jardines de cualquier casa."
+      line3: "Le protegerá del viento y la lluvia lateralmente."
+      line4: Si se desea se puede fabricar con una ventana de P.V.C. en el centro o todo transparente.
+      line5: Acordémonos que también se pueden motorizar con mecanismos mecánicos como pulsadores-inversores o vía radio como mandos a distancia.
+      line6: "Disponemos de una amplia gama en lonas de diferentes colores de alta calidad; accesorios y componentes en color blanco, plata, oro o negro; también disponibles en cualquier color de la carta RAL."
 
     t_punto:
       title: Toldo punto recto
       subtitle: Toldo punto recto
+      line1: "Es también conocido como toldo de brazo recto, es la siguiente gama de toldos para ventanas y balcones, teniendo la particularidad de que siempre el brazo está sujeto."
+      line2: "Mucha variedad en lonas de alta calidad, accesorios y componentes de aluminio color blanco, también existentes en cualquier color RAL."
+      line3: "Se puede optar por 3 tipos de brazo: sin tensión, semi-tensión o tensión circular."
 
     brazos:
       title: Brazos articulados
       subtitle: Brazos articulados
+      line1: "Típicamente conocido como brazos invisibles, con diferentes modelos dentro de la misma gama: brazos articulados, semi-cofre, cofre y monoblock teniendo a su disposición muchos accesorios como: motor, sensor sol-viento, tejadillo, etc..."
+      line2: "Con alta gama en lonas de gran calidad, accesorios y componentes de aluminio color blanco, también existentes en cualquier color RAL."
 
     capota:
       title: Capota
       subtitle: Capota
+      line1: "Tipo de toldo especialmente indicado para la instalación en ventanas y puertas, pudiéndolo fijar frontalmente o entreparedes."
+      line2: "Normalmente se suministra con 4 arcos y su mecanismo es con cuerda de algodón y polea."
+      line3: "Con alta gama en lonas de gran calidad, accesorios y componentes de aluminio color blanco, también existentes en cualquier color RAL."
 
     corredero:
       title: Corredero
       subtitle: Corredero
+      line1: "También conocido como toldo plano o de palillería, especialmente indicado para terrazas y grandes superficies. Dispone de multitud de opciones de instalación: entreparedes, entrepared y portería o doble portería."
+      line2: "Su mecanismo es normalmente con cuerda de algodón y polea, también se puede motorizar."
+      line3: "Con alta gama en lonas de gran calidad; accesorios y componentes de aluminio color blanco, también existentes en cualquier color RAL."
 
     toldo:
       title: Toldo cortinas
       subtitle: Toldo cortinas
+      line1: "Es un toldo tipo cortina corredera manual y normalmente utilizado en balcones 'tanto entero, como solo los laterales'."
+      line2: "Su fijación en el techo es con riel y poleas con gancho color plata natural o blanco."
+      line3: "Con alta gama en lonas de gran calidad."
 
     marquesinas:
       title: marquesinas
       subtitle: Marquesinas
+      line1: Disponemos de una gran variedad de marquesinas para elegir.
 
     persianas:
       title: Persianas
@@ -353,18 +382,32 @@ es:
     aluminio:
       title: aluminio
       subtitle: Aluminio
+      line1: "Disponemos de un gran abanico de persianas con la gama más alta en colores y motores de gran calidad. Como por ejemplo: de P.V.C., de aluminio perfilado, aluminio extrusionado, aluminio de seguridad autoblocante, etc... y en los 3 tipos: cajón exterior, cajón de obra y monoblock."
+      line2: "Disponemos de un gran abanico de persianas con la gama más alta en colores y motores de gran calidad. Como por ejemplo: de P.V.C., de aluminio perfilado, aluminio extrusionado, aluminio de seguridad autoblocante, etc... y en los 3 tipos: cajón exterior, cajón de obra y monoblock."
+      line3: Fabricadas a medida y a la necesidad del cliente.
+      line4: Las persianas de aluminio y P.V.C. son un elemento imprescindible para cualquier hogar.
 
     alicantinas:
       title: alicantinas
       subtitle: Alicantinas
+      line1: "Disponemos de persianas alicantinas tanto de madera como de P.V.C. con los siguientes colores: "
+      line2: "Madera: sin pintar, barnizada, gris claro, marrón oscuro, pino, nogal, verde oliva, roble, cerezo, azul rústico y verde rústico."
+      line3: "P.V.C.: blanco, marfil, verde oliva y madera claro."
+      line4: "Se fabrican a medida y necesidad del cliente siendo ideal para cualquier ventana, puerta o balcón."
 
     celosias:
       title: celosias
       subtitle: Celosias
+      line1: "Es otro tipo de persiana o cerramiento que se fabrica en lama orientable o lama fija, tanto en aluminio como en P.V.C."
+      line2: "Se fabrican en 6 marcos diferentes: fijo, practicable, corredero, plegable, proyectable y levadizo. "
+      line3: "El color básico es el blanco, pero disponemos también de: color plata, lacados madera y cualquier color RAL."
+      line4: "Celosías lamas orientables o móviles"
+      line5: "Celosías lamas fijas"
 
     accesorios:
       title: Accesorios
       subtitle: Accesorios
+      line1: "Disponemos de gran variedad de accesorios para instalación, reparación y motorización, como por ejemplo: los motores tubulares, pulsadores-inversores, mandos a distáncia, ejes, ejes combinados, discos para ejes, conteras con espiga, adaptadores, muelles de elevación, guías normales, guías de proyectables, todo tipo de recogedores, topes, tirantes, seguros para persiana, poleas pasa cintas y para cordón, cardanes, tornos, manivelas, guía cables y desviaciones, soportes, mecanismos y todo lo que necesite para su persiana."
 
     rep_persianas:
       title: Reparación de persianas
@@ -383,14 +426,47 @@ es:
     c_obra:
       title: Cajón de obra
       subtitle: Cajón de obra
+      line1: "Este tipo de persianas tanto de P.V.C., de aluminio, de aluminio extrusionado o de madera, su reparación y funcionamiento es similar al de cajón exterior. Funciona normalmente con cinta de 22mm., con cordón, con cable trenzado interior con manivela o con motor, según prefiera."
+      line2: "Las reparaciones más frecuentes son:"
+      line3: "El cambio de cinta, el cambio de cordón, el cambio de poleitas, todo esto si son persianas manuales."
+      line4: "El cambio de lamas (sobre todo las de P.V.C. ya que tienden a estropearse más; debido a causas del sol, el viento, la lluvia y el arrastre que llevan)."
+      line5: "El cambio de los tirantes o flejes que son los que aguantan y levantan la persianas con el eje."
+      line6: "El cambio de topes de persiana o los recogedores."
+      line7: "Si la persiana lleva motor no necesita: ni cinta, ni topes, ni recogedor, ni poleitas. Siendo más complicado de deteriorarse la persiana, pero los motores se pueden dañar también a causa del mal uso o desprogramándose los finales de carrera (pero los finales de carrera pasa en un motor defectuoso)."
+      line8: "Normalmente la vida de un motor es de 10 a 15 años, según el uso:"
+      line9: "Las ventajas son que no se ve ningún cajón, solo una tapa de registro de la persiana, por la parte interior a la vivienda, ya que el cajón está hecho dentro de la fachada o pared de la casa, por eso se llama cajón de obra y su reparación es más sencilla que la persiana de cajón exterior, por el fácil acceso a ella; solo sacando la tapa de registro que siempre está en el interior de la vivienda."
+      line10: "La desventaja de este tipo de persiana, es que el cajón tiene que ser de obra, teniendo que estar empotrado a la pared de la fachada interiormente y suele ser algo más pesada que la de cajón exterior, por su mayor envergadura de lamas más anchas."
+      line11: "Nuestra zona de servicio es en Barcelona y alrededores; para zonas más distanciadas, consúltenos un presupuesto sin compromiso."
 
     c_exterior:
       title: Cajón exterior
       subtitle: Cajón exterior
+      line1: "Este tipo de persianas tanto de P.V.C. como de aluminio, su reparación y funcionamiento es muy parecida a las de cajón de obras."
+      line2: "Funciona con cinta, con cuerda o motor, según se prefiera."
+      line3: "Las reparaciones más frecuentes son: "
+      line4: "El cambio de cinta o cuerda."
+      line5: "El cambio de lamas (sobre todo si son de P.V.C.)."
+      line6: "El cambio de poleitas (si son manuales)."
+      line7: "El cambio de tirantes o flejes que son los que aguantan y suben la persiana con el eje."
+      line8: "También en circunstantias se pueden dañar los topes de persiana o el recogedor (si es una persiana manual)."
+      line9: "Si lleva motor no hace falta ni cinta, ni topes, ni poleitas, ni recogedores; ya que el motor tiene final de carrera automático, ya sean mecánicos o via rádio con mando a distáncia:"
+      line10: "Las ventajas de este tipo de persiana es que al ser de cajón exterior se pueden instalar en cualquier parte donde alla un mínimo de espacio para clavar el cajón y las guías, sin obra aparente, solo los agujeros del taladro y de la poleita."
+      line11: "Las desventajas de este tipo de persiana es que al tener la cinta más estrecha y tiene mucho más desgaste a causa de las de las curvas del recorrido que supone el cajón exterior, al igual que a la hora de manipularlo para su reparación, por tener más complicado el acceso a ella, que normalmente es por el exterior."
+      line12: "Nuestra zona de servicio es en Barcelona y alrededores; para zonas más distanciadas, consúltenos un presupuesto sin compromiso."
 
     monoblock:
       title: monoblock
       subtitle: Monoblock
+      line1: "En este tipo de persinas monoblock o compactas, la estructura siempre es de aluminio, las lamas pueden ser de P.V.C., de aluminio o de aluminio extrusionado."
+      line2: "Es una mezcla de las persianas de cajón exterior y cajón de obra, teniendo las ventajas de las 2 persianas y solo con un defecto, que tiene la cinta estrecha en el caso de ser manual, por que también se puede motorizar."
+      line3: "Todo el mecanismo está dentro del cajón exterior, pero se accede a ella a traves de la tapa de registro de persianas que está, el interior de la vivienda, siendo como el propio nombre dice compacta a la carpinteria de aluminio siendo una sola pieza, puerta y persiana o ventana y persiana."
+      line4: "No suele estropearse a lo cual su reparación es casi mínima, si se lleva un mantenimiento e uso apropiado:"
+      line5: "Cambio de cinta."
+      line6: Cambio de poleita.
+      line7: Cambio de topes.
+      line8: Cambio de recogedor.
+      line9: "Cambio de lamas (principalmente si són de P.V.C. a causa de la erosión del sol, aire o lluvia) y raramente algún cambio de tirantes o flejes. "
+      line10: "Nuestra zona de servicio es en Barcelona y alrededores; para zonas más distanciadas, consúltenos un presupuesto sin compromiso."
 
     rejas:
       title: Rejas
@@ -408,23 +484,37 @@ es:
     r_ballesta:
       title: Rejas de ballesta o plegables
       subtitle: Rejas de ballesta o plegables
+      line1: "Es una reja muy versátil que se recoge en forma de tijera, con gran robustez ideal para cerramientos de fácil acceso desde el exterior como el interior."
+      line2: "Los acabados pueden ser: zincado plata, zincado oro, blanco y cualquier color RAL."
 
     r_ornamental:
       title: Rejas ornamental o barrote
       subtitle: Rejas ornamental o barrote
+      line1: "Es un tipo de reja que se puede fabricar fija o practicable con cerradura, con un marco de 50 x 20mm. hueco y barrotes de 30mm. huecos, es el modelo más economico de la gama con marco, siendo ideal para ventanas y puertas."
+      line2: "Los acabados son: zincado plata, blanco o cualquier color RAL."
 
     r_rombo:
       title: Rejas rombo o romboide
       subtitle: Rejas rombo o romboide
+      line1: "Como su nombre indica tiene forma de rombos, se puede fabricar fija o practicable con cerradura según se necesite."
+      line2: "Se fabrica con un marco en forma de L de 35 x 35mm., macizo y barrotes redondos de 12mm. macizos."
+      line3: "Los acabados son: zincado plata, blanco o cualquier color RAL. "
 
     r_clasica:
       title: Rejas clásica o varilla
       subtitle: Rejas clásica o varilla
+      line1: "Es un tipo de reja sencilla que se puede fabricar fija o practicable con cerradura, según la utilización de esta."
+      line2: "Se fabrica con marco de 40 x 8mm. macizo y barrotes redondos de 14mm. macizos."
+      line3: "Los acabados son: zincado plata, blanco o cualquier color RAL."
 
     r_rectangular:
       title: Rejas rectangulares o cuadradillo
       subtitle: Rejas rectangulares o cuadradillo
-
+      line1: "Como su nombre indica tiene forma de rectángulos, se puede fabricar fija o practicable con cerradura, según se necesite."
+      line2: "Por su robustez es ideal para ventanas y puertas de fácil acceso."
+      line3: "Se fabrica con marco de 40 x 8mm. macizo y barrotes cuadrados de 16 x 16mm. macizos."
+      line4: "Los acabados son: zincado plata, blanco o cualquier color RAL."
+      
     cortinas:
       title: cortinas
       line1: "Disponemos de 5 modelos básicos de cortinas, todos ellos con una amplia gama de telas y colores: "
@@ -437,22 +527,32 @@ es:
     c_venecianas:
       title: Cortinas venecianas
       subtitle: Cortinas venecianas
+      line1: "Es una cortina de láminas horizontales que se acciona con un mecanismo al lateral que consta de un sistema integral diseñado por nuestro fabricante que es la varilla con la cuerda dentro, todo en uno, en vez de lo acostumbrado que son los 2 por separado."
+      line2: "Las lamas son de aluminio o madera en cualquier color RAL y de diferente anchura de lama, la normal es de 25mm. pero también disponemos de 16mm., 35mm. y 50mm."
 
     c_enrollables:
       title: Cortinas enrollables
       subtitle: Cortinas enrollables
+      line1: "Es un modelo de cortina tipo stor con múltiples tipos de tela, se acciona con una cadena en uno de los laterales, con la particularidad que se puede motorizar."
+      line2: "Normalmente los accesorios (cadenas, soportes, perfiles, etc...) son en color blanco, plata o negro. Para diferentes colores consultar."
 
     c_verticales:
       title: Cortinas verticales
       subtitle: Cortinas verticales
+      line1: "Es un tipo de cortina con lamas verticales tanto en tela como en aluminio de diferente anchura de lama. Lo normal es lama de 127mm. pero también disponemos de lama de 89mm. "
+      line2: "Es accionada por una cadena lateral que es la que recoge o abre la cortina y una varilla que es la que da la orientación de las lamas."
+      line3: "Disponemos de gran variedad en telas y colores."
 
     c_plisadas:
       title: Cortinas plisadas
       subtitle: Cortinas plisadas
+      line1: "Es otro modelo de cortina en tela con gran variedad de colores y tejidos tipo acordeón verticalmente, con un mecanismo en uno de los laterales que consta de un cordón. "
+      line2: "Accionamiento manual."
 
     c_plegables:
       title: Cortinas plegables
       subtitle: Cortinas plegables
+      line1: "Es un tipo de cortina en tela con diferentes acabados y colores plegándose entre sí verticalmente como la vela de un barco, con el accionamiento en uno de los laterales por cadena."
 
     motorizacion:
       title: Motorización
@@ -471,42 +571,60 @@ es:
     mando_distancia_mini:
       title: Mando a distancia mini
       subtitle: Mando a distancia mini
+      line1: "Es un transmisor vía radio a distancia con 3 canales independientes."
+      line2: "Es el más pequeño de los transmisores a distancia."
+      line3: "Sirve para todo tipo de persianas, toldos y demás motores vía radio."
 
     mando_distancia_normal:
       title: Mando a distancia normal
       subtitle: Mando a distancia normal
+      line1: "Es un transmisor vía radio a distancia con 1, 3, 24 canales independientes o sensor luz."
+      line2: "Sirve para todo tipo de persianas, toldos y demás motores vía rádio."
 
     motor_hidraulico:
       title: Motor hidráulico para puertas batientes
       subtitle: Motor hidráulico para puertas batientes
+      line1: "Es un motor exterior que funciona hidráulicamente con cuerpo de aluminio, vía radio o con llavín; teniendo una llave antibloqueo por si se va la luz poder accionar la puerta manualmente."
 
     motor_puertas:
       title: Motor para puertas correderas
       subtitle: Motor para puertas correderas
+      line1: "Es un motor exterior versátil para puertas correderas vía radio o con llavín; teniendo una llave antibloqueo por si se va la luz poder accionar la puerta manualmente."
+      line2: "Para diferentes pesos de puerta de 400Kg , 800Kg o 2000Kg."
 
     motor_celosias:
       title: Motor para celosías
       subtitle: Motor para celosías
+      line1: "Es un motor para interiores vía radio para el accionamiento de celosías tanto de aluminio como de P.V.C., cúpulas de cristal o grandes Lucernarios."
+      line2: "Con 4 medidas de apertura: 230mm., 350mm., 550mm. o 750mm."
 
     motor_persianas:
       title: Motor para persianas enrollables
       subtitle: Motor para persianas enrollables
+      line1: "Es un motor interior para persianas enrollables metálicas con o sin freno para un máximo de 160Kg o 300KG, vía radio o con llavín exterior."
+      line2: "Especialmente se utiliza para persianas de seguridad de las tiendas, locales, garages, etc..."
 
     motor_ventanas:
       title: Motor para ventanas batientes
       subtitle: Motor para ventanas batientes
+      line1: "Es un motor vía radio o con pulsador, especialmente para ventanas batientes a una altura de difícil acceso con apertura de: 110mm., 200mm., 300mm. o 400mm. y que al cerrar ejerce presión para su total cierre."
 
     motor_tubular:
       title: Motor tubular para persianas y toldos
       subtitle: Motor tubular para persianas y toldos
-
+      line1: "Son motores tubulares que van dentro del eje vía radio o con pulsador con diferentes grosores y accesorios: de 35mm. para eje de 40, de 45mm. para eje de 60 y de 55mm. para eje de 70. "
+      line2: "Con resisténcia de 15Kg hasta 130Kg según modelo."
+    
     pulsador:
       title: Pulsador-Inversor
       subtitle: Pulsador-Inversor
+      line1: "Es el típico pulsador para motores mecánicos (los que no són vía radio), tanto empotrado como de superfície."
 
     veleta:
       title: Veleta o sensor sol-viento
       subtitle: Veleta o sensor sol-viento
+      line1: "Es un accesorio que se instala independientemente en los motores para toldos, tanto mecánicos como vía radio."
+      line2: "Su función es recoger el toldo cuando hay mucho viento y extenderlo cuando hace sol, automáticamente."
 
     contact:
       title: "Contacto -- Ejemplo Plan Basico"
