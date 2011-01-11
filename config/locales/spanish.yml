@@ -295,9 +295,9 @@ es:
     toldos:
       title: Toldos
       subtitle: Toldos
-      line1: "Es un orgullo para nosotros poder contar con nuestra sección de toldos."
-      line2: "Nuestro deseo como profesionales del sector de los toldos, capotas, toldos correderos,... es poder ofrecerles la solución perfecta con un servicio integral y personalizado a sus necesidades y deseos."
-      line3: "Con más de 20 años de experiencia que nos avalan trabajando con primerísimas marcas y fabricantes, siempre apostando en tecnología, acabados y servicio."
+      line1: "Es un orgullo para nosotros poder contar con <span class='strong_word'>nuestra sección de toldos.</span>"
+      line2: "Nuestro deseo como profesionales del sector de los toldos, capotas, toldos correderos,...<span class='strong_word'> es poder ofrecerles la solución perfecta con un servicio integral y personalizado a sus necesidades y deseos.</span>"
+      line3: "<span class='strong_word'>Con más de 20 años de experiencia que nos avalan trabajando con primerísimas marcas y fabricantes, siempre apostando en tecnología, acabados y servicio.</span>"
       line4: "<span class='strong_word'>¿Por qué elegirnos a nosotros a la hora de pedir asesoramiento o presupuesto sobre cualquier tipo de toldo?.</span> Porque le ofrecemos 8 modelos de toldos diferentes ideales para su vivienda, chalet, torre, ático, terraza, local, comercio, etc..."
       line5: Toldo stor
       line6: Toldo stor con varilla
@@ -318,25 +318,25 @@ es:
     t_stor:
       title: Toldo stor
       subtitle: Toldo stor
-      line1: "Es un toldo vertical manual con mecanismo manual de manivela, típicamente conocido como toldo de balcón."
-      line2: "Fabricado en aluminio, está compuesto por 2 pequeños brazos de 50cm. para enganchar a la barandilla o al muro. Los brazitos poseen en la parte donde se enganchan al toldo un pequeño muelle recuperador que sirve para plegarlos cuando no estan enganchados a la barandilla o al muro y en el otro extremo se enganchan a la barandilla o al muro mediante un soporte con pasador. Lo que permite una perfecta protección solar y ventilación permanente."
+      line1: "Es un toldo vertical manual con mecanismo manual de manivela, típicamente conocido como <span class='strong_word'>toldo de balcón.</span>"
+      line2: "<span class='strong_word'>Fabricado en aluminio, está compuesto por 2 pequeños brazos de 50cm.</span> para enganchar a la barandilla o al muro. Los brazitos poseen en la parte donde se enganchan al toldo un pequeño muelle recuperador que sirve para plegarlos cuando no estan enganchados a la barandilla o al muro y en el otro extremo se enganchan a la barandilla o al muro mediante un soporte con pasador. Lo que permite una perfecta protección solar y ventilación permanente."
       line3: "No es aconsejable la motorización de este tipo de toldo, ya que al tenerlo que enganchar manualmente, si nos descuidamos de soltarlo del soporte de la barandilla o muro, se rompería el toldo o el motor ocasionando un destrozo y su peligrosidad seria extrema."
       line4: "Disponemos de una ámplia gama en lonas de diferentes colores de alta calidad; accesorios y componentes en color blanco, plata, oro o negro; también disponibles en cualquier color de la carta RAL."
 
     t_stor_varilla:
       title: Toldo sotr con varilla
       subtitle: Toldo sotr con varilla
-      line1: "Es otra gama de toldo stor con mecanismo manual de manivela o motorizado; pero guiado por 2 varillas de aluminio una en cada extremo con 1 palomilla roscada en la parte inferior para trabarlo e impedir que se levante a causa del viento."
-      line2: "Este tipo de toldo abre a los profesionales del ramo y a los arquitectos innumerables posibilidades en balcones, terrazas, ventanas y puertas; con suficiente espacio para accionar la manivela si se precisa manualmente; siempre en vertical, son ideales para crear más intimidad en balcones, terrazas, ventanas o puertas."
+      line1: "Es otra gama de toldo stor con <span class='strong_word'>mecanismo manual de manivela o motorizado</span>; pero guiado por 2 varillas de aluminio una en cada extremo con 1 palomilla roscada en la parte inferior para trabarlo e impedir que se levante a causa del viento."
+      line2: "<span class='strong_word'>Este tipo de toldo abre a los profesionales del ramo y a los arquitectos innumerables posibilidades</span> en balcones, terrazas, ventanas y puertas; con suficiente espacio para accionar la manivela si se precisa manualmente; siempre en vertical, son ideales para <span class='strong_word'>crear más intimidad en balcones, terrazas, ventanas o puertas.</span>"
       line3: "Acordémonos que también se pueden motorizar con mecanismos mecánicos como pulsadores-inversores o via radio como mandos a distancia."
       line4: "Disponemos de una amplia gama en lonas de diferentes colores de alta calidad; accesorios y componentes en color blanco, plata, oro o negro; también disponibles en cualquier color de la carta RAL."
 
     t_stor_guias:
       title: Toldo sotr con guias
       subtitle: Toldo sotr con guías
-      line1: "Típicamente conocido como cortavientos o quitavientos; és la última gama de toldos stor tanto manualmente con manivela como motorizado; pero con guías de aluminio, como los de una persiana."
-      line2: "Es perfecto para las terraza de un bar, un restaurante, una cafetería, etc.... También para las terrazas o jardines de cualquier casa."
-      line3: "Le protegerá del viento y la lluvia lateralmente."
+      line1: "Típicamente conocido como <span class='strong_word'>cortavientos o quitavientos</span>; és la última gama de toldos stor tanto manualmente con manivela como motorizado; pero con guías de aluminio, como los de una persiana."
+      line2: "<span class='strong_word'>Es perfecto para las terraza de un bar, un restaurante, una cafetería, etc.... También para las terrazas o jardines de cualquier casa.</span>"
+      line3: "<span class='strong_word'>Le protegerá del viento y la lluvia lateralmente.</span>"
       line4: Si se desea se puede fabricar con una ventana de P.V.C. en el centro o todo transparente.
       line5: Acordémonos que también se pueden motorizar con mecanismos mecánicos como pulsadores-inversores o vía radio como mandos a distancia.
       line6: "Disponemos de una amplia gama en lonas de diferentes colores de alta calidad; accesorios y componentes en color blanco, plata, oro o negro; también disponibles en cualquier color de la carta RAL."

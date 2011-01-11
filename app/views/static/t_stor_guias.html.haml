@@ -4,14 +4,20 @@
   = t ".subtitle"
 
 %p
-  = t ".line1"
+  = raw t ".line1"
 %p
-  = t ".line2"
+  = raw t ".line2"
 %p
-  = t ".line3"
+  = raw t ".line3"
 %p
   = t ".line4"
 %p
   = t ".line5"
 %p
   = t ".line6"
+
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "toldo guias", :src => "/images/toldo_guias.jpg"}/
