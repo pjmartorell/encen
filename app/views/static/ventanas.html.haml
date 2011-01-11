@@ -13,7 +13,8 @@
     = t ".line3"
   %li
     = t ".line4"
-    
+
+.separator   
 %p
   = t ".line5"
 %p
@@ -22,12 +23,37 @@
 %h2
   = t ".line7"
 %p
-  = t ".line8"
+  = raw t ".line8"
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "ventana", :src => "/images/ventanas.jpg"}/
+    %li
+      %a{:href => "#pic2"}
+        %img.thumbnail{:alt => "ventana", :src => "/images/ventanas4.jpg"}/
+
+.separator   
 %h2
   = t ".line9"
 %p
-  = t ".line8"
-%p
-  = t ".line10"
+  = raw t ".line10"
+
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "ventana", :src => "/images/ventanas1.jpg"}/
+    %li
+      %a{:href => "#pic2"}
+        %img.thumbnail{:alt => "ventana", :src => "/images/ventanas2.jpg"}/
+
+.separator   
 %h2
   = t ".line9"
+
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "ventana", :src => "/images/ventanas3.jpg"}/
