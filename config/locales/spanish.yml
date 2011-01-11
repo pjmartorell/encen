@@ -235,8 +235,8 @@ es:
     mallorquinas:
       title: mallorquinas
       subtitle: Mallorquinas
-      line1: "La Mallorquina es una especie de porticón con 5 tipos de lamas: lama fija, lama móvil, lama de seguridad, lama de 131mm. y lama de ventilación; todas ellas se pueden aplicar al modelo practicable, corredera o plegable."
-      line2: "Con gran variedad de acabados al gusto del cliente, siendo el color básico de fabricación el blanco pero disponemos de toda la variedad de colores RAL, incluyendo los imitación a madera."
+      line1: "La Mallorquina es una especie de porticón con <span class='strong_word'>5 tipos de lamas: lama fija, lama móvil, lama de seguridad, lama de 131mm. y lama de ventilación</span>; todas ellas se pueden aplicar al modelo practicable, corredera o plegable."
+      line2: "Con gran variedad de acabados al gusto del cliente, siendo el color básico de fabricación el <span class='strong_word'>blanco</span> pero disponemos de toda la variedad de colores RAL, <span class='strong_word'>incluyendo los imitación a madera.</span>"
 
     techos:
       title: techos
