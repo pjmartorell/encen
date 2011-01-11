@@ -4,7 +4,7 @@
   = t ".subtitle"
 
 %p
-  = t ".line1"
+  = raw t ".line1"
   
 %ul
   %li
@@ -17,35 +17,53 @@
 %h2
   = t ".line4"
   
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "estante sin tornillo1", :src => "/images/estante_stornillo.jpg"}/
+    %li
+      %a{:href => "#pic2"}
+        %img.thumbnail{:alt => "estante sin tornillo2", :src => "/images/estante_stornillo2.jpg"}/
 %p
-  = t ".line5"
+  = raw t ".line5"
 %p
-  = t ".line6"
+  = raw t ".line6"
 %p
-  = t ".line7"
+  = raw t ".line7"
 %p
   = t ".line8"
 %p
-  = t ".line9"
+  = raw t ".line9"
 %p
-  = t ".line10"
+  = raw t ".line10"
 %p
-  = t ".line11"
+  = raw t ".line11"
   
 %ul
   %li
     = t ".line12"
   %li
     = t ".line13"
+
+.separator
     
 %p
-  = t ".line14"
+  = raw t ".line14"
 
 %h2
   = t ".line15"
 
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "estanteria carga media", :src => "/images/estanteria_carga_media.jpg"}/
+    %li
+      %a{:href => "#pic2"}
+        %img.thumbnail{:alt => "estanteria carga media", :src => "/images/estanteria_carga_media2.jpg"}/
 %p
-  = t ".line16"
+  = raw t ".line16"
 %p
   = t ".line17"
 %p
