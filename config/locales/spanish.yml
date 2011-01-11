@@ -242,12 +242,12 @@ es:
       title: techos
       subtitle: Techos
       line1: "Ideal para pasillos, cocinas, habitaciones comedores, etc."
-      line2: "Totalmente desmontables, fácil limpieza, instalación con minima obra, posibilidad de instalar puntos de luz muy diversos, amplia gama de colores."
+      line2: "<span class='strong_word'>Totalmente desmontables, fácil limpieza, instalación con minima obra, posibilidad de instalar puntos de luz muy diversos, amplia gama de colores.</span>"
 
     cerramientos:
       title: cerramientos
       subtitle: Cerramientos
-      line1: "Se hacen este tipo de cerramientos por su elegancia y adaptabilidad, totalmente a medida de las necesidades; tanto en puertas practicables como en correderas; diversos colores y acabados."
+      line1: "Se hacen este tipo de cerramientos por su <span class='strong_word'>elegancia y adaptabilidad, totalmente a medida de las necesidades;</span> tanto en puertas practicables como en correderas; diversos colores y acabados."
       line2: "Sistema europeo."
       line3: "El color básico de fabricación es el blanco pero disponemos de toda la carta de colores RAL incluidos los imitación madera, con gran variedad de acabados al gusto del cliente."
         

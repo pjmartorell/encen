@@ -6,4 +6,12 @@
 %p
   = t ".line1"
 %p
-  = t ".line2"
+  = raw t ".line2"
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "techos", :src => "/images/techos1.jpg"}/
+    %li
+      %a{:href => "#pic2"}
+        %img.thumbnail{:alt => "techos", :src => "/images/techos2.jpg"}/
