@@ -213,9 +213,9 @@ es:
       line4: "El color básico de fabricación es el blanco pero disponemos de toda la carta de colores RAL incluídos los imitación madera, con gran variedad de acabados al gusto del cliente."
       line5: "Al igual que los cristales que disponemos de gran variedad de ellos: monolíticos, cámara, laminados, con cuarterones tanto con barrotillos o viselado, panel sandwich o melamina sustituyendo al cristal."
       line6: "Puertas correderas "
-      line7: "Las correderas: marco de 61mm., marco de 75mm., perimetral de 62mm., perimetral de 75mm., perimetral de 100mm. y rotura térmica de 83mm."
+      line7: "Las <span class='strong_word'>correderas:</span> marco de 61mm., marco de 75mm., perimetral de 62mm., perimetral de 75mm., perimetral de 100mm. y rotura térmica de 83mm."
       line8: "Puertas practicables "
-      line9: "Las practicables: marco de 40 x 26mm., marco de 40 x 60mm. marco redondo, marco de 40 x 46mm., marco de 40 x 45mm. alta seguridad y rotura térmica de 53mm."
+      line9: "Las <span class='strong_word'>practicables:</span> marco de 40 x 26mm., marco de 40 x 60mm. marco redondo, marco de 40 x 46mm., marco de 40 x 45mm. alta seguridad y rotura térmica de 53mm."
 
     ventanas:
       title: ventanas

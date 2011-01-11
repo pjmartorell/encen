@@ -11,18 +11,38 @@
     = t ".line2"
   %li
     = t ".line3"
-
+.separator
 %p
   = t ".line4"
 %p
   = t ".line5"
+
 %h2
   = t ".line6"
-%p
-  = t ".line7"
 
+%p
+  = raw t ".line7"
+
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "estanteria paletizada", :src => "/images/puertas_correderas1.jpg"}/
+    %li
+      %a{:href => "#pic2"}
+        %img.thumbnail{:alt => "estanteria paletizada", :src => "/images/puertas_correderas2.jpg"}/
+
+.separator
 %h2
   = t ".line8"
-
 %p
-  = t ".line9"
+  = raw t ".line9"
+
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "estanteria paletizada", :src => "/images/puertas_correderas3.jpg"}/
+    %li
+      %a{:href => "#pic2"}
+        %img.thumbnail{:alt => "estanteria paletizada", :src => "/images/puertas_correderas5.jpg"}/
