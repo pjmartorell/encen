@@ -148,20 +148,20 @@ es:
     cargagrande:
       title: Carga grande
       subtitle: Carga grande
-      line1: "Por su concepción, este sistema constituye la solución para almacenaje más versátil, siendo apto para cualquier tipo de carga, tanto por peso como por volumen. El acceso a cada paleta es directo e inmediato, ahorrandose tiempo y esfuerzo en la manipulación de las mercancías y posibilitando un intenso flujo de stocks."
+      line1: "Por su concepción, este sistema constituye la <span class='strong_word'>solución para almacenaje más versátil</span>, siendo <span class='strong_word'>apto para cualquier tipo de carga</span>, tanto por peso como por volumen. El acceso a cada paleta es directo e inmediato, ahorrandose tiempo y esfuerzo en la manipulación de las mercancías y posibilitando un intenso flujo de stocks."
       line2: Estantería convencional o paletizada
       line3: Estantería compacta
       line4: Estantería Cantilever
       line5: Estantería convencional o paletizada 
-      line6: "Es conocida como estantería de gran carga o paletización, compuesta por bastidores y largueros habiendo varios tipos de ellos como: tubo convencional, Z de paletización, trasero para el tope del palet o larguero para altillo."
-      line7: "Como su nombre indica está pensada para la ubicación de palets, tableros, bidones y multitud de cargas pesadas. Es decir la solución más adecuada para la rápida localización y acceso directo a cada producto. "
+      line6: "Es conocida como <span class='strong_word'>estantería de gran carga o paletización</span>, compuesta por bastidores y largueros habiendo varios tipos de ellos como: tubo convencional, Z de paletización, trasero para el tope del palet o larguero para altillo."
+      line7: "Como su nombre indica está <span class='strong_word'>pensada para la ubicación de palets, tableros, bidones y multitud de cargas pesadas.</span> Es decir la solución más adecuada para la rápida localización y acceso directo a cada producto. "
       line8: "Los bastidores en color azul oscuro tienen una medida de: 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500 y 6000mm. de alto nomalmente (pudiéndose fabricar hasta los 12000mm. bajo pedido) x 800, 1000, 1100 y 1200mm. de fondo."
       line9: "Los largueros son de color naranja butano teniendo una medida de: 1900, 2300, 2700 y 3350mm. normalmente (pudiéndose fabricar bajo pedido y cantidad en cualquier medida) su resisténcia puede variar en cuanto la largura y el grosor del tubo."
       line10: "Estantería compacta "
-      line11: "Es conocida como estantería de carriles. Con este sistema se consigue un 85% del espacio libre almacenando el mayor número de palets posible en un mínimo espacio, pensado en el almacenamiento de productos en los que la rotación o acceso directo no es fundamental. Está compuesta por bastidores de color azul oscuro dispuestos verticalmente conectados entre si por largueros de color naranja butano. Únicamente pensada para la disposición de palets."
+      line11: "Es conocida como <span class='strong_word'>estantería de carriles.</span> Con este sistema <span class='strong_word'>se consigue un 85% del espacio libre almacenando el mayor número de palets</span> posible en un mínimo espacio, pensado en el almacenamiento de productos en los que la rotación o acceso directo no es fundamental. Está compuesta por bastidores de color azul oscuro dispuestos verticalmente conectados entre si por largueros de color naranja butano. <span class='strong_word'>Únicamente pensada para la disposición de palets.</span>"
       line12: "Estantería Cantilever "
-      line13: "Es conocida como estantería de brazos. Siendo el sistema idóneo para el almacenamiento de mercancías largas como: perfiles, tubos, maderas, etc... Permite una gran agilidad en la preparación de pedidos."
-      line14: "Está compuesta por alineaciones de columnas con arriostramientos en vertical uniéndose entre si en color azul oscuro y por brazos en color naranja butano unidos a las columnas por tornillos pasadores, pudiéndose variar la altura de éstos cuando se precise. Habiendo 2 modalidades: tipo Mural 'un solo lado' (apoyada a la pared) o Góndola 'los 2 lados' (pasillo central). La resistencia dependerá del grosor y la longitud de estos."
+      line13: "Es conocida como <span class='strong_word'>estantería de brazos.</span> Siendo el sistema idóneo para el almacenamiento de mercancías largas como: perfiles, tubos, maderas, etc... Permite una <span class='strong_word'>gran agilidad en la preparación de pedidos.</span>"
+      line14: "Está compuesta por alineaciones de columnas con arriostramientos en vertical uniéndose entre si en color azul oscuro y por brazos en color naranja butano unidos a las columnas por tornillos pasadores, pudiéndose variar la altura de éstos cuando se precise. Habiendo <span class='strong_word'>2 modalidades: tipo Mural 'un solo lado' (apoyada a la pared) o Góndola 'los 2 lados' (pasillo central).</span> La resistencia dependerá del grosor y la longitud de estos."
 
     estanterias:
       title: Estanterías

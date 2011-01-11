@@ -4,10 +4,52 @@
   = t ".subtitle"
 
 %p
-  = t ".line1"
+  = raw t ".line1"
+
+%ul
+  %li
+    = t ".line2"
+  %li
+    = t ".line3"
+  %li
+    = t ".line4"
+
+%h2
+  = t ".line5"
 %p
-  = t ".line2"
+  = raw t ".line6"
 %p
-  = t ".line3"
+  = raw t ".line7"
 %p
-  = t ".line4"
+  = t ".line8"
+%p
+  = t ".line9"
+
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "estanteria paletizada", :src => "/images/estanteria_paletizada.jpg"}/
+    %li
+      %a{:href => "#pic2"}
+        %img.thumbnail{:alt => "estanteria paletizada", :src => "/images/estanteria_paletizada2.jpg"}/  
+%h2
+  = t ".line10"
+%p
+  = raw t ".line11"
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "estanteria paletizada", :src => "/images/estanteria_paletizada3.jpg"}/  
+%h2
+  = t ".line12"
+%p
+  = raw t ".line13"
+%p
+  = raw t ".line14"
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "estanteria paletizada", :src => "/images/estanteria_paletizada4.jpg"}/
