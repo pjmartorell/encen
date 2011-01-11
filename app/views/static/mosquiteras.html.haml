@@ -4,8 +4,23 @@
   = t ".subtitle"
 
 %p
-  = t ".line1"
+  = raw t ".line1"
 %p
   = t ".line2"
 %p
-  = t ".line3"
+  = raw t ".line3"
+
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "mosquitero", :src => "/images/mosquitero1.jpg"}/
+    %li
+      %a{:href => "#pic2"}
+        %img.thumbnail{:alt => "mosquitero", :src => "/images/mosquitero2.jpg"}/
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "mosquitero", :src => "/images/mosquitero3.jpg"}/
+    %li
+      %a{:href => "#pic2"}
+        %img.thumbnail{:alt => "mosquitero", :src => "/images/mosquitero4.jpg"}/

@@ -4,6 +4,11 @@
   = t ".subtitle"
 
 %p
-  = t ".line1"
+  = raw t ".line1"
 %p
   = t ".line2"
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "porticon", :src => "/images/porticon.jpg"}/

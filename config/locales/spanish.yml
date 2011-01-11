@@ -255,22 +255,22 @@ es:
       title: mamparas
       subtitle: Mamparas de baño
       line1: "Las mamparas de ducha y baño han sido diseñadas para satisfacer las exigencias de los clientes."
-      line2: "Hay diferentes tipos de modelo, por ejemplo: correderas, practicables, plegables, combinadas y fijas. "
+      line2: "Hay diferentes tipos de modelo, por ejemplo: <span class='strong_word'>correderas, practicables, plegables, combinadas y fijas.</span>"
       line3: "Los colores normales son: blanco, plata, oro y bronze. También disponemos de colores RAL o colores especiales como madera pino y madera nogal. "
-      line4: "Todas ellas se fabrican con cristal templado tanto en transparente como en mate ácido, serigrafiado o carglás y también en cristal acrílico con diversos acabados."
+      line4: "<span class='strong_word'>Todas ellas se fabrican con cristal templado</span> tanto en transparente como en mate ácido, serigrafiado o carglás y también en cristal acrílico con diversos acabados."
 
     porticon:
       title: porticon
       subtitle: Porticón
-      line1: "Es el sustituto perfecto de las mallorquinas o persianas, sobretodo en zonas rurales, de montaña o urbanizaciones, donde la estética no acompaña; fabricado con perfiles y paneles de aluminio extrusionado de seguridad. "
+      line1: "Es el <span class='strong_word'>sustituto perfecto de las mallorquinas o persianas</span>, sobretodo en zonas rurales, de montaña o urbanizaciones, donde la estética no acompaña; fabricado con perfiles y paneles de aluminio extrusionado de seguridad. "
       line2: "El color básico de fabricación es el blanco pero disponemos de toda la carta de colores RAL incluidos los imitación madera, con gran variedad de acabados al gusto del cliente."
 
     mosquiteras:
       title: mosquiteras
       subtitle: Mosquiteras
-      line1: "Toda la gama de mosquiteras se fabrican con perfil de aluminio y tela de fibra de vidrio de primera calidad, fabricándose en 5 modelos diferentes que son: fijas, enrollables, correderas, practicables y plisadas. "
+      line1: "Toda la gama de mosquiteras se fabrican con perfil de aluminio y tela de fibra de vidrio de primera calidad, <span class='strong_word'>fabricándose en 5 modelos diferentes que son: fijas, enrollables, correderas, practicables y plisadas.</span>"
       line2: "El color normal de fabricación es el lacado blanco y el plata anodizado, después siguen los colores RAL y los lacadso madera."
-      line3: "Es la solución perfecta para evitar la entrada de insectos y las odiosas picaduras de los mosquitos."
+      line3: "Es la <span class='strong_word'>solución perfecta para evitar la entrada de insectos y las odiosas picaduras de los mosquitos.</span>"
 
     modelos:
       title: modelos diferentes
@@ -281,15 +281,15 @@ es:
       line4: Premarcos
       line5: Modelos normalizados
       line6: Ventanas guillotina
-      line7: "Es un modelo de ventana corredera totalmente innovadora con la particularidad que se abre hacia arriba, teniendo varios puntos de apertura; tiene la característica que las hojas se pueden abatir para limpiar los cristales; es ideal para habitaciones, despachos, cocinas, baños, etc.., con poco espacio. "
+      line7: "Es un modelo de <span class='strong_word'>ventana corredera totalmente innovadora</span> con la particularidad que <span class='strong_word'>se abre hacia arriba</span>, teniendo varios puntos de apertura; tiene la característica que las hojas se pueden abatir para limpiar los cristales; es ideal para habitaciones, despachos, cocinas, baños, etc.., con poco espacio. "
       line8: "El color básico de fabricación es el blanco pero disponemos de toda la carta de colores RAL incluidos los imitación madera, con gran variedad de acabados al gusto del cliente."
       line9: Ventana pivotante
-      line10: Es una ventana totalmente diferente a las demás; su apertura es en horizontal o vertical según convenga al cliente; totalmente hermética es perfecta para la ventilación.
+      line10: Es una <span class='strong_word'>ventana totalmente diferente a las demás</span>; su <span class='strong_word'>apertura es en horizontal o vertical</span> según convenga al cliente; <span class='strong_word'>totalmente hermética es perfecta para la ventilación.</span>
       line11: "El color básico de fabricación es el blanco, pero disponemos de toda la carta de colores RAL, incluídos los imitación madera, con gran variedad de acabados al gusto del cliente."
       line12: Premarcos
-      line13: "Los premarcos están fabricados en perfil de aluminio teniendo la opción de poner los accesorios para persianas; se suelen instalar en las obras nuevas o si el marco antiguo está muy deteriorado, sustituyéndolo en su caso."
+      line13: "Los premarcos están <span class='strong_word'>fabricados en perfil de aluminio teniendo la opción de poner los accesorios para persianas;</span> se suelen instalar en las obras nuevas o si el marco antiguo está muy deteriorado, sustituyéndolo en su caso."
       line14: "Modelos normalizados"
-      line15: "Gran variedad de accesorios: tubos cuadrados, tubos rectangulares, tubos redondos, ángulos de lados iguales, esquineros, chapas, pletinas, etc... "
+      line15: "<span class='strong_word'>Gran variedad de accesorios:</span> tubos cuadrados, tubos rectangulares, tubos redondos, ángulos de lados iguales, esquineros, chapas, pletinas, etc... "
       line16: "Todo en color blanco, bronce, plata, negro, RAL y lacados madera."
 
     toldos:

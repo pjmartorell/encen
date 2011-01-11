@@ -6,8 +6,16 @@
 %p
   = t ".line1"
 %p
-  = t ".line2"
+  = raw t ".line2"
 %p
   = t ".line3"
 %p
-  = t ".line4"
+  = raw t ".line4"  
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "mamparas", :src => "/images/mamparas.jpg"}/
+    %li
+      %a{:href => "#pic2"}
+        %img.thumbnail{:alt => "mamparas", :src => "/images/mamparas2.jpg"}/
