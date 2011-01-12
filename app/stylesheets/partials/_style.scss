@@ -79,9 +79,18 @@ body.two_col{
       p{
         font-size: 1.2em;
       }
-      ul{
+      ul.services{
         color:$yellow-color;
         font-size: 1.1em;
+        list-style: none;
+        padding-left: 0;
+        li{
+          background-image:url("/images/dot.png");
+          background-position:left center;
+          background-repeat:no-repeat;
+          list-style:none outside none;
+          padding-left: 20px;
+        }
       }
 
 // Lightbox gallery

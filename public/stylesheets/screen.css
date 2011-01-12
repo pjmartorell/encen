@@ -202,9 +202,18 @@ body.two_col #container #info_box h1 {
 body.two_col #container #info_box p {
   font-size: 1.2em;
 }
-body.two_col #container #info_box ul {
+body.two_col #container #info_box ul.services {
   color: #ffc325;
   font-size: 1.1em;
+  list-style: none;
+  padding-left: 0;
+}
+body.two_col #container #info_box ul.services li {
+  background-image: url("/images/dot.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  list-style: none outside none;
+  padding-left: 20px;
 }
 body.two_col #container #info_box #nav {
   width: 100%;
