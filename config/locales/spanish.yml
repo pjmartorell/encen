@@ -51,11 +51,11 @@ es:
   c_plegables: Cortinas plegables
   mando_distancia_mini: Mando a distancia mini
   mando_distancia_normal: Mando a distancia normal
-  motor_hidraulico: Motor hidráulico para puertas batientes
-  motor_puertas: Motor para puertas correderas
+  motor_hidraulico: Hidráulico para puertas batientes
+  motor_puertas: Para puertas correderas
   motor_celosias: Motor para celosías
-  motor_persianas: Motor para persianas enrollables
-  motor_ventanas: Motor para ventanas batientes
+  motor_persianas: Para persianas enrollables
+  motor_ventanas: Para ventanas batientes
   motor_tubular: Motor tubular para persianas y toldos
   pulsador: Pulsador-Inversor
   veleta: Veleta o sensor sol-viento
