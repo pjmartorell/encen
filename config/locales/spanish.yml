@@ -461,7 +461,7 @@ es:
     c_exterior:
       title: Cajón exterior
       subtitle: Cajón exterior
-      line1: "Este tipo de persianas tanto de P.V.C. como de aluminio, su reparación y funcionamiento es muy parecida a las de cajón de obras."
+      line1: "Este tipo de persianas tanto de P.V.C. como de aluminio, su <span class='strong_word'>reparación y funcionamiento es muy parecida a las de cajón de obras.</span>"
       line2: "Funciona con cinta, con cuerda o motor, según se prefiera."
       line3: "Las reparaciones más frecuentes son: "
       line4: "El cambio de cinta o cuerda."
@@ -477,7 +477,7 @@ es:
     monoblock:
       title: monoblock
       subtitle: Monoblock
-      line1: "En este tipo de persinas monoblock o compactas, la estructura siempre es de aluminio, las lamas pueden ser de P.V.C., de aluminio o de aluminio extrusionado."
+      line1: "En este tipo de persinas monoblock o compactas, <span class='strong_word'>la estructura siempre es de aluminio</span>, las lamas pueden ser de P.V.C., de aluminio o de aluminio extrusionado."
       line2: "Es una mezcla de las persianas de cajón exterior y cajón de obra, teniendo las ventajas de las 2 persianas y solo con un defecto, que tiene la cinta estrecha en el caso de ser manual, por que también se puede motorizar."
       line3: "Todo el mecanismo está dentro del cajón exterior, pero se accede a ella a traves de la tapa de registro de persianas que está, el interior de la vivienda, siendo como el propio nombre dice compacta a la carpinteria de aluminio siendo una sola pieza, puerta y persiana o ventana y persiana."
       line4: "No suele estropearse a lo cual su reparación es casi mínima, si se lleva un mantenimiento e uso apropiado:"

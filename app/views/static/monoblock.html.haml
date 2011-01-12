@@ -4,22 +4,35 @@
   = t ".subtitle"
 
 %p
-  = t ".line1"
+  = raw t ".line1"
+
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "Monoblock", :src => "/images/monoblock.jpg"}/
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "Monoblock", :src => "/images/monoblock2.jpg"}/
 %p
   = t ".line2"
 %p
   = t ".line3"
 %p
   = t ".line4"
-%p
-  = t ".line5"
-%p
-  = t ".line6"
-%p
-  = t ".line7"
-%p
-  = t ".line8"
-%p
-  = t ".line9"
+
+%ul
+  %li
+    = t ".line5"
+  %li
+    = t ".line6"
+  %li
+    = t ".line7"
+  %li
+    = t ".line8"
+  %li
+    = t ".line9"
+
+.separator
 %p
   = t ".line10"
