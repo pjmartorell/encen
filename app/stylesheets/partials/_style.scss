@@ -4,6 +4,8 @@ body.two_col{
     background-color: $blue-color;
     font-size: 1em;
 
+//HEADER
+
     #header{
       background-color: $yellow-color;
       text-align: center;
@@ -62,6 +64,8 @@ body.two_col{
         p{padding-left: 10px; margin-bottom: 10px;}
       }
     }
+
+//INFO_BOX
 
     #info_box{
       margin-right: 0;

@@ -504,34 +504,34 @@ es:
     r_ballesta:
       title: Rejas de ballesta o plegables
       subtitle: Rejas de ballesta o plegables
-      line1: "Es una reja muy versátil que se recoge en forma de tijera, con gran robustez ideal para cerramientos de fácil acceso desde el exterior como el interior."
+      line1: "Es una <span class='strong_word'>reja muy versátil</span> que se recoge en forma de tijera, con gran robustez ideal para cerramientos de fácil acceso desde el exterior como el interior."
       line2: "Los acabados pueden ser: zincado plata, zincado oro, blanco y cualquier color RAL."
 
     r_ornamental:
       title: Rejas ornamental o barrote
       subtitle: Rejas ornamental o barrote
-      line1: "Es un tipo de reja que se puede fabricar fija o practicable con cerradura, con un marco de 50 x 20mm. hueco y barrotes de 30mm. huecos, es el modelo más economico de la gama con marco, siendo ideal para ventanas y puertas."
+      line1: "Es un tipo de reja que <span class='strong_word'>se puede fabricar fija o practicable con cerradura</span>, con un marco de 50 x 20mm. hueco y barrotes de 30mm. huecos, <span class='strong_word'>es el modelo más economico de la gama con marco</span>, siendo ideal para ventanas y puertas."
       line2: "Los acabados son: zincado plata, blanco o cualquier color RAL."
 
     r_rombo:
       title: Rejas rombo o romboide
       subtitle: Rejas rombo o romboide
-      line1: "Como su nombre indica tiene forma de rombos, se puede fabricar fija o practicable con cerradura según se necesite."
+      line1: "Como su nombre indica <span class='strong_word'>tiene forma de rombos,</span> se puede <span class='strong_word'>fabricar fija o practicable</span> con cerradura según se necesite."
       line2: "Se fabrica con un marco en forma de L de 35 x 35mm., macizo y barrotes redondos de 12mm. macizos."
       line3: "Los acabados son: zincado plata, blanco o cualquier color RAL. "
 
     r_clasica:
       title: Rejas clásica o varilla
       subtitle: Rejas clásica o varilla
-      line1: "Es un tipo de reja sencilla que se puede fabricar fija o practicable con cerradura, según la utilización de esta."
+      line1: "Es un tipo de <span class='strong_word'>reja sencilla</span> que se puede fabricar fija o practicable con cerradura, según la utilización de esta."
       line2: "Se fabrica con marco de 40 x 8mm. macizo y barrotes redondos de 14mm. macizos."
       line3: "Los acabados son: zincado plata, blanco o cualquier color RAL."
 
     r_rectangular:
       title: Rejas rectangulares o cuadradillo
       subtitle: Rejas rectangulares o cuadradillo
-      line1: "Como su nombre indica tiene forma de rectángulos, se puede fabricar fija o practicable con cerradura, según se necesite."
-      line2: "Por su robustez es ideal para ventanas y puertas de fácil acceso."
+      line1: "Como su nombre indica <span class='strong_word'>tiene forma de rectángulos,</span> se puede fabricar fija o practicable con cerradura, según se necesite."
+      line2: "Por su robustez es <span class='strong_word'>ideal para ventanas y puertas de fácil acceso.</span>"
       line3: "Se fabrica con marco de 40 x 8mm. macizo y barrotes cuadrados de 16 x 16mm. macizos."
       line4: "Los acabados son: zincado plata, blanco o cualquier color RAL."
       
@@ -547,32 +547,32 @@ es:
     c_venecianas:
       title: Cortinas venecianas
       subtitle: Cortinas venecianas
-      line1: "Es una cortina de láminas horizontales que se acciona con un mecanismo al lateral que consta de un sistema integral diseñado por nuestro fabricante que es la varilla con la cuerda dentro, todo en uno, en vez de lo acostumbrado que son los 2 por separado."
+      line1: "Es una <span class='strong_word'>cortina de láminas horizontales</span> que se acciona con un mecanismo al lateral que consta de un sistema integral diseñado por nuestro fabricante que es la varilla con la cuerda dentro, <span class='strong_word'>todo en uno,</span> en vez de lo acostumbrado que son los 2 por separado."
       line2: "Las lamas son de aluminio o madera en cualquier color RAL y de diferente anchura de lama, la normal es de 25mm. pero también disponemos de 16mm., 35mm. y 50mm."
 
     c_enrollables:
       title: Cortinas enrollables
       subtitle: Cortinas enrollables
-      line1: "Es un modelo de cortina tipo stor con múltiples tipos de tela, se acciona con una cadena en uno de los laterales, con la particularidad que se puede motorizar."
+      line1: "Es <span class='strong_word'>un modelo de cortina tipo stor con múltiples tipos de tela,</span> se acciona con una cadena en uno de los laterales, con la particularidad que se puede motorizar."
       line2: "Normalmente los accesorios (cadenas, soportes, perfiles, etc...) son en color blanco, plata o negro. Para diferentes colores consultar."
 
     c_verticales:
       title: Cortinas verticales
       subtitle: Cortinas verticales
-      line1: "Es un tipo de cortina con lamas verticales tanto en tela como en aluminio de diferente anchura de lama. Lo normal es lama de 127mm. pero también disponemos de lama de 89mm. "
-      line2: "Es accionada por una cadena lateral que es la que recoge o abre la cortina y una varilla que es la que da la orientación de las lamas."
+      line1: "Es un tipo de <span class='strong_word'>cortina con lamas verticales tanto en tela como en aluminio</span> de diferente anchura de lama. Lo normal es lama de 127mm. pero también disponemos de lama de 89mm. "
+      line2: "<span class='strong_word'>Es accionada por una cadena lateral</span> que es la que recoge o abre la cortina y una varilla que es la que da la orientación de las lamas."
       line3: "Disponemos de gran variedad en telas y colores."
 
     c_plisadas:
       title: Cortinas plisadas
       subtitle: Cortinas plisadas
-      line1: "Es otro modelo de cortina en tela con gran variedad de colores y tejidos tipo acordeón verticalmente, con un mecanismo en uno de los laterales que consta de un cordón. "
+      line1: "Es otro <span class='strong_word'>modelo de cortina en tela con gran variedad de colores y tejidos tipo acordeón verticalmente,</span> con un mecanismo en uno de los laterales que consta de un cordón. "
       line2: "Accionamiento manual."
 
     c_plegables:
       title: Cortinas plegables
       subtitle: Cortinas plegables
-      line1: "Es un tipo de cortina en tela con diferentes acabados y colores plegándose entre sí verticalmente como la vela de un barco, con el accionamiento en uno de los laterales por cadena."
+      line1: "Es un tipo de cortina en tela con diferentes acabados y colores <span class='strong_word'>plegándose entre sí verticalmente como la vela de un barco,</span> con el <span class='strong_word'>accionamiento en uno de los laterales por cadena.</span>"
 
     motorizacion:
       title: Motorización
