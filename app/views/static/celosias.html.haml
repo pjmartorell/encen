@@ -4,10 +4,50 @@
   = t ".subtitle"
 
 %p
-  = t ".line1"
+  = raw t ".line1"
 %p
-  = t ".line2"
+  = raw t ".line2"
 %p
-  = t ".line3"
+  = raw t ".line3"
+
+%ul
+  %li
+    = t ".line4"
+  %li
+    = t ".line5"
+
+.separator
+
+%h2
+  = t ".line6"
 %p
-  = t ".line4"
+  = raw t ".line7"
+%p
+  = raw t ".line8"
+
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "Celosias", :src => "/images/celosias1.jpg"}/
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "Celosias", :src => "/images/celosias2.jpg"}/
+
+.separator
+
+%h2
+  = t ".line9"
+%p
+  = raw t ".line10"
+%p
+  = raw t ".line11"
+  
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "Celosias", :src => "/images/celosias3.jpg"}/
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "Celosias", :src => "/images/celosias4.jpg"}/

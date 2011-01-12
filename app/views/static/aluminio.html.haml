@@ -4,10 +4,17 @@
   = t ".subtitle"
 
 %p
-  = t ".line1"
+  = raw t ".line1"
 %p
-  = t ".line2"
+  = raw t ".line2"
 %p
   = t ".line3"
-%p
-  = t ".line4"
+
+%nav
+  %ul
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "Persianas Aluminio", :src => "/images/p_aluminio1.jpg"}/
+    %li
+      %a{:href => "#pic1"}
+        %img.thumbnail{:alt => "Persianas Aluminio", :src => "/images/p_aluminio2.jpg"}/

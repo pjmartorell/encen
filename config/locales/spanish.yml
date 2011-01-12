@@ -397,27 +397,32 @@ es:
     aluminio:
       title: aluminio
       subtitle: Aluminio
-      line1: "Disponemos de un gran abanico de persianas con la gama más alta en colores y motores de gran calidad. Como por ejemplo: de P.V.C., de aluminio perfilado, aluminio extrusionado, aluminio de seguridad autoblocante, etc... y en los 3 tipos: cajón exterior, cajón de obra y monoblock."
-      line2: "Disponemos de un gran abanico de persianas con la gama más alta en colores y motores de gran calidad. Como por ejemplo: de P.V.C., de aluminio perfilado, aluminio extrusionado, aluminio de seguridad autoblocante, etc... y en los 3 tipos: cajón exterior, cajón de obra y monoblock."
-      line3: Fabricadas a medida y a la necesidad del cliente.
-      line4: Las persianas de aluminio y P.V.C. son un elemento imprescindible para cualquier hogar.
+      line1: "<span class='strong_word'>Disponemos de un gran abanico de persianas</span> con la gama más alta en colores y motores de gran calidad. Como por ejemplo: de P.V.C., de aluminio perfilado, aluminio extrusionado, aluminio de seguridad autoblocante, etc... y en los 3 tipos: cajón exterior, cajón de obra y monoblock."
+      line2: <span class='strong_word'>Fabricadas a medida y a la necesidad del cliente.</span>
+      line3: Las persianas de aluminio y P.V.C. son un elemento imprescindible para cualquier hogar.
 
     alicantinas:
       title: alicantinas
       subtitle: Alicantinas
-      line1: "Disponemos de persianas alicantinas tanto de madera como de P.V.C. con los siguientes colores: "
+      line1: "<span class='strong_word'>Disponemos de persianas alicantinas tanto de madera como de P.V.C.</span> con los siguientes colores: "
       line2: "Madera: sin pintar, barnizada, gris claro, marrón oscuro, pino, nogal, verde oliva, roble, cerezo, azul rústico y verde rústico."
       line3: "P.V.C.: blanco, marfil, verde oliva y madera claro."
-      line4: "Se fabrican a medida y necesidad del cliente siendo ideal para cualquier ventana, puerta o balcón."
+      line4: "<span class='strong_word'>Se fabrican a medida y necesidad del cliente siendo ideal para cualquier ventana, puerta o balcón.</span>"
 
     celosias:
       title: celosias
       subtitle: Celosias
-      line1: "Es otro tipo de persiana o cerramiento que se fabrica en lama orientable o lama fija, tanto en aluminio como en P.V.C."
-      line2: "Se fabrican en 6 marcos diferentes: fijo, practicable, corredero, plegable, proyectable y levadizo. "
-      line3: "El color básico es el blanco, pero disponemos también de: color plata, lacados madera y cualquier color RAL."
-      line4: "Celosías lamas orientables o móviles"
-      line5: "Celosías lamas fijas"
+      line1: "Es otro tipo de persiana o cerramiento que <span class='strong_word'> se fabrica en lama orientable o lama fija,</span> tanto en aluminio como en P.V.C."
+      line2: "<span class='strong_word'>Se fabrican en 6 marcos diferentes: fijo, practicable, corredero, plegable, proyectable y levadizo.</span>"
+      line3: "El <span class='strong_word'>color básico es el blanco</span>, pero disponemos también de: color plata, lacados madera y cualquier color RAL."
+      line4: Celosías lamas orientables o móviles
+      line5: Celosías lamas fijas
+      line6: "Celosías lamas orientables o móviles"
+      line7: "<span class='strong_word'>Son la solución perfecta para el control de la luz y la visibilidad</span> además de conseguir privacidad y seguridad, con diferentes medidas de lama: de 75 y de 150mm."
+      line8: "Con un <span class='strong_word'>mecanismo en los laterales</span> que consta de barillas uniendo todas las lamas y maneta, también se pueden motorizar si el acceso es dificultoso."
+      line9: "Celosías lamas fijas"
+      line10: "Son perfectas para <span class='strong_word'>hacer múltiples cerramientos por su resistencia y muy poca visión.</span>"
+      line11: "Se utilizan principalmente en galerías, garajes, respiraderos, etc... celosias"
 
     accesorios:
       title: Accesorios
