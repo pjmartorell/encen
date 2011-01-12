@@ -105,9 +105,6 @@ body.two_col #container #info_box {
 * html body.two_col #container #info_box {
   overflow-x: hidden;
 }
-body.two_col #container #info_box #galeria1 {
-  width: 230px;
-}
 
 @font-face {
   font-family: "london";
@@ -123,30 +120,25 @@ body.two_col #container #info_box #galeria1 {
 body.two_col {
   margin: 0 auto;
 }
+body.two_col #container {
+  background-color: #2d7bad;
+  font-size: 1em;
+}
 body.two_col #container #header {
   background-color: #ffc325;
-  font-family: "london";
   text-align: center;
   height: 80px;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  margin-bottom: 30px;
+  padding-top: 30px;
 }
 body.two_col #container #header h1 {
-  margin-bottom: 0;
   color: white;
 }
-body.two_col #container h1 {
-  font-family: "london";
+body.two_col #container img {
+  border: 6px solid white;
 }
 body.two_col #container #side_bar {
-  background-color: #2d7bad;
-  padding-top: 20px;
   text-align: center;
-  min-height: 755px;
-}
-body.two_col #container #side_bar #menu {
-  padding-left: 0;
-  margin-left: 0;
   margin-right: 0;
 }
 body.two_col #container #side_bar #menu h3 {
@@ -194,33 +186,21 @@ body.two_col #container #side_bar .contact_links_box p {
   margin-bottom: 10px;
 }
 body.two_col #container #info_box {
-  background-color: #2d7bad;
   margin-right: 0;
-  padding-top: 40px;
   color: white;
-  text-align: justify;
-  font-size: 1.2em;
-}
-body.two_col #container #info_box h1 {
-  font-size: 2em;
-  color: #0b2a3e;
-  text-align: center;
 }
 body.two_col #container #info_box .strong_word {
   color: #bde0fd;
   font-style: italic;
 }
-body.two_col #container #info_box .yellow_word {
-  font-weight: normal;
+body.two_col #container #info_box h1 {
+  color: #0b2a3e;
+  text-align: center;
+  font-family: "london";
+  font-size: 2.6em;
 }
-body.two_col #container #info_box img {
-  border: 6px solid white;
-}
-body.two_col #container #info_box ul {
-  color: #ffc325;
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
+body.two_col #container #info_box p {
+  font-size: 1.2em;
 }
 body.two_col #container #info_box #nav {
   width: 100%;

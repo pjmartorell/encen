@@ -1,32 +1,28 @@
 body.two_col{
 	margin: 0 auto;
   #container{
+    background-color: $blue-color;
+    font-size: 1em;
+
     #header{
       background-color: $yellow-color;
-      font-family:$title-font-family;
       text-align: center;
       height: 80px;
-      padding-bottom: 20px;
-      padding-top: 20px;
+      margin-bottom: 30px;
+      padding-top: 30px;
       h1{
-        margin-bottom: 0;
         color: white;
       }
     }
-    h1{
-      font-family: $title-font-family;
+    img{
+      border: 6px solid white;
     }
 
 //MENU
     #side_bar{
-      background-color: $blue-color;
-      padding-top: 20px;
       text-align: center;
-      min-height: 755px;
+      margin-right: 0;
       #menu{
-        padding-left: 0;
-        margin-left: 0;
-        margin-right: 0;
         h3{
           background-color: $dark-blue;
           list-style: none;
@@ -66,35 +62,24 @@ body.two_col{
         p{padding-left: 10px; margin-bottom: 10px;}
       }
     }
-//INDEX
+
     #info_box{
-      background-color: $blue-color;
       margin-right: 0;
-      padding-top: 40px;
       color: white;
-      text-align: justify;
-      font-size: 1.2em;
-      h1{
-        font-size: 2em;
-        color: $extra-dark-blue;
-        text-align: center;
-      }
       .strong_word{
         color: #bde0fd;
         font-style: italic;
       }
-      .yellow_word{
-        font-weight: normal;
+      h1{
+        color: $extra-dark-blue;
+        text-align: center;
+        font-family: $title-font-family;
+        font-size: 2.6em;
       }
-      img{
-        border: 6px solid white;
+      p{
+        font-size: 1.2em;
       }
-      ul{
-        color: $yellow-color;
-        font-weight: bold;
-        margin: 0;
-        padding: 0;
-      }
+
 // Lightbox gallery
       #nav {
         width:100%;
@@ -144,6 +129,8 @@ body.two_col{
         top:20%;
         left:35%;
       }
+
     }
+
   }
 }

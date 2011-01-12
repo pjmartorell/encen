@@ -13,9 +13,6 @@ body.two_col{
       @include column(15);
       @include append(1);
       @include prepend(1);
-      #galeria1{
-        @include span(6);
-      }
     }
   }
 }
