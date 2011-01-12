@@ -71,22 +71,28 @@ body.two_col{
         font-style: italic;
       }
       h1{
-        color: $extra-dark-blue;
+        @include header_style;
         text-align: center;
-        font-family: $title-font-family;
         font-size: 2.6em;
+      }
+      h2{
+        @include header_style;
+      }
+      h3{
+        @include header_style;
+        font-size: 1.6em;
       }
       p{
         font-size: 1.2em;
       }
       ul.services{
         color:$yellow-color;
-        font-size: 1.1em;
+        font-size: 1.2em;
         list-style: none;
         padding-left: 0;
         li{
           background-image:url("/images/dot.png");
-          background-position:left center;
+          background-position:left top;
           background-repeat:no-repeat;
           list-style:none outside none;
           padding-left: 20px;

@@ -34,3 +34,9 @@ $title-font-family: "london";
   height: 2em;
   overflow:hidden;
 }
+
+@mixin header_style{
+  color: $extra-dark-blue;
+  font-family: $title-font-family;
+  margin-bottom: 5px;
+}
