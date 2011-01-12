@@ -139,7 +139,7 @@ body.two_col #container h1 {
   font-family: "london";
 }
 body.two_col #container #side_bar {
-  background-color: #3186bc;
+  background-color: #2d7bad;
   padding-top: 20px;
   text-align: center;
   min-height: 755px;
@@ -162,21 +162,18 @@ body.two_col #container #side_bar #menu a {
   padding: 5px 10px;
 }
 body.two_col #container #side_bar #menu h3:hover {
-  background-color: #033d4e;
+  background-color: #0b2a3e;
 }
 body.two_col #container #side_bar #menu p {
   font-size: 1.5em;
-  border-top: 1px solid #3186bc;
+  border-top: 1px solid #2d7bad;
   margin-bottom: 0;
 }
 body.two_col #container #side_bar #menu p a {
-  color: #033d4e;
-}
-body.two_col #container #side_bar #menu p:hover {
-  background-color: #246289;
+  color: #0b2a3e;
 }
 body.two_col #container #side_bar #menu div.ui-accordion-content {
-  background-color: #369ada;
+  background-color: #88b8e0;
 }
 body.two_col #container #side_bar .contact_links_box {
   background-color: #246289;
@@ -197,23 +194,21 @@ body.two_col #container #side_bar .contact_links_box p {
   margin-bottom: 10px;
 }
 body.two_col #container #info_box {
-  background-color: #3186bc;
+  background-color: #2d7bad;
   margin-right: 0;
   padding-top: 40px;
   color: white;
   text-align: justify;
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 body.two_col #container #info_box h1 {
   font-size: 2em;
-  color: #033d4e;
+  color: #0b2a3e;
   text-align: center;
 }
 body.two_col #container #info_box .strong_word {
-  color: #033d4e;
-  font-weight: bold;
+  color: #bde0fd;
   font-style: italic;
-  font-size: 1.2em;
 }
 body.two_col #container #info_box .yellow_word {
   font-weight: normal;
@@ -242,7 +237,7 @@ body.two_col #container #info_box nav li {
   display: inline;
 }
 body.two_col #container #info_box nav img {
-  border: 5px solid #033d4e;
+  border: 5px solid #0b2a3e;
   margin-right: 12px;
 }
 body.two_col #container #info_box nav a:hover img.thumbnail {

@@ -46,8 +46,9 @@ body.two_col{
           margin-bottom: 0;
           a{color: $extra-dark-blue;}
         }
-        p:hover{background-color: #246289;}
-        div.ui-accordion-content{background-color:#369ada;}
+        div.ui-accordion-content{
+          background-color:#88b8e0;
+        }
       }
       .contact_links_box{
         background-color: $dark-blue;
@@ -72,17 +73,15 @@ body.two_col{
       padding-top: 40px;
       color: white;
       text-align: justify;
-      font-size: 1.1em;
+      font-size: 1.2em;
       h1{
         font-size: 2em;
         color: $extra-dark-blue;
         text-align: center;
       }
       .strong_word{
-        color: $extra-dark-blue;
-        font-weight: bold;
+        color: #bde0fd;
         font-style: italic;
-        font-size: 1.2em;
       }
       .yellow_word{
         font-weight: normal;
