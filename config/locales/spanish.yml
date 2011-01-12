@@ -344,35 +344,35 @@ es:
     t_punto:
       title: Toldo punto recto
       subtitle: Toldo punto recto
-      line1: "Es también conocido como toldo de brazo recto, es la siguiente gama de toldos para ventanas y balcones, teniendo la particularidad de que siempre el brazo está sujeto."
+      line1: "Es también conocido como <span class='strong_word'>toldo de brazo recto</span>, es la siguiente gama de <span class='strong_word'>toldos para ventanas y balcones</span>, teniendo la particularidad de que <span class='strong_word'>siempre el brazo está sujeto.</span>"
       line2: "Mucha variedad en lonas de alta calidad, accesorios y componentes de aluminio color blanco, también existentes en cualquier color RAL."
-      line3: "Se puede optar por 3 tipos de brazo: sin tensión, semi-tensión o tensión circular."
+      line3: "<span class='strong_word'>Se puede optar por 3 tipos de brazo: sin tensión, semi-tensión o tensión circular.</span>"
 
     brazos:
       title: Brazos articulados
       subtitle: Brazos articulados
-      line1: "Típicamente conocido como brazos invisibles, con diferentes modelos dentro de la misma gama: brazos articulados, semi-cofre, cofre y monoblock teniendo a su disposición muchos accesorios como: motor, sensor sol-viento, tejadillo, etc..."
+      line1: "Típicamente conocido como <span class='strong_word'>brazos invisibles</span>, con diferentes modelos dentro de la misma gama: brazos articulados, semi-cofre, cofre y monoblock teniendo a su disposición muchos accesorios como: motor, sensor sol-viento, tejadillo, etc..."
       line2: "Con alta gama en lonas de gran calidad, accesorios y componentes de aluminio color blanco, también existentes en cualquier color RAL."
 
     capota:
       title: Capota
       subtitle: Capota
-      line1: "Tipo de toldo especialmente indicado para la instalación en ventanas y puertas, pudiéndolo fijar frontalmente o entreparedes."
-      line2: "Normalmente se suministra con 4 arcos y su mecanismo es con cuerda de algodón y polea."
+      line1: "Tipo de toldo especialmente indicado <span class='strong_word'>para la instalación en ventanas y puertas,</span> pudiéndolo fijar frontalmente o entreparedes."
+      line2: "Normalmente <span class='strong_word'>se suministra con 4 arcos</span> y su mecanismo es con cuerda de algodón y polea."
       line3: "Con alta gama en lonas de gran calidad, accesorios y componentes de aluminio color blanco, también existentes en cualquier color RAL."
 
     corredero:
       title: Corredero
       subtitle: Corredero
-      line1: "También conocido como toldo plano o de palillería, especialmente indicado para terrazas y grandes superficies. Dispone de multitud de opciones de instalación: entreparedes, entrepared y portería o doble portería."
+      line1: "También conocido como <span class='strong_word'>toldo plano o de palillería</span>, especialmente <span class='strong_word'>indicado para terrazas y grandes superficies.</span> Dispone de multitud de opciones de instalación: entreparedes, entrepared y portería o doble portería."
       line2: "Su mecanismo es normalmente con cuerda de algodón y polea, también se puede motorizar."
       line3: "Con alta gama en lonas de gran calidad; accesorios y componentes de aluminio color blanco, también existentes en cualquier color RAL."
 
     toldo:
       title: Toldo cortinas
       subtitle: Toldo cortinas
-      line1: "Es un toldo tipo cortina corredera manual y normalmente utilizado en balcones 'tanto entero, como solo los laterales'."
-      line2: "Su fijación en el techo es con riel y poleas con gancho color plata natural o blanco."
+      line1: "Es un toldo <span class='strong_word'>tipo cortina corredera manual</span> y normalmente utilizado en balcones 'tanto entero, como solo los laterales'."
+      line2: "<span class='strong_word'>Su fijación en el techo es con riel y poleas con gancho color plata natural o blanco.</span>"
       line3: "Con alta gama en lonas de gran calidad."
 
     marquesinas:
