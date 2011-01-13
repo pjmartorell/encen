@@ -193,10 +193,13 @@ body.two_col #container #side_bar #menu p {
   margin-bottom: 0;
 }
 body.two_col #container #side_bar #menu p a {
-  color: #0b2a3e;
+  color: #225d83;
 }
 body.two_col #container #side_bar #menu div.ui-accordion-content {
-  background-color: #88b8e0;
+  background-color: #90c3ed;
+}
+body.two_col #container #side_bar #menu div.ui-accordion-content a:hover {
+  color: black;
 }
 body.two_col #container #side_bar .contact_links_box {
   background-color: #246289;
