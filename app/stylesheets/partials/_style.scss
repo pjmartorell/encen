@@ -90,8 +90,6 @@ body.two_col{
         font-size: 1.2em;
       }
       ul.services{
-        color:$yellow-color;
-        font-size: 1.2em;
         list-style: none;
         padding-left: 0;
         li{
@@ -100,6 +98,12 @@ body.two_col{
           background-repeat:no-repeat;
           list-style:none outside none;
           padding-left: 20px;
+          a{
+            color:$yellow-color;
+            font-size: 1.2em;
+            text-decoration: none;
+            &:hover{ color: $extra-dark-blue;}
+          }
         }
       }
 
