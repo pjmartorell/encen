@@ -193,13 +193,13 @@ body.two_col #container #side_bar #menu p {
   margin-bottom: 0;
 }
 body.two_col #container #side_bar #menu p a {
-  color: #225d83;
+  color: #0b2a3e;
 }
 body.two_col #container #side_bar #menu div.ui-accordion-content {
-  background-color: #90c3ed;
+  background-color: #609eca;
 }
 body.two_col #container #side_bar #menu div.ui-accordion-content a:hover {
-  color: black;
+  color: white;
 }
 body.two_col #container #side_bar .contact_links_box {
   background-color: #246289;
@@ -253,7 +253,7 @@ body.two_col #container #info_box .up_button {
   margin-right: 25px;
 }
 body.two_col #container #info_box .up_button a {
-  color: #bde0fd;
+  color: #90c3ed;
   font-size: 1.3em;
   text-decoration: none;
 }
@@ -277,7 +277,7 @@ body.two_col #container #info_box ul.services li a {
   text-decoration: none;
 }
 body.two_col #container #info_box ul.services li a:hover {
-  color: #0b2a3e;
+  color: white;
 }
 body.two_col #container #info_box #nav {
   width: 100%;

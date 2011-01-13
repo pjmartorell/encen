@@ -47,11 +47,11 @@ body.two_col{
           font-size: 1.5em;
           border-top: 1px solid $blue-color;
           margin-bottom: 0;
-          a{color: #225d83;}
+          a{color: $extra-dark-blue;}
         }
         div.ui-accordion-content{
-          background-color:#90c3ed;
-          a:hover{color: black;}
+          background-color: #609eca;
+          a:hover{color: white;}
         }
       }
       .contact_links_box{
@@ -99,7 +99,7 @@ body.two_col{
         text-align: right;
         margin-right: 25px;
         a{
-          color: #bde0fd;
+          color: #90c3ed;
           font-size: 1.3em;
           text-decoration: none;
           &:hover{color: white }
@@ -115,10 +115,10 @@ body.two_col{
           list-style:none outside none;
           padding-left: 20px;
           a{
-            color:$yellow-color;
+            color: $yellow-color;
             font-size: 1.2em;
             text-decoration: none;
-            &:hover{ color: $extra-dark-blue;}
+            &:hover{ color: white;}
           }
         }
       }
