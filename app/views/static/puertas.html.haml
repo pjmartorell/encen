@@ -5,11 +5,12 @@
 
 %p
   = t ".line1"  
+
 %ul.services
   %li
-    = t ".line2"
+    %a{:href => "#linkcorrederas"}= t".line2"
   %li
-    = t ".line3"
+    %a{:href => "#linkpracticables"}= t".line3"
 
 .separator
 
@@ -18,7 +19,7 @@
 %p
   = t ".line5"
 
-%h2
+%h2#linkcorrederas
   = t ".line6"
 
 %p
@@ -32,7 +33,7 @@
       %img.thumbnail{:alt => "estanteria paletizada", :src => "/images/puertas_correderas2.jpg"}/
 
 .separator
-%h2
+%h2#linkpracticables
   = t ".line8"
 %p
   = raw t ".line9"

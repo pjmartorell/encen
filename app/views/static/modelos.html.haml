@@ -8,17 +8,17 @@
   
 %ul.services
   %li
-    = t ".line2"
+    %a{:href => "#linkguillotina"}= t".line2"
   %li
-    = t ".line3"
+    %a{:href => "#linkpivotante"}= t".line3"
   %li
-    = t ".line4"
+    %a{:href => "#linkpremarcos"}= t".line4"
   %li
-    = t ".line5"
+    %a{:href => "#linknormalizados"}= t".line5"
 
 .separator
 
-%h2
+%h2#linkguillotina
   = t ".line6"
 %p
   = raw t ".line7"
@@ -32,7 +32,7 @@
 
 .separator
 
-%h2
+%h2#linkpivotante
   = t ".line9"
 %p
   = raw t ".line10"
@@ -48,7 +48,7 @@
     
 .separator
 
-%h2
+%h2#linkpremarcos
   = t ".line12"
 %p
   = raw t ".line13"
@@ -60,7 +60,7 @@
 .separator
 
 
-%h2
+%h2#linknormalizados
   = t ".line14"
 %p
   = raw t ".line15"

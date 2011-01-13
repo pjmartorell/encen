@@ -8,13 +8,13 @@
 
 %ul.services
   %li
-    = t ".line2"
+    %a{:href => "#linkconvencional"}= t".line2"
   %li
-    = t ".line3"
+    %a{:href => "#linkcompacta"}= t".line3"
   %li
-    = t ".line4"
+    %a{:href => "#linkcantilever"}= t".line4"
 
-%h2
+%h2#linkconvencional
   = t ".line5"
 %p
   = raw t ".line6"
@@ -31,7 +31,7 @@
       %img.thumbnail{:alt => "estanteria paletizada", :src => "/images/estanteria_paletizada.jpg"}/
     %li
       %img.thumbnail{:alt => "estanteria paletizada", :src => "/images/estanteria_paletizada2.jpg"}/  
-%h2
+%h2#linkcompacta
   = t ".line10"
 %p
   = raw t ".line11"
@@ -39,7 +39,7 @@
   %ul
     %li
       %img.thumbnail{:alt => "estanteria paletizada", :src => "/images/estanteria_paletizada3.jpg"}/  
-%h2
+%h2#linkcantilever
   = t ".line12"
 %p
   = raw t ".line13"

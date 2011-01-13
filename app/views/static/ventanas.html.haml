@@ -8,11 +8,11 @@
 
 %ul.services
   %li
-    = t ".line2"
+    %a{:href => "#linkcorrederas"}= t".line2"
   %li
-    = t ".line3"
+    %a{:href => "#linkpracticables"}= t".line3"
   %li
-    = t ".line4"
+    %a{:href => "#linkoscilobatientes"}= t".line4"
 
 .separator   
 %p
@@ -20,7 +20,7 @@
 %p
   = t ".line6"
 
-%h2
+%h2#linkcorrederas
   = t ".line7"
 %p
   = raw t ".line8"
@@ -32,7 +32,7 @@
       %img.thumbnail{:alt => "ventana", :src => "/images/ventanas4.jpg"}/
 
 .separator   
-%h2
+%h2#linkpracticables
   = t ".line9"
 %p
   = raw t ".line10"
@@ -45,7 +45,7 @@
       %img.thumbnail{:alt => "ventana", :src => "/images/ventanas2.jpg"}/
 
 .separator   
-%h2
+%h2#linkoscilobatientes
   = t ".line9"
 
 %nav
