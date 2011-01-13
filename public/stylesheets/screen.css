@@ -105,6 +105,11 @@ body.two_col #container #info_box {
 * html body.two_col #container #info_box {
   overflow-x: hidden;
 }
+body.two_col #container #footer {
+  width: 870px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
 
 @font-face {
   font-family: "london";
@@ -123,6 +128,15 @@ body.two_col #container #info_box {
   height: 1em;
   margin-bottom: 4em;
   margin-top: 1em;
+  clear: both;
+  overflow: hidden;
+}
+
+.footer_line {
+  background-image: url("/images/line.jpg");
+  background-repeat: repeat-x;
+  height: 1em;
+  margin-top: 3em;
   clear: both;
   overflow: hidden;
 }
@@ -150,6 +164,13 @@ body.two_col #container img {
 body.two_col #container #side_bar {
   text-align: center;
   margin-right: 0;
+}
+body.two_col #container #side_bar a {
+  color: white;
+  text-decoration: none;
+}
+body.two_col #container #side_bar a:hover {
+  color: #ffc325;
 }
 body.two_col #container #side_bar #menu h3 {
   background-color: #246289;
@@ -308,6 +329,17 @@ body.two_col #container #info_box li[id]:target a {
   position: absolute;
   top: 20%;
   left: 35%;
+}
+body.two_col #container #footer {
+  margin-bottom: 20px;
+  text-align: center;
+}
+body.two_col #container #footer a {
+  color: #0b2a3e;
+  text-decoration: none;
+}
+body.two_col #container #footer a:hover {
+  color: white;
 }
 
 body {

@@ -14,5 +14,10 @@ body.two_col{
       @include append(1);
       @include prepend(1);
     }
+    #footer{
+      @include span(22);
+      @include append(1);
+      @include prepend(1);
+    }
   }
 }

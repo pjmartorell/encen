@@ -36,13 +36,17 @@
           %p
             = t "address"
           %p
-            = t "email"
+            <a href="mailto: estanteriashorta@gmail.com">estanteriashorta@gmail.com</a>
 
       #info_box
         = yield
 
+      #footer
+        .footer_line
+        %a{:href => "http://itnig.net/", :title => "= t('itnig')"}= t('itnig')
+
     = render 'shared/footer'
-    %script{:type => "text/javascript", :src  => "http://www.google.com/jsapi?key=ABQIAAAALy3hj-F80ucolZq1sevJGxQy9TusGK6D_dw7xKWtcTJbKPyiEhQ2HXkEN9UJJowAVIun52JrUbnugQ"}
+    %script{:type => "text/javascript", :src  => "http://www.google.com/jsapi?key=ABQIAAAA0ylfVAz-VO81YNZU6tZcBBSxUDnN4mzci7mrrKHTNRePWIcWxxQ68IY1ODr7ntarN83XczFfpt9r_A"}
     :javascript
       google.load("jquery", "1.4.2")
       google.load("jqueryui","1.8.7")

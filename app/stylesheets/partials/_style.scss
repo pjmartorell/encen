@@ -24,6 +24,11 @@ body.two_col{
     #side_bar{
       text-align: center;
       margin-right: 0;
+      a{
+        color:white;
+        text-decoration:none;
+        &:hover{color:$yellow-color;}
+      }
       #menu{
         h3{
           background-color: $dark-blue;
@@ -167,6 +172,15 @@ body.two_col{
         left:35%;
       }
 
+    }
+    #footer{
+      margin-bottom: 20px;
+      text-align: center;
+      a{
+        color:$extra-dark-blue;
+        text-decoration: none;
+        &:hover{ color: white;}
+      }
     }
 
   }
