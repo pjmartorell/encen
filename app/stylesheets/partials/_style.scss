@@ -89,6 +89,16 @@ body.two_col{
       p{
         font-size: 1.2em;
       }
+      .up_button{
+        text-align: right;
+        margin-right: 25px;
+        a{
+          color: #bde0fd;
+          font-size: 1.3em;
+          text-decoration: none;
+          &:hover{color: white }
+        }
+      }
       ul.services{
         list-style: none;
         padding-left: 0;

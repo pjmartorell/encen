@@ -40,3 +40,13 @@ $title-font-family: "london";
   font-family: $title-font-family;
   margin-bottom: 5px;
 }
+
+.line_separator{
+  background-image: url("/images/line.jpg");
+  background-repeat: repeat-x;
+  height: 1em;
+  margin-bottom: 4em;
+  margin-top: 1em;
+  clear:both;
+  overflow:hidden;
+}

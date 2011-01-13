@@ -117,6 +117,16 @@ body.two_col #container #info_box {
   overflow: hidden;
 }
 
+.line_separator {
+  background-image: url("/images/line.jpg");
+  background-repeat: repeat-x;
+  height: 1em;
+  margin-bottom: 4em;
+  margin-top: 1em;
+  clear: both;
+  overflow: hidden;
+}
+
 body.two_col {
   margin: 0 auto;
 }
@@ -213,6 +223,18 @@ body.two_col #container #info_box h3 {
 }
 body.two_col #container #info_box p {
   font-size: 1.2em;
+}
+body.two_col #container #info_box .up_button {
+  text-align: right;
+  margin-right: 25px;
+}
+body.two_col #container #info_box .up_button a {
+  color: #bde0fd;
+  font-size: 1.3em;
+  text-decoration: none;
+}
+body.two_col #container #info_box .up_button a:hover {
+  color: white;
 }
 body.two_col #container #info_box ul.services {
   list-style: none;
