@@ -12,7 +12,6 @@ javascripts:
   frontend:
     - public/javascripts/rails.js
     - public/javascripts/application.js
-    #- public/javascripts/jquery.rest_in_place.js
   backoffice:
     - public/javascripts/rails.js
 

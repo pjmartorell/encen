@@ -1,5 +1,14 @@
 = title t(".title")
 
-%p
+%p#contact
   = t ".line1"
 
+#map_canvas
+
+= content_for :custom_js do
+  :javascript
+     $(document).ready(function(){
+       initializeMaps()           
+     } )
+   
+  

@@ -20,6 +20,7 @@
     = include_stylesheets :frontend_print, :media => :print
     /[if lt IE 8 ]
       = stylesheet_link_tag 'ie8', :media => 'screen, projection'
+
   %body.two_col
     #container
       #header
@@ -36,19 +37,18 @@
           %p
             = t "address"
           %p
-            <a href="mailto: estanteriashorta@gmail.com">estanteriashorta@gmail.com</a>
+            <a href="mailto:estanteriashorta@gmail.com">estanteriashorta@gmail.com</a>
 
       #info_box
         = yield
 
       #footer
-        .footer_line
-        %a{:href => "http://itnig.net/", :title => "= t('itnig')"}= t('itnig')
-
-    = render 'shared/footer'
-    %script{:type => "text/javascript", :src  => "http://www.google.com/jsapi?key=ABQIAAAA0ylfVAz-VO81YNZU6tZcBBSxUDnN4mzci7mrrKHTNRePWIcWxxQ68IY1ODr7ntarN83XczFfpt9r_A"}
-    :javascript
-      google.load("jquery", "1.4.2")
-      google.load("jqueryui","1.8.7")
-    = include_javascripts :frontend
+        = render 'shared/footer'
+      
+      %script{:src => "http://www.google.com/jsapi?key=ABQIAAAA0ylfVAz-VO81YNZU6tZcBBQmeMglRFmXFoqbXzJidjd95_9FnxR5zSzQGNAQ-NQNKLi_4635iBfvLA", :type => "text/javascript"}
+      :javascript
+        google.load("jquery", "1.4.2");
+        google.load("jqueryui", "1.8.8")
+    %script{:src => "http://maps.google.com/maps/api/js?sensor=false", :type => "text/javascript"}
+    = javascript_include_tag "application", :cache => true
     = yield :custom_js

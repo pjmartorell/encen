@@ -13,6 +13,9 @@ $(document).ready(function() {
    
 });
 
+
+
+// SCRROLL
 function filterPath(string) {
 return string
   .replace(/^\//,'')
@@ -57,4 +60,30 @@ function scrollableElement(els) {
     }
   }
   return [];
+}
+
+function initializeMaps() {
+	var point = new google.maps.LatLng(41.392619,2.177183);
+  var mapOptions = {
+		center: point,
+    zoom: 14,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    streetViewControl: false,
+	  navigationControl: true,
+	  mapTypeControl: false,
+	  scaleControl: false
+  };
+
+  var map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+	var infowindow = new google.maps.InfoWindow({
+	    content: "<div id='infowindow'><h3>Estanterías Horta</h3><p style='color:black'>C/ Horta, 73 <br />08032 Barcelona</p></div>"
+	});
+
+	var marker = new google.maps.Marker({
+	    position: point,
+	    map: map,
+	    title:"Estanterías Metálicas Horta"
+	});
+
+  infowindow.open(map,marker);
 }

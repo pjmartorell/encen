@@ -172,6 +172,18 @@ body.two_col{
         top:20%;
         left:35%;
       }
+// Map
+      #contact{
+        @include header_style;
+        font-size: 1.6em;
+      }
+      
+      #map_canvas{
+        outline:2px solid $dark-blue;
+        border: 1px solid white;
+        height: 350px;
+        width: 600px;
+      }
 
     }
     #footer{

@@ -333,6 +333,18 @@ body.two_col #container #info_box li[id]:target a {
   top: 20%;
   left: 35%;
 }
+body.two_col #container #info_box #contact {
+  color: #0b2a3e;
+  font-family: "london";
+  margin-bottom: 5px;
+  font-size: 1.6em;
+}
+body.two_col #container #info_box #map_canvas {
+  outline: 2px solid #246289;
+  border: 1px solid white;
+  height: 350px;
+  width: 600px;
+}
 body.two_col #container #footer {
   margin-bottom: 20px;
   text-align: center;
