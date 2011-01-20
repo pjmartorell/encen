@@ -13,10 +13,8 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
-unless ENV['HEROKU']
-  group :production, :staging do
-    gem 'mysql2'
-  end
+group :production, :staging do
+  gem 'mysql2'
 end
 
 group :production do

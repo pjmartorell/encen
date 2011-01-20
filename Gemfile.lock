@@ -75,6 +75,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.16)
+    mysql2 (0.2.6)
     orm_adapter (0.0.3)
     polyglot (0.3.1)
     rack (1.2.1)
@@ -128,6 +129,7 @@ DEPENDENCIES
   haml-rails
   i18n (~> 0.5.0)
   interpret!
+  mysql2
   rails (~> 3.0.0)
   rspec-rails
   sqlite3-ruby
