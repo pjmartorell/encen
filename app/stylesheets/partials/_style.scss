@@ -12,8 +12,9 @@ body.two_col{
       height: 80px;
       margin-bottom: 30px;
       padding-top: 30px;
-      h1{
+      h1 a{
         color: white;
+        text-decoration: none;
       }
     }
     img{
@@ -188,7 +189,7 @@ body.two_col{
     }
     #footer{
       margin-bottom: 20px;
-      text-align: center;
+      text-align: right;
       a{
         color:$extra-dark-blue;
         text-decoration: none;
