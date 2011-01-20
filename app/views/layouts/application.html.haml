@@ -16,10 +16,10 @@
     %meta{:content => t(:geo_position), :name => "geo.position"}
     %meta{:content => t(:icbm), :name => "ICBM"}
     = csrf_meta_tag
-    = include_stylesheets :frontend_screen, :media => :screen
-    = include_stylesheets :frontend_print, :media => :print
+    = stylesheet_link_tag 'screen', :media => :screen
+    = stylesheet_link_tag 'print', :media => :print
     /[if lt IE 8 ]
-      = stylesheet_link_tag 'ie8', :media => 'screen, projection'
+      = stylesheet_link_tag 'ie', :media => 'screen, projection'
   %body
     = render 'shared/header'
     = render 'shared/menu'
@@ -30,5 +30,5 @@
     %script{:type => "text/javascript", :src  => "http://www.google.com/jsapi?key=ABQIAAAALy3hj-F80ucolZq1sevJGxQy9TusGK6D_dw7xKWtcTJbKPyiEhQ2HXkEN9UJJowAVIun52JrUbnugQ"}
     :javascript
       google.load("jquery", "1.4.2")
-    = include_javascripts :frontend
+    = javascript_include_tag "rails", "application"
     = yield :custom_js
