@@ -13,6 +13,12 @@ group :development, :test do
   gem 'rspec-rails'
 end
 
+unless ENV['HEROKU']
+  group :production, :staging do
+    gem 'mysql2'
+  end
+end
+
 group :production do
   gem "exception_notification", :git => "http://github.com/rails/exception_notification.git", :require => 'exception_notifier'
 end
