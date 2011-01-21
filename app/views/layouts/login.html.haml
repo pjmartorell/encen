@@ -3,9 +3,9 @@
   %head
     %title= yield :title
     = csrf_meta_tag
-    = stylesheet_link_tag "private"    
+    = stylesheet_link_tag "private"
     /[if lt IE 8 ]
-      = stylesheet_link_tag 'ie8', :media => 'screen, projection'
+      = stylesheet_link_tag 'ie', :media => 'screen, projection'
 
   %body.one_col
     #container

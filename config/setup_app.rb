@@ -2,7 +2,7 @@ if ENV['HEROKU'].present?
   keys = [:name,
           :hostname,
           :exception_notification_sender,
-          :exception_notification_recipients,
+          :exception_notification_recipient,
           :mail__user_name,
           :mail__password,
           :mail__smtp__address,

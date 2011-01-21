@@ -13,6 +13,7 @@ class User < ActiveRecord::Base
     false
   end
 
+
   def to_s
     login
   end
