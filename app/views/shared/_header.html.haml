@@ -1,3 +1,50 @@
 %h1
   = section_link_to t(:header), root_path
-.separator
+
+#s3slider
+  %ul#s3sliderContent
+    %li.s3sliderImage
+      %img{:src => "/images/slide1.jpg"}
+      %span Estantería metálica
+    %li.s3sliderImage
+      %img{:src => "/images/slide2.jpg"}
+      %span Veleta o sensor sol-viento       
+    %li.s3sliderImage
+      %img{:src => "/images/slide3.jpg"}
+      %span Toldo Corredero
+    %li.s3sliderImage
+      %img{:src => "/images/slide4.jpg"}
+      %span Estantería
+    %li.s3sliderImage
+      %img{:src => "/images/slide5.jpg"}
+      %span Persianas   
+    %li.s3sliderImage
+      %img{:src => "/images/slide7.jpg"}
+      %span Persiana PVC
+    %li.s3sliderImage
+      %img{:src => "/images/slide8.jpg"}
+      %span Brazo articulado    
+    %li.s3sliderImage
+      %img{:src => "/images/slide9.jpg"}
+      %span Rejas
+    %li.s3sliderImage
+      %img{:src => "/images/slide10.jpg"}
+      %span Estantería
+
+  
+  
+      
+      
+      
+      
+      
+      
+      
+
+= content_for :custom_js do
+  :javascript
+    $(document).ready(function() {
+      $('#s3slider').s3Slider({ 
+         timeOut: 4000 
+      })
+    })

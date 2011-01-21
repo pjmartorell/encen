@@ -13,6 +13,9 @@
 // Import the non-default scaffolding module.
 @import "blueprint/scaffolding";
 
+// Slideshow
+@import "partials/slideshow";
+
 // Generate the blueprint framework according to your configuration:
 @include blueprint;
 
