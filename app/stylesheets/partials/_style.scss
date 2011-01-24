@@ -3,6 +3,7 @@ body.two_col{
   #container{
     background-color: $blue-color;
     font-size: 1em;
+    
 
 //HEADER
 
@@ -77,10 +78,11 @@ body.two_col{
     #info_box{
       margin-right: 0;
       color: white;
-      .strong_word{
+      strong{
         color: #bde0fd;
         font-style: italic;
       }
+
       h1{
         @include header_style;
         text-align: center;
