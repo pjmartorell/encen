@@ -77,7 +77,7 @@ es:
 
   static:
     index:
-      title: "Inicio -- Ejemplo Plan Basico"
+      title: "Estanterias Metalicas : Horta"
       line1: "Bienvenidos a Estanterías Metálicas Horta"
       line2: "Nuestra voluntad por servir cada día mejor a nuestros clientes nos hace desarrollar constantemente nuevos servicios."
       line3: "Ofrecemos <strong>los mejores precios trabajando con las primeras marcas.</strong>"
@@ -100,16 +100,16 @@ es:
       line4: Estantería de comercio
       line5: Estantería sin tornillos
       line6: Estantería de acero inoxidable
-      line7: Estantería de ángulo ranurado 
+      line7: Estantería de ángulo ranurado
       line8: "Es la <strong>típica estantería de Mecano</strong> que su resistencia máxima es de 80 a 100Kg. por estante."
       line9: "Las medidas son desde: 600 x 300mm. hasta 1000 x 600mm. en múltiplos de 100mm. Normalmente utilizamos ángulos de 40 x 40mm. siendo la medida de: 2000, 2500 o 3000mm. Los estantes son de chapa, atornillados por sus esquinas a los ángulos por tornillos y tuercas. "
       line10: "Es la estantería ideal para cargas ligeras, almacenes, comercios, trasteros, garajes, etc... "
       line11: "Teniendo una <strong>gran diversidad de accesorios</strong> como: cajones, divisiones, ganchos para estantes, refuerzos, escuadras, tapas laterales y traseras, etc... Todo ello en color gris o galvanizado. Disponemos también de ángulos, estantes y tornillos con tuerca en acero inoxidable para alimentación."
-      line12: Estantería de comercio 
+      line12: Estantería de comercio
       line13: "Es una <strong>estantería serie blanca muy versatil</strong>, pensada para tiendas, supermercados, grandes almacenes, multiprecios, expositores, etc... <strong>Con gran variedad de accesorios</strong> tales como: diferentes tipos de cartelas, cremalleras, columnas, portaprecios, pies de columna, zócalos, paneles de fondo liso, paneles de fondo perforado, viseras normales, viseras con espejo, todo tipo de ganchos, buchs, soporte cajas de fruta, expositores, percheros, cestos, chaflanes, etc... "
       line14: "Teniendo a su favor también una gran variedad de estantes: estante recto, estante inclinado, estante decorativo, estante para libros con separadores, estante revista-calzado, estante soporte cristal, estante zig-zag, estante parrilla, etc... "
       line15: "El <strong>color habitual es el blanco, pero disponemos de 6 colores más en stock</strong> que son: azul, naranja, rojo, amarillo, negro y verde (bajo pedido y cantidad disponemos de toda la carta de colores RAL a consultar el plazo de entrega)."
-      line16: Estantería sin tornillos 
+      line16: Estantería sin tornillos
       line17: "Es una <strong>estantería sin tornillos de fácil y rápido montaje similar al ángulo ranurado</strong>; tiene una capacidad de carga de 100 a 250Kg por estante (tanto sean estantes metálicos como de madera) repartidos uniformemente, pudiendo disponer de todos los accesorios de la estantería de ángulo ranurado como cajones, divisiones, etc..."
       line18: "<strong>Se dispone de 3 partes fundamentales: los ángulos o puntales según deseo del cliente; los largueros y los estantes (metálicos, de madera aglomerada o melamina de 16mm. de grosor).</strong>"
       line19: "Los <strong>ángulos y los puntales</strong> (lo que define la altura de la estantería) tienen una altura de 1000 hasta 4000mm. en múltiplos de 500mm. siendo de color azul 5015, gris 7046, blanco 9003 o (galvanizado en caso de los ángulos) y (plata 9006 en caso de los puntales). "
@@ -122,7 +122,7 @@ es:
       line26: "Es una <strong>estantería pensada para: cuartos fríos, almacenes, cocinas, cámaras frigoríficas, congeladores, etc... </strong>"
       line27: "Fabricada con bastidores y largueros de acero inoxidable con 3 tipos de bandejas: bandeja de acero inoxidable lisa, bandeja de acero inoxidable perforada y bandeja de polipropileno azul para uso alimentario. "
       line28: "Los niveles se pueden modificar cada 200mm. de altura sin tornillos dejando 142mm. de agujero luz como mínimo y resistiendo un máximo de 200Kg. por estante."
-      
+
     cargamedia:
       title: Carga Media
       subtitle: Carga Media
@@ -140,7 +140,7 @@ es:
       line12: "De madera (aglomerado o melamina) se pueden hacer de múltiples combinaciones, siempre teniendo en cuenta la medida de los largueros (recomendación: no pasar de 1200mm. de fondo)."
       line13: "Los metálicos pueden ser de 900mm. de ancho x 300mm. de fondo hasta 2400mm. de ancho x 1200mm. de fondo; siendo siempre galvanizados y en placas múltiples de 300mm. de ancho."
       line14: "<strong>Tiene múltiples accesorios</strong> como: piés de plástico, piés metálicos para anclaje, piés metálicos con ruedas, soporte barra para colgar perchas, bobinas, etc.... y los cuerpos o módulos de las estanterías se unen entre sí por pletinas de unión."
-      line15: Estantería de media carga 
+      line15: Estantería de media carga
       line16: "Es conocida también como <strong>estantería Picking</strong>, es una <strong>estantería de carga media</strong> con bastante resistencia, es tan versátil y robusta que en ocasiones se utiliza como parte inferior de altillos con poco peso. Está compuesta por bastidores, largueros habiendo varios tipos de ellos como: Z80, Z60, Tubo, colgador de perchas, Z80 invertido o Z80 para sobre de mostrador o mesa. "
       line17: "Los estantes pueden ser: paneles metálicos o tableros de aglomerado, melamina, DM, etc."
       line18: "Los bastidores son de color azul oscuro y tienen una medida de: 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500 y 6000mm. de alto x 400, 600, 800, 1000 y 1200mm. de fondo. "
@@ -153,7 +153,7 @@ es:
       line2: Estantería convencional o paletizada
       line3: Estantería compacta
       line4: Estantería Cantilever
-      line5: Estantería convencional o paletizada 
+      line5: Estantería convencional o paletizada
       line6: "Es conocida como <strong>estantería de gran carga o paletización</strong>, compuesta por bastidores y largueros habiendo varios tipos de ellos como: tubo convencional, Z de paletización, trasero para el tope del palet o larguero para altillo."
       line7: "Como su nombre indica está <strong>pensada para la ubicación de palets, tableros, bidones y multitud de cargas pesadas.</strong> Es decir la solución más adecuada para la rápida localización y acceso directo a cada producto. "
       line8: "Los bastidores en color azul oscuro tienen una medida de: 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500 y 6000mm. de alto nomalmente (pudiéndose fabricar hasta los 12000mm. bajo pedido) x 800, 1000, 1100 y 1200mm. de fondo."
@@ -229,7 +229,7 @@ es:
       line6: "Al igual que los cristales que disponemos de gran variedad de ellos: monolíticos, cámara, laminados, con cuarterones tanto con barrotillos o viselado, panel sandwich o melamina sustituyendo al cristal. "
       line7: "Ventanas correderas "
       line8: "Las <strong>correderas:</strong> marco de 61mm., marco de 75mm., perimetral de 62mm., perimetral de 75mm., perimetral de 100mm. y rotura térmica de 83mm."
-      line9: Ventanas practicables 
+      line9: Ventanas practicables
       line10: "Las <strong>practicables:</strong> marco de 40 x 26mm., marco de 40 x 60mm. marco redondo, marco de 40 x 46mm., marco de 40 x 45mm. alta seguridad y rotura térmica de 53mm."
       line11: "Ventanas oscilobatientes"
 
@@ -251,7 +251,7 @@ es:
       line1: "Se hacen este tipo de cerramientos por su <strong>elegancia y adaptabilidad, totalmente a medida de las necesidades;</strong> tanto en puertas practicables como en correderas; diversos colores y acabados."
       line2: "Sistema europeo."
       line3: "El color básico de fabricación es el blanco pero disponemos de toda la carta de colores RAL incluidos los imitación madera, con gran variedad de acabados al gusto del cliente."
-        
+
     mamparas:
       title: mamparas
       subtitle: Mamparas de baño
@@ -535,7 +535,7 @@ es:
       line2: "Por su robustez es <strong>ideal para ventanas y puertas de fácil acceso.</strong>"
       line3: "Se fabrica con marco de 40 x 8mm. macizo y barrotes cuadrados de 16 x 16mm. macizos."
       line4: "Los acabados son: zincado plata, blanco o cualquier color RAL."
-      
+
     cortinas:
       title: cortinas
       line1: "Disponemos de 5 modelos básicos de cortinas, todos ellos con una amplia gama de telas y colores: "
@@ -635,7 +635,7 @@ es:
       subtitle: Motor tubular para persianas y toldos
       line1: "Son motores tubulares que van dentro del eje vía radio o con pulsador con diferentes grosores y accesorios: de 35mm. para eje de 40, de 45mm. para eje de 60 y de 55mm. para eje de 70. "
       line2: "Con resisténcia de 15Kg hasta 130Kg según modelo."
-    
+
     pulsador:
       title: Pulsador-Inversor
       subtitle: Pulsador-Inversor
