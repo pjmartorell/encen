@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/rogercampos/interpret.git
-  revision: bf8cab9c1d0774a795b7199ca96d8851a52402f6
+  revision: 16f15df9f43f8dbe9401b4977d451a92b5740e88
   specs:
     interpret (0.1.0)
       best_in_place (>= 0.1.7)
@@ -55,7 +55,7 @@ GEM
       activemodel (= 3.0.3)
       activesupport (= 3.0.3)
     activesupport (3.0.3)
-    arel (2.0.6)
+    arel (2.0.7)
     bcrypt-ruby (2.1.2)
     best_in_place (0.1.7)
       rails (~> 3.0.0)
@@ -74,7 +74,7 @@ GEM
     i18n (0.5.0)
     i18n-active_record (0.0.2)
       i18n (>= 0.5.0)
-    mail (2.2.12)
+    mail (2.2.15)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
@@ -86,7 +86,7 @@ GEM
     rack (1.2.1)
     rack-mount (0.6.13)
       rack (>= 1.0.0)
-    rack-test (0.5.6)
+    rack-test (0.5.7)
       rack (>= 1.0)
     rails (3.0.3)
       actionmailer (= 3.0.3)
@@ -119,7 +119,7 @@ GEM
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
-    tzinfo (0.3.23)
+    tzinfo (0.3.24)
     warden (1.0.3)
       rack (>= 1.0.0)
     will_paginate (3.0.pre2)

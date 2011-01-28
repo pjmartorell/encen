@@ -62,6 +62,7 @@ Encen::Application.routes.draw do
   match 'motor_tubular', :to => "static#motor_tubular"
   match 'pulsador', :to => "static#pulsador"
   match 'veleta', :to => "static#veleta"
-  match 'admin', :to => "admin/translations#index"
+
+  match 'admin', :to => "interpret/translations#index"
   root :to => "static#index"
 end
