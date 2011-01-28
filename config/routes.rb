@@ -4,6 +4,6 @@ Encen::Application.routes.draw do
   match 'contact', :to => "static#contact"
   match 'gallery', :to => "static#gallery"
 
-  match 'admin', :to => "admin/translations#index"
+  match 'admin', :to => "interpret/translations#index"
   root :to => "static#index"
 end
