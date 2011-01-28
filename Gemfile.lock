@@ -9,12 +9,14 @@ GIT
 
 GIT
   remote: git://github.com/rogercampos/interpret.git
-  revision: 6194271c83b9ad0c05f902c605806f357d38c27c
+  revision: bf8cab9c1d0774a795b7199ca96d8851a52402f6
   specs:
     interpret (0.1.0)
+      best_in_place (>= 0.1.7)
       i18n (~> 0.5.0)
       i18n-active_record
       rails (~> 3.0.3)
+      will_paginate (>= 3.0.pre2)
       ya2yaml (>= 0.30.0)
 
 GIT
@@ -55,6 +57,8 @@ GEM
     activesupport (3.0.3)
     arel (2.0.6)
     bcrypt-ruby (2.1.2)
+    best_in_place (0.1.7)
+      rails (~> 3.0.0)
     builder (2.1.2)
     compass (0.10.6)
       haml (>= 3.0.4)
@@ -68,7 +72,8 @@ GEM
       haml (~> 3.0)
       railties (~> 3.0)
     i18n (0.5.0)
-    i18n-active_record (0.0.1)
+    i18n-active_record (0.0.2)
+      i18n (>= 0.5.0)
     mail (2.2.12)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
@@ -117,6 +122,7 @@ GEM
     tzinfo (0.3.23)
     warden (1.0.3)
       rack (>= 1.0.0)
+    will_paginate (3.0.pre2)
     ya2yaml (0.30)
 
 PLATFORMS
