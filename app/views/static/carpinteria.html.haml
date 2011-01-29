@@ -1,4 +1,6 @@
 = title t(".title")
+= meta_keywords t('.metakeywords')
+= meta_description t('.metadescription')
 
 %h1#top
   = t ".subtitle"
@@ -32,7 +34,7 @@
     = section_link_to t(:".line13"), mamparas_path
   %li
     = section_link_to t(:".line14"), mosquiteras_path
-    
+
 .separator
 
 %nav
@@ -54,7 +56,7 @@
 
 %p
   = t ".line15"
-  
+
 .up_button
   %a{:href => "#top"} Arriba
 .separator

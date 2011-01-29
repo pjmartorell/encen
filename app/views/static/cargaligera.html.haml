@@ -1,4 +1,6 @@
 = title t(".title")
+= meta_keywords t('.metakeywords')
+= meta_description t('.metadescription')
 
 %h1#top
   = t ".subtitle"
@@ -7,7 +9,7 @@
   = t ".line1"
 %p
   = t ".line2"
-  
+
 %ul.services
   %li
     %a{:href => "#linkangulos"}= t".line3"
@@ -22,7 +24,7 @@
 
 %h2#linkangulos
   = t ".line7"
-  
+
 %nav
   %ul
     %li
@@ -51,7 +53,7 @@
     %li
       %img.thumbnail{:alt => "estanteria gondola", :src => "/images/estanteria_gondola.jpg"}/
     %li
-      %img.thumbnail{:alt => "estanteria fruta", :src => "/images/estanteria_fruta.jpg"}/  
+      %img.thumbnail{:alt => "estanteria fruta", :src => "/images/estanteria_fruta.jpg"}/
 %p
   = raw t ".line13"
 %p

@@ -1,4 +1,6 @@
 = title t(".title")
+= meta_keywords t('.metakeywords')
+= meta_description t('.metadescription')
 
 %h1#top
   = t ".subtitle"
@@ -11,7 +13,7 @@
   = raw t ".line3"
 %p
   = raw t ".line4"
-  
+
 %ul.services
   %li
     = section_link_to t(:".line6"), t_stor_varilla_path

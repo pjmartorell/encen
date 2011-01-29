@@ -1,11 +1,13 @@
 = title t(".title")
+= meta_keywords t('.metakeywords')
+= meta_description t('.metadescription')
 
 %h1#top
   = t ".subtitle"
 
 %p
   = raw t ".line1"
-  
+
 %ul.services
   %li
     %a{:href => "#linkstornillos"}= t".line2"
@@ -16,7 +18,7 @@
 
 %h2#linkstornillos
   = t ".line4"
-  
+
 %nav
   %ul
     %li
@@ -37,7 +39,7 @@
   = raw t ".line10"
 %p
   = raw t ".line11"
-  
+
 %ul.services
   %li
     = t ".line12"
@@ -45,7 +47,7 @@
     = t ".line13"
 
 .separator
-    
+
 %p
   = raw t ".line14"
 

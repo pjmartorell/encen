@@ -1,4 +1,6 @@
 = title t(".title")
+= meta_keywords t('.metakeywords')
+= meta_description t('.metadescription')
 
 %h1#top
   = t ".subtitle"
@@ -14,7 +16,7 @@
   %li
     %a{:href => "#linkoscilobatientes"}= t".line4"
 
-.separator   
+.separator
 %p
   = t ".line5"
 %p
@@ -39,7 +41,7 @@
 .up_button
   %a{:href => "#top"} Arriba
 .line_separator
-   
+
 %h2#linkpracticables
   = t ".line9"
 %p
@@ -63,7 +65,7 @@
   %ul
     %li
       %img.thumbnail{:alt => "ventana", :src => "/images/ventanas3.jpg"}/
-      
+
 .up_button
   %a{:href => "#top"} Arriba
 .separator

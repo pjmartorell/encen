@@ -1,11 +1,13 @@
 = title t(".title")
+= meta_keywords t('.metakeywords')
+= meta_description t('.metadescription')
 
 %h1#top
   = t ".subtitle"
 
 %p
   = raw t ".line1"
-  
+
 %ul.services
   %li
     %a{:href => "#linkguillotina"}= t".line2"
@@ -40,14 +42,14 @@
   = raw t ".line10"
 %p
   = t ".line11"
-  
+
 %nav
   %ul
     %li
       %img.thumbnail{:alt => "modelos", :src => "/images/modelos4.jpg"}/
     %li
       %img.thumbnail{:alt => "modelos", :src => "/images/modelos5.jpg"}/
-    
+
 .up_button
   %a{:href => "#top"} Arriba
 .line_separator

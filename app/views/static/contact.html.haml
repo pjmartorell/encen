@@ -1,4 +1,6 @@
 = title t(".title")
+= meta_keywords t('.metakeywords')
+= meta_description t('.metadescription')
 
 %p#contact
   = t ".line1"
@@ -8,7 +10,7 @@
 = content_for :custom_js do
   :javascript
      $(document).ready(function(){
-       initializeMaps()           
+       initializeMaps()
      } )
-   
-  
+
+

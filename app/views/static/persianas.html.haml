@@ -1,4 +1,6 @@
 = title t(".title")
+= meta_keywords t('.metakeywords')
+= meta_description t('.metadescription')
 
 %h1
   = t ".subtitle"
@@ -15,7 +17,7 @@
   = t ".line5"
 %p
   = t ".line6"
-  
+
 %ul.services
   %li
     = section_link_to t(:".line7"), aluminio_path
