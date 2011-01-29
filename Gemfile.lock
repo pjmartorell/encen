@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/rogercampos/interpret.git
-  revision: 2e4b9e2a662777caecc94c6a5351154f94f8de40
+  revision: 715078ad80cee2336419e074fa97de57de5dceae
   specs:
     interpret (0.1.0)
       best_in_place (>= 0.1.7)
