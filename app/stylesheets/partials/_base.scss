@@ -1,10 +1,80 @@
+@import "partials/one_col";
+@import "compass/css3/font-face";
+@import "compass/css3/text-shadow";
+@import "compass/css3/box-shadow";
+@import "compass/css3/gradient";
+@import "compass/css3/border-radius";
+
+
 // Here is where you can define your constants for your application and to configure the blueprint framework.
 // Feel free to delete these if you want keep the defaults:
 
 $blueprint-grid-columns: 24;
-$blueprint-grid-width: 30px;
+$blueprint-container-size: 950px;
 $blueprint-grid-margin: 10px;
 
-// If you change your grid column dimensions
-// you can make a new grid background image from the command line like this:
-// compass grid-img 30+10x16
+// Use this to calculate the width based on the total width.
+// Or you can set !blueprint_grid_width to a fixed value and unset !blueprint_container_size -- it will be calculated for you.
+$blueprint-grid-width: ($blueprint-container-size + $blueprint-grid-margin) / $blueprint-grid-columns - $blueprint-grid-margin;
+
+$main-font-family: "gardens";
+$title-font-family: "timess";
+$promotions-font: "gabrielle";
+$main-font-size: 1em;
+$title-font-size: 1.7em;
+$main-font-color: #555;
+$gray-font-color: #666;
+
+//Extra fonts.
+@include font-face("timess", font-files("/fonts/timess.ttf", truetype), "timess.eot");
+@include font-face("gardens", font-files("/fonts/gardens.ttf", truetype), "gardens.eot");
+@include font-face("gabrielle", font-files("/fonts/gabrielle.ttf", truetype), "gabrielle.eot");
+
+.separator_1 {
+  clear:both;
+  height: 2em;
+  overflow:hidden;
+}
+
+.separator_2 {
+  clear:both;
+  height: 6em;
+  overflow:hidden;
+}
+
+.line_separator{
+  background-image: url("/images/line.jpg");
+  background-repeat: repeat-x;
+  height: 1em;
+  margin-bottom: 2em;
+  clear:both;
+  overflow:hidden;
+}
+
+
+@mixin back_button {
+  a{
+    background-image: url("/images/back_button.png");
+    background-position: 2px -33px;
+    background-repeat: no-repeat;
+    padding: 10px 0 6px 43px;
+	  &:hover {
+      background-image: url("/images/back_button.png");
+      background-position: 2px 1px;
+      color: #618C15;
+      padding-top: 9px;
+      text-decoration: none;
+	  }
+  }
+}
+
+@mixin listado_con_estilo{
+  ul{
+    margin-left: 20px;
+    li{
+      list-style: none;
+      list-style-image: url("/images/dot.png");
+      padding-bottom: 10px;
+    }
+  }
+}

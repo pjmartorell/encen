@@ -1,0 +1,63 @@
+<%= form_tag new_question_path, :remote => true, :id => "question_form" do %>
+
+<%= raw label_tag :company, raw("#{t('company')} ") %>
+<%= text_field_tag :company %>
+<br />
+
+<%= raw label_tag :name, raw("#{t('name')} <sup>*</sup>") %>
+<%= text_field_tag :name, {}, :required => true %>
+<br />
+
+<%= label_tag :email, raw("#{t('email')} <sup>*</sup>") %>
+<%= text_field_tag :email, {}, :required => true %>
+<br />
+
+<%= label_tag :phone, raw("#{t('phone')} <sup>*</sup>") %>
+<%= text_field_tag :phone, {}, :required => true %>
+<br />
+
+<%= label_tag :fax, raw("#{t('fax')}") %>
+<%= telephone_field_tag :fax %>
+<br />
+
+<%= label_tag :address, "#{t('address')}" %>
+<%= telephone_field_tag :address %>
+<br />
+
+<%= label_tag :zipcode, raw("#{t('zipcode')}") %>
+<%= telephone_field_tag :zipcode %>
+<br />
+
+<%= label_tag :city, raw("#{t('city')}") %>
+<%= text_field_tag :city %>
+<br />
+
+<%= label_tag :msg, raw("#{t('msg')} <sup>*</sup>") %>
+<%= text_area_tag :msg, {}, :required => true %>
+<div style="float:right;"><p><sup>*</sup> <%= t("required_fields") %></p></div>
+<%= submit_tag "Enviar", :class => "awesome" %> o
+<%= link_to t("cancel"), "#" ,:id => "close_facebox" %>
+
+<% end %>
+
+<%= javascript_include_tag 'rails' %>
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $("#close_facebox").click(function() {
+    jQuery(document).trigger('close.facebox')
+  })
+  $("#question_form").submit(function() {
+    if ($("input[name=name]").val() == "") $("<div class='flash_message'>" + "<%= t('name_missing') %>" +"</div>").purr()
+    else if ($("input[name=phone]").val() == "") $("<div class='flash_message'>" + "Telefono obligatorio" +"</div>").purr()
+    else if ($("input[name=email]").val() == "") $("<div class='flash_message'>" + "<%= t('email_missing') %>" +"</div>").purr()
+    else if ($("#msg").val() == "") $("<div class='flash_message'>" + "<%= t('msg_missing') %>" +"</div>").purr()
+    else {
+      $("#facebox").fadeOut()
+      $("<div class='flash_message'>" + "<%= t('sending_message') %>" +"</div>").purr()
+      return true
+    }
+    return false
+  })
+})
+</script>

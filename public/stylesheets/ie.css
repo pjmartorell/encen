@@ -8,73 +8,62 @@ body {
 html > body p code {
   *white-space: normal;
 }
-
-.container {
+body .container {
   text-align: left;
 }
-
-sup {
+body sup {
   vertical-align: text-top;
 }
-
-sub {
+body sub {
   vertical-align: text-bottom;
 }
-
-hr {
+body hr {
   margin: -8px auto 11px;
 }
-
-img {
+body img {
   -ms-interpolation-mode: bicubic;
 }
-
-fieldset {
+body fieldset {
   padding-top: 0;
 }
-
-textarea {
+body textarea {
   overflow: auto;
 }
-
-input.text {
+body input.text {
   margin: 0.5em 0;
   background-color: white;
   border: 1px solid #bbbbbb;
 }
-input.text:focus {
+body input.text:focus {
   border: 1px solid #666666;
 }
-input.title {
+body input.title {
   margin: 0.5em 0;
   background-color: white;
   border: 1px solid #bbbbbb;
 }
-input.title:focus {
+body input.title:focus {
   border: 1px solid #666666;
 }
-input.checkbox {
+body input.checkbox {
   position: relative;
   top: 0.25em;
 }
-input.radio {
+body input.radio {
   position: relative;
   top: 0.25em;
 }
-input.button {
+body input.button {
   position: relative;
   top: 0.25em;
 }
-
-textarea {
+body textarea {
   margin: 0.5em 0;
 }
-
-select {
+body select {
   margin: 0.5em 0;
 }
-
-button {
+body button {
   position: relative;
   top: 0.25em;
 }

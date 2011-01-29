@@ -1,0 +1,494 @@
+body{
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+#container{
+  @include box-shadow(#ccc, 0, -29px, 25px, 1px);
+  font-family: $main-font-family;
+  color: #333;
+  text-align: justify;
+
+// HEADER
+
+  #header{
+    background-image: url("/images/header.jpg");
+    height: 473px;
+
+    #logo{
+      margin-bottom: 140px;
+      margin-left: 600px;
+      margin-top: -190px;
+    }
+
+// MENU
+
+    #menu{
+      padding-top: 105px;
+      margin-bottom: 35px;
+      li{
+        display: inline;
+        padding: 5px 15px;
+        margin-right: -10px;
+      }
+      li#home{background-color: #85be1b;}
+      li#service{background-color: #73a417;}
+      li#prom{background-color: #5f8813;}
+      li#contact{background-color: #49690f;}
+      li#administradores{background-color: #3c560c;}
+
+      a{
+        font-family: $title-font-family;
+        font-size: 1.1em;
+        color: white;
+        text-decoration: none;
+      }
+
+    }
+    h1{
+      a{
+        color: white;
+        font-size: 3em;
+        font-family: $title-font-family;
+        text-decoration: none;
+        margin-left: 166px;
+				#servicios_in{font-size: .7em;}
+      }
+    }
+    h2{
+      a{
+        @include text-shadow(#b5f22c, 0, 1px, 1px);
+        color: #47650b;
+        font-family: $title-font-family;
+        font-size: $title-font-size;
+        text-decoration: none;
+        margin-left: 435px;
+      }
+    }
+    #quote{
+     margin-top: 95px;
+     p{
+       color: $gray-font-color;
+       font-size: $title-font-size;
+      }
+    }
+  }
+
+// INFO_BOX
+
+  #info_box {
+    background-color: white;
+    color: $main-font-color;
+		.strong_word{
+			font-weight: bold;
+			font-size: 1.1em;
+		}
+
+		h2{
+      font-family: $title-font-family;
+      font-size: $title-font-size;
+      text-decoration: none;
+    }
+
+		h3{
+		  font-size: 1.3em;
+		  font-family: $title-font-family;
+		}
+
+// INDEX
+
+    p#promociones {
+      font-family: $promotions-font;
+      font-size: 2em;
+      letter-spacing: .02em;
+      color: #85be1b;
+      margin-bottom: 10px;
+      margin-top: 60px;
+      a{
+        color: #85be1b;
+        &:hover{ text-decoration: underline;}
+      }
+    }
+
+    #services_list{
+      background-image: url("/images/back_services.jpg");
+			background-repeat: no-repeat;
+      height: 378px;
+      padding-top: 20px;
+      h3{
+        font-size: 1.5em;
+      }
+      h3.clean a{
+        color: #618c15;
+        &:hover{ text-decoration: underline;}
+      }
+      h3.manager a{
+        color: #666;
+        &:hover{ text-decoration: underline;}
+      }
+      h3.pool a{
+        color: #32638e;
+        &:hover{ text-decoration: underline;}
+      }
+      h3.garden a{
+        color: #89328e;
+        &:hover{ text-decoration: underline;}
+      }
+      ul{
+        margin-top: 20px;
+      }
+
+      .first_services_block{
+        li{
+          border-bottom: 1px solid #ddd;
+          list-style: none;
+          font-size: .9em;
+          padding-bottom: 2px;
+          padding-left: 7px;
+          padding-top: 5px;
+        }
+      }
+      .second_services_block{
+        margin-left: 12px;
+        li{
+          border-bottom: 1px solid #ddd;
+          list-style: none;
+          font-size: .9em;
+          padding-bottom: 2px;
+          padding-left: 7px;
+          padding-top: 5px;
+        }
+      }
+			#presupuesto{
+				font-size: 1.6em;
+		    text-align: center;
+		    margin-left: -55px;
+        margin-top: 70px;
+			  a:hover{color: #3C560C;}
+			}
+    }
+
+// PROMOCIONES
+
+    .green_bold{
+      color: #618c15;
+      font-size: 1.1em;
+    }
+
+    ul#promociones{
+      margin-left: 20px;
+      li{
+        list-style: none;
+        list-style-image: url("/images/dot.png");
+        padding-bottom: 10px;
+      }
+    }
+
+//SERVICIOS
+
+  #services_descritpion{
+    background-image: url("/images/top_description.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-color: #eeeeee;
+    border: 1px solid white;
+    border-top: none;
+    outline: 1px solid #dbdbdb;
+
+    h3{
+      font-size: 1.5em;
+      margin-bottom: 5px;
+    }
+
+    h3.clean a{
+      color: #618c15;
+      margin-top: 20px;
+      &:hover{color: #85BE1B;}
+    }
+    h3.manager a{
+      color: #666;
+      margin-top: 20px;
+      &:hover{color: #999;}
+    }
+    h3.pool a{
+      color: #32638e;
+      margin-top: 20px;
+      &:hover{color: #639cc3;}
+    }
+    h3.garden a{
+      color: #89328e;
+      margin-top: 20px;
+      &:hover{color: #c484db;}
+    }
+
+    .image{ margin-bottom: 40px;}
+  }
+
+  .text{
+    padding: 0 10px 30px;
+    border: 1px solid #e3e3e3;
+    background-color: #f8f8f8;
+    a{
+      color: #555;
+      &:hover{
+        color: #999;
+      }
+    }
+  }
+  #image{
+   background-color: #333;
+   background-position: center;
+   height: 150px;
+   width: 860px;
+   margin-top: 10px;
+  }
+
+//........................Limpieza
+
+  #clean{
+    p{
+      line-height: 1.2em;
+      margin-top: 5px;
+    }
+    p:first-child{
+      color: #618C15;
+      letter-spacing: 0.01em;
+      line-height: 1.3em;
+      font-size: 1.4em;
+      text-align: center;
+    }
+    p#question{
+      color: #666666;
+      font-family: "gabrielle";
+      font-size: 1.5em;
+      line-height: 1em;
+    }
+    a{
+      color: #666;
+      &:hover{
+        text-decoration: underline;
+      }
+    }
+	  .back_button {
+	    @include back_button;
+	    a{
+	      background-image: url("/images/back_button.png");
+    	  &:hover {
+    	    background-image: url("/images/back_button.png");
+          color: #618C15;
+    	  }
+      }
+	  }
+
+  }
+
+//........................Conserjeria
+
+  #manager{
+    @include listado_con_estilo;
+    p:first-child{
+      color: #333;
+      letter-spacing: 0.01em;
+      line-height: 1.3em;
+      font-size: 1.4em;
+      text-align: center;
+    }
+    .back_button {
+	    @include back_button;
+	    a{
+        background-image: url("/images/back_button_conserjeria.png");
+    	  &:hover {
+          background-image: url("/images/back_button_conserjeria.png");
+          color: #333;
+    	  }
+      }
+	  }
+
+    ul#hours{
+      color: #618C15;
+      font-size: 1em;
+      margin-left: 135px;
+
+      li{
+        display: inline;
+        padding-right: 183px;
+      }
+    }
+
+    p#message{
+      font-family: $promotions-font;
+      font-size: 1.6em;
+    }
+
+    #hrs_image{
+      background-image: url("/images/hours.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 90px;
+      margin-bottom: 15px;
+    }
+
+  }
+//........................Jardin
+
+  #garden{
+    @include listado_con_estilo;
+
+    ul{margin-top: 20px;}
+
+    p{
+      line-height: 1.2em;
+      margin-top: 5px;
+    }
+
+    p:first-child{
+      color: #89328e;
+      letter-spacing: 0.01em;
+      line-height: 1.3em;
+      font-size: 1.4em;
+      text-align: center;
+    }
+
+    .back_button {
+	    @include back_button;
+	    a{
+        background-image: url("/images/back_button_jardineria.png");
+    	  &:hover {
+          background-image: url("/images/back_button_jardineria.png");
+          color: #89328E;
+    	  }
+      }
+	  }
+
+  }
+
+//........................Piscina
+
+  #pool{
+    @include listado_con_estilo;
+
+    p:first-child{
+      color: #32638e;
+      letter-spacing: 0.01em;
+      line-height: 1.3em;
+      font-size: 1.3em;
+      text-align: center;
+    }
+
+    p{
+      line-height: 1.2em;
+      margin-top: 5px;
+    }
+
+    p#message{
+      font-family: $promotions-font;
+      font-size: 1.6em;
+    }
+
+    ul{ margin-top: 10px;}
+
+    a {
+      background-image: url("/images/back_button_piscina.png");
+      background-position: 2px -33px;
+      background-repeat: no-repeat;
+      padding: 10px 0 6px 43px;
+			&:hover {
+        background-image: url("/images/back_button_piscina.png");
+        background-position: 2px 1px;
+        color: #32638E;
+        padding-top: 9px;
+			}
+		}
+  }
+
+//ADMINISTRADORES
+
+  #promotion_icon{
+    background-image: url("/images/bucket.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 10px;
+    height: 161px;
+  }
+  #promotion{
+    background-color: #f6f6f6;
+    border: solid 1px #DBDBDB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    strong{color: #618C15;}
+  }
+
+// CONTACTO
+
+    #contact_info{
+      background-image: url("/images/back_contact.png");
+      background-repeat: no-repeat;
+      height: 184px;
+      margin-left: 185px;
+      padding-top: 30px;
+      p{margin-bottom: 15px;text-align: center;}
+      a:hover{color: black;}
+    }
+
+// MAPA
+
+    #map_canvas{
+      border: solid 1px white;
+      outline: solid 2px #a2ae90;
+     	height: 330px;
+     	margin-left: 145px;
+     	#infowindow{
+     	  h3{
+          border-bottom: 1px solid #ccc;
+          font-size: 1em;
+          margin-bottom: 5px;
+          width: 170px;
+        }
+     		p{font-size: .8em;}
+     	}
+     #gmimap0{
+     	  background-color: blue;
+     	}
+    }
+  }
+
+// FOOTER
+
+  #footer{
+    @include linear-gradient(color-stops(#202020, black));
+    background-color: black;
+    color: $gray-font-color;
+    border-top: 4px solid #7dae38;
+    margin-top: 40px;
+    #promociones_link{
+      background-image: url("/images/prom_footer.png");
+      background-repeat: no-repeat;
+      background-position: right center;
+      position: relative;
+      margin-top: -45px;
+      height: 75px;
+      h3{
+        @include text-shadow(#b5f22c, 0, 1px, 1px);
+        text-align: right;
+        margin-right: 70px;
+        padding-top: 31px;
+        a{
+          color: #334006;
+          text-decoration: none;
+          font-size: 1.1em;
+        }
+        a:hover{color: white;}
+      }
+    }
+    h3#title{
+      color: white;
+      font-size: $title-font-size;
+      font-family: $title-font-family;
+    }
+    p{margin-bottom: 5px;}
+  }
+  a{text-decoration: none; color: $gray-font-color;}
+  a:hover{color: white;}
+  #itnig{text-align: center;}
+}

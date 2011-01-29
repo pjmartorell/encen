@@ -1,0 +1,21 @@
+<%= title t(".title") %>
+<%= meta_keywords t(".metakeywords") %>
+<%= meta_description t(".metadescription") %>
+<div class="separator_1"></div>
+
+<div id="contact_info">
+  <p>C/ Sierra de los Filabres 52, 28038, Madrid</p>
+  <p>Tel/Fax: 91.494.63.58</p>
+  <p>Movil: 696.62.48.93</p>
+  <p>E-Mail: <%= mail_to'info@mtcserviciosintegrales.com' , nil, :encode => :hex %></p>
+
+</div>
+<div id="map_canvas"></div>
+
+<div class="separator_1"></div>
+
+<%= content_for :custom_js do %>
+  <script type="text/javascript">
+    initializeMaps()
+  </script>
+<% end %>
