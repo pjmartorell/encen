@@ -8,6 +8,8 @@ gem 'compass', "~> 0.10.6"
 gem 'haml-rails'
 gem 'interpret', :git => 'git://github.com/rogercampos/interpret.git'
 
+gem 'simple_form'
+
 group :development, :test do
   gem 'sqlite3-ruby', :require => 'sqlite3'
   gem 'rspec-rails'

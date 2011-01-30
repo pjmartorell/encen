@@ -1,23 +1,24 @@
-%b
-  Benvingut a Encen
-%hr/
-%br/
-= form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
-  .info_form
-    = f.label :login, "LOGIN"
-    %br/
-    = f.text_field :login, :class => "loginput"
+#login_container
+  %b
+    Benvingut a Encen
+  %hr/
+  %br/
+  = form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
+    .info_form
+      = f.label :login, "LOGIN"
+      %br/
+      = f.text_field :login, :class => "loginput"
 
-  .info_form
-    = f.label :password, "PASSWORD"
-    %br/
-    = f.password_field :password, :class => "loginput"
-    %br/
-    %br/
+    .info_form
+      = f.label :password, "PASSWORD"
+      %br/
+      = f.password_field :password, :class => "loginput"
+      %br/
+      %br/
 
-    - if devise_mapping.rememberable?
-      = f.check_box :remember_me
-      = f.label :remember_me, "Recorda'm la proxima vegada"
+      - if devise_mapping.rememberable?
+        = f.check_box :remember_me
+        = f.label :remember_me, "Recorda'm la proxima vegada"
 
-  .center
-    = f.submit "Entra", :class => "button"
+    .center
+      = f.submit "Entra", :class => "button"
