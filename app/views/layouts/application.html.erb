@@ -35,11 +35,11 @@
     <div id="header">
       <div id="menu"><%= render :partial => "shared/menu"%></div>
       <h1><a href="<%= root_path %>"><%= raw t('title') %></a></h1>
-      <h2><a href="<%= root_path %>"><%= t('subtitle') %></a></h2>
+      <h2><a href="<%= root_path %>"><%= raw t('subtitle') %></a></h2>
 
       <div id="logo"><img alt="Limpieza" src="/images/mtc-logo.png"/></div>
 
-      <div id="quote"><p><%= t('first_paragraph') %></p></div>
+      <div id="quote"><p><%= raw t('first_paragraph') %></p></div>
     </div>
     <div id="info_box"><%= yield %></div>
     <div id="footer"><%= render :partial => "shared/footer" %></div>

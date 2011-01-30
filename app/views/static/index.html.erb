@@ -4,55 +4,55 @@
 
 <div class="separator_1"></div>
 
-<p><%= t('.paragraph2') %></p>
+<p><%= raw t('.paragraph2') %></p>
 <div class="separator_1"></div>
 
 <p><%= raw t('.paragraph3') %></p>
 
 <p id="promociones">
-  <%= t('.index_promociones') %>
-  <a href="<%=promociones_path %>"> <%= t('.index_promociones2') %></a>
+  <%= raw t('.index_promociones') %>
+  <a href="<%=promociones_path %>"> <%= raw t('.index_promociones2') %></a>
 </p>
 <div class="separator_1"></div>
 
 <div id="services_list">
   <div class="first_services_block">
-    <h3 class="clean"><%= link_to (t".clean"), servicios_path, :title => t(".clean") %></h3>
+    <h3 class="clean"><%= link_to (raw t ".clean"), servicios_path, :title => t(".clean") %></h3>
     <ul>
-      <li><%= t('.clean1') %></li>
-      <li><%= t('.clean2') %></li>
-      <li><%= t('.clean3') %></li>
-      <li><%= t('.clean4') %></li>
-      <li><%= t('.clean5') %></li>
-      <li><%= t('.clean6') %></li>
+      <li><%= raw t('.clean1') %></li>
+      <li><%= raw t('.clean2') %></li>
+      <li><%= raw t('.clean3') %></li>
+      <li><%= raw t('.clean4') %></li>
+      <li><%= raw t('.clean5') %></li>
+      <li><%= raw t('.clean6') %></li>
     </ul>
   </div>
 
   <div class="second_services_block">
-    <h3 class="manager"><%= link_to (t".manager"), servicios_path, :title => t(".manager") %></h3>
+    <h3 class="manager"><%= link_to (raw t ".manager"), servicios_path, :title => (t(".manager")) %></h3>
     <ul>
-      <li><%= t('.manager1') %></li>
-      <li><%= t('.manager2') %></li>
-      <li><%= t('.manager3') %></li>
-      <li><%= t('.manager4') %></li>
+      <li><%= raw t('.manager1') %></li>
+      <li><%= raw t('.manager2') %></li>
+      <li><%= raw t('.manager3') %></li>
+      <li><%= raw t('.manager4') %></li>
     </ul>
   </div>
 
   <div class="second_services_block">
-    <h3 class="pool"><%= link_to (t".pool"), servicios_path, :title => t(".pool") %></h3>
+    <h3 class="pool"><%= link_to (raw t ".pool"), servicios_path, :title => t(".pool") %></h3>
     <ul>
-      <li><%= t('.pool1') %></li>
-      <li><%= t('.pool2') %></li>
+      <li><%= raw t('.pool1') %></li>
+      <li><%= raw t('.pool2') %></li>
     </ul>
   </div>
 
   <div class="second_services_block">
-    <h3 class="garden"><%= link_to (t".garden"), servicios_path, :title => t(".garden") %></h3>
+    <h3 class="garden"><%= link_to (raw t ".garden"), servicios_path, :title => t(".garden") %></h3>
     <ul>
-      <li><%= t('.garden1') %></li>
-      <li><%= t('.garden2') %></li>
-      <li><%= t('.garden3') %></li>
-      <li><%= t('.garden4') %></li>
+      <li><%=  raw t('.garden1') %></li>
+      <li><%=  raw t('.garden2') %></li>
+      <li><%=  raw t('.garden3') %></li>
+      <li><%=  raw t('.garden4') %></li>
     </ul>
   </div>
   <div id="presupuesto"><a rel="facebox" href="/question"> Solicitar Presupuesto</a></div>
