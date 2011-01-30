@@ -1,0 +1,748 @@
+es: 
+  accesorios: Accesorios
+  address: "C/Horta, 73. 08032 Barcelona"
+  alicantinas: Alicantinas
+  altillos: Altillos
+  aluminio: "Aluminio y Pvc"
+  brazos: "Brazos articulados"
+  c_enrollables: "Cortinas enrollables"
+  c_exterior: "Cajón exterior"
+  c_obra: "Cajón de obra"
+  c_plegables: "Cortinas plegables"
+  c_plisadas: "Cortinas plisadas"
+  c_venecianas: "Cortinas venecianas"
+  c_verticales: "Cortinas verticales"
+  capota: Capota
+  cargagrande: "Carga Grande"
+  cargaligera: "Carga Ligera"
+  cargamedia: "Carga Media"
+  carpinteria: "Carpintería aluminio"
+  celosias: Celosias
+  cerramientos: Cerramientos
+  contact: Contacto
+  contact_info: Contacto
+  corredero: Corredero
+  cortinas: Cortinas
+  devise: 
+    confirmations: 
+      confirmed: "Tu cuenta ha sido confirmada. Ya has accedido a tu cuenta."
+      send_instructions: "Recibirás un email con instrucciones para confirmar tu cuenta en poco minutos."
+    failure: 
+      inactive: "Tu cuenta no ha sido activada."
+      invalid: "Contraseña o Email incorrecto."
+      invalid_token: "Token de autenticación incorrecto."
+      locked: "Tu cuenta esta bloqueada."
+      timeout: "Tu sesión ha expirado, por favor accede de nuevo para continuar."
+      unauthenticated: "Necesitas acceder a tu cuenta o registrarte antes de continuar."
+      unconfirmed: "Necesitas confirmar tu cuenta antes de continuar."
+    mailer: 
+      confirmation_instructions: 
+        subject: "Instrucciones de confirmación"
+      reset_password_instructions: 
+        subject: "Instrucciones para cambiar tu contraseña"
+      unlock_instructions: 
+        subject: "Instrucciones para desbloquear tu cuenta"
+    oauth_callbacks: 
+      failure: "No has sido autorizado en la cuenta %{kind} porque \"%{reason}\"."
+      success: "Has sido autorizado satisfactoriamente de la cuenta %{kind}."
+    passwords: 
+      send_instructions: "Recibirás un email con instrucciones para cambiar tu contraseña en poco minutos."
+      updated: "Tu contraseña ha sido modificada. Ya has accedido a tu cuenta."
+    registrations: 
+      destroyed: "!Adiós! Tu cuenta ha sido cancelada. Esperamos verte pronto."
+      signed_up: "Te has registrado correctamente. Si está disponible, te habremos enviado un email de confirmación."
+      updated: "Has actualizado tu cuenta correctamente."
+    sessions: 
+      signed_in: "Has ingresado correctamente."
+      signed_out: "Has salido correctamente."
+    unlocks: 
+      send_instructions: "Recibirás un email con instrucciones para desbloquear tu cuenta en pocos minutos."
+      unlocked: "Tu cuenta ha sido desbloqueada. Ya has accedido a tu cuenta."
+  errors: 
+    messages: 
+      already_confirmed: "ya ha sido confirmada"
+      not_found: "no encontrado"
+      not_locked: "no está bloqueada"
+  estanterias: Estanterías
+  fax: "93 358 44 47"
+  geo_placename: Spain
+  geo_position: "Alguna posicion"
+  geo_region: Spain
+  header: "Estanterías Metálicas Horta"
+  home: Inicio
+  icbm: "Algun numero icbm"
+  itnig: "Itnig serveis web"
+  locality: Barcelona
+  mallorquinas: Mallorquinas
+  mamparas: "Mamparas de baño"
+  mando_distancia_mini: "Mando a distancia mini"
+  mando_distancia_normal: "Mando a distancia normal"
+  marquesinas: Marquesinas
+  modelos: "Modelos diferentes"
+  monoblock: Monoblock
+  mosquiteras: Mosquiteras
+  motor_celosias: "Motor para celosías"
+  motor_hidraulico: "Hidráulico para puertas batientes"
+  motor_persianas: "Para persianas enrollables"
+  motor_puertas: "Para puertas correderas"
+  motor_tubular: "Motor tubular para persianas y toldos"
+  motor_ventanas: "Para ventanas batientes"
+  motorizacion: Motorización
+  persianas: Persianas
+  phone: "T. 93 358 44 47"
+  porticon: Porticón
+  puertas: Puertas
+  pulsador: Pulsador-Inversor
+  r_ballesta: "Rejas de ballesta o plegables"
+  r_clasica: "Rejas clásica o varilla"
+  r_ornamental: "Rejas ornamental o barrote"
+  r_rectangular: "Rejas rectangulares o cuadradillo"
+  r_rombo: "Rejas rombo o romboide"
+  reformas: "Reformas en general"
+  rejas: Rejas
+  rep_persianas: "Reparación de persianas"
+  static: 
+    accesorios: 
+      line1: "Disponemos de gran variedad de accesorios para instalación, reparación y motorización, como por ejemplo: los motores tubulares, pulsadores-inversores, mandos a distáncia, ejes, ejes combinados, discos para ejes, conteras con espiga, adaptadores, muelles de elevación, guías normales, guías de proyectables, todo tipo de recogedores, topes, tirantes, seguros para persiana, poleas pasa cintas y para cordón, cardanes, tornos, manivelas, guía cables y desviaciones, soportes, mecanismos y todo lo que necesite para su persiana."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Accesorios
+      title: Accesorios
+    alicantinas: 
+      line1: "<strong>Disponemos de persianas alicantinas tanto de madera como de P.V.C.</strong> con los siguientes colores: "
+      line2: "Madera: sin pintar, barnizada, gris claro, marrón oscuro, pino, nogal, verde oliva, roble, cerezo, azul rústico y verde rústico."
+      line3: "P.V.C.: blanco, marfil, verde oliva y madera claro."
+      line4: "<strong>Se fabrican a medida y necesidad del cliente siendo ideal para cualquier ventana, puerta o balcón.</strong>"
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Alicantinas
+      title: alicantinas
+    altillos: 
+      line1: "Los altillos o entreplantas tienen la particularidad de <strong>duplicar o triplicar la superficie útil</strong> en gabricas, almacenes, locales, etc..."
+      line2: "Se <strong>compone por una estructura metálica atornillada y totalmente desmontable en color azul oscuro</strong>, adaptada a las necesidades concretas de espacio. Normalmente el suelo se compone de tablero de alta resistencia clavado en las viguetas, con multitud de accesorios como: barandillas, escaleras, etc..."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Altillos
+      title: Altillos
+    aluminio: 
+      line1: "<strong>Disponemos de un gran abanico de persianas</strong> con la gama más alta en colores y motores de gran calidad. Como por ejemplo: de P.V.C., de aluminio perfilado, aluminio extrusionado, aluminio de seguridad autoblocante, etc... y en los 3 tipos: cajón exterior, cajón de obra y monoblock."
+      line2: "<strong>Fabricadas a medida y a la necesidad del cliente.</strong>"
+      line3: "Las persianas de aluminio y P.V.C. son un elemento imprescindible para cualquier hogar."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Aluminio
+      title: aluminio
+    brazos: 
+      line1: "Típicamente conocido como <strong>brazos invisibles</strong>, con diferentes modelos dentro de la misma gama: brazos articulados, semi-cofre, cofre y monoblock teniendo a su disposición muchos accesorios como: motor, sensor sol-viento, tejadillo, etc..."
+      line2: "Con alta gama en lonas de gran calidad, accesorios y componentes de aluminio color blanco, también existentes en cualquier color RAL."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Brazos articulados"
+      title: "Brazos articulados"
+    c_enrollables: 
+      line1: "Es <strong>un modelo de cortina tipo stor con múltiples tipos de tela,</strong> se acciona con una cadena en uno de los laterales, con la particularidad que se puede motorizar."
+      line2: "Normalmente los accesorios (cadenas, soportes, perfiles, etc...) son en color blanco, plata o negro. Para diferentes colores consultar."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Cortinas enrollables"
+      title: "Cortinas enrollables"
+    c_exterior: 
+      line1: "Este tipo de persianas tanto de P.V.C. como de aluminio, su <strong>reparación y funcionamiento es muy parecida a las de cajón de obras.</strong>"
+      line10: "Las ventajas de este tipo de persiana es que al ser de cajón exterior se pueden instalar en cualquier parte donde alla un mínimo de espacio para clavar el cajón y las guías, sin obra aparente, solo los agujeros del taladro y de la poleita."
+      line11: "Las desventajas de este tipo de persiana es que al tener la cinta más estrecha y tiene mucho más desgaste a causa de las de las curvas del recorrido que supone el cajón exterior, al igual que a la hora de manipularlo para su reparación, por tener más complicado el acceso a ella, que normalmente es por el exterior."
+      line12: "Nuestra zona de servicio es en Barcelona y alrededores; para zonas más distanciadas, consúltenos un presupuesto sin compromiso."
+      line2: "Funciona con cinta, con cuerda o motor, según se prefiera."
+      line3: "Las reparaciones más frecuentes son: "
+      line4: "El cambio de cinta o cuerda."
+      line5: "El cambio de lamas (sobre todo si son de P.V.C.)."
+      line6: "El cambio de poleitas (si son manuales)."
+      line7: "El cambio de tirantes o flejes que son los que aguantan y suben la persiana con el eje."
+      line8: "También en circunstantias se pueden dañar los topes de persiana o el recogedor (si es una persiana manual)."
+      line9: "Si lleva motor no hace falta ni cinta, ni topes, ni poleitas, ni recogedores; ya que el motor tiene final de carrera automático, ya sean mecánicos o via rádio con mando a distáncia:"
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Cajón exterior"
+      title: "Cajón exterior"
+    c_obra: 
+      line1: "Este tipo de persianas tanto de P.V.C., de aluminio, de aluminio extrusionado o de madera, su reparación y funcionamiento es similar al de cajón exterior. Funciona normalmente con cinta de 22mm., con cordón, con cable trenzado interior con manivela o con motor, según prefiera."
+      line10: "La desventaja de este tipo de persiana, es que el cajón tiene que ser de obra, teniendo que estar empotrado a la pared de la fachada interiormente y suele ser algo más pesada que la de cajón exterior, por su mayor envergadura de lamas más anchas."
+      line11: "Nuestra zona de servicio es en Barcelona y alrededores; para zonas más distanciadas, consúltenos un presupuesto sin compromiso."
+      line2: "Las reparaciones más frecuentes son:"
+      line3: "El cambio de cinta, el cambio de cordón, el cambio de poleitas, todo esto si son persianas manuales."
+      line4: "El cambio de lamas (sobre todo las de P.V.C. ya que tienden a estropearse más; debido a causas del sol, el viento, la lluvia y el arrastre que llevan)."
+      line5: "El cambio de los tirantes o flejes que son los que aguantan y levantan la persianas con el eje."
+      line6: "El cambio de topes de persiana o los recogedores."
+      line7: "Si la persiana lleva motor no necesita: ni cinta, ni topes, ni recogedor, ni poleitas. Siendo más complicado de deteriorarse la persiana, pero los motores se pueden dañar también a causa del mal uso o desprogramándose los finales de carrera (pero los finales de carrera pasa en un motor defectuoso)."
+      line8: "Normalmente la vida de un motor es de 10 a 15 años, según el uso:"
+      line9: "Las ventajas son que no se ve ningún cajón, solo una tapa de registro de la persiana, por la parte interior a la vivienda, ya que el cajón está hecho dentro de la fachada o pared de la casa, por eso se llama cajón de obra y su reparación es más sencilla que la persiana de cajón exterior, por el fácil acceso a ella; solo sacando la tapa de registro que siempre está en el interior de la vivienda."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Cajón de obra"
+      title: "Cajón de obra"
+    c_plegables: 
+      line1: "Es un tipo de cortina en tela con diferentes acabados y colores <strong>plegándose entre sí verticalmente como la vela de un barco,</strong> con el <strong>accionamiento en uno de los laterales por cadena.</strong>"
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Cortinas plegables"
+      title: "Cortinas plegables"
+    c_plisadas: 
+      line1: "Es otro <strong>modelo de cortina en tela con gran variedad de colores y tejidos tipo acordeón verticalmente,</strong> con un mecanismo en uno de los laterales que consta de un cordón. "
+      line2: "Accionamiento manual."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Cortinas plisadas"
+      title: "Cortinas plisadas"
+    c_venecianas: 
+      line1: "Es una <strong>cortina de láminas horizontales</strong> que se acciona con un mecanismo al lateral que consta de un sistema integral diseñado por nuestro fabricante que es la varilla con la cuerda dentro, <strong>todo en uno,</strong> en vez de lo acostumbrado que son los 2 por separado."
+      line2: "Las lamas son de aluminio o madera en cualquier color RAL y de diferente anchura de lama, la normal es de 25mm. pero también disponemos de 16mm., 35mm. y 50mm."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Cortinas venecianas"
+      title: "Cortinas venecianas"
+    c_verticales: 
+      line1: "Es un tipo de <strong>cortina con lamas verticales tanto en tela como en aluminio</strong> de diferente anchura de lama. Lo normal es lama de 127mm. pero también disponemos de lama de 89mm. "
+      line2: "<strong>Es accionada por una cadena lateral</strong> que es la que recoge o abre la cortina y una varilla que es la que da la orientación de las lamas."
+      line3: "Disponemos de gran variedad en telas y colores."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Cortinas verticales"
+      title: "Cortinas verticales"
+    capota: 
+      line1: "Tipo de toldo especialmente indicado <strong>para la instalación en ventanas y puertas,</strong> pudiéndolo fijar frontalmente o entreparedes."
+      line2: "Normalmente <strong>se suministra con 4 arcos</strong> y su mecanismo es con cuerda de algodón y polea."
+      line3: "Con alta gama en lonas de gran calidad, accesorios y componentes de aluminio color blanco, también existentes en cualquier color RAL."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Capota
+      title: Capota
+    cargagrande: 
+      line1: "Por su concepción, este sistema constituye la solución para almacenaje más versátil, siendo apto para cualquier tipo de carga, tanto por peso como por volumen. El acceso a cada paleta es directo e inmediato, ahorrandose tiempo y esfuerzo en la manipulación de las mercancías y posibilitando un intenso flujo de stocks."
+      line10: "Estantería compacta "
+      line11: "Es conocida como <strong>estantería de carriles.</strong> Con este sistema se consigue un 85% del espacio libre almacenando el mayor número de palets posible en un mínimo espacio, pensado en el almacenamiento de productos en los que la rotación o acceso directo no es fundamental. Está compuesta por bastidores de color azul oscuro dispuestos verticalmente conectados entre si por largueros de color naranja butano. Únicamente pensada para la disposición de palets."
+      line12: "Estantería Cantilever "
+      line13: "Es conocida como <strong>estantería de brazos.</strong> Siendo el sistema idóneo para el almacenamiento de mercancías largas como: perfiles, tubos, maderas, etc... Permite una gran agilidad en la preparación de pedidos."
+      line14: "Está compuesta por alineaciones de columnas con arriostramientos en vertical uniéndose entre si en color azul oscuro y por brazos en color naranja butano unidos a las columnas por tornillos pasadores, pudiéndose variar la altura de éstos cuando se precise. Habiendo 2 modalidades: tipo Mural 'un solo lado' (apoyada a la pared) o Góndola 'los 2 lados' (pasillo central). La resistencia dependerá del grosor y la longitud de estos."
+      line2: "Estantería convencional o paletizada"
+      line3: "Estantería compacta"
+      line4: "Estantería Cantilever"
+      line5: "Estantería convencional o paletizada"
+      line6: "Es conocida como <strong>estantería de gran carga o paletización</strong>, compuesta por bastidores y largueros habiendo varios tipos de ellos como: tubo convencional, Z de paletización, trasero para el tope del palet o larguero para altillo."
+      line7: "Como su nombre indica está pensada para la ubicación de palets, tableros, bidones y multitud de cargas pesadas. Es decir la solución más adecuada para la rápida localización y acceso directo a cada producto."
+      line8: "Los bastidores en color azul oscuro tienen una medida de: 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500 y 6000mm. de alto nomalmente (pudiéndose fabricar hasta los 12000mm. bajo pedido) x 800, 1000, 1100 y 1200mm. de fondo."
+      line9: "Los largueros son de color naranja butano teniendo una medida de: 1900, 2300, 2700 y 3350mm. normalmente (pudiéndose fabricar bajo pedido y cantidad en cualquier medida) su resisténcia puede variar en cuanto la largura y el grosor del tubo."
+      metadescription: "Estanterías Horta fabrica estanterias de carga grande con la modalidad convencional, o paletizada, tel: 93 358 44 47"
+      metakeywords: "Estanterías metálicas, Estanterías de carga grande, Estanterías convencionales o paletizadas"
+      subtitle: "Carga grande"
+      title: "Carga grande"
+    cargaligera: 
+      line1: "Es la opción más versátil para los más diversos usos, tanto en la industria y el comercio como en el ámbito doméstico. "
+      line10: "Es la estantería ideal para cargas ligeras, almacenes, comercios, trasteros, garajes, etc... "
+      line11: "Teniendo una gran diversidad de accesorios como: cajones, divisiones, ganchos para estantes, refuerzos, escuadras, tapas laterales y traseras, etc... Todo ello en color gris o galvanizado. Disponemos también de ángulos, estantes y tornillos con tuerca en acero inoxidable para alimentación."
+      line12: "Estantería de comercio"
+      line13: "Es una <strong>estantería serie blanca muy versatil</strong>, pensada para tiendas, supermercados, grandes almacenes, multiprecios, expositores, etc... Con gran variedad de accesorios tales como: diferentes tipos de cartelas, cremalleras, columnas, portaprecios, pies de columna, zócalos, paneles de fondo liso, paneles de fondo perforado, viseras normales, viseras con espejo, todo tipo de ganchos, buchs, soporte cajas de fruta, expositores, percheros, cestos, chaflanes, etc..."
+      line14: "Teniendo a su favor también una gran variedad de estantes: estante recto, estante inclinado, estante decorativo, estante para libros con separadores, estante revista-calzado, estante soporte cristal, estante zig-zag, estante parrilla, etc... "
+      line15: "El color habitual es el blanco, pero disponemos de 6 colores más en stock que son: azul, naranja, rojo, amarillo, negro y verde (bajo pedido y cantidad disponemos de toda la carta de colores RAL a consultar el plazo de entrega)."
+      line16: "Estantería sin tornillos"
+      line17: "Es una <strong>estantería sin tornillos</strong> de fácil y rápido montaje similar al ángulo ranurado; tiene una capacidad de carga de 100 a 250Kg por estante (tanto sean estantes metálicos como de madera) repartidos uniformemente, pudiendo disponer de todos los accesorios de la estantería de ángulo ranurado como cajones, divisiones, etc..."
+      line18: "Se dispone de 3 partes fundamentales: los ángulos o puntales según deseo del cliente; los largueros y los estantes (metálicos, de madera aglomerada o melamina de 16mm. de grosor)."
+      line19: "Los ángulos y los puntales (lo que define la altura de la estantería) tienen una altura de 1000 hasta 4000mm. en múltiplos de 500mm. siendo de color azul 5015, gris 7046, blanco 9003 o (galvanizado en caso de los ángulos) y (plata 9006 en caso de los puntales)."
+      line2: "Por su concepción, sus elementos pueden conformar además de estanterías, otras estructuras como mesas, bancos de trabajo, etc.."
+      line20: "Los <strong>largueros</strong> (lo que define el ancho y fondo de la estantería) tienen una longitud de 300 hasta 1200mm. en múltiplos de 100mm. siendo de color azul 5015, gris 7046, blanco 9003 o galvanizado."
+      line21: "Los estantes son de 600 hasta 1200mm. de ancho y de 300 hasta 700mm. de fondo en múltiplos de 100mm. el color de estos es:"
+      line22: "Si son metálicos: gris 7046, blanco 9003 o galvanizado."
+      line23: "Si son de madera melaminada: cualquier color existente dentro de la gama de tableros."
+      line24: "Es una estupenda estanteria, siendo la más sólida y versatil de todas las gamas de carga ligera, sin necesidad de ningún tipo de soporte, arriostrado o cruzeta. Con la facilidad de cambiar de altura sus estantes según las necesidades del momento. Es ideal para un tipo de género que cambia constantemente de medida o la de puntales para: despachos, gabinetes o comercios que esten las estanterías a la vista, por su acabado más decorativo, sin perder nunca la práctica ni la estética."
+      line25: "Estantería de acero inoxidable"
+      line26: "Es una estantería pensada para: cuartos fríos, almacenes, cocinas, cámaras frigoríficas, congeladores, etc..."
+      line27: "Fabricada con bastidores y largueros de acero inoxidable con 3 tipos de bandejas: bandeja de acero inoxidable lisa, bandeja de acero inoxidable perforada y bandeja de polipropileno azul para uso alimentario. "
+      line28: "Los niveles se pueden modificar cada 200mm. de altura sin tornillos dejando 142mm. de agujero luz como mínimo y resistiendo un máximo de 200Kg. por estante."
+      line3: "Ángulo ranurado"
+      line4: "Estantería de comercio"
+      line5: "Estantería sin tornillos"
+      line6: "Estantería de acero inoxidable"
+      line7: "Estantería de ángulo ranurado"
+      line8: "Es la típica <strong>estantería de Mecano</strong> que su resistencia máxima es de 80 a 100Kg. por estante."
+      line9: "Las medidas son desde: 600 x 300mm. hasta 1000 x 600mm. en múltiplos de 100mm. Normalmente utilizamos ángulos de 40 x 40mm. siendo la medida de: 2000, 2500 o 3000mm. Los estantes son de chapa, atornillados por sus esquinas a los ángulos por tornillos y tuercas. "
+      metadescription: "Estanterías Horta fabrica estanterías de carga ligeras con ángulo ranurado, estanterías sin tornillos y de acero inoxidable, tel: 93 358 44 47"
+      metakeywords: "Estanterías metálicas, Estanterías de carga ligera, Estanterías sin tornillos, Estanterías con ángulo ranurado"
+      subtitle: "Estanterías de carga ligera"
+      title: "Estanterías de carga ligera - Estanterías con ángulo ranurado"
+    cargamedia: 
+      line1: "Es la opción apropiada para almacenes de productos no muy pesados, con un elevado índice de rotación y manipulación manual. Permite un riguroso control de inventarios y un intenso flujo de stocks, con un considerable ahorro de tiempo y esfuerzo en la manipulación de las mercancías."
+      line10: "Los <strong>ángulos</strong> (le da a la estantería la altura) son de color azul 5015 con las siguientes medidas: 600, 900, 1000, 1500, 2000, 2500, 3000, 3500, 4000 y 5000mm. de altura; que con su unión a los largueros consiguen una rigidad y robustez total."
+      line11: "Los <strong>estantes:</strong>"
+      line12: "De madera (aglomerado o melamina) se pueden hacer de múltiples combinaciones, siempre teniendo en cuenta la medida de los largueros (recomendación: no pasar de 1200mm. de fondo)."
+      line13: "Los metálicos pueden ser de 900mm. de ancho x 300mm. de fondo hasta 2400mm. de ancho x 1200mm. de fondo; siendo siempre galvanizados y en placas múltiples de 300mm. de ancho."
+      line14: "Tiene múltiples accesorios como: piés de plástico, piés metálicos para anclaje, piés metálicos con ruedas, soporte barra para colgar perchas, bobinas, etc.... y los cuerpos o módulos de las estanterías se unen entre sí por pletinas de unión."
+      line15: "Estanterías de media carga"
+      line16: "Es conocida también como <strong>estantería Picking</strong>, es una <strong>estantería de carga media</strong> con bastante resistencia, es tan versátil y robusta que en ocasiones se utiliza como parte inferior de altillos con poco peso. Está compuesta por bastidores, largueros habiendo varios tipos de ellos como: Z80, Z60, Tubo, colgador de perchas, Z80 invertido o Z80 para sobre de mostrador o mesa."
+      line17: "Los estantes pueden ser: paneles metálicos o tableros de aglomerado, melamina, DM, etc."
+      line18: "Los bastidores son de color azul oscuro y tienen una medida de: 2000, 2500, 3000, 3500, 4000, 4500, 5000, 5500 y 6000mm. de alto x 400, 600, 800, 1000 y 1200mm. de fondo."
+      line19: "Los largueros son de color naranja butano y tienen una medida de: 1000, 1200, 1400, 1600, 1800, 2200 y 2600mm. de largo. Tienen una resistencia los Z80 de 1600 a 400Kg. por nivel y los Z60 de 1200 a 300Kg. por nivel, estos últimos son los menos utilizados."
+      line2: "Estantería sin tornillos"
+      line3: "Estantería de media carga"
+      line4: "Estantería sin tornillos "
+      line5: "Es una estantería para carga más pesada que su hermana pequeña, de fácil y rápido montaje sin necesidad de herramientas (solo 1 martillo de nylon)."
+      line6: "Su capacidad de carga es de 600Kg/max repartidos uniformemente por estante ya sean metálicos o de madera (aglomerado o melamina)."
+      line7: "Aparte de estanterías, son ideales para hacer bancos de trabajo."
+      line8: "Está compuesta por 3 partes fundamentales: largueros, ángulos y estantes metálicos o de madera."
+      line9: "Los <strong>largueros</strong> (los que le dé a la estantería el ancho y el fondo) son de color naranja 2004 y tienen una medida de: 300, 450, 600, 750, 900, 1200, 1500, 1800 y 2400mm. (estos 3 últimos por su largura, suelen llevar refuerzos entre largueros)."
+      metadescription: "Estanterías Horta fabrica estanterias de media carga modulares de calidad, tel: 93 358 44 47"
+      metakeywords: "Estanterías metálicas, Estanterías de carga media, Estanterías sin tornillos"
+      subtitle: "Estanterías de carga media"
+      title: "Estanterías de carga media - Estanterías sin tornillos"
+    carpinteria: 
+      line1: "Es un placer para nosotros poder contar con nuestra sección de <strong>carpintería de aluminio.</strong>"
+      line10: "Persianas de aluminio"
+      line11: "Ventanas de aluminio"
+      line12: "Techos de aluminio"
+      line13: "Mamparas de baño"
+      line14: "Mosquiteras de aluminio"
+      line15: "Para más información sobre carpintería de aluminio no dude en contactar técnico en presupuestos y montaje de carpintería de aluminio."
+      line2: "Nuestro interés como profesionales del aluminio és poder ofrecerles toda las gamas de carpintería de aluminio que disponemos <strong>actualmente con más de 20 años de experiencia en el sector del aluminio.</strong>"
+      line3: "Con grandes fabricantes en carpintería de aluminio a nuestras espaldas que nos garantizan la fiabilidad de los mejores materiales y servicio técnico en el sector del aluminio."
+      line4: "Sus necesidades en tema de carpintería de aluminio son nuestra principal prioridad ofreciéndoles siempre lo último en tecnología y acabados basada en aluminio y cristal."
+      line5: "¿Por qué elegirnos a nosotros a la hora de pedir presupuesto de cualquier carpintería de aluminio?. Porque te damos por lo menos 9 razones para escogernos a la hora de tu montaje de aluminio:"
+      line6: "Puertas de aluminio"
+      line7: "Mallorquinas de aluminio"
+      line8: "Cerramientos de aluminio"
+      line9: "Porticones de aluminio"
+      metadescription: "Estanterías Horta ofrecerles toda las gamas de carpintería de aluminio que disponemos, con más de 20 años de experiencia en el sector del aluminio, tel: 93 358 44 47"
+      metakeywords: "Carpinterías de aluminio,puertas de aluminio, mallorquinas de aluminio, cerramientos de aluminio porticones de aluminio, persianas de aluminio, ventanas, techos, mamparas de baño, mosquiteras de aluminio"
+      subtitle: "Carpinteria de aluminio"
+      title: "Carpintería de aluminio - Carpintería de aluminio Barcelona"
+    celosias: 
+      line1: "Es otro tipo de persiana o cerramiento que <strong> se fabrica en lama orientable o lama fija,</strong> tanto en aluminio como en P.V.C."
+      line10: "Son perfectas para <strong>hacer múltiples cerramientos por su resistencia y muy poca visión.</strong>"
+      line11: "Se utilizan principalmente en galerías, garajes, respiraderos, etc... celosias"
+      line2: "<strong>Se fabrican en 6 marcos diferentes: fijo, practicable, corredero, plegable, proyectable y levadizo.</strong>"
+      line3: "El <strong>color básico es el blanco</strong>, pero disponemos también de: color plata, lacados madera y cualquier color RAL."
+      line4: "Celosías lamas orientables o móviles"
+      line5: "Celosías lamas fijas"
+      line6: "Celosías lamas orientables o móviles"
+      line7: "<strong>Son la solución perfecta para el control de la luz y la visibilidad</strong> además de conseguir privacidad y seguridad, con diferentes medidas de lama: de 75 y de 150mm."
+      line8: "Con un <strong>mecanismo en los laterales</strong> que consta de barillas uniendo todas las lamas y maneta, también se pueden motorizar si el acceso es dificultoso."
+      line9: "Celosías lamas fijas"
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Celosias
+      title: celosias
+    cerramientos: 
+      line1: "Se hacen este tipo de cerramientos por su <strong>elegancia y adaptabilidad, totalmente a medida de las necesidades;</strong> tanto en puertas practicables como en correderas; diversos colores y acabados."
+      line2: "Sistema europeo."
+      line3: "El color básico de fabricación es el blanco pero disponemos de toda la carta de colores RAL incluidos los imitación madera, con gran variedad de acabados al gusto del cliente."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Cerramientos
+      title: cerramientos
+    contact: 
+      line1: "Dirección: C/ Horta, 73 · 08032 Barcelona"
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      title: "Contacto -- Ejemplo Plan Basico"
+    corredero: 
+      line1: "También conocido como <strong>toldo plano o de palillería</strong>, especialmente <strong>indicado para terrazas y grandes superficies.</strong> Dispone de multitud de opciones de instalación: entreparedes, entrepared y portería o doble portería."
+      line2: "Su mecanismo es normalmente con cuerda de algodón y polea, también se puede motorizar."
+      line3: "Con alta gama en lonas de gran calidad; accesorios y componentes de aluminio color blanco, también existentes en cualquier color RAL."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Corredero
+      title: Corredero
+    cortinas: 
+      line1: "Disponemos de 5 modelos básicos de cortinas, todos ellos con una amplia gama de telas y colores: "
+      line2: "Cortinas venecianas"
+      line3: "Cortinas enrollables"
+      line4: "Cortinas verticales"
+      line5: "Cortinas plisadas"
+      line6: "Cortinas plegables"
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      title: cortinas
+    estanterias: 
+      line1: "Es un orgullo para nosotros disponer de nuestra principal sección de estanterías metálicas y altillos."
+      line10: "Nuestro técnico de montaje e instaladores, le instalarán o aconsejarán, el tipo de estantería adecuada para usted, sín ningún tipo de problema o compromiso."
+      line11: "Sí sr. cliente, aparte de instalar estanterías, también hacemos traslado de ellas, piense antes de cambiar su estantería se puede trasladar y adaptar a su nueva ubicación. "
+      line12: "Nuestro técnico instalador, le solucionará cualquier duda o problema que pueda surguir con su estantería o altillo."
+      line2: "Nuestra filosofía como profesionales de las <strong>estanterías de carga ligera, estanterías de comercio, estanterías de media carga, estanterías de gran carga, altillos o entreplantas, etc...,</strong> es poder ofrecerles un servicio integral, innovador, personalizado y sin compromiso, que se adapte a sus necesidades o deseos."
+      line3: "Con más de 20 años de experiencia en el sector de las estanterías, que nos dan su sello de confianza al trabajar con grandes marcas, teniendo y exigiendo materiales de primera calidad, siempre al acecho de las innovaciones en tecnologia, acabados, normativas, servicios y precio."
+      line4: "A la hora de elegir su estantería o altillo <strong>¿por qué escogernos a nosotros?.</strong> Porque realizamos y exigimos el máximo para realizar una solución adecuada para usted."
+      line5: "Disponiendo de varios modelos de estanterías o altillos."
+      line6: "CARGA LIGERA (Ángulo ranurado, Comercio, Sin tornillos y Acero inoxidable)"
+      line7: "MEDIA CARGA (Sin tornillos, Picking y Bancos de trabajo)"
+      line8: "GRAN CARGA (Paletizada, Compacta y Cantiveler)"
+      line9: "En nuestro departamento de estanterías podrá disponer de todo tipo de estanterías como: ángulo ranurado, comercio, picking, paletizada, cantilever, compacta, altillos, entreplantas, etc... Ya sea carga manual, carga mecánica, carga frontal, carga lateral o para diferentes pesos y volúmenes."
+      metadescription: "Estanterías Horta fabrica estanterías baratas y metálicas de gran calidad, de carga ligera, media y grande, tel: 93 358 44 47"
+      metakeywords: "Estanterías metálicas, Estanterías baratas"
+      subtitle: Estanterías
+      title: "Estanterías metálicas Barcelona -- Estanterías baratas"
+    index: 
+      line1: "Bienvenidos a Estanterías Metálicas Horta"
+      line2: "Nuestra voluntad por servir cada día mejor a nuestros clientes nos hace desarrollar constantemente nuevos servicios."
+      line3: "Ofrecemos los mejores precios trabajando con las primeras marcas."
+      line4: "Pídanos <strong>presupuesto sin compromiso.</strong>"
+      line5: "En <strong> Estanterías Metálicas Horta </strong> realizamos un asesoramiento integral a nuestros clientes."
+      line6: "Realizamos reparaciones, motorización e instalaciones de persianas y toldos."
+      metadescription: "Estanterías metálicas Horta, persianas, toldos, rejas, carpintería de aluminio, tel: 93 358 44 47"
+      metakeywords: "Estanterías metálicas, Estanterías Metálicas Horta"
+      title: "Estanterías -- Estanterías Metálicas - Horta"
+    mallorquinas: 
+      line1: "La Mallorquina es una especie de porticón con <strong>5 tipos de lamas: lama fija, lama móvil, lama de seguridad, lama de 131mm. y lama de ventilación</strong>; todas ellas se pueden aplicar al modelo practicable, corredera o plegable."
+      line2: "Con gran variedad de acabados al gusto del cliente, siendo el color básico de fabricación el <strong>blanco</strong> pero disponemos de toda la variedad de colores RAL, <strong>incluyendo los imitación a madera.</strong>"
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Mallorquinas
+      title: mallorquinas
+    mamparas: 
+      line1: "Las mamparas de ducha y baño han sido diseñadas para satisfacer las exigencias de los clientes."
+      line2: "Hay diferentes tipos de modelo, por ejemplo: <strong>correderas, practicables, plegables, combinadas y fijas.</strong>"
+      line3: "Los colores normales son: blanco, plata, oro y bronze. También disponemos de colores RAL o colores especiales como madera pino y madera nogal. "
+      line4: "<strong>Todas ellas se fabrican con cristal templado</strong> tanto en transparente como en mate ácido, serigrafiado o carglás y también en cristal acrílico con diversos acabados."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Mamparas de baño"
+      title: mamparas
+    mando_distancia_mini: 
+      line1: "Es un transmisor vía radio a distancia con 3 canales independientes."
+      line2: "Es el más pequeño de los transmisores a distancia."
+      line3: "Sirve para todo tipo de persianas, toldos y demás motores vía radio."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Mando a distancia mini"
+      title: "Mando a distancia mini"
+    mando_distancia_normal: 
+      line1: "Es un transmisor vía radio a distancia con 1, 3, 24 canales independientes o sensor luz."
+      line2: "Sirve para todo tipo de persianas, toldos y demás motores vía rádio."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Mando a distancia normal"
+      title: "Mando a distancia normal"
+    marquesinas: 
+      line1: "Disponemos de una gran variedad de marquesinas para elegir."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Marquesinas
+      title: marquesinas
+    modelos: 
+      line1: "Disponemos de 4 modelos diferentes:"
+      line10: "Es una <strong>ventana totalmente diferente a las demás</strong>; su <strong>apertura es en horizontal o vertical</strong> según convenga al cliente; <strong>totalmente hermética es perfecta para la ventilación.</strong>"
+      line11: "El color básico de fabricación es el blanco, pero disponemos de toda la carta de colores RAL, incluídos los imitación madera, con gran variedad de acabados al gusto del cliente."
+      line12: Premarcos
+      line13: "Los premarcos están <strong>fabricados en perfil de aluminio teniendo la opción de poner los accesorios para persianas;</strong> se suelen instalar en las obras nuevas o si el marco antiguo está muy deteriorado, sustituyéndolo en su caso."
+      line14: "Modelos normalizados"
+      line15: "<strong>Gran variedad de accesorios:</strong> tubos cuadrados, tubos rectangulares, tubos redondos, ángulos de lados iguales, esquineros, chapas, pletinas, etc... "
+      line16: "Todo en color blanco, bronce, plata, negro, RAL y lacados madera."
+      line2: "Ventana guillotina"
+      line3: "Ventana pivotante"
+      line4: Premarcos
+      line5: "Modelos normalizados"
+      line6: "Ventanas guillotina"
+      line7: "Es un modelo de <strong>ventana corredera totalmente innovadora</strong> con la particularidad que <strong>se abre hacia arriba</strong>, teniendo varios puntos de apertura; tiene la característica que las hojas se pueden abatir para limpiar los cristales; es ideal para habitaciones, despachos, cocinas, baños, etc.., con poco espacio. "
+      line8: "El color básico de fabricación es el blanco pero disponemos de toda la carta de colores RAL incluidos los imitación madera, con gran variedad de acabados al gusto del cliente."
+      line9: "Ventana pivotante"
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Modelos diferentes"
+      title: "modelos diferentes"
+    monoblock: 
+      line1: "En este tipo de persinas monoblock o compactas, <strong>la estructura siempre es de aluminio</strong>, las lamas pueden ser de P.V.C., de aluminio o de aluminio extrusionado."
+      line10: "Nuestra zona de servicio es en Barcelona y alrededores; para zonas más distanciadas, consúltenos un presupuesto sin compromiso."
+      line2: "Es una mezcla de las persianas de cajón exterior y cajón de obra, teniendo las ventajas de las 2 persianas y solo con un defecto, que tiene la cinta estrecha en el caso de ser manual, por que también se puede motorizar."
+      line3: "Todo el mecanismo está dentro del cajón exterior, pero se accede a ella a traves de la tapa de registro de persianas que está, el interior de la vivienda, siendo como el propio nombre dice compacta a la carpinteria de aluminio siendo una sola pieza, puerta y persiana o ventana y persiana."
+      line4: "No suele estropearse a lo cual su reparación es casi mínima, si se lleva un mantenimiento e uso apropiado:"
+      line5: "Cambio de cinta."
+      line6: "Cambio de poleita."
+      line7: "Cambio de topes."
+      line8: "Cambio de recogedor."
+      line9: "Cambio de lamas (principalmente si són de P.V.C. a causa de la erosión del sol, aire o lluvia) y raramente algún cambio de tirantes o flejes. "
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Monoblock
+      title: monoblock
+    mosquiteras: 
+      line1: "Toda la gama de mosquiteras se fabrican con perfil de aluminio y tela de fibra de vidrio de primera calidad, <strong>fabricándose en 5 modelos diferentes que son: fijas, enrollables, correderas, practicables y plisadas.</strong>"
+      line2: "El color normal de fabricación es el lacado blanco y el plata anodizado, después siguen los colores RAL y los lacadso madera."
+      line3: "Es la <strong>solución perfecta para evitar la entrada de insectos y las odiosas picaduras de los mosquitos.</strong>"
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Mosquiteras
+      title: mosquiteras
+    motor_celosias: 
+      line1: "Es un motor para interiores vía radio para el accionamiento de celosías tanto de aluminio como de P.V.C., cúpulas de cristal o grandes Lucernarios."
+      line2: "Con 4 medidas de apertura: 230mm., 350mm., 550mm. o 750mm."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Motor para celosías"
+      title: "Motor para celosías"
+    motor_hidraulico: 
+      line1: "Es un motor exterior que funciona hidráulicamente con cuerpo de aluminio, vía radio o con llavín; teniendo una llave antibloqueo por si se va la luz poder accionar la puerta manualmente."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Motor hidráulico para puertas batientes"
+      title: "Motor hidráulico para puertas batientes"
+    motor_persianas: 
+      line1: "Es un motor interior para persianas enrollables metálicas con o sin freno para un máximo de 160Kg o 300KG, vía radio o con llavín exterior."
+      line2: "Especialmente se utiliza para persianas de seguridad de las tiendas, locales, garages, etc..."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Motor para persianas enrollables"
+      title: "Motor para persianas enrollables"
+    motor_puertas: 
+      line1: "Es un motor exterior versátil para puertas correderas vía radio o con llavín; teniendo una llave antibloqueo por si se va la luz poder accionar la puerta manualmente."
+      line2: "Para diferentes pesos de puerta de 400Kg , 800Kg o 2000Kg."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Motor para puertas correderas"
+      title: "Motor para puertas correderas"
+    motor_tubular: 
+      line1: "Son motores tubulares que van dentro del eje vía radio o con pulsador con diferentes grosores y accesorios: de 35mm. para eje de 40, de 45mm. para eje de 60 y de 55mm. para eje de 70. "
+      line2: "Con resisténcia de 15Kg hasta 130Kg según modelo."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Motor tubular para persianas y toldos"
+      title: "Motor tubular para persianas y toldos"
+    motor_ventanas: 
+      line1: "Es un motor vía radio o con pulsador, especialmente para ventanas batientes a una altura de difícil acceso con apertura de: 110mm., 200mm., 300mm. o 400mm. y que al cerrar ejerce presión para su total cierre."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Motor para ventanas batientes"
+      title: "Motor para ventanas batientes"
+    motorizacion: 
+      line1: "En estanterías metálicas Horta disponemos de una amplia gama de motores para un sinfín de puertas, ventanas, persianas, toldos, celosías, etc... "
+      line10: Pulsador-Inversor
+      line11: "Veleta o sensor sol-viento"
+      line2: "Mando a distancia mini"
+      line3: "Mando a distancia normal"
+      line4: "Motor hidráulico para puertas batientes"
+      line5: "Motor para puertas correderas"
+      line6: "Motor para celosías"
+      line7: "Motor para persianas enrollables"
+      line8: "Motor para ventanas batientes"
+      line9: "Motor tubular para persianas y toldos"
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      title: Motorización
+    persianas: 
+      line1: "Es un orgullo para nosotros disponer de nuestra sección de persianas."
+      line10: Accesorios
+      line2: "Nuestro espíritu como profesionales de persianas de P.V.C., persianas de aluminio, persianas de seguridad, persianas alicantinas, reparación de persianas, motorización de persianas, <strong>persianas eléctricas</strong>, etc... es poder ofrecerles un servicio integral, personalizado y dinámico a sus necesidades o deseos."
+      line3: "20 años en el sector de las persianas que nos dan la fiabilidad de trabajar con las grandes industrias fabricantes teniendo y exigiendo materiales de 1ª calidad, siempre innovando en tecnología, acabados y servicio."
+      line4: "A la hora de elegir una distribución, instalación, reparación o motorización de cualquier persiana en Barcelona."
+      line5: "¿Por qué elegirnos a nosotros?"
+      line6: "Porque nos exigimos el máximo para buscar la solución adecuada para usted, disponiendo de varias gamas de persianas: "
+      line7: "<strong>Persianas de aluminio y P.V.C.</strong>"
+      line8: Alicantinas
+      line9: Celosías
+      metadescription: "Venta e instalación de persianas con el perfecto acabado en su casa o empresa, tlf 93 358 44 47"
+      metakeywords: "persiana, pvc, aluminio, cierre"
+      subtitle: Persianas
+      title: "Persianas Barcelona - Persianas eléctricas"
+    porticon: 
+      line1: "Es el <strong>sustituto perfecto de las mallorquinas o persianas</strong>, sobretodo en zonas rurales, de montaña o urbanizaciones, donde la estética no acompaña; fabricado con perfiles y paneles de aluminio extrusionado de seguridad. "
+      line2: "El color básico de fabricación es el blanco pero disponemos de toda la carta de colores RAL incluidos los imitación madera, con gran variedad de acabados al gusto del cliente."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Porticón
+      title: porticon
+    puertas: 
+      line1: "Disponemos de 4 tipos de puertas normalizadas que son: corredora, practicables, batientes y oscilobatientes. Aparte disponemos de diferentes grosores y tipos de marcos como por ejemplo:"
+      line2: "Puertas correderas"
+      line3: "Puertas practicables"
+      line4: "El color básico de fabricación es el blanco pero disponemos de toda la carta de colores RAL incluídos los imitación madera, con gran variedad de acabados al gusto del cliente."
+      line5: "Al igual que los cristales que disponemos de gran variedad de ellos: monolíticos, cámara, laminados, con cuarterones tanto con barrotillos o viselado, panel sandwich o melamina sustituyendo al cristal."
+      line6: "Puertas correderas "
+      line7: "Las <strong>correderas:</strong> marco de 61mm., marco de 75mm., perimetral de 62mm., perimetral de 75mm., perimetral de 100mm. y rotura térmica de 83mm."
+      line8: "Puertas practicables "
+      line9: "Las <strong>practicables:</strong> marco de 40 x 26mm., marco de 40 x 60mm. marco redondo, marco de 40 x 46mm., marco de 40 x 45mm. alta seguridad y rotura térmica de 53mm."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Puertas
+      title: Puertas
+    pulsador: 
+      line1: "Es el típico pulsador para motores mecánicos (los que no són vía radio), tanto empotrado como de superfície."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Pulsador-Inversor
+      title: Pulsador-Inversor
+    r_ballesta: 
+      line1: "Es una <strong>reja muy versátil</strong> que se recoge en forma de tijera, con gran robustez ideal para cerramientos de fácil acceso desde el exterior como el interior."
+      line2: "Los acabados pueden ser: zincado plata, zincado oro, blanco y cualquier color RAL."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Rejas de ballesta o plegables"
+      title: "Rejas de ballesta o plegables"
+    r_clasica: 
+      line1: "Es un tipo de <strong>reja sencilla</strong> que se puede fabricar fija o practicable con cerradura, según la utilización de esta."
+      line2: "Se fabrica con marco de 40 x 8mm. macizo y barrotes redondos de 14mm. macizos."
+      line3: "Los acabados son: zincado plata, blanco o cualquier color RAL."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Rejas clásica o varilla"
+      title: "Rejas clásica o varilla"
+    r_ornamental: 
+      line1: "Es un tipo de reja que <strong>se puede fabricar fija o practicable con cerradura</strong>, con un marco de 50 x 20mm. hueco y barrotes de 30mm. huecos, <strong>es el modelo más economico de la gama con marco</strong>, siendo ideal para ventanas y puertas."
+      line2: "Los acabados son: zincado plata, blanco o cualquier color RAL."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Rejas ornamental o barrote"
+      title: "Rejas ornamental o barrote"
+    r_rectangular: 
+      line1: "Como su nombre indica <strong>tiene forma de rectángulos,</strong> se puede fabricar fija o practicable con cerradura, según se necesite."
+      line2: "Por su robustez es <strong>ideal para ventanas y puertas de fácil acceso.</strong>"
+      line3: "Se fabrica con marco de 40 x 8mm. macizo y barrotes cuadrados de 16 x 16mm. macizos."
+      line4: "Los acabados son: zincado plata, blanco o cualquier color RAL."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Rejas rectangulares o cuadradillo"
+      title: "Rejas rectangulares o cuadradillo"
+    r_rombo: 
+      line1: "Como su nombre indica <strong>tiene forma de rombos,</strong> se puede <strong>fabricar fija o practicable</strong> con cerradura según se necesite."
+      line2: "Se fabrica con un marco en forma de L de 35 x 35mm., macizo y barrotes redondos de 12mm. macizos."
+      line3: "Los acabados son: zincado plata, blanco o cualquier color RAL. "
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Rejas rombo o romboide"
+      title: "Rejas rombo o romboide"
+    reformas: 
+      line1: "En esta sección de Reformas en general les ofrecemos una galería de imágenes para que puedan ver una muestra de lo que hemos hecho; clicando sobre ellas, podrán verlas más grandes."
+      line2: "Si desean saber más o pedir un presupuesto no duden en ponerse en contacto con nosotros."
+      metadescription: "Reformas en general Estanterías Horta, carpintería, aluminio, reformas en cocinas y en baños, Tel: 93 358 44 47"
+      metakeywords: "Reformas en general, Carpintería, aluminio, reformas en cocinas, reformas en baños"
+      subtitle: "Reformas en general"
+      title: "Reformas en general - Reformas Barcelona"
+    rejas: 
+      line1: "Es un placer para nosotros poder contar con nuestra sección de rejas."
+      line2: "Nuestro lema como profesionales de rejas de seguridad, rejas de acero, rejas practicables, rejas de Ballesta, rejas plegables, <strong>rejas para ventanas</strong> etc... es poder ofrecerles un sevicio integral y personalizado a sus necesidades y deseos."
+      line3: "Con más de 20 años de experiencia en el sector de las rejas nos dan la fiabilidad de trabajar con los grandes fabricantes teniendo las mejores marcas en materiales de primerísima calidad, siempre apostando en tecnologia, acabados y servicio."
+      line4: "<strong>¿Por qué escogernos a nosotros a la hora de pedir asesoramiento o presupuesto sobre rejas?.</strong> Porque disponemos de 5 gamas de rejas de acero diferentes: ballestas, ornamental, rombo, clásica, o rectangular. Siendo ideales para proteger su vivienda, chalet, torre, ático, terraza, local, comercio, etc..."
+      line5: "Reja de ballesta o plegables"
+      line6: "Reja ornamental o barrote"
+      line7: "Reja rombo o romboide"
+      line8: "Reja clásica o varilla"
+      line9: "Rejas rectangulares o cuadradillo"
+      metadescription: "Venta e instalación de rejas para puertas y ventanas en barcelona con el perfecto acabado para su casa o empresa, tlf 93 358 44 47"
+      metakeywords: "Rejas Barcelona, Rejas para ventanas"
+      subtitle: <strong>Rejas</strong>
+      title: "Rejas Barcelona - Rejas para ventanas"
+    rep_persianas: 
+      line1: "En nuestra sección de <strong>reparación de persianas</strong>, nuestro interés como profesionales del sector, es poder ofrecerle un servicio íntegro y eficaz para cualquier situación dentro de la gama de persianas domésticas."
+      line10: "Nuestra zona de servicio e instalación de persianas es en Barcelona y alrededores; para zonas más distanciadas, consúltenos un presupuesto sin compromiso para la reparación de su persiana."
+      line2: "Disponemos actualmente con más de 20 años de experiencia como técnicos en reparación de persianas."
+      line3: "Trabajamos con primerísimas marcas y grandes fabricantes que nos respaldan en el sector de las persianas, que nos garantizan la fiabilidad de los mejores materiales y servicio técnico."
+      line4: "Reparamos persianas de: P.V.C., aluminio, aluminio extrusionado, madera, cajón de obra, cajón exterior, monoblock o compactas, alicantinas, etc... También las motorizamos con pulsador-inversor o vía rádio con mando a distáncia."
+      line5: "<strong>Sus necesidades en cualquier reparación de persianas son nuestra principal prioridad</strong>, ofreciendo siempre la mejor calidad y servicio."
+      line6: "Nuestros instaladores de persianas le repararán o aconsejarán sobre el problema de su persiana, sin ningún tipo de problema ni compromiso."
+      line7: "Disponemos de un amplio abanico de opciones y calidades de persianas, accesorios apropiados, instalación y puesta en funcionamiento:"
+      line8: "Se cambian: cintas, lamas, ejes, discos, espigas, poleitas, motores, accesorios, se revisan de arriba a abajo, se les hace el mantenimiento, etc..."
+      line9: "Ya sean motorizadas o con cinta, cajón exterior o con cajón de obra, con eje hexagonal, con eje estriado, con eje de 40mm. o de 60mm. ya sean normales o reforzados."
+      metadescription: "Venta e instalación de persianas con el perfecto acabado para paraticulares y empresas en barcelona, tlf 93 358 44 47"
+      metakeywords: "reparación de persianas - Reparación persianas barcelona"
+      subtitle: "Reparación de persianas"
+      title: "Reparación de persianas - Reparación persianas Barcelona"
+    t_punto: 
+      line1: "Es también conocido como <strong>toldo de brazo recto</strong>, es la siguiente gama de <strong>toldos para ventanas y balcones</strong>, teniendo la particularidad de que <strong>siempre el brazo está sujeto.</strong>"
+      line2: "Mucha variedad en lonas de alta calidad, accesorios y componentes de aluminio color blanco, también existentes en cualquier color RAL."
+      line3: "<strong>Se puede optar por 3 tipos de brazo: sin tensión, semi-tensión o tensión circular.</strong>"
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Toldo punto recto"
+      title: "Toldo punto recto"
+    t_stor: 
+      line1: "Es un toldo vertical manual con mecanismo manual de manivela, típicamente conocido como <strong>toldo de balcón.</strong>"
+      line2: "<strong>Fabricado en aluminio, está compuesto por 2 pequeños brazos de 50cm.</strong> para enganchar a la barandilla o al muro. Los brazitos poseen en la parte donde se enganchan al toldo un pequeño muelle recuperador que sirve para plegarlos cuando no estan enganchados a la barandilla o al muro y en el otro extremo se enganchan a la barandilla o al muro mediante un soporte con pasador. Lo que permite una perfecta protección solar y ventilación permanente."
+      line3: "No es aconsejable la motorización de este tipo de toldo, ya que al tenerlo que enganchar manualmente, si nos descuidamos de soltarlo del soporte de la barandilla o muro, se rompería el toldo o el motor ocasionando un destrozo y su peligrosidad seria extrema."
+      line4: "Disponemos de una ámplia gama en lonas de diferentes colores de alta calidad; accesorios y componentes en color blanco, plata, oro o negro; también disponibles en cualquier color de la carta RAL."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Toldo stor"
+      title: "Toldo stor"
+    t_stor_guias: 
+      line1: "Típicamente conocido como <strong>cortavientos o quitavientos</strong>; és la última gama de toldos stor tanto manualmente con manivela como motorizado; pero con guías de aluminio, como los de una persiana."
+      line2: "<strong>Es perfecto para las terraza de un bar, un restaurante, una cafetería, etc.... También para las terrazas o jardines de cualquier casa.</strong>"
+      line3: "<strong>Le protegerá del viento y la lluvia lateralmente.</strong>"
+      line4: "Si se desea se puede fabricar con una ventana de P.V.C. en el centro o todo transparente."
+      line5: "Acordémonos que también se pueden motorizar con mecanismos mecánicos como pulsadores-inversores o vía radio como mandos a distancia."
+      line6: "Disponemos de una amplia gama en lonas de diferentes colores de alta calidad; accesorios y componentes en color blanco, plata, oro o negro; también disponibles en cualquier color de la carta RAL."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Toldo sotr con guías"
+      title: "Toldo sotr con guias"
+    t_stor_varilla: 
+      line1: "Es otra gama de toldo stor con <strong>mecanismo manual de manivela o motorizado</strong>; pero guiado por 2 varillas de aluminio una en cada extremo con 1 palomilla roscada en la parte inferior para trabarlo e impedir que se levante a causa del viento."
+      line2: "<strong>Este tipo de toldo abre a los profesionales del ramo y a los arquitectos innumerables posibilidades</strong> en balcones, terrazas, ventanas y puertas; con suficiente espacio para accionar la manivela si se precisa manualmente; siempre en vertical, son ideales para <strong>crear más intimidad en balcones, terrazas, ventanas o puertas.</strong>"
+      line3: "Acordémonos que también se pueden motorizar con mecanismos mecánicos como pulsadores-inversores o via radio como mandos a distancia."
+      line4: "Disponemos de una amplia gama en lonas de diferentes colores de alta calidad; accesorios y componentes en color blanco, plata, oro o negro; también disponibles en cualquier color de la carta RAL."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Toldo sotr con varilla"
+      title: "Toldo sotr con varilla"
+    techos: 
+      line1: "Ideal para pasillos, cocinas, habitaciones comedores, etc."
+      line2: "<strong>Totalmente desmontables, fácil limpieza, instalación con minima obra, posibilidad de instalar puntos de luz muy diversos, amplia gama de colores.</strong>"
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Techos
+      title: techos
+    toldo: 
+      line1: "Es un toldo <strong>tipo cortina corredera manual</strong> y normalmente utilizado en balcones 'tanto entero, como solo los laterales'."
+      line2: "<strong>Su fijación en el techo es con riel y poleas con gancho color plata natural o blanco.</strong>"
+      line3: "Con alta gama en lonas de gran calidad."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Toldo cortinas"
+      title: "Toldo cortinas"
+    toldos: 
+      line1: "Es un orgullo para nosotros poder contar con <strong>nuestra sección de toldos.</strong>"
+      line10: Capota
+      line11: Corredero
+      line12: "Toldo cortina"
+      line13: Marquesinas
+      line14: "También realizamos motorización, reparación e instalación de toldos."
+      line15: "Para más Información sobre cualquier tipo de toldo no dude en contactar con nuestro técnico en presupuestos y montaje."
+      line16: "En nuestro departamento de toldos, podrá encontrar todo tipo de toldos: stor, vertical, punto recto, brazos articulados, cofre, monoblock brazos articulados, pérgolas, capotas, toldos cortina y marquesinas."
+      line17: "Ya sean toldos motorizados o con manivela, tanto para vivienda, torres, chalets, terrazas, locales, negocios, etc..., nuestros instaladores de toldos le instalarán o repararán su toldo sin ningún tipo de problema."
+      line18: "Estimado cliente, aparte de instalar toldos también los reparamos. Nuestro técnico instalador le solucionará el problema que tenga con su toldo."
+      line19: "Motorizamos todo tipo de toldos con el mínimo coste e intalación. Nuestros motores tienen 2 años de garantía siendo un motor muy fiable y silencioso. Con multitud de mecanismos como sensor de viento, sensor de lluvia, sensor de sol, mando a distancia, pulsador-inversor, etc..."
+      line2: "Nuestro deseo como profesionales del sector de los toldos, capotas, toldos correderos,...<strong> es poder ofrecerles la solución perfecta con un servicio integral y personalizado a sus necesidades y deseos.</strong>"
+      line3: "<strong>Con más de 20 años de experiencia que nos avalan trabajando con primerísimas marcas y fabricantes, siempre apostando en tecnología, acabados y servicio.</strong>"
+      line4: "<strong>¿Por qué elegirnos a nosotros a la hora de pedir asesoramiento o presupuesto sobre cualquier tipo de toldo?.</strong> Porque le ofrecemos 8 modelos de toldos diferentes ideales para su vivienda, chalet, torre, ático, terraza, local, comercio, etc..."
+      line5: "Toldo stor"
+      line6: "Toldo stor con varilla"
+      line7: "Toldo stor con guías"
+      line8: "Toldo punto recto"
+      line9: "Brazos articulados"
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Toldos
+      title: Toldos
+    veleta: 
+      line1: "Es un accesorio que se instala independientemente en los motores para toldos, tanto mecánicos como vía radio."
+      line2: "Su función es recoger el toldo cuando hay mucho viento y extenderlo cuando hace sol, automáticamente."
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: "Veleta o sensor sol-viento"
+      title: "Veleta o sensor sol-viento"
+    ventanas: 
+      line1: "Disponemos de 4 tipos de ventanas normalizadas que son: correderas, practicables, batientes y oscilobatientes. Aparte disponemos de diferentes grosores y tipos de marcos como por ejemplo:"
+      line10: "Las <strong>practicables:</strong> marco de 40 x 26mm., marco de 40 x 60mm. marco redondo, marco de 40 x 46mm., marco de 40 x 45mm. alta seguridad y rotura térmica de 53mm."
+      line11: "Ventanas oscilobatientes"
+      line2: "Ventanas correderas"
+      line3: "Ventanas practicables"
+      line4: "Ventanas oscilobatientes"
+      line5: "El color básico de fabricación es el blanco pero disponemos de toda la carta de colores RAL incluidos los imitación madera, con gran variedad de acabados al gusto del cliente. "
+      line6: "Al igual que los cristales que disponemos de gran variedad de ellos: monolíticos, cámara, laminados, con cuarterones tanto con barrotillos o viselado, panel sandwich o melamina sustituyendo al cristal. "
+      line7: "Ventanas correderas "
+      line8: "Las <strong>correderas:</strong> marco de 61mm., marco de 75mm., perimetral de 62mm., perimetral de 75mm., perimetral de 100mm. y rotura térmica de 83mm."
+      line9: "Ventanas practicables"
+      metadescription: "Ejemplo de plan basico"
+      metakeywords: "ejemplo,itnig,test"
+      subtitle: Ventanas
+      title: ventanas
+  t_punto: "Toldo punto recto"
+  t_stor: "Toldo stor"
+  t_stor_guias: "Toldo stor con guias"
+  t_stor_varilla: "Toldo stor con varilla"
+  techos: Techos
+  toldo: "Toldo cortina"
+  toldos: Toldos
+  veleta: "Veleta o sensor sol-viento"
+  ventanas: Ventanas
