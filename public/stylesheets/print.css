@@ -1,16 +1,14 @@
-body {
+body.bp {
   line-height: 1.5;
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
   color: black;
   background: none;
   font-size: 10pt;
 }
-
-.container {
+body.bp .container {
   background: none;
 }
-
-hr {
+body.bp hr {
   background: #cccccc;
   color: #cccccc;
   width: 100%;
@@ -19,52 +17,43 @@ hr {
   padding: 0;
   border: none;
 }
-hr.space {
+body.bp hr.space {
   background: white;
   color: white;
 }
-
-h1, h2, h3, h4, h5, h6 {
+body.bp h1, body.bp h2, body.bp h3, body.bp h4, body.bp h5, body.bp h6 {
   font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
-
-code {
+body.bp code {
   font-size: 0.9em;
   font-family: "andale mono", "lucida console", monospace;
 }
-
-a img {
+body.bp a img {
   border: none;
 }
-a:link, a:visited {
+body.bp a:link, body.bp a:visited {
   background: transparent;
   font-weight: 700;
   text-decoration: underline;
 }
-
-p img.top {
+body.bp p img.top {
   margin-top: 0;
 }
-
-blockquote {
+body.bp blockquote {
   margin: 1.5em;
   padding: 1em;
   font-style: italic;
   font-size: 0.9em;
 }
-
-.small {
+body.bp .small {
   font-size: 0.9em;
 }
-
-.large {
+body.bp .large {
   font-size: 1.1em;
 }
-
-.quiet {
+body.bp .quiet {
   color: #999999;
 }
-
-.hide {
+body.bp .hide {
   display: none;
 }
