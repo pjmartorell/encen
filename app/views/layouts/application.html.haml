@@ -2,6 +2,7 @@
 %html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => I18n.locale }
   %head
     %title= yield :title
+    <meta name="google-site-verification" content="1yXlwWktndtXDcK_hxTPYwV8Cx1EF38ZFWdzqWVk-v4" />
     %meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}
     %meta{:content => yield(:meta_keywords), :name => "keywords"}
     %meta{:content => yield(:meta_description), :name => "description"}
@@ -15,6 +16,7 @@
     %meta{:content => t(:geo_placename), :name => "geo.placename"}
     %meta{:content => t(:geo_position), :name => "geo.position"}
     %meta{:content => t(:icbm), :name => "ICBM"}
+
     = csrf_meta_tag
     = stylesheet_link_tag 'screen', :media => :screen
     = stylesheet_link_tag 'print', :media => :print
