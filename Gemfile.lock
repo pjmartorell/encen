@@ -86,6 +86,7 @@ GEM
     rack (1.2.1)
     rack-mount (0.6.13)
       rack (>= 1.0.0)
+    rack-rewrite (1.0.2)
     rack-test (0.5.7)
       rack (>= 1.0)
     rails (3.0.3)
@@ -136,6 +137,7 @@ DEPENDENCIES
   i18n (~> 0.5.0)
   interpret!
   mysql2
+  rack-rewrite
   rails (~> 3.0.0)
   rspec-rails
   sqlite3-ruby

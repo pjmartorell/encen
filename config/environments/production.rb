@@ -48,4 +48,21 @@ Encen::Application.configure do
     :email_prefix => "[Notifier-#{APP_CONFIG['name']}]",
     :sender_address => APP_CONFIG['exception_notification_sender'],
     :exception_recipients => [APP_CONFIG['exception_notification_recipient']]
+
+  config.middleware.insert_before(Rack::Lock, Rack::Rewrite) do
+    r301 '/CARGA_LIGERA.html', '/cargaligera'
+    r301 '/Donde_estamos_-_Direccion.html', '/contact'
+    r301 '/carpinteria-metalica/mamparas-de-bano.html', '/mamparas'
+    r301 '/carpinteria-metalica/mosquiteras.html', '/mosquiteras'
+    r301 '/carpinteria-metalica/porticon.html', '/porticon'
+    r301 '/carpinteria-metalica/techos.html', '/techos'
+    r301 '/est_gran_carga.html', '/cargagrande'
+    r301 '/est_media_carga.html', '/cargamedia'
+    r301 '/estanteria.html', '/estanterias'
+    r301 '/imagenes/carpinteria.swf', '/carpinteria'
+    r301 '/porticones.html', '/porticon'
+    r301 '/reja.html', '/rejas'
+    r301 '/tipos_toldos.html', '/toldos'
+    r301 '/toldo.html', '/t_stor'
+  end
 end

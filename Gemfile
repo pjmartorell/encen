@@ -7,6 +7,7 @@ gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 gem 'compass', "~> 0.10.6"
 gem 'haml-rails'
 gem 'interpret', :git => 'git://github.com/rogercampos/interpret.git'
+gem 'rack-rewrite'
 
 group :development, :test do
   gem 'sqlite3-ruby', :require => 'sqlite3'
