@@ -1,0 +1,8 @@
+<ul>
+  <li id="index"><%= link_to (t :home), root_path, :title => t("home"), :class => action_name == 'index' ? 'current_page_item' : '' %></li>
+  <li><%= link_to (t :us), nosotros_path, :title => t("us"), :class => action_name == 'nosotros' ? 'current_page_item' : '' %></li>
+  <li><%= link_to (t :services), services_path, :title => t("services"), :class => action_name == "services" ? "current_page_item" : "" %></li>
+  <li><%= link_to (t :link), vinculo_path, :title => t("link"), :class => action_name == 'vinculo' ? 'current_page_item' : '' %></li>
+  <li><%= link_to (t :news), noticias_path, :title => t("news"), :class => action_name == 'news' ? 'current_page_item' : '' %></li>
+  <li><%= link_to (t :contact), contact_path, :title => t("contact"), :class => action_name == 'contact' ? 'current_page_item' : '' %></li>
+</ul>

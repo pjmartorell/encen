@@ -1,0 +1,235 @@
+@include sticky-footer(284px);
+
+body{
+	margin: 0 auto;
+	background-color: #efefef;
+}
+
+#container{
+  @include box-shadow(#d4d3c9, 0, -29px, 25px, 1px);
+  text-align: justify;
+	font-family:$main-font-family;
+  font-size:$main-font-size;
+  color: $font-color;
+
+// Pre header: contain sign in and menu language (static information).
+
+  #pre_header{
+    background-image: url("/images/back_menu_language.png");
+    height: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position:relative;
+    a{
+      color: $blue-itnig-link;
+      text-decoration: none;
+      font-size: .8em;
+    }
+    a:hover{color:white;}
+    #menu_language{
+      li{@include list_line; padding-left: 10px;}
+    }
+
+    #signin{
+      text-align: right;
+    }
+  }
+
+// Menu: principal menu.
+
+  #menu{
+    background-image: url("/images/back_menu.png");
+    height: 89px;
+    text-align: center;
+    text-transform: uppercase;
+    ul{
+      margin-left: 25px;
+      padding-top:34px;
+    }
+    li{
+      @include list_line;
+    }
+    li#index a{
+      padding-left: 35px;
+      padding-right: 34px;
+    }
+
+    a{
+      color: $link-font-color;
+      text-decoration: none;
+      padding-bottom:40px;
+      padding-top:35px;
+      padding-right: 25px;
+      padding-left: 25px;
+    }
+    a:hover{
+      background-image: url("/images/hover.png");
+      background-repeat:no-repeat;
+      color: white;
+    }
+    .current_page_item{
+      background-image: url("/images/current_page.png");
+      background-repeat:no-repeat;
+      color: white;
+    }
+  }
+
+// Info box: where all information display (without margin).
+// Contain principal header from index, and services menu from service page.
+
+  #info_box{
+    background-color: #f5f5f5;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    #sign_in{
+      background-color: #f0f0f0;
+      outline: 1px solid #bababa;
+      border: 3px solid #f9f9f9;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      #title{
+        background-image: url("/images/sign_line.png");
+        background-position: center bottom;
+        background-repeat: repeat-x;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        h2{
+          @include text-shadow(white, 2px, 1px, 0);
+          text-align: center;
+          font-size: 2.5em;
+          color: #181d28;
+        }
+      }
+      #user{
+        background-color: #d8d8da;
+        height: 80px;
+        padding-left: 10px;
+        padding-top: 15px;
+        margin-bottom: 30px;
+        margin-left: 7em;
+        label{
+          margin-right: 4em;
+        }
+      }
+
+      #pass{
+        background-color: #d8d8da;
+        height: 80px;
+        padding-left: 10px;
+        padding-top: 15px;
+        margin-left: 7em;
+        label{
+          margin-right: 1em;
+        }
+      }
+      label{
+         @include text-shadow(white, 2px, 1px, 0);
+         margin-left: 5px;
+      }
+      input{
+        @include border-radius(3px);
+        border: medium none;
+        color: #666666;
+        font-size: 1em;
+        margin-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 240px;
+        height: 27px;
+      }
+      input#user_session_submit{
+        background-image: url("/images/back_sign_btn.png");
+        background-repeat: no-repeat;
+        background-color: #F0F0F0;
+        color: #999999;
+        cursor: pointer;
+        font-size: 0.9em;
+        height: 43px;
+        margin-left: 7em;
+        margin-top: 40px;
+        padding-bottom: 10px;
+        padding-top: 3px;
+        width: 32em;
+      }
+
+      input#user_session_submit:hover{
+        background-image: url("/images/back_sign_btn_hover.png");
+        background-repeat: no-repeat;
+        color: #444;
+      }
+    }
+    #errorExplanation{
+      background-color: #bb383b;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+      h2{
+        color: white;
+      }
+      ul{
+        margin-left: 10px;
+        li{
+          list-style: none;
+          font-size: 0.9em;
+          color: #ffb1b1;
+          list-style: none;
+          margin-top: 3px;
+        }
+      }
+    }
+  }
+// FOOTER:
+
+  #footer{
+    background-image: url("/images/back_footer.png");
+    font-size:$main-font-size;
+    height: 284px;
+    padding-top: 30px;
+    color: white;
+    h2{
+      font-family: $title-font-family;
+      letter-spacing: 1px;
+      font-weight:lighter;
+      font-size: 2.5em;
+      color: #f9e19a;
+      margin-bottom: 20px;
+    }
+    li{
+      list-style: none;
+      padding: 3px 9px;
+      margin-bottom: 5px;
+    }
+    a{
+      color: white;
+      text-decoration: none;
+      &:hover{
+        color:#f9e19a;
+      }
+    }
+    .contact_info{
+      margin-right: 50px;
+    }
+    .footer_menu{
+      margin-right: 55px;
+    }
+    .footer_services{
+      margin-right: 55px;
+    }
+    #address{
+      margin-left: 30px;
+      margin-top: -24px;
+    }
+    .mail{
+      margin-left: 30px;
+      margin-top: -24px;
+    }
+    #fax{
+      margin-left: 30px;
+      margin-top: -24px;
+    }
+    img{margin-top: 5px;}
+  }
+
+
+}

@@ -1,7 +1,8 @@
-@import "partials/one_col";
+@import "private_partials/one_col";
 @import "compass/css3/box-shadow";
 @import "compass/css3/text-shadow";
 @import "compass/layout/sticky-footer";
+@import "compass/css3/border-radius";
 
 // Here is where you can define your constants for your application and to configure the blueprint framework.
 // Feel free to delete these if you want keep the defaults:
@@ -17,12 +18,12 @@ $blueprint-grid-width: ($blueprint-container-size + $blueprint-grid-margin) / $b
 
 $main-font-family: "Trebuchet MS","Arial","Helvetica", sans-serif;
 $main-font-size: .9em;
-$font-color: #444;
+$font-color: #333;
 $title-font-family: "Hoefler Text","Garamond","Times", serif;
 $title-font-size: 1.5em;
 $link-font-color: #ccc;
 $blue-itnig-link: #5E73A3;
-$dark-blue: #1f2c47;
+$dark-blue: #353e5b;
 
 .clearfix {
   @include clearfix;
@@ -73,20 +74,18 @@ $dark-blue: #1f2c47;
 }
 
 @mixin up_button{
+  background-image: url("/images/back_up_button.png");
+  background-position: right center;
+  background-repeat: no-repeat;
   text-align: right;
+  height: 23px;
+  padding-top: 7px;
+  padding-right: 6px;
+  margin-top: 50px;
+  margin-right: 29px;
   a{
-    background-image: url("/images/back_up_button.png");
-    background-position: -1px 3px;
-    background-repeat: no-repeat;
-    margin-right: 29px;
-    padding-top: 40px;
-    color: #999;
+    color: white;
     text-decoration: none;
   }
-  a:hover{
-    background-image: url("/images/back_up_button.png");
-    background-position: -1px -56px;
-    background-repeat: no-repeat;
-    color: $dark-blue;
-  }
+  a:hover{ color:#3c181c;}
 }

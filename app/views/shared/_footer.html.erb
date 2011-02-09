@@ -1,0 +1,47 @@
+<div class="contact_info">
+  <h2>Contacto</h2>
+  <img src="/images/house_footer.png" alt="Casa"/>
+  <div id="address">Carrer Ausiàs Marc 49, Despatx 18 Planta 3ra. Barcelona</div>
+  <div class="footer_separator"></div>
+
+  <img src="/images/phone_footer.png" alt="teléfono"/>
+  <div class="mail">93.244.80.59</div>
+  <div class="footer_separator"></div>
+
+  <img src="/images/fax_footer.png" alt="fax"/>
+  <div id="fax">93.244.82.20</div>
+  <div class="footer_separator"></div>
+
+  <img src="/images/mail_footer.png" alt="mail"/>
+  <div class="mail"><%= mail_to 'dra@drassociats.es', nil, :encode => :hex%></div>
+  <div class="footer_separator"></div>
+
+</div>
+
+<div class="footer_menu">
+  <h2>Menú</h2>
+    <ul>
+      <li><%= link_to (t :home), root_path, :title => t("home") %></li>
+      <li><%= link_to (t :us), nosotros_path, :title => t("us")%></li>
+      <li><%= link_to (t :services), services_path, :title => t("services")%></li>
+      <li><%= link_to (t :link), vinculo_path, :title => t("link")%></li>
+      <li><%= link_to (t :news), noticias_path, :title => t("news") %></li>
+      <li><%= link_to (t :contact), contact_path, :title => t("contact") %></li>
+  </ul>
+</div>
+
+<div class="footer_services">
+  <h2>Otros</h2>
+    <ul>
+    <li><%= link_to (t :footer_auditoria), services_path, :title => t("footer_auditoria")%></li>
+    <li><%= link_to (t :footer_extranjeria), services_path, :title => t("footer_extranjeria")%></li>
+    <li><%= link_to (t :footer_prevencion), services_path, :title => t("footer_prevencion")%></li>
+    <li><%= link_to (t :footer_admin), services_path, :title => t("footer_admin")%></li>
+  </ul>
+</div>
+
+<div class="separator"></div>
+<div id="itnig_link">
+  <a title="<%= t('itnig') %>" href="http://itnig.net/"><%= t('itnig') %></a>
+</div>
+

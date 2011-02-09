@@ -1,8 +1,11 @@
 Encen::Application.routes.draw do
   devise_for :users, :controllers => {:sessions => 'user_sessions'}
 
-  match 'contact', :to => "static#contact"
-  match 'gallery', :to => "static#gallery"
+  match 'contacto' => 'static#contact', :as => :contact
+  match 'services' => 'static#services', :as => :services
+  match 'vinculo' => 'static#vinculo', :as => :vinculo
+  match 'noticias' => 'static#noticias', :as => :noticias
+  match 'nosotros' => 'static#nosotros', :as => :nosotros
 
   namespace :admin do
     resources :users, :except => :index
@@ -10,6 +13,5 @@ Encen::Application.routes.draw do
     root :to => "users#index"
   end
 
-  #match 'admin', :to => "interpret/translations#index"
   root :to => "static#index"
 end

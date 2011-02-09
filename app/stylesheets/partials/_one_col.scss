@@ -1,0 +1,103 @@
+body.one_col{
+  #container {
+    @include container;
+  }
+  #pre_header{
+    @include span(22);
+    @include prepend(1);
+    @include append(1);
+    #menu_language{
+      @include column(5);
+    }
+    #signin{
+      @include column(16);
+    }
+  }
+  
+  #menu{
+    @include span(18);
+    @include prepend(3);
+    @include append(3);
+  }
+  
+  #info_box{
+    @include span(24);
+    
+    #header{
+      @include prepend(2);
+      @include append(2);
+      #p_photo{
+        @include span(20);
+      }
+    }
+    #info{
+      @include prepend(1);
+      @include append(1);
+      #news_phrase{
+        @include span(20);
+        @include prepend(2);
+        #box_news{
+          @include span(16);
+          @include prepend(1);
+          @include append(1);
+        }
+      }
+      #news{
+        .block1{
+          .image{
+            @include column(7);
+          }
+          .news_content_image{
+            @include column(13);
+          }
+          .news_content{
+            @include column(20);
+          }
+          .date{
+            @include span(8);
+          }
+        }
+        
+      }
+      #us{
+        .block1{
+          @include column(10);
+        }
+        .block2{
+          @include column(10);
+        }
+      }
+      .services_areas{
+        @include column(9);
+      }
+      .services_list{
+        @include span(20);
+        @include prepend(1);
+      }
+      .contact_info{
+        @include column(7);
+      }
+      #map_canvas{
+        @include column(13);
+      }
+    }
+    
+  }
+  
+  #footer{
+    @include span(24);
+    @include prepend(1);
+    .contact_info{
+      @include column(10);
+    }
+    .footer_menu{
+      @include column(4);
+    }
+    .footer_services{
+      @include column(6);
+    }
+    #itnig_link{
+      @include span(22);
+    }
+  }
+}
