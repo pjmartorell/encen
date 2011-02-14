@@ -2,6 +2,7 @@ body.one_col{
   #container {
     @include container;
   }
+
   #pre_header{
     @include span(22);
     @include prepend(1);
@@ -13,23 +14,39 @@ body.one_col{
       @include column(16);
     }
   }
-  
+
   #menu{
     @include span(18);
     @include prepend(3);
     @include append(3);
   }
-  
-  #info_box{
+
+  #main{
     @include span(24);
-    
     #header{
       @include prepend(2);
       @include append(2);
-      #p_photo{
+      #header_photo{
         @include span(20);
       }
     }
+
+    #home{
+      @include span(22);
+      @include prepend(1);
+      @include append(1);
+      .services_block{
+        @include column(9);
+      }
+    }
+
+
+
+
+
+
+
+//------------------------------------------------------------------------------------------------------------
     #info{
       @include prepend(1);
       @include append(1);
@@ -57,7 +74,7 @@ body.one_col{
             @include span(8);
           }
         }
-        
+
       }
       #us{
         .block1{
@@ -81,9 +98,9 @@ body.one_col{
         @include column(13);
       }
     }
-    
+
   }
-  
+
   #footer{
     @include span(24);
     @include prepend(1);

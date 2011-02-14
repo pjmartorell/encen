@@ -40,31 +40,12 @@ $dark-blue: #1f2c47;
   overflow:hidden;
 }
 
-.header_separator {
-  clear:both;
-  height: 1em;
-  overflow:hidden;
-}
-
-.last_item_separator{
-  clear:both;
-  height: 15em;
-  overflow:hidden;
-}
-
 .line_separator{
   background-image: url("/images/line_services.png");
   background-repeat: repeat-x;
-  height:4em;
-  margin-top:.5em;
-  clear:both;
-  overflow:hidden;
-
-}
-
-.footer_separator{
-  padding-top: 6px;
-  padding-bottom: 5px;
+  height: 3em;
+  margin-top: 2em;
+  margin-bottom: 1em;  
 }
 
 @mixin list_line{
@@ -88,5 +69,19 @@ $dark-blue: #1f2c47;
     background-position: -1px -56px;
     background-repeat: no-repeat;
     color: $dark-blue;
+  }
+}
+
+
+// Basic css
+body{
+	margin: 0 auto;
+	background-color: #efefef;
+	#container{
+    @include box-shadow(#d4d3c9, 0, -29px, 25px, 1px);
+    text-align: justify;
+  	font-family:$main-font-family;
+    font-size:$main-font-size;
+    color: $font-color;
   }
 }

@@ -32,18 +32,23 @@
 
 </head>
 <body class="one_col">
+
   <div id="container">
     <div id="pre_header">
       <div id="menu_language"><%= render :partial => "shared/menu_language" %></div>
       <div id="signin"><a href="/users/sign_in"><%=t('id') %></a></div>
     </div>
+
     <div id="menu">
       <%= render :partial => "shared/menu"%>
     </div>
-    <div id="info_box">
+
+    <div id="main">
       <%= yield %>
     </div>
+
     <div id="footer"><%= render :partial => "shared/footer" %></div>
+
 </div>
 
   <script src="http://www.google.com/jsapi?key=ABQIAAAA0ylfVAz-VO81YNZU6tZcBBQmeMglRFmXFoqbXzJidjd95_9FnxR5zSzQGNAQ-NQNKLi_4635iBfvLA" type="text/javascript"></script>
