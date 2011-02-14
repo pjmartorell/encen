@@ -22,7 +22,7 @@
 }
 
 
-// MENU.
+//  . . . .  MENU . . . .
 
 #menu{
   background-image: url("/images/back_menu.png");
@@ -60,10 +60,15 @@
   }
 }
 
-// MAIN.
+// . . . . MAIN . . . . .
 
 #main{
   background-color: #f5f5f5;
+
+  h1{
+    font-size: 2.5em;
+    text-align: center;
+  }
   #header{
     background-color: white;
     background-image: url("/images/bottom_header.png");
@@ -155,7 +160,7 @@
     }
     #news_area{
       background-image: url("/images/back_news.jpg");
-      height: 137px;
+      height: 10em;
       padding-top: 4em;
       text-align: center;
       h3{
@@ -180,6 +185,27 @@
 			}
     }
 
+  }
+
+  #aboutus{
+    padding-top: 3em;
+    padding-bottom: 5em;
+    #header_aboutus{
+      margin-top: 2em;
+      #aboutus_photo{
+        background-color: #666;
+        height: 185px;
+        margin-bottom: 2em;
+      }
+      p{
+        font-size: 1.3em;
+        color: $blue-itnig-link;
+      }
+    }
+    .block{
+      margin-left: 2em;
+      margin-top: 4em;
+    }
   }
 
 

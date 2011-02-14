@@ -131,6 +131,20 @@ body.one_col #main #home .services_block {
 * html body.one_col #main #home .services_block {
   overflow-x: hidden;
 }
+body.one_col #main #aboutus {
+  width: 870px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+body.one_col #main #aboutus .block {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 390px;
+}
+* html body.one_col #main #aboutus .block {
+  overflow-x: hidden;
+}
 body.one_col #main #info {
   padding-left: 40px;
   padding-right: 40px;
@@ -173,24 +187,6 @@ body.one_col #main #info #news .block1 .news_content {
 }
 body.one_col #main #info #news .block1 .date {
   width: 310px;
-}
-body.one_col #main #info #us .block1 {
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 390px;
-}
-* html body.one_col #main #info #us .block1 {
-  overflow-x: hidden;
-}
-body.one_col #main #info #us .block2 {
-  display: inline;
-  float: left;
-  margin-right: 10px;
-  width: 390px;
-}
-* html body.one_col #main #info #us .block2 {
-  overflow-x: hidden;
 }
 body.one_col #main #info .services_areas {
   display: inline;
@@ -361,6 +357,10 @@ body #container {
 #main {
   background-color: #f5f5f5;
 }
+#main h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
 #main #header {
   background-color: white;
   background-image: url("/images/bottom_header.png");
@@ -457,7 +457,7 @@ body #container {
 }
 #main #home #news_area {
   background-image: url("/images/back_news.jpg");
-  height: 137px;
+  height: 10em;
   padding-top: 4em;
   text-align: center;
 }
@@ -482,6 +482,26 @@ body #container {
 }
 #main #home #news_area a:hover {
   color: #5e73a3;
+}
+#main #aboutus {
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+#main #aboutus #header_aboutus {
+  margin-top: 2em;
+}
+#main #aboutus #header_aboutus #aboutus_photo {
+  background-color: #666;
+  height: 185px;
+  margin-bottom: 2em;
+}
+#main #aboutus #header_aboutus p {
+  font-size: 1.3em;
+  color: #5e73a3;
+}
+#main #aboutus .block {
+  margin-left: 2em;
+  margin-top: 4em;
 }
 #main #services_menu {
   background-image: url("/images/back_services_menu.png");
