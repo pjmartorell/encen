@@ -190,38 +190,39 @@ body.one_col #main #news .block1 .news_content {
 body.one_col #main #news .block1 .date {
   width: 310px;
 }
-body.one_col #main #footer {
-  width: 950px;
+body.one_col #footer {
+  width: 870px;
   padding-left: 40px;
+  padding-right: 40px;
 }
-body.one_col #main #footer .contact_info {
+body.one_col #footer .contact_info {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 390px;
 }
-* html body.one_col #main #footer .contact_info {
+* html body.one_col #footer .contact_info {
   overflow-x: hidden;
 }
-body.one_col #main #footer .footer_menu {
+body.one_col #footer .footer_menu {
   display: inline;
   float: left;
   margin-right: 10px;
-  width: 150px;
+  width: 190px;
 }
-* html body.one_col #main #footer .footer_menu {
+* html body.one_col #footer .footer_menu {
   overflow-x: hidden;
 }
-body.one_col #main #footer .footer_services {
+body.one_col #footer .footer_services {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 230px;
 }
-* html body.one_col #main #footer .footer_services {
+* html body.one_col #footer .footer_services {
   overflow-x: hidden;
 }
-body.one_col #main #footer #itnig_link {
+body.one_col #footer #itnig_link {
   width: 870px;
 }
 
@@ -690,8 +691,8 @@ body #container {
 #footer {
   background-image: url("/images/back_footer.png");
   font-size: 0.9em;
-  height: 284px;
-  padding-top: 30px;
+  height: 22em;
+  padding-top: 3em;
   color: white;
 }
 #footer h2 {
@@ -700,12 +701,15 @@ body #container {
   font-weight: lighter;
   font-size: 2.5em;
   color: #f9e19a;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
 }
 #footer li {
   list-style: none;
   padding: 3px 9px;
-  margin-bottom: 5px;
+  margin-bottom: 0.5em;
+}
+#footer img {
+  margin-top: 1em;
 }
 #footer a {
   color: white;
@@ -714,27 +718,15 @@ body #container {
 #footer a:hover {
   color: #f9e19a;
 }
-#footer .contact_info {
-  margin-right: 50px;
-}
-#footer .footer_menu {
-  margin-right: 55px;
-}
-#footer .footer_services {
-  margin-right: 55px;
-}
 #footer #address {
-  margin-left: 30px;
-  margin-top: -24px;
+  margin-left: 2.5em;
+  margin-top: -1.8em;
 }
 #footer .mail {
-  margin-left: 30px;
-  margin-top: -24px;
+  margin-left: 2.5em;
+  margin-top: -1.8em;
 }
 #footer #fax {
-  margin-left: 30px;
-  margin-top: -24px;
-}
-#footer img {
-  margin-top: 5px;
+  margin-left: 2.5em;
+  margin-top: -1.8em;
 }
