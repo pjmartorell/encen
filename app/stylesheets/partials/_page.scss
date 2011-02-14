@@ -87,6 +87,8 @@
     }
   }
 
+  // . . . . Index . . . . .//
+
   #home{
     margin-top: 2em;
     padding-bottom: 5em;
@@ -187,6 +189,8 @@
 
   }
 
+  // . . . . Aboutus . . . . .//
+
   #aboutus{
     padding-top: 3em;
     padding-bottom: 5em;
@@ -207,6 +211,8 @@
       margin-top: 4em;
     }
   }
+
+  // . . . . Services . . . . .//
 
   #services{
     padding-bottom: 5em;
@@ -238,8 +244,8 @@
       a{
         color:$font-color;
         text-decoration: none;
+        &:hover{color: $blue-itnig-link;}
       }
-      a:hover{color: $blue-itnig-link;}
     }
     #btn_fiscal{
       @include up_button;
@@ -261,358 +267,83 @@
     }
   }
 
+  // . . . . Links . . . . .//
 
-
-
-
-
-
-
-
-
-
-
-
-
-//---------------------------------------------------------------------------------------------------------
-  #services_menu{
-    background-image: url("/images/back_services_menu.png");
-    background-color: white;
-    background-repeat: repeat-x;
-    text-align: center;
-    height: 53px;
-    padding-top: 35px;
-    margin-bottom: 90px;
-    margin-top: 15px;
-    li{
-      @include list_line;
-      padding-left: 20px;
-      padding-right: 20px;
+  #links{
+    padding-top: 3em;
+    padding-bottom: 5em;
+    p{
+      margin-top: 1em;
+      margin-bottom: 1em;
     }
-    li.services{
-      color: $dark-blue;
-      font-size: 1.5em;
-      margin-right: 15px;
+    ul{
+      margin-left: 2em;
+      margin-bottom: 2em;
+    }
+    li{
+      list-style-image: url("/images/dot.png");
+      padding-bottom: 1em;
     }
     a{
-      color: $font-color;
-      text-decoration: none;
-      padding: 5px;
-    }
-    a:hover{
-      background-color: $dark-blue;
-      color: white;
-    }
+			text-decoration: none;
+			color: $font-color;
+			&:hover{color: $blue-itnig-link;}
+		}
   }
 
-// Info: where all information display (with margins).
+  // . . . . News . . . . .//
 
-  #info{
-    h1{
-      text-align: center;
-      font-size: 3em;
-    }
-    font-size:$main-font-size;
-    h2{
-      font-size: 1.1em;
-    }
-
-    h3{
-		  @include text-shadow(white, 2px, 1px, 0);
-			font-family: $title-font-family;
-			font-size: 2.5em;
-		  text-align: center;
-			color: $dark-blue;
-			margin-bottom: 15px;
-    }
-
-    .first_p{
-      @include text-shadow(white, 2px, 1px, 0);
-       color: #1F2C47;
-       font-size: 1.3em;
-     }
-
-//INDEX:
-// Services section.
-
-    .services_areas{
-      padding: 30px 25px 30px 50px;
-      a{
-        color: $font-color;
-        text-decoration: none;
-      }
-      a:hover{color: #596d9c;}
-    }
-
-// Chinese section.
-
-    #chinese_wrap{
-      padding-bottom: 40px;
-      #chinese_text{
-        @include box-shadow($font-color, 0, 0, 5px, 1px);
-        background-color: white;
-        border: 5px solid $link-font-color;
-        height: 90px;
-        position: relative;
-        padding: 40px 30px 40px 60px;
-        p{font-size: 1.4em;}
-        .ribbon{
-          background-image: url("/images/ribbon.png");
-          background-repeat: no-repeat;
-          margin-left: -70px;
-          margin-top: -150px;
-          z-index: 1000;
-          position: relative;
-          height: 134px;
-          width: 122px;
-        }
-        .tooltip {
-   		    color: $font-color;
-  			  text-decoration: none;
-  			  position: relative;
-    		}
-    		.tooltip span {
-    		  background-image: url("/images/back_tooltip.png");
-    		  background-repeat: no-repeat;
-    		  font-size: .9em;
-    		  color: $link-font-color;
-    			margin-left: -999em;
-    			margin-top: -227px;
-    			position: absolute;
-    			p{
-    			  font-family:$main-font-family;
-    			  color: white;
-    			  @include text-shadow(none);
-    			  margin-bottom: 3px;
-						text-align: center;
-    			}
-    		}
-    		.tooltip:hover span {
-    			position: absolute;
-    			z-index: 99;
-    			margin-left: 430px;
-    			height: 130px;
-    			width: 302px;
-    			padding: 10px;
-    		}
-      }
-    }
-
-// News section.
-
-    #news_area{
-      background-image: url("/images/back_news.jpg");
-      height: 137px;
-      padding-top: 66px;
-      text-align: center;
-      h3{
-        color: white;
-        text-align: right;
-        @include text-shadow(none);
-        margin-right: 77px;
-        margin-top: -43px;
-        margin-bottom: 30px;
-      }
-      li{
-        list-style: none;
-        border-bottom: 1px solid $link-font-color;
-        padding-bottom: 2px;
-        margin-bottom: 10px;
-      }
-			a{
-				text-decoration: none;
-				color: $font-color;
+  #news{
+    padding-top: 3em;
+    padding-bottom: 1em;
+    .block1{
+		  background-color: #ececec;
+		  padding: 2em 1em 0 2em;
+		  margin-top: 4em;
+		  margin-bottom: 8em;
+		  border-bottom: 8px solid #dedede;
+		  h2{
+				font-size: 3em;
+				color: black;
+				font-family: $title-font-family;
 			}
-			a:hover{
-				color: $blue-itnig-link;
+			.image{
+			  margin-top: 20px;
+			  padding-right: 10px;
+			  img{
+			    border: 5px solid #DEDEDE;
+			    margin-top: 2em;
+			  }
 			}
-
-    }
-
-// NOSOTROS:
-  #us{
-    margin-bottom: 10em;
-    #p_photo{
-      background-color: white;
-      height: 185px;
-    }
-    .block1, .block2{
-      margin-left: 32px;
-    }
-    .first_p{
-      border-top: 10px solid #DEDEDE;
-      font-size: 1.5em;
-      color: #343b5c;
-      padding-bottom: 1em;
-      padding-top: 3em;
-    }
-  }
-
-
-
-
-// SERVICES:
-
-    .services_list{
-      h4{
-        color: #666;
-        font-family: $title-font-family;
-        font-size: 1.3em;
-        margin-bottom: 20px;
-      }
-
-      ul{
-        margin-left: 15px;
-        margin-top: 30px;
-      }
-      li{
-        list-style-image: url("/images/dot.png");
-        padding-bottom: 25px;
-        font-size: 1.1em;
-      }
-      li.links{
-        a{
-          color:$font-color;
-          text-decoration: none;
-        }
-        a:hover{color: $blue-itnig-link;}
-      }
-    }
-    #btn_fiscal{
-      @include up_button;
-    }
-    #btn_laboral{
-      @include up_button;
-    }
-    #btn_contable{
-      @include up_button;
-    }
-    #btn_juridico{
-      @include up_button;
-    }
-    #btn_auditoria{
-      @include up_button;
-    }
-    #btn_otros{
-      @include up_button;
-    }
-
-// NEWS:
-
-		#news{
-		  padding-top: 20px;
-			.block1{
-			  background-color: #ececec;
-			  padding: 1em 1em 0 2em;
-			  margin-bottom: 120px;
-			  border-bottom: 8px solid #dedede;
-
-			  h2{
-					font-size: 3em;
-          padding-bottom: 6px;
-          padding-top: 10px;
-					color: black;
-					font-family: $title-font-family;
+			.news_content_image, .news_content{
+				padding-bottom: 2em;
+		    padding-top: 2em;
+		    padding-left: 1em;
+		    margin-top: 2em;
+		    border-bottom: 1px solid #cecece;
+        border-top: 1px solid #cecece;
+				p{
+					@include text-shadow(none);
+					font-size: .9em;
+					font-style: normal;
+					text-align: justify;
+					line-height: 2em;
 				}
-				.image{
-				  margin-top: 20px;
-				  padding-right: 10px;
-				  img{
-				    border: 5px solid #DEDEDE;
-				  }
-				}
-				.news_content_image, .news_content{
-					padding-bottom: 20px;
-			    padding-top: 20px;
-			    padding-left: 20px;
-			    margin-top: 20px;
-			    border-bottom: 1px solid #cecece;
-          border-top: 1px solid #cecece;
-					p{
-						@include text-shadow(none);
-						font-size: .9em;
-						font-style: normal;
-						text-align: justify;
-						line-height: 2em;
-					}
-				}
-				.date{
-				  border-bottom: 1px solid #d6d6d6;
-          border-top: 1px solid #d6d6d6;
-				  text-align: center;
-				  color: #666;
-				  margin-bottom: 20px;
-          margin-top: 5px;
-          margin-left: 500px;
-				}
+			}
+			.date{
+			  border-bottom: 1px solid #d6d6d6;
+        border-top: 1px solid #d6d6d6;
+			  text-align: center;
+			  color: #666;
+        margin-bottom: 2em;
+        margin-left: 32em;
+        margin-top: 1em;
 			}
 		}
-
-// CONTACT:
-
-    .contact_info{
-      background-image: url("/images/back_contactinfo.jpg");
-      height: 307px;
-      padding-top: 58px;
-      padding-left: 10px;
-      padding-right: 10px;
-      color: white;
-      margin-bottom: 5em;
-      a{
-        color: #F9E19A;
-        text-decoration: none;
-      }
-
-      a:hover{color: white;}
-
-      #address{
-        margin-top: -29px;
-        margin-bottom: 15px;
-        padding: 5px 10px;
-        img{ margin-bottom: -15px;}
-        span{ margin-left: 35px;}
-      }
-      .phone{
-        margin-top: -24px;
-        margin-bottom: 15px;
-        padding: 5px 10px 10px;
-        img{
-          margin-bottom: -6px;
-          margin-right: 5px;
-        }
-      }
-      .mail{
-        margin-top: -24px;
-        margin-bottom: 15px;
-        padding: 5px 10px 10px;
-        img{
-          margin-bottom: -6px;
-          margin-right: 5px;
-        }
-      }
-      #fax{
-        margin-top: -24px;
-        margin-bottom: 15px;
-        padding: 5px 10px 10px;
-        img{
-          margin-bottom: -6px;
-          margin-right: 5px;
-        }
-      }
-    }
-
-// Map
-    #map_canvas{
-      height: 350px;
-      margin-top: 2px;
-      margin-left: 25px;
-    }
-
   }
 
+  // . . . . Footer . . . . .//
 }
-
-// FOOTER:
 
 #footer{
   background-image: url("/images/back_footer.png");

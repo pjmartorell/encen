@@ -54,77 +54,49 @@ body.one_col{
       @include prepend(1);
       @include append(1);
     }
-
-
-
-
-
-
-
-//------------------------------------------------------------------------------------------------------------
-    #info{
+    
+    #links{
+      @include span(22);
       @include prepend(1);
       @include append(1);
-      #news_phrase{
-        @include span(20);
-        @include prepend(2);
-        #box_news{
-          @include span(16);
-          @include prepend(1);
-          @include append(1);
-        }
-      }
-      #news{
-        .block1{
-          .image{
-            @include column(7);
-          }
-          .news_content_image{
-            @include column(13);
-          }
-          .news_content{
-            @include column(20);
-          }
-          .date{
-            @include span(8);
-          }
-        }
-
-      }
-      #us{
-
-      }
-      .services_areas{
-        @include column(9);
-      }
-      .services_list{
-        @include span(20);
-        @include prepend(1);
-      }
-      .contact_info{
-        @include column(7);
-      }
-      #map_canvas{
-        @include column(13);
-      }
     }
-
-  }
-
-  #footer{
-    @include span(24);
-    @include prepend(1);
-    .contact_info{
-      @include column(10);
-    }
-    .footer_menu{
-      @include column(4);
-    }
-    .footer_services{
-      @include column(6);
-    }
-    #itnig_link{
+    
+    #news{
       @include span(22);
+      @include prepend(1);
+      @include append(1);
+      .block1{
+        .image{
+          @include column(7);
+        }
+        .news_content_image{
+          @include column(12);
+        }
+        .news_content{
+          @include column(20);
+        }
+        .date{
+          @include span(8);
+        }
+      }
     }
+
+    #footer{
+      @include span(24);
+      @include prepend(1);
+      .contact_info{
+        @include column(10);
+      }
+      .footer_menu{
+        @include column(4);
+      }
+      .footer_services{
+        @include column(6);
+      }
+      #itnig_link{
+        @include span(22);
+      }
+    }
+
   }
 }
