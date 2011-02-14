@@ -194,7 +194,7 @@
       margin-top: 2em;
       #aboutus_photo{
         background-color: #666;
-        height: 185px;
+        height: 15em;
         margin-bottom: 2em;
       }
       p{
@@ -205,6 +205,59 @@
     .block{
       margin-left: 2em;
       margin-top: 4em;
+    }
+  }
+
+  #services{
+    padding-bottom: 5em;
+    h2{
+      font-size: 2em;
+      text-align: center;
+      color: $dark-blue;
+      font-family: $title-font-family;
+      margin-bottom: 1em;
+    }
+    h2+p{
+      font-size: 1.1em;
+      margin-bottom: 3em;
+    }
+    h3{
+      margin-bottom: 1em;
+      font-size: 1.1em;
+    }
+
+    ul{
+      margin-left: 2em;
+      margin-bottom: 2em;
+    }
+    li{
+      list-style-image: url("/images/dot.png");
+      padding-bottom: 1.5em;
+    }
+    li.links{
+      a{
+        color:$font-color;
+        text-decoration: none;
+      }
+      a:hover{color: $blue-itnig-link;}
+    }
+    #btn_fiscal{
+      @include up_button;
+    }
+    #btn_laboral{
+      @include up_button;
+    }
+    #btn_contable{
+      @include up_button;
+    }
+    #btn_juridico{
+      @include up_button;
+    }
+    #btn_auditoria{
+      @include up_button;
+    }
+    #btn_otros{
+      @include up_button;
     }
   }
 

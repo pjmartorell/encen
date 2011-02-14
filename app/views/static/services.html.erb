@@ -1,8 +1,6 @@
 <%= title t(".title") %>
 
-<div class="separator"></div>
-<div id="service_subtitle"><h1><%=t(".subtitle") %></h1></div>
-<div class="separator"></div>
+<h1><%=t(".subtitle") %></h1>
 
 <div id="services_menu">
   <ul>
@@ -14,161 +12,139 @@
     <li id="otros"><a href="#linkotros"><%=t('.link_otros') %></a></li>
   </ul>
 </div>
-<div class="separator"></div>
 
-<div id="info">
 
-  <h3 class="subtitle_service" id="linkfiscal"><%=t('.subtitle_fiscales') %></h3>
-  <p class="first_p"><%=t('.fiscales_description') %></p>
-  <div class="separator"></div>
-  <div class="services_list">
-    <ul>
-      <li><%=t('.gestion_1') %></li>
-      <li><%=t('.gestion_2') %></li>
-      <li><%=t('.gestion_3') %></li>
-      <li><%=t('.gestion_4') %></li>
-      <li><%=t('.gestion_5') %></li>
-      <li><%=t('.gestion_6') %></li>
-      <li><%=t('.gestion_7') %></li>
-      <li><%=t('.gestion_8') %></li>
-      <li><%=t('.gestion_9') %></li>
-      <li><%=t('.gestion_10') %></li>
-    </ul>
-  </div>
+<div id="services">
 
-  <div class="separator"></div>
-  <div class="separator"></div>
+  <h2 id="linkfiscal"><%=t('.subtitle_fiscales') %></h3>
+  <p><%=t('.fiscales_description') %></p>
+  <ul>
+    <li><%=t('.gestion_1') %></li>
+    <li><%=t('.gestion_2') %></li>
+    <li><%=t('.gestion_3') %></li>
+    <li><%=t('.gestion_4') %></li>
+    <li><%=t('.gestion_5') %></li>
+    <li><%=t('.gestion_6') %></li>
+    <li><%=t('.gestion_7') %></li>
+    <li><%=t('.gestion_8') %></li>
+    <li><%=t('.gestion_9') %></li>
+    <li><%=t('.gestion_10') %></li>
+  </ul>
   <div id="btn_fiscal"><a href="#fiscal">Subir</a></div>
+  
+  <div class="line_separation"></div>
 
-  <div class="line_separator"></div>
-  
-  <h3 class="subtitle_service" id="linklaboral"><%=t('.subtitle_laborales') %></h3>
-  <p class="first_p"><%=t('.laborables_description') %></p>
-  <div class="separator"></div>
-  <div class="services_list">
-    <ul>
-      <li><%=t('.laborales_1') %></li>
-      <li><%=t('.laborales_2') %></li>
-      <li><%=t('.laborales_3') %></li>
-      <li><%=t('.laborales_4') %></li>
-      <li><%=t('.laborales_5') %></li>
-      <li><%=t('.laborales_6') %></li>
-      <li><%=t('.laborales_7') %></li>
-      <li><%=t('.laborales_8') %></li>
-      <li><%=t('.laborales_9') %></li>
-      <li><%=t('.laborales_10') %></li>
-      <li><%=t('.laborales_11') %></li>
-      <li><%=t('.laborales_12') %></li>
-      <li><%=t('.laborales_13') %></li>
-      <li><%=t('.laborales_14') %></li>
-      <li><%=t('.laborales_15') %></li>
-      <li><%=t('.laborales_16') %></li>
-    </ul>
-  </div>
-  <div class="separator"></div>
-  <div class="separator"></div>
+  <h2 id="linklaboral"><%=t('.subtitle_laborales') %></h3>
+  <p<%=t('.laborables_description') %></p>
+  <ul>
+    <li><%=t('.laborales_1') %></li>
+    <li><%=t('.laborales_2') %></li>
+    <li><%=t('.laborales_3') %></li>
+    <li><%=t('.laborales_4') %></li>
+    <li><%=t('.laborales_5') %></li>
+    <li><%=t('.laborales_6') %></li>
+    <li><%=t('.laborales_7') %></li>
+    <li><%=t('.laborales_8') %></li>
+    <li><%=t('.laborales_9') %></li>
+    <li><%=t('.laborales_10') %></li>
+    <li><%=t('.laborales_11') %></li>
+    <li><%=t('.laborales_12') %></li>
+    <li><%=t('.laborales_13') %></li>
+    <li><%=t('.laborales_14') %></li>
+    <li><%=t('.laborales_15') %></li>
+    <li><%=t('.laborales_16') %></li>
+  </ul>
   <div id="btn_laboral"><a href="#laboral">Subir</a></div>
+
+  <div class="line_separation"></div>
   
-  <div class="line_separator"></div>
-  
-  <h3 class="subtitle_service" id="linkcontable"><%=t('.subtitle_contable') %></h3>
-  <p class="first_p"><%=t('.contable_description') %></p>
-  <div class="separator"></div>
-  <div class="services_list">
-    <ul>
-      <li><%=t('.contables_1') %></li>
-      <li><%=t('.contables_2') %></li>
-      <li><%=t('.contables_3') %></li>
-      <li><%=t('.contables_4') %></li>
-      <li><%=t('.contables_5') %></li>
-      <li><%=t('.contables_6') %></li>
-      <li><%=t('.contables_7') %></li>
-      <li><%=t('.contables_8') %></li>
-      <li><%=t('.contables_9') %></li>
-      <li><%=t('.contables_10') %></li>
-      <li><%=t('.contables_11') %></li>
-      <li><%=t('.contables_12') %></li>
-      <li><%=t('.contables_13') %></li>
-    </ul>
-  </div>
-  <div class="separator"></div>
-  <div class="separator"></div>
+  <h2 id="linkcontable"><%=t('.subtitle_contable') %></h3>
+  <p><%=t('.contable_description') %></p>
+  <ul>
+    <li><%=t('.contables_1') %></li>
+    <li><%=t('.contables_2') %></li>
+    <li><%=t('.contables_3') %></li>
+    <li><%=t('.contables_4') %></li>
+    <li><%=t('.contables_5') %></li>
+    <li><%=t('.contables_6') %></li>
+    <li><%=t('.contables_7') %></li>
+    <li><%=t('.contables_8') %></li>
+    <li><%=t('.contables_9') %></li>
+    <li><%=t('.contables_10') %></li>
+    <li><%=t('.contables_11') %></li>
+    <li><%=t('.contables_12') %></li>
+    <li><%=t('.contables_13') %></li>
+  </ul>
   <div id="btn_contable"><a href="#contable">Subir</a></div>
   
-  <div class="line_separator"></div>
+  <div class="line_separation"></div>
   
-  <h3 class="subtitle_service" id="linkjuridico"><%=t('.subtitle_juridico') %></h3>
-  <p class="first_p"><%=t('.juridico_description') %></p>
-  <div class="separator"></div>
-  <div class="services_list">
-    <h4><%=t('.d_mercantil') %></h4>
-    <ul>
-      <li><%=t('.mercantil_1') %></li>
-      <li><%=t('.mercantil_2') %></li>
-      <li><%=t('.mercantil_3') %></li>
-      <li><%=t('.mercantil_4') %></li>
-      <li><%=t('.mercantil_5') %></li>
-      <li><%=t('.mercantil_6') %></li>
-      <li><%=t('.mercantil_7') %></li>
-      <li><%=t('.mercantil_8') %></li>
-    </ul>
-    <div class="separator"></div>
-    <h4><%=t('.d_civil') %></h4>
-    <ul>
-      <li><%=t('.civil_1') %></li>
-      <li><%=t('.civil_2') %></li>
-      <li><%=t('.civil_3') %></li>
-      <li><%=t('.civil_4') %></li>
-      <li><%=t('.civil_5') %></li>
-    </ul>
-    <div class="separator"></div>
-    <h4><%=t('.d_administrativo') %></h4>
-    <ul>
-      <li><%=t('.administrativo_1') %></li>
-      <li><%=t('.administrativo_2') %></li>
-      <li><%=t('.administrativo_3') %></li>
-    </ul>
-    <div class="separator"></div>
-    <h4><%=t('.r_morosos') %></h4>
-    <p><%=t('.p_morosos') %></p>
-  </div>
-  <div class="separator"></div>
-  <div class="separator"></div>
+  <h2 id="linkjuridico"><%=t('.subtitle_juridico') %></h3>
+  <p><%=t('.juridico_description') %></p>  
+  <h3><%=t('.d_mercantil') %></h4>
+  <ul>
+    <li><%=t('.mercantil_1') %></li>
+    <li><%=t('.mercantil_2') %></li>
+    <li><%=t('.mercantil_3') %></li>
+    <li><%=t('.mercantil_4') %></li>
+    <li><%=t('.mercantil_5') %></li>
+    <li><%=t('.mercantil_6') %></li>
+    <li><%=t('.mercantil_7') %></li>
+    <li><%=t('.mercantil_8') %></li>
+  </ul>
+  <h3><%=t('.d_civil') %></h4>
+  <ul>
+    <li><%=t('.civil_1') %></li>
+    <li><%=t('.civil_2') %></li>
+    <li><%=t('.civil_3') %></li>
+    <li><%=t('.civil_4') %></li>
+    <li><%=t('.civil_5') %></li>
+  </ul>
+  <h3><%=t('.d_administrativo') %></h4>
+  <ul>
+    <li><%=t('.administrativo_1') %></li>
+    <li><%=t('.administrativo_2') %></li>
+    <li><%=t('.administrativo_3') %></li>
+  </ul>
+  <h3><%=t('.r_morosos') %></h4>
+  <ul>
+    <li><%=t('.p_morosos') %></li>
+  </ul>
   <div id="btn_juridico"><a href="#juridico">Subir</a></div>
-
-  <div class="line_separator"></div>
   
-  <h3 class="subtitle_service" id="linkauditoria"><%=t('.subtitle_auditoria') %></h3>
-  <p class="first_p"><%=t('.otros_description') %></p>
-  <div class="separator"></div>
-  <div class="services_list">
-    <ul>
-      <li><%=t('.otros_1') %></li>
-      <li><%=t('.otros_2') %></li>
-      <li><%=t('.otros_3') %></li>
-      <li><%=t('.otros_4') %></li>
-    </ul>
-  </div>
-  <div class="separator"></div>
-  <div class="separator"></div>
+  <div class="line_separation"></div>
+  
+  <h2 id="linkauditoria"><%=t('.subtitle_auditoria') %></h3>
+
+  <h3><%=t('.auditoria_cuentas_anuales') %></h3>
+  <ul>
+    <li><%=t('.auditoria_pargraph1') %></li>
+    <li><%=t('.auditoria_pargraph2') %></li>
+    <li><%=t('.auditoria_pargraph3') %></li>
+    <li><%=t('.auditoria_pargraph4') %></li>
+  </ul>
+  <h3><%=t('.report') %></h4>
+  <ul>
+    <li><%=t('.administrativo_1') %></li>
+    <li><%=t('.administrativo_2') %></li>
+    <li><%=t('.administrativo_3') %></li>
+  </ul>
+  <h3><%=t('.r_morosos') %></h4>
+  <ul>
+    <li><%=t('.p_morosos') %></li>
+  </ul>
   <div id="btn_auditoria"><a href="#auditoria">Subir</a></div>
 
-  <div class="line_separator"></div>
+  <div class="line_separation"></div>
   
-  <h3 class="subtitle_service" id="linkotros"><%=t('.subtitle_otros') %></h3>
-  <p class="first_p"><%=t('.otros_description') %></p>
-  <div class="separator"></div>
-  <div class="services_list">
-    <ul>
-      <li><%=t('.otros_1') %></li>
-      <li><%=t('.otros_2') %></li>
-      <li><%=t('.otros_3') %></li>
-      <li><%=t('.otros_4') %></li>
-    </ul>
-  </div>
-  <div class="separator"></div>
-  <div class="separator"></div>
+  <h2 id="linkotros"><%=t('.subtitle_otros') %></h3>
+  <p><%=t('.otros_description') %></p>
+  <ul>
+    <li><%=t('.otros_1') %></li>
+    <li><%=t('.otros_2') %></li>
+    <li><%=t('.otros_3') %></li>
+    <li><%=t('.otros_4') %></li>
+  </ul>
   <div id="btn_otros"><a href="#otros">Subir</a></div>
-  <div class="separator"></div>
 
 </div>

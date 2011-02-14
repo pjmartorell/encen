@@ -145,6 +145,11 @@ body.one_col #main #aboutus .block {
 * html body.one_col #main #aboutus .block {
   overflow-x: hidden;
 }
+body.one_col #main #services {
+  width: 870px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
 body.one_col #main #info {
   padding-left: 40px;
   padding-right: 40px;
@@ -271,7 +276,7 @@ body.one_col #footer #itnig_link {
   overflow: hidden;
 }
 
-.line_separator {
+.line_separation {
   background-image: url("/images/line_services.png");
   background-repeat: repeat-x;
   height: 3em;
@@ -492,7 +497,7 @@ body #container {
 }
 #main #aboutus #header_aboutus #aboutus_photo {
   background-color: #666;
-  height: 185px;
+  height: 15em;
   margin-bottom: 2em;
 }
 #main #aboutus #header_aboutus p {
@@ -502,6 +507,147 @@ body #container {
 #main #aboutus .block {
   margin-left: 2em;
   margin-top: 4em;
+}
+#main #services {
+  padding-bottom: 5em;
+}
+#main #services h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #1f2c47;
+  font-family: "Hoefler Text", "Garamond", "Times", serif;
+  margin-bottom: 1em;
+}
+#main #services h2 + p {
+  font-size: 1.1em;
+  margin-bottom: 3em;
+}
+#main #services h3 {
+  margin-bottom: 1em;
+  font-size: 1.1em;
+}
+#main #services ul {
+  margin-left: 2em;
+  margin-bottom: 2em;
+}
+#main #services li {
+  list-style-image: url("/images/dot.png");
+  padding-bottom: 1.5em;
+}
+#main #services li.links a {
+  color: #444444;
+  text-decoration: none;
+}
+#main #services li.links a:hover {
+  color: #5e73a3;
+}
+#main #services #btn_fiscal {
+  text-align: right;
+}
+#main #services #btn_fiscal a {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px 3px;
+  background-repeat: no-repeat;
+  margin-right: 29px;
+  padding-top: 40px;
+  color: #999;
+  text-decoration: none;
+}
+#main #services #btn_fiscal a:hover {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px -56px;
+  background-repeat: no-repeat;
+  color: #1f2c47;
+}
+#main #services #btn_laboral {
+  text-align: right;
+}
+#main #services #btn_laboral a {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px 3px;
+  background-repeat: no-repeat;
+  margin-right: 29px;
+  padding-top: 40px;
+  color: #999;
+  text-decoration: none;
+}
+#main #services #btn_laboral a:hover {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px -56px;
+  background-repeat: no-repeat;
+  color: #1f2c47;
+}
+#main #services #btn_contable {
+  text-align: right;
+}
+#main #services #btn_contable a {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px 3px;
+  background-repeat: no-repeat;
+  margin-right: 29px;
+  padding-top: 40px;
+  color: #999;
+  text-decoration: none;
+}
+#main #services #btn_contable a:hover {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px -56px;
+  background-repeat: no-repeat;
+  color: #1f2c47;
+}
+#main #services #btn_juridico {
+  text-align: right;
+}
+#main #services #btn_juridico a {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px 3px;
+  background-repeat: no-repeat;
+  margin-right: 29px;
+  padding-top: 40px;
+  color: #999;
+  text-decoration: none;
+}
+#main #services #btn_juridico a:hover {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px -56px;
+  background-repeat: no-repeat;
+  color: #1f2c47;
+}
+#main #services #btn_auditoria {
+  text-align: right;
+}
+#main #services #btn_auditoria a {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px 3px;
+  background-repeat: no-repeat;
+  margin-right: 29px;
+  padding-top: 40px;
+  color: #999;
+  text-decoration: none;
+}
+#main #services #btn_auditoria a:hover {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px -56px;
+  background-repeat: no-repeat;
+  color: #1f2c47;
+}
+#main #services #btn_otros {
+  text-align: right;
+}
+#main #services #btn_otros a {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px 3px;
+  background-repeat: no-repeat;
+  margin-right: 29px;
+  padding-top: 40px;
+  color: #999;
+  text-decoration: none;
+}
+#main #services #btn_otros a:hover {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px -56px;
+  background-repeat: no-repeat;
+  color: #1f2c47;
 }
 #main #services_menu {
   background-image: url("/images/back_services_menu.png");

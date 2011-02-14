@@ -101,7 +101,7 @@ ca:
       contables_10: "Depósito de Cuentas anuales en el Registro Mercantil."
       contables_11: "Contabilidad presupuestada. Eaboración y seguimiento de presupuestos."
       contables_12: "Preparación de informes económicos y financieros de empresas."
-      contables_13: "´Valoración de empresas."
+      contables_13: "Valoración de empresas."
       subtitle_juridico: Servicios Jurídicos.
       juridico_description: "El departamento Jurídico Mercantil y su equipo de prefisionales y abogados, ofrece un servicio de asesoramientos y consultoría legal y judicial, tanto en el ámbito empresarial como personal, cubriendo y abarcando diferentes ramas y especialidades del mundo de Derecho."
       d_mercantil: Derecho Mercantil
@@ -126,7 +126,24 @@ ca:
       r_morosos: Reclamación de morosos
       p_morosos: "Servicios de asesoramiento legal, negociación extrajudicial y reclamación judicial de impagados y morosos."
       link_auditoria: Auditoria
-      subtitle_auditoria: Auditoria
+      subtitle_auditoria: Auditoria de cuentas
+      auditoria_cuentas_anuales: Auditoría de cuentas anuales
+      auditoria_pargraph1: Auditoría obligatoria anual
+      auditoria_pargraph2: Auditoría de cuentas consolidadas
+      auditoria_pargraph3: "Sectores con regulación específica: financiero, seguros, concesiones, etc."
+      auditoria_pargraph4: Auditoría voluntaria
+      report: Informes especiales y revisiones limitadas
+      report_paragraph1: Procedimientos acordados
+      report_paragraph2: Certificaciones de hechos
+      report_paragraph3: "Informes obligatorios previstos en la legislación mercantil: reducciones de capital, ampliaciones de capital, supresión del derecho preferente de suscripción, etc."
+      report_paragraph4: Evaluación de sistemas de control intern
+      forensia: Forensia
+      forensia_paragraph1: Peritajes judiciales
+      forensia_paragraph2: Peritajes arbitrales
+      forensia_paragraph3: Dictámenes financieros
+      forensia_paragraph4: Resolución de conflictos
+      forensia_paragraph5: Prevención e investigación de fraudes
+
       subtitle_otros: Otros Servicios
       otros_description: "En la empresa ninguna área de actividad está desvinculada de as restantes. Todas ellas se interrelacionan entre sí. Por ello, ya sea de forma directa o mediantes alianzas, ofrecemos todos los servicios que su empresa puede precisar, para que queden integrados dentro del conjunto de forma armónica y eficaz."
       otros_1: Auditorias.
