@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body {
   margin: 0;
   padding: 0;
@@ -249,6 +250,11 @@ body.one_col #footer #itnig_link {
   width: 870px;
 }
 
+@font-face {
+  font-family: "zik";
+  src: local("☺"), url(/fonts/zikketica.ttf) format('truetype');
+}
+
 .clearfix {
   overflow: hidden;
   *zoom: 1;
@@ -353,8 +359,12 @@ body #container {
   background-color: #f5f5f5;
 }
 #main h1 {
-  font-size: 2.5em;
+  color: black;
+  font-family: "zik";
+  font-size: 3em;
+  letter-spacing: 1px;
   text-align: center;
+  margin-bottom: 1em;
 }
 #main #header {
   background-color: white;
@@ -372,6 +382,8 @@ body #container {
 #main #header h1 {
   text-align: center;
   font-size: 1.3em;
+  font-family: "Trebuchet MS", "Arial", "Helvetica", sans-serif;
+  color: #5e73a3;
 }
 #main #services_menu {
   background-image: url("/images/back_services_menu.png");
@@ -380,9 +392,11 @@ body #container {
   text-align: center;
   height: 3.7em;
   margin-bottom: 5em;
-  margin-top: 1em;
   padding-top: 2.4em;
   text-align: center;
+}
+#main #services_menu ul {
+  margin-top: .05em;
 }
 #main #services_menu li {
   display: inline;
@@ -398,11 +412,12 @@ body #container {
 #main #services_menu a {
   color: #444444;
   text-decoration: none;
-  padding: 5px;
+  padding: 8px;
 }
 #main #services_menu a:hover {
   background-color: #1f2c47;
   color: white;
+  padding: 34px 8px;
 }
 #main #services_title {
   padding-top: 4em;
@@ -417,10 +432,10 @@ body #container {
   text-shadow: white 2px 1px 0;
 }
 #main #home h2 a {
-  font-family: "Hoefler Text", "Garamond", "Times", serif;
+  font-family: "zik";
   text-decoration: none;
   color: #444444;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 #main #home h2 a:hover {
   color: #1f2c47;
@@ -539,7 +554,7 @@ body #container {
   font-size: 2em;
   text-align: center;
   color: #1f2c47;
-  font-family: "Hoefler Text", "Garamond", "Times", serif;
+  font-family: "zik";
   margin-bottom: 1em;
 }
 #main #services h2 + p {
@@ -708,9 +723,9 @@ body #container {
   border-bottom: 8px solid #dedede;
 }
 #main #news .block1 h2 {
-  font-size: 2.5em;
-  color: black;
-  font-family: "Hoefler Text", "Garamond", "Times", serif;
+  font-size: 2em;
+  color: #444444;
+  font-family: "zik";
 }
 #main #news .block1 .image {
   margin-top: 20px;
@@ -753,7 +768,6 @@ body #container {
   color: white;
   height: 24em;
   margin-bottom: 5em;
-  margin-top: 4em;
   padding-left: 1em;
   padding-top: 4em;
 }
@@ -800,7 +814,10 @@ body #container {
 }
 #main #contact #map_canvas {
   height: 25em;
-  margin-top: 4em;
+}
+#main #contact #map_canvas .gmnoprint {
+  background-image: url("/images/map_target.png");
+  background-repeat: no-repeat;
 }
 
 #footer {

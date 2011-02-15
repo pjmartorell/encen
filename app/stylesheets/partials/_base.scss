@@ -1,6 +1,7 @@
 @import "partials/one_col";
 @import "compass/css3/box-shadow";
 @import "compass/css3/text-shadow";
+@import "compass/css3/font-face";
 @import "compass/layout/sticky-footer";
 
 // Here is where you can define your constants for your application and to configure the blueprint framework.
@@ -18,11 +19,15 @@ $blueprint-grid-width: ($blueprint-container-size + $blueprint-grid-margin) / $b
 $main-font-family: "Trebuchet MS","Arial","Helvetica", sans-serif;
 $main-font-size: .9em;
 $font-color: #444;
-$title-font-family: "Hoefler Text","Garamond","Times", serif;
+$title-font-family: "zik";
+$footer-font: "Hoefler Text","Garamond","Times", serif;
 $title-font-size: 1.5em;
 $link-font-color: #ccc;
 $blue-itnig-link: #5E73A3;
 $dark-blue: #1f2c47;
+
+//Extra fonts.
+@include font-face("zik", font-files("/fonts/zikketica.ttf", truetype));
 
 .clearfix {
   @include clearfix;
