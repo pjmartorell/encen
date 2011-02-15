@@ -45,7 +45,7 @@ $dark-blue: #1f2c47;
   background-repeat: repeat-x;
   height: 3em;
   margin-top: 2em;
-  margin-bottom: 1em;  
+  margin-bottom: 1em;
 }
 
 @mixin list_line{
@@ -76,9 +76,9 @@ $dark-blue: #1f2c47;
 // Basic css
 body{
 	margin: 0 auto;
-	background-color: #efefef;
+	background-color: #ddd;
 	#container{
-    @include box-shadow(#d4d3c9, 0, -29px, 25px, 1px);
+    @include box-shadow(#c0c0c0, 0, -29px, 25px, 1px);
     text-align: justify;
   	font-family:$main-font-family;
     font-size:$main-font-size;
