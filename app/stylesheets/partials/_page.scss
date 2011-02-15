@@ -382,7 +382,7 @@
 
   #contact{
     padding-top: 2em;
-    .contact_info{
+    #contact_info{
       background-image: url("/images/back_contactinfo.jpg");
       background-repeat: no-repeat;
       color: white;
@@ -428,6 +428,10 @@
           margin-right: 5px;
         }
       }
+    }
+    #map_canvas{
+      height: 25em;
+      margin-top: 4em;
     }
   }
 

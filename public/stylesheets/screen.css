@@ -195,6 +195,24 @@ body.one_col #main #contact {
   padding-left: 40px;
   padding-right: 40px;
 }
+body.one_col #main #contact #contact_info {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 310px;
+}
+* html body.one_col #main #contact #contact_info {
+  overflow-x: hidden;
+}
+body.one_col #main #contact #map_canvas {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 470px;
+}
+* html body.one_col #main #contact #map_canvas {
+  overflow-x: hidden;
+}
 body.one_col #footer {
   width: 870px;
   padding-left: 40px;
@@ -729,7 +747,7 @@ body #container {
 #main #contact {
   padding-top: 2em;
 }
-#main #contact .contact_info {
+#main #contact #contact_info {
   background-image: url("/images/back_contactinfo.jpg");
   background-repeat: no-repeat;
   color: white;
@@ -739,46 +757,50 @@ body #container {
   padding-left: 1em;
   padding-top: 4em;
 }
-#main #contact .contact_info a {
+#main #contact #contact_info a {
   color: #F9E19A;
   text-decoration: none;
 }
-#main #contact .contact_info a:hover {
+#main #contact #contact_info a:hover {
   color: white;
 }
-#main #contact .contact_info #address {
+#main #contact #contact_info #address {
   margin-bottom: 1em;
   padding: 5px 10px;
 }
-#main #contact .contact_info #address img {
+#main #contact #contact_info #address img {
   margin-bottom: -0.5em;
 }
-#main #contact .contact_info #address p {
+#main #contact #contact_info #address p {
   margin-left: 2em;
 }
-#main #contact .contact_info .phone {
+#main #contact #contact_info .phone {
   margin-bottom: 1em;
   padding: 5px 10px 10px;
 }
-#main #contact .contact_info .phone img {
+#main #contact #contact_info .phone img {
   margin-bottom: -6px;
   margin-right: 5px;
 }
-#main #contact .contact_info .mail {
+#main #contact #contact_info .mail {
   margin-bottom: 1em;
   padding: 5px 10px 10px;
 }
-#main #contact .contact_info .mail img {
+#main #contact #contact_info .mail img {
   margin-bottom: -6px;
   margin-right: 5px;
 }
-#main #contact .contact_info #fax {
+#main #contact #contact_info #fax {
   margin-bottom: 1em;
   padding: 5px 10px 10px;
 }
-#main #contact .contact_info #fax img {
+#main #contact #contact_info #fax img {
   margin-bottom: -6px;
   margin-right: 5px;
+}
+#main #contact #map_canvas {
+  height: 25em;
+  margin-top: 4em;
 }
 
 #footer {

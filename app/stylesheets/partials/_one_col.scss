@@ -85,6 +85,12 @@ body.one_col{
       @include span(22);
       @include prepend(1);
       @include append(1);
+      #contact_info{
+        @include column(8);
+      }
+      #map_canvas{
+        @include column(12); 
+      }
     }
   }
   #footer{
