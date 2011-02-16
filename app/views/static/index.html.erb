@@ -11,25 +11,25 @@
   <p><%=t('.phrase') %></p>
 
   <div class="services_block">
-    <h2><a href="#"><%=t('.juridica') %></a></h3>
+    <h2><%= link_to (t :".juridica"), services_path(:anchor => "juridico_section"), :title => t(".juridica") %></h2>
     <p><%=t('.p_juridica') %></p>
   </div>
 
   <div class="services_block">
-    <h2><a href="#"><%=t('.fiscal') %></a></h3>
+    <h2><%= link_to (t :".fiscal"), services_path(:anchor => "fiscal_section"), :title => t(".fiscal") %></h2>
     <p><%=t('.p_fiscal') %></p>
   </div>
   
   <div class="clear"></div>
   
   <div class="services_block">
-    <h2><a href="#"><%=t('.otroservicios') %></a></h3>
-    <p><%=t('.p_otroservicios') %></p>
-  </div>
-
-  <div class="services_block">
-    <h2><a href="#"><%=t('.contable') %></a></h3>
+    <h2><%= link_to (t :".contable"), services_path(:anchor => "contable_section"), :title => t(".contable") %></h2>
     <p><%=t('.p_contable') %></p>
+  </div>
+  
+  <div class="services_block">
+    <h2><%= link_to (t :".otroservicios"), services_path(:anchor => "otros_section"), :title => t(".otroservicios") %></h2>
+      <p><%=t('.p_otroservicios') %></p>
   </div>
 
   <div class="clear"></div>
@@ -55,10 +55,10 @@
   <div id="news_area">
     <h3><%=t('.news') %></h3>
     <ul>
-      <li> <a href="#">HOLA mkeijeifjheu38hudh3uhd</a></li>
-      <li><a href="#">HOLA nhddhjiwdidiwdjijwijdwijdwijdwidjwidjwidjwdiwjdijdiw</a></li>
-      <li><a href="#">HOLA uusus9  idijid sjwijwi diwjiwj</a></li>
-      <li><a href="#">HOLA uusus9  idijid sjwijwi diwjiwj</a></li>
+      <li><%= link_to (t :".flash_news1"), noticias_path, :title => t(".title_news") %></li>
+      <li><%= link_to (t :".flash_news2"), noticias_path, :title => t(".title_news") %></li>
+      <li><%= link_to (t :".flash_news3"), noticias_path, :title => t(".title_news") %></li>
+      <li><%= link_to (t :".flash_news4"), noticias_path, :title => t(".title_news") %></li>
     </ul>
   </div>
 

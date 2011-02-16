@@ -39,6 +39,11 @@ es:
       p_news:
       title_translate: "El idioma no es una barrera"
       traduccion: "Disponemos de un departamento específico de negocio Asiático, con un interlocutor con el que se podrá comunicar en idioma CHINO, de esta manera queremos facilitarle la comprensión de todas sus dudas, preguntas y demás que puedan serles de utilidad."
+      flash_news1: "El Congreso aprueba la Ley de Economía Sostenible."
+      flash_news2: "El Congreso debate una reforma de la Ley de Protección de Datos Personales para evitar pisos patera."
+      flash_news3: "VI Curso de Aproximación al Derecho Urbanístico."
+      flash_news4: "Nuevos retos ante realidades y leyes cambiantes."
+      title_news: "Noticias de ultimo momento."
 
     nosotros:
       title: De Rosa
