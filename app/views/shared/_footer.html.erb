@@ -28,10 +28,10 @@
 <div class="footer_services">
   <h2>Otros</h2>
     <ul>
-    <li><%= link_to (t :footer_auditoria), services_path, :title => t("footer_auditoria")%></li>
-    <li><%= link_to (t :footer_extranjeria), services_path, :title => t("footer_extranjeria")%></li>
-    <li><%= link_to (t :footer_prevencion), services_path, :title => t("footer_prevencion")%></li>
-    <li><%= link_to (t :footer_admin), services_path, :title => t("footer_admin")%></li>
+    <li><%= link_to (t :footer_auditoria), services_path(:anchor => "otros_section"), :title => t("footer_auditoria")%></li>
+    <li><%= link_to (t :footer_extranjeria), services_path(:anchor => "otros_section"), :title => t("footer_extranjeria")%></li>
+    <li><%= link_to (t :footer_prevencion), services_path(:anchor => "otros_section"), :title => t("footer_prevencion")%></li>
+    <li><%= link_to (t :footer_admin), services_path(:anchor => "otros_section"), :title => t("footer_admin")%></li>
   </ul>
 </div>
 
