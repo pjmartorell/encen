@@ -2,61 +2,47 @@
 <%= meta_keywords t(".metakeywords") %>
 <%= meta_description t(".metadescription") %>
 
-<div class="separator_1"></div>
-<h2>Servicios</h2>
-<div class="separator_1"></div>
-
-
-<div id="services_descritpion">
-<div class="separator_1"></div>
-
-<div class="image">
-  <a href="<%= limpieza_path %>">
-    <img alt="Limpieza" src="images/clean.png"/>
-  </a>
+<div id="post_header">
+  <h1><%= t('.header') %></h1>
 </div>
-    <div class="text">
-      <h3 class="clean"><a href="<%= limpieza_path %>"><%= raw t('.line1') %></a></h3>
-      <p><a href="<%= limpieza_path %>"><%= raw t('.line2') %></a></p>
+
+<div id="services">
+  <h2><%= t('.subtitle') %></h2>
+
+  <div id="services_descritpion">
+    <div class="separator"></div>
+
+    <div class="image_description"><img alt="Limpieza" src="images/clean.png"/></div>
+    <div class="description">
+      <h3 id="clean"><a href="<%= limpieza_path %>"><%= t('.line1') %></a></h3>
+      <p><%= t('.line2') %></p>
     </div>
 
-  <div class="line_separator"></div>
+    <div class="line_separation"></div>
 
-  <div class="image">
-    <%= link_to conserjeria_path do %>
-      <img alt="Conserjeria" src="images/manager.png"/>
-    <% end %>
-  </div>
-  <div class="text">
-    <h3 class="manager"> <a href="<%= conserjeria_path %>"><%= raw t('.line3') %></a> </h3>
-    <p><a href="<%= conserjeria_path %>"><%= raw t('.line4') %></a></p>
-  </div>
+    <div class="image_description"><img alt="Conserjeria" src="images/manager.png"/></div>
+    <div class="description">
+      <h3 id="manager"> <a href="<%= conserjeria_path %>"><%= t('.line3') %></a> </h3>
+      <p><%= t('.line4') %></p>
+    </div>
 
-  <div class="line_separator"></div>
+    <div class="line_separation"></div>
 
-  <div class="image">
-    <%= link_to jardineria_path do %>
-      <img alt="garden" src="images/garden.png"/>
-    <% end %>
-  </div>
-  <div class="text">
-    <h3 class="garden"><a href="<%= jardineria_path %>"> <%= raw t('.line5') %></a> </h3>
-    <p><a href="<%= jardineria_path %>"><%= raw t('.line6') %></a></p>
-  </div>
+    <div class="image_description"><img alt="garden" src="images/garden.png"/></div>
+    <div class="description">
+      <h3 id="garden"><a href="<%= jardineria_path %>"> <%= t('.line5') %></a> </h3>
+      <p><%= t('.line6') %></p>
+    </div>
 
-  <div class="line_separator"></div>
+    <div class="line_separation"></div>
 
-  <div class="image">
-    <%= link_to piscinas_path do %>
-      <img alt="pool" src="images/pool.png"/>
-    <% end %>
-  </div>
-  <div class="text">
-    <h3 class="pool"><a href="<%= piscinas_path %>"><%= raw t('.line7') %></a></h3>
-    <p><a href="<%= piscinas_path %>"><%= raw t('.line8') %></a></p>
+    <div class="image_description"><img alt="pool" src="images/pool.png"/></div>
+    <div class="description">
+      <h3 id="pool"><a href="<%= piscinas_path %>"><%= t('.line7') %></a></h3>
+      <p><%= t('.line8') %></p>
+    </div>
+
+    <div class="separator"></div>
   </div>
 
-  <div class="separator_1"></div>
 </div>
-
-<div class="separator_1"></div>

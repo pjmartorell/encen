@@ -69,7 +69,11 @@ es:
       metadescription: "servicio de limpiezas para oficinas,empresas,particulares,garages,parkings,comunidades de vecinos"
       metakeywords: "limpiezas madrid, servicio de limpiezas doficinas,empresas,particulares,comunidades,garages,parkings"
       title: "MTC Limpiezas"
-    conserjeria: 
+      header: Aqui va la frase principal de esta sección.
+      subtitle: Administradores
+    conserjeria:
+      header: Aqui va la frase principal de esta sección.
+      subtitle: Conserjeria
       line1: "Nuestros conserjes desempeñan tanto tareas de limpieza como de control de accesos, en  función de los servicios contratados, entre ellas destacamos:"
       line10: "Todo nuestro personal estará debidamente uniformado."
       line11: "Nuestros servicios auxiliares de control de accesos (exento de tareas de mantenimiento de limpieza), están pensados para comunidades de vecinos, centros empresariales y comerciales, garajes y parkings."
@@ -94,6 +98,8 @@ es:
       metadescription: "servicio de limpiezas para oficinas,empresas,particulares,garages,parkings,comunidades de vecinos"
       metakeywords: "limpiezas madrid, servicio de limpiezas doficinas,empresas,particulares,comunidades,garages,parkings"
       title: "MTC Limpiezas"
+      title: "MTC Limpiezas"
+      header: Aqui va la frase principal de esta sección.
     index: 
       clean: Limpieza
       clean1: Comunidades
@@ -116,14 +122,16 @@ es:
       manager4: "Controladores 365 días 12 / 24hrs."
       metadescription: "Empresa de limpieza en la comunidad de Madrid con años de experiencia en el sector, nuestra propuesta es la más profesional del sector"
       metakeywords: "Empresas de limpieza en madrid, servicio de limpiezas de oficinas, empresas,particulares,comunidades,garages,parkings"
-      paragraph1: "MTC <strong> Servicios integrales de limpieza </strong> desea en primer lugar saludarle, ya que es muy posible que muy pronto tengamos la oportunidad de conocernos personalmente. Quién sabe, tal vez hoy mismo, coja su teléfono y pónganos a prueba. Le aseguro que estamos esperando que lo haga"
+      paragraph1: "En primer lugar permítame saludarle, ya que es muy posible que muy pronto tengamos la oportunidad de conocernos personalmente."
       paragraph2: "Y es que lo que vamos a ofrecerle no es una alternativa más, es la propuesta más profesional dentro del mercado de <strong> empresas de limpieza en Madrid <strong> ."
       paragraph3: "En MTC Servicios Integrales trabajamos en el mantenimiento de <span class='strong_word'>limpieza</span> de comunidades, oficinas, colegios, etc. Contamos con todo tipo de servicios de <span class='strong_word'>conserjería</span>, mantenimiento de <span class='strong_word'>piscinas</span> y socorristas . También somos especialistas en el mantenimiento integral de <span class='strong_word'>jardines</span>, su proyecto, ejecución y decoración."
       pool: Piscinas
       pool1: "Mantenimiento y obra"
       pool2: Socorristas
       title: "Empresas de limpieza en Madrid - MTC Limpiezas Integrales"
-    jardineria: 
+    jardineria:
+      header: Aqui va la frase principal de esta sección.
+      subtitle: Jardineria 
       f_paragraph: "En una época en la que la deforestación esta a la orden del día, una época en la que demasiados se empeñan en no otorgarle a la naturaleza el valor que se merece."
       line1: "MTC quiere sembrar su granito de ayuda en esta tierra cargada de nostalgia para llenar de luz los corazones de aquellos que quieran compartir su camino con estos seres mágicos llamados plantas porque las plantas son una parte muy especial de nuestra vida y ha llegado el momento de concederles el espacio que se merecen, de recordar que somos parte de la naturaleza del mismo modo que ellas y que una de las cosas mas hermosas a la que podemos aspirar es a convivir en armonía con cada uno de los seres de la madre Gaia. Para ello MTC dispone de una serie de prestaciones llevadas a cabo con suma profesionalidad, calidad, dominio técnico y lo más importante con mucho amor."
       line10: "Cuidado y poda de árboles y plantas ornamentales."
@@ -142,7 +150,9 @@ es:
       metadescription: "servicio de limpiezas para oficinas,empresas,particulares,garages,parkings,comunidades de vecinos"
       metakeywords: "limpiezas madrid, servicio de limpiezas doficinas,empresas,particulares,comunidades,garages,parkings"
       title: "MTC Limpiezas"
-    limpieza: 
+    limpieza:
+      header: Aqui va la frase principal de esta sección.
+      subtitle: Limpieza
       f_paragraph: "En MTC los servicios de limpieza están pensados para todos los que quieran olvidarse de los problemas que conlleva la contratación directa de personal de limpieza."
       line1: "Comunidades y Edificios:"
       line2: "Somos especialistas en ofrecer nuestros servicios a comunidades de vecinos realizando las tareas diarias de limpieza (barrido, fregado de portales, escaleras, ascensores,etc.), así como, limpiezas especificas (garajes, cristales, cubos de basura,etc.), también ofrecemos a nuestros clientes servicio de recogida de basuras y abrillantado de suelos."
@@ -155,7 +165,9 @@ es:
       metadescription: "servicio de limpiezas para oficinas,empresas,particulares,garages,parkings,comunidades de vecinos"
       metakeywords: "limpiezas madrid, servicio de limpiezas doficinas,empresas,particulares,comunidades,garages,parkings"
       title: "MTC Limpiezas"
-    piscinas: 
+    piscinas:
+      header: Aqui va la frase principal de esta sección.
+      subtitle: Piscinas
       line1: "Ofrecemos nuestros servicios durante los 365 días del año a comunidades de vecinos, clubes deportivos y asociaciones socio culturales que dispongan de instalaciones acuáticas."
       line10: "Las funciones del maquinista son:"
       line11: "Control de limpieza de filtros y prefiltros."
@@ -176,7 +188,9 @@ es:
       metadescription: "servicio de limpiezas para oficinas,empresas,particulares,garages,parkings,comunidades de vecinos"
       metakeywords: "limpiezas madrid, servicio de limpiezas doficinas,empresas,particulares,comunidades,garages,parkings"
       title: "MTC Limpiezas"
-    promociones: 
+    promociones:
+      header: Aqui va la frase principal de esta sección.
+      subtitle: Promociones
       line1: "En MTC no somos ajenos a los difíciles momentos que a consecuencia de la crisis, se están viviendo. Por eso, porque muchas son las familias con dificultades, hoy queremos demostrarles que no somos una empresa de servicios integrales más."
       line2: "Contrata nuestros servicios de limpieza y consigue hasta un <span class='green_bold'>30% de descuento en tu primera factura.</span>"
       line3: "Contrata  dos  de nuestros servicios y consigue un <span class='green_bold'>4% de descuento en tu presupuesto.</span>"
@@ -186,7 +200,9 @@ es:
       metadescription: "servicio de limpiezas para oficinas,empresas,particulares,garages,parkings,comunidades de vecinos"
       metakeywords: "limpiezas madrid, servicio de limpiezas doficinas,empresas,particulares,comunidades,garages,parkings"
       title: "MTC Limpiezas"
-    servicios: 
+    servicios:
+      header: Aqui va la frase principal de esta sección.
+      subtitle: Servicios
       line1: Limpieza
       line2: "En MTC los <strong>servicios de limpieza</strong> están pensados para todas aquellas comunidades, empresas y particulares que quieran olvidarse de los problemas que conlleva la contratación directa de personal de limpieza, además de poder exigir los mejores resultados y la máxima calidad."
       line3: Conserjeria

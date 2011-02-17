@@ -20,29 +20,27 @@ $blueprint-grid-width: ($blueprint-container-size + $blueprint-grid-margin) / $b
 $main-font-family: "gardens";
 $title-font-family: "timess";
 $promotions-font: "gabrielle";
+
 $main-font-size: 1em;
 $title-font-size: 1.7em;
+
 $main-font-color: #555;
 $gray-font-color: #666;
+$green-font-color: #618C15;
+
 
 //Extra fonts.
 @include font-face("timess", font-files("/fonts/timess.ttf", truetype), "timess.eot");
 @include font-face("gardens", font-files("/fonts/gardens.ttf", truetype), "gardens.eot");
 @include font-face("gabrielle", font-files("/fonts/gabrielle.ttf", truetype), "gabrielle.eot");
 
-.separator_1 {
+.separator{
   clear:both;
   height: 2em;
   overflow:hidden;
 }
 
-.separator_2 {
-  clear:both;
-  height: 6em;
-  overflow:hidden;
-}
-
-.line_separator{
+.line_separation{
   background-image: url("/images/line.jpg");
   background-repeat: repeat-x;
   height: 1em;
@@ -76,5 +74,17 @@ $gray-font-color: #666;
       list-style-image: url("/images/dot.png");
       padding-bottom: 10px;
     }
+  }
+}
+
+body{
+	margin: 0 auto;
+	background-color: #fff;
+	#container{
+    @include box-shadow(#ccc, 0, -29px, 25px, 1px);
+    font-family: $main-font-family;
+    color: #333;
+    text-align: justify;
+    font-size: $main-font-size;
   }
 }

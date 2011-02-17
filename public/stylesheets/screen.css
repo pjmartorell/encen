@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html, body {
   margin: 0;
   padding: 0;
@@ -85,81 +86,109 @@ body.one_col #container #header {
 body.one_col #container #header #menu {
   width: 550px;
 }
-body.one_col #container #header #quote {
+body.one_col #container #post_header {
   width: 870px;
   padding-right: 40px;
   padding-left: 40px;
 }
 body.one_col #container #info_box {
+  width: 950px;
+}
+body.one_col #container #info_box #index {
   width: 870px;
   padding-right: 40px;
   padding-left: 40px;
 }
-body.one_col #container #info_box #services_list {
+body.one_col #container #info_box #index #services_list {
   padding-left: 40px;
 }
-body.one_col #container #info_box #services_list .first_services_block {
+body.one_col #container #info_box #index #services_list #first_services_block {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 150px;
 }
-* html body.one_col #container #info_box #services_list .first_services_block {
+* html body.one_col #container #info_box #index #services_list #first_services_block {
   overflow-x: hidden;
 }
-body.one_col #container #info_box #services_list .second_services_block {
+body.one_col #container #info_box #index #services_list .second_services_block {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 190px;
 }
-* html body.one_col #container #info_box #services_list .second_services_block {
+* html body.one_col #container #info_box #index #services_list .second_services_block {
   overflow-x: hidden;
 }
-body.one_col #container #info_box #presupuesto {
+body.one_col #container #info_box #index #presupuesto {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 190px;
 }
-* html body.one_col #container #info_box #presupuesto {
+* html body.one_col #container #info_box #index #presupuesto {
   overflow-x: hidden;
 }
-body.one_col #container #info_box #services_descritpion {
-  width: 790px;
+body.one_col #container #info_box #services {
+  width: 870px;
   padding-right: 40px;
   padding-left: 40px;
 }
-body.one_col #container #info_box #services_descritpion .image {
+body.one_col #container #info_box #services .image_description {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 270px;
 }
-* html body.one_col #container #info_box #services_descritpion .image {
+* html body.one_col #container #info_box #services .image_description {
   overflow-x: hidden;
 }
-body.one_col #container #info_box #services_descritpion .text {
+body.one_col #container #info_box #services .description {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 470px;
 }
-* html body.one_col #container #info_box #services_descritpion .text {
+* html body.one_col #container #info_box #services .description {
   overflow-x: hidden;
 }
-body.one_col #container #info_box #promotion {
-  width: 590px;
+body.one_col #container #info_box #promotions {
+  width: 870px;
   padding-right: 40px;
   padding-left: 40px;
 }
-body.one_col #container #info_box #contact_info {
-  width: 430px;
+body.one_col #container #info_box #clean_section {
+  width: 870px;
   padding-right: 40px;
   padding-left: 40px;
 }
-body.one_col #container #info_box #map_canvas {
+body.one_col #container #info_box #manager_section {
+  width: 870px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+body.one_col #container #info_box #garden_section {
+  width: 870px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+body.one_col #container #info_box #pool_section {
+  width: 870px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+body.one_col #container #info_box #contact {
+  width: 870px;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+body.one_col #container #info_box #contact #map_canvas {
   width: 590px;
+}
+body.one_col #container #info_box #admin {
+  width: 870px;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 body.one_col #container #footer {
   width: 790px;
@@ -185,19 +214,13 @@ body.one_col #container #footer {
   src: local("☺"), url(/fonts/gabrielle.ttf) format('truetype');
 }
 
-.separator_1 {
+.separator {
   clear: both;
   height: 2em;
   overflow: hidden;
 }
 
-.separator_2 {
-  clear: both;
-  height: 6em;
-  overflow: hidden;
-}
-
-.line_separator {
+.line_separation {
   background-image: url("/images/line.jpg");
   background-repeat: repeat-x;
   height: 1em;
@@ -210,8 +233,7 @@ body {
   margin: 0 auto;
   background-color: #fff;
 }
-
-#container {
+body #container {
   -moz-box-shadow: #cccccc 0 -29px 25px 1px;
   -webkit-box-shadow: #cccccc 0 -29px 25px 1px;
   -o-box-shadow: #cccccc 0 -29px 25px 1px;
@@ -219,57 +241,55 @@ body {
   font-family: "gardens";
   color: #333;
   text-align: justify;
+  font-size: 1em;
 }
-#container #header {
-  background-image: url("/images/header.jpg");
-  height: 473px;
+
+#header {
+  background-image: url("/images/header1.jpg");
+  background-repeat: no-repeat;
+  height: 19.8em;
 }
-#container #header #logo {
-  margin-bottom: 140px;
-  margin-left: 600px;
-  margin-top: -190px;
-}
-#container #header #menu {
+#header #menu {
   padding-top: 105px;
   margin-bottom: 35px;
 }
-#container #header #menu li {
+#header #menu li {
   display: inline;
   padding: 5px 15px;
   margin-right: -10px;
 }
-#container #header #menu li#home {
+#header #menu li#home {
   background-color: #85be1b;
 }
-#container #header #menu li#service {
+#header #menu li#service {
   background-color: #73a417;
 }
-#container #header #menu li#prom {
+#header #menu li#prom {
   background-color: #5f8813;
 }
-#container #header #menu li#contact {
+#header #menu li#contact {
   background-color: #49690f;
 }
-#container #header #menu li#administradores {
+#header #menu li#administradores {
   background-color: #3c560c;
 }
-#container #header #menu a {
+#header #menu a {
   font-family: "timess";
   font-size: 1.1em;
   color: white;
   text-decoration: none;
 }
-#container #header h1 a {
+#header h1 a {
   color: white;
   font-size: 3em;
   font-family: "timess";
   text-decoration: none;
   margin-left: 166px;
 }
-#container #header h1 a #servicios_in {
+#header h1 a #servicios_in {
   font-size: .7em;
 }
-#container #header h2 a {
+#header h2 a {
   text-shadow: #b5f22c 0 1px 1px;
   color: #47650b;
   font-family: "timess";
@@ -277,456 +297,487 @@ body {
   text-decoration: none;
   margin-left: 435px;
 }
-#container #header #quote {
-  margin-top: 95px;
+
+#post_header {
+  background-image: url("/images/post-header.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 7em;
+  margin-top: 0;
+  padding-top: 2em;
 }
-#container #header #quote p {
-  color: #666666;
-  font-size: 1.7em;
+#post_header h1 {
+  font-size: 1.5em;
 }
-#container #info_box {
+
+#info_box {
   background-color: white;
   color: #555555;
 }
-#container #info_box .strong_word {
+#info_box .strong_word {
   font-weight: bold;
   font-size: 1.1em;
 }
-#container #info_box h2 {
-  font-family: "timess";
-  font-size: 1.7em;
+#info_box a {
   text-decoration: none;
+  color: #666666;
 }
-#container #info_box h3 {
-  font-size: 1.3em;
-  font-family: "timess";
+#info_box h2 {
+  font-size: 1.7em;
+  margin-bottom: 1em;
 }
-#container #info_box p#promociones {
+#info_box #index {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#info_box #index p {
+  margin-bottom: 2em;
+}
+#info_box #index #promociones {
+  margin-top: 2em;
+}
+#info_box #index #promociones p {
   font-family: "gabrielle";
   font-size: 2em;
   letter-spacing: .02em;
   color: #85be1b;
-  margin-bottom: 10px;
-  margin-top: 60px;
 }
-#container #info_box p#promociones a {
+#info_box #index #promociones a {
   color: #85be1b;
 }
-#container #info_box p#promociones a:hover {
+#info_box #index #promociones a:hover {
   text-decoration: underline;
 }
-#container #info_box #services_list {
+#info_box #index #services_list {
   background-image: url("/images/back_services.jpg");
   background-repeat: no-repeat;
-  height: 378px;
-  padding-top: 20px;
+  height: 23em;
+  padding-top: 1.5em;
+  margin-top: 3em;
 }
-#container #info_box #services_list h3 {
+#info_box #index #services_list h3 {
   font-size: 1.5em;
 }
-#container #info_box #services_list h3.clean a {
+#info_box #index #services_list h3.clean a {
   color: #618c15;
+  text-decoration: none;
 }
-#container #info_box #services_list h3.clean a:hover {
+#info_box #index #services_list h3.clean a:hover {
   text-decoration: underline;
 }
-#container #info_box #services_list h3.manager a {
+#info_box #index #services_list h3.manager a {
   color: #666;
+  text-decoration: none;
 }
-#container #info_box #services_list h3.manager a:hover {
+#info_box #index #services_list h3.manager a:hover {
   text-decoration: underline;
 }
-#container #info_box #services_list h3.pool a {
+#info_box #index #services_list h3.pool a {
   color: #32638e;
+  text-decoration: none;
 }
-#container #info_box #services_list h3.pool a:hover {
+#info_box #index #services_list h3.pool a:hover {
   text-decoration: underline;
 }
-#container #info_box #services_list h3.garden a {
+#info_box #index #services_list h3.garden a {
   color: #89328e;
+  text-decoration: none;
 }
-#container #info_box #services_list h3.garden a:hover {
+#info_box #index #services_list h3.garden a:hover {
   text-decoration: underline;
 }
-#container #info_box #services_list ul {
+#info_box #index #services_list ul {
   margin-top: 20px;
 }
-#container #info_box #services_list .first_services_block li {
-  border-bottom: 1px solid #ddd;
+#info_box #index #services_list #first_services_block {
+  margin-left: 2em;
+}
+#info_box #index #services_list #first_services_block ul {
+  margin-top: .5em;
+}
+#info_box #index #services_list #first_services_block ul li {
+  border-bottom: 1px solid #ccc;
   list-style: none;
   font-size: .9em;
-  padding-bottom: 2px;
-  padding-left: 7px;
-  padding-top: 5px;
+  padding-bottom: .12m;
+  padding-top: .8em;
 }
-#container #info_box #services_list .second_services_block {
-  margin-left: 12px;
+#info_box #index #services_list .second_services_block {
+  margin-left: .5em;
 }
-#container #info_box #services_list .second_services_block li {
-  border-bottom: 1px solid #ddd;
+#info_box #index #services_list .second_services_block ul {
+  margin-top: .5em;
+}
+#info_box #index #services_list .second_services_block ul li {
+  border-bottom: 1px solid #ccc;
   list-style: none;
   font-size: .9em;
-  padding-bottom: 2px;
-  padding-left: 7px;
-  padding-top: 5px;
+  padding-bottom: .12m;
+  padding-top: .8em;
 }
-#container #info_box #services_list #presupuesto {
-  font-size: 1.6em;
+#info_box #index #services_list #presupuesto {
+  font-size: 1.7em;
   text-align: center;
-  margin-left: -55px;
-  margin-top: 70px;
+  margin-left: -3.1em;
+  margin-top: 2.3em;
 }
-#container #info_box #services_list #presupuesto a:hover {
-  color: #3C560C;
+#info_box #index #services_list #presupuesto a:hover {
+  color: #618C15;
 }
-#container #info_box .green_bold {
-  color: #618c15;
-  font-size: 1.1em;
+#info_box #services {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
-#container #info_box ul#promociones {
-  margin-left: 20px;
-}
-#container #info_box ul#promociones li {
-  list-style: none;
-  list-style-image: url("/images/dot.png");
-  padding-bottom: 10px;
-}
-#container #info_box #services_descritpion {
+#info_box #services #services_descritpion {
   background-image: url("/images/top_description.jpg");
   background-repeat: no-repeat;
   background-position: center top;
-  background-color: #eeeeee;
+  background-color: #eee;
   border: 1px solid white;
   border-top: none;
   outline: 1px solid #dbdbdb;
+  margin-top: 2em;
 }
-#container #info_box #services_descritpion h3 {
-  font-size: 1.5em;
-  margin-bottom: 5px;
+#info_box #services #services_descritpion h3 {
+  font-size: 1.7em;
+  margin-bottom: .5em;
 }
-#container #info_box #services_descritpion h3.clean a {
-  color: #618c15;
-  margin-top: 20px;
-}
-#container #info_box #services_descritpion h3.clean a:hover {
-  color: #85BE1B;
-}
-#container #info_box #services_descritpion h3.manager a {
-  color: #666;
-  margin-top: 20px;
-}
-#container #info_box #services_descritpion h3.manager a:hover {
-  color: #999;
-}
-#container #info_box #services_descritpion h3.pool a {
-  color: #32638e;
-  margin-top: 20px;
-}
-#container #info_box #services_descritpion h3.pool a:hover {
-  color: #639cc3;
-}
-#container #info_box #services_descritpion h3.garden a {
-  color: #89328e;
-  margin-top: 20px;
-}
-#container #info_box #services_descritpion h3.garden a:hover {
-  color: #c484db;
-}
-#container #info_box #services_descritpion .image {
-  margin-bottom: 40px;
-}
-#container #info_box .text {
-  padding: 0 10px 30px;
-  border: 1px solid #e3e3e3;
-  background-color: #f8f8f8;
-}
-#container #info_box .text a {
-  color: #555;
-}
-#container #info_box .text a:hover {
-  color: #999;
-}
-#container #info_box #image {
-  background-color: #333;
-  background-position: center;
-  height: 150px;
-  width: 860px;
-  margin-top: 10px;
-}
-#container #info_box #clean p {
+#info_box #services #services_descritpion p {
   line-height: 1.2em;
-  margin-top: 5px;
 }
-#container #info_box #clean p:first-child {
-  color: #618C15;
-  letter-spacing: 0.01em;
-  line-height: 1.3em;
-  font-size: 1.4em;
-  text-align: center;
+#info_box #services #services_descritpion h3#clean a {
+  color: #618c15;
 }
-#container #info_box #clean p#question {
+#info_box #services #services_descritpion h3#clean a:hover {
+  color: #85BE1B;
+  text-decoration: underline;
+}
+#info_box #services #services_descritpion h3#manager a {
+  color: #666;
+}
+#info_box #services #services_descritpion h3#manager a:hover {
+  color: #999;
+  text-decoration: underline;
+}
+#info_box #services #services_descritpion h3#pool a {
+  color: #32638e;
+}
+#info_box #services #services_descritpion h3#pool a:hover {
+  color: #639cc3;
+  text-decoration: underline;
+}
+#info_box #services #services_descritpion h3#garden a {
+  color: #89328e;
+}
+#info_box #services #services_descritpion h3#garden a:hover {
+  color: #c484db;
+  text-decoration: underline;
+}
+#info_box #services #services_descritpion .image_description {
+  margin-bottom: 3.5em;
+}
+#info_box #promotions {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#info_box #promotions ul {
+  margin-left: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+#info_box #promotions ul li {
+  list-style: none outside url("/images/dot.png");
+  padding-bottom: 10px;
+}
+#info_box #clean_section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#info_box #clean_section h3 {
+  margin-bottom: .5em;
+}
+#info_box #clean_section p {
+  line-height: 1.2em;
+  margin-bottom: 2em;
+}
+#info_box #clean_section p#caring_bio {
   color: #666666;
   font-family: "gabrielle";
   font-size: 1.5em;
   line-height: 1em;
 }
-#container #info_box #clean a {
-  color: #666;
+#info_box #clean_section #request a {
+  color: #618c15;
 }
-#container #info_box #clean a:hover {
+#info_box #clean_section a:hover {
   text-decoration: underline;
 }
-#container #info_box #clean .back_button a {
+#info_box #clean_section .back_button {
+  margin-top: 3em;
+}
+#info_box #clean_section .back_button a {
   background-image: url("/images/back_button.png");
   background-position: 2px -33px;
   background-repeat: no-repeat;
   padding: 10px 0 6px 43px;
 }
-#container #info_box #clean .back_button a:hover {
+#info_box #clean_section .back_button a:hover {
   background-image: url("/images/back_button.png");
   background-position: 2px 1px;
   color: #618C15;
   padding-top: 9px;
   text-decoration: none;
 }
-#container #info_box #clean .back_button a {
+#info_box #clean_section .back_button a {
   background-image: url("/images/back_button.png");
 }
-#container #info_box #clean .back_button a:hover {
+#info_box #clean_section .back_button a:hover {
   background-image: url("/images/back_button.png");
   color: #618C15;
 }
-#container #info_box #manager ul {
+#info_box #manager_section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#info_box #manager_section ul {
   margin-left: 20px;
 }
-#container #info_box #manager ul li {
+#info_box #manager_section ul li {
   list-style: none;
   list-style-image: url("/images/dot.png");
   padding-bottom: 10px;
 }
-#container #info_box #manager p:first-child {
-  color: #333;
-  letter-spacing: 0.01em;
-  line-height: 1.3em;
-  font-size: 1.4em;
-  text-align: center;
+#info_box #manager_section p {
+  margin-bottom: 2em;
 }
-#container #info_box #manager .back_button a {
-  background-image: url("/images/back_button.png");
-  background-position: 2px -33px;
-  background-repeat: no-repeat;
-  padding: 10px 0 6px 43px;
+#info_box #manager_section ul#manager_list {
+  margin-bottom: 1em;
 }
-#container #info_box #manager .back_button a:hover {
-  background-image: url("/images/back_button.png");
-  background-position: 2px 1px;
-  color: #618C15;
-  padding-top: 9px;
-  text-decoration: none;
-}
-#container #info_box #manager .back_button a {
-  background-image: url("/images/back_button_conserjeria.png");
-}
-#container #info_box #manager .back_button a:hover {
-  background-image: url("/images/back_button_conserjeria.png");
-  color: #333;
-}
-#container #info_box #manager ul#hours {
+#info_box #manager_section ul#hours {
   color: #618C15;
   font-size: 1em;
   margin-left: 135px;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
-#container #info_box #manager ul#hours li {
+#info_box #manager_section ul#hours li {
   display: inline;
   padding-right: 183px;
 }
-#container #info_box #manager p#message {
+#info_box #manager_section p#message {
   font-family: "gabrielle";
   font-size: 1.6em;
 }
-#container #info_box #manager #hrs_image {
+#info_box #manager_section #hrs_image {
   background-image: url("/images/hours.png");
   background-position: center;
   background-repeat: no-repeat;
   height: 90px;
   margin-bottom: 15px;
 }
-#container #info_box #garden ul {
-  margin-left: 20px;
-}
-#container #info_box #garden ul li {
-  list-style: none;
-  list-style-image: url("/images/dot.png");
-  padding-bottom: 10px;
-}
-#container #info_box #garden ul {
-  margin-top: 20px;
-}
-#container #info_box #garden p {
-  line-height: 1.2em;
-  margin-top: 5px;
-}
-#container #info_box #garden p:first-child {
-  color: #89328e;
-  letter-spacing: 0.01em;
-  line-height: 1.3em;
-  font-size: 1.4em;
-  text-align: center;
-}
-#container #info_box #garden .back_button a {
+#info_box #manager_section .back_button a {
   background-image: url("/images/back_button.png");
   background-position: 2px -33px;
   background-repeat: no-repeat;
   padding: 10px 0 6px 43px;
 }
-#container #info_box #garden .back_button a:hover {
+#info_box #manager_section .back_button a:hover {
   background-image: url("/images/back_button.png");
   background-position: 2px 1px;
   color: #618C15;
   padding-top: 9px;
   text-decoration: none;
 }
-#container #info_box #garden .back_button a {
-  background-image: url("/images/back_button_jardineria.png");
+#info_box #manager_section .back_button a {
+  background-image: url("/images/back_button_conserjeria.png");
 }
-#container #info_box #garden .back_button a:hover {
-  background-image: url("/images/back_button_jardineria.png");
-  color: #89328E;
+#info_box #manager_section .back_button a:hover {
+  background-image: url("/images/back_button_conserjeria.png");
+  color: #333;
 }
-#container #info_box #pool ul {
+#info_box #garden_section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#info_box #garden_section ul {
   margin-left: 20px;
 }
-#container #info_box #pool ul li {
+#info_box #garden_section ul li {
   list-style: none;
   list-style-image: url("/images/dot.png");
   padding-bottom: 10px;
 }
-#container #info_box #pool p:first-child {
-  color: #32638e;
-  letter-spacing: 0.01em;
-  line-height: 1.3em;
-  font-size: 1.3em;
-  text-align: center;
+#info_box #garden_section h3 {
+  margin-bottom: 1em;
 }
-#container #info_box #pool p {
+#info_box #garden_section ul {
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+}
+#info_box #garden_section p {
   line-height: 1.2em;
-  margin-top: 5px;
+  margin-bottom: 2em;
 }
-#container #info_box #pool p#message {
+#info_box #garden_section .back_button a {
+  background-image: url("/images/back_button.png");
+  background-position: 2px -33px;
+  background-repeat: no-repeat;
+  padding: 10px 0 6px 43px;
+}
+#info_box #garden_section .back_button a:hover {
+  background-image: url("/images/back_button.png");
+  background-position: 2px 1px;
+  color: #618C15;
+  padding-top: 9px;
+  text-decoration: none;
+}
+#info_box #garden_section .back_button a {
+  background-image: url("/images/back_button_conserjeria.png");
+}
+#info_box #garden_section .back_button a:hover {
+  background-image: url("/images/back_button_conserjeria.png");
+  color: #333;
+}
+#info_box #pool_section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#info_box #pool_section ul {
+  margin-left: 20px;
+}
+#info_box #pool_section ul li {
+  list-style: none;
+  list-style-image: url("/images/dot.png");
+  padding-bottom: 10px;
+}
+#info_box #pool_section p {
+  line-height: 1.2em;
+  margin-bottom: 2em;
+}
+#info_box #pool_section p#message {
   font-family: "gabrielle";
   font-size: 1.6em;
 }
-#container #info_box #pool ul {
-  margin-top: 10px;
+#info_box #pool_section h3 {
+  margin-bottom: 1em;
 }
-#container #info_box #pool a {
+#info_box #pool_section ul {
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+}
+#info_box #pool_section a {
   background-image: url("/images/back_button_piscina.png");
   background-position: 2px -33px;
   background-repeat: no-repeat;
   padding: 10px 0 6px 43px;
 }
-#container #info_box #pool a:hover {
+#info_box #pool_section a:hover {
   background-image: url("/images/back_button_piscina.png");
   background-position: 2px 1px;
   color: #32638E;
   padding-top: 9px;
 }
-#container #info_box #promotion_icon {
-  background-image: url("/images/bucket.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  margin-top: 10px;
-  height: 161px;
+#info_box #contact {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
-#container #info_box #promotion {
-  background-color: #f6f6f6;
-  border: solid 1px #DBDBDB;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-left: 100px;
-}
-#container #info_box #promotion strong {
-  color: #618C15;
-}
-#container #info_box #contact_info {
+#info_box #contact #contact_info {
   background-image: url("/images/back_contact.png");
   background-repeat: no-repeat;
-  height: 184px;
-  margin-left: 185px;
-  padding-top: 30px;
+  height: 11em;
+  margin-left: 12em;
+  padding: 2em 2.5em 0;
+  width: 27em;
 }
-#container #info_box #contact_info p {
+#info_box #contact #contact_info p {
   margin-bottom: 15px;
   text-align: center;
 }
-#container #info_box #contact_info a:hover {
+#info_box #contact #contact_info a:hover {
   color: black;
 }
-#container #info_box #map_canvas {
+#info_box #contact #map_canvas {
   border: solid 1px white;
   outline: solid 2px #a2ae90;
-  height: 330px;
-  margin-left: 145px;
+  height: 23em;
+  margin-left: 9em;
 }
-#container #info_box #map_canvas #infowindow h3 {
+#info_box #contact #map_canvas #infowindow h3 {
   border-bottom: 1px solid #ccc;
   font-size: 1em;
   margin-bottom: 5px;
   width: 170px;
 }
-#container #info_box #map_canvas #infowindow p {
+#info_box #contact #map_canvas #infowindow p {
   font-size: .8em;
 }
-#container #info_box #map_canvas #gmimap0 {
-  background-color: blue;
+
+#admin {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
-#container #footer {
+#admin #promotion_icon {
+  background-image: url("/images/bucket.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 11em;
+}
+#admin #promotion {
+  background-color: #eee;
+  border: 1px solid white;
+  outline: 1px solid #dbdbdb;
+  padding: 2em;
+  margin-top: -0.5em;
+}
+
+#footer {
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #202020), color-stop(100%, #000000));
   background-image: -moz-linear-gradient(top, #202020 0%, #000000 100%);
   background-image: linear-gradient(top, #202020 0%, #000000 100%);
   background-color: black;
   color: #666666;
   border-top: 4px solid #7dae38;
-  margin-top: 40px;
+  margin-top: 2em;
+  padding-bottom: 1em;
 }
-#container #footer #promociones_link {
+#footer #promociones_link {
   background-image: url("/images/prom_footer.png");
   background-repeat: no-repeat;
   background-position: right center;
   position: relative;
-  margin-top: -45px;
-  height: 75px;
+  margin-top: -2em;
+  height: 4.5em;
 }
-#container #footer #promociones_link h3 {
+#footer #promociones_link h3 {
   text-shadow: #b5f22c 0 1px 1px;
   text-align: right;
-  margin-right: 70px;
-  padding-top: 31px;
+  margin-right: 4.5em;
+  padding-top: 2em;
 }
-#container #footer #promociones_link h3 a {
+#footer #promociones_link h3 a {
   color: #334006;
-  text-decoration: none;
   font-size: 1.1em;
 }
-#container #footer #promociones_link h3 a:hover {
+#footer #promociones_link h3 a:hover {
   color: white;
 }
-#container #footer h3#title {
+#footer h3#title {
   color: white;
   font-size: 1.7em;
   font-family: "timess";
+  margin-bottom: 0.5em;
 }
-#container #footer p {
-  margin-bottom: 5px;
+#footer p {
+  margin-bottom: .5em;
 }
-#container a {
+#footer a {
   text-decoration: none;
   color: #666666;
 }
-#container a:hover {
+#footer a:hover {
   color: white;
 }
-#container #itnig {
+#footer #itnig {
   text-align: center;
 }
 

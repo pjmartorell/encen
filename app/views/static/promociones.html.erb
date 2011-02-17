@@ -2,24 +2,23 @@
 <%= meta_keywords t(".metakeywords") %>
 <%= meta_description t(".metadescription") %>
 
-<div class="separator_1"></div>
-<h2>Promociones</h2>
+<div id="post_header">
+  <h1><%= t('.header') %></h1>
+</div>
 
-<div class="separator_1"></div>
+<div id="promotions">
 
-<p><%= raw t('.line1') %></p>
+  <h2><%= t('.subtitle') %></h2>
 
-<div class="separator_1"></div>
+  <p><%= t('.line1') %></p>
 
-<ul id="promociones">
-  <li><%= raw t('.line2') %></li>
-  <li><%= raw t('.line3') %></li>
-  <li><%= raw t('.line4') %></li>
-  <li><%= raw t('.line5') %></li>
-</ul>
+  <ul>
+    <li><%= raw t('.line2') %></li>
+    <li><%= raw t('.line3') %></li>
+    <li><%= raw t('.line4') %></li>
+    <li><%= raw t('.line5') %></li>
+  </ul>
 
-<div class="separator_1"></div>
+  <p><%= t('.line6') %></p>
 
-<p><%= raw t('.line6') %></p>
-
-<div class="separator_1"></div>
+</div>

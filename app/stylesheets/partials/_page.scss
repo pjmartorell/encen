@@ -1,109 +1,105 @@
-body{
-	margin: 0 auto;
-	background-color: #fff;
-}
+// . . . . . . . HEADER . . . . . . . .  //
 
-#container{
-  @include box-shadow(#ccc, 0, -29px, 25px, 1px);
-  font-family: $main-font-family;
-  color: #333;
-  text-align: justify;
 
-// HEADER
+#header{
+  background-image: url("/images/header1.jpg");
+  background-repeat: no-repeat;
+  height: 19.8em;
 
-  #header{
-    background-image: url("/images/header.jpg");
-    height: 473px;
 
-    #logo{
-      margin-bottom: 140px;
-      margin-left: 600px;
-      margin-top: -190px;
+//........................................Menu
+
+  #menu{
+    padding-top: 105px;
+    margin-bottom: 35px;
+    li{
+      display: inline;
+      padding: 5px 15px;
+      margin-right: -10px;
     }
-
-// MENU
-
-    #menu{
-      padding-top: 105px;
-      margin-bottom: 35px;
-      li{
-        display: inline;
-        padding: 5px 15px;
-        margin-right: -10px;
-      }
-      li#home{background-color: #85be1b;}
-      li#service{background-color: #73a417;}
-      li#prom{background-color: #5f8813;}
-      li#contact{background-color: #49690f;}
-      li#administradores{background-color: #3c560c;}
-
-      a{
-        font-family: $title-font-family;
-        font-size: 1.1em;
-        color: white;
-        text-decoration: none;
-      }
-
-    }
-    h1{
-      a{
-        color: white;
-        font-size: 3em;
-        font-family: $title-font-family;
-        text-decoration: none;
-        margin-left: 166px;
-				#servicios_in{font-size: .7em;}
-      }
-    }
-    h2{
-      a{
-        @include text-shadow(#b5f22c, 0, 1px, 1px);
-        color: #47650b;
-        font-family: $title-font-family;
-        font-size: $title-font-size;
-        text-decoration: none;
-        margin-left: 435px;
-      }
-    }
-    #quote{
-     margin-top: 95px;
-     p{
-       color: $gray-font-color;
-       font-size: $title-font-size;
-      }
+    li#home{background-color: #85be1b;}
+    li#service{background-color: #73a417;}
+    li#prom{background-color: #5f8813;}
+    li#contact{background-color: #49690f;}
+    li#administradores{background-color: #3c560c;}
+    a{
+      font-family: $title-font-family;
+      font-size: 1.1em;
+      color: white;
+      text-decoration: none;
     }
   }
-
-// INFO_BOX
-
-  #info_box {
-    background-color: white;
-    color: $main-font-color;
-		.strong_word{
-			font-weight: bold;
-			font-size: 1.1em;
-		}
-
-		h2{
+  h1{
+    a{
+      color: white;
+      font-size: 3em;
+      font-family: $title-font-family;
+      text-decoration: none;
+      margin-left: 166px;
+  		#servicios_in{font-size: .7em;}
+    }
+  }
+  h2{
+    a{
+      @include text-shadow(#b5f22c, 0, 1px, 1px);
+      color: #47650b;
       font-family: $title-font-family;
       font-size: $title-font-size;
       text-decoration: none;
+      margin-left: 435px;
     }
+  }
+}
 
-		h3{
-		  font-size: 1.3em;
-		  font-family: $title-font-family;
-		}
+//...............................Post-header
 
-// INDEX
+#post_header{
+  background-image: url("/images/post-header.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  height: 7em;
+  margin-top: 0;
+  padding-top: 2em;
+  h1{font-size: 1.5em;}
+}
 
-    p#promociones {
-      font-family: $promotions-font;
-      font-size: 2em;
-      letter-spacing: .02em;
-      color: #85be1b;
-      margin-bottom: 10px;
-      margin-top: 60px;
+
+// . . . . . . .   MAIN  . . . . . . . . //
+
+
+#info_box {
+  background-color: white;
+  color: $main-font-color;
+	.strong_word{
+		font-weight: bold;
+		font-size: 1.1em;
+	}
+	a{
+	  text-decoration: none;
+	  color: $gray-font-color;
+	}
+
+	h2{
+    font-size: $title-font-size;
+    margin-bottom: 1em;
+  }
+
+//....................................Home
+
+  #index{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    p{
+      margin-bottom: 2em;
+    }
+    #promociones{
+      margin-top: 2em;
+      p{
+        font-family: $promotions-font;
+        font-size: 2em;
+        letter-spacing: .02em;
+        color: #85be1b;
+      }
       a{
         color: #85be1b;
         &:hover{ text-decoration: underline;}
@@ -112,203 +108,223 @@ body{
 
     #services_list{
       background-image: url("/images/back_services.jpg");
-			background-repeat: no-repeat;
-      height: 378px;
-      padding-top: 20px;
+  		background-repeat: no-repeat;
+      height: 23em;
+      padding-top: 1.5em;
+      margin-top: 3em;
       h3{
         font-size: 1.5em;
       }
+
       h3.clean a{
         color: #618c15;
+        text-decoration: none;
         &:hover{ text-decoration: underline;}
       }
+
       h3.manager a{
         color: #666;
+        text-decoration: none;
         &:hover{ text-decoration: underline;}
       }
       h3.pool a{
         color: #32638e;
+        text-decoration: none;
         &:hover{ text-decoration: underline;}
       }
       h3.garden a{
         color: #89328e;
+        text-decoration: none;
         &:hover{ text-decoration: underline;}
       }
       ul{
         margin-top: 20px;
       }
 
-      .first_services_block{
-        li{
-          border-bottom: 1px solid #ddd;
-          list-style: none;
-          font-size: .9em;
-          padding-bottom: 2px;
-          padding-left: 7px;
-          padding-top: 5px;
+      #first_services_block{
+        margin-left: 2em;
+
+        ul{
+          margin-top: .5em;
+          li{
+            border-bottom: 1px solid #ccc;
+            list-style: none;
+            font-size: .9em;
+            padding-bottom: .12m;
+            padding-top: .8em;
+          }
         }
       }
       .second_services_block{
-        margin-left: 12px;
-        li{
-          border-bottom: 1px solid #ddd;
-          list-style: none;
-          font-size: .9em;
-          padding-bottom: 2px;
-          padding-left: 7px;
-          padding-top: 5px;
+        margin-left: .5em;
+        ul{
+          margin-top: .5em;
+          li{
+            border-bottom: 1px solid #ccc;
+            list-style: none;
+            font-size: .9em;
+            padding-bottom: .12m;
+            padding-top: .8em;
+          }
         }
       }
-			#presupuesto{
-				font-size: 1.6em;
-		    text-align: center;
-		    margin-left: -55px;
-        margin-top: 70px;
-			  a:hover{color: #3C560C;}
-			}
+  		#presupuesto{
+  		  font-size: $title-font-size;
+  	    text-align: center;
+        margin-left: -3.1em;
+        margin-top: 2.3em;
+        a{
+          &:hover{color: #618C15;}
+        }
+  		}
     }
 
-// PROMOCIONES
 
-    .green_bold{
-      color: #618c15;
-      font-size: 1.1em;
+  }
+
+//.................................Servicios
+
+  #services{
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    #services_descritpion{
+      background-image: url("/images/top_description.jpg");
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-color: #eee;
+      border: 1px solid white;
+      border-top: none;
+      outline: 1px solid #dbdbdb;
+      margin-top: 2em;
+
+      h3{
+        font-size: $title-font-size;
+        margin-bottom: .5em;
+      }
+
+      p{
+        line-height: 1.2em;
+      }
+
+      h3#clean a{
+        color: #618c15;
+        &:hover{
+          color: #85BE1B;
+          text-decoration: underline;
+        }
+      }
+      h3#manager a{
+        color: #666;
+        &:hover{
+          color: #999;
+          text-decoration: underline;
+        }
+      }
+      h3#pool a{
+        color: #32638e;
+        &:hover{
+          color: #639cc3;
+          text-decoration: underline;
+        }
+      }
+      h3#garden a{
+        color: #89328e;
+        &:hover{
+          color: #c484db;
+          text-decoration: underline;
+        }
+      }
+
+      .image_description{ margin-bottom: 3.5em;}
     }
+  }
 
-    ul#promociones{
-      margin-left: 20px;
+//....................................Promociones
+
+  #promotions{
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    ul{
+      margin-left: 2em;
+      margin-top: 2em;
+      margin-bottom: 2em;
       li{
-        list-style: none;
-        list-style-image: url("/images/dot.png");
+        list-style: none outside url("/images/dot.png");
         padding-bottom: 10px;
       }
     }
 
-//SERVICIOS
+  }
 
-  #services_descritpion{
-    background-image: url("/images/top_description.jpg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-color: #eeeeee;
-    border: 1px solid white;
-    border-top: none;
-    outline: 1px solid #dbdbdb;
+//....................................Clean Section
+
+  #clean_section{
+    padding-top: 2em;
+    padding-bottom: 2em;
 
     h3{
-      font-size: 1.5em;
-      margin-bottom: 5px;
+      margin-bottom: .5em;
     }
 
-    h3.clean a{
-      color: #618c15;
-      margin-top: 20px;
-      &:hover{color: #85BE1B;}
-    }
-    h3.manager a{
-      color: #666;
-      margin-top: 20px;
-      &:hover{color: #999;}
-    }
-    h3.pool a{
-      color: #32638e;
-      margin-top: 20px;
-      &:hover{color: #639cc3;}
-    }
-    h3.garden a{
-      color: #89328e;
-      margin-top: 20px;
-      &:hover{color: #c484db;}
-    }
-
-    .image{ margin-bottom: 40px;}
-  }
-
-  .text{
-    padding: 0 10px 30px;
-    border: 1px solid #e3e3e3;
-    background-color: #f8f8f8;
-    a{
-      color: #555;
-      &:hover{
-        color: #999;
-      }
-    }
-  }
-  #image{
-   background-color: #333;
-   background-position: center;
-   height: 150px;
-   width: 860px;
-   margin-top: 10px;
-  }
-
-//........................Limpieza
-
-  #clean{
     p{
       line-height: 1.2em;
-      margin-top: 5px;
+      margin-bottom: 2em;
     }
-    p:first-child{
-      color: #618C15;
-      letter-spacing: 0.01em;
-      line-height: 1.3em;
-      font-size: 1.4em;
-      text-align: center;
-    }
-    p#question{
+
+    p#caring_bio{
       color: #666666;
       font-family: "gabrielle";
       font-size: 1.5em;
       line-height: 1em;
     }
+
+    #request{
+      a{color: $green-font-color;}
+    }
+
     a{
-      color: #666;
       &:hover{
         text-decoration: underline;
       }
     }
-	  .back_button {
-	    @include back_button;
-	    a{
-	      background-image: url("/images/back_button.png");
+
+    .back_button {
+      @include back_button;
+      margin-top: 3em;
+      a{
+        background-image: url("/images/back_button.png");
     	  &:hover {
     	    background-image: url("/images/back_button.png");
           color: #618C15;
     	  }
       }
-	  }
+    }
 
   }
 
-//........................Conserjeria
+//.....................................Manager section
 
-  #manager{
+  #manager_section{
     @include listado_con_estilo;
-    p:first-child{
-      color: #333;
-      letter-spacing: 0.01em;
-      line-height: 1.3em;
-      font-size: 1.4em;
-      text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    p{
+      margin-bottom: 2em;
     }
-    .back_button {
-	    @include back_button;
-	    a{
-        background-image: url("/images/back_button_conserjeria.png");
-    	  &:hover {
-          background-image: url("/images/back_button_conserjeria.png");
-          color: #333;
-    	  }
-      }
-	  }
+
+    ul#manager_list{
+      margin-bottom: 1em;
+    }
 
     ul#hours{
       color: #618C15;
       font-size: 1em;
       margin-left: 135px;
-
+      margin-top: 1em;
+      margin-bottom: 2em;
       li{
         display: inline;
         padding-right: 183px;
@@ -328,56 +344,63 @@ body{
       margin-bottom: 15px;
     }
 
+    .back_button {
+      @include back_button;
+      a{
+        background-image: url("/images/back_button_conserjeria.png");
+    	  &:hover {
+          background-image: url("/images/back_button_conserjeria.png");
+          color: #333;
+    	  }
+      }
+    }
+
   }
-//........................Jardin
 
-  #garden{
+//......................................Garden section
+
+  #garden_section{
     @include listado_con_estilo;
+    padding-top: 2em;
+    padding-bottom: 2em;
 
-    ul{margin-top: 20px;}
+    h3{
+      margin-bottom: 1em;
+    }
+
+    ul{
+      margin-top: 1em;
+      margin-bottom: 2.5em;
+    }
 
     p{
       line-height: 1.2em;
-      margin-top: 5px;
-    }
-
-    p:first-child{
-      color: #89328e;
-      letter-spacing: 0.01em;
-      line-height: 1.3em;
-      font-size: 1.4em;
-      text-align: center;
+      margin-bottom: 2em;
     }
 
     .back_button {
-	    @include back_button;
-	    a{
-        background-image: url("/images/back_button_jardineria.png");
+      @include back_button;
+      a{
+        background-image: url("/images/back_button_conserjeria.png");
     	  &:hover {
-          background-image: url("/images/back_button_jardineria.png");
-          color: #89328E;
+          background-image: url("/images/back_button_conserjeria.png");
+          color: #333;
     	  }
       }
-	  }
+    }
 
   }
 
-//........................Piscina
+//...................................Pool section
 
-  #pool{
+  #pool_section{
     @include listado_con_estilo;
-
-    p:first-child{
-      color: #32638e;
-      letter-spacing: 0.01em;
-      line-height: 1.3em;
-      font-size: 1.3em;
-      text-align: center;
-    }
+    padding-top: 2em;
+    padding-bottom: 2em;
 
     p{
       line-height: 1.2em;
-      margin-top: 5px;
+      margin-bottom: 2em;
     }
 
     p#message{
@@ -385,59 +408,53 @@ body{
       font-size: 1.6em;
     }
 
-    ul{ margin-top: 10px;}
+    h3{
+      margin-bottom: 1em;
+    }
+
+    ul{
+      margin-top: 1em;
+      margin-bottom: 2.5em;
+    }
 
     a {
       background-image: url("/images/back_button_piscina.png");
       background-position: 2px -33px;
       background-repeat: no-repeat;
       padding: 10px 0 6px 43px;
-			&:hover {
+  		&:hover {
         background-image: url("/images/back_button_piscina.png");
         background-position: 2px 1px;
         color: #32638E;
         padding-top: 9px;
-			}
-		}
+  		}
+  	}
   }
 
-//ADMINISTRADORES
+//......................................Contact
 
-  #promotion_icon{
-    background-image: url("/images/bucket.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    margin-top: 10px;
-    height: 161px;
-  }
-  #promotion{
-    background-color: #f6f6f6;
-    border: solid 1px #DBDBDB;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 100px;
-    strong{color: #618C15;}
-  }
-
-// CONTACTO
+  #contact{
+    padding-top: 2em;
+    padding-bottom: 2em;
 
     #contact_info{
       background-image: url("/images/back_contact.png");
       background-repeat: no-repeat;
-      height: 184px;
-      margin-left: 185px;
-      padding-top: 30px;
+      height: 11em;
+      margin-left: 12em;
+      padding: 2em 2.5em 0;
+      width: 27em;
       p{margin-bottom: 15px;text-align: center;}
-      a:hover{color: black;}
+      a{
+        &:hover{color: black;} 
+      }
     }
-
-// MAPA
 
     #map_canvas{
       border: solid 1px white;
       outline: solid 2px #a2ae90;
-     	height: 330px;
-     	margin-left: 145px;
+      height: 23em;
+      margin-left: 9em;
      	#infowindow{
      	  h3{
           border-bottom: 1px solid #ccc;
@@ -447,48 +464,71 @@ body{
         }
      		p{font-size: .8em;}
      	}
-     #gmimap0{
-     	  background-color: blue;
-     	}
     }
   }
+}
 
-// FOOTER
+//......................................Contact
 
-  #footer{
-    @include linear-gradient(color-stops(#202020, black));
-    background-color: black;
-    color: $gray-font-color;
-    border-top: 4px solid #7dae38;
-    margin-top: 40px;
-    #promociones_link{
-      background-image: url("/images/prom_footer.png");
+  #admin{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    #promotion_icon{
+      background-image: url("/images/bucket.jpg");
       background-repeat: no-repeat;
-      background-position: right center;
-      position: relative;
-      margin-top: -45px;
-      height: 75px;
-      h3{
-        @include text-shadow(#b5f22c, 0, 1px, 1px);
-        text-align: right;
-        margin-right: 70px;
-        padding-top: 31px;
-        a{
-          color: #334006;
-          text-decoration: none;
-          font-size: 1.1em;
-        }
-        a:hover{color: white;}
-      }
+      background-position: center;
+      height: 11em;
     }
-    h3#title{
-      color: white;
-      font-size: $title-font-size;
-      font-family: $title-font-family;
+    #promotion{
+      background-color: #eee;
+      border: 1px solid white;
+      outline: 1px solid #dbdbdb;
+      padding: 2em;
+      margin-top: -.5em;
     }
-    p{margin-bottom: 5px;}
   }
-  a{text-decoration: none; color: $gray-font-color;}
-  a:hover{color: white;}
+
+
+
+//.......................................Footer
+
+#footer{
+  @include linear-gradient(color-stops(#202020, black));
+  background-color: black;
+  color: $gray-font-color;
+  border-top: 4px solid #7dae38;
+  margin-top: 2em;
+  padding-bottom: 1em;
+  #promociones_link{
+    background-image: url("/images/prom_footer.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    position: relative;
+    margin-top: -2em;
+    height: 4.5em;
+    h3{
+      @include text-shadow(#b5f22c, 0, 1px, 1px);
+      text-align: right;
+      margin-right: 4.5em;
+      padding-top: 2em;
+      a{
+        color: #334006;
+        font-size: 1.1em;
+      }
+      a:hover{color: white;}
+    }
+  }
+  h3#title{
+    color: white;
+    font-size: $title-font-size;
+    font-family: $title-font-family;
+    margin-bottom: 0.5em;
+  }
+  p{margin-bottom: .5em;}
+  a{
+    text-decoration: none; color: $gray-font-color;
+    &:hover{color: white;}
+  }
   #itnig{text-align: center;}
 }
+
