@@ -1,7 +1,7 @@
 <ul>
   <li id="home"><%= link_to (t :home), root_path%></li>
-  <li id="servicios"><%= link_to (t :servicios), servicios_path, :title => t("servicios"), :id => "services", :class => action_name == 'servicios' ? 'current_page_item' : ' ' %></li>
-  <li id="prom"><%= link_to (t :promociones), promociones_path, :title => t("promociones"), :id => "promotions", :class => action_name == 'promociones' ? 'current_page_item' : ' ' %></li>
-  <li id="contact"><%= link_to (t :contacto), contacto_path, :title => t("contacto"), :id => "contacto", :class => action_name == 'contacto' ? 'current_page_item' : ' ' %></li>
-  <li id="administradores"><%= link_to (t :administradores), administradores_path, :title => t("administradores"), :id => "admin", :class => action_name == 'administradores' ? 'current_page_item' : ' ' %></li>
+  <li id="servicios"><%= link_to (t :servicios), servicios_path, :title => t("servicios"), :id => "service", :class => action_name == 'servicios' ? 'current_page_item' : ' ' %></li>
+  <li id="prom"><%= link_to (t :promociones), promociones_path, :title => t("promociones"), :id => "promociones", :class => action_name == 'promociones' ? 'current_page_item' : ' ' %></li>
+  <li id="contacto"><%= link_to (t :contacto), contacto_path, :title => t("contacto"), :id => "contactar", :class => action_name == 'contacto' ? 'current_page_item' : ' ' %></li>
+  <li id="administradores"><%= link_to (t :administradores), administradores_path, :title => t("administradores"), :id => "admins", :class => action_name == 'administradores' ? 'current_page_item' : ' ' %></li>
 </ul>
