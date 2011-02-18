@@ -1,0 +1,15 @@
+#admin_menu
+  %ul
+    %li
+      = link_to "Site", root_path
+      |
+      = link_to "Users", admin_root_path
+      |
+      = link_to "Translations", interpret_root_path
+
+#user_menu
+  %ul
+    %li= current_user.to_s.humanize
+    |
+    %li
+      = link_to "Logout", destroy_user_session_path

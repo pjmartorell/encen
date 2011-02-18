@@ -36,7 +36,7 @@
       font-family: $title-font-family;
       text-decoration: none;
       margin-left: 166px;
-  		#servicios_in{font-size: .7em;}
+      #servicios_in{font-size: .7em;}
     }
   }
   h2{
@@ -70,16 +70,16 @@
 #info_box {
   background-color: white;
   color: $main-font-color;
-	.strong_word{
-		font-weight: bold;
-		font-size: 1.1em;
-	}
-	a{
-	  text-decoration: none;
-	  color: $gray-font-color;
-	}
+  .strong_word{
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  a{
+    text-decoration: none;
+    color: $gray-font-color;
+  }
 
-	h2{
+  h2{
     font-size: $title-font-size;
     margin-bottom: 1em;
   }
@@ -108,7 +108,7 @@
 
     #services_list{
       background-image: url("/images/back_services.jpg");
-  		background-repeat: no-repeat;
+      background-repeat: no-repeat;
       height: 23em;
       padding-top: 1.5em;
       margin-top: 3em;
@@ -168,15 +168,15 @@
           }
         }
       }
-  		#presupuesto{
-  		  font-size: $title-font-size;
-  	    text-align: center;
+      #presupuesto{
+        font-size: $title-font-size;
+        text-align: center;
         margin-left: -3.1em;
         margin-top: 2.3em;
         a{
           &:hover{color: #618C15;}
         }
-  		}
+      }
     }
 
 
@@ -295,10 +295,10 @@
       margin-top: 3em;
       a{
         background-image: url("/images/back_button.png");
-    	  &:hover {
-    	    background-image: url("/images/back_button.png");
+        &:hover {
+          background-image: url("/images/back_button.png");
           color: #618C15;
-    	  }
+        }
       }
     }
 
@@ -348,10 +348,10 @@
       @include back_button;
       a{
         background-image: url("/images/back_button_conserjeria.png");
-    	  &:hover {
+        &:hover {
           background-image: url("/images/back_button_conserjeria.png");
           color: #333;
-    	  }
+        }
       }
     }
 
@@ -382,10 +382,10 @@
       @include back_button;
       a{
         background-image: url("/images/back_button_conserjeria.png");
-    	  &:hover {
+        &:hover {
           background-image: url("/images/back_button_conserjeria.png");
           color: #333;
-    	  }
+        }
       }
     }
 
@@ -422,13 +422,13 @@
       background-position: 2px -33px;
       background-repeat: no-repeat;
       padding: 10px 0 6px 43px;
-  		&:hover {
+      &:hover {
         background-image: url("/images/back_button_piscina.png");
         background-position: 2px 1px;
         color: #32638E;
         padding-top: 9px;
-  		}
-  	}
+      }
+    }
   }
 
 //......................................Contact
@@ -446,7 +446,7 @@
       width: 27em;
       p{margin-bottom: 15px;text-align: center;}
       a{
-        &:hover{color: black;} 
+        &:hover{color: black;}
       }
     }
 
@@ -455,15 +455,15 @@
       outline: solid 2px #a2ae90;
       height: 23em;
       margin-left: 9em;
-     	#infowindow{
-     	  h3{
+      #infowindow{
+        h3{
           border-bottom: 1px solid #ccc;
           font-size: 1em;
           margin-bottom: 5px;
           width: 170px;
         }
-     		p{font-size: .8em;}
-     	}
+        p{font-size: .8em;}
+      }
     }
   }
 }
