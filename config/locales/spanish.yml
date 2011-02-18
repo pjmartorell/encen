@@ -22,7 +22,9 @@ es:
 
   static:
     index:
-      title: De Rosa
+      title: "Gestoría Barcelona - Asesoría laboral, contable, jurídica y fiscal"
+      metakeywords: "Gestoría Barcelona. De rosa Abogados ofrecemos una Asesoría laboral, contable, jurídica y fiscal. Especializados en la gestión de empresas y autónomos."
+      metadescription: "Gestoria Barcelona, Gestoria en Barcelona, asesoria laboral, asesoria contable, asesoria jurídica, asesoria fiscal"
       principal_phrase: "En cada nueva gestión nos preguntamos como superar las expectativas del cliente."
       phrase: "Ofrecemos asesoramiento en as diversas áreas de la empresa. En cada una de ellas disponemos de los especialistas que garantizan una óptima gestión."
       fiscal: Fiscal
@@ -46,14 +48,18 @@ es:
       title_news: "Noticias de ultimo momento."
 
     nosotros:
-      title: De Rosa
+      title: Asesoramiento y gestión contable - laboral y fiscal - De rosa Abogados
+      metakeywords: "De Rosa abogados está formado por un equipo de profesionales dedicados al asesoramiento y gestión fiscal, laboral, contable y jurídica."
+      metadescription: "De Rosa abogados, Gestoria Barcelona"
       subtitle: Nosotros
       first_us_p: "El asesoramiento constituye un valor estratégico y prioritario para reforzar la competitividad de las empresas y la calificación de los negocios."
       us: "Formamos un equipo de profesionales dedicados al asesoramiento y gestión fiscal, laboral, contable y jurídica, ofreciendo un servicio de calidad y profesionalidad para la toma de decisiones de dirección o gerencia necesarias e imprescindibles en los momentos que nos ocupa."
       us2: "Poniendo a su disposición toda nuestra experiencia con más de 20 años en línea, para dar la más alta calidad en nuestros servicios tanto a nivel nacional como extranjero."
 
     services:
-      title: De Rosa
+      title: Abogados herencias - fiscales - laboralistas y familia en Barcelona
+      metakeywords: "De rosa abogados está formado por los mejores profesionales en Barcelona. Herencias, laboralistas, fiscales y derecho de familia"
+      metadescription: "Derecho de familia, abogado laboralista, abogado fiscal, abogado herencias"
       subtitle: Servicios
       menu_services: Servicios
       link_fiscal: Fiscales
@@ -148,7 +154,6 @@ es:
       forensia_paragraph3: Dictámenes financieros
       forensia_paragraph4: Resolución de conflictos
       forensia_paragraph5: Prevención e investigación de fraudes
-
       subtitle_otros: Otros Servicios
       otros_description: "En la empresa ninguna área de actividad está desvinculada de as restantes. Todas ellas se interrelacionan entre sí. Por ello, ya sea de forma directa o mediantes alianzas, ofrecemos todos los servicios que su empresa puede precisar, para que queden integrados dentro del conjunto de forma armónica y eficaz."
       otros_1: Auditorias.
@@ -157,7 +162,9 @@ es:
       otros_4: Administración de fincas.
 
     vinculo:
-      title: De Rosa
+      title: Enlaces de interés - De Rosa Abogados
+      metakeywords: "Sección de enlaces recomendados por De Rosa abogados."
+      metadescription: "Enlaces de interés, De rosa abogados"
       subtitle: Vínculos
       first_paragraph: "In a creative field like design, we face an undeniable truth: our wells of inspiration are bound to run dry from time to time. In those periods of imaginative downtime, we seek out sources that can help us return the creative flow to our working process, and get us back in the game."
       link1: TGSS.
@@ -165,10 +172,14 @@ es:
       link3: "REGISTRO MERCANTIL BARCELONA: GENERALITAT DE CATALUNIA."
 
     noticias:
-      title: De Rosa
+      title: De Rosa abogados - Noticias
+      metakeywords: "Sección de actualidad y noticias para los que desean estar a la última sobre las novedades en el mundo del derecho laboral, civil, fiscal, contable y gestorías en Barcelona"
+      metadescription: "Notícias, Gestorías en Barcelona"
       subtitle: Noticias
 
     contact:
-      title: De Rosa
+      title: "De Rosa abogados - Contacto"
+      metakeywords: "De Rosa Abogados está ubicado en la calle Ausiàs Marc 49, Despacho 18 Planta 3ra. En Barcelona"
+      metadescription: "Contacto, De Rosa abogados"
       subtitle: Contacto
 

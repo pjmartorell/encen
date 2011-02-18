@@ -22,7 +22,9 @@ ca:
 
   static:
     index:
-      title: De Rosa
+      title: Advocats de Barcelona - Laboralistes - Fiscals - Jurídics i Comptables
+      metakeywords: "De Rosa advocats ofereix els millors professionals laboralistes, fiscals, jurídics i comptables a Barcelona."
+      metadescription: "Advocats de Barcelona, Advocats laboralistes, Advocats fiscals, Advocats jurídics, Advocats comptables"
       principal_phrase: "En cada nova gestió ens preguntem com superar les expectatives del client."
       phrase: "Oferim assessorament en les (error castellano falta la L) diverses àrees de l'empresa. En cada una d'elles disposem dels especialistes que garantixen una òptima gestió."
       fiscal: Fiscal
@@ -41,14 +43,18 @@ ca:
       traduccion: "Disponemos de un departamento específico de negocio Asiático, con un interlocutor con el que se podrá comunicar en idioma CHINO, de esta manera queremos facilitarle la comprensión de todas sus dudas, preguntas y demás que puedan serles de utilidad."
 
     nosotros:
-      title: De Rosa
+      title: Assessorament i gestió comptable - laboral i fiscal - De Rosa advocats
+      metakeywords: "De Rosa advocats està format per un equip de professionals dedicats al assessorament i gestió fiscal, laboral, comptable i jurídic."
+      metadescription: "De Rosa advocats, gestoria Barcelona, fiscal, laboral, comptable, jurídica"
       subtitle: Nosaltres
       first_us_p: "El assessorament constitueix un valor estratègic i prioritari per reforçar la competitivitat de les empreses i la qualificació dels negocis."
       us: "Formem un equip de professionals dedicats al assessorament i gestió fiscal, laboral, comptable i jurídica, oferint uns serveis de qualitat i professionalitat per la pressa de decisions de direcció o gerència necessàries i totalment imprescindibles en els moments que ens ocupa la conjuntura econòmica."
       us2: "Posem a la seva disposició tota la nostre experiència amb més de 20 anys en linia, per donar la més alta qualitat en els nostres serveis tant a nivell nacional com a l'extranjer."
 
     services:
-      title: De Rosa
+      title: Advocat laboralista - Herències - Fiscal - Família a Barcelona
+      metakeywords: "De Rosa advocats està format pels millors professionals laboralistes, fiscals, dret de família, herències a Barcelona"
+      metadescription: "Dret de familia, advocats laboralistes, advocat fiscal, advocat herències"
       subtitle: Serveis
       link_fiscal: Fiscal
       link_contable: Laboral
@@ -142,7 +148,6 @@ ca:
       forensia_paragraph3: Dictámenes financieros
       forensia_paragraph4: Resolución de conflictos
       forensia_paragraph5: Prevención e investigación de fraudes
-
       subtitle_otros: Altres Serveis
       otros_description: "En l'empresa ninguna àrea d'activitat està desvinculada de les restants. totes elles s'interrelacionen entre si. així que ja sigui de forma directe o mitjançant aliances, oferim tots els serveis que la seva empresa pot precisar, per tal que quedin integrats dintre del conjunt de forma amònica i eficaç."
       otros_1: Auditories.
@@ -151,7 +156,9 @@ ca:
       otros_4: Administració de finques.
 
     vinculo:
-      title: De Rosa
+      title: "Enllaços d’interès - De Rosa advocats"
+      metakeywords: "Secció d’enllaços recomanats per De Rosa advocats"
+      metadescription: "Enllaços d’interes, De Rosa advocats"
       subtitle: Vínculos
       first_paragraph: "In a creative field like design, we face an undeniable truth: our wells of inspiration are bound to run dry from time to time. In those periods of imaginative downtime, we seek out sources that can help us return the creative flow to our working process, and get us back in the game."
       link1: TGSS.
@@ -159,10 +166,14 @@ ca:
       link3: "REGISTRO MERCANTIL BARCELONA: GENERALITAT DE CATALUNIA."
 
     noticias:
-      title: De Rosa
+      title: De Rosa advocats - Noticies
+      metakeywords: "Secció d’actualitat i noticies per els que desitjen estar a la última sobre les novetats en el món del dret laboral, civil, fiscal, comptable i gestories a Barcelona"
+      metadescription: "Noticies, De Rosa advocats"
       subtitle: Noticias
 
     contact:
-      title: De Rosa
+      title: De Rosa Advocats - Contacte
+      metakeywords: "De Rosa advocats està situat al carrer Ausiàs Marc 49, despatx 18 planta 3ra a Barcelona."
+      metadescription: "Contacte, De Rosa advocats"
       subtitle: Contacte
 
