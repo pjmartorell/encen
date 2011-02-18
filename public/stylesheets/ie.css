@@ -1,80 +1,69 @@
-body {
+body.bp {
   text-align: center;
 }
-* html body legend {
+* html body.bp legend {
   margin: 0px -8px 16px 0;
   padding: 0;
 }
-html > body p code {
+html > body.bp p code {
   *white-space: normal;
 }
-
-.container {
+body.bp .container {
   text-align: left;
 }
-
-sup {
+body.bp sup {
   vertical-align: text-top;
 }
-
-sub {
+body.bp sub {
   vertical-align: text-bottom;
 }
-
-hr {
+body.bp hr {
   margin: -8px auto 11px;
 }
-
-img {
+body.bp img {
   -ms-interpolation-mode: bicubic;
 }
-
-fieldset {
+body.bp fieldset {
   padding-top: 0;
 }
-
-textarea {
+body.bp textarea {
   overflow: auto;
 }
-
-input.text {
+body.bp input.text {
   margin: 0.5em 0;
   background-color: white;
   border: 1px solid #bbbbbb;
 }
-input.text:focus {
+body.bp input.text:focus {
   border: 1px solid #666666;
 }
-input.title {
+body.bp input.title {
   margin: 0.5em 0;
   background-color: white;
   border: 1px solid #bbbbbb;
 }
-input.title:focus {
+body.bp input.title:focus {
   border: 1px solid #666666;
 }
-input.checkbox {
+body.bp input.checkbox {
   position: relative;
   top: 0.25em;
 }
-input.radio {
+body.bp input.radio {
   position: relative;
   top: 0.25em;
 }
-input.button {
+body.bp input.button {
   position: relative;
   top: 0.25em;
 }
-
-textarea {
+body.bp textarea {
   margin: 0.5em 0;
 }
-
-select {
+body.bp select {
   margin: 0.5em 0;
 }
-
-button {
+body.bp button {
   position: relative;
   top: 0.25em;
 }

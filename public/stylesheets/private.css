@@ -1,234 +1,128 @@
-@charset "UTF-8";
-html, body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-}
+/*
+Syntax error: Undefined mixin 'container'.
+        on line 3 of /home/roger/code/encen/app/stylesheets/partials/_two_col.scss, in `container'
+        from line 3 of /home/roger/code/encen/app/stylesheets/partials/_two_col.scss
+        from line 1 of /home/roger/code/encen/app/stylesheets/partials/_base.scss
+        from line 5 of /home/roger/code/encen/app/stylesheets/private.scss
 
-html {
-  font-size: 100.01%;
-}
+1: // This import applies a global reset to any page that imports this stylesheet.
+2: @import "blueprint/reset";
+3: 
+4: // To configure blueprint, edit the partials/base.sass file.
+5: @import "partials/base";
+6: 
+7: // Import all the default blueprint modules so that we can access their mixins.
+8: @import "blueprint";
 
-div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
-pre, a, abbr, acronym, address, code, del, dfn, em, img,
-dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-}
-
-blockquote, q {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-  quotes: "" "";
-}
-blockquote:before, blockquote:after, q:before, q:after {
-  content: "";
-}
-
-th, td, caption {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-table {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-weight: inherit;
-  font-style: inherit;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline;
-  border-collapse: separate;
-  border-spacing: 0;
-  vertical-align: middle;
-}
-
-a img {
-  border: none;
-}
-
-body.one_col #container {
-  width: 950px;
-  margin: 0 auto;
-  overflow: hidden;
-  *zoom: 1;
-}
-body.one_col #container #welcome {
-  width: 470px;
-}
-body.one_col #container #login_box {
-  width: 390px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-body.one_col #container #header {
-  width: 830px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-body.one_col #container #info_box {
-  width: 830px;
-  padding-left: 40px;
-  padding-right: 40px;
-}
-body.one_col #container #itnig_link {
-  width: 950px;
-}
-
-.clear {
-  clear: both;
-  height: 1px;
-  overflow: hidden;
-}
-
-.separator {
-  clear: both;
-  height: 2em;
-  overflow: hidden;
-}
-
-body {
-  margin: auto;
-  background-color: #CFCFCF;
-  background-repeat: no-repeat;
-  background-position: center top;
-}
-body #container {
-  font-family: "Verdana";
-  font-size: 0.9em;
-  color: #444444;
-}
-body #container #login_box {
-  background-color: #F1F1F1;
-  border: 2px solid #999999;
-  padding-top: 40px;
-  padding-bottom: 30px;
-  margin-top: 100px;
-  margin-left: 250px;
-}
-body #container #login_box p {
-  margin-bottom: 20px;
-  text-align: center;
-}
-body #container #login_box input#user_login {
-  border: 1px solid #BBBBBB;
-  color: #444444;
-  text-align: center;
-  font-size: 16px;
-  height: 30px;
-  padding: 2px;
-  width: 275px;
-}
-body #container #login_box input#user_password {
-  border: 1px solid #BBBBBB;
-  color: #444444;
-  text-align: center;
-  font-size: 16px;
-  height: 30px;
-  padding: 2px;
-  width: 275px;
-}
-body #container #login_box input#user_submit {
-  background-color: #000000;
-  color: white;
-  border: medium none;
-  height: 25px;
-  margin-bottom: 10px;
-  width: 125px;
-}
-body #container #login_box input#user_submit:hover {
-  background-color: #666;
-}
-body #container #header {
-  background-color: #555;
-  color: #eee;
-  font-size: 0.9em;
-  margin-bottom: 30px;
-  margin-top: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-body #container #header h1 {
-  color: #f1f1f1;
-  text-align: center;
-  font-size: 1.5em;
-  margin-bottom: 12px;
-}
-body #container #header a {
-  color: #F1F1F1;
-}
-body #container #header p {
-  margin-bottom: 5px;
-}
-body #container #header #upload_btn input {
-  background-color: black;
-  border: medium none;
-  color: #999999;
-  margin-top: 9px;
-  padding: 7px 15px;
-}
-body #container #header #upload_btn input:hover {
-  background-color: #222;
-}
-body #container #info_box {
-  background-color: #F1F1F1;
-  border: 2px solid #999999;
-  padding-top: 40px;
-  padding-bottom: 20px;
-}
-body #container #info_box a {
-  color: black;
-  text-decoration: none;
-}
-body #container #info_box a:hover {
-  color: #999;
-}
-body #container #info_box table thead {
-  background-color: #666;
-  color: white;
-  height: 30px;
-}
-body #container #info_box table thead th:first-child {
-  padding-left: 10px;
-}
-body #container #info_box table tbody td {
-  border-top: 1px solid #CCCCCC;
-  margin-bottom: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-body #container #info_box table tbody td:first-child {
-  padding-left: 10px;
-  padding-right: 30px;
-  text-align: justify;
-}
-body #container #info_box table tbody td:last-child {
-  padding-left: 10px;
-}
+Backtrace:
+/home/roger/code/encen/app/stylesheets/partials/_two_col.scss:3:in `container'
+/home/roger/code/encen/app/stylesheets/partials/_two_col.scss:3
+/home/roger/code/encen/app/stylesheets/partials/_base.scss:1
+/home/roger/code/encen/app/stylesheets/private.scss:5
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/mixin_node.rb:62:in `perform!'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:305:in `_perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:213:in `perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `map'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:317:in `perform!'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/rule_node.rb:191:in `perform!'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:305:in `_perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:213:in `perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `map'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:317:in `perform!'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/rule_node.rb:191:in `perform!'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:305:in `_perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:213:in `perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `map'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/import_node.rb:78:in `perform!'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:305:in `_perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/import_node.rb:64:in `_perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:213:in `perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/root_node.rb:37:in `perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `map'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/import_node.rb:78:in `perform!'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:305:in `_perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/import_node.rb:64:in `_perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:213:in `perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/root_node.rb:37:in `perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `map'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:327:in `perform_children'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:317:in `perform!'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/root_node.rb:59:in `perform!'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:305:in `_perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/node.rb:213:in `perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/root_node.rb:37:in `perform'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/tree/root_node.rb:29:in `render'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/plugin.rb:223:in `update_stylesheet'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/plugin.rb:88:in `update_stylesheets'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/plugin.rb:81:in `each'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/plugin.rb:81:in `update_stylesheets'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/plugin.rb:79:in `each'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/plugin.rb:79:in `update_stylesheets'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/plugin.rb:50:in `check_for_updates'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/haml-3.0.25/lib/sass/plugin/rack.rb:40:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/warden-1.0.3/lib/warden/manager.rb:35:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/warden-1.0.3/lib/warden/manager.rb:34:in `catch'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/warden-1.0.3/lib/warden/manager.rb:34:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.4/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.4/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/methodoverride.rb:24:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.4/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.4/lib/action_dispatch/middleware/flash.rb:182:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.4/lib/action_dispatch/middleware/session/abstract_store.rb:149:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.4/lib/action_dispatch/middleware/cookies.rb:302:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:32:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/query_cache.rb:28:in `cache'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:12:in `cache'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-3.0.4/lib/active_record/query_cache.rb:31:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/activerecord-3.0.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:354:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:46:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-3.0.4/lib/active_support/callbacks.rb:415:in `_run_call_callbacks'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.4/lib/action_dispatch/middleware/callbacks.rb:44:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/sendfile.rb:107:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.4/lib/action_dispatch/middleware/remote_ip.rb:48:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.4/lib/action_dispatch/middleware/show_exceptions.rb:47:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.4/lib/rails/rack/logger.rb:13:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/runtime.rb:17:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/activesupport-3.0.4/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/lock.rb:11:in `synchronize'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/lock.rb:11:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/actionpack-3.0.4/lib/action_dispatch/middleware/static.rb:30:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.4/lib/rails/application.rb:168:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.4/lib/rails/application.rb:77:in `send'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.4/lib/rails/application.rb:77:in `method_missing'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.4/lib/rails/rack/log_tailer.rb:14:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/content_length.rb:13:in `call'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/handler/webrick.rb:52:in `service'
+/home/roger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/home/roger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/home/roger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/home/roger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/home/roger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/home/roger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/home/roger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/home/roger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/home/roger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/home/roger/.rvm/rubies/ree-1.8.7-2010.02/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/handler/webrick.rb:13:in `run'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/rack-1.2.1/lib/rack/server.rb:213:in `start'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.4/lib/rails/commands/server.rb:65:in `start'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.4/lib/rails/commands.rb:30
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.4/lib/rails/commands.rb:27:in `tap'
+/home/roger/.rvm/gems/ree-1.8.7-2010.02/gems/railties-3.0.4/lib/rails/commands.rb:27
+script/rails:6:in `require'
+script/rails:6
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Undefined mixin 'container'.\A         on line 3 of /home/roger/code/encen/app/stylesheets/partials/_two_col.scss, in `container'\A         from line 3 of /home/roger/code/encen/app/stylesheets/partials/_two_col.scss\A         from line 1 of /home/roger/code/encen/app/stylesheets/partials/_base.scss\A         from line 5 of /home/roger/code/encen/app/stylesheets/private.scss\A \A 1: // This import applies a global reset to any page that imports this stylesheet.\A 2: @import \"blueprint/reset\";\A 3: \A 4: // To configure blueprint, edit the partials/base.sass file.\A 5: @import \"partials/base\";\A 6: \A 7: // Import all the default blueprint modules so that we can access their mixins.\A 8: @import \"blueprint\";"; }

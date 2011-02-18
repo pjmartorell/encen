@@ -63,6 +63,11 @@ Encen::Application.routes.draw do
   match 'pulsador', :to => "static#pulsador"
   match 'veleta', :to => "static#veleta"
 
-  match 'admin', :to => "interpret/translations#index"
+  namespace :admin do
+    resources :users, :except => :index
+
+    root :to => "users#index"
+  end
+
   root :to => "static#index"
 end
