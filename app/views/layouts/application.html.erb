@@ -31,17 +31,17 @@
 
 </head>
 <body class="one_col">
-	<div id="container">
+  <div id="container">
 
-		<div id="header">
-			<div id="menu"><%= render :partial => "shared/menu"%></div>
-			<h1><a href="<%= root_path %>"><%= raw t('title') %></a></h1>
-			<h2><a href="<%= root_path %>"><%= t('subtitle') %></a></h2>
-		</div>
+    <div id="header">
+      <div id="menu"><%= render :partial => "shared/menu"%></div>
+      <h1><a href="<%= root_path %>"><%= raw t('title') %></a></h1>
+      <h2><a href="<%= root_path %>"><%= t('subtitle') %></a></h2>
+    </div>
 
-		<div id="info_box"><%= yield %></div>
+    <div id="info_box"><%= yield %></div>
 
-		<div id="footer"><%= render :partial => "shared/footer" %></div>
+    <div id="footer"><%= render :partial => "shared/footer" %></div>
 
 </div>
   <script src="http://www.google.com/jsapi?key=ABQIAAAA0ylfVAz-VO81YNZU6tZcBBS0wYR1CwRzgIDun2kbXwmuPB7-BRStiMt_6Fbyr1sdhUvYaOBolxf_bw" type="text/javascript"></script>

@@ -56,13 +56,13 @@ $green-font-color: #618C15;
     background-position: 2px -33px;
     background-repeat: no-repeat;
     padding: 10px 0 6px 43px;
-	  &:hover {
+    &:hover {
       background-image: url("/images/back_button.png");
       background-position: 2px 1px;
       color: #618C15;
       padding-top: 9px;
       text-decoration: none;
-	  }
+    }
   }
 }
 
@@ -78,9 +78,9 @@ $green-font-color: #618C15;
 }
 
 body{
-	margin: 0 auto;
-	background-color: #fff;
-	#container{
+  margin: 0 auto;
+  background-color: #fff;
+  #container{
     @include box-shadow(#ccc, 0, -29px, 25px, 1px);
     font-family: $main-font-family;
     color: #333;

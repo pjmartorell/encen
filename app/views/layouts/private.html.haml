@@ -1,32 +1,27 @@
 !!! 5
 %html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => I18n.locale }
   %head
-    %title= yield :title
+    %title Encen backoffice
     %meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}
-    %meta{:content => t('metakeywords'), :name => "keywords"}
-    %meta{:content => t('metadescription'), :name => "description"}
     %meta{:content => "Itnig", :name => "author"}
     %meta{:content => "Itnig", :name => "generator"}
     %meta{:content => "Itnig", :name => "origen"}
     %meta{:content => t(:locality), :name => "locality"}
     %meta{:content => I18n.locale, :name => "language"}
-    %meta{:content => "index, follow", :name => "robots"}
-    %meta{:content => t(:geo_region), :name => "geo.region"}
-    %meta{:content => t(:geo_placename), :name => "geo.placename"}
-    %meta{:content => t(:geo_position), :name => "geo.position"}
-    %meta{:content => t(:icbm), :name => "ICBM"}
     = csrf_meta_tag
-    = stylesheet_link_tag "private", "backoffice"
+    = stylesheet_link_tag "private"
     /[if lt IE 8 ]
       = stylesheet_link_tag 'ie', :media => 'screen, projection'
-  %body.one_col
+  %body.bp
     #container
-      = yield
+      #menu
+        = render 'admin/menu'
+      #content
+        = yield
 
-      = render 'shared/footer'
     %script{:type => "text/javascript", :src  => "http://www.google.com/jsapi?key=ABQIAAAALy3hj-F80ucolZq1sevJGxQy9TusGK6D_dw7xKWtcTJbKPyiEhQ2HXkEN9UJJowAVIun52JrUbnugQ"}
     :javascript
       google.load("jquery", "1.4.2")
-    = javascript_include_tag "rails", "application"
+    = javascript_include_tag "rails"
     = yield :custom_js
 

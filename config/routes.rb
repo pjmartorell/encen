@@ -13,6 +13,11 @@ Encen::Application.routes.draw do
   match 'question' => 'static#question'
   match 'new_question' => 'static#new_question'
 
-  match 'admin', :to => "interpret/translations#index"
+  namespace :admin do
+    resources :users, :except => :index
+
+    root :to => "users#index"
+  end
+
   root :to => "static#index"
 end

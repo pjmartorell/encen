@@ -1,77 +1,77 @@
 /* Form question */
 #question_form
 {
-	@include border-radius(20px);
-	background-color:#eee;
-	border: 5px solid #81a01f;
+  @include border-radius(20px);
+  background-color:#eee;
+  border: 5px solid #81a01f;
   color:#666;
-	font-family: $main-font-family;
-	width: 400px;
+  font-family: $main-font-family;
+  width: 400px;
   padding: 15px 25px;
-	margin: 0 auto;
-	overflow: hidden;
+  margin: 0 auto;
+  overflow: hidden;
 
   label {
-  	clear: both;
-  	display: block;
-  	@include text-shadow(#000, 0px, -1px, 0.5);
-  	font-family: "kaffeesatz-1", "kaffeesatz-2", sans-serif;
-  	font-size:0.9em;
+    clear: both;
+    display: block;
+    @include text-shadow(#000, 0px, -1px, 0.5);
+    font-family: "kaffeesatz-1", "kaffeesatz-2", sans-serif;
+    font-size:0.9em;
   }
   input {
-  	margin-bottom: 25px;
+    margin-bottom: 25px;
   }
   sup {
-  	color: #688119; font-size: .9em;
+    color: #688119; font-size: .9em;
   }
   input {
-  	font-size:1em;
+    font-size:1em;
     border:1px solid #999999;
     padding: 6px 8px;
-  	background-color: #fff;
-  	@include box-shadow(#000, 2px, 0px, 0.2, 0, true);
-  	color: #696969;
-  	width: 375px;
-  	height:13px;
-  	margin-bottom:15px;
+    background-color: #fff;
+    @include box-shadow(#000, 2px, 0px, 0.2, 0, true);
+    color: #696969;
+    width: 375px;
+    height:13px;
+    margin-bottom:15px;
   }
   input:focus {
-  	border: 2px solid #6c6;
-  	@include box-shadow(#000, 0px, 0px, 0, 0, true);
+    border: 2px solid #6c6;
+    @include box-shadow(#000, 0px, 0px, 0, 0, true);
   }
   input[type=date], input[type=number], input[type=submit] {
-  	@include border-radius(0px); width: auto;
+    @include border-radius(0px); width: auto;
   }
   input[type=submit] {
-  	margin-top:10px;
+    margin-top:10px;
   }
   input:invalid {
-  	border: 2px #688119 solid;
+    border: 2px #688119 solid;
   }
   textarea {
-  	width: 400px;
-  	min-height:153px;
+    width: 400px;
+    min-height:153px;
   }
   input.awesome {
-  	background: #688119;
-  	display: inline-block;
-  	padding: 5px 10px 6px;
-  	color: #fff;
-  	text-decoration: none;
-  	font-weight: bold;
-  	line-height: 1em;
-  	@include border-radius(5px);
-  	@include box-shadow(#999, 1px, 3px, 0, 0, true);
-   	@include text-shadow(#222, -1px, 1px);
-  	border: none;
-  	position: relative;
-  	cursor: pointer;
-  	text-align:center;
-  	font-size: 1em;
-  	font-family: "kaffeesatz-1","kaffeesatz-2",sans-serif;
-  	height:25px;
+    background: #688119;
+    display: inline-block;
+    padding: 5px 10px 6px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1em;
+    @include border-radius(5px);
+    @include box-shadow(#999, 1px, 3px, 0, 0, true);
+    @include text-shadow(#222, -1px, 1px);
+    border: none;
+    position: relative;
+    cursor: pointer;
+    text-align:center;
+    font-size: 1em;
+    font-family: "kaffeesatz-1","kaffeesatz-2",sans-serif;
+    height:25px;
   }
-  input.awesome:hover	{ background-color: #111; }
+  input.awesome:hover { background-color: #111; }
 }
 
 a#close_facebox {
@@ -86,7 +86,7 @@ a#close_facebox {
   padding-top: 10px;
   padding-bottom: 10px;
   position: fixed;
-	z-index: 1000;
+  z-index: 1000;
 }
 
 .purr {
@@ -98,7 +98,7 @@ a#close_facebox {
   background-color: #333;
   color: #DDD;
   border-radius: 10px;
-	 z-index: 100;
+   z-index: 100;
   -moz-border-radius: 10px;
   -moz-box-shadow: 1px #666;
   -webkit-box-shadow: 1px #666;

@@ -6,7 +6,9 @@ gem 'i18n', "~> 0.5.0"
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 gem 'compass', "~> 0.10.6"
 gem 'haml-rails'
-gem 'interpret', :git => 'git://github.com/rogercampos/interpret.git'
+gem 'interpret', ">= 0.1.3"
+
+gem 'simple_form'
 
 group :development, :test do
   gem 'sqlite3-ruby', :require => 'sqlite3'
