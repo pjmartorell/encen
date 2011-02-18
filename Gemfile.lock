@@ -45,12 +45,7 @@ GEM
     activesupport (3.0.4)
     arel (2.0.8)
     bcrypt-ruby (2.1.2)
-<<<<<<< HEAD
     best_in_place (0.1.8)
-=======
-    best_in_place (0.1.9)
->>>>>>> master
-      rails (~> 3.0.0)
     builder (2.1.2)
     compass (0.10.6)
       haml (>= 3.0.4)
