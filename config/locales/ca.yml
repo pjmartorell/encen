@@ -6,35 +6,35 @@ ca:
   lawyers: "Bombí Advocats"
   home: Inici
   contact: Contacte
-  services: Services
-  us: Nosotros
+  services: Serveis
+  us: Nosaltres
   link: Vínculo
   news: Noticias
   listingtranslations: "Llistant traduccions al CATALÀ"
   metakeywords: "dret de familia, advocats barcelona, advocats matrimonialistes, bombi, advocats, bombi advocats"
   metadescription: "Bombi advocats és un bufet en el centre de Barcelona especialitzat en dret de la família"
   id: Area de clientes
-  footer_auditoria: Auditoria
-  footer_extranjeria: Extranjeria
-  footer_prevencion: Prevencion de riesgos laborales
-  footer_admin: Administración de fincas
+  footer_auditoria: Auditories
+  footer_extranjeria: Estrangeria
+  footer_prevencion: Prevenció de riscs laborals
+  footer_admin: Administració de finques
   sign: Area de clientes
 
   static:
     index:
       title: De Rosa
-      principal_phrase: "En cada nueva gestión nos preguntamos como superar las expectativas del cliente."
-      phrase: "Ofrecemos asesoramiento en as diversas áreas de la empresa. En cada una de ellas disponemos de los especialistas que garantizan una óptima gestión."
+      principal_phrase: "En cada nova gestió ens preguntem com superar les expectatives del client."
+      phrase: "Oferim assessorament en les (error castellano falta la L) diverses àrees de l'empresa. En cada una d'elles disposem dels especialistes que garantixen una òptima gestió."
       fiscal: Fiscal
-      p_fiscal: "Gestionamos puntual y eficazmente los impuestos,logrando las máximas ventajas y adaptándonos a cada tipo  de empresa."
-      juridica: Juridica-Mercantil.
-      p_juridica: "Le asesoramos en todas las acciones comerciales y financieras con implicaciones legales de tipo mercantil, administrativo, penal y civil."
-      contable: Contable
-      p_contable: "Basándonos en los principios contables establecidos, reflejamos fielmente la situación de la empresa, de forma que sirva para cada una adecuada toma de  desiciones."
-      otroservicios: Otros servicios
-      p_otroservicios: "Tenemos la respuesta más apropiada para cada una de las necesidades de la empresa, ya sea a través de nuestros propios especialistas o mediante alianzas estratégicas con otros despachos de máxima garantía y confianza."
+      p_fiscal: "Gestionem puntual i eficientment els impostos, aconseguint les màximes avantatges i adaptant-nos a cada tipologia d'empresa."
+      juridica: Jurídica-Mercantil.
+      p_juridica: "L'assessorem en totes les accions comercials i financeres amb implicacions legals del tipus mercantil, administratiu, penal i civil."
+      contable: Comptable
+      p_contable: "Basant-nos en els principis comptables establerts, reflex-em fidelment la situació de l'empresa , de forma que serveixi per cada una adequada a la presa de decisions "
+      otroservicios: Altres Serveis
+      p_otroservicios: "Tenim la resposta més apropiada per cada una de les necessitats de l'empresa, ja sigui a través dels nostres propis especialistes o mitjançant aliances estratègiques amb altres despatxos de màxima garantia i confiança."
       laboral: Laboral
-      p_laboral: "Gestionamos esta sensible área de actividad, incorporando las normas que constantemente van aoareciendo y ahorrando a la empresa una importante carga de trabajo ."
+      p_laboral: "Gestionem aquesta sensible àrea d'activitat, incorporant les normes que constantment van apareixent i estalviant a l'empresa una important carrega de treball."
       news: Noticias
       p_news:
       title_translate: "El idioma no es una barrera"
@@ -42,51 +42,50 @@ ca:
 
     nosotros:
       title: De Rosa
-      subtitle: Nosotros
-      first_us_p: "El asesoramiento constituye un valor estratégico y prioritario para reforzar la competitividad de las empresas y la calificación de los negocios."
-      us: "Formamos un equipo de profesionales dedicados al asesoramiento y gestión fiscal, laboral, contable y jurídica, ofreciendo un servicio de calidad y profesionalidad para la toma de decisiones de dirección o gerencia necesarias e imprescindibles en los momentos que nos ocupa."
-      us2: "Poniendo a su disposición toda nuestra experiencia con más de 20 años en línea, para dar la más alta calidad en nuestros servicios tanto a nivel nacional como extranjero."
+      subtitle: Nosaltres
+      first_us_p: "El assessorament constitueix un valor estratègic i prioritari per reforçar la competitivitat de les empreses i la qualificació dels negocis."
+      us: "Formem un equip de professionals dedicats al assessorament i gestió fiscal, laboral, comptable i jurídica, oferint uns serveis de qualitat i professionalitat per la pressa de decisions de direcció o gerència necessàries i totalment imprescindibles en els moments que ens ocupa la conjuntura econòmica."
+      us2: "Posem a la seva disposició tota la nostre experiència amb més de 20 anys en linia, per donar la més alta qualitat en els nostres serveis tant a nivell nacional com a l'extranjer."
 
     services:
       title: De Rosa
-      subtitle: Servicios
-      menu_services: Servicios
-      link_fiscal: Fiscales
-      link_contable: Laborales
-      link_laboral: Contables
-      link_juridico: Jurídicos
+      subtitle: Serveis
+      link_fiscal: Fiscal
+      link_contable: Laboral
+      link_laboral: Comptable
+      link_juridico: Jurídics
       link_auditoria: Auditoria
-      link_otros: Otros
-      subtitle_fiscales: Servicios Fiscales
-      fiscales_description: "El asesoramiento y gestión de empresas y particulares constituye una de nuestras principales especialidades a la cual dedicamos recursos humanos y material de primer orden, con lo que le podemos garantizar una excelente eficacia en nuestra actuación."
-      gestion_1: "Asesoria Fiscal Integrada, consiste en el estudio de las repercusiones fiscales de los hechos, con la finalidad de racionalizar las cargas impositivas, dentro del marco de la legislación fiscal aplicable."
-      gestion_2: "Definición de la política fiscal y planificación de las operaciones."
-      gestion_3: "Resolución de las consultas que no sean efectuadas, verbalmente o por escrito, sobre temas fiscales."
-      gestion_4: "Información sobre normativa, resoluciones y sentencias de interés para nuestros clientes."
-      gestion_5: "Preparación, revisión y tramitación de escritos y consultas dirigidas a la Administración Tribitaria."
-      gestion_6: "Asistencia, representación y defensa ante los órganos de la inspección de Tributos."
-      gestion_7: "Asistencia en la preparación y presentación de declaración de impuestos:."
-      gestion_8: "Trámite expedientes de aplazamiento de impuestos."
-      gestion_9: "Recursos y reclamaciones."
-      gestion_10: "Auditorías físcales de empresas."
-      subtitle_laborales: "Servicios Laborales"
-      laborables_description: "Ponemos a su disposición un equipo competente que incorpora las normativas que constantemente aparecen, con un tratamiento altamente profesional de esta área tan sensible de la empresa."
-      laborales_1: "Asesoramiento y gestión laboral de empresas."
-      laborales_2: "Liquidación de Seguros Sociales."
-      laborales_3: "Recibos de salarios."
-      laborales_4: "Contratos de trabajo."
-      laborales_5: "Aplazamientos extraordinarios."
-      laborales_6: "Legalización de nuevas empresas."
-      laborales_7: "Expedientes de regulación de ocupación."
-      laborales_8: "Inspecciones de trabajo.."
-      laborales_9: "Tramitación de la OTG."
-      laborales_10: "Representaciones ante los Juzgados de lo Social."
-      laborales_11: "Conciliaciones individuales en el Departamento de Trabajo."
-      laborales_12: "Conciliaciones colectivas ante el Tribunal Laboral de Catalunya."
-      laborales_13: "Auditoría laboral de empresa."
-      laborales_14: "Tramitaciones de expedientes de invalidez, jubilación, etc."
-      laborales_15: "Regímenes especiales de la Seguridad Social."
-      laborales_16: "Expedientes Servicios de Extranjeria."
+      link_otros: Altres
+      subtitle_fiscales: Serveis Fiscals
+      fiscales_description: "El assessorament i gestió d'empreses i particulars constitueix una de les nostres principals especialitats a la qual dediquem recursos humans i material de primer ordre, amb lo que podem garantir un excel·lent eficàcia en la nostre actuació."
+      gestion_1: "Assessoria Fiscal Integrada, consisteix en l'estudi de les repercussions fiscals dels fets, amb la finalitat de racionalitzar les càrregues impositives, dins del marc de la legislació fiscal aplicable."
+      gestion_2: "Definició de la política fiscal i planificació de les operacions."
+      gestion_3: "Resolució de les consultes que no siguin efectuades, verbalment o per escrit, sobre temes fiscals."
+      gestion_4: "Informació sobre normativa, resolucions i sentencies d'interès per els nostres clients."
+      gestion_5: "Preparació, revisió i tramitació d'escrits i consultes dirigides a l'administració tributaria."
+      gestion_6: "Assistència, representació i defensa davant els òrgans de la inspecció de tributs."
+      gestion_7: "Assistència en la preparació i presentació de declaració d'impostos:"
+      gestion_8: "Tràmit d'expedients i aplaçament d'impostos."
+      gestion_9: "Recursos i reclamacions."
+      gestion_10: "Auditories fiscals d'empreses."
+      subtitle_laborales: "Serveis Laborals"
+      laborables_description: "Posem a la seva disposició un equip competent que incorpora les normatives que constantment apareixen, amb un tractament altament professional en aquesta àrea tan sensible de l'empresa."
+      laborales_1: "Assessorament i gestió laboral d'empreses."
+      laborales_2: "Liquidació d'assegurances socials."
+      laborales_3: "Rebuts de salaris"
+      laborales_4: "Contractes de treball."
+      laborales_5: "Aplaçaments extraordinaris."
+      laborales_6: "Legalització de noves empreses."
+      laborales_7: "Expedients de regulació d'ocupació."
+      laborales_8: "Inspeccions de treball."
+      laborales_9: "Tramitació de la OTG."
+      laborales_10: "Representacions davant els jutjats de lo social."
+      laborales_11: "Conciliacions individuals en el Departament de Treball."
+      laborales_12: "Conciliacions col·lectives davant el tribunal laboral de Catalunya."
+      laborales_13: "Auditoria laboral d'empresa."
+      laborales_14: "Tramitació d'expedients d'invalidesa, jubilació, etc."
+      laborales_15: "Règims especials de la Seguretat Social."
+      laborales_16: "Expedients Serveis d'Estrangeria."
       subtitle_contable: Servicios Contables
       contable_description: Un amplio equipo de profesionales con una sólida formación contable le ayudará a conseguir que sus contabilidad sea el instrumento de control y gestión que ustde necesita.
       contables_1: "Asesoría contable continuada desde el punto de vista mercantil, así como contabilización de operaciones de acuerdo con la normativa vigente."
@@ -102,29 +101,29 @@ ca:
       contables_11: "Contabilidad presupuestada. Eaboración y seguimiento de presupuestos."
       contables_12: "Preparación de informes económicos y financieros de empresas."
       contables_13: "Valoración de empresas."
-      subtitle_juridico: Servicios Jurídicos.
-      juridico_description: "El departamento Jurídico Mercantil y su equipo de prefisionales y abogados, ofrece un servicio de asesoramientos y consultoría legal y judicial, tanto en el ámbito empresarial como personal, cubriendo y abarcando diferentes ramas y especialidades del mundo de Derecho."
-      d_mercantil: Derecho Mercantil
-      mercantil_1: "Societarios (Constitución, operaciones societarias, fusiones, absorciones, compraventas, intervención en Consejos de Administración, asesoramiento en materia de protección de los derechos del socio minoritario, conflictos entre socios). Filiales, Asociaciones, Fundaciones, Cooperativas."
-      mercantil_2: Derecho concursal.
-      mercantil_3: Contratación mercantil.
-      mercantil_4: Empresa familiar. Protocolos.
-      mercantil_5: "Planificación y asesoramiento jurídico en relación a estructuras empresariales, nacional e internacional."
-      mercantil_6: Asesoramiento continuado de empresas.
+      subtitle_juridico: Serveis Jurídics.
+      juridico_description: "El departament Jurídic Mercantil i el seu equip de professionals i advocats, ofereix un servei d'assessorament i consultoria legal i judicial, tant en el àmbit empresarial com personal, cobrint diferents branques i especialitats del mon del dret."
+      d_mercantil: Dret Mercantil
+      mercantil_1: "Societaris (constitució, operacions de societats, fusions, absorcions, compra-ventes, intervenció en consells d'administració, assessorament en matèria de protecció dels drets del soci minoritari, conflictes entre socis). Filials, Associacions, Fundacions, Cooperatives."
+      mercantil_2: Dret concursal.
+      mercantil_3: Contractació mercantil.
+      mercantil_4: Empresa familiar. Protocols.
+      mercantil_5: "Planificació i assessorament jurídic en relació a estructures empresarials, nacional i internacional."
+      mercantil_6: Assessorament continuat d'empreses.
       mercantil_7: Asesoramiento y defensa judicial en asuntos mercantiles.
-      mercantil_8: Expedientes de servicio de extranjeria.
-      d_civil: Derecho Civil
-      civil_1: Familia. Separaciones y divorcios. Parejas de hecho. Redacción de convenios. Asistencia judicial.
-      civil_2: Contratación civil.
-      civil_3: Sucesiones y Testamentarias.
-      civil_4: Arrendamientos y Comunidad de Propietarios.
-      civil_5: Asesoramiento y defensa judicial en asuntos civiles.
-      d_administrativo: Derecho Administrativo
-      administrativo_1: "Recursos administrativos y contencioso-administrativo."
-      administrativo_2: "Reclamaciones económico-administrativas."
-      administrativo_3: "Asesoramiento y defensa jurídica ante la Administración"
-      r_morosos: Reclamación de morosos
-      p_morosos: "Servicios de asesoramiento legal, negociación extrajudicial y reclamación judicial de impagados y morosos."
+      mercantil_8: Expedients de serveis d'estrangeria.
+      d_civil: Dret Civil
+      civil_1: Família. Separacions i divorcis. Parelles de fet. Redacció de convenis. Assistència judicial.
+      civil_2: Contractació civil.
+      civil_3: Successions i testaments.
+      civil_4: Arrendaments i Comunitat de Propietaris.
+      civil_5: Assessorament i defensa judicial en assumptes civils.
+      d_administrativo: Dret Administratiu
+      administrativo_1: "Recursos administratius i contenciosos-administratius."
+      administrativo_2: "Reclamacions econòmic-administratives."
+      administrativo_3: "Assessorament i defensa jurídica davant l'administració"
+      r_morosos: Reclamació de morosos
+      p_morosos: "Serveis d'assessorament legal, negociació extrajudicial i reclamació judicial d'impagats i morosos."
       link_auditoria: Auditoria
       subtitle_auditoria: Auditoria de cuentas
       auditoria_cuentas_anuales: Auditoría de cuentas anuales
@@ -144,12 +143,12 @@ ca:
       forensia_paragraph4: Resolución de conflictos
       forensia_paragraph5: Prevención e investigación de fraudes
 
-      subtitle_otros: Otros Servicios
-      otros_description: "En la empresa ninguna área de actividad está desvinculada de as restantes. Todas ellas se interrelacionan entre sí. Por ello, ya sea de forma directa o mediantes alianzas, ofrecemos todos los servicios que su empresa puede precisar, para que queden integrados dentro del conjunto de forma armónica y eficaz."
-      otros_1: Auditorias.
-      otros_2: Extranjería.
-      otros_3: Prevención de riesgos laborales.
-      otros_4: Administración de fincas.
+      subtitle_otros: Altres Serveis
+      otros_description: "En l'empresa ninguna àrea d'activitat està desvinculada de les restants. totes elles s'interrelacionen entre si. així que ja sigui de forma directe o mitjançant aliances, oferim tots els serveis que la seva empresa pot precisar, per tal que quedin integrats dintre del conjunt de forma amònica i eficaç."
+      otros_1: Auditories.
+      otros_2: Estrangeria.
+      otros_3: Prevenció de riscs laborals.
+      otros_4: Administració de finques.
 
     vinculo:
       title: De Rosa
@@ -165,5 +164,5 @@ ca:
 
     contact:
       title: De Rosa
-      subtitle: Contacto
+      subtitle: Contacte
 
