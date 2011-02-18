@@ -16,4 +16,9 @@ class User < ActiveRecord::Base
   def to_s
     login
   end
+
+protected
+  def password_required?
+    !persisted? || password.present? || password_confirmation.present?
+  end
 end
