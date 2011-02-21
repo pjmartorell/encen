@@ -8,6 +8,19 @@ GIT
       warden (~> 1.0.3)
 
 GIT
+  remote: git://github.com/rogercampos/interpret.git
+  revision: 1ee2e6428b63e19f466323eff62753d7b1c6103b
+  specs:
+    interpret (0.1.4)
+      best_in_place (>= 0.1.7)
+      i18n (~> 0.5.0)
+      i18n-active_record
+      lazyhash (>= 0.1.1)
+      rails (~> 3.0.3)
+      will_paginate (>= 3.0.pre2)
+      ya2yaml (>= 0.30.0)
+
+GIT
   remote: http://github.com/rails/exception_notification.git
   revision: 192a49a02d63d28b23ed41cebadfedd490929cf1
   specs:
@@ -62,14 +75,6 @@ GEM
     i18n (0.5.0)
     i18n-active_record (0.0.2)
       i18n (>= 0.5.0)
-    interpret (0.1.4)
-      best_in_place (>= 0.1.7)
-      i18n (~> 0.5.0)
-      i18n-active_record
-      lazyhash (>= 0.1.1)
-      rails (~> 3.0.3)
-      will_paginate (>= 3.0.pre2)
-      ya2yaml (>= 0.30.0)
     lazyhash (0.1.1)
     mail (2.2.15)
       activesupport (>= 2.3.6)
@@ -133,7 +138,7 @@ DEPENDENCIES
   exception_notification!
   haml-rails
   i18n (~> 0.5.0)
-  interpret (>= 0.1.4)
+  interpret!
   mysql2
   rails (~> 3.0.0)
   rspec-rails
