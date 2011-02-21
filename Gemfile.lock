@@ -8,13 +8,8 @@ GIT
       warden (~> 1.0.3)
 
 GIT
-  remote: http://github.com/rails/exception_notification.git
-  revision: 192a49a02d63d28b23ed41cebadfedd490929cf1
-  specs:
-    exception_notification (1.0.0)
-
-PATH
-  remote: ~/code/interpret
+  remote: git://github.com/rogercampos/interpret.git
+  revision: 8d5ec29051c41d38a6bd9fb1aabfceb02fac37a9
   specs:
     interpret (0.1.4)
       best_in_place (>= 0.1.7)
@@ -24,6 +19,12 @@ PATH
       rails (~> 3.0.3)
       will_paginate (>= 3.0.pre2)
       ya2yaml (>= 0.30.0)
+
+GIT
+  remote: http://github.com/rails/exception_notification.git
+  revision: 192a49a02d63d28b23ed41cebadfedd490929cf1
+  specs:
+    exception_notification (1.0.0)
 
 GEM
   remote: http://rubygems.org/
