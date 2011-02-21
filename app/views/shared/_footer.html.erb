@@ -1,5 +1,5 @@
 <div class="contact_info">
-  <h2>Contact</h2>
+  <h2><%=t('contact') %></h2>
   <img src="/images/house_footer.png" alt="Casa"/>
   <div id="address">Carrer Ausiàs Marc 49, Despatx 18 Planta 3ra. Barcelona</div>
 
@@ -14,7 +14,7 @@
 </div>
 
 <div class="footer_menu">
-  <h2>Menú</h2>
+  <h2><%=t('menu') %></h2>
     <ul>
       <li><%= link_to (t :home), root_path, :title => t("home") %></li>
       <li><%= link_to (t :us), nosotros_path, :title => t("us")%></li>
@@ -26,7 +26,7 @@
 </div>
 
 <div class="footer_services">
-  <h2>Altres</h2>
+  <h2><%=t('others') %></h2>
     <ul>
     <li><%= link_to (t :footer_auditoria), services_path(:anchor => "otros_section"), :title => t("footer_auditoria")%></li>
     <li><%= link_to (t :footer_extranjeria), services_path(:anchor => "otros_section"), :title => t("footer_extranjeria")%></li>

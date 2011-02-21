@@ -9,16 +9,20 @@ ca:
   services: Serveis
   us: Nosaltres
   link: Vínculo
-  news: Noticias
+  news: Noticies
   listingtranslations: "Llistant traduccions al CATALÀ"
   metakeywords: "dret de familia, advocats barcelona, advocats matrimonialistes, bombi, advocats, bombi advocats"
   metadescription: "Bombi advocats és un bufet en el centre de Barcelona especialitzat en dret de la família"
-  id: Area de clientes
+  id: Àrea de clients
   footer_auditoria: Auditories
   footer_extranjeria: Estrangeria
   footer_prevencion: Prevenció de riscs laborals
   footer_admin: Administració de finques
   sign: Area de clientes
+  up_button: pujar
+  contact: Contacte
+  menu: Menú
+  others: Altres
 
   static:
     index:
@@ -26,7 +30,7 @@ ca:
       metakeywords: "De Rosa advocats ofereix els millors professionals laboralistes, fiscals, jurídics i comptables a Barcelona."
       metadescription: "Advocats de Barcelona, Advocats laboralistes, Advocats fiscals, Advocats jurídics, Advocats comptables"
       principal_phrase: "En cada nova gestió ens preguntem com superar les expectatives del client."
-      phrase: "Oferim assessorament en les (error castellano falta la L) diverses àrees de l'empresa. En cada una d'elles disposem dels especialistes que garantixen una òptima gestió."
+      phrase: "Oferim assessorament en les diverses àrees de l'empresa. En cada una d'elles disposem dels especialistes que garantixen una òptima gestió."
       fiscal: Fiscal
       p_fiscal: "Gestionem puntual i eficientment els impostos, aconseguint les màximes avantatges i adaptant-nos a cada tipologia d'empresa."
       juridica: Jurídica-Mercantil.
@@ -37,10 +41,15 @@ ca:
       p_otroservicios: "Tenim la resposta més apropiada per cada una de les necessitats de l'empresa, ja sigui a través dels nostres propis especialistes o mitjançant aliances estratègiques amb altres despatxos de màxima garantia i confiança."
       laboral: Laboral
       p_laboral: "Gestionem aquesta sensible àrea d'activitat, incorporant les normes que constantment van apareixent i estalviant a l'empresa una important carrega de treball."
-      news: Noticias
+      news: Noticies
       p_news:
-      title_translate: "El idioma no es una barrera"
-      traduccion: "Disponemos de un departamento específico de negocio Asiático, con un interlocutor con el que se podrá comunicar en idioma CHINO, de esta manera queremos facilitarle la comprensión de todas sus dudas, preguntas y demás que puedan serles de utilidad."
+      title_translate: "L'idioma no és una barrera"
+      traduccion: "Diposem d’un departament específic de negocis asiàtic, amb un interlocutor amb el que es podrà comunicar en idioma xinès, d’aquesta manera volem facilitar-li la comprensió de tots els seus dubtes, preguntes i demés que puguin ser d’utilitat."
+      flash_news1: "El Congreso aprueba la Ley de Economía Sostenible."
+      flash_news2: "El Congreso debate una reforma de la Ley de Protección de Datos Personales para evitar pisos patera."
+      flash_news3: "VI Curso de Aproximación al Derecho Urbanístico."
+      flash_news4: "Nuevos retos ante realidades y leyes cambiantes."
+      title_news: "Noticias de ultimo momento."
 
     nosotros:
       title: Assessorament i gestió comptable - laboral i fiscal - De Rosa advocats
@@ -92,21 +101,21 @@ ca:
       laborales_14: "Tramitació d'expedients d'invalidesa, jubilació, etc."
       laborales_15: "Règims especials de la Seguretat Social."
       laborales_16: "Expedients Serveis d'Estrangeria."
-      subtitle_contable: Servicios Contables
-      contable_description: Un amplio equipo de profesionales con una sólida formación contable le ayudará a conseguir que sus contabilidad sea el instrumento de control y gestión que ustde necesita.
-      contables_1: "Asesoría contable continuada desde el punto de vista mercantil, así como contabilización de operaciones de acuerdo con la normativa vigente."
-      contables_2: "Orientación y dirección contable de sociedades y particulares en estimación directa."
-      contables_3: "Transcripción de contabilidades de forma manual y mecanizada."
-      contables_4: "Formación de personal de departamentos contables."
-      contables_5: "Actualización de contabilidades atrasadas."
-      contables_6: "Diseño de planes de contabilidad."
-      contables_7: "Contabilidad en tiempo real."
-      contables_8: "Contabilidad analítica."
-      contables_9: "Auditoría interna."
-      contables_10: "Depósito de Cuentas anuales en el Registro Mercantil."
-      contables_11: "Contabilidad presupuestada. Eaboración y seguimiento de presupuestos."
-      contables_12: "Preparación de informes económicos y financieros de empresas."
-      contables_13: "Valoración de empresas."
+      subtitle_contable: Serveis comptables
+      contable_description: Un ampli equip de professionals amb una sòida formació comptable l’ajduarà a aconseguir que la seva comptabilitat sigui el instrument de control i gestió que vostè necessita.
+      contables_1: "Assessoria comptable continuada des del punt de vista mercantil, així com la comptabilització d’operacions d’acord amb la normativa vigent."
+      contables_2: "Orientació i direccio comptable de societats i particulars en estimació directe."
+      contables_3: "Transcripció de comptabilitats de forma manual i mecanitzada."
+      contables_4: "Formació de personal de departaments comptables."
+      contables_5: "Actualització de comptabilitat atraçades."
+      contables_6: "Disseny de plans de comptabilitat."
+      contables_7: "Comptabilitat en temps real."
+      contables_8: "Comptabilitat analítica."
+      contables_9: "Auditoria interna."
+      contables_10: "Diposit de comptes anuals en el registre mercantil."
+      contables_11: "Comptabilitat pressupostada. Elaboració i seguiment de pressupostos."
+      contables_12: "Preparació d’informes econòmics i financers d’empreses."
+      contables_13: "Valoració d’empreses"
       subtitle_juridico: Serveis Jurídics.
       juridico_description: "El departament Jurídic Mercantil i el seu equip de professionals i advocats, ofereix un servei d'assessorament i consultoria legal i judicial, tant en el àmbit empresarial com personal, cobrint diferents branques i especialitats del mon del dret."
       d_mercantil: Dret Mercantil
@@ -131,13 +140,13 @@ ca:
       r_morosos: Reclamació de morosos
       p_morosos: "Serveis d'assessorament legal, negociació extrajudicial i reclamació judicial d'impagats i morosos."
       link_auditoria: Auditoria
-      subtitle_auditoria: Auditoria de cuentas
-      auditoria_cuentas_anuales: Auditoría de cuentas anuales
-      auditoria_pargraph1: Auditoría obligatoria anual
-      auditoria_pargraph2: Auditoría de cuentas consolidadas
-      auditoria_pargraph3: "Sectores con regulación específica: financiero, seguros, concesiones, etc."
-      auditoria_pargraph4: Auditoría voluntaria
-      report: Informes especiales y revisiones limitadas
+      subtitle_auditoria: Auditoria de comptes
+      auditoria_cuentas_anuales: Auditoria de comptes anuals
+      auditoria_pargraph1: Auditoria obligatòria anual
+      auditoria_pargraph2: Auditoria de comptes consolidades
+      auditoria_pargraph3: "Sectors amb regulació específica: Financer, assegurances, concessions, etc"
+      auditoria_pargraph4: Auditoria voluntària
+      report: Informes especials i revisions limitades
       report_paragraph1: Procedimientos acordados
       report_paragraph2: Certificaciones de hechos
       report_paragraph3: "Informes obligatorios previstos en la legislación mercantil: reducciones de capital, ampliaciones de capital, supresión del derecho preferente de suscripción, etc."
@@ -169,7 +178,7 @@ ca:
       title: De Rosa advocats - Noticies
       metakeywords: "Secció d’actualitat i noticies per els que desitjen estar a la última sobre les novetats en el món del dret laboral, civil, fiscal, comptable i gestories a Barcelona"
       metadescription: "Noticies, De Rosa advocats"
-      subtitle: Noticias
+      subtitle: Noticies
 
     contact:
       title: De Rosa Advocats - Contacte

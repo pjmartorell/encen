@@ -19,6 +19,10 @@ es:
   footer_prevencion: Prevencion de riesgos laborales
   footer_admin: Administración de fincas
   sign: Area de clientes
+  up_button: subir
+  contact: Contacto
+  menu: Menú
+  others: Otros
 
   static:
     index:
@@ -26,7 +30,7 @@ es:
       metakeywords: "Gestoría Barcelona. De rosa Abogados ofrecemos una Asesoría laboral, contable, jurídica y fiscal. Especializados en la gestión de empresas y autónomos."
       metadescription: "Gestoria Barcelona, Gestoria en Barcelona, asesoria laboral, asesoria contable, asesoria jurídica, asesoria fiscal"
       principal_phrase: "En cada nueva gestión nos preguntamos como superar las expectativas del cliente."
-      phrase: "Ofrecemos asesoramiento en as diversas áreas de la empresa. En cada una de ellas disponemos de los especialistas que garantizan una óptima gestión."
+      phrase: "Ofrecemos asesoramiento en las diversas áreas de la empresa. En cada una de ellas disponemos de los especialistas que garantizan una óptima gestión."
       fiscal: Fiscal
       p_fiscal: "Gestionamos puntual y eficazmente los impuestos,logrando las máximas ventajas y adaptándonos a cada tipo  de empresa."
       juridica: Juridica-Mercantil.
