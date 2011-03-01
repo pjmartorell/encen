@@ -36,7 +36,7 @@
   <div id="container">
     <div id="pre_header">
       <div id="menu_language"><%= render :partial => "shared/menu_language" %></div>
-      <div id="signin"><a href="/users/sign_in"><%=t('id') %></a></div>
+      <div id="signin"><a href="http://intranet.drassociats.es"><%=t('id') %></a></div>
     </div>
 
     <div id="menu">
@@ -56,7 +56,7 @@
      google.load("jquery", "1.4.2");
    </script>
   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-  <%= javascript_include_tag "application", :cache => true -%>
+  <%= javascript_include_tag "application" -%>
   <%= yield :custom_js %>
   <script type="text/javascript">
     var _gaq = _gaq || [];
