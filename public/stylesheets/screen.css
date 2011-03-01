@@ -357,6 +357,7 @@ body #container {
 
 #main {
   background-color: #f5f5f5;
+  min-height: 100%;
 }
 #main h1 {
   color: black;
@@ -495,6 +496,7 @@ body #container {
 }
 #main #home #news_area {
   background-image: url("/images/back_news.jpg");
+  background-repeat: no-repeat;
   height: 10em;
   padding-top: 4em;
   text-align: center;
@@ -816,7 +818,7 @@ body #container {
 #footer {
   background-image: url("/images/back_footer.png");
   font-size: 0.9em;
-  height: 22em;
+  height: 23.5em;
   padding-top: 2em;
   color: white;
 }
