@@ -612,10 +612,10 @@ body #container {
   background-repeat: no-repeat;
   color: #1f2c47;
 }
-#main #services #btn_contable {
+#main #services #btn_financial {
   text-align: right;
 }
-#main #services #btn_contable a {
+#main #services #btn_financial a {
   background-image: url("/images/back_up_button.png");
   background-position: -1px 3px;
   background-repeat: no-repeat;
@@ -624,16 +624,16 @@ body #container {
   color: #999;
   text-decoration: none;
 }
-#main #services #btn_contable a:hover {
+#main #services #btn_financial a:hover {
   background-image: url("/images/back_up_button.png");
   background-position: -1px -56px;
   background-repeat: no-repeat;
   color: #1f2c47;
 }
-#main #services #btn_juridico {
+#main #services #btn_juridical {
   text-align: right;
 }
-#main #services #btn_juridico a {
+#main #services #btn_juridical a {
   background-image: url("/images/back_up_button.png");
   background-position: -1px 3px;
   background-repeat: no-repeat;
@@ -642,7 +642,7 @@ body #container {
   color: #999;
   text-decoration: none;
 }
-#main #services #btn_juridico a:hover {
+#main #services #btn_juridical a:hover {
   background-image: url("/images/back_up_button.png");
   background-position: -1px -56px;
   background-repeat: no-repeat;

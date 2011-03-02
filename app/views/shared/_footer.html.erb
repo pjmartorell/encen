@@ -14,10 +14,10 @@
 </div>
 
 <div class="footer_menu">
-  <h2><%=t('menu') %></h2>
+  <h2><%=t('menu', :scope => "footer") %></h2>
     <ul>
       <li><%= link_to (t :home), root_path, :title => t("home") %></li>
-      <li><%= link_to (t :us), nosotros_path, :title => t("us")%></li>
+      <li><%= link_to (t :about_us), nosotros_path, :title => t("about_us")%></li>
       <li><%= link_to (t :services), services_path, :title => t("services")%></li>
       <li><%= link_to (t :link), vinculo_path, :title => t("link")%></li>
       <li><%= link_to (t :news), noticias_path, :title => t("news") %></li>
@@ -26,16 +26,18 @@
 </div>
 
 <div class="footer_services">
-  <h2><%=t('others') %></h2>
+  <h2><%=t('services') %></h2>
     <ul>
-    <li><%= link_to (t :footer_auditoria), services_path(:anchor => "otros_section"), :title => t("footer_auditoria")%></li>
-    <li><%= link_to (t :footer_extranjeria), services_path(:anchor => "otros_section"), :title => t("footer_extranjeria")%></li>
-    <li><%= link_to (t :footer_prevencion), services_path(:anchor => "otros_section"), :title => t("footer_prevencion")%></li>
-    <li><%= link_to (t :footer_admin), services_path(:anchor => "otros_section"), :title => t("footer_admin")%></li>
+    <li><%= link_to (t :fiscal, :scope => "footer"), services_path(:anchor => "fiscal_section"), :title => t("fiscal", :scope => "footer")%></li>
+    <li><%= link_to (t :labour, :scope => "footer"), services_path(:anchor => "labour_section"), :title => t("labour", :scope => "footer")%></li>
+    <li><%= link_to (t :financial, :scope => "footer"), services_path(:anchor => "financial_section"), :title => t("financial", :scope => "footer")%></li>
+    <li><%= link_to (t :juridical, :scope => "footer"), services_path(:anchor => "juridical_section"), :title => t("juridical", :scope => "footer")%></li>
+    <li><%= link_to (t :auditory, :scope => "footer"), services_path(:anchor => "auditory_section"), :title => t("auditory", :scope => "footer")%></li>
+    <li><%= link_to (t :others, :scope => "footer"), services_path(:anchor => "others_section"), :title => t("others", :scope => "footer")%></li>
   </ul>
 </div>
 
 <div class="clear"></div>
 <div id="itnig_link">
-  <a title="<%= t('itnig') %>" href="http://itnig.net/"><%= t('itnig') %></a>
+  <a title="<%= t('itnig', :scope => "footer") %>" href="http://itnig.net/"><%= t('itnig', :scope => "footer") %></a>
 </div>
