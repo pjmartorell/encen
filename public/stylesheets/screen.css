@@ -412,7 +412,7 @@ body #container {
   padding-right: 2em;
 }
 #main #servicios_menu ul li a:hover {
-  background-image: url("/images/back_menu_servicios.png");
+  background-image: url("/images/back_menu_services.png");
   background-repeat: no-repeat;
   color: white;
 }
