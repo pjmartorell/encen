@@ -26,7 +26,7 @@ $blue-itnig-link: #5E73A3;
 $dark-blue: #1f2c47;
 
 //Extra fonts.
-@include font-face("zik", font-files("/fonts/zikketica.ttf", truetype));
+@include font-face("zik", font-files("/fonts/zikketica.ttf", truetype), "zikketica.eot");
 
 .clearfix {
   @include clearfix;

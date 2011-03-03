@@ -252,6 +252,7 @@ body.one_col #footer #itnig_link {
 
 @font-face {
   font-family: "zik";
+  src: url('/fonts/zikketica.eot');
   src: local("☺"), url(/fonts/zikketica.ttf) format('truetype');
 }
 
@@ -373,9 +374,11 @@ body #container {
   background-position: center bottom;
   background-repeat: repeat-x;
   padding-top: 2em;
+  margin-top: -0.5em;
   height: 26em;
 }
 #main #header #header_photo {
+  background-image: url("/images/home_image.jpg");
   background-color: #ccc;
   height: 20em;
   margin-bottom: 2em;
@@ -443,27 +446,13 @@ body #container {
   padding-bottom: 40px;
 }
 #main #home #chinese_wrap #chinese_text {
-  -moz-box-shadow: #444444 0 0 5px 1px;
-  -webkit-box-shadow: #444444 0 0 5px 1px;
-  -o-box-shadow: #444444 0 0 5px 1px;
-  box-shadow: #444444 0 0 5px 1px;
-  background-color: white;
-  border: 5px solid #CCCCCC;
-  padding: 43px 30px 100px 60px;
-  position: relative;
+  background-image: url("/images/back_chinese.jpg");
+  background-repeat: no-repeat;
+  height: 14em;
+  padding: 4em 3em 0 5em;
 }
 #main #home #chinese_wrap #chinese_text p {
   font-size: 1.4em;
-}
-#main #home #chinese_wrap #chinese_text .ribbon {
-  background-image: url("/images/ribbon.png");
-  background-repeat: no-repeat;
-  height: 10em;
-  margin-left: -5.2em;
-  margin-top: -14.3em;
-  position: relative;
-  width: 9em;
-  z-index: 1000;
 }
 #main #home #chinese_wrap #chinese_text .tooltip {
   color: #444444;
@@ -531,6 +520,8 @@ body #container {
   margin-top: 2em;
 }
 #main #aboutus #header_aboutus #aboutus_photo {
+  background-image: url("/images/us_image.jpg");
+  background-repeat: no-repeat;
   background-color: #666;
   height: 15em;
   margin-bottom: 2em;
@@ -648,10 +639,10 @@ body #container {
   background-repeat: no-repeat;
   color: #1f2c47;
 }
-#main #services #btn_auditoria {
+#main #services #btn_auditory {
   text-align: right;
 }
-#main #services #btn_auditoria a {
+#main #services #btn_auditory a {
   background-image: url("/images/back_up_button.png");
   background-position: -1px 3px;
   background-repeat: no-repeat;
@@ -660,16 +651,16 @@ body #container {
   color: #999;
   text-decoration: none;
 }
-#main #services #btn_auditoria a:hover {
+#main #services #btn_auditory a:hover {
   background-image: url("/images/back_up_button.png");
   background-position: -1px -56px;
   background-repeat: no-repeat;
   color: #1f2c47;
 }
-#main #services #btn_otros {
+#main #services #btn_others {
   text-align: right;
 }
-#main #services #btn_otros a {
+#main #services #btn_others a {
   background-image: url("/images/back_up_button.png");
   background-position: -1px 3px;
   background-repeat: no-repeat;
@@ -678,7 +669,7 @@ body #container {
   color: #999;
   text-decoration: none;
 }
-#main #services #btn_otros a:hover {
+#main #services #btn_others a:hover {
   background-image: url("/images/back_up_button.png");
   background-position: -1px -56px;
   background-repeat: no-repeat;

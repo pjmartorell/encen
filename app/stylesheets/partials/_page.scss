@@ -81,8 +81,10 @@
     background-position: center bottom;
     background-repeat: repeat-x;
     padding-top: 2em;
+    margin-top: -0.5em;
     height: 26em;
     #header_photo{
+      background-image: url("/images/home_image.jpg");
       background-color: #ccc;
       height: 20em;
       margin-bottom: 2em;
@@ -154,22 +156,11 @@
     #chinese_wrap{
       padding-bottom: 40px;
       #chinese_text{
-        @include box-shadow($font-color, 0, 0, 5px, 1px);
-        background-color: white;
-        border: 5px solid #CCCCCC;
-        padding: 43px 30px 100px 60px;
-        position: relative;
+        background-image: url("/images/back_chinese.jpg");
+        background-repeat: no-repeat;
+        height: 14em;
+        padding: 4em 3em 0 5em;
         p{font-size: 1.4em;}
-        .ribbon{
-          background-image: url("/images/ribbon.png");
-          background-repeat: no-repeat;
-          height: 10em;
-          margin-left: -5.2em;
-          margin-top: -14.3em;
-          position: relative;
-          width: 9em;
-          z-index: 1000;
-        }
         .tooltip {
           color: $font-color;
   			  text-decoration: none;
@@ -239,6 +230,8 @@
     #header_aboutus{
       margin-top: 2em;
       #aboutus_photo{
+        background-image: url("/images/us_image.jpg");
+        background-repeat: no-repeat;
         background-color: #666;
         height: 15em;
         margin-bottom: 2em;
