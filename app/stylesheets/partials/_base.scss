@@ -45,7 +45,7 @@ $dark-blue: #1f2c47;
 }
 
 .line_separation{
-  background-image: url("/images/line_services.png");
+  background-image: url("/images/line_servicios.png");
   background-repeat: repeat-x;
   height: 3em;
   margin-top: 2em;
@@ -83,7 +83,6 @@ body{
 	background-color: #ddd;
 	#container{
     @include box-shadow(#c0c0c0, 0, -29px, 25px, 1px);
-    text-align: justify;
   	font-family:$main-font-family;
     font-size:$main-font-size;
     color: $font-color;

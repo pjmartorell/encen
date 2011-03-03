@@ -7,7 +7,7 @@ es:
 
   home: Inicio
   contact: Contacto
-  services: Servicios
+  servicios: Servicios
   about_us: Nosotros
   link: Enlaces
   news: Noticias
@@ -27,8 +27,8 @@ es:
       p_juridical: "Le asesoramos en todas las acciones comerciales y financieras con implicaciones legales de tipo mercantile, administrativo, penal y civil."
       financial: Contable
       p_financial: "Basándonos en los principios financials establecidos, reflejamos fielmente la situación de la empresa, de forma que sirva para cada una adecuada toma de  desiciones."
-      other_services: Otros servicios
-      p_other_services: "Tenemos la respuesta más apropiada para cada una de las necesidades de la empresa, ya sea a través de nuestros propios especialistas o mediante alianzas estratégicas con otros despachos de máxima garantía y confianza."
+      other_servicios: Otros servicios
+      p_other_servicios: "Tenemos la respuesta más apropiada para cada una de las necesidades de la empresa, ya sea a través de nuestros propios especialistas o mediante alianzas estratégicas con otros despachos de máxima garantía y confianza."
       laboral: Laboral
       p_laboral: "Gestionamos esta sensible área de actividad, incorporando las normas que constantemente van aoareciendo y ahorrando a la empresa una importante carga de trabajo ."
       news: Noticias
@@ -50,12 +50,12 @@ es:
       us: "Formamos un equipo de profesionales dedicados al asesoramiento y gestión fiscal, laboral, financial y jurídica, ofreciendo un servicio de calidad y profesionalidad para la toma de decisiones de dirección o gerencia necesarias e imprescindibles en los momentos que nos ocupa."
       us2: "Poniendo a su disposición toda nuestra experiencia con más de 20 años en línea, para dar la más alta calidad en nuestros servicios tanto a nivel nacional como extranjero."
 
-    services:
+    servicios:
       title: Abogados herencias - fiscales - laboralistas y familia en Barcelona
       metakeywords: "De rosa abogados está formado por los mejores profesionales en Barcelona. Herencias, laboralistas, fiscales y derecho de familia"
       metadescription: "Derecho de familia, abogado laboralista, abogado fiscal, abogado herencias"
       subtitle: Servicios
-      menu_services: Servicios
+      menu_servicios: Servicios
       link_fiscal: Fiscales
       link_financial: Laborales
       link_labour: Contables
@@ -154,7 +154,7 @@ es:
       others_3: Prevención de riesgos laborales.
       others_4: Administración de fincas.
 
-    vinculo:
+    enlaces:
       title: Enlaces de interés - De Rosa Abogados
       metakeywords: "Sección de enlaces recomendados por De Rosa abogados."
       metadescription: "Enlaces de interés, De rosa abogados"
@@ -179,7 +179,7 @@ es:
   footer:
     contact: Contacto
     menu: Menú
-    services: Servicios
+    servicios: Servicios
     fiscal: Fiscal
     itnig: "itnig serveis web"
     fiscal: Fiscal

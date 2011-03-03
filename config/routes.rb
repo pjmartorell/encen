@@ -3,8 +3,8 @@ Encen::Application.routes.draw do
     devise_for :users, :controllers => {:sessions => 'user_sessions'}
 
     match 'contacto' => 'static#contact', :as => :contact
-    match 'services' => 'static#services', :as => :services
-    match 'vinculo' => 'static#vinculo', :as => :vinculo
+    match 'servicios' => 'static#servicios', :as => :servicios
+    match 'enlaces' => 'static#enlaces', :as => :enlaces
     match 'noticias' => 'static#noticias', :as => :noticias
     match 'nosotros' => 'static#nosotros', :as => :nosotros
 

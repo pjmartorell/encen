@@ -18,22 +18,22 @@
     <ul>
       <li><%= link_to (t :home), root_path, :title => t("home") %></li>
       <li><%= link_to (t :about_us), nosotros_path, :title => t("about_us")%></li>
-      <li><%= link_to (t :services), services_path, :title => t("services")%></li>
-      <li><%= link_to (t :link), vinculo_path, :title => t("link")%></li>
+      <li><%= link_to (t :servicios), servicios_path, :title => t("servicios")%></li>
+      <li><%= link_to (t :link), enlaces_path, :title => t("link")%></li>
       <li><%= link_to (t :news), noticias_path, :title => t("news") %></li>
       <li><%= link_to (t :contact), contact_path, :title => t("contact") %></li>
   </ul>
 </div>
 
-<div class="footer_services">
-  <h2><%=t('services') %></h2>
+<div class="footer_servicios">
+  <h2><%=t('servicios') %></h2>
     <ul>
-    <li><%= link_to (t :fiscal, :scope => "footer"), services_path(:anchor => "fiscal_section"), :title => t("fiscal", :scope => "footer")%></li>
-    <li><%= link_to (t :labour, :scope => "footer"), services_path(:anchor => "labour_section"), :title => t("labour", :scope => "footer")%></li>
-    <li><%= link_to (t :financial, :scope => "footer"), services_path(:anchor => "financial_section"), :title => t("financial", :scope => "footer")%></li>
-    <li><%= link_to (t :juridical, :scope => "footer"), services_path(:anchor => "juridical_section"), :title => t("juridical", :scope => "footer")%></li>
-    <li><%= link_to (t :auditory, :scope => "footer"), services_path(:anchor => "auditory_section"), :title => t("auditory", :scope => "footer")%></li>
-    <li><%= link_to (t :others, :scope => "footer"), services_path(:anchor => "others_section"), :title => t("others", :scope => "footer")%></li>
+    <li><%= link_to (t :fiscal, :scope => "footer"), servicios_path(:anchor => "fiscal_section"), :title => t("fiscal", :scope => "footer")%></li>
+    <li><%= link_to (t :labour, :scope => "footer"), servicios_path(:anchor => "labour_section"), :title => t("labour", :scope => "footer")%></li>
+    <li><%= link_to (t :financial, :scope => "footer"), servicios_path(:anchor => "financial_section"), :title => t("financial", :scope => "footer")%></li>
+    <li><%= link_to (t :juridical, :scope => "footer"), servicios_path(:anchor => "juridical_section"), :title => t("juridical", :scope => "footer")%></li>
+    <li><%= link_to (t :auditory, :scope => "footer"), servicios_path(:anchor => "auditory_section"), :title => t("auditory", :scope => "footer")%></li>
+    <li><%= link_to (t :others, :scope => "footer"), servicios_path(:anchor => "others_section"), :title => t("others", :scope => "footer")%></li>
   </ul>
 </div>
 

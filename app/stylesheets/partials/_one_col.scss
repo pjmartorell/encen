@@ -35,7 +35,7 @@ body.one_col{
       @include span(22);
       @include prepend(1);
       @include append(1);
-      .services_block{
+      .servicios_block{
         @include column(9);
       }
     }
@@ -49,7 +49,7 @@ body.one_col{
       }
     }
 
-    #services{
+    #servicios{
       @include span(22);
       @include prepend(1);
       @include append(1);
@@ -103,7 +103,7 @@ body.one_col{
     .footer_menu{
       @include column(5);
     }
-    .footer_services{
+    .footer_servicios{
       @include column(6);
     }
     #itnig_link{

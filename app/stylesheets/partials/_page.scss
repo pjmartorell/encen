@@ -97,8 +97,8 @@
     }
   }
 
-  #services_menu{
-    background-image: url("/images/back_services_menu.png");
+  #servicios_menu{
+    background-image: url("/images/back_servicios_menu.png");
     background-color: white;
     background-repeat: repeat-x;
     height: 6.1em;
@@ -116,7 +116,7 @@
           padding-left: 2em;
           padding-right: 2em;
           &:hover{
-            background-image: url("/images/back_menu_services.png");
+            background-image: url("/images/back_menu_servicios.png");
             background-repeat: no-repeat;
             color: white;
           }
@@ -125,7 +125,7 @@
     }
   }
 
-  #services_title{
+  #servicios_title{
     padding-top: 4em;
   }
 
@@ -149,7 +149,7 @@
         }
       }
     }
-    .services_block{
+    .servicios_block{
       margin-top: 5em;
       margin-left: 4em;
     }
@@ -247,9 +247,9 @@
     }
   }
 
-  // . . . . Services . . . . .//
+  // . . . . servicios . . . . .//
 
-  #services{
+  #servicios{
     padding-bottom: 5em;
     h2{
       font-size: 2em;

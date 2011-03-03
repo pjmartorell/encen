@@ -123,13 +123,13 @@ body.one_col #main #home {
   padding-left: 40px;
   padding-right: 40px;
 }
-body.one_col #main #home .services_block {
+body.one_col #main #home .servicios_block {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 350px;
 }
-* html body.one_col #main #home .services_block {
+* html body.one_col #main #home .servicios_block {
   overflow-x: hidden;
 }
 body.one_col #main #aboutus {
@@ -146,7 +146,7 @@ body.one_col #main #aboutus .block {
 * html body.one_col #main #aboutus .block {
   overflow-x: hidden;
 }
-body.one_col #main #services {
+body.one_col #main #servicios {
   width: 870px;
   padding-left: 40px;
   padding-right: 40px;
@@ -237,13 +237,13 @@ body.one_col #footer .footer_menu {
 * html body.one_col #footer .footer_menu {
   overflow-x: hidden;
 }
-body.one_col #footer .footer_services {
+body.one_col #footer .footer_servicios {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 230px;
 }
-* html body.one_col #footer .footer_services {
+* html body.one_col #footer .footer_servicios {
   overflow-x: hidden;
 }
 body.one_col #footer #itnig_link {
@@ -274,7 +274,7 @@ body.one_col #footer #itnig_link {
 }
 
 .line_separation {
-  background-image: url("/images/line_services.png");
+  background-image: url("/images/line_servicios.png");
   background-repeat: repeat-x;
   height: 3em;
   margin-top: 2em;
@@ -290,7 +290,6 @@ body #container {
   -webkit-box-shadow: silver 0 -29px 25px 1px;
   -o-box-shadow: silver 0 -29px 25px 1px;
   box-shadow: silver 0 -29px 25px 1px;
-  text-align: justify;
   font-family: "Trebuchet MS", "Arial", "Helvetica", sans-serif;
   font-size: 0.9em;
   color: #444444;
@@ -389,22 +388,22 @@ body #container {
   font-family: "Trebuchet MS", "Arial", "Helvetica", sans-serif;
   color: #5e73a3;
 }
-#main #services_menu {
-  background-image: url("/images/back_services_menu.png");
+#main #servicios_menu {
+  background-image: url("/images/back_servicios_menu.png");
   background-color: white;
   background-repeat: repeat-x;
   height: 6.1em;
   margin-bottom: 5em;
   text-align: center;
 }
-#main #services_menu ul {
+#main #servicios_menu ul {
   padding-top: 2.5em;
 }
-#main #services_menu ul li {
+#main #servicios_menu ul li {
   display: inline;
   list-style: none;
 }
-#main #services_menu ul li a {
+#main #servicios_menu ul li a {
   color: #444444;
   text-decoration: none;
   padding-top: 2.3em;
@@ -412,12 +411,12 @@ body #container {
   padding-left: 2em;
   padding-right: 2em;
 }
-#main #services_menu ul li a:hover {
-  background-image: url("/images/back_menu_services.png");
+#main #servicios_menu ul li a:hover {
+  background-image: url("/images/back_menu_servicios.png");
   background-repeat: no-repeat;
   color: white;
 }
-#main #services_title {
+#main #servicios_title {
   padding-top: 4em;
 }
 #main #home {
@@ -438,7 +437,7 @@ body #container {
 #main #home h2 a:hover {
   color: #1f2c47;
 }
-#main #home .services_block {
+#main #home .servicios_block {
   margin-top: 5em;
   margin-left: 4em;
 }
@@ -534,43 +533,43 @@ body #container {
   margin-left: 2em;
   margin-top: 4em;
 }
-#main #services {
+#main #servicios {
   padding-bottom: 5em;
 }
-#main #services h2 {
+#main #servicios h2 {
   font-size: 2em;
   text-align: center;
   color: #1f2c47;
   font-family: "zik";
   margin-bottom: 1em;
 }
-#main #services h2 + p {
+#main #servicios h2 + p {
   font-size: 1.1em;
   margin-bottom: 3em;
 }
-#main #services h3 {
+#main #servicios h3 {
   margin-bottom: 1em;
   font-size: 1.5em;
 }
-#main #services ul {
+#main #servicios ul {
   margin-left: 2em;
   margin-bottom: 2em;
 }
-#main #services li {
+#main #servicios li {
   list-style-image: url("/images/dot.png");
   padding-bottom: 1.5em;
 }
-#main #services li.links a {
+#main #servicios li.links a {
   color: #444444;
   text-decoration: none;
 }
-#main #services li.links a:hover {
+#main #servicios li.links a:hover {
   color: #5e73a3;
 }
-#main #services #btn_fiscal {
+#main #servicios #btn_fiscal {
   text-align: right;
 }
-#main #services #btn_fiscal a {
+#main #servicios #btn_fiscal a {
   background-image: url("/images/back_up_button.png");
   background-position: -1px 3px;
   background-repeat: no-repeat;
@@ -579,16 +578,16 @@ body #container {
   color: #999;
   text-decoration: none;
 }
-#main #services #btn_fiscal a:hover {
+#main #servicios #btn_fiscal a:hover {
   background-image: url("/images/back_up_button.png");
   background-position: -1px -56px;
   background-repeat: no-repeat;
   color: #1f2c47;
 }
-#main #services #btn_laboral {
+#main #servicios #btn_laboral {
   text-align: right;
 }
-#main #services #btn_laboral a {
+#main #servicios #btn_laboral a {
   background-image: url("/images/back_up_button.png");
   background-position: -1px 3px;
   background-repeat: no-repeat;
@@ -597,16 +596,16 @@ body #container {
   color: #999;
   text-decoration: none;
 }
-#main #services #btn_laboral a:hover {
+#main #servicios #btn_laboral a:hover {
   background-image: url("/images/back_up_button.png");
   background-position: -1px -56px;
   background-repeat: no-repeat;
   color: #1f2c47;
 }
-#main #services #btn_financial {
+#main #servicios #btn_financial {
   text-align: right;
 }
-#main #services #btn_financial a {
+#main #servicios #btn_financial a {
   background-image: url("/images/back_up_button.png");
   background-position: -1px 3px;
   background-repeat: no-repeat;
@@ -615,16 +614,16 @@ body #container {
   color: #999;
   text-decoration: none;
 }
-#main #services #btn_financial a:hover {
+#main #servicios #btn_financial a:hover {
   background-image: url("/images/back_up_button.png");
   background-position: -1px -56px;
   background-repeat: no-repeat;
   color: #1f2c47;
 }
-#main #services #btn_juridical {
+#main #servicios #btn_juridical {
   text-align: right;
 }
-#main #services #btn_juridical a {
+#main #servicios #btn_juridical a {
   background-image: url("/images/back_up_button.png");
   background-position: -1px 3px;
   background-repeat: no-repeat;
@@ -633,16 +632,16 @@ body #container {
   color: #999;
   text-decoration: none;
 }
-#main #services #btn_juridical a:hover {
+#main #servicios #btn_juridical a:hover {
   background-image: url("/images/back_up_button.png");
   background-position: -1px -56px;
   background-repeat: no-repeat;
   color: #1f2c47;
 }
-#main #services #btn_auditory {
+#main #servicios #btn_auditory {
   text-align: right;
 }
-#main #services #btn_auditory a {
+#main #servicios #btn_auditory a {
   background-image: url("/images/back_up_button.png");
   background-position: -1px 3px;
   background-repeat: no-repeat;
@@ -651,16 +650,16 @@ body #container {
   color: #999;
   text-decoration: none;
 }
-#main #services #btn_auditory a:hover {
+#main #servicios #btn_auditory a:hover {
   background-image: url("/images/back_up_button.png");
   background-position: -1px -56px;
   background-repeat: no-repeat;
   color: #1f2c47;
 }
-#main #services #btn_others {
+#main #servicios #btn_others {
   text-align: right;
 }
-#main #services #btn_others a {
+#main #servicios #btn_others a {
   background-image: url("/images/back_up_button.png");
   background-position: -1px 3px;
   background-repeat: no-repeat;
@@ -669,7 +668,7 @@ body #container {
   color: #999;
   text-decoration: none;
 }
-#main #services #btn_others a:hover {
+#main #servicios #btn_others a:hover {
   background-image: url("/images/back_up_button.png");
   background-position: -1px -56px;
   background-repeat: no-repeat;

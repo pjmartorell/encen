@@ -7,7 +7,7 @@ ca:
 
   home: Inici
   contact: Contacte
-  services: Serveis
+  servicios: Serveis
   about_us: Nosaltres
   link: Enllaç
   news: Noticies
@@ -27,8 +27,8 @@ ca:
       p_juridical: "L'assessorem en totes les accions comercials i financeres amb implicacions legals del tipus mercantile, administratiu, penal i civil."
       financial: Comptable
       p_financial: "Basant-nos en els principis comptables establerts, reflex-em fidelment la situació de l'empresa , de forma que serveixi per cada una adequada a la presa de decisions "
-      other_services: Altres Serveis
-      p_other_services: "Tenim la resposta més apropiada per cada una de les necessitats de l'empresa, ja sigui a través dels nostres propis especialistes o mitjançant aliances estratègiques amb altres despatxos de màxima garantia i confiança."
+      other_servicios: Altres Serveis
+      p_other_servicios: "Tenim la resposta més apropiada per cada una de les necessitats de l'empresa, ja sigui a través dels nostres propis especialistes o mitjançant aliances estratègiques amb altres despatxos de màxima garantia i confiança."
       laboral: Laboral
       p_laboral: "Gestionem aquesta sensible àrea d'activitat, incorporant les normes que constantment van apareixent i estalviant a l'empresa una important carrega de treball."
       news: Noticies
@@ -50,7 +50,7 @@ ca:
       us: "Formem un equip de professionals dedicats al assessorament i gestió fiscal, laboral, comptable i jurídica, oferint uns serveis de qualitat i professionalitat per la pressa de decisions de direcció o gerència necessàries i totalment imprescindibles en els moments que ens ocupa la conjuntura econòmica."
       us2: "Posem a la seva disposició tota la nostre experiència amb més de 20 anys en linia, per donar la més alta qualitat en els nostres serveis tant a nivell nacional com a l'extranjer."
 
-    services:
+    servicios:
       title: Advocat laboralista - Herències - Fiscal - Família a Barcelona
       metakeywords: "De Rosa advocats està format pels millors professionals laboralistes, fiscals, dret de família, herències a Barcelona"
       metadescription: "Dret de familia, advocats laboralistes, advocat fiscal, advocat herències"
@@ -153,7 +153,7 @@ ca:
       others_3: Prevenció de riscs laborals.
       others_4: Administració de finques.
 
-    vinculo:
+    enlaces:
       title: "Enllaços d’interès - De Rosa advocats"
       metakeywords: "Secció d’enllaços recomanats per De Rosa advocats"
       metadescription: "Enllaços d’interes, De Rosa advocats"
@@ -178,7 +178,7 @@ ca:
   footer:
     contact: Contacte
     menu: Menú
-    services: Serveis
+    servicios: Serveis
     itnig: "itnig serveis web"
     fiscal: Fiscal
     labour: Laboral
