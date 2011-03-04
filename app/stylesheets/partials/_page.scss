@@ -10,8 +10,8 @@
 //........................................Menu
 
   #menu{
-    padding-top: 105px;
-    margin-bottom: 35px;
+    padding-top: 80px;
+    margin-bottom: 140px;
     li{
       display: inline;
       padding: 5px 15px;
@@ -31,22 +31,12 @@
   }
   h1{
     a{
-      color: white;
-      font-size: 3em;
-      font-family: $title-font-family;
-      text-decoration: none;
-      margin-left: 166px;
-      #servicios_in{font-size: .7em;}
-    }
-  }
-  h2{
-    a{
       @include text-shadow(#b5f22c, 0, 1px, 1px);
       color: #47650b;
       font-family: $title-font-family;
-      font-size: $title-font-size;
       text-decoration: none;
-      margin-left: 435px;
+      font-size: 2em;
+      margin-left: 310px;
     }
   }
 }
@@ -273,11 +263,16 @@
       margin-bottom: 2em;
     }
 
-    p#caring_bio{
-      color: #666666;
-      font-family: "gabrielle";
-      font-size: 1.5em;
-      line-height: 1em;
+    #environment_care{
+      background-image: url("/images/environment_care.png");
+      background-repeat: no-repeat;
+      height: 5em;
+      margin-bottom: 3em;
+      padding: 5.5em 6em 0;
+      p{
+        font-size: 1.1em;
+        line-height: 1.5em;
+      }
     }
 
     #request{

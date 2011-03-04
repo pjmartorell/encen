@@ -250,8 +250,8 @@ body #container {
   height: 19.8em;
 }
 #header #menu {
-  padding-top: 105px;
-  margin-bottom: 35px;
+  padding-top: 80px;
+  margin-bottom: 140px;
 }
 #header #menu li {
   display: inline;
@@ -280,22 +280,12 @@ body #container {
   text-decoration: none;
 }
 #header h1 a {
-  color: white;
-  font-size: 3em;
-  font-family: "timess";
-  text-decoration: none;
-  margin-left: 166px;
-}
-#header h1 a #servicios_in {
-  font-size: .7em;
-}
-#header h2 a {
   text-shadow: #b5f22c 0 1px 1px;
   color: #47650b;
   font-family: "timess";
-  font-size: 1.7em;
   text-decoration: none;
-  margin-left: 435px;
+  font-size: 2em;
+  margin-left: 310px;
 }
 
 #post_header {
@@ -500,11 +490,16 @@ body #container {
   line-height: 1.2em;
   margin-bottom: 2em;
 }
-#info_box #clean_section p#caring_bio {
-  color: #666666;
-  font-family: "gabrielle";
-  font-size: 1.5em;
-  line-height: 1em;
+#info_box #clean_section #environment_care {
+  background-image: url("/images/environment_care.png");
+  background-repeat: no-repeat;
+  height: 5em;
+  margin-bottom: 3em;
+  padding: 5.5em 6em 0;
+}
+#info_box #clean_section #environment_care p {
+  font-size: 1.1em;
+  line-height: 1.5em;
 }
 #info_box #clean_section #request a {
   color: #618c15;

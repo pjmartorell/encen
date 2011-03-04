@@ -98,7 +98,6 @@ es:
       metadescription: "servicio de limpiezas para oficinas,empresas,particulares,garages,parkings,comunidades de vecinos"
       metakeywords: "limpiezas madrid, servicio de limpiezas doficinas,empresas,particulares,comunidades,garages,parkings"
       title: "MTC Limpiezas"
-      title: "MTC Limpiezas"
       header: Aqui va la frase principal de esta sección.
     index: 
       clean: Limpieza
@@ -214,6 +213,5 @@ es:
       metadescription: "servicio de limpiezas para oficinas,empresas,particulares,garages,parkings,comunidades de vecinos"
       metakeywords: "limpiezas madrid, servicio de limpiezas doficinas,empresas,particulares,comunidades,garages,parkings"
       title: "Servicios de limpieza Madrid - MTC Limpiezas"
-  subtitle: Limpiezas
-  title: "MTC <span id='servicios_in'>Servicios Integrales</span>"
+  title: "Servicios Integrales"
   zipcode: "Código postal"
