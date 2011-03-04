@@ -39,6 +39,14 @@
       margin-left: 310px;
     }
   }
+  #click_area {
+    background-color: transpare;
+    height: 171px;
+    left: 500px;
+    position: absolute;
+    top: 115px;
+    width: 600px;
+  }
 }
 
 //...............................Post-header
@@ -159,10 +167,10 @@
         }
       }
       #presupuesto{
-        font-size: $title-font-size;
         text-align: center;
-        margin-left: -3.1em;
-        margin-top: 2.3em;
+        font-size: 1.5em;
+        margin-left: -3.5em;
+        margin-top: 3em;
         a{
           &:hover{color: #618C15;}
         }

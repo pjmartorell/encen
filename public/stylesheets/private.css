@@ -287,6 +287,14 @@ body #container {
   font-size: 2em;
   margin-left: 310px;
 }
+#header #click_area {
+  background-color: transpare;
+  height: 171px;
+  left: 500px;
+  position: absolute;
+  top: 115px;
+  width: 600px;
+}
 
 #post_header {
   background-image: url("/images/post-header.png");
@@ -406,10 +414,10 @@ body #container {
   padding-top: .8em;
 }
 #info_box #index #services_list #presupuesto {
-  font-size: 1.7em;
   text-align: center;
-  margin-left: -3.1em;
-  margin-top: 2.3em;
+  font-size: 1.5em;
+  margin-left: -3.5em;
+  margin-top: 3em;
 }
 #info_box #index #services_list #presupuesto a:hover {
   color: #618C15;
