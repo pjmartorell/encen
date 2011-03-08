@@ -162,7 +162,27 @@ ca:
       link1: TGSS.
       link2: Agencia Tributaria.
       link3: "REGISTRO mercantile BARCELONA: GENERALITAT DE CATALUNIA."
-
+      link4: "Instituto Nacional de Empleo"
+      link5: "Instituto Nacional de Estadistica"
+      link6: "Ministerio de Trabajo e Inmigracia"
+      link7: "Seguridad Social"
+      link8: "Departament de Treball"
+      link9: "Departament d'Economia i Finances Ajuntament de Barcelona"
+      link10: "BOE Boletin Oficial del Estado"
+      link11: "Ajuntament de Girona"
+      link12: "Ajuntament de Lleida"
+      link13: "Ajuntament de Tarragona"
+      link14: "DOGC Diari Oficial de la Generalitat de Catalunya"
+      link15: "BOE Boletin Oficial del Estado"
+      link16: "Coll·legi de Mediadors d'Assegurances de Barcelona"
+      link17: "Coll·legi de Notaris de Catalunya"
+      link18: "Il.llustr Col·legi d'Advocats de Barcelona"
+      link19: "Il·lustre Collegi de Titulats Mercantil de Barcelona"
+      link20: "Banco de España"
+      link21: "Direccion General del Catastro"
+      link22: "ICO Instituto de Credito Oficial"
+      link23: "Registradores de la Propiedad"
+      
     noticias:
       title: De Rosa advocats - Noticies
       metakeywords: "Secció d’actualitat i noticies per els que desitjen estar a la última sobre les novetats en el món del dret laboral, civil, fiscal, comptable i gestories a Barcelona"
