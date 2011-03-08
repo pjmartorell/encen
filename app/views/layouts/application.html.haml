@@ -25,9 +25,10 @@
       #header
         #menu
           = render 'shared/menu'
-        = render 'shared/header'
+        #info_box
+          = yield :info_box
 
-      #info_box
+      #main
         = yield
 
       #footer
@@ -39,5 +40,5 @@
         google.load("jquery", "1.4.2")
       = include_javascripts :frontend
       = yield :custom_js
-      
-      
+
+

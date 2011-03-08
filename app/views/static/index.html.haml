@@ -1,15 +1,16 @@
 - title t(".title")
 
-%h1
-  = t(".subtitle")
+#home
+  %h3
+    = t(".subtitle")
 
-%p{:id => "first_paragraph"}
-  = t(".paragraph1")
+  %p
+    = t(".paragraph1")
 
 .line_separator
 
 
-%h2
+%h4
   = t(".subtitle1")
 
 %p
@@ -23,7 +24,7 @@
 .line_separator
 
 
-%h2
+%h4
   = t(".subtitle2")
 
 %p
@@ -37,7 +38,7 @@
 .line_separator
 
 
-%h2
+%h4
   = t(".subtitle3")
 
 %p
@@ -51,7 +52,7 @@
 .line_separator
 
 
-%h2
+%h4
   = t(".subtitle4")
 
 %p
@@ -61,3 +62,6 @@
   
 .up_button
   %a{:href => "#"} Arriba
+
+- content_for :info_box do
+  = render 'shared/index'

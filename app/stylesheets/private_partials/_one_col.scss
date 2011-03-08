@@ -9,7 +9,7 @@ body.one_col{
 			@include prepend(1);
 			@include append(1);
 		}
-		#info_box{
+		#main{
 			@include span(21);
 			@include prepend(1);
 			@include append(1);

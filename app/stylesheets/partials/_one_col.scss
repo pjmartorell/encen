@@ -4,7 +4,7 @@ body.one_col{
 		#header{
 			@include span(24);
 		}
-		#info_box{
+		#main{
 		  @include span(20);
 			@include prepend(2);
 			@include append(2);

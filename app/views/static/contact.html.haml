@@ -1,6 +1,6 @@
 - title t(".title")
 
-%h1
+%h3
   = t ".subtitle"
 
 #contact_info
@@ -27,3 +27,6 @@
 #map_canvas
 
 .clear
+
+- content_for :info_box do
+  = render 'shared/contacto'

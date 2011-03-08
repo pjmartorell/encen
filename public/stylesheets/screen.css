@@ -82,27 +82,27 @@ body.one_col #container {
 body.one_col #container #header {
   width: 950px;
 }
-body.one_col #container #info_box {
+body.one_col #container #main {
   width: 790px;
   padding-left: 80px;
   padding-right: 80px;
 }
-body.one_col #container #info_box #contact_info {
+body.one_col #container #main #contact_info {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 270px;
 }
-* html body.one_col #container #info_box #contact_info {
+* html body.one_col #container #main #contact_info {
   overflow-x: hidden;
 }
-body.one_col #container #info_box #map_canvas {
+body.one_col #container #main #map_canvas {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 470px;
 }
-* html body.one_col #container #info_box #map_canvas {
+* html body.one_col #container #main #map_canvas {
   overflow-x: hidden;
 }
 body.one_col #container #footer {
@@ -117,10 +117,14 @@ body.one_col #container #footer {
   overflow: hidden;
 }
 
+.separator {
+  height: 1em;
+}
+
 .line_separator {
   background-image: url("/images/line_space.png");
   background-repeat: repeat-x;
-  padding-bottom: 20px;
+  padding-bottom: 4em;
   clear: both;
   overflow: hidden;
 }
@@ -136,182 +140,178 @@ body #container {
   font-family: "Hoefler Text", "Garamond", "Times", serif;
   text-align: justify;
 }
-body #container #header {
+
+#header {
   background-image: url("/images/back_header.jpg");
   background-repeat: repeat-x;
   color: #27211c;
-  height: 673px;
-  padding-top: 10px;
+  height: 56.1em;
   text-align: center;
 }
-body #container #header h1 {
+#header h1 {
   font-size: 3em;
   margin-bottom: 0;
 }
-body #container #header p {
+#header p {
   font-size: 1.5em;
 }
-body #container #header #menu {
+#header #menu {
   background-image: url("/images/back_menu.png");
   background-repeat: no-repeat;
   background-position: center;
-  height: 100px;
-  margin-top: 20px;
+  height: 8.5em;
   margin-bottom: 410px;
   text-align: center;
 }
-body #container #header #menu ul {
-  padding-top: 40px;
+#header #menu ul {
+  padding-top: 3.5em;
   margin-bottom: 0;
 }
-body #container #header #menu li {
+#header #menu li {
   display: inline;
-  padding-right: 20px;
+  padding-right: 2em;
 }
-body #container #header #menu a {
+#header #menu a {
   color: #ebe77b;
   text-decoration: none;
   font-size: 1.3em;
 }
-body #container #header #menu .current {
+#header #menu .current {
   color: white;
 }
-body #container #info_box {
+
+#main {
   background-color: #27211c;
   color: #d9cdc2;
   font-size: 1.2em;
-  padding-top: 30px;
-  padding-bottom: 80px;
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
-body #container #info_box h1 {
+#main h3 {
   color: white;
   font-family: "Times New Roman, Times New Roman, Times, serif";
   font-style: italic;
-  padding-bottom: 20px;
-  padding-top: 40px;
+  font-size: 2.5em;
 }
-body #container #info_box h2 {
+#main h4 {
   color: white;
   font-style: italic;
-  padding-bottom: 20px;
-  padding-top: 40px;
+  font-size: 1.5em;
 }
-body #container #info_box p {
+#main p {
   color: #d9cdc2;
   margin-bottom: 0;
 }
-body #container #info_box #first_paragraph {
-  color: #e3bd8d;
-  font-size: 1.3em;
-  font-weight: normal;
-  margin-bottom: 70px;
-}
-body #container #info_box .up_button {
+#main .up_button {
   background-image: url("/images/back_up_button.png");
   background-repeat: no-repeat;
   text-align: center;
-  height: 35px;
-  margin-top: 40px;
-  margin-left: 700px;
-  padding-top: 10px;
-  width: 90px;
+  height: 2.5em;
+  margin-top: 1em;
+  margin-left: 49em;
+  padding-top: .8em;
+  width: 6em;
 }
-body #container #info_box .up_button a {
+#main .up_button a {
   color: white;
   text-decoration: none;
 }
-body #container #info_box .read_more a {
+#main .read_more a {
   color: #e3bd8d;
   text-decoration: none;
 }
-body #container #info_box .read_more a:hover {
+#main .read_more a:hover {
   color: #a84830;
 }
-body #container #info_box #contact_info {
-  margin-top: 20px;
+#main #home {
+  margin-bottom: 70px;
 }
-body #container #info_box #contact_info .contact_titles p {
+#main #home p {
+  color: #e3bd8d;
+  font-size: 1.3em;
+  font-weight: normal;
+}
+#main #contact_info .contact_titles p {
   color: #e3bd8d;
   font-size: 1.5em;
   margin-bottom: 0;
 }
-body #container #info_box #contact_info .contact_answere {
-  margin-left: 10px;
-  margin-bottom: 40px;
+#main #contact_info .contact_answere {
+  margin-left: 1em;
+  margin-bottom: 2em;
 }
-body #container #info_box #contact_info .contact_answere p {
+#main #contact_info .contact_answere p {
   font-size: 1.2em;
   font-family: "Times New Roman, Times New Roman, Times, serif";
   margin-bottom: 0;
 }
-body #container #info_box #contact_info .contact_answere a {
+#main #contact_info .contact_answere a {
   font-family: "Times New Roman, Times New Roman, Times, serif";
   color: #d9cdc2;
   font-size: 1.2em;
   text-decoration: none;
 }
-body #container #info_box #contact_info .contact_answere a:hover {
+#main #contact_info .contact_answere a:hover {
   color: #e3bd8d;
 }
-body #container #info_box #map_canvas {
+#main #map_canvas {
   border: solid 1px white;
   outline: solid 2px #ccc;
   height: 330px;
 }
-body #container #info_box #map_canvas #infowindow h3 {
+#main #map_canvas #infowindow h3 {
   border-bottom: 1px solid #ccc;
   font-size: 1em;
   margin-bottom: 5px;
-  width: 170px;
+  width: 33em;
 }
-body #container #info_box #map_canvas #infowindow p {
+#main #map_canvas #infowindow p {
   font-size: .8em;
 }
-body #container #info_box #map_canvas #gmimap0 {
+#main #map_canvas #gmimap0 {
   background-color: blue;
 }
-body #container #footer {
+
+#footer {
   background-color: #2f2721;
   background-image: url("/images/back_footer.jpg");
   border-top: 3px solid #2F2721;
   color: #d9cdc2;
   font-family: "Times New Roman, Times New Roman, Times, serif";
   text-align: center;
-  height: 170px;
-  padding-top: 70px;
+  height: 20em;
 }
-body #container #footer li {
+#footer li {
   border-right: 1px solid;
   font-size: 1.4em;
   color: white;
   display: inline;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 2em;
+  padding-right: 2em;
 }
-body #container #footer li:last-child {
+#footer li:last-child {
   border-right: none;
 }
-body #container #footer a {
+#footer a {
   color: #e3bd8d;
   text-decoration: none;
 }
-body #container #footer a:hover {
+#footer a:hover {
   color: white;
 }
-body #container #footer #mail {
+#footer #mail {
   font-size: 1.2em;
 }
-body #container #footer #footer_title {
+#footer #footer_title {
   background-image: url("/images/back_title_footer.png");
   background-repeat: no-repeat;
   text-align: left;
-  height: 71px;
-  margin-top: -71px;
-  margin-bottom: 25px;
-  padding-left: 14px;
-  padding-top: 13px;
+  height: 6em;
+  margin-bottom: 2em;
+  padding-left: 1.2em;
+  padding-top: 1em;
 }
-body #container #footer #footer_title h2 {
+#footer #footer_title h2 {
   color: white;
 }
 
@@ -1140,7 +1140,7 @@ input.span-24, textarea.span-24, select.span-24 {
 }
 
 .showgrid {
-  background: url('/images/grid.png?1292870137');
+  background: url('/images/grid.png?1299582161');
 }
 
 .error {

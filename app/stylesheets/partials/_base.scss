@@ -29,10 +29,23 @@ $back-brown-color: #27211c;
   overflow:hidden;
 }
 
+.separator {
+  height: 1em;
+}
+
 .line_separator{
   background-image: url("/images/line_space.png");
   background-repeat: repeat-x;
-  padding-bottom: 20px;
+  padding-bottom: 4em;
   clear:both;
   overflow:hidden;
+}
+
+body{
+	margin: 0 auto;
+	#container{
+	  @include box-shadow(#ccc, 0, -29px, 25px, 1px);
+		font-family: $main-font-family;
+		text-align: justify;
+	}
 }

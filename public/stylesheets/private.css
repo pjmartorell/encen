@@ -88,7 +88,7 @@ body.one_col #container #login_box {
   padding-left: 40px;
   padding-right: 40px;
 }
-body.one_col #container #info_box {
+body.one_col #container #main {
   width: 830px;
   padding-left: 40px;
   padding-right: 40px;
@@ -161,13 +161,13 @@ body #container #login_box input#user_submit {
 body #container #login_box input#user_submit:hover {
   background-color: #666;
 }
-body #container #info_box {
+body #container #main {
   background-color: #F1F1F1;
   border: 2px solid #999999;
   padding-top: 40px;
   padding-bottom: 20px;
 }
-body #container #info_box thead {
+body #container #main thead {
   background-color: black;
   color: white;
   height: 25px;
