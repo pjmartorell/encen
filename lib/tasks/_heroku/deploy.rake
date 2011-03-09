@@ -29,7 +29,7 @@ namespace :deploy do
     end
   end
 
-  task :after_deploy, :env, :branch do |t, args| --app #{args[:branch]}
+  task :after_deploy, :env, :branch do |t, args|
     `heroku rake interpret:update --app #{args[:branch]}`
     puts "Done rake interpret:update within #{args[:branch]} app."
     puts "Deployment Complete"
@@ -38,7 +38,7 @@ namespace :deploy do
   task :update_code, :env, :branch do |t, args|
     FileUtils.cd Rails.root do
       puts "Updating #{ENVIRONMENTS[args[:env]]} with branch #{args[:branch]}"
-      `git push #{ENVIRONMENTS[args[:env]]} +#{args[:branch]}:master`
+      `git push #{ENVIRONMENTS[args[:env]]}-#{args[:branch]} +#{args[:branch]}:master`
     end
   end
 end
