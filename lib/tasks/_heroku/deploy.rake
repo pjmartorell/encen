@@ -29,8 +29,9 @@ namespace :deploy do
     end
   end
 
-  task :after_deploy, :env, :branch do |t, args|
-    `heroku rake interpret:update`
+  task :after_deploy, :env, :branch do |t, args| --app #{args[:branch]}
+    `heroku rake interpret:update --app #{args[:branch]}`
+    puts "Done rake interpret:update within #{args[:branch]} app."
     puts "Deployment Complete"
   end
 
