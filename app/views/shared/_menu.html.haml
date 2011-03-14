@@ -1,7 +1,5 @@
 %ul
-  %li= section_link_to t(:home), root_path
-  %li= section_link_to t(:particular), particular_path
-  %li= section_link_to t(:empresas), empresas_path
-  %li= section_link_to t(:finques), finques_path
-  %li= section_link_to t(:seguros), seguros_path
-  %li= section_link_to t(:contact), contact_path
+  %li= section_link_to t(:home, :scope => "menu"), root_path
+  %li= section_link_to t(:aboutus, :scope => "menu"), particular_path
+  %li= section_link_to t(:seguros, :scope => "menu"), seguros_path
+  %li= section_link_to t(:contact, :scope => "menu"), contact_path

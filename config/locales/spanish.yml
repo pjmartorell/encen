@@ -1,16 +1,4 @@
 es:
-  home: Inicio
-  aboutus: Nosotros
-  contact: Contacto
-  particular: Serveis Juridics a Particular
-  empresas: Serveis Empresarials
-  finques: Administracio de Finques
-  seguros: Assegurence
-  itnig: Itnig Serveis Web
-  
-  subtitle: ASSESORIA JURÍDICA I EMPRESARIAL
-  first_paragraph: “Una adequada orientació legal és el millor camí per resoldre molts dels seus problemes”
-
   metakeywords: "ejemplo,itnig,test"
   metadescription: "Ejemplo de plan basico"
   locality: Barcelona
@@ -19,21 +7,29 @@ es:
   geo_position: Alguna posicion
   icbm: Algun numero icbm
 
+  header:
+    subtitle: ASSESORIA JURÍDICA I EMPRESARIAL
+    first_paragraph: “Una adequada orientació legal és el millor camí per resoldre molts dels seus problemes”
+
+  menu:
+    home: Inici
+    aboutus: Areas de trabajo
+    seguros: Noticias
+    contact: Contacta
+
+  miscellaneous:
+    read_more: "Leer más"
+    up_button: "Arriba"
+
   static:
     index:
-      title: "Inicio -- Ejemplo Plan Basico"
-      subtitle: "Inicio"
-      paragraph: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
-      subtitle1: Serveis Juridics a Particular
-      paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
-      subtitle2: Serveis Empresarials
-      paragraph2: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
-      subtitle3: Administracio de Finques
-      paragraph3: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
-      subtitle4: Assegurence
-      paragraph4: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
-      read_more: Leer más.
-
+      title: "Inici -- Ejemplo Plan Basico"
+      subtitle: "Inici"
+      paragraph1_html: "A través de la nostra pàgina web, pretenem mostrar-li la nostra Assessoria Jurídica, amb el propòsit que pugui conèixer-nos millor i avaluar la qualitat dels serveis jurídics que oferim. El Despatx està dirigit per l'Advocada María Luisa Martínez Guerra, amb una experiència en el sector jurídic de més de vint anys. Un tracte personal, adaptat a les necessitats de cada client, és la filosofia del nostre Despatx"
+      paragraph2_html: "A NOVAGESTIO, prestem serveis integrals d'Assessorament legal i de Gestió Empresarial, pel que trobarà resposta a les necessitats de la seva empresa o negoci."
+      paragraph3_html: "A més, a través del nostre Bufet d'Advocats solucionarà eficaçment els seus problemes judicials ja siguin de tipus laboral, civil general, com de dret privat, ja que som especialistes en dret de família i successions."
+      subtitle1: "Areas de treball"
+      paragraph4_html: "something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers.something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websitessomething quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites."
 
     particular:
       title: "Serveis Juridics a Particular -- Ejemplo Plan Basico"
@@ -44,18 +40,17 @@ es:
       title: "Serveis Empresarials -- Ejemplo Plan Basico"
       subtitle: Serveis Empresarials
       paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
-          
+
     finques:
       title: "Administracio de Finques -- Ejemplo Plan Basico"
       subtitle: Administracio de Finques
       paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
-    
+
     seguros:
       title: "Assegurence -- Ejemplo Plan Basico"
       subtitle: Assegurence
       paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
-      
-    
+
     contact:
       title: "Contacto -- Ejemplo Plan Basico"
       subtitle: Contacto
@@ -66,3 +61,10 @@ es:
       tel: Tel. 93.407.22.02
       fax: Fax. 93.420.74.29
       email_title: Email
+
+  footer:
+    contact: Contacto
+    phone: "Tel. 93.407.22.02"
+    fax: "Fax. 93.420.74.29"
+    address: "Fabra i Pug 267-269. 08031 Bcn"
+    itnig: Itnig

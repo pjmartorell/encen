@@ -1,15 +1,14 @@
 #footer_title
-  %h2
-    = t "contact"
+  %h2= t("contact", :scope => "footer")
 
 %ul
-  %li Tel. 93.407.22.02
-  %li Fax. 93.420.74.29
-  %li Fabra i Pug 267-269. 08031 Bcn
+  %li= t("phone", :scope => "footer")
+  %li= t("fax", :scope => "footer")
+  %li= t("address", :scope => "footer")
   
 #mail
   = mail_to 'info@nova-gestion.cat', nil, :encode => :hex
 
 .clear
 
-%a{:href => "http://itnig.net/", :title => "Itnig"}= t "itnig"
+%a{:href => "http://itnig.net/", :title => "Itnig"}= t ("itnig", :scope => "footer")

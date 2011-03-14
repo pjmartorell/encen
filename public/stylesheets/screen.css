@@ -124,6 +124,7 @@ body.one_col #container #footer {
 .line_separator {
   background-image: url("/images/line_space.png");
   background-repeat: repeat-x;
+  margin-top: 4em;
   padding-bottom: 4em;
   clear: both;
   overflow: hidden;
@@ -224,7 +225,7 @@ body #container {
   color: #a84830;
 }
 #main #home {
-  margin-bottom: 70px;
+  margin-bottom: 2em;
 }
 #main #home p {
   color: #e3bd8d;
@@ -1140,7 +1141,7 @@ input.span-24, textarea.span-24, select.span-24 {
 }
 
 .showgrid {
-  background: url('/images/grid.png?1299582161');
+  background: url('/images/grid.png?1300104395');
 }
 
 .error {

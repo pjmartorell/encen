@@ -1,11 +1,12 @@
 - title t(".title")
 
 #home
-  %h3
-    = t(".subtitle")
+  %h3= t(".subtitle")
 
-  %p
-    = t(".paragraph1")
+  %p= t(".paragraph1_html")
+
+%p= t(".paragraph2_html")
+%p= t(".paragraph3_html")
 
 .line_separator
 
@@ -14,54 +15,15 @@
   = t(".subtitle1")
 
 %p
-  = t(".paragraph1")
+  = t(".paragraph4_html")
   .read_more
-    = section_link_to t(".read_more"), particular_path
+    = section_link_to t("read_more", :scope => "miscellaneous"), particular_path
   
 .up_button
-  %a{:href => "#"} Arriba
-
-.line_separator
+  %a{:href => "#"}=t ("up_button", :scope => "miscellaneous")
 
 
-%h4
-  = t(".subtitle2")
 
-%p
-  = t(".paragraph2")
-  .read_more
-    = section_link_to t(".read_more"), empresas_path
-  
-.up_button
-  %a{:href => "#"} Arriba
-
-.line_separator
-
-
-%h4
-  = t(".subtitle3")
-
-%p
-  = t(".paragraph3")
-  .read_more
-    = section_link_to t(".read_more"), finques_path
-  
-.up_button
-  %a{:href => "#"} Arriba
-
-.line_separator
-
-
-%h4
-  = t(".subtitle4")
-
-%p
-  = t(".paragraph4")
-  .read_more
-    = section_link_to t(".read_more"), seguros_path
-  
-.up_button
-  %a{:href => "#"} Arriba
 
 - content_for :info_box do
   = render 'shared/index'
