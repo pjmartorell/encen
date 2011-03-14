@@ -199,6 +199,9 @@ body #container {
   font-style: italic;
   font-size: 1.5em;
 }
+#main h5 {
+  color: white;
+}
 #main p {
   color: #d9cdc2;
   margin-bottom: 0;

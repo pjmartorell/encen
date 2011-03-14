@@ -29,26 +29,40 @@ es:
       paragraph2_html: "A NOVAGESTIO, prestem serveis integrals d'Assessorament legal i de Gestió Empresarial, pel que trobarà resposta a les necessitats de la seva empresa o negoci."
       paragraph3_html: "A més, a través del nostre Bufet d'Advocats solucionarà eficaçment els seus problemes judicials ja siguin de tipus laboral, civil general, com de dret privat, ja que som especialistes en dret de família i successions."
       subtitle1: "Areas de treball"
-      paragraph4_html: "something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers.something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websitessomething quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites."
+      paragraph4_html: "Something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers.something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websitessomething quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites."
 
     particular:
-      title: "Serveis Juridics a Particular -- Ejemplo Plan Basico"
-      subtitle: Serveis Juridics a Particular
-      paragraph1: "something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers.something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websitessomething quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites"
-
-    empresas:
-      title: "Serveis Empresarials -- Ejemplo Plan Basico"
-      subtitle: Serveis Empresarials
-      paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
-
-    finques:
-      title: "Administracio de Finques -- Ejemplo Plan Basico"
-      subtitle: Administracio de Finques
-      paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
+      title: "Areas de treball -- Ejemplo Plan Basico"
+      subtitle: Areas de treball
+      first_paragraph_html: "Something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers.something quickly, comprehensibly and easily; it’s also a way of advertising their products."
+      area1: "A particulars"
+      a1_paragraph1_html: "Existeixen fets especialment rellevants en la nostra vida, en els quals necessitem un assessorament previ per evitar conseqüències legals no desitjades. Així, abans de signar un contracte de qualsevol tipus, d'atorgar testament, de formular una sol·licitud consultar sobre l'oportunitat de la seva actuació i la millor manera de realitzar-la."
+      a1_paragraph2_html: "En aquest sentit, des del nostre Departament Jurídic li oferim la possibilitat de resoldre tots els seus dubtes i si escau de dur a terme la gestió necessària per obtenir el resultat desitjat."
+      a1_paragraph3_html: "Si s'actua sense un assessorament previ, possiblement tenir conseqüències legals, que possiblement Vostè no pugui preveure, per falta de coneixements en la matèria."
+      a1_service1: "Consultes Juridiques."
+      a1_service2: "Consultes Juridiques"
+      a1_service3: "Divorcis"
+      a1_service4: "Tramitació d'herencias"
+      a1_service5: "Acomiadaments i drets laborals"
+      a1_service6: "Pensions"
+      a1_service7: "Accidents"
+      a1_service8: "Extranjeria"
+      area2: "Serveis empresarials"
+      a2_paragraph1_html: "Som especialistes en l’assessorament integral d’empreses i negocis autònoms. Abans de crear la seva empresa, consulti’ns quina és la millor forma de fer-ho."
+      a2_paragraph2_html: "Si ja té en marxa la el seu negoci, nosaltres li gestionarem. Consulti’ns i li redactarem un pressupost individualitzat i adaptat a les seves necessitats"
+      a2_service1: "Gestio Laboral y comptable-fiscal"
+      a2_service2: "Constitució/Liquidació de societats"
+      a2_service3: "Processos concursals"
+      area3: "Administracio de finques"
+      a3_paragraph1_html: "A través del nostre Despatx, podrà gestionar el seu patrimoni immobiliari d’una forma integral, eficaç i econòmica."
+      a3_paragraph2_html: "Tenim una resposta específica per les necessitats de gestió dels seus immobles"
+      a3_service1: "Compravenda de pisos"
+      a3_service2: "Arrendaments"
+      a3_service3: "Comunitats de propietaris"
 
     seguros:
-      title: "Assegurence -- Ejemplo Plan Basico"
-      subtitle: Assegurence
+      title: "Noticias -- Ejemplo Plan Basico"
+      subtitle: Noticias
       paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
 
     contact:

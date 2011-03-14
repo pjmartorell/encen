@@ -1,10 +1,44 @@
 - title t(".title")
 
-%h3
-  = t ".subtitle"
+%h3= t ".subtitle"
 
-%p
-  =t ".paragraph1"
+%p=t ".first_paragraph_html"
+
+.line_separator
+
+%h4= t(".area1")
+%p= t(".a1_paragraph1_html")
+%p= t(".a1_paragraph2_html")
+%p= t(".a1_paragraph3_html")
+
+%ul
+  %li= t(".a1_service1")
+  %li= t(".a1_service2")
+  %li= t(".a1_service3")
+  %li= t(".a1_service4")
+  %li= t(".a1_service5")
+  %li= t(".a1_service6")
+  %li= t(".a1_service7")
+  %li= t(".a1_service8")
+
+
+%h4= t(".area2")
+%p= t(".a2_paragraph1_html")
+%p= t(".a2_paragraph2_html")
+%ul
+  %li= t(".a2_service1")
+  %li= t(".a2_service2")
+  %li= t(".a2_service3")
+
+
+%h4= t(".area3")
+%p= t(".a3_paragraph1_html")
+%p= t(".a3_paragraph2_html")
+%ul
+  %li= t(".a3_service1")
+  %li= t(".a3_service2")
+  %li= t(".a3_service3")
+
 
 - content_for :info_box do
   = render 'shared/particular'
