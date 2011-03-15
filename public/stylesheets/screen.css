@@ -509,6 +509,15 @@ body #container {
   font-size: 1.1em;
   line-height: 1.5em;
 }
+#info_box #clean_section .image_container {
+  outline: 1px solid #bbb;
+  border: 1px solid white;
+  width: 30em;
+  height: 15em;
+  float: right;
+  margin: 3.5em 0 1em 1em;
+  background-image: url("/images/clean_image.jpg");
+}
 #info_box #clean_section #request a {
   color: #618c15;
 }
@@ -549,6 +558,15 @@ body #container {
   list-style: none;
   list-style-image: url("/images/dot.png");
   padding-bottom: 10px;
+}
+#info_box #manager_section .image_container {
+  outline: 1px solid #bbb;
+  border: 1px solid white;
+  width: 30em;
+  height: 15em;
+  float: right;
+  margin: 3.5em 0 1em 1em;
+  background-image: url("/images/manager_image.jpg");
 }
 #info_box #manager_section p {
   margin-bottom: 2em;
@@ -621,6 +639,15 @@ body #container {
   line-height: 1.2em;
   margin-bottom: 2em;
 }
+#info_box #garden_section .image_container {
+  outline: 1px solid #bbb;
+  border: 1px solid white;
+  width: 30em;
+  height: 15em;
+  float: right;
+  margin: 3.5em 0 1em 1em;
+  background-image: url("/images/garden_image.jpg");
+}
 #info_box #garden_section .back_button a {
   background-image: url("/images/back_button.png");
   background-position: 2px -33px;
@@ -652,6 +679,15 @@ body #container {
   list-style: none;
   list-style-image: url("/images/dot.png");
   padding-bottom: 10px;
+}
+#info_box #pool_section .image_container {
+  outline: 1px solid #bbb;
+  border: 1px solid white;
+  width: 30em;
+  height: 15em;
+  float: right;
+  margin: 3.5em 0 1em 1em;
+  background-image: url("/images/pool_image.jpg");
 }
 #info_box #pool_section p {
   line-height: 1.2em;

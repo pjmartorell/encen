@@ -283,6 +283,11 @@
       }
     }
 
+    .image_container {
+      @include services_image;
+      background-image: url("/images/clean_image.jpg");
+    }
+
     #request{
       a{color: $green-font-color;}
     }
@@ -313,6 +318,11 @@
     @include listado_con_estilo;
     padding-top: 2em;
     padding-bottom: 2em;
+
+    .image_container {
+      @include services_image;
+      background-image: url("/images/manager_image.jpg");
+    }
 
     p{
       margin-bottom: 2em;
@@ -381,6 +391,11 @@
       margin-bottom: 2em;
     }
 
+    .image_container {
+      @include services_image;
+      background-image: url("/images/garden_image.jpg");
+    }
+
     .back_button {
       @include back_button;
       a{
@@ -400,6 +415,11 @@
     @include listado_con_estilo;
     padding-top: 2em;
     padding-bottom: 2em;
+
+    .image_container {
+      @include services_image;
+      background-image: url("/images/pool_image.jpg");
+    }
 
     p{
       line-height: 1.2em;

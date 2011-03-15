@@ -1,98 +1,98 @@
-body.one_col{
+body.one_col {
   #container {
     @include container;
-    #header{
+    #header {
       @include span(24);
-      #menu{
+      #menu {
         @include span(14);
       }
     }
-    #post_header{
+    #post_header {
       @include span(22);
       @include append(1);
       @include prepend(1);
     }
 
-    #info_box{
+    #info_box {
       @include span(24);
 
-      #index{
+      #index {
         @include span(22);
         @include append(1);
         @include prepend(1);
-        #services_list{
+        #services_list {
         @include prepend(1);
-          #first_services_block{
+          #first_services_block {
             @include column(4);
           }
-          .second_services_block{
+          .second_services_block {
             @include column(5);
           }
         }
-        #presupuesto{
+        #presupuesto {
           @include column(5);
         }
       }
 
-      #services{
+      #services {
         @include span(22);
         @include append(1);
         @include prepend(1);
-        .image_description{
+        .image_description {
           @include column(7);
         }
-        .description{
+        .description {
           @include column(12);
         }
       }
 
-      #promotions{
+      #promotions {
         @include span(22);
         @include append(1);
         @include prepend(1);
       }
 
-      #clean_section{
+      #clean_section {
         @include span(22);
         @include append(1);
         @include prepend(1);
       }
 
-      #manager_section{
+      #manager_section {
         @include span(22);
         @include append(1);
         @include prepend(1);
       }
 
-      #garden_section{
+      #garden_section {
         @include span(22);
         @include append(1);
         @include prepend(1);
       }
 
-      #pool_section{
+      #pool_section {
         @include span(22);
         @include append(1);
         @include prepend(1);
       }
 
-      #contact{
+      #contact {
         @include span(22);
         @include append(1);
         @include prepend(1);
 
-        #map_canvas{
+        #map_canvas {
           @include span(15);
         }
       }
 
-      #admin{
+      #admin {
         @include span(22);
         @include append(1);
         @include prepend(1);
       }
 }
-    #footer{
+    #footer {
       @include span(20);
       @include append(2);
       @include prepend(2);
