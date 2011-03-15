@@ -12,6 +12,6 @@ class Contact < ActionMailer::Base
     @zipcode = zipcode
     @fax = fax
 
-    mail :to => "info@mtcserviciosintegrales.com", :subject => "[Web] Nou missatge de #{email}", :cco => "it@itnig.net"
+    mail :to => "info@mtcserviciosintegrales.com", :subject => "[Web] Nou missatge de #{email}", :bcc => "it@itnig.net"
   end
 end
