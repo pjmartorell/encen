@@ -23,5 +23,6 @@ class StaticController < ApplicationController
     end
 
     Contact.new_contact(name, company, phone, email, msg, city, address, zipcode, fax).deliver
+    redirect_to root_url
   end
 end
