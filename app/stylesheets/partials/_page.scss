@@ -288,6 +288,7 @@
       background-image: url("/images/clean_image.jpg");
       background-repeat: no-repeat;
       width: 17em;
+      height: 15em;
     }
 
     #request{
@@ -325,7 +326,8 @@
       @include services_image;
       background-image: url("/images/manager_image.jpg");
       background-repeat: no-repeat;
-      width: 17em;
+      width: 13em;
+      height: 19em;
     }
 
     p{
@@ -399,6 +401,7 @@
       @include services_image;
       background-image: url("/images/garden_image.jpg");
       width: 30em;
+      height: 15em;
     }
 
     .back_button {
@@ -425,6 +428,7 @@
       @include services_image;
       background-image: url("/images/pool_image.jpg");
       width: 30em;
+      height: 15em;
     }
 
     p{
