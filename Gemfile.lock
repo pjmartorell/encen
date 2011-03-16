@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/rogercampos/interpret.git
-  revision: e81ba5c4987897c85a879e5cb38855228f63679e
+  revision: fcfce9464e39ea4cd54d3920d9bc18741c6a06b4
   specs:
     interpret (0.1.4)
       best_in_place (>= 0.1.7)
@@ -58,7 +58,8 @@ GEM
     activesupport (3.0.5)
     arel (2.0.9)
     bcrypt-ruby (2.1.2)
-    best_in_place (0.1.8)
+    best_in_place (0.1.9)
+      rails (~> 3.0.0)
     builder (2.1.2)
     compass (0.10.6)
       haml (>= 3.0.4)
@@ -93,7 +94,7 @@ GEM
     mysql2 (0.2.6)
     orm_adapter (0.0.3)
     polyglot (0.3.1)
-    rack (1.2.1)
+    rack (1.2.2)
     rack-mount (0.6.13)
       rack (>= 1.0.0)
     rack-test (0.5.7)
@@ -133,7 +134,7 @@ GEM
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
-    tzinfo (0.3.24)
+    tzinfo (0.3.25)
     warden (1.0.3)
       rack (>= 1.0.0)
     will_paginate (3.0.pre2)
