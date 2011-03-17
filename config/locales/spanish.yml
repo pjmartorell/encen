@@ -13,8 +13,8 @@ es:
 
   menu:
     home: Inici
-    aboutus: Areas de trabajo
-    seguros: Noticias
+    services: Areas de trabajo
+    news: Noticias
     contact: Contacta
 
   miscellaneous:
@@ -31,7 +31,7 @@ es:
       subtitle1: "Areas de treball"
       paragraph4_html: "Something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers.something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websitessomething quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites."
 
-    particular:
+    services:
       title: "Areas de treball -- Ejemplo Plan Basico"
       subtitle: Areas de treball
       first_paragraph_html: "Something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers.something quickly, comprehensibly and easily; it’s also a way of advertising their products."
@@ -40,13 +40,12 @@ es:
       a1_paragraph2_html: "En aquest sentit, des del nostre Departament Jurídic li oferim la possibilitat de resoldre tots els seus dubtes i si escau de dur a terme la gestió necessària per obtenir el resultat desitjat."
       a1_paragraph3_html: "Si s'actua sense un assessorament previ, possiblement tenir conseqüències legals, que possiblement Vostè no pugui preveure, per falta de coneixements en la matèria."
       a1_service1: "Consultes Juridiques."
-      a1_service2: "Consultes Juridiques"
-      a1_service3: "Divorcis"
-      a1_service4: "Tramitació d'herencias"
-      a1_service5: "Acomiadaments i drets laborals"
-      a1_service6: "Pensions"
-      a1_service7: "Accidents"
-      a1_service8: "Extranjeria"
+      a1_service2: "Divorcis"
+      a1_service3: "Tramitació d'herencias"
+      a1_service4: "Acomiadaments i drets laborals"
+      a1_service5: "Pensions"
+      a1_service6: "Accidents"
+      a1_service7: "Extranjeria"
       area2: "Serveis empresarials"
       a2_paragraph1_html: "Som especialistes en l’assessorament integral d’empreses i negocis autònoms. Abans de crear la seva empresa, consulti’ns quina és la millor forma de fer-ho."
       a2_paragraph2_html: "Si ja té en marxa la el seu negoci, nosaltres li gestionarem. Consulti’ns i li redactarem un pressupost individualitzat i adaptat a les seves necessitats"
@@ -60,7 +59,7 @@ es:
       a3_service2: "Arrendaments"
       a3_service3: "Comunitats de propietaris"
 
-    seguros:
+    news:
       title: "Noticias -- Ejemplo Plan Basico"
       subtitle: Noticias
       paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."

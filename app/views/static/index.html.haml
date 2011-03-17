@@ -10,20 +10,16 @@
 
 .line_separator
 
-
 %h4
   = t(".subtitle1")
 
 %p
   = t(".paragraph4_html")
   .read_more
-    = section_link_to t("read_more", :scope => "miscellaneous"), particular_path
+    = section_link_to t("read_more", :scope => "miscellaneous"), servicios_path
   
 .up_button
   %a{:href => "#"}=t ("up_button", :scope => "miscellaneous")
-
-
-
 
 - content_for :info_box do
   = render 'shared/index'
