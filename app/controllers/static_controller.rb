@@ -1,5 +1,4 @@
 class StaticController < ApplicationController
-  caches_page :administradores, :conserjeria, :contacto, :index, :jardineria, :limpieza, :piscinas, :promociones, :servicios
 
   def question
     render :layout => false
