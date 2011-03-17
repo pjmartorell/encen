@@ -1,15 +1,15 @@
-es: 
+es:
   address: Dirección
   administradores: Administradores
   cancel: Cancelar
   city: Ciudad
   company: Empresa
   contacto: Contacto
-  devise: 
-    confirmations: 
+  devise:
+    confirmations:
       confirmed: "Tu cuenta ha sido confirmada. Ya has accedido a tu cuenta."
       send_instructions: "Recibirás un email con instrucciones para confirmar tu cuenta en poco minutos."
-    failure: 
+    failure:
       inactive: "Tu cuenta no ha sido activada."
       invalid: "Contraseña o Email incorrecto."
       invalid_token: "Token de autenticación incorrecto."
@@ -17,33 +17,33 @@ es:
       timeout: "Tu sesión ha expirado, por favor accede de nuevo para continuar."
       unauthenticated: "Necesitas acceder a tu cuenta o registrarte antes de continuar."
       unconfirmed: "Necesitas confirmar tu cuenta antes de continuar."
-    mailer: 
-      confirmation_instructions: 
+    mailer:
+      confirmation_instructions:
         subject: "Instrucciones de confirmación"
-      reset_password_instructions: 
+      reset_password_instructions:
         subject: "Instrucciones para cambiar tu contraseña"
-      unlock_instructions: 
+      unlock_instructions:
         subject: "Instrucciones para desbloquear tu cuenta"
-    oauth_callbacks: 
+    oauth_callbacks:
       failure: "No has sido autorizado en la cuenta %{kind} porque \"%{reason}\"."
       success: "Has sido autorizado satisfactoriamente de la cuenta %{kind}."
-    passwords: 
+    passwords:
       send_instructions: "Recibirás un email con instrucciones para cambiar tu contraseña en poco minutos."
       updated: "Tu contraseña ha sido modificada. Ya has accedido a tu cuenta."
-    registrations: 
+    registrations:
       destroyed: "!Adiós! Tu cuenta ha sido cancelada. Esperamos verte pronto."
       signed_up: "Te has registrado correctamente. Si está disponible, te habremos enviado un email de confirmación."
       updated: "Has actualizado tu cuenta correctamente."
-    sessions: 
+    sessions:
       signed_in: "Has ingresado correctamente."
       signed_out: "Has salido correctamente."
-    unlocks: 
+    unlocks:
       send_instructions: "Recibirás un email con instrucciones para desbloquear tu cuenta en pocos minutos."
       unlocked: "Tu cuenta ha sido desbloqueada. Ya has accedido a tu cuenta."
   email: Email
   email_missing: "Falta el email"
-  errors: 
-    messages: 
+  errors:
+    messages:
       already_confirmed: "ya ha sido confirmada"
       not_found: "no encontrado"
       not_locked: "no está bloqueada"
@@ -64,8 +64,8 @@ es:
   sending_message: "El mensaje se está enviando"
   servicios: Servicios
   spanish: Castellano
-  static: 
-    administradores: 
+  static:
+    administradores:
       metadescription: "servicio de limpiezas para oficinas,empresas,particulares,garages,parkings,comunidades de vecinos"
       metakeywords: "limpiezas madrid, servicio de limpiezas doficinas,empresas,particulares,comunidades,garages,parkings"
       title: "MTC Limpiezas"
@@ -94,12 +94,12 @@ es:
       metadescription: "servicio de limpiezas para oficinas,empresas,particulares,garages,parkings,comunidades de vecinos"
       metakeywords: "limpiezas madrid, servicio de limpiezas doficinas,empresas,particulares,comunidades,garages,parkings"
       title: "MTC Limpiezas"
-    contacto: 
+    contacto:
       metadescription: "servicio de limpiezas para oficinas,empresas,particulares,garages,parkings,comunidades de vecinos"
       metakeywords: "limpiezas madrid, servicio de limpiezas doficinas,empresas,particulares,comunidades,garages,parkings"
       title: "MTC Limpiezas"
       header: Aqui va la frase principal de esta sección.
-    index: 
+    index:
       clean: Limpieza
       clean1: Comunidades
       clean2: Oficinas
@@ -130,7 +130,7 @@ es:
       title: "Empresas de limpieza en Madrid - MTC Limpiezas Integrales"
     jardineria:
       header: Aqui va la frase principal de esta sección.
-      subtitle: Jardineria 
+      subtitle: Jardineria
       f_paragraph: "En una época en la que la deforestación esta a la orden del día, una época en la que demasiados se empeñan en no otorgarle a la naturaleza el valor que se merece."
       line1: "MTC quiere sembrar su granito de ayuda en esta tierra cargada de nostalgia para llenar de luz los corazones de aquellos que quieran compartir su camino con estos seres mágicos llamados plantas porque las plantas son una parte muy especial de nuestra vida y ha llegado el momento de concederles el espacio que se merecen, de recordar que somos parte de la naturaleza del mismo modo que ellas y que una de las cosas mas hermosas a la que podemos aspirar es a convivir en armonía con cada uno de los seres de la madre Gaia. Para ello MTC dispone de una serie de prestaciones llevadas a cabo con suma profesionalidad, calidad, dominio técnico y lo más importante con mucho amor."
       line10: "Cuidado y poda de árboles y plantas ornamentales."
