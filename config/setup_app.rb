@@ -3,11 +3,11 @@ if ENV['HEROKU'].present?
           :hostname,
           :exception_notification_sender,
           :exception_notification_recipient,
-          :mail__user_name,
-          :mail__password,
+          :mail__account__user_name,
+          :mail__account__password,
           :mail__smtp__address,
           :mail__smtp__port,
-          :mail__domain
+          :mail__smtp__domain
          ]
 
   APP_CONFIG = LazyHash.build_hash
