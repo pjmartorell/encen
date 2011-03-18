@@ -59,10 +59,50 @@ es:
       a3_service2: "Arrendaments"
       a3_service3: "Comunitats de propietaris"
 
-    news:
-      title: "Noticias -- Ejemplo Plan Basico"
-      subtitle: Noticias
-      paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
+    legal:
+      title: "Consultes jurídiques"
+      subtitle: "Consultes jurídiques"
+      paragraph1_html: "Un dels nostres professionals li atendrà en el nostre Despatx, per resoldre els seus dubtes, després de l'examen de la documentació que ens aporti i si escau, li redactarà els escrits que siguin necessaris per a la defensa dels seus interessos."
+
+    divorce:
+      title: "DIVORCIS"
+      subtitle: "DIVORCIS:"
+      paragraph1_html: "El nostre despatx està especialitzat en tot tipus de conflictes matrimonials. De manera confidencial i personalitzada, li assessorarem i representarem per dur a terme la seva separació o divorci de la forma menys traumàtica per a la seva família i més convenient per als seus propis interessos. Tractem especialment totes les qüestions relatives als menors: guarda exclusiva i/o compartida, modificació de mesures, reclamacions de pensions d’aliments, etc..."
+      paragraph2_html: "L’assessorem igualment sobre incapacitacions, ajudant-li a constituir judicialment o resoldre totes les incidències que comporten les tuteles, *curatelas o *prodigalidad."
+
+    heredity:
+      title: "Tramitació d'heréncies"
+      subtitle: "Tramitació d'heréncies"
+      paragraph1_html: "Amb Professionals li ajudarem a realitzar tots els tràmits que comporta l'atorgament del seu testament, a fi de deixar determinades les seves últimes voluntats. D'igual forma li assistirem en l'obertura de l'herència d'un familiar mort, duent a terme la successió *testamentaria (si hi ha testament) o la successió *abintestato (si no hi ha testament) que, en ocasions, requereix una determinació judicial per decidir qui són els hereus de la persona morta. El mateix, si no existeix acord sobre el repartiment de l’herència, instant el corresponent procediment judicial sobre divisió hereditària."
+      paragraph2_html: "Ha de tenir en compte que és important que un professional l’assessori sobre la forma de liquidar l’impost de successions, per evitar que elscostos del tràmit siguin més elevats del que sigui estrictament necessari. L’ajudarem a aplicar les exencions i deduccions legalment existents per reduir al màxim la quota de l’impost."
+      paragraph3_html:
+
+    labor-rights:
+      title: "Acomiadaments i drets laborals"
+      subtitle: "Acomiadaments i drets laborals"
+      paragraph1_html: "Actualment resulta indispensable, tant des del punt de vista de l’empresari com del treballador, conèixer els drets i deures de cada part abans de subscriure un contracte de treball. Cal tenir informació relativa al salari, cotitzacions a la seguretat social, vacances i descansos, normativa sobre prevenció de riscos laborals i classificació professional, entre altres qüestions."
+      paragraph2_html: "Després, durant el desenvolupament de la relació empresari-treballador, són múltiples els conflictes que poden suscitar-se, fent necessari d'acudir a un Advocat en llaures a aconseguir una solució extrajudicialo, en última instància, judicial."
+      paragraph3_html: "Des de l'experiència assolida al nostre Departament de Gestió Laboral, a NOVAGESTIO estem en condicions de resoldre quants conflictes laborals puguin sorgir-li, bé es tracti d'acomiadaments, reclamacions de quantitats degudes, sol·licituds de prestacions de Seguretat Social, conflictes deguts a reconeixement de categoria professional, modificacions de condicions laborals, etc…"
+
+    pension:
+      title: "Pension"
+      subtitle: "Pension"
+      paragraph1_html: "Assessorament previ i gestió de la sol.licitut de prestacions davant la Seguretat Social. Recursos administratius i demandes laborals en matèria de Seguretat Social."
+
+    accident:
+      title: "Accidents"
+      subtitle: "Accidents"
+      paragraph1_html: "La responsabilitat civil, pot venir derivada principalment d'accidents de trànsit i negligències. La nostra Assessoria li gestionarà de forma que pugui aconseguir la millor indemnització. Pèrits especialistes en cada matèria ens ajudaran a aconseguir-la, emetent un informe de valoració de danys personals i/o materials."
+
+    immigration-laws:
+      title: "Extranjeria"
+      subtitle: "Extranjeria"
+      paragraph1_html: "Colaborem amb especialistes en la matèria per facil.litar el seu tràmit de residència, renovació, reagrupació familiar, arrelaments, etc..."
+
+    management-labor:
+      title: ""
+      subtitle: ""
+      paragraph1_html: "Assessorem a l'Empresa en matèria laboral I comptable i fiscal i els mantenim informats de les noves disposicions."
 
     contact:
       title: "Contacto -- Ejemplo Plan Basico"

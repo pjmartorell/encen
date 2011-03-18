@@ -3,8 +3,8 @@
 %h3
   = t ".subtitle"
 
-%p
-  =t ".paragraph1"
+%p=t ".paragraph1_html"
+%p=t ".paragraph2_html"
 
 - content_for :info_box do
   = render 'shared/seguros'
