@@ -1,16 +1,20 @@
 Encen::Application.routes.draw do
-  resources :comments
+  
 
   scope "(:locale)" do
     devise_for :users, :controllers => {:sessions => 'user_sessions'}
-
-    resources :posts
 
     match 'contact', :to => "static#contact"
     match 'gallery', :to => "static#gallery"
 
     namespace :admin do
       resources :users, :except => :index
+
+      resources :posts do
+        resources :comments, :only => :create
+      end
+
+      resources :comments, :only => :destroy
 
       root :to => "users#index"
     end

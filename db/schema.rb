@@ -10,26 +10,25 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110321151644) do
+ActiveRecord::Schema.define(:version => 20110321150734) do
 
   create_table "comments", :force => true do |t|
     t.string   "name"
-    t.string   "mail"
+    t.string   "email"
     t.text     "body"
-    t.integer  "user_id"
     t.integer  "post_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "posts", :force => true do |t|
-    t.date     "date"
+    t.string   "title"
     t.text     "body"
+    t.date     "date"
     t.integer  "user_id"
     t.boolean  "published"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "title"
   end
 
   create_table "translations", :force => true do |t|

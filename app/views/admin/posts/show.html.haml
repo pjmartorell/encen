@@ -1,0 +1,29 @@
+%p
+  %b Title:
+  = @post.title
+%p
+  %b Body:
+  = @post.body
+%p
+  %b Date
+  = @post.date
+%p
+  %b User:
+  = @post.user.email
+%p
+  %b Published:
+  = @post.published
+%br
+%p
+  %span#comments_count
+    %b= pluralize(@post.comments.count, "Comment")
+  %br
+  %br
+  %div#comments
+  - @post.comments.each do |comment|
+    = render "comments/show", :comment => comment
+    %br
+
+= link_to 'Edit', edit_admin_post_path(@post)
+\|
+= link_to 'Back', admin_posts_path

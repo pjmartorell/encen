@@ -1,8 +1,9 @@
 class CreatePosts < ActiveRecord::Migration
   def self.up
     create_table :posts do |t|
-      t.date :date
+      t.string :title
       t.text :body
+      t.date :date
       t.integer :user_id
       t.boolean :published
 

@@ -14,6 +14,7 @@ gem 'heroku'
 group :development, :test do
   gem 'sqlite3-ruby', :require => 'sqlite3'
   gem 'rspec-rails'
+  gem 'ruby-debug'
 end
 
 group :production, :staging do
