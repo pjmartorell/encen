@@ -100,9 +100,47 @@ es:
       paragraph1_html: "Colaborem amb especialistes en la matèria per facil.litar el seu tràmit de residència, renovació, reagrupació familiar, arrelaments, etc..."
 
     management-labor:
-      title: ""
-      subtitle: ""
+      title: "Gestió laboral i fiscal"
+      subtitle: "Gestió laboral i fiscal"
       paragraph1_html: "Assessorem a l'Empresa en matèria laboral I comptable i fiscal i els mantenim informats de les noves disposicions."
+
+    creation-cancellation-societies:
+      title: "Constitució/Liquidació de societats"
+      subtitle: "Constitució/Liquidació de societats"
+      paragraph1_html: "Li assessorem abans de començar el seu negoci i si cal, sobre la millor manera de tancar-lo: formes societàries més adients, redacció d’Estatus, acords de liquidació, adjudicacions als socis dels bens socials, etc."
+      paragraph2_html: "Ens encarreguem dels tràmits necessaris. Així en el cas de constitució gestionem la sol·licitud de la denominació social, redacció dels Estatuts socials, atorgament de l’escriptura constitucional, obtenció del CIF, liquidació de l’impost de transmissions patrimonials i actes jurídics documentats, inscripció al Registre Mercantil etc..."
+      paragraph3_html: "També ens encarreguem de les altes de la seva empresa un cop constituïda al Cens d’empresaris, a la Seguretat Social."
+      paragraph4_html: "En cas de liquidacions de societats, redactem l’Acta i acord de disol.lució amb designació dels liquidadors, atorgament de l’escriptura de disol.lució, gestió y/o assessorament sobre les operacions pendents i repartiment de l’haver social, amb la corresponent inscripció d’escriptures al Registre Mercantil."
+
+    process:
+      title: "Processos concursals"
+      subtitle: "Processos concursals"
+      paragraph1_html: "En situacions de crisis empresarials és necessari un assessorament global en matèria econòmica per donar cobertura a les diferents situacions que d'ella poden derivar-se: refinançaments de deute, defensa dels drets de creditors, assessorament sobre responsabilitat de consellers i administradors, etc."
+      paragraph2_html: "En definitiva es tracta d’intentar superar la situació econòmica negativa si és de caràcter transitori i en cas de crisi no superable, de gestionar d’una forma ràpida i eficaç els interessos dels socis o altres persones interessades en el concurs."
+    
+    real-estate:
+      title: "Compravenda de pisos"
+      subtitle: "Compravenda de pisos"
+      paragraph1_html: "El nostre Departament jurídic actua en coordinació amb l'Immobiliari, del que som especialistes, analitzant iassessorant sobre la redacció de quants documents siguin necessaris per a la conclusió de l'operació corresponent, així com per a la solució de qualsevol conflicte coetani o posterior que pogués sorgir."
+
+    renting:
+      title: "Arrendaments"
+      subtitle: "Arrendaments"
+      paragraph1_html: "Fem estudis econòmic sobre la capacitat econòmica de l’arrendatari. Després, en coordinació amb el nostre Departament Jurídic redactarem el contracte de lloguer i gestionarem el dipòsit de la fiança. A més ens encarreguem del cobrament de la renda i liquidació al propietari, gestions d’actualització del lloguer, etc..."
+      paragraph2_html: "A més, estem a la seva disposició per assistir-li en totes les incidències que els mateixos poden arribar a plantejar, en cas d’incompliment contractual per part del llogater, gestionant directament reclamacions judicials de quantitat i desnonaments"
+    
+    owners:
+      title: "Comunitats de propietaris"
+      subtitle: "Comunitats de propietaris"
+      paragraph1_html: "El nostre Despatx està a la seva disposició per la gestió integral de la seva Comunitat de Propietaris."
+      sub_service1: "Constitució, obtenció del CIF i redacció dels Estatuts."
+      sub_service2: "Legalització del llibre d’Actes"
+      sub_service3: "Convocatòria, preparació i adreça de Reunions Ordinàries i Extraordinàries."
+      sub_service4: "Control pressupostari (ingressos, despeses i provisió de fons)."
+      sub_service5: "Gestió administrativa dels processos de cobrament de rebuts i resolució d'incidències."
+      sub_service6: "Sol·licitud de pressupostos i gestió de subvencions."
+      sub_service7: "Presentació de pòlisses per a cobertura de riscos."
+      sub_service8: "Assessorament legal."
 
     contact:
       title: "Contacto -- Ejemplo Plan Basico"

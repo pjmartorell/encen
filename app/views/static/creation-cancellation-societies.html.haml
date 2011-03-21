@@ -1,10 +1,11 @@
 - title t(".title")
 
-%h3
-  = t ".subtitle"
+%h3= t ".subtitle"
 
-%p
-  =t ".paragraph1"
+%p=t ".paragraph1_html"
+%p=t ".paragraph2_html"
+%p=t ".paragraph3_html"
+%p=t ".paragraph4_html"
 
 - content_for :info_box do
   = render 'shared/seguros'
