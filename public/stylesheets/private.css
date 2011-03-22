@@ -268,7 +268,7 @@ body.bp .bottom {
   padding-bottom: 0;
 }
 body.bp .showgrid {
-  background: url('/images/grid.png?1296398675');
+  background: url('/images/grid.png?1299661905');
 }
 body.bp .error {
   padding: 0.8em;
@@ -410,6 +410,15 @@ form.bp input.text, form.bp input.title, form.bp input[type=email], form.bp inpu
 form.bp textarea {
   width: 390px;
   height: 250px;
+}
+
+.asset_picker {
+  width: 200px;
+  float: right;
+}
+
+.cke_1 {
+  width: 730px;
 }
 
 body.bp {

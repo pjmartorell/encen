@@ -5,7 +5,7 @@
       %ul
         - @post.errors.full_messages.each do |msg|
           %li= msg
-
+  =render "asset-picker"
   =f.input :title, :label => "Title"
   =f.input :body, :label => "Body", :input_html => { :class => "editor" }
   =f.input :published, :label => "Publish?"
