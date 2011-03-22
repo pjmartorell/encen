@@ -12,9 +12,11 @@ Encen::Application.routes.draw do
 
       resources :posts do
         resources :comments, :only => :create
+        resources :images, :only => :create
       end
 
       resources :comments, :only => :destroy
+      resources :images, :only => :destroy
 
       root :to => "users#index"
     end

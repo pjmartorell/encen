@@ -1,0 +1,3 @@
+%div{ :id => "image-#{image.id}" }
+  = image_tag(image.file.url)
+  = button_to "Delete", admin_image_path(image), :method => :delete, :remote => true, :confirm => "N'estas segur?"

@@ -1,3 +1,5 @@
+- unless @post.new_record?
+  =render "asset-picker"
 = simple_form_for [:admin, @post] do |f|
   -if @post.errors.any?
     #error_explanation
@@ -5,8 +7,8 @@
       %ul
         - @post.errors.full_messages.each do |msg|
           %li= msg
-  =render "asset-picker"
   =f.input :title, :label => "Title"
-  =f.input :body, :label => "Body", :input_html => { :class => "editor" }
-  =f.input :published, :label => "Publish?"
-  =f.button :submit, @post.new_record? ? "Crear" : "Actualitzar"
+  - unless @post.new_record?
+    =f.input :body, :label => "Body", :input_html => { :class => "editor" }
+    =f.input :published, :label => "Publish it"
+  =f.button :submit, @post.new_record? ? "Crear" : "Actualitzar", :id => "editor-button"
