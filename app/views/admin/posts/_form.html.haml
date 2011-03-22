@@ -7,6 +7,6 @@
           %li= msg
 
   =f.input :title, :label => "Title"
-  =f.input :body, :label => "Body"
+  =f.input :body, :label => "Body", :input_html => { :class => "editor" }
   =f.input :published, :label => "Publish?"
   =f.button :submit, @post.new_record? ? "Crear" : "Actualitzar"
