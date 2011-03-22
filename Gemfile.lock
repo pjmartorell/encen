@@ -61,6 +61,8 @@ GEM
     best_in_place (0.1.9)
       rails (~> 3.0.0)
     builder (2.1.2)
+    carrierwave (0.5.2)
+      activesupport (~> 3.0)
     columnize (0.3.2)
     compass (0.10.6)
       haml (>= 3.0.4)
@@ -151,6 +153,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  carrierwave
   compass (~> 0.10.6)
   devise!
   exception_notification!
