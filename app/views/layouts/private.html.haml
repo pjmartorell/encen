@@ -20,9 +20,8 @@
         = yield
 
     %script{:type => "text/javascript", :src  => "http://www.google.com/jsapi?key=ABQIAAAALy3hj-F80ucolZq1sevJGxQy9TusGK6D_dw7xKWtcTJbKPyiEhQ2HXkEN9UJJowAVIun52JrUbnugQ"}
-    :javascript
-      google.load("jquery", "1.4.4");
-      google.load("jqueryui", "1.8.8")
+    = javascript_include_tag "jquery-1.5.1"
+    = javascript_include_tag "jquery-ui-1.8.11.min"
     = javascript_include_tag "jquery.form"
     = javascript_include_tag "ckeditor/ckeditor"
     = javascript_include_tag "ckeditor/adapters/jquery"

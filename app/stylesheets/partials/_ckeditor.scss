@@ -1,6 +1,43 @@
 .asset_picker{
-  width: 200px;
+  width: 280px;
   height: 550px;
   float: right;
   overflow: auto;
+}
+
+// Show image on hover
+#images .image {
+  position: relative;
+}
+
+#images .destroy{
+  position: absolute;
+  right: 5px;
+  bottom: 55px;
+  display: none;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  background: url("/images/destroy.png") no-repeat 0 0;
+}
+
+#images span:hover .destroy{
+  display: block;
+}
+
+#images .destroy:hover {
+  background-position: 0 -20px;
+}
+
+// Hide form and sons
+#images form{
+  display: none;
+}
+
+#images form div{
+  display: none;
+}
+
+#images form div input{
+  display: none;
 }

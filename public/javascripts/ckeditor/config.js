@@ -20,6 +20,6 @@ CKEDITOR.editorConfig = function(config){
       ['Print','About']
     ];
   config.toolbar = "Custom";
-  config.width = "730px";
+  config.width = "650px";
   config.height = "250px";
 };
