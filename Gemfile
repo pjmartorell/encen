@@ -12,6 +12,7 @@ gem 'simple_form'
 gem 'heroku'
 
 gem 'carrierwave'
+gem 'mini_magick'
 
 group :development, :test do
   gem 'sqlite3-ruby', :require => 'sqlite3'
