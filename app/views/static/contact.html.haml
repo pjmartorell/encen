@@ -4,24 +4,18 @@
   = t ".subtitle"
 
 #contact_info
-  .contact_titles
-    %p= t ".address_title"
+  %h4= t ".address_title"
 
-  .contact_answere
-    %p= t ".address"
-  
-  .contact_titles
-    %p= t ".tel_title"
+  %p= t ".address"
 
-  .contact_answere
-    %p= t ".tel"
-    %p= t ".fax"
-  
-  .contact_titles
-    %p= t ".email_title"
+  %h4= t ".tel_title"
 
-  .contact_answere
-    = mail_to 'info@nova-gestion.cat', nil, :encode => :hex
+  %p= t ".tel"
+  %p= t ".fax"
+
+  %h4= t ".email_title"
+
+  = mail_to 'info@nova-gestion.cat', nil, :encode => :hex
   
   
 #map_canvas

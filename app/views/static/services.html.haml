@@ -1,41 +1,55 @@
 - title t(".title")
 
-%h3= t ".subtitle"
+#services
+  %h3= t ".subtitle"
 
-%p=t ".first_paragraph_html"
+  %p.intro=t ".first_paragraph_html"
 
-.line_separator
+  .line_separator
 
-%h4= t(".area1")
-%p= t(".a1_paragraph1_html")
-%p= t(".a1_paragraph2_html")
-%p= t(".a1_paragraph3_html")
+  %h4= t(".area1")
+  %p= t(".a1_paragraph1_html")
+  %p= t(".a1_paragraph2_html")
+  
+  %p= t(".a1_paragraph3_html")
+  
+  .subservices_list
+    %h5 Subservicios
+    %ul.big_list
+      %li=link_to (t :".a1_service1"), juridico_path,:title => t(".a1_service1")
+      %li=link_to (t :".a1_service2"), divorcio_path,:title => t(".a1_service2")
+      %li=link_to (t :".a1_service3"), herencia_path,:title => t(".a1_service3")
+    %ul.big_list
+      %li=link_to (t :".a1_service4"), derecho_laboral_path,:title => t(".a1_service4")
+      %li=link_to (t :".a1_service5"), pension_path,:title => t(".a1_service5")
+      %li=link_to (t :".a1_service6"), accidente_path,:title => t(".a1_service6")
+      %li=link_to (t :".a1_service7"), extranjeria_path,:title => t(".a1_service7")
+  
+  .line_separator
 
-%ul
-  %li=link_to (t :".a1_service1"), juridico_path,:title => t(".a1_service1")
-  %li=link_to (t :".a1_service2"), divorcio_path,:title => t(".a1_service2")
-  %li=link_to (t :".a1_service3"), herencia_path,:title => t(".a1_service3")
-  %li=link_to (t :".a1_service4"), derecho_laboral_path,:title => t(".a1_service4")
-  %li=link_to (t :".a1_service5"), pension_path,:title => t(".a1_service5")
-  %li=link_to (t :".a1_service6"), accidente_path,:title => t(".a1_service6")
-  %li=link_to (t :".a1_service7"), extranjeria_path,:title => t(".a1_service7")
+  %h4= t(".area2")
+  %p= t(".a2_paragraph1_html")
+  %p= t(".a2_paragraph2_html")
+  
+  .subservices_list
+    %h5 Subservicios
+    %ul
+      %li=link_to (t :".a2_service1"), gestion_laboral_path,:title => t(".a2_service1")
+      %li=link_to (t :".a2_service2"), creacion_cancelacion_sociedades_path,:title => t(".a2_service2")
+      %li=link_to (t :".a2_service3"), procesos_path,:title => t(".a2_service3")
 
-%h4= t(".area2")
-%p= t(".a2_paragraph1_html")
-%p= t(".a2_paragraph2_html")
-%ul
-  %li=link_to (t :".a2_service1"), gestion_laboral_path,:title => t(".a2_service1")
-  %li=link_to (t :".a2_service2"), creacion_cancelacion_sociedades_path,:title => t(".a2_service2")
-  %li=link_to (t :".a2_service3"), procesos_path,:title => t(".a2_service3")
-
-
-%h4= t(".area3")
-%p= t(".a3_paragraph1_html")
-%p= t(".a3_paragraph2_html")
-%ul
-  %li=link_to (t :".a3_service1"), compra_venta_bienes_path,:title => t(".a3_service1")
-  %li=link_to (t :".a3_service2"), arrendamientos_path,:title => t(".a3_service2")
-  %li=link_to (t :".a3_service3"), propietarios_path,:title => t(".a3_service3")
+  .line_separator
+    
+  %h4= t(".area3")
+  %p= t(".a3_paragraph1_html")
+  %p= t(".a3_paragraph2_html")
+  
+  .subservices_list
+    %h5 Subservicios
+    %ul
+      %li=link_to (t :".a3_service1"), compra_venta_bienes_path,:title => t(".a3_service1")
+      %li=link_to (t :".a3_service2"), arrendamientos_path,:title => t(".a3_service2")
+      %li=link_to (t :".a3_service3"), propietarios_path,:title => t(".a3_service3")
 
 
 - content_for :info_box do
