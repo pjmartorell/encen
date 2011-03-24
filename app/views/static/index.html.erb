@@ -54,12 +54,13 @@
   <div class="line_separation"></div>
 
   <div id="news_area">
-    <h3><%=t('.news') %></h3>
+    <h3><%=link_to t('.news'), noticias_path %></h3>
     <ul>
-      <li><%= link_to (t :".flash_news1"), noticias_path, :title => t(".title_news") %></li>
-      <li><%= link_to (t :".flash_news2"), noticias_path, :title => t(".title_news") %></li>
-      <li><%= link_to (t :".flash_news3"), noticias_path, :title => t(".title_news") %></li>
-      <li><%= link_to (t :".flash_news4"), noticias_path, :title => t(".title_news") %></li>
+      <% @posts.each do |post| %>
+        <li>
+          <%= post.title %>
+        </li>
+      <% end %>
     </ul>
   </div>
 
