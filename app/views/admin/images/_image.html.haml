@@ -1,12 +1,13 @@
 %span{ :id => "image-#{image.id}", :class => "image" }
-  = image_tag(image.file.thumb.url)
+  = image_tag(image.file.thumb.url, :class => "placeholder")
   = button_to "Destroy", admin_image_path(image), { :method => :delete, :remote => true, :confirm => "N'estas segur?"}
   %span{ :id => "destroy-image-#{image.id}", :class => "destroy" }
 
 - content_for :custom_js do
   :javascript
     $(document).ready(function() {
-      $("#destroy-image-#{image.id}").click(function(){
+      initImageDelete("image-#{image.id}");
+      $().click(function(){
         if(confirm("N'estas segur?")){
           $("#image-#{image.id} > .button_to").ajaxSubmit();
         }
