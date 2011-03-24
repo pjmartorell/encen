@@ -7,6 +7,8 @@ class Post < ActiveRecord::Base
   validates_presence_of :body, :on => :update
   validates_presence_of :date
 
+  scope :published, where(:published => true).order("created_at DESC")
+
   def to_s
     title
   end
