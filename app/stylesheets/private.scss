@@ -4,13 +4,14 @@
 // Import all the default blueprint modules so that we can access their mixins.
 @import "blueprint";
 
-// To configure blueprint, edit the partials/base.sass file.
+// Combine the partials into a single screen stylesheet.
 @import "private_partials/base";
+@import "private_partials/page";
+@import "private_partials/form";
 
-// Combine the partials into a single screen stylesheet.
-@import "private_partials/private_style";
-
-// Combine the partials into a single screen stylesheet.
-@import "partials/ckeditor";
+@import "private_partials/ckeditor";
 
 @import "compass/utilities/lists/inline-list";
+
+// Main
+@import "private_partials/main";

@@ -33,6 +33,7 @@
       #main
         = yield
       #footer= render :partial => "shared/footer"
+
     %script{:src => "http://www.google.com/jsapi?key=ABQIAAAA0ylfVAz-VO81YNZU6tZcBBQmeMglRFmXFoqbXzJidjd95_9FnxR5zSzQGNAQ-NQNKLi_4635iBfvLA", :type => "text/javascript"}
     :javascript
       google.load("jquery", "1.4.4");
@@ -46,6 +47,8 @@
     = javascript_include_tag "ckeditor-load"
     %script{:src => "http://maps.google.com/maps/api/js?sensor=false", :type => "text/javascript"}
     = javascript_include_tag "application"
+    = javascript_include_tag "rails"
+    = javascript_include_tag "ckeditor-load"
     = yield :custom_js
     :javascript
       var _gaq = _gaq || [];
