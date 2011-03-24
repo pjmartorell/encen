@@ -1,0 +1,62 @@
+!!! 5
+%html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => I18n.locale }
+  %head
+    %title= yield :title
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}
+    %meta{:content => yield(:meta_keywords), :name => "keywords"}
+    %meta{:content => yield(:meta_description), :name => "description"}
+    %meta{:content => "Itnig", :name => "author"}
+    %meta{:content => "Itnig", :name => "generator"}
+    %meta{:content => "Itnig", :name => "origen"}
+    %meta{:content => "Barcelona, Espa\303\261a", :name => "Locality"}/
+    %meta{:content => "es", :name => "Language"}/
+    %meta{:content => "ca", :name => "Language"}/
+    %meta{:content => "INDEX,FOLLOW", :name => "robots"}/
+    %meta{:content => "ES-CT", :name => "geo.region"}/
+    %meta{:content => "Barcelona", :name => "geo.placename"}/
+    %meta{:content => "41.397124;2.162625", :name => "geo.position"}/
+    %meta{:content => "41.397124, 2.162625", :name => "ICBM"}/
+    %meta{:content => "4cJME4OjPG9G8zZAmNXQr3YwD8uPEOWfBycCM0KL1JU", :name => "google-site-verification"}/
+    = csrf_meta_tag
+    = stylesheet_link_tag 'screen', :media => :screen
+    = stylesheet_link_tag 'print', :media => :print
+    /[if lt IE 8 ]
+      = stylesheet_link_tag 'ie', :media => 'screen, projection'
+  %body.one_col
+    #container
+      #pre_header
+        #menu_language= render :partial => "shared/menu_language"
+        #signin
+          %a{:href => "http://intranet.drassociats.es"}= t('id')
+      #menu
+        = render :partial => "shared/menu"
+      #main
+        = yield
+      #footer= render :partial => "shared/footer"
+    %script{:src => "http://www.google.com/jsapi?key=ABQIAAAA0ylfVAz-VO81YNZU6tZcBBQmeMglRFmXFoqbXzJidjd95_9FnxR5zSzQGNAQ-NQNKLi_4635iBfvLA", :type => "text/javascript"}
+    :javascript
+      google.load("jquery", "1.4.4");
+      google.load("jqueryui", "1.8.8")
+    %script{:src => "http://maps.google.com/maps/api/js?sensor=false", :type => "text/javascript"}
+    = javascript_include_tag "ckeditor/ckeditor"
+    = javascript_include_tag "ckeditor/adapters/jquery"
+    = javascript_include_tag "ckeditor/config"
+    = javascript_include_tag "application"
+    = javascript_include_tag "rails"
+    = javascript_include_tag "ckeditor-load"
+    %script{:src => "http://maps.google.com/maps/api/js?sensor=false", :type => "text/javascript"}
+    = javascript_include_tag "application"
+    = yield :custom_js
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-19218922-1']);
+      _gaq.push(['_setDomainName', 'none']);
+      _gaq.push(['_setAllowLinker', true]);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+

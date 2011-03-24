@@ -1,0 +1,19 @@
+%p
+  %b Title:
+  = @post.title
+%p
+  %b Body:
+  = @post.body
+%p
+  %b Date
+  = @post.date
+%p
+  %b User:
+  = @post.user.email
+%p
+  %b Published:
+  = @post.published
+%br
+%p
+  = render "comments"
+

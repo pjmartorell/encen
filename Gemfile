@@ -11,9 +11,13 @@ gem 'interpret', :git => "git://github.com/rogercampos/interpret.git"
 gem 'simple_form'
 gem 'heroku'
 
+gem 'carrierwave'
+gem 'mini_magick'
+
 group :development, :test do
   gem 'sqlite3-ruby', :require => 'sqlite3'
   gem 'rspec-rails'
+  gem 'ruby-debug'
 end
 
 group :production, :staging do

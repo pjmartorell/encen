@@ -1,0 +1,27 @@
+%h1 Listing posts
+
+%table
+  %tr
+    %th Title
+    %th Date
+    %th User
+    %th Comments
+    %th Published
+    %th
+    %th
+    %th
+
+  - @posts.each do |post|
+    %tr
+      %td= post.title
+      %td= post.date
+      %td= post.user.email
+      %td= post.comments.size
+      %td= post.published ? "Sí" : "No"
+      %td= link_to 'Show', [:admin, post]
+      %td= link_to 'Edit', edit_admin_post_path(post)
+      %td= button_to 'Destroy', admin_post_path(post), :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Post', new_admin_post_path

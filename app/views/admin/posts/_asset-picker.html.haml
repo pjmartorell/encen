@@ -1,0 +1,22 @@
+.asset_picker
+  %b Upload image:
+  = render "admin/images/form", :post => @post
+  #images
+    - @post.images.each do |image|
+      = render "admin/images/image", :image => image
+
+- content_for :custom_js do
+  :javascript
+    $(document).ready(function() {
+      $('#new_image input').change(function(){
+        $(this).parent().parent().ajaxSubmit({
+          beforeSubmit: function(a,f,o) {
+            o.dataType = 'json';
+          },
+          complete: function(XMLHttpRequest, textStatus) {
+            $("#images").append(XMLHttpRequest.responseText);
+          },
+        });
+
+      });
+    });
