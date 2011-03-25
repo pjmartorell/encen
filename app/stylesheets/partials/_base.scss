@@ -1,5 +1,8 @@
 @import "partials/one_col";
 @import "compass/css3/box-shadow";
+@import "compass/css3/font-face";
+@import "compass/css3/text-shadow";
+
 
 
 // Here is where you can define your constants for your application and to configure the blueprint framework.
@@ -13,14 +16,22 @@ $blueprint-grid-margin: 10px;
 // you can make a new grid background image from the command line like this:
 // compass grid-img 30+10x16
 
-$main-font-family: "Hoefler Text","Garamond","Times", serif;
-$title-font-family: "Times New Roman, Times New Roman, Times, serif";
+$main-font-family: "champagne";
+$title-font-family: "walkway_oblique";
+$bold-title:"walkway_bold";
+
 $main-font-color: #d9cdc2;
 $brown-font-color: #27211c;
-$wheat-font-color: #e3bd8d;
-$main-font-size: 1.2em;
-$title-font-size: 2em;
 $back-brown-color: #27211c;
+$wheat-font-color: #e3b778;
+
+$main-font-size: 1.3em;
+$title-font-size: 1.5em;
+
+//Extra fonts.
+@include font-face("champagne", font-files("/fonts/champagne.ttf", truetype));
+@include font-face("walkway_oblique", font-files("/fonts/walkway_oblique.ttf", truetype));
+@include font-face("walkway_bold", font-files("/fonts/walkway_ultra_bold.ttf", truetype));
 
 
 .clear {
@@ -34,7 +45,7 @@ $back-brown-color: #27211c;
 }
 
 .line_separator{
-  background-image: url("/images/line_space.png");
+  background-image: url("/images/line_space2.png");
   background-repeat: repeat-x;
   margin-top: 4em;
   padding-bottom: 4em;
@@ -43,10 +54,57 @@ $back-brown-color: #27211c;
 }
 
 body{
+  background-image: url("/images/bg.png");
 	margin: 0 auto;
-	#container{
-	  @include box-shadow(#ccc, 0, -29px, 25px, 1px);
-		font-family: $main-font-family;
-		text-align: justify;
+	font-family: $main-font-family;
+	font-size: $main-font-size;
+	color: $main-font-color;
+	text-align: justify;
+	h1{
+	  font-size: 4em;
+	  line-height: 0;
 	}
+	h3{
+	  font-size: 2.5em;
+	}
+	h4{
+	  font-size: 1.5em;
+	}
+  h1,h2{
+    font-family: $bold-title;
+    color: $brown-font-color;
+    letter-spacing: 0.1em;
+  }
+  h3,h4{
+    font-family: $title-font-family;
+    letter-spacing: 0.06em;
+    color: white;
+  }
+  h5{
+    font-family: $title-font-family;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    color: white;
+  }
+  p{
+    font-family: $main-font-family;
+    color: $main-font-color;
+    letter-spacing: 0.08em;
+    line-height: 1.8em;
+    text-indent: 2em;
+  }
+  li {
+    list-style: none;
+    font-family: $main-font-family;
+    color: $main-font-color;
+  }
+  a{
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    color: $main-font-color;
+    font-family: $main-font-family;
+  }
+  #container{
+    @include box-shadow(#847e66, 0, 0, 29px,-5px);
+  }
 }

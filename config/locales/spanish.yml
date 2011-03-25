@@ -13,13 +13,13 @@ es:
 
   menu:
     home: Inici
-    aboutus: Areas de trabajo
-    seguros: Noticias
+    services: Areas de trabajo
+    news: Noticias
     contact: Contacta
 
   miscellaneous:
     read_more: "Leer más"
-    up_button: "Arriba"
+    up_button: "Subir"
 
   static:
     index:
@@ -29,24 +29,23 @@ es:
       paragraph2_html: "A NOVAGESTIO, prestem serveis integrals d'Assessorament legal i de Gestió Empresarial, pel que trobarà resposta a les necessitats de la seva empresa o negoci."
       paragraph3_html: "A més, a través del nostre Bufet d'Advocats solucionarà eficaçment els seus problemes judicials ja siguin de tipus laboral, civil general, com de dret privat, ja que som especialistes en dret de família i successions."
       subtitle1: "Areas de treball"
-      paragraph4_html: "Something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers.something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websitessomething quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites."
+      paragraph4_html: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac dui metus, a volutpat lorem. Ut augue enim, luctus in tincidunt vel, mattis ac elit. Suspendisse potenti. Nunc adipiscing nibh ac dolor dictum quis facilisis massa lacinia. Fusce vulputate magna nec enim rutrum vulputate.Etiam rutrum lacus id lectus eleifend a pulvinar elit egestas. Suspendisse ligula lectus, viverra eget aliquam at, volutpat et lectus."
 
-    particular:
+    services:
       title: "Areas de treball -- Ejemplo Plan Basico"
       subtitle: Areas de treball
-      first_paragraph_html: "Something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers.something quickly, comprehensibly and easily; it’s also a way of advertising their products."
+      first_paragraph_html: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Suspendisse potenti. Nunc adipiscing nibh ac dolor dictum quis facilisis massa lacinia. Fusce vulputate magna nec enim rutrum vulputate."
       area1: "A particulars"
       a1_paragraph1_html: "Existeixen fets especialment rellevants en la nostra vida, en els quals necessitem un assessorament previ per evitar conseqüències legals no desitjades. Així, abans de signar un contracte de qualsevol tipus, d'atorgar testament, de formular una sol·licitud consultar sobre l'oportunitat de la seva actuació i la millor manera de realitzar-la."
       a1_paragraph2_html: "En aquest sentit, des del nostre Departament Jurídic li oferim la possibilitat de resoldre tots els seus dubtes i si escau de dur a terme la gestió necessària per obtenir el resultat desitjat."
       a1_paragraph3_html: "Si s'actua sense un assessorament previ, possiblement tenir conseqüències legals, que possiblement Vostè no pugui preveure, per falta de coneixements en la matèria."
-      a1_service1: "Consultes Juridiques."
-      a1_service2: "Consultes Juridiques"
-      a1_service3: "Divorcis"
-      a1_service4: "Tramitació d'herencias"
-      a1_service5: "Acomiadaments i drets laborals"
-      a1_service6: "Pensions"
-      a1_service7: "Accidents"
-      a1_service8: "Extranjeria"
+      a1_service1: "Consultes Juridiques"
+      a1_service2: "Divorcis"
+      a1_service3: "Tramitació d'herencias"
+      a1_service4: "Acomiadaments i drets laborals"
+      a1_service5: "Pensions"
+      a1_service6: "Accidents"
+      a1_service7: "Extranjeria"
       area2: "Serveis empresarials"
       a2_paragraph1_html: "Som especialistes en l’assessorament integral d’empreses i negocis autònoms. Abans de crear la seva empresa, consulti’ns quina és la millor forma de fer-ho."
       a2_paragraph2_html: "Si ja té en marxa la el seu negoci, nosaltres li gestionarem. Consulti’ns i li redactarem un pressupost individualitzat i adaptat a les seves necessitats"
@@ -55,15 +54,108 @@ es:
       a2_service3: "Processos concursals"
       area3: "Administracio de finques"
       a3_paragraph1_html: "A través del nostre Despatx, podrà gestionar el seu patrimoni immobiliari d’una forma integral, eficaç i econòmica."
-      a3_paragraph2_html: "Tenim una resposta específica per les necessitats de gestió dels seus immobles"
+      a3_paragraph2_html: "Tenim una resposta específica per les necessitats de gestió dels seus immobles.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
       a3_service1: "Compravenda de pisos"
       a3_service2: "Arrendaments"
       a3_service3: "Comunitats de propietaris"
 
-    seguros:
-      title: "Noticias -- Ejemplo Plan Basico"
-      subtitle: Noticias
-      paragraph1: "When people think about how to start screencasting, they often forget that screencasting is not only a very interesting way of showing something quickly, comprehensibly and easily; it’s also a way of advertising their products. It's a shame to see how many websites out there lack a beautiful looking screencast, as this can make products look a lot more attractive to potential customers."
+    legal:
+      title: "Consultes jurídiques"
+      subtitle: "Consultes jurídiques"
+      paragraph1_html: "Un dels nostres professionals li atendrà en el nostre Despatx, per resoldre els seus dubtes, després de l'examen de la documentació que ens aporti i si escau, li redactarà els escrits que siguin necessaris per a la defensa dels seus interessos."
+
+    divorce:
+      title: "DIVORCIS"
+      subtitle: "DIVORCIS:"
+      paragraph1_html: "El nostre despatx està especialitzat en tot tipus de conflictes matrimonials. De manera confidencial i personalitzada, li assessorarem i representarem per dur a terme la seva separació o divorci de la forma menys traumàtica per a la seva família i més convenient per als seus propis interessos. Tractem especialment totes les qüestions relatives als menors: guarda exclusiva i/o compartida, modificació de mesures, reclamacions de pensions d’aliments, etc..."
+      paragraph2_html: "L’assessorem igualment sobre incapacitacions, ajudant-li a constituir judicialment o resoldre totes les incidències que comporten les tuteles, *curatelas o *prodigalidad."
+
+    heredity:
+      title: "Tramitació d'heréncies"
+      subtitle: "Tramitació d'heréncies"
+      paragraph1_html: "Amb Professionals li ajudarem a realitzar tots els tràmits que comporta l'atorgament del seu testament, a fi de deixar determinades les seves últimes voluntats. D'igual forma li assistirem en l'obertura de l'herència d'un familiar mort, duent a terme la successió *testamentaria (si hi ha testament) o la successió *abintestato (si no hi ha testament) que, en ocasions, requereix una determinació judicial per decidir qui són els hereus de la persona morta. El mateix, si no existeix acord sobre el repartiment de l’herència, instant el corresponent procediment judicial sobre divisió hereditària."
+      paragraph2_html: "Ha de tenir en compte que és important que un professional l’assessori sobre la forma de liquidar l’impost de successions, per evitar que elscostos del tràmit siguin més elevats del que sigui estrictament necessari. L’ajudarem a aplicar les exencions i deduccions legalment existents per reduir al màxim la quota de l’impost."
+      paragraph3_html:
+
+    labor-rights:
+      title: "Acomiadaments i drets laborals"
+      subtitle: "Acomiadaments i drets laborals"
+      paragraph1_html: "Actualment resulta indispensable, tant des del punt de vista de l’empresari com del treballador, conèixer els drets i deures de cada part abans de subscriure un contracte de treball. Cal tenir informació relativa al salari, cotitzacions a la seguretat social, vacances i descansos, normativa sobre prevenció de riscos laborals i classificació professional, entre altres qüestions."
+      paragraph2_html: "Després, durant el desenvolupament de la relació empresari-treballador, són múltiples els conflictes que poden suscitar-se, fent necessari d'acudir a un Advocat en llaures a aconseguir una solució extrajudicialo, en última instància, judicial."
+      paragraph3_html: "Des de l'experiència assolida al nostre Departament de Gestió Laboral, a NOVAGESTIO estem en condicions de resoldre quants conflictes laborals puguin sorgir-li, bé es tracti d'acomiadaments, reclamacions de quantitats degudes, sol·licituds de prestacions de Seguretat Social, conflictes deguts a reconeixement de categoria professional, modificacions de condicions laborals, etc…"
+
+    pension:
+      title: "Pension"
+      subtitle: "Pension"
+      paragraph1_html: "Assessorament previ i gestió de la sol.licitut de prestacions davant la Seguretat Social. Recursos administratius i demandes laborals en matèria de Seguretat Social."
+
+    accident:
+      title: "Accidents"
+      subtitle: "Accidents"
+      paragraph1_html: "La responsabilitat civil, pot venir derivada principalment d'accidents de trànsit i negligències. La nostra Assessoria li gestionarà de forma que pugui aconseguir la millor indemnització. Pèrits especialistes en cada matèria ens ajudaran a aconseguir-la, emetent un informe de valoració de danys personals i/o materials."
+
+    immigration-laws:
+      title: "Extranjeria"
+      subtitle: "Extranjeria"
+      paragraph1_html: "Colaborem amb especialistes en la matèria per facil.litar el seu tràmit de residència, renovació, reagrupació familiar, arrelaments, etc..."
+
+    management-labor:
+      title: "Gestió laboral i fiscal"
+      subtitle: "Gestió laboral i fiscal"
+      paragraph1_html: "Assessorem a l'Empresa en matèria laboral I comptable i fiscal i els mantenim informats de les noves disposicions."
+      service1: "GESTIÓ LABORAL :"
+      sub_service1: "Confecció dels rebuts de salaris."
+      sub_service2: "Confecció butlletins de cotització."
+      sub_service3: "Confecció de contractes de treball i presentació en oficina d'Ocupació."
+      sub_service4: "Altes i baixes en Seguretat Social."
+      sub_service5: "Assistència davant la Inspecció de treball."
+      sub_service6: "Assistència a acomiadaments en *CMAC i Jutjat Social."
+      sub_service7: "Expedients de regulació d'ocupació"
+      service2: "GESTIÓ LABORAL :"
+      sub2_service1: "Elaboració mecanitzada de la comptabilitat."
+      sub2_service2: "Planificació fiscal."
+      sub2_service3: "Elaboració de llibres oficials i gestió de legalització en el Registre Mercantil."
+      sub2_service4: "Elaboració i dipòsit de la Comptes Anuals."
+      sub2_service5: "Inspeccions tributàries, recursos i reclamacions administratives i contenciós-administratiu."
+      sub2_service6: "Confecció de tots els tributs de les Empreses (IVA, IRPF, SOCIETATS, etc)"
+
+    creation-cancellation-societies:
+      title: "Constitució/Liquidació de societats"
+      subtitle: "Constitució/Liquidació de societats"
+      paragraph1_html: "Li assessorem abans de començar el seu negoci i si cal, sobre la millor manera de tancar-lo: formes societàries més adients, redacció d’Estatus, acords de liquidació, adjudicacions als socis dels bens socials, etc."
+      paragraph2_html: "Ens encarreguem dels tràmits necessaris. Així en el cas de constitució gestionem la sol·licitud de la denominació social, redacció dels Estatuts socials, atorgament de l’escriptura constitucional, obtenció del CIF, liquidació de l’impost de transmissions patrimonials i actes jurídics documentats, inscripció al Registre Mercantil etc..."
+      paragraph3_html: "També ens encarreguem de les altes de la seva empresa un cop constituïda al Cens d’empresaris, a la Seguretat Social."
+      paragraph4_html: "En cas de liquidacions de societats, redactem l’Acta i acord de disol.lució amb designació dels liquidadors, atorgament de l’escriptura de disol.lució, gestió y/o assessorament sobre les operacions pendents i repartiment de l’haver social, amb la corresponent inscripció d’escriptures al Registre Mercantil."
+
+    process:
+      title: "Processos concursals"
+      subtitle: "Processos concursals"
+      paragraph1_html: "En situacions de crisis empresarials és necessari un assessorament global en matèria econòmica per donar cobertura a les diferents situacions que d'ella poden derivar-se: refinançaments de deute, defensa dels drets de creditors, assessorament sobre responsabilitat de consellers i administradors, etc."
+      paragraph2_html: "En definitiva es tracta d’intentar superar la situació econòmica negativa si és de caràcter transitori i en cas de crisi no superable, de gestionar d’una forma ràpida i eficaç els interessos dels socis o altres persones interessades en el concurs."
+
+    real-estate:
+      title: "Compravenda de pisos"
+      subtitle: "Compravenda de pisos"
+      paragraph1_html: "El nostre Departament jurídic actua en coordinació amb l'Immobiliari, del que som especialistes, analitzant iassessorant sobre la redacció de quants documents siguin necessaris per a la conclusió de l'operació corresponent, així com per a la solució de qualsevol conflicte coetani o posterior que pogués sorgir."
+
+    renting:
+      title: "Arrendaments"
+      subtitle: "Arrendaments"
+      paragraph1_html: "Fem estudis econòmic sobre la capacitat econòmica de l’arrendatari. Després, en coordinació amb el nostre Departament Jurídic redactarem el contracte de lloguer i gestionarem el dipòsit de la fiança. A més ens encarreguem del cobrament de la renda i liquidació al propietari, gestions d’actualització del lloguer, etc..."
+      paragraph2_html: "A més, estem a la seva disposició per assistir-li en totes les incidències que els mateixos poden arribar a plantejar, en cas d’incompliment contractual per part del llogater, gestionant directament reclamacions judicials de quantitat i desnonaments"
+
+    owners:
+      title: "Comunitats de propietaris"
+      subtitle: "Comunitats de propietaris"
+      paragraph1_html: "El nostre Despatx està a la seva disposició per la gestió integral de la seva Comunitat de Propietaris."
+      sub_service1: "Constitució, obtenció del CIF i redacció dels Estatuts."
+      sub_service2: "Legalització del llibre d’Actes"
+      sub_service3: "Convocatòria, preparació i adreça de Reunions Ordinàries i Extraordinàries."
+      sub_service4: "Control pressupostari (ingressos, despeses i provisió de fons)."
+      sub_service5: "Gestió administrativa dels processos de cobrament de rebuts i resolució d'incidències."
+      sub_service6: "Sol·licitud de pressupostos i gestió de subvencions."
+      sub_service7: "Presentació de pòlisses per a cobertura de riscos."
+      sub_service8: "Assessorament legal."
 
     contact:
       title: "Contacto -- Ejemplo Plan Basico"

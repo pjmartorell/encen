@@ -8,6 +8,9 @@ body.one_col{
 		  @include span(20);
 			@include prepend(2);
 			@include append(2);
+			.big_list{
+			  @include column(8);
+			}
 			#contact_info{
 			  @include column(7);
 			}

@@ -1,0 +1,26 @@
+- title t(".title")
+
+%h3= t ".subtitle"
+
+%p=t ".paragraph1_html"
+%p=t ".service1"
+%ul
+  %li=t ".sub_service1"
+  %li=t ".sub_service2"
+  %li=t ".sub_service3"
+  %li=t ".sub_service4"
+  %li=t ".sub_service5"
+  %li=t ".sub_service6"
+  %li=t ".sub_service7"
+  
+%p=t ".service2"
+%ul
+  %li=t ".sub2_service1"
+  %li=t ".sub2_service2"
+  %li=t ".sub2_service3"
+  %li=t ".sub2_service4"
+  %li=t ".sub2_service5"
+  %li=t ".sub2_service6"
+
+- content_for :info_box do
+  = render 'shared/seguros'

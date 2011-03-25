@@ -1,0 +1,8 @@
+- title t(".title")
+
+%h3= t ".subtitle"
+
+%p=t ".paragraph1_html"
+
+- content_for :info_box do
+  = render 'shared/seguros'

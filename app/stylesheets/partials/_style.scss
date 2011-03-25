@@ -3,13 +3,14 @@
 	background-image: url("/images/back_header.jpg");
 	background-repeat: repeat-x;
 	color: $back-brown-color;
-	height: 56.1em;
 	text-align: center;
-	h1{
-		font-size: 3em;
-		margin-bottom: 0;
+	padding-top: 2em;
+	height: 54.9em;
+	
+	p{
+	  font-size: 1.5em;
+	  color: $back-brown-color;
 	}
-	p{font-size: 1.5em;}
 
 	#menu{
 		background-image: url("/images/back_menu.png");
@@ -19,17 +20,18 @@
     margin-bottom: 410px;
 		text-align: center;
 		ul{
-			padding-top: 3.5em;
+			padding-top: 2.7em;
 			margin-bottom:0;
 		}
 		li{
 			display: inline;
 			padding-right: 2em;
+			padding-left: 2em;
 		}
 		a{
 			color: #ebe77b;
 			text-decoration: none;
-			font-size: 1.3em;
+			font-size: 2em;
 		}
 		.current{color: white;}
 	}
@@ -39,86 +41,93 @@
 
 #main{
 	background-color: $back-brown-color;
-	color: $main-font-color;
 	font-size: $main-font-size;
-	padding-top: 3em;
+	padding-top: 5em;
 	padding-bottom: 3em;
-	h3{
-		color: white;
-		font-family: $title-font-family;
-		font-style: italic;
-		font-size: 2.5em;
-	}
-	h4{
-	  color: white;
-	  font-style: italic;
-	  font-size: 1.5em;
-	}
-	
-	h5{
-	  color: white;
-	}
+	a{
+	  color: $main-font-color;
+  }
 
-	p{ color: $main-font-color; margin-bottom:0;}
+  .intro{
+     color: $wheat-font-color;
+     font-size: 1.4em;
+     line-height: 1.6em;
+  }
 
+  .read_more{
+    a{
+      color: $wheat-font-color;
+      text-decoration: underline;
+    }
+  }
 	.up_button{
 	  background-image: url("/images/back_up_button.png");
 	  background-repeat: no-repeat;
 	  text-align:center;
     height: 2.5em;
     margin-top: 1em;
-    margin-left: 49em;
-    padding-top: .8em;
+    margin-left: 45em;
+    padding-top: 0.5em;
     width: 6em;
+	}
+
+// ........................... Serveis
+
+  #services{
+    .subservices_list{
+      background-image: url("/images/sub_services_list.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 15em;
+      padding-left: 3em;
+      padding-right: 2em;
+      padding-top: 1em;
+    }
+    h5{
+      color: white;
+      font-size: 1.05em;
+      padding-left: 4.7em;
+      padding-top: 0.5em;
+    }
+    ul{
+      text-align: center;
+      padding-left: 1.5em;
+      padding-right: 1em;
+      margin-top: 3.5em;
+    }
+    ul.big_list{
+      margin-top: 1em;
+      padding-left: 1.5em;
+      padding-right: 0.1em;
+    }
+    li{
+      background-color: #d3cbc0;
+      margin-bottom: 1em;
+    }
     a{
-	    color: white;
-	    text-decoration: none;
-	  }
-	}
-	.read_more{
-	  a{
-	    color: $wheat-font-color;
-	    text-decoration: none;
-	  }
-	  a:hover{color:#a84830;}
-	}
-
-// ........................... HOME
-
-  #home{
-    margin-bottom: 2em;
-    p {
-      color: $wheat-font-color;
-      font-size: 1.3em;
-      font-weight: normal;
+      @include text-shadow(white, 1px, 0, 0);
+      color: $brown-font-color;
+      padding-bottom: 0.2em;
+      padding-top: 0.2em;
+    }
+    li:hover{
+      background-color: #d7c9b5;
     }
   }
 
+
+
 // ........................... Contact
   #contact_info{
-    .contact_titles{
-		  p{
-		    color: $wheat-font-color;
-		    font-size: 1.5em;
-		    margin-bottom: 0;
-		  }
-		}
-		.contact_answere{
-		  margin-left: 1em;
-		  margin-bottom: 2em;
-		  p{
-		    font-size: 1.2em;
-		    font-family: $title-font-family;
-		    margin-bottom: 0;
-		  }
-		  a{
-		    font-family: $title-font-family;
-		    color: $main-font-color;
-		    font-size: 1.2em;
-		    text-decoration: none;
-		  }
-		  a:hover{color: $wheat-font-color;}
-		}
+    p{
+      text-indent: 1em;
+      line-height: 1em;
+      color: $wheat-font-color;
+    }
+    a{
+      color: $wheat-font-color;
+      &:hover{color: white;}
+    }
   }
 
   #map_canvas{
@@ -134,29 +143,26 @@
       }
    	p{font-size: .8em;}
    	}
-   #gmimap0{
-   	  background-color: blue;
-   	}
   }
 }
 
 // ........................... FOOTER
 
 #footer{
-  background-color: #2f2721;
   background-image: url("/images/back_footer.jpg");
   border-top: 3px solid #2F2721;
-  color: $main-font-color;
   font-family: $title-font-family;
   text-align: center;
   height: 20em;
+  padding-bottom: 3em;
   li{
 		border-right: 1px solid;
 		font-size: 1.4em;
 		color: white;
+		letter-spacing: 0.05em;
     display: inline;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 	}
 	li:last-child{
 	  border-right: none;
@@ -164,9 +170,9 @@
 	a{
 	  color: $wheat-font-color;
 	  text-decoration: none;
+	  font-size: $title-font-size;
+	  &:hover{color: white;}
 	}
-	a:hover{color: white;}
-	#mail{font-size: 1.2em}
 
 	#footer_title{
 	  background-image: url("/images/back_title_footer.png");
@@ -174,8 +180,11 @@
 	  text-align: left;
     height: 6em;
     margin-bottom: 2em;
-    padding-left: 1.2em;
-    padding-top: 1em;
-    h2{ color: white;}
+    padding-left: 1.5em;
+    padding-top: 1.5em;
+    h2{
+      color: white;
+      font-size: 1.7em;
+    }
 	}
 }

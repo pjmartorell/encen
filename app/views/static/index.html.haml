@@ -1,27 +1,22 @@
 - title t(".title")
 
-#home
-  %h3= t(".subtitle")
+%h3= t(".subtitle")
 
-  %p= t(".paragraph1_html")
+%p.intro= t(".paragraph1_html")
 
 %p= t(".paragraph2_html")
 %p= t(".paragraph3_html")
 
 .line_separator
 
+%h3= t(".subtitle1")
+%p= t(".paragraph4_html")
 
-%h4
-  = t(".subtitle1")
-
-%p
-  = t(".paragraph4_html")
-  .read_more
-    = section_link_to t("read_more", :scope => "miscellaneous"), particular_path
+.read_more
+  = section_link_to t("read_more", :scope => "miscellaneous"), servicios_path
   
 .up_button
   %a{:href => "#"}=t("up_button", :scope => "miscellaneous")
-
 
 - content_for :info_box do
   = render 'shared/index'

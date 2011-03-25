@@ -1,0 +1,26 @@
+- title t(".title")
+
+%h3
+  = t ".subtitle"
+
+#contact_info
+  %h4= t ".address_title"
+
+  %p= t ".address"
+
+  %h4= t ".tel_title"
+
+  %p= t ".tel"
+  %p= t ".fax"
+
+  %h4= t ".email_title"
+
+  = mail_to 'info@nova-gestion.cat', nil, :encode => :hex
+  
+  
+#map_canvas
+
+.clear
+
+- content_for :info_box do
+  = render 'shared/contacto'
