@@ -30,6 +30,7 @@ namespace :deploy do
   end
 
   task :after_deploy, :env, :branch do |t, args|
+    `heroku rake db:migrate --app #{args[:branch]}`
     `heroku rake interpret:update --app #{args[:branch]}`
     puts "Done rake interpret:update within #{args[:branch]} app."
     puts "Deployment Complete"
