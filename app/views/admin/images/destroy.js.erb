@@ -1,0 +1,9 @@
+// Remove image thumbnail
+$("#image-"+<%= @image.id.to_s %>).remove();
+
+// Remove uses in the CKEditor
+$("iframe").contents().find("img").each(function(){
+  if($(this).attr("src").indexOf('<%= @image.file.url %>') == 0){
+    $(this).remove();
+  }
+});

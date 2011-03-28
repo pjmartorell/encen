@@ -2,7 +2,7 @@ if ENV['HEROKU'].present?
   keys = [:name,
           :hostname,
           :exception_notification_sender,
-          :exception_notification_recipients,
+          :exception_notification_recipient,
           :mail__user_name,
           :mail__password,
           :mail__smtp__address,
@@ -10,11 +10,10 @@ if ENV['HEROKU'].present?
           :mail__domain
          ]
 
-  require 'lazy_hash'
   APP_CONFIG = LazyHash.build_hash
 
   keys.each do |key|
-    LazyHash.lazy_add(APP_CONFIG, key.to_s.split("__").join("."), ENV[key.to_s.upcase])
+    LazyHash.add(APP_CONFIG, key.to_s.split("__").join("."), ENV[key.to_s.upcase])
   end
 
 else

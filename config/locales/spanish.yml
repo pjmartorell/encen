@@ -174,3 +174,15 @@ es:
     fax: "Fax. 93.420.74.29"
     address: "Fabra i Pug 267-269. 08031 Bcn"
     itnig: Itnig
+
+  date:
+    order: [ :year, :month, :day ]
+    formats:
+      default: "%Y-%m-%d"
+      short: "%b %d"
+      long: "%B %d, %Y"
+    day_names: [Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo]
+    abbr_day_names: [L, M, X, J, V, S, D]
+    month_names: [~, Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre]
+    abbr_month_names: [~, E, F, M, A, M, J, J, A, S, O, N, D]
+

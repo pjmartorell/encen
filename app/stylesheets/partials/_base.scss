@@ -55,21 +55,21 @@ $title-font-size: 1.5em;
 
 body{
   background-image: url("/images/bg.png");
-	margin: 0 auto;
-	font-family: $main-font-family;
-	font-size: $main-font-size;
-	color: $main-font-color;
-	text-align: justify;
-	h1{
-	  font-size: 4em;
-	  line-height: 0;
-	}
-	h3{
-	  font-size: 2.5em;
-	}
-	h4{
-	  font-size: 1.5em;
-	}
+  margin: 0 auto;
+  font-family: $main-font-family;
+  font-size: $main-font-size;
+  color: $main-font-color;
+  text-align: justify;
+  h1{
+    font-size: 4em;
+    line-height: 0;
+  }
+  h3{
+    font-size: 2.5em;
+  }
+  h4{
+    font-size: 1.5em;
+  }
   h1,h2{
     font-family: $bold-title;
     color: $brown-font-color;

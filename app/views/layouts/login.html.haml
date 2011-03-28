@@ -1,16 +1,17 @@
 !!! 5
 %html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => I18n.locale }
   %head
-    %title= yield :title
+    %title Encen -- Login
     = csrf_meta_tag
-    = stylesheet_link_tag "private"    
+    = stylesheet_link_tag "private"
     /[if lt IE 8 ]
-      = stylesheet_link_tag 'ie8', :media => 'screen, projection'
+      = stylesheet_link_tag 'ie', :media => 'screen, projection'
 
-  %body.one_col
-    #container
-      #login_box
-        = flash.inspect
+  %body
+    #content
+      #logo
+        %h1 Encen CMS
+      #loginbox
         = yield
-
+      #credits
 

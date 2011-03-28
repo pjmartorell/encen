@@ -1,5 +1,4 @@
 Encen::Application.routes.draw do
-  devise_for :users, :controllers => {:sessions => 'user_sessions'}
 
   match 'contacto', :to => "static#contact"
   match 'servicios', :to => "static#services"
@@ -18,6 +17,21 @@ Encen::Application.routes.draw do
   match 'arrendamientos', :to => "static#renting"
   match 'propietarios', :to => "static#owners"
 
-  match 'admin', :to => "admin/translations#index"
+  devise_for :users, :controllers => {:sessions => 'user_sessions'}
+
+  namespace :admin do
+    resources :users, :except => :index
+
+    resources :posts do
+      resources :comments, :only => :create
+      resources :images, :only => :create
+    end
+
+    resources :comments, :only => :destroy
+    resources :images, :only => :destroy
+
+    root :to => "users#index"
+  end
+
   root :to => "static#index"
 end

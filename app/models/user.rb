@@ -7,7 +7,10 @@ class User < ActiveRecord::Base
   validates :login, :presence => true, :uniqueness => true
 
   # Setup accessible (or protected) attributes for your model
-  attr_accessible :password, :password_confirmation, :login, :remember_me #, :email
+  attr_accessible :password, :password_confirmation, :login, :remember_me, :email
+
+  has_many :posts
+  has_many :comments
 
   def email_required?
     false
@@ -15,5 +18,10 @@ class User < ActiveRecord::Base
 
   def to_s
     login
+  end
+
+protected
+  def password_required?
+    !persisted? || password.present? || password_confirmation.present?
   end
 end

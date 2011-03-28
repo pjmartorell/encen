@@ -9,4 +9,16 @@ module ApplicationHelper
       page_title
     end
   end
+
+  def meta_keywords(words)
+    content_for :meta_keywords do
+      words
+    end
+  end
+
+  def meta_description(desc)
+    content_for :meta_description do
+      desc
+    end
+  end
 end
