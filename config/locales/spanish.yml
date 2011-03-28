@@ -168,6 +168,11 @@ es:
       fax: Fax. 93.420.74.29
       email_title: Email
 
+    news:
+      title: "Noticias de Nova-Gestio"
+      subtitle: "Noticias"
+      paragraph1_html: "Lorem ipsum"
+
   footer:
     contact: Contacto
     phone: "Tel. 93.407.22.02"
