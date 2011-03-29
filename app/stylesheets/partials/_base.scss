@@ -1,5 +1,8 @@
+@import "compass/css3/font-face";
+@import "blueprint/scaffolding";
+
+
 // Here is where you can define your constants for your application and to configure the blueprint framework.
-// Feel free to delete these if you want keep the defaults:
 
 $blueprint-grid-columns: 24;
 $blueprint-container-size: 950px;
@@ -8,3 +11,47 @@ $blueprint-grid-margin: 10px;
 // Use this to calculate the width based on the total width.
 // Or you can set $blueprint-grid-width to a fixed value and unset $blueprint-container-size -- it will be calculated for you.
 $blueprint-grid-width: ($blueprint-container-size + $blueprint-grid-margin) / $blueprint-grid-columns - $blueprint-grid-margin;
+
+
+
+// basic colors
+$bg-color: #f1f1f1;
+$gray-color: #ccc;
+$orange-color: #f08745;
+$green-color: #b0b82c;
+
+// fonts attributes
+$font-color: #333;
+$main-font-size: 1em;
+$title-font-size: 2em;
+$main-font-family: "champagne";
+$bold-font: "champagne_bold";
+$italic-font: "champagne_italic";
+
+//Extra fonts
+@include font-face("champagne", font-files("/fonts/champagne.ttf", truetype), "champagne.eot");
+@include font-face("champagne_bold", font-files("/fonts/champagne_bold.ttf", truetype), "champagne_bold.eot");
+@include font-face("champagne_italic", font-files("/fonts/champagne_italic.ttf", truetype), "champagne_italic.eot");
+
+
+@mixin basics {
+  background-color: $bg-color;
+  border: .6em solid white;
+  outline: .15em solid $gray-color;
+  margin-left: 13em;
+}
+
+// Basic css
+body {
+	margin: 0 auto;
+	background-image: url("/images/bg.jpg");
+	font-family: "champagne";
+	#main {
+    @include basics;
+	}
+	#footer {
+	  @include basics;
+    margin-top: 2em;
+    margin-bottom: 1em;
+	}
+}
