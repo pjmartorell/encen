@@ -12,8 +12,6 @@ $blueprint-grid-margin: 10px;
 // Or you can set $blueprint-grid-width to a fixed value and unset $blueprint-container-size -- it will be calculated for you.
 $blueprint-grid-width: ($blueprint-container-size + $blueprint-grid-margin) / $blueprint-grid-columns - $blueprint-grid-margin;
 
-
-
 // basic colors
 $bg-color: #f1f1f1;
 $gray-color: #ccc;
@@ -48,10 +46,14 @@ body {
 	font-family: "champagne";
 	#main {
     @include basics;
+    padding-top: 4em;
+    padding-bottom: 2em;
 	}
 	#footer {
 	  @include basics;
     margin-top: 2em;
     margin-bottom: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 	}
 }
