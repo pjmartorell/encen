@@ -324,6 +324,9 @@ body #container {
   font-size: 1.7em;
   margin-bottom: 1em;
 }
+#info_box #request a {
+  color: #618c15;
+}
 #info_box #index {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -519,9 +522,6 @@ body #container {
   width: 17em;
   height: 15em;
 }
-#info_box #clean_section #request a {
-  color: #618c15;
-}
 #info_box #clean_section a:hover {
   text-decoration: underline;
 }
@@ -590,6 +590,7 @@ body #container {
 #info_box #manager_section p#message {
   font-family: "gabrielle";
   font-size: 1.6em;
+  text-align: center;
 }
 #info_box #manager_section #hrs_image {
   background-image: url("/images/hours.png");
@@ -597,6 +598,9 @@ body #container {
   background-repeat: no-repeat;
   height: 90px;
   margin-bottom: 15px;
+}
+#info_box #manager_section .back_button {
+  margin-top: 3em;
 }
 #info_box #manager_section .back_button a {
   background-image: url("/images/back_button.png");
@@ -649,6 +653,9 @@ body #container {
   background-image: url("/images/garden_image.jpg");
   width: 30em;
   height: 15em;
+}
+#info_box #garden_section .back_button {
+  margin-top: 3em;
 }
 #info_box #garden_section .back_button a {
   background-image: url("/images/back_button.png");
@@ -706,17 +713,28 @@ body #container {
   margin-top: 1em;
   margin-bottom: 2.5em;
 }
-#info_box #pool_section a {
-  background-image: url("/images/back_button_piscina.png");
+#info_box #pool_section .back_button {
+  margin-top: 3em;
+}
+#info_box #pool_section .back_button a {
+  background-image: url("/images/back_button.png");
   background-position: 2px -33px;
   background-repeat: no-repeat;
   padding: 10px 0 6px 43px;
 }
-#info_box #pool_section a:hover {
-  background-image: url("/images/back_button_piscina.png");
+#info_box #pool_section .back_button a:hover {
+  background-image: url("/images/back_button.png");
   background-position: 2px 1px;
-  color: #32638E;
+  color: #618C15;
   padding-top: 9px;
+  text-decoration: none;
+}
+#info_box #pool_section .back_button a {
+  background-image: url("/images/back_button_piscina.png");
+}
+#info_box #pool_section .back_button a:hover {
+  background-image: url("/images/back_button_piscina.png");
+  color: #333;
 }
 #info_box #contact {
   padding-top: 2em;

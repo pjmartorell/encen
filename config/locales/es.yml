@@ -64,6 +64,10 @@ es:
   sending_message: "El mensaje se está enviando"
   servicios: Servicios
   spanish: Castellano
+  
+  budget:
+    budget_link: "Solicítanos presupuesto y recibirás ampliada toda la información  acerca de periodicidad y servicios a realizar."
+
   static:
     administradores:
       metadescription: "servicio de limpiezas para oficinas,empresas,particulares,garages,parkings,comunidades de vecinos"
@@ -160,7 +164,6 @@ es:
       line5: "Locales:"
       line6: "Realizamos limpieza de obra y a acondicionamiento de locales, retiramos restos de cemento, pintura, silicona, etc. Aspirado y abrillantado de suelos, limpieza de paramentos y zonas acristaladas."
       line7: "En MTC estamos concienciados con el medio ambiente y por ello utilizamos en nuestros servicios una amplia gama de productos ecológicos."
-      line8: "Solicítanos presupuesto y recibirás ampliada toda la información  acerca de periodicidad y servicios a realizar."
       metadescription: "servicio de limpiezas para oficinas,empresas,particulares,garages,parkings,comunidades de vecinos"
       metakeywords: "limpiezas madrid, servicio de limpiezas doficinas,empresas,particulares,comunidades,garages,parkings"
       title: "MTC Limpiezas"

@@ -38,7 +38,11 @@
   </ul>
 
   <p id="message"><%= raw t('.line17') %></p>
-  <div class="separator_2"></div>
+  
+  <div id="request">
+    <a rel="facebox" href="/question"><%=t("budget_link", :scope => "budget") %></a>
+  </div>
+
   <div class="back_button"><a href="<%= servicios_path %>">Regresar a servicios</a></div>
 
 </div>

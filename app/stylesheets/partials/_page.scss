@@ -82,6 +82,10 @@
     margin-bottom: 1em;
   }
 
+  #request{
+    a{color: $green-font-color;}
+  }
+
 //....................................Home
 
   #index{
@@ -291,10 +295,6 @@
       height: 15em;
     }
 
-    #request{
-      a{color: $green-font-color;}
-    }
-
     a{
       &:hover{
         text-decoration: underline;
@@ -303,7 +303,6 @@
 
     .back_button {
       @include back_button;
-      margin-top: 3em;
       a{
         background-image: url("/images/back_button.png");
         &:hover {
@@ -353,6 +352,7 @@
     p#message{
       font-family: $promotions-font;
       font-size: 1.6em;
+      text-align: center;
     }
 
     #hrs_image{
@@ -450,18 +450,17 @@
       margin-bottom: 2.5em;
     }
 
-    a {
-      background-image: url("/images/back_button_piscina.png");
-      background-position: 2px -33px;
-      background-repeat: no-repeat;
-      padding: 10px 0 6px 43px;
-      &:hover {
+    .back_button {
+      @include back_button;
+      a{
         background-image: url("/images/back_button_piscina.png");
-        background-position: 2px 1px;
-        color: #32638E;
-        padding-top: 9px;
+        &:hover {
+          background-image: url("/images/back_button_piscina.png");
+          color: #333;
+        }
       }
     }
+
   }
 
 //......................................Contact

@@ -23,10 +23,12 @@
     <li><%= raw t('.line7') %></li>
     <li><%= raw t('.line8') %></li>
     <li><%= raw t('.line9') %></li>
-    <li><%= raw t('.line10') %></li>
   </ul>
 
-  <h3><%= raw t('.line11') %></h3>
+  <h3><%= raw t('.line10') %></h3>
+  <ul>
+    <li><%= raw t('.line11') %></li>
+  </ul>
   <ul>
     <li><%= raw t('.line12') %></li>
     <li><%= raw t('.line13') %></li>
@@ -36,6 +38,10 @@
 
   <p><%= raw t('.line16') %></p>
   <p><%= raw t('.line17') %></p>
+
+  <div id="request">
+    <a rel="facebox" href="/question"><%=t("budget_link", :scope => "budget") %></a>
+  </div>
 
   <div class="back_button"><a href="<%= servicios_path %>">Regresar a servicios</a></div>
 </div>
