@@ -1,7 +1,43 @@
+//. . . . . . . . . . . . . . . . . .  MENU
 
 #menu {
   background-image: url("/images/bg_menu.png");
-  margin-top: 5em;
+  margin-top: 2em;
   width: 24em;
   height: 24em;
+  position: absolute;
+  z-index: 1;
+}
+
+//. . . . . . . . . . . . . . . . . .  MAIN
+
+#main {
+  @include basics;
+  padding: 4em 0 2em 1em;
+  .image{
+    margin-left: 2em;
+  }
+}
+
+
+//. . . . . . . . . . . . . . . . . .  FOOTER
+
+#footer {
+  @include basics;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  .itnig {
+    text-align: right;
+  }
+  li {
+    display:inline;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  li:last-child {
+    border-left: solid 1px;
+  }
 }

@@ -25,11 +25,13 @@ body.grid {
   #container {
     @include container;
   }
+
+  #wrapper {
+    @include span (19);
+  }
   
-  #main,#footer {
-    @include span (16);
-    @include append (1);
-    @include prepend (1);
+  .one_third{
+    @include column(5);
   }
   
 }

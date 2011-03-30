@@ -10,11 +10,17 @@ es:
   geo_position: Alguna posicion
   icbm: Algun numero icbm
 
+  footer:
+    address: "Dirección #0123  4ta. Barcelona 56789"
+    phone: "Tel. 6 678 789 890"
+    itnig: "Itnig : servicios Web"
 
   static:
     index:
       title: "Inicio -- Ejemplo Plan Basico"
-      line1: "Esto es la pagina de inicio"
+      h1_home: "Inicio"
+      first_paragraph_html: "Párrafo breve que hable sobre Babu lor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+      paragraph1_html: "Habla un poco sobre el servicio en breve descripciónTypi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum."
 
     contact:
       title: "Contacto -- Ejemplo Plan Basico"

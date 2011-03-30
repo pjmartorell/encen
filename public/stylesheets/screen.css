@@ -92,35 +92,104 @@ a img {
   src: local("☺"), url(/fonts/champagne_italic.ttf) format('truetype');
 }
 
+.separator {
+  height: 2em;
+}
+
+.clear {
+  clear: both;
+  height: 2em;
+  overflow: hidden;
+}
+
 body {
   margin: 0 auto;
   background-image: url("/images/bg.jpg");
   font-family: "champagne";
+  font-size: 1em;
+  color: #666666;
+  text-align: justify;
 }
-body #main {
-  background-color: #f1f1f1;
-  border: .6em solid white;
-  outline: 0.15em solid #cccccc;
-  margin-left: 13em;
-  padding-top: 4em;
-  padding-bottom: 2em;
-}
-body #footer {
-  background-color: #f1f1f1;
-  border: .6em solid white;
-  outline: 0.15em solid #cccccc;
-  margin-left: 13em;
-  margin-top: 2em;
+body h1 {
+  background-image: url("/images/back_headers.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  color: white;
+  font-family: "champagne";
+  font-size: 2.5em;
+  letter-spacing: 0.03em;
+  text-align: center;
   margin-bottom: 1em;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  padding-left: 3em;
+}
+body p {
+  letter-spacing: .04em;
+  line-height: 1.4em;
+}
+body a {
+  text-decoration: none;
+  color: #666666;
+}
+body a:hover {
+  color: black;
+}
+body li {
+  list-style: none;
+}
+body #wrapper {
+  margin-left: 13em;
+  margin-top: 17em;
+  position: absolute;
+  z-index: 2;
+}
+body #index {
+  padding-right: 1em;
+}
+body #index p:first-child {
+  color: black;
+  font-size: 1.7em;
+  letter-spacing: 0;
 }
 
 #menu {
   background-image: url("/images/bg_menu.png");
-  margin-top: 5em;
+  margin-top: 2em;
   width: 24em;
   height: 24em;
+  position: absolute;
+  z-index: 1;
+}
+
+#main {
+  background-color: #f1f1f1;
+  border: .6em solid white;
+  outline: 0.15em solid #cccccc;
+  padding: 4em 0 2em 1em;
+}
+#main .image {
+  margin-left: 2em;
+}
+
+#footer {
+  background-color: #f1f1f1;
+  border: .6em solid white;
+  outline: 0.15em solid #cccccc;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+#footer .itnig {
+  text-align: right;
+}
+#footer li {
+  display: inline;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+#footer li:last-child {
+  border-left: solid 1px;
 }
 
 form.bp label {
@@ -178,8 +247,15 @@ body.grid #container {
   overflow: hidden;
   *zoom: 1;
 }
-body.grid #main, body.grid #footer {
-  width: 630px;
-  padding-right: 40px;
-  padding-left: 40px;
+body.grid #wrapper {
+  width: 750px;
+}
+body.grid .one_third {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 190px;
+}
+* html body.grid .one_third {
+  overflow-x: hidden;
 }

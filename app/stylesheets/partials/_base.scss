@@ -19,9 +19,8 @@ $orange-color: #f08745;
 $green-color: #b0b82c;
 
 // fonts attributes
-$font-color: #333;
+$font-color: #666;
 $main-font-size: 1em;
-$title-font-size: 2em;
 $main-font-family: "champagne";
 $bold-font: "champagne_bold";
 $italic-font: "champagne_italic";
@@ -36,24 +35,72 @@ $italic-font: "champagne_italic";
   background-color: $bg-color;
   border: .6em solid white;
   outline: .15em solid $gray-color;
-  margin-left: 13em;
+}
+
+.separator {
+  height: 2em;
+}
+
+.clear {
+  clear:both;
+  height: 2em;
+  overflow:hidden;
 }
 
 // Basic css
+
 body {
 	margin: 0 auto;
 	background-image: url("/images/bg.jpg");
 	font-family: "champagne";
-	#main {
-    @include basics;
-    padding-top: 4em;
-    padding-bottom: 2em;
+	font-size: $main-font-size;
+	color: $font-color;
+	text-align: justify;
+
+	h1{
+	  background-image: url("/images/back_headers.png");
+	  background-repeat: no-repeat;
+	  background-position: right center;
+	  color: white;
+	  font-family: $main-font-family;
+	  font-size: 2.5em;
+	  letter-spacing: 0.03em;
+	  text-align: center;
+	  margin-bottom: 1em;
+	  padding-left: 3em;
 	}
-	#footer {
-	  @include basics;
-    margin-top: 2em;
-    margin-bottom: 1em;
-    padding-top: 1em;
-    padding-bottom: 1em;
+
+  p{
+    letter-spacing: .04em;
+    line-height: 1.4em;
+  }
+
+  a{
+    text-decoration: none;
+    color: $font-color;
+    &:hover{
+      color: black;
+    }
+  }
+  
+  li{
+    list-style: none;
+  }
+
+	#wrapper{
+	  margin-left: 13em;
+	  margin-top: 17em;
+	  position: absolute;
+	  z-index: 2;
 	}
+
+	#index {
+	  padding-right: 1em;
+	  p:first-child{
+	    color: black;
+	    font-size: 1.7em;
+	    letter-spacing: 0;
+	  }
+	}
+
 }

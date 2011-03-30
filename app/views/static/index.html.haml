@@ -1,4 +1,23 @@
 = title t(".title")
 
-%p
-  soy el main
+%h1=t(".h1_home")
+
+#index
+  %p=t(".first_paragraph_html")
+
+  .separator
+
+  %p=t(".paragraph1_html")
+
+  .separator
+
+  .image.one_third
+    %img{:alt => "ejemplo1", :src => "/images/imagen_ejemplo.jpg"}/
+
+  .image.one_third
+    %img{:alt => "ejemplo1", :src => "/images/imagen_ejemplo.jpg"}/
+
+  .image.one_third
+    %img{:alt => "ejemplo1", :src => "/images/imagen_ejemplo.jpg"}/
+
+  .clear

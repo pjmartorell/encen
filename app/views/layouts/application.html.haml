@@ -21,17 +21,18 @@
     /[if lt IE 8 ]
       = stylesheet_link_tag 'ie', :media => 'screen, projection'
   %body.grid
+
     #container
-      = render 'shared/header'
 
       #menu
         = render 'shared/menu'
 
-      #main
-        = yield
+      #wrapper
+        #main
+          = yield
 
-      #footer
-        = render 'shared/footer'
+        #footer
+          = render 'shared/footer'
 
     %script{:src => "http://www.google.com/jsapi?key=ABQIAAAA0ylfVAz-VO81YNZU6tZcBBQmeMglRFmXFoqbXzJidjd95_9FnxR5zSzQGNAQ-NQNKLi_4635iBfvLA", :type => "text/javascript"}
     :javascript
