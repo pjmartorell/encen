@@ -32,6 +32,24 @@ es:
       first_paragraph_html: "Párrafo breve que hable sobre Babu lor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
       paragraph1_html: "Habla un poco sobre el servicio en breve descripciónTypi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum."
 
+    complements:
+      h1_complements: "Complementos"
+
+    pregnant:
+      h1_pregnant: "Premamá"
+
+    baby-clothes0-3:
+      h1_baby_clothes3: "Ropa bebe 0-3años"
+
+    baby-clothes4-8:
+      h1_baby_clothes4: "Ropa bebe 4-8años"
+
+    cares:
+      h1_cares: "Cuidados del bebe"
+
+    shop:
+      h1_shop: "La tienda"
+
     contact:
       title: "Contacto -- Ejemplo Plan Basico"
       line1: "Y esto es la pagina de contacto"
