@@ -9,4 +9,10 @@ class ApplicationController < ActionController::Base
   def default_url_options(options = {})
     options.merge({:locale => I18n.locale})
   end
+
+  def toggle_edition_mode
+    Interpret.live_edit = !Interpret.live_edit
+
+    redirect_to request.env["HTTP_REFERER"]
+  end
 end

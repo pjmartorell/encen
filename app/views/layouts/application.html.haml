@@ -21,6 +21,8 @@
     /[if lt IE 8 ]
       = stylesheet_link_tag 'ie', :media => 'screen, projection'
   %body
+    - if current_user
+      = render "shared/admin_preheader"
     = render 'shared/header'
     = render 'shared/menu'
 
@@ -41,4 +43,5 @@
     = javascript_include_tag "application"
     = javascript_include_tag "rails"
     = javascript_include_tag "ckeditor-load"
+    = include_interpret_javascript
     = yield :custom_js
