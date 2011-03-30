@@ -10,6 +10,15 @@ es:
   geo_position: Alguna posicion
   icbm: Algun numero icbm
 
+  menu:
+    uno: Complementos
+    dos: Premama
+    tres: "0-3 años"
+    cuatro: Cuidados
+    cinco: "4-8 años"
+    seis: "La tienda"
+    siete: "Contacto"
+
   footer:
     address: "Dirección #0123  4ta. Barcelona 56789"
     phone: "Tel. 6 678 789 890"

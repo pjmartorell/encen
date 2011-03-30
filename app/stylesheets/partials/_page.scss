@@ -3,10 +3,20 @@
 #menu {
   background-image: url("/images/bg_menu.png");
   margin-top: 2em;
-  width: 24em;
-  height: 24em;
+  width: 21.9em;
+  height: 17.5em;
   position: absolute;
   z-index: 1;
+  padding-top: 6.5em;
+  padding-left: 2em;
+  ul{
+    margin-top: 2.3em;
+  }
+
+  li{
+    display:inline;
+    padding-right: 2.5em;
+  }
 }
 
 //. . . . . . . . . . . . . . . . . .  MAIN
@@ -28,6 +38,7 @@
   margin-bottom: 1em;
   padding-top: 1em;
   padding-bottom: 1em;
+  padding-right: 1em;
   text-align: center;
   .itnig {
     text-align: right;
