@@ -1,12 +1,15 @@
-%ul
-  %li= link_to (t :complements, :scope => "menu"), complementos_path
-  %li= link_to (t :pregnant, :scope => "menu"), premama_path
-  %li= link_to (t :'baby-clothes0-3', :scope => "menu"), ropa0_3_path
+#logo
+  %img{:alt => "Babu shop", :src => "/images/logo.png"}/
 
 %ul
-  %li= link_to (t :cares, :scope => "menu"), cuidados_path
-  %li= link_to (t :'baby-clothes4-8', :scope => "menu"), ropa4_8_path
+  %li= link_to (t :complements, :scope => "menu"), complementos_path, :class => action_name == 'complements' ? 'current_page_item' : ''
+  %li= link_to (t :pregnant, :scope => "menu"), premama_path, :class => action_name == 'pregnant' ? 'current_page_item' : ''
+  %li= link_to (t :'baby-clothes0-3', :scope => "menu"), ropa0_3_path, :class => action_name == 'baby-clothes0-3' ? 'current_page_item' : ''
 
 %ul
-  %li= link_to (t :shop, :scope => "menu"), tienda_path
-  %li= link_to (t :contact, :scope => "menu"), contacto_path
+  %li= link_to (t :cares, :scope => "menu"), cuidados_path, :class => action_name == 'cares' ? 'current_page_item' : ''
+  %li= link_to (t :'baby-clothes4-8', :scope => "menu"), ropa4_8_path, :class => action_name == 'baby-clothes4-8' ? 'current_page_item' : ''
+
+%ul
+  %li= link_to (t :shop, :scope => "menu"), tienda_path, :class => action_name == 'shop' ? 'current_page_item' : ''
+  %li= link_to (t :contact, :scope => "menu"), contacto_path, :class => action_name == 'contact' ? 'current_page_item' : ''
