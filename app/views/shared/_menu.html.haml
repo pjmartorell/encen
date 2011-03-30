@@ -1,12 +1,12 @@
 %ul
-  %li=t("uno", :scope => "menu")
-  %li=t("dos", :scope => "menu")
-  %li=t("tres", :scope => "menu")
+  %li= link_to (t :complements, :scope => "menu"), complementos_path
+  %li= link_to (t :pregnant, :scope => "menu"), premama_path
+  %li= link_to (t :'baby-clothes0-3', :scope => "menu"), ropa0_3_path
 
 %ul
-  %li=t("cuatro", :scope => "menu")
-  %li=t("cinco", :scope => "menu")
+  %li= link_to (t :cares, :scope => "menu"), cuidados_path
+  %li= link_to (t :'baby-clothes4-8', :scope => "menu"), ropa4_8_path
 
 %ul
-  %li=t("seis", :scope => "menu")
-  %li=t("siete", :scope => "menu")
+  %li= link_to (t :shop, :scope => "menu"), tienda_path
+  %li= link_to (t :contact, :scope => "menu"), contacto_path

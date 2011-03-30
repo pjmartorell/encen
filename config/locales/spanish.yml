@@ -11,13 +11,14 @@ es:
   icbm: Algun numero icbm
 
   menu:
-    uno: Complementos
-    dos: Premama
-    tres: "0-3 años"
-    cuatro: Cuidados
-    cinco: "4-8 años"
-    seis: "La tienda"
-    siete: "Contacto"
+    index: Inicio
+    complements: Complementos
+    pregnant: Premama
+    baby-clothes0-3: "0-3 años"
+    cares: Cuidados
+    baby-clothes4-8: "4-8 años"
+    shop: "La tienda"
+    contact: "Contacto"
 
   footer:
     address: "Dirección #0123  4ta. Barcelona 56789"
