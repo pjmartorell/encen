@@ -171,15 +171,20 @@
 /*                        zapatitos                        */
 /* ======================================================= */
 
-#zapatitos{
+#zapatitos{ 
   .wrap{
     border: dashed 1px $light-brown-color;
+  }
+  p:first-child{
+    color: $dark-brown-color;
+    font-size: 1.1em;
   }
   .btn{
     border: dashed 1px $light-brown-color;
     background-color: $dark-brown-color;
     padding-bottom: 2.5em;
     padding-top: 1em;
+    margin-top: 4em;
     margin-bottom: 3em;
     margin-left: 1.5em;
     height: 5em;

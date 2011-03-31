@@ -84,24 +84,36 @@ es:
       contact: Contacto
       phone_html: "(+34) 93 252 00 48"
       address_html: "Paseo San Juan Bosco, 53, 8017 Barcelona."
-      line1_html: "En 1998, buscando una alternativa a la oferta de calzado infantil, nos lanzamos a la aventura de crear un nuevo concepto de zapatería para niñas, niños... !y mamás! Nuestra intención era innovar, ofreciendo zapatos cómodos y funcionales que respondieran a las necesidades del público infantil, sin renunciar al diseño y a las tendencias de la moda. Mocasines, bailarinas, sandalias, zuecos, botas, botines... con una amplia numeración del 15 al 41, de este modo toda la familia podría caminar a la última."
-      line2_html: "Así, diseñamos nuestra primera colección de zapatitos y abrimos nuestra primera tienda en  Barcelona. La idea fue un gran éxito y muy pronto Za-patitos fue reconocida por la prensa de moda como una marca de tendencia."
-      line3_html: "Cada año presentamos 2 nuevas colecciones de zapatitos, una en la temporada Primavera-Verano y otra en Otoño-Invierno. En cada una de ellas nos mantenemos fieles al estilo zapatitos que tanto aprecian nuestros clientes."
-      line4_html: "Hoy tenemos X tiendas en España y vendemos nuestros zapatitos a través de franquicias y corners distribuidos por todo el territorio Español y  Andorra."
-      line5_html: "Empezamos siendo dos y hoy somos un gran equipo de colaboradores unidos por la misma ilusión de nuestros comienzos. Hemos crecido haciendo lo que más nos gusta, diseñar zapatitos para nuestros mejores amigos, los niños."
+      line1_html: "Za-patitos es una empresa constituida en Barcelona y dedicada, a través de nuestra red de tiendas propias y franquiciadas, a la comercialización de calzado infantil y juvenil de diseño propio o seleccionados en exclusiva para nuestros clientes."
+      line2_html: "Nuestras tiendas son conocidas por su imagen, estilo y diseño diferenciados así como por una línea de productos exclusivos que diseñamos cada temporada."
+      line3_html: "Las tiendas Za-patitos destacan claramente por una decoración funcional, diáfana, con líneas sobrias y sencillas y una distribución espaciosa y bien segmentada de las diferentes líneas de productos, dónde nuestros clientes pueden desenvolverse libremente y escoger los artículos que mejor se ajustan a sus gustos y necesidades, asesorados, si lo desean, por nuestras dependientas. El trato personalizado a nuestros clientes es una de nuestras principales premisas y nuestro objetivo prioritario su máxima satisfacción."
+      line4_html: "Za-patitos es ya hoy un estilo propio y diferenciado."
+      line5_html: "Nuestra marca se ha posicionado como uno de los referentes del calzado infantil y juvenil en España y es un claro distintivo de tendencia reconocida por nuestros clientes y por los profesionales especializados del sector, nos encontramos en plena expansión internacional con la distribución de nuestros productos y el próximo lanzamiento de Za-patitos on line, nuestra tienda virtual en Internet."
 
     zapatitos:
       title: "Colección Za-patitos"
+      first_paragraph_html: "Los modelos que les presentamos son una muestra representativa de anteriores colecciones, fiel reflejo del estilo de Za-patitos."
       zapatitos: "Colección Za-patitos"
       catalog1: Primavera Verano 2010
       catalog2: Otoño Invierno 2009
       catalog3: Taygra
+      descripcion1: "Breve descripción de los zapatos,Breve descripción de los zapatos,Breve descripción de los zapatos"
+      descripcion2: "Breve descripción de los zapatos"
+      descripcion3: "Breve descripción de los zapatos"
+      descripcion4: "Breve descripción de los zapatos"
+      descripcion5: "Breve descripción de los zapatos"
+      descripcion6: "Breve descripción de los zapatos"
+      descripcion7: "Breve descripción de los zapatos"
 
     deportivas:
       title: "Las deportivas que triunfan"
       deportivas: "Las deportivas Taygra"
       taygra: "Taygra, las más buscadas del momento"
       taygra_info_html: "Zapatitos trae a España en exclusiva las zapatillas brasileñas Taygra, la moda que triunfa en las capitales de la moda mundial. Mucho más que unas deportivas, las Taygra con sus vistosos colores y gran ligereza y flexibilidad aportan una imagen  desenfadada. Originarias de Brasil están realizadas a mano sin productos de origen animal y respetando los derechos de sus productores."
+      taygra_paragraph1_html: "Taygra es una pequeña empresa familiar creada en 1989 en Brasil. Los principales valores que distinguen a esta marca desde su origen son el comercio justo junto a un producto ético en la defensa y el respeto al medio ambiente y una producción fundamentalmente artesanal. Presente ya en las principales capitales de la moda todos los materiales que se utilizan en su confección son reciclados siendo respetada de esta forma la biodiversidad de la Amazonia brasileña . mejorando considerablemente la calidad de vida de la población autóctona ofreciéndoles nuevas oportunidades para su desarrollo ."
+      taygra_paragraph2_html: "Las zapatillas Taygra son ligeras, alegres y desenfadadas, sorprendentemente confortables, idoneas para una imagen seria u otra más informal , perfectas para el deporte en sala y al aire libre, el baile ,las artes marciales, actividades naúticas y acuáticas, ideales por su adecuación al terreno para caminar y todo proporcionando a la vez una incomparable sensación de bienestar. Su práctico formato, ligereza y elasticidad las hacen ideales para ser transportadas con comodidad ocupando el mínimo espacio."
+      taygra_paragraph3_html: "Las deportivas Taygra son manufacturadas 100% en Brasil. Los materiales usados son el nylon y el caucho reciclados de otras producciones, la gamuza y piel sintética, cuyos deshechos de fabricación son recogidos y utilizados en la fabricación de chanclas, rellenos en colchones y muñecos entre otros artículos. Señalar como particularidad e innovación tecnológica su plantilla anatómica de PVC 100 % reciclable con memoria ortopédica."
+      taygra_paragraph4_html: "Por todo ello nos congratulamos en ser los distribuidores exclusivos de la marca Taygra para España y Andorra, las deportivas más novedosas del momento que ya disfrutan gran parte de nuestros clientes."
       taygra_birth_title: "¿Cómo nacieron las Taygra?"
       taygra_birth_html: "La fábrica Taygra es una pequeña empresa familiar creada en 1989 en Brasil. Amantes del fútbol, crearon en un principio una zapatilla para fútbol sala muy ligera. La zapatilla Taygra había nacido: confortable, flexible, ligera, colorida. Este fue el preludio de un gran éxito. Más tarde se extendió su uso al mundo de la danza Capoeira y de las artes marciales. Finalmente fueron los turistas quienes las dieron a conocer por todo el mundo convirtiéndolas en toda una moda. Hoy en día se siguen fabricando nuevos modelos deportivos, así como una línea de moda sportswear; siempre respetando los valores de la marca. Taygra se encuentra hoy en la mayoría de las ciudades del mundo Paris, Tahití, Los Ángeles, Miami, Hawai, Tokio. "
       taygra_brand_title: "La marca"
@@ -138,11 +150,6 @@ es:
       phone_number3_html: "93 414 67 35"
       horary_number3_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
       saturday3_html: "Sábados: 10.30 a 14.00h"
-      address4_html: "Sant Cristòfol 19"
-      zip_code4_html: "08037 Mataró"
-      phone_number4_html: "93 414 67 35"
-      horary_number4_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
-      saturday4_html: "Sábados: 10.30 a 14.00h"
       address5_html: "Aribau 119"
       zip_code5_html: "08037 Barcelona"
       phone_number5_html: "93 414 67 35"
@@ -173,6 +180,18 @@ es:
       horary_number9_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
       saturday9_html: "Sábados: 10.30 a 14.00h"
       corners_html: Corners Zapaterias <span>multimarca donde encontraras una sección exclusiva de zapatitos</span>
+      madrid: Madrid
+      address14_html: "Avda. Europa 29"
+      zip_code14_html: "08037 Madrid"
+      phone_number14_html: "91 352 04 88"
+      horary_number14_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday14_html: "Sábados: 10.30 a 14.00h"
+      coruña: "La coruña"
+      address15_html: "C/ Ramón de la Sagra, 16"
+      zip_code15_html: "08037 La coruña"
+      phone_number15_html: "88 189 24 66"
+      horary_number15_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday15_html: "Sábados: 10.30 a 14.00h"
       address10_html: "Arte de Segre 5"
       zip_code10_html: "08037 Barcelona"
       phone_number10_html: "93 414 67 35"
@@ -199,7 +218,7 @@ es:
     reseller:
       title: "Te interesa nuestras franquicias"
       reseller: "Te interesa nuestro negocios?"
-      first_paragraph_html: "Si estás interesado en nuestro negocio y quieres informarte sobre corners y franquicias de Za-patitos. Por favor, rellene este formulario y muy pronto contactaremos contigo."
+      first_paragraph_html: "Si estas interesado en formar parte de nuestro negocio y quieres informarte sobre franquicias,corners o distribución de zapatitos rellena este formulario y a la mayor brevedad contactaremos con usted para concertar una reunión informativa."
       particular_html: Particular
       business_html: Empresa
       interest: Estoy interesado en
@@ -211,12 +230,13 @@ es:
     share:
       title: Za-patitos en la calle
       share: "Nuestros Za-patitos en la calle"
+      first_paragraph_html: "Envíanos tus fotos favoritas con za-patitos y conviértete en modelo de nuestro book fotográfico virtual. Participa de esta divertida experiencia luciendo diferentes modelos de nuestra marca."
       date1_html: 10/05/2010
       photo_caption_html: "Esta bonita imagen es de Yvonne de Holanda, su comentario ha sido muy expresivo igual que la imagen de sus botas de nuestra marca!"
 
     press:
       title: "La prensa habla de"
-      press: "La prensa habla de"
+      press: "Za-patitos en los medios"
       name_magazine1: ¡HOLA!
       date_html1: "19/10/2010"
       magazine_caption_html1: "Primeros pasos que dejan huella"
@@ -226,11 +246,6 @@ es:
       name_magazine3: VOGUE
       date_html3: "19/10/2010"
       magazine_caption_html3: "The best zapatitos in the world"
-
-    subscribe:
-      title: "Suscribete al newsletter"
-      subscribe: "Suscribete al newsletter"
-      line1: "suscribete"
 
     links:
       title: Links
@@ -265,7 +280,7 @@ es:
     subscribe:
       title: Subscripción.
       subscribe: Suscríbete a nuestro newsletter.
-      first_paragraph: "Si quieres recibir nuestros boletines informativos, sólo tienes que registrarte aquí."
+      first_paragraph: "Si quieres recibir nuestro boletín informativo regístrate aquí:"
       particular_html: "Particular"
       business_html: Empresas
 

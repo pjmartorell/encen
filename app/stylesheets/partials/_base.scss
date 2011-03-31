@@ -39,7 +39,7 @@ $green-color: #10562C;
 
 .clear {
   clear:both;
-  height: 1em;
+  height: 2em;
   overflow:hidden;
 }
 
@@ -66,6 +66,7 @@ body {
     margin-bottom: 0;
     line-height: 1.6em;
     text-align: justify;
+    letter-spacing: 0.02em;
   }
   h1 {
     font-family: $special-font;
