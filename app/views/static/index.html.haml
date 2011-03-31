@@ -1,4 +1,35 @@
 = title t(".title")
 
-%p
-  = t ".line1"
+#title
+  %h1=t ".home"
+
+#home
+  %p=t ".fisrt_paragraph_html"
+
+  #more_info.seven_col
+    %p= t ".more_info_html"
+    %p=t ".new_store_html"
+
+  .six_col
+    %img{:alt => "taygra deportivas", :src => "images/ibiza_store.png"}/
+
+  .separation_line
+
+  .seven_col
+    %h2= t ".autumn_winter_title"
+    %p=t ".autumn_winter_html"
+  .six_col
+    %img{:alt => "taygra deportivas", :src => "images/index_season.png"}/
+
+  .separation_line
+
+  .seven_col
+    %h2= t ".taygra"
+    %p=t ".taygra_info_html"
+  .six_col
+    %img{:alt => "taygra deportivas", :src => "images/home_taygra.png"}/
+
+  .clear
+
+- content_for :info_box do
+  = render 'shared/info'

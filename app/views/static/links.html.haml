@@ -1,0 +1,35 @@
+= title t(".title")
+
+#title
+  %h1= t ".links"
+
+#links
+  %h2=t ".link_title1"
+  %p
+    %a{:href => "/", :title => t('.link1_html')}= t('.link1_html')
+  %p
+    %a{:href => "/", :title => t('.link2_html')}= t('.link2_html')
+  %p
+    %a{:href => "/", :title => t('.link3_html')}= t('.link3_html')
+
+  %h2=t ".link_title2"
+  %p
+    %a{:href => "/", :title => t('.link4_html')}= t('.link4_html')
+  %p
+    %a{:href => "/", :title => t('.link5_html')}= t('.link5_html')
+  %p
+    %a{:href => "/", :title => t('.link6_html')}= t('.link6_html')
+  %p
+    %a{:href => "/", :title => t('.link7_html')}= t('.link7_html')
+
+  %h2=t ".link_title3"
+  %p
+    %a{:href => "/", :title => t('.link8_html')}= t('.link8_html')
+  %p
+    %a{:href => "/", :title => t('.link9_html')}= t('.link9_html')
+  %p
+    %a{:href => "/", :title => t('.link10_html')}= t('.link10_html')
+
+
+- content_for :info_box do
+  = render 'shared/reseller_side'

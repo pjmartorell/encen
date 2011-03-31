@@ -1,0 +1,30 @@
+= title t(".title")
+
+#title
+  %h1= t ".share"
+
+#share
+  %p=t ".date1_html"
+  .share_image
+  %p=t ".photo_caption_html"
+  .separation_line
+
+  %p=t ".date1_html"
+  .share_image
+  %p=t ".photo_caption_html"
+  .separation_line
+
+  %p=t ".date1_html"
+  .share_image
+  %p=t ".photo_caption_html"
+  .separation_line
+
+  %p=t ".date1_html"
+  .share_image
+  %p=t ".photo_caption_html"
+
+#up_button
+  %a{:href => "#share"} Subir
+
+- content_for :info_box do
+  = render 'shared/questionaire_share'

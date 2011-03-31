@@ -1,0 +1,78 @@
+= title t(".title")
+
+#title
+  %h1= t ".press"
+
+#press
+  .wrap.four_col
+    %h2=t ".name_magazine1"
+    %p=t ".date_html1"
+    %p=t ".magazine_caption_html1"
+    .image
+      %img{:alt => "taygra deportivas", :src => "/images/magazine1.png"}/
+      <a href="<%= # %>">más</a>
+  .wrap.four_col
+    %h2=t ".name_magazine2"
+    %p=t ".date_html2"
+    %p=t ".magazine_caption_html2"
+    .image
+      %img{:alt => "taygra deportivas", :src => "/images/magazine1.png"}/
+      <a href="<%= # %>">más</a>
+  .wrap.four_col
+    %h2=t ".name_magazine3"
+    %p=t ".date_html3"
+    %p=t ".magazine_caption_html3"
+    .image
+      %img{:alt => "taygra deportivas", :src => "/images/magazine1.png"}/
+      <a href="<%= # %>">más</a>
+  .clear
+
+  .wrap.four_col
+    %h2=t ".name_magazine1"
+    %p=t ".date_html1"
+    %p=t ".magazine_caption_html1"
+    .image
+      %img{:alt => "taygra deportivas", :src => "/images/magazine1.png"}/
+      <a href="<%= # %>">más</a>
+  .wrap.four_col
+    %h2=t ".name_magazine2"
+    %p=t ".date_html2"
+    %p=t ".magazine_caption_html2"
+    .image
+      %img{:alt => "taygra deportivas", :src => "/images/magazine1.png"}/
+      <a href="<%= # %>">más</a>
+  .wrap.four_col
+    %h2=t ".name_magazine3"
+    %p=t ".date_html3"
+    %p=t ".magazine_caption_html3"
+    .image
+      %img{:alt => "taygra deportivas", :src => "/images/magazine1.png"}/
+      <a href="<%= # %>">más</a>
+  .clear
+
+  .wrap.four_col
+    %h2=t ".name_magazine1"
+    %p=t ".date_html1"
+    %p=t ".magazine_caption_html1"
+    .image
+      %img{:alt => "taygra deportivas", :src => "/images/magazine1.png"}/
+      <a href="<%= # %>">más</a>
+  .wrap.four_col
+    %h2=t ".name_magazine2"
+    %p=t ".date_html2"
+    %p=t ".magazine_caption_html2"
+    .image
+      %img{:alt => "taygra deportivas", :src => "/images/magazine1.png"}/
+      <a href="<%= # %>">más</a>
+  .wrap.four_col
+    %h2=t ".name_magazine3"
+    %p=t ".date_html3"
+    %p=t ".magazine_caption_html3"
+    .image
+      %img{:alt => "taygra deportivas", :src => "/images/magazine1.png"}/
+      <a href="<%= # %>">más</a>
+  .clear
+
+
+- content_for :info_box do
+  = render 'shared/questionaire_press'

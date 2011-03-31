@@ -1,6 +1,4 @@
 es:
-  home: Inicio
-  contact: Contacto
 
   metakeywords: "ejemplo,itnig,test"
   metadescription: "Ejemplo de plan basico"
@@ -10,24 +8,280 @@ es:
   geo_position: Alguna posicion
   icbm: Algun numero icbm
 
+  menu_language:
+    language: "Idioma:"
+    spanish: Español
+    english: Ingles
+
+  menu:
+    home: Inicio
+    aboutus: Saber más
+    collection: Colección Zapatitos
+    deportivas: Las deportivas
+    reseller: Te interesa nuestro negocio?
+    share: Comparte tus fotos
+    subscribe: Suscribete al newsletter
+    press: La prensa habla de...
+    news: Ultimas noticias
+    links: Recomendamos
+    findus: Dónde estamos
+    reseller: Franquicias y corners
+    contact: Contacto
+
+  side_bar:
+    questionnaire:
+      name: "* Nombre :"
+      secondname: "* Apellidos :"
+      company: "* Compañia :"
+      title: "* Cargo :"
+      state: "* Población :"
+      city: "* Provincia :"
+      mail: "* Email :"
+      message: Mensaje
+      phone: Teléfono
+      code_security: "*Código seguridad inserta el código de la imagen siguiente (para evitar el Spam)"
+      privacy_terms_title: "Política de privacidad"
+      privacy_check_html: "He leído y acepto la política de privacidad de Za-patitos."
+      particular: Particular
+      business: Empresa
+    index:
+      paragraph1_html: "Así, diseñamos nuestra primera colección de zapatitos y abrimos nuestra primera tienda en Barcelona. La idea fue un gran éxito y muy pronto Za-patitos fue reconocida por la prensa de moda como una marca de tendencia. Hoy tenemos X tiendas en España y vendemos nuestros zapatitos a través de tiendas multimarca y corners distribuidos por todo el territorio Español y Andorra."
+    deportivas:
+      title: "¿Quieres ser distribuidor Taygra?"
+      paragraph_html: "Si estás interesado en comercializar este producto. Por favor, rellena este formulario y muy pronto contactaremos contigo."
+    find_us:
+      title: "Únete a nuestro proyecto"
+      paragraph_html: "Si estás interesado en nuestro negocio y quieres informarte sobre corners y franquicias de Za-patitos. Por favor, rellene este formulario y muy pronto contactaremos contigo."
+      interest: Estoy interesado en
+      corners: Corners
+      reseller: Franquicias
+      share_photos: Envía tus fotos
+    press:
+      title: Te interesa publicar Za-patitos?
+      paragraph_html: "Si necesitas información, fotos o Za-patitos para publicar en tus editoriales. Por favor, rellena este formulario y muy pronto contactaremos contigo."
+      editorial: Editorial*
+      publication: Publicación*
+      press_contact: "Contacto prensa: José Fernandez "
+    share:
+      title: Envíanos tu foto
+      paragraph_html: "Si tienes fotos con tus Za-patitos y quieres compartirlas en nuestra web envíalas y las publicaremos."
 
   static:
     index:
-      title: "Inicio -- Ejemplo Plan Basico"
-      line1: "Esto es la pagina de inicio"
+      title: "inicio"
+      home: "Inicio"
+      fisrt_paragraph_html: "En 1998, buscando una alternativa a la oferta de calzado infantil, nos lanzamos a la aventura de crear un nuevo concepto de zapatería para niñas, niños... !y mamás! Nuestra intención era innovar, ofreciendo zapatos cómodos y funcionales que respondieran a las necesidades del público infantil, sin renunciar al diseño y a las tendencias de la moda. Mocasines, bailarinas, sandalias, zuecos, botas, botines... con una amplia numeración del 15 al 41, de este modo toda la familia podría caminar a la última."
+      more_info_html: "Próxima apertura"
+      new_store_html: "Za-patitos en Ibiza"
+      autumn_winter_title: "Avance Otoño/Invierno"
+      autumn_winter_html: "Estamos ultimando los detalles de la próxima colección. Marrón tundra, gris cobalto y azul petróleo serán los protagonistas de una moda que te va a encantar."
+      taygra: "Taygra, las más buscadas del momento!"
+      taygra_info_html: "Zapatitos trae a España en exclusiva las zapatillas brasileñas Taygra, la moda que triunfa en las capitales de la moda mundial. Mucho más que unas deportivas, las Taygra con sus vistosos colores y gran ligereza y flexibilidad aportan una imagen  desenfadada. Originarias de Brasil están realizadas a mano sin productos de origen animal y respetando los derechos de sus productores."
+
+    aboutus:
+      title: "Saber más"
+      aboutus: "Saber más"
+      contact: Contacto
+      phone_html: "(+34) 93 252 00 48"
+      address_html: "Paseo San Juan Bosco, 53, 8017 Barcelona."
+      line1_html: "En 1998, buscando una alternativa a la oferta de calzado infantil, nos lanzamos a la aventura de crear un nuevo concepto de zapatería para niñas, niños... !y mamás! Nuestra intención era innovar, ofreciendo zapatos cómodos y funcionales que respondieran a las necesidades del público infantil, sin renunciar al diseño y a las tendencias de la moda. Mocasines, bailarinas, sandalias, zuecos, botas, botines... con una amplia numeración del 15 al 41, de este modo toda la familia podría caminar a la última."
+      line2_html: "Así, diseñamos nuestra primera colección de zapatitos y abrimos nuestra primera tienda en  Barcelona. La idea fue un gran éxito y muy pronto Za-patitos fue reconocida por la prensa de moda como una marca de tendencia."
+      line3_html: "Cada año presentamos 2 nuevas colecciones de zapatitos, una en la temporada Primavera-Verano y otra en Otoño-Invierno. En cada una de ellas nos mantenemos fieles al estilo zapatitos que tanto aprecian nuestros clientes."
+      line4_html: "Hoy tenemos X tiendas en España y vendemos nuestros zapatitos a través de franquicias y corners distribuidos por todo el territorio Español y  Andorra."
+      line5_html: "Empezamos siendo dos y hoy somos un gran equipo de colaboradores unidos por la misma ilusión de nuestros comienzos. Hemos crecido haciendo lo que más nos gusta, diseñar zapatitos para nuestros mejores amigos, los niños."
+
+    zapatitos:
+      title: "Colección Za-patitos"
+      zapatitos: "Colección Za-patitos"
+      catalog1: Primavera Verano 2010
+      catalog2: Otoño Invierno 2009
+      catalog3: Taygra
+
+    deportivas:
+      title: "Las deportivas que triunfan"
+      deportivas: "Las deportivas Taygra"
+      taygra: "Taygra, las más buscadas del momento"
+      taygra_info_html: "Zapatitos trae a España en exclusiva las zapatillas brasileñas Taygra, la moda que triunfa en las capitales de la moda mundial. Mucho más que unas deportivas, las Taygra con sus vistosos colores y gran ligereza y flexibilidad aportan una imagen  desenfadada. Originarias de Brasil están realizadas a mano sin productos de origen animal y respetando los derechos de sus productores."
+      taygra_birth_title: "¿Cómo nacieron las Taygra?"
+      taygra_birth_html: "La fábrica Taygra es una pequeña empresa familiar creada en 1989 en Brasil. Amantes del fútbol, crearon en un principio una zapatilla para fútbol sala muy ligera. La zapatilla Taygra había nacido: confortable, flexible, ligera, colorida. Este fue el preludio de un gran éxito. Más tarde se extendió su uso al mundo de la danza Capoeira y de las artes marciales. Finalmente fueron los turistas quienes las dieron a conocer por todo el mundo convirtiéndolas en toda una moda. Hoy en día se siguen fabricando nuevos modelos deportivos, así como una línea de moda sportswear; siempre respetando los valores de la marca. Taygra se encuentra hoy en la mayoría de las ciudades del mundo Paris, Tahití, Los Ángeles, Miami, Hawai, Tokio. "
+      taygra_brand_title: "La marca"
+      taygra_brand_html: "Taygra viene del idioma amerindio Guaraní y significa Semilla divina. También es el nombre en Brasil de un pequeño tigre protagonista de unos dibujos animados, carismático y divertido. Este nombre reúne los valores de la marca: la convicción que con fe y trabajo se puede conquistar el mundo, a través de la fabricación y de la comercialización de un producto ético que defiende el medio-ambiente."
+      taygra_style_title: "Más que una moda"
+      taygra_style_html: "Las zapatillas Taygra son ligeras, muy cómodas y de colores desenfadados. Ideales para el deporte, el baile, para relajar los pies o simplemente para caminar en la ciudad. Al probar unas Taygra, lo primero que sorprende es que son increíblemente cómodas y ligeras, la sensación de bienestar es inmediata... Además se pueden lavar en la lavadora."
+      taygra_embassy: "Taygra: embajadora del Comercio Justo y de la Conservación del Medioambiente."
+      taygra_embassy1_html: "Desde sus inicios, Taygra ha adoptado una política de producción 100% artesanal, ecológicamente correcta y equitativa. En 2009 lanza al mercado un nuevo material ecológicamente correcto, el Tejido de la Floresta Amazónica. Los pequeños productores de la Amazonia  recogen el látex de los árboles de hevea de las reservas brasileñas, lo que les proporciona un medio de vida a la vez que protegen la floresta contra las invasiones de los madereros."
+      taygra_embassy2_html: "TAYGRA se enorgullece de ser pionera y de lanzar un proyecto ecológico único: el proyecto CURUPIRA. El objetivo es la regeneración de la floresta amazónica aprovechando las capoeiras y los pastos como áreas de plantación de árboles nativos. Así, por cada par de zapatos vendido, se reinvierte 1 € de Eco en esta causa."
+      made_in_brasil_title: Made in Brasil
+      made_in_brasil_html: "Los productos de la marca Taygra se producen íntegramente en Brasil. Los materiales usados son: el cuero y la gamuza sintéticos, la lona y el nylon. La plantilla es de E.V.A. reciclable, la suela es de P.V.C. vulcanizado. Taygra respeta la naturaleza, por ello trabajamos con una cola con base de agua sin contaminación para las personas ni el medio-ambiente. Taygra lanza en el mercado una plantilla anatomica de PVC 100% reciclable con memoria ortopédica, otra innovación ecológica para vuestro confort y para el planeta. Taygra utiliza materiales 100% reciclables, los sobrantes son recicladas por personas que se ganan la vida con esa actividad. Esos materiales son reaprovechados para fabricar chanclas, colchones, muñecas... Las embalajes de Taygra se realizan a partir de materiales reciclados"
+
+    findus:
+      title: "Donde estamos"
+      our_store: Nuestras tiendas
+      shoestore: Zapaterías
+      barcelona: Barcelona
+      corners_html: Corners
+      address1_html: Artesa de Segre
+      zip_code_html: 08037 Barcelona
+      phone: Telefono
+      phone_number1_html: 93 414 67 35
+      horary: Horario
+      horary_number1_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday1_html: "Sábados: 10.30 a 14.00h"
+      map_html: Ver en mapa
+      address2_html: "Pso. Sant Juan 53"
+      zip_code2_html: "08037 Barcelona"
+      phone_number2_html: "93 414 67 35"
+      horary_number2_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday2_html: "Sábados: 10.30 a 14.00h"
+      address3_html: "Sant Jordi 30 "
+      zip_code3_html: "08037 S.Cugat del Vallés"
+      phone_number3_html: "93 414 67 35"
+      horary_number3_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday3_html: "Sábados: 10.30 a 14.00h"
+      address4_html: "Sant Cristòfol 19"
+      zip_code4_html: "08037 Mataró"
+      phone_number4_html: "93 414 67 35"
+      horary_number4_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday4_html: "Sábados: 10.30 a 14.00h"
+      address5_html: "Aribau 119"
+      zip_code5_html: "08037 Barcelona"
+      phone_number5_html: "93 414 67 35"
+      horary_number5_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday5_html: "Sábados: 10.30 a 14.00h"
+      larioja: La Rioja
+      address6_html: "Avda. de Portugal 27-29"
+      zip_code6_html: "08037 Logroño"
+      phone_number6_html: "93 414 67 35"
+      horary_number6_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday6_html: "Sábados: 10.30 a 14.00h"
+      zaragoza: Zaragoza
+      address7_html: "General Sueiro 3"
+      zip_code7_html: "08037 Zaragoza"
+      phone_number7_html: "93 414 67 35"
+      horary_number7_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday7_html: "Sábados: 10.30 a 14.00h"
+      bilbao: Bilbao
+      address8_html: "Maestro Garcia Rivero 8"
+      zip_code8_html: "08037 Bilbao"
+      phone_number8_html: "93 414 67 35"
+      horary_number8_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday8_html: "Sábados: 10.30 a 14.00h"
+      andorra: Andorra
+      address9_html: "María Pla 12-14"
+      zip_code9_html: "08037 Andorra la Vella"
+      phone_number9_html: "93 414 67 35"
+      horary_number9_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday9_html: "Sábados: 10.30 a 14.00h"
+      corners_html: Corners Zapaterias <span>multimarca donde encontraras una sección exclusiva de zapatitos</span>
+      address10_html: "Arte de Segre 5"
+      zip_code10_html: "08037 Barcelona"
+      phone_number10_html: "93 414 67 35"
+      horary_number10_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday10_html: "Sábados: 10.30 a 14.00h"
+      address11_html: Pso. Sant Juan 53
+      zip_code11_html: "08037 Barcelona"
+      phone_number11_html: "93 414 67 35"
+      horary_number11_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday11_html: "Sábados: 10.30 a 14.00h"
+      address12_html: "Sant Jordi 30"
+      zip_code12_html: "08037 S.Cugat del Vallés"
+      zip_code12_html: "08037 Barcelona"
+      phone_number12_html: "93 414 67 35"
+      horary_number12_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday12_html: "Sábados: 10.30 a 14.00h"
+      address13_html: "Sant Cristófol 19"
+      zip_code13_html: "08037 Mataró"
+      zip_code13_html: "08037 Barcelona"
+      phone_number13_html: "93 414 67 35"
+      horary_number13_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday13_html: "Sábados: 10.30 a 14.00h"
+
+    reseller:
+      title: "Te interesa nuestras franquicias"
+      reseller: "Te interesa nuestro negocios?"
+      first_paragraph_html: "Si estás interesado en nuestro negocio y quieres informarte sobre corners y franquicias de Za-patitos. Por favor, rellene este formulario y muy pronto contactaremos contigo."
+      particular_html: Particular
+      business_html: Empresa
+      interest: Estoy interesado en
+      corners_html: "Corners. Espacios en tiendas establecidas donde podrán distribuir nuestros productos."
+      franquicias_html: Franquicias
+      code_html: "*Código seguridad inserta el código de la imagen siguiente (para evitar el Spam)"
+      position_html: Cargo
+
+    share:
+      title: Za-patitos en la calle
+      share: "Nuestros Za-patitos en la calle"
+      date1_html: 10/05/2010
+      photo_caption_html: "Esta bonita imagen es de Yvonne de Holanda, su comentario ha sido muy expresivo igual que la imagen de sus botas de nuestra marca!"
+
+    press:
+      title: "La prensa habla de"
+      press: "La prensa habla de"
+      name_magazine1: ¡HOLA!
+      date_html1: "19/10/2010"
+      magazine_caption_html1: "Primeros pasos que dejan huella"
+      name_magazine2: ESTILO CLÁSICO
+      date_html2: "19/10/2010"
+      magazine_caption_html2: "Za_patitos estrena franquicia"
+      name_magazine3: VOGUE
+      date_html3: "19/10/2010"
+      magazine_caption_html3: "The best zapatitos in the world"
+
+    subscribe:
+      title: "Suscribete al newsletter"
+      subscribe: "Suscribete al newsletter"
+      line1: "suscribete"
+
+    links:
+      title: Links
+      links: Links
+      link_title1: Publicaciones
+      link_title2: ONGS
+      link_title3: Actividades infantiles
+      link_title4: Publicaciones
+      link_title5: ONGS
+      link_title6: Actividades infantiles
+      link1_html: ¡Hola!
+      link2_html: La Vanguadia
+      link3_html: Vogue Niños
+      link4_html: Global Humanitaria
+      link5_html: Médicos sin Fronteras
+      link6_html: Cruz Roja Española
+      link7_html: Fundación Vicente Ferrer
+      link8_html: Chiquipark
+      link9_html: Galletas Carlota's
+      link10_html: Imaginarium
+      link11_html: ¡Hola!
+      link12_html: La Vanguadia
+      link13_html: Vogue Niños
+      link14_html: Global Humanitaria
+      link15_html: Médicos sin Fronteras
+      link16_html: Cruz Roja Española
+      link17_html: Fundación Vicente Ferrer
+      link18_html: Chiquipark
+      link19_html: Galletas Carlota's
+      link20_html: Imaginarium
+
+    subscribe:
+      title: Subscripción.
+      subscribe: Suscríbete a nuestro newsletter.
+      first_paragraph: "Si quieres recibir nuestros boletines informativos, sólo tienes que registrarte aquí."
+      particular_html: "Particular"
+      business_html: Empresas
+
+    news:
+      title: Noticias
+      news: Noticias
+      date1_html: 10/05/2010
+      title_news1: "Taygra, las más buscadas del momento"
+      news1_html: "Zapatitos trae a España en exclusiva las zapatillas brasileñas Taygra, una moda que triunfan en Londres. Mucho más que unas deportivas, las Taygra con sus vistosos colores y gran flexibilidad aportan una actitud desenfadada. Originarias de Brasil están realizadas a mano sin productos de origen animal y respetando los derechos de sus productores."
+      date2_html: 10/05/2010
+      title_news2: "Próxima apertura en Ibiza"
+      news2_html: "Zapatitos trae a España en exclusiva las zapatillas brasileñas Taygra, una moda que triunfa en Londres. Mucho más que unas deportivas, las Taygra con sus vistosos colores y gran flexibilidad aportan una actitud desenfadada. Originarias de Brasil están realizadas a mano sin productos de origen animal y respetando los derechos de sus productores."
+      date3_html: 10/05/2010
+      title_news3: "Avance Otoño/Invierno"
+      news3_html: "Estamos ultimando los detalles de la próxima colección. Marrón tundra, gris cobalto y azul petróleo serán los protagonistas de una moda que te va a encantar. Estamos ultimando los detalles de la próxima colección. Marrón tundra, gris cobalto y azul petróleo serán los protagonistas de una moda que te va a encantar."
 
     contact:
       title: "Contacto -- Ejemplo Plan Basico"
       line1: "Y esto es la pagina de contacto"
-
-  date:
-    order: [ :year, :month, :day ]
-    formats:
-      default: "%Y-%m-%d"
-      short: "%b %d"
-      long: "%B %d, %Y"
-    day_names: [Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo]
-    abbr_day_names: [L, M, X, J, V, S, D]
-    month_names: [~, Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre]
-    abbr_month_names: [~, E, F, M, A, M, J, J, A, S, O, N, D]
-

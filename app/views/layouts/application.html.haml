@@ -20,17 +20,23 @@
     = stylesheet_link_tag 'print', :media => :print
     /[if lt IE 8 ]
       = stylesheet_link_tag 'ie', :media => 'screen, projection'
-  %body
+  %body.two_col
     - if current_user
       = render "shared/admin_preheader"
-    = render 'shared/header'
-    = render 'shared/menu'
+    #container
+      #header
+        = render 'shared/header'
 
-    #info_box
-      = yield
+      #side_bar
+        = render 'shared/menu'
+        #info_box
+          = yield :info_box
 
-    #footer
-      = render 'shared/footer'
+      #main
+        = yield
+
+      #footer
+        = render 'shared/footer'
 
     %script{:src => "http://www.google.com/jsapi?key=ABQIAAAA0ylfVAz-VO81YNZU6tZcBBQmeMglRFmXFoqbXzJidjd95_9FnxR5zSzQGNAQ-NQNKLi_4635iBfvLA", :type => "text/javascript"}
     :javascript

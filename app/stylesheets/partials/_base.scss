@@ -1,10 +1,155 @@
+@import "partials/two_col";
+@import "compass/css3/font-face";
+
+
 // Here is where you can define your constants for your application and to configure the blueprint framework.
 // Feel free to delete these if you want keep the defaults:
 
 $blueprint-grid-columns: 24;
-$blueprint-container-size: 950px;
+$blueprint-grid-width: 950px;
 $blueprint-grid-margin: 10px;
 
-// Use this to calculate the width based on the total width.
-// Or you can set $blueprint-grid-width to a fixed value and unset $blueprint-container-size -- it will be calculated for you.
-$blueprint-grid-width: ($blueprint-container-size + $blueprint-grid-margin) / $blueprint-grid-columns - $blueprint-grid-margin;
+// If you change your grid column dimensions
+// you can make a new grid background image from the command line like this:
+// compass grid-img 30+10x16
+
+
+$title-font-family: "Georgia","Times New Roman", "Times", serif;
+$main-font-family: "Arial", "Helvetica", sans-serif;
+$special-font: "Little";
+
+$main-font-size: 1em;
+$title-font-size: 1.5em;
+
+$dark-brown-color: #62371c;
+$light-brown-color: #c49d5b;
+$blue-color: #8fc5eb;
+$strong-blue-color: #6b8eb9;
+$pink-color: #D978A9;
+$green-color: #10562C;
+
+//Extra fonts.
+@include font-face("Little", font-files("/fonts/littledays.ttf", truetype), "littledays.eot");
+
+
+
+.clearfix {
+  @include clearfix;
+}
+
+.clear {
+  clear:both;
+  height: 1em;
+  overflow:hidden;
+}
+
+.separation_line{
+  border-bottom: 1px dashed $light-brown-color;
+  clear:both;
+  height: 3em;
+  margin-bottom: 3em;
+  overflow:hidden;
+}
+
+
+body {
+  background-image: url("/images/background.jpg");
+  font-family: $main-font-family;
+  font-size: $main-font-size;
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  p {
+    margin-bottom: 0;
+    line-height: 1.6em;
+    text-align: justify;
+  }
+  h1 {
+    font-family: $special-font;
+    color: white;
+    margin-bottom: 0;
+  }
+  h2{
+   font-size: $title-font-size; 
+   font-family: $title-font-family;
+  }
+  .six_col{
+    margin-left: 1.5em;
+  }
+}
+
+@mixin catalog_link {
+  font-family: $special-font;
+  text-align: center;
+  font-size: 2em;
+  line-height: 1em;
+  height: 3em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+@mixin questionaire {
+  padding-left: 1em;
+  padding-right: 1em;
+  h2{color: $blue-color;}
+  #title{
+    background-color: #d2eaf1;
+    border: dashed 1px #4eadde;
+    margin-bottom: 2em;
+    padding: 1em 1em 0;
+    text-align: center;
+    h3{color: #4eadde;}
+  }
+  p{
+    text-align: left;
+  }
+  input{
+    border: #ccc solid 1px;
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+    margin-top: 0;
+  }
+  textarea{
+    border: #ccc solid 1px;
+    max-width: 16em;
+    color: #666666;
+    font-family: $main-font-family;
+    font-size: 1.2em;
+    height: 10em;
+    margin-bottom: 2em;
+  }
+  input.fill{
+    width: 19em;
+  }
+  input#button{
+    color: #4eadde;
+    background-color: #d2eaf1;
+    border: dashed 1px #4eadde;
+    font-size: 1.2em;
+    height: 2em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    margin-left: 4em;
+    padding-bottom: 1em;
+    padding-top: 0.2em;
+    width: 10em;
+    &:hover{
+      color: #295b75;
+    }
+  }
+  .checkbox_category{
+    margin-top: 2em;
+    height: 3em;
+    input{ margin-left: 0;} 
+    h2{
+      color: $blue-color;
+      margin-left: 1.5em;
+      margin-top: -2em;
+    }
+  }
+}
+

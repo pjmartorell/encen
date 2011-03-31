@@ -1,0 +1,68 @@
+= title t(".title")
+
+#title
+  %h1= t ".reseller"
+
+%p= t ".first_paragraph_html"
+
+
+#reseller
+  #form
+    %form{"accept-charset" => "UTF-8", :action => "/new_question", "data-remote" => "true", :method => "post"}
+      %fieldset#basic_information
+        %input{:class=> "checkbox" , :name => "status", :type => "radio"}/
+        %label.checkbox=t ".particular_html"
+        %br/
+
+        %label{:for => :name}=t(:name, :scope => "side_bar.questionnaire")
+        %input{:id => "name", :required => "required", :type => "text", :value => ""}/
+        %br/
+
+        %label{:for => :secondname}= t(:secondname, :scope => "side_bar.questionnaire")
+        %input{:id => "secondname", :required => "required", :type => "text", :value => ""}/
+        %br/
+
+        %input{:class=> "checkbox", :name => "status", :type => "radio"}/
+        %label.checkbox=t ".business_html"
+        %br/
+
+        %label{:for => :company}= t(:company, :scope => "side_bar.questionnaire")
+        %input{:id => "company", :required => "required", :type => "text", :value => ""}/
+        %br/
+
+        %label{:for => :name2}=t(:name, :scope => "side_bar.questionnaire")
+        %input{:id => "name2", :required => "required", :type => "text", :value => ""}/
+        %br/
+
+        %label{:for => :secondname2}= t(:secondname, :scope => "side_bar.questionnaire")
+        %input{:id => "secondname2", :required => "required", :type => "text", :value => ""}/
+        %br/
+
+        %label{:for => :charge}= t(:title, :scope => "side_bar.questionnaire")
+        %input{:id => "charge", :required => "required", :type => "text", :value => ""}/
+        %br/
+
+      %h2=t ".interest"
+
+      %input{:class=> "checkbox" , :name => "type", :type => "radio"}/
+      %label.checkbox=t ".corners_html"
+
+      %input{:class=> "checkbox" , :name => "type", :type => "radio"}/
+      %label.checkbox=t ".franquicias_html"
+
+      %label{:for => :state}= t(:state, :scope => "side_bar.questionnaire")
+      %input{:id => "state", :required => "required", :type => "text", :value => ""}/
+      %br/
+
+      %label{:for => :mail}= t(:mail, :scope => "side_bar.questionnaire")
+      %input{:id => "mail", :required => "required", :type => "text", :value => ""}/
+      %br/
+
+      %label{:for => :message}= t(:message, :scope => "side_bar.questionnaire")
+      %textarea{:id => "message", :required => "required"}
+
+    %p= t(:privacy_terms_title, :scope => "side_bar.questionnaire")
+    %p= t(:privacy_check_html, :scope => "side_bar.questionnaire")
+
+- content_for :info_box do
+  = render 'shared/reseller_side'

@@ -1,0 +1,354 @@
+/* ======================================================= */
+/*                         Header                          */
+/* ======================================================= */
+
+#header {
+  background-image: url("/images/header2.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+  height: 10em;
+  margin-top: 1em;
+}
+
+/* ======================================================= */
+/*                      Main container                     */
+/* ======================================================= */
+
+#main {
+  background-color: white;
+  padding-bottom: 4em;
+  min-height: 70em;
+  #title{
+    background-color: $blue-color;
+    margin-bottom: 2em;
+    padding: 1em 0 1em 1em;
+    border: dashed 1px $strong-blue-color;
+  }
+  #up_button{
+    background-color: #FBECD7;
+    border: $light-brown-color dashed 1px;
+    margin-left: 17em;
+    margin-top: 3em;
+    padding: 0.2em 4em;
+    text-align: center;
+    width: 3em;
+    a{
+      color: #C49D5B;
+      text-decoration: none;
+      &:hover{ color: $dark-brown-color;}
+    }
+  }
+}
+
+
+/* ======================================================= */
+/*                         home                            */
+/* ======================================================= */
+
+#home{
+  h2{
+    color: $dark-brown-color;
+    font-size: 2em;
+  }
+  p:first-child{
+    color: $dark-brown-color;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    text-align: justify;
+  }
+  p{
+    color: $strong-blue-color;
+  }
+  #more_info{
+    background-image: url("/images/more_info.png");
+    background-repeat: no-repeat;
+    height: 6em;
+    padding-top: 3em;
+    p:first-child{
+      font-family: $special-font;
+      font-size: 3em;
+      line-height: 0.7em;
+      padding-left: 2.6em;
+    }
+    p:last-child{
+      font-size: 1.2em;
+      padding-left: 9em;
+    }
+  }
+}
+
+/* ======================================================= */
+/*                        about us                         */
+/* ======================================================= */
+
+
+#aboutus {
+  color: $dark-brown-color;
+  #contact {
+    border: 1px dashed $light-brown-color;
+    padding: 1em;
+    h2 {
+      color: $pink-color;
+      font-family: $special-font;
+      font-size: 3em;
+      margin-bottom: 0;
+    }
+    a{
+      color: $dark-brown-color;
+      letter-spacing: -0.06em;
+      &:hover{color: $light-brown-color;}
+    }
+    p {
+      color: $dark-brown-color;
+      font-size: 1.4em;
+      margin-bottom: 0;
+    }
+    p:last-child {
+      color: $strong-blue-color;
+      font-size: $main-font-size;
+    }
+  }
+
+}
+
+/* ======================================================= */
+/*                        find us                          */
+/* ======================================================= */
+
+#findus {
+  h2,h4{
+    color: $dark-brown-color;
+    margin-bottom: 0;
+  }
+
+  h2{
+    font-size: 3em;
+    font-family: $special-font;
+  }
+
+  h3{
+    font-family: $title-font-family;
+    color: $strong-blue-color;
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+
+  h4{margin-top: 1em;}
+
+  p{
+    color: $light-brown-color;
+  }
+
+  p.address{
+    color: $dark-brown-color;
+    font-size: 1.2em;
+    line-height: 1.2em;
+  }
+  .map{
+    margin-top: 1em;
+    a{
+      color: $strong-blue-color;
+      font-size: 1.1em;
+      text-decoration: underline;
+      &:hover{
+        color:$blue-color;
+      }
+    }
+  }
+
+  .corners{
+    line-height: .5em;
+    margin-bottom: 1em;
+    span{
+      font-size: .6em;
+      letter-spacing: 0.03em;
+    }
+  }
+}
+
+
+/* ======================================================= */
+/*                        zapatitos                        */
+/* ======================================================= */
+
+#zapatitos{
+  .wrap{
+    border: dashed 1px $light-brown-color;
+  }
+  .btn{
+    border: dashed 1px $light-brown-color;
+    background-color: $dark-brown-color;
+    padding-bottom: 2.5em;
+    padding-top: 1em;
+    margin-bottom: 3em;
+    margin-left: 1.5em;
+    height: 5em;
+    h2{
+      color: $light-brown-color;
+      font-family: $special-font;
+      font-size: 2.4em;
+      text-align: center;
+      line-height: 1em;
+      letter-spacing: 0.01em;
+    }
+    &:hover{
+      background-color: $light-brown-color;
+      border: dashed 1px $dark-brown-color;
+      h2{
+        color: $dark-brown-color;
+      }
+    }
+  }
+}
+
+
+
+/* ======================================================= */
+/*                     Deportivas                          */
+/* ======================================================= */
+
+#deportivas{
+  h2{
+    color: $green-color;
+  }
+  p{
+    color: $dark-brown-color;
+  }
+
+  .taygra_embassi{
+    margin-bottom: 4em;
+  }
+}
+
+/* ======================================================= */
+/*                         Press                           */
+/* ======================================================= */
+
+#press{
+  border: 1px dashed $strong-blue-color;
+  padding-left: 2em;
+  padding-top: 2em;
+  p{
+    text-align: left;
+  }
+  .wrap{
+    border: 1px solid $blue-color;
+    padding-left: .5em;
+    padding-bottom: .5em;
+    h2{
+      color: $dark-brown-color;
+      text-align: center;
+      margin-bottom: 0;
+    }
+  }
+}
+
+
+/* ======================================================= */
+/*                        Reseller                         */
+/* ======================================================= */
+
+#reseller{
+  margin-top: 2em;
+  h2{
+    color: $dark-brown-color;
+    font-size: $title-font-size;
+    margin-top: 1.5em;
+  }
+  #form{
+    border: 1px dashed $blue-color;
+    padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    fieldset#basic_information{
+      border: none;
+      padding:0;
+      label{
+        text-align: right;
+        font-weight: normal;
+        line-height: 3em;
+        clear: left;
+        display: block;
+        float: left;
+        padding-right: 2em;
+        width: 7em;
+      }
+      label.checkbox{
+        font-family: $title-font-family;
+        font-size: $title-font-size;
+        color: $strong-blue-color;
+        display: inline;
+        float: none;
+      }
+    }
+  }
+}
+
+/* ======================================================= */
+/*                        Share                            */
+/* ======================================================= */
+
+#share{
+  .share_image{
+    background-color: #ccc;
+    height: 30em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+  }
+}
+
+/* ======================================================= */
+/*                        Subscribe                        */
+/* ======================================================= */
+
+#subscribe{
+  .subscribe_box{
+    border: 1px dashed $blue-color;
+    padding: 2em;
+    margin-top: 2em;
+  }
+
+}
+
+/* ======================================================= */
+/*                         News                            */
+/* ======================================================= */
+
+#news{
+  h2{
+    margin-bottom: 0;
+  }
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  .date{color: $dark-brown-color;}
+  h2{color: $dark-brown-color;}
+  p{color: $strong-blue-color;}
+}
+
+/* ======================================================= */
+/*                         Links                           */
+/* ======================================================= */
+
+#links{
+  h2{
+    color: $dark-brown-color;
+    margin-bottom: 0;
+    margin-top: 1em;
+  }
+  a{
+    color: $strong-blue-color;
+    text-decoration: none;
+    &:hover{ color: $light-brown-color;}
+  }
+}
+
+/* ======================================================= */
+/*                         Footer                          */
+/* ======================================================= */
+
+#footer {
+  text-align: right;
+  color: $dark-brown-color;
+  margin-top: 4em;
+  margin-bottom: 1em;
+}

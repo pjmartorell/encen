@@ -1,0 +1,114 @@
+#side_bar {
+  #language_menu{
+    background-color: $blue-color;
+    border: 1px dashed $strong-blue-color;
+    height: 2.5em;
+    padding: 0.2em 1.5em 0.5em;
+    p{
+      float: left;
+      color: white;
+      font-family: $special-font;
+      font-size: 2em;
+      letter-spacing: 0.1em;
+    }
+    #flags{
+      float: right;
+      img {
+        padding-top: 0.2em;
+      }
+    }
+  }
+	#menu {
+	  background-color: white;
+    margin-bottom: 2em;
+    padding-bottom: 1em;
+    padding-top: 2em;
+    a {
+      color: $dark-brown-color;
+      font-family: "Little";
+      font-size: 2.2em;
+      &:hover {
+        color: $light-brown-color;
+      }
+    }
+    ul { 
+      margin-right: 0;
+      padding-left: 1em;
+    }
+  }
+  
+  #info_box {
+    border: 2px dotted $strong-blue-color;
+    background-color: white;
+    
+/* ======================================================= */
+/*                          Index                          */
+/* ======================================================= */
+
+    #side_home{
+      background-image: url("/images/3_ducks.png");
+      background-repeat: no-repeat;
+      background-position: right bottom;
+      color: $dark-brown-color;
+      margin: 1em;
+      padding-bottom: 3em;
+    }
+
+/* ======================================================= */
+/*                 questionaire_distributor                */
+/* ======================================================= */
+
+    #questionaire_distributor{
+      padding: 1em 1em 4em;
+      @include questionaire;
+    }
+
+/* ======================================================= */
+/*                     questionaire_findus                 */
+/* ======================================================= */
+
+    #questionaire_findus{
+      padding: 1em 1em 4em;
+      @include questionaire;
+      .checkbox_interest{
+        height: 2em;
+        input{ margin-left: 0;} 
+        h2{
+          color: #666;
+          font-family: $main-font-family;
+          font-size: 1.2em;
+          font-weight: normal;
+          margin-left: 1.5em;
+          margin-top: -2.3em;
+        }
+      }
+    }
+
+/* ======================================================= */
+/*                     questionaire_share                  */
+/* ======================================================= */
+    
+    #questionaire_share{
+      padding: 1em 1em 4em;
+      @include questionaire;
+      form{
+        margin-top: 2em;
+      }
+    }
+
+/* ======================================================= */
+/*                     questionaire_press                  */
+/* ======================================================= */
+
+    #questionaire_press{
+      padding: 1em 1em 4em;
+      @include questionaire;
+      form{
+        margin-top: 2em;
+      }
+    }
+
+
+
+  }
+}

@@ -1,0 +1,58 @@
+= title t(".title")
+
+#title
+  %h1= t ".zapatitos"
+
+#zapatitos
+
+  .btn.four_col
+    %a{:href => "#"}
+      %h2=t ".catalog1"
+
+  .btn.four_col
+    %a{:href => "#"}
+      %h2=t ".catalog2"
+
+  .btn.four_col
+    %a{:href => "#"}
+      %h2=t ".catalog3"
+
+
+  .wrap.seven_col
+    %img{:alt => "zapatitos", :src => "/images/photo1.png"}/
+
+  .wrap.six_col
+    %img{:alt => "zapatitos", :src => "/images/photo2.png"}/
+
+  .clear
+
+  .wrap.seven_col.wrap
+    %img{:alt => "zapatitos", :src => "/images/photo3.png"}/
+
+  .wrap.six_col.wrap
+    %img{:alt => "zapatitos", :src => "/images/photo4.png"}/
+
+  .clear
+
+  .wrap.seven_col.wrap
+    %img{:alt => "zapatitos", :src => "/images/photo5.png"}/
+
+  .wrap.six_col.wrap
+    %img{:alt => "zapatitos", :src => "/images/photo6.png"}/
+
+  .clear
+
+  .wrap.seven_col.wrap
+    %img{:alt => "zapatitos", :src => "/images/photo7.png"}/
+
+  .wrap.six_col.wrap
+    %img{:alt => "zapatitos", :src => "/images/photo8.png"}/
+
+  .clear
+
+#up_button
+  %a{:href => "#zapatitos"} Subir
+
+
+- content_for :info_box do
+  = render 'shared/aboutus_side'

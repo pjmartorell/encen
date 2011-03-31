@@ -1,0 +1,24 @@
+= title t(".title")
+
+#title
+  %h1= t ".aboutus"
+
+#aboutus
+
+  .six_col
+    %img{:alt => "zapatitos", :src => "/images/couple.jpg"}/
+    #contact
+      %h2= t ".contact"
+      %P= t ".phone_html"
+      %p= mail_to 'za-patitos@za-patitos.com', nil, :encode => :hex
+      %P= t ".address_html"
+
+  .seven_col
+    %p= t ".line1_html"
+    %p= t ".line2_html"
+    %p= t ".line3_html"
+    %p= t ".line4_html"
+    %p= t ".line5_html"
+
+- content_for :info_box do
+  = render 'shared/aboutus_side'

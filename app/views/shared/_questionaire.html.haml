@@ -1,0 +1,43 @@
+%form#question_form{"accept-charset" => "UTF-8", :action => "/new_question", "data-remote" => "true", :method => "post"}
+  %div{:style => "margin:0;padding:0;display:inline"}
+    %input{:name => "utf8", :type => "hidden", :value => "&#x2713;"}/
+    %input{:name => "authenticity_token", :type => "hidden", :value => "7F+N/YbtIH2OY4kFkCWOgdr+jxY6SEttYpg0SbMGN14="}/
+  %label{:for => "company"} Empresa
+  %input#company{:name => "company", :type => "text"}/
+  %br/
+  %label{:for => "name"}
+    Nombre
+    %sup *
+  %input#name{:name => "name", :required => "required", :type => "text", :value => ""}/
+  %br/
+  %label{:for => "email"}
+    Email
+    %sup *
+  %input#email{:name => "email", :required => "required", :type => "text", :value => ""}/
+  %br/
+  %label{:for => "phone"}
+    Teléfono
+    %sup *
+  %input#phone{:name => "phone", :required => "required", :type => "text", :value => ""}/
+  %br/
+  %label{:for => "fax"} Fax
+  %input#fax{:name => "fax", :type => "tel"}/
+  %br/
+  %label{:for => "address"} Dirección
+  %input#address{:name => "address", :type => "tel"}/
+  %br/
+  %label{:for => "zipcode"} Código postal
+  %input#zipcode{:name => "zipcode", :type => "tel"}/
+  %br/
+  %label{:for => "city"} Ciudad
+  %input#city{:name => "city", :type => "text"}/
+  %br/
+  %label{:for => "msg"}
+    Mensaje
+    %sup *
+  %textarea#msg{:name => "msg", :required => "required"}
+  %div{:style => "float:right;"}
+    %p
+      %sup *
+      Campos obligatorios
+  %input.awesome{:name => "commit", :type => "submit", :value => "Enviar"}/

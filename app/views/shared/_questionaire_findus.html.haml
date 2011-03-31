@@ -1,0 +1,83 @@
+#questionaire_findus
+  
+  #title
+    %h3= t(:title, :scope => "side_bar.find_us")
+  
+  %p= t(:paragraph_html, :scope => "side_bar.find_us")
+  %form{"accept-charset" => "UTF-8", :action => "/new_question", "data-remote" => "true", :method => "post"}
+    %div{:style => "margin:0;padding:0;display:inline"}
+      %input{:name => "utf8", :type => "hidden", :value => "&#x2713;"}/
+      %input{:name => "authenticity_token", :type => "hidden", :value => "7F+N/YbtIH2OY4kFkCWOgdr+jxY6SEttYpg0SbMGN14="}/
+    
+    .checkbox_category
+      %input{:class=> "checkbox" , :name => "category", :type => "radio", :value => ""}/
+      %label= t(:particular, :scope => "side_bar.questionnaire")
+      %br/
+
+    %label{:for => :name}= t(:name, :scope => "side_bar.questionnaire")
+    %input.fill{:id => "name", :required => "required", :type => "text", :value => ""}/
+    %br/
+
+    %label{:for => :secondname}= t(:secondname, :scope => "side_bar.questionnaire")
+    %input.fill{:id => "secondname", :required => "required", :type => "text", :value => ""}/
+    %br/
+    
+    .checkbox_category
+      %input{:class=> "checkbox", :name => "category", :type => "radio", :value => ""}/
+      %label= t(:business, :scope => "side_bar.questionnaire")
+      %br/
+    
+    %label{:for => :company}= t(:company, :scope => "side_bar.questionnaire")
+    %input.fill{:id => "company", :required => "required", :type => "text", :value => ""}/
+    %br/
+
+    %label{:for => :name2}= t(:name, :scope => "side_bar.questionnaire")
+    %input.fill{:id => "name2", :required => "required", :type => "text", :value => ""}/
+    %br/
+
+    %label{:for => :secondname2}= t(:secondname, :scope => "side_bar.questionnaire")
+    %input.fill{:id => "secondname2", :required => "required", :type => "text", :value => ""}/
+    %br/
+
+    %label{:for => :charge}= t(:title, :scope => "side_bar.questionnaire")
+    %input.fill{:id => "charge", :required => "required", :type => "text", :value => ""}/
+    %br/
+    
+    %h2= t(:interest, :scope => "side_bar.find_us")
+    
+    .checkbox_interest
+      %input{:class=> "checkbox" , :name => "interest", :type => "radio", :value => ""}/
+      %label= t(:corners, :scope => "side_bar.find_us")
+      %br/
+      
+    .checkbox_interest
+      %input{:class=> "checkbox" , :name => "interest", :type => "radio", :value => ""}/
+      %label= t(:reseller, :scope => "side_bar.find_us")
+      %br/
+  
+    .separator 
+
+    %label{:for => :state}= t(:state, :scope => "side_bar.questionnaire")
+    %input.fill{:id => "state", :required => "required", :type => "text", :value => ""}/
+    %br/
+    
+    %label{:for => :city}= t(:city, :scope => "side_bar.questionnaire")
+    %input.fill{:id => "city", :required => "required", :type => "text", :value => ""}/
+    %br/
+
+    %label{:for => :mail}= t(:mail, :scope => "side_bar.questionnaire")
+    %input.fill{:id => "mail", :required => "required", :type => "text", :value => ""}/
+    %br/
+
+    %label{:for => :msg}= t(:message, :scope => "side_bar.questionnaire")
+    %textarea#msg{:id => "msg", :required => "required"}
+    
+    %label{:for => :span}=t(:code_security, :scope => "side_bar.questionnaire")
+    %input.fill{:id => "span", :required => "required", :type => "text", :value => ""}/
+
+    %p= t(:privacy_terms_title, :scope => "side_bar.questionnaire")
+    %p= t(:privacy_check_html, :scope => "side_bar.questionnaire")
+    
+    %input#button{:name => "commit", :type => "submit", :value => "Enviar"}/
+
+    

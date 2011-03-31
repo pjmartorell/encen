@@ -1,0 +1,63 @@
+= title t(".title")
+
+#title
+  %h1= t ".deportivas"
+
+#deportivas
+  %img{:alt => "taygra", :src => "/images/cabecera-taygra.png"}/
+
+  .seven_col
+    %h2= t ".taygra"
+    %p= t ".taygra_info_html"
+
+  .six_col
+    %img{:alt => "taygra deportivas", :src => "/images/taygra_shoes.png"}/
+  .clear
+
+  %h2= t ".taygra_birth_title"
+  %p=t ".taygra_birth_html"
+
+  .seven_col
+    %img{:alt => "taygra producción", :src => "/images/taygra_production.png"}/
+
+  .six_col
+    %img{:alt => "taygra y la ecologia", :src => "/images/taygra_ecology.png"}/
+  .clear
+
+  .seven_col
+    %h2= t ".taygra_brand_title"
+    %p=t ".taygra_brand_html"
+    %img{:alt => "taygra y la ecologia", :src => "/images/taygra_production3.png"}/
+
+  .six_col
+    %img{:alt => "taygra y la ecologia", :src => "/images/taygra_production2.png"}/
+  .clear
+
+  .seven_col
+    %img{:alt => "taygra y la ecologia", :src => "/images/taygra_deportivas.png"}/
+
+  .six_col
+    %h2= t ".taygra_style_title"
+    %p=t ".taygra_style_html"
+  .clear
+
+  %h2= t ".taygra_embassy"
+  %p=t ".taygra_embassy1_html"
+  %p=t ".taygra_embassy2_html"
+  .taygra_embassi
+    %img{:alt => "taygra deportivas", :src => "/images/taygra_embassi.png"}/
+
+  .seven_col
+    %h2= t ".made_in_brasil_title"
+    %p=t ".made_in_brasil_html"
+
+  .six_col
+    %img{:alt => "taygra y la ecologia", :src => "/images/brazilian_flag.png"}/
+  .clear
+
+
+#up_button
+  %a{:href => "#deportivas"} Subir
+
+- content_for :info_box do
+  = render 'shared/questionaire_distributor'
