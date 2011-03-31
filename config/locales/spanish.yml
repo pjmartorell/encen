@@ -57,7 +57,9 @@ es:
       link_labour: Contables
       link_juridical: Jurídicos
       link_auditory: Auditoria
+      link_intrastat: Intrastat
       link_others: Otros
+      link_domiciliary: "Domiciliación de S."
       subtitle_fiscales: Servicios Fiscales
       fiscales_description: "El asesoramiento y gestión de empresas y particulares constituye una de nuestras principales especialidades a la cual dedicamos recursos humanos y material de primer orden, con lo que le podemos garantizar una excelente eficacia en nuestra actuación."
       fiscal_1: "Asesoria Fiscal Integrada, consiste en el estudio de las repercusiones fiscales de los hechos, con la finalidad de racionalizar las cargas impositivas, dentro del marco de la legislación fiscal aplicable."
@@ -143,12 +145,22 @@ es:
       forensia_3: Dictámenes financieros
       forensia_4: Resolución de conflictos
       forensia_5: Prevención e investigación de fraudes
+      subtitle_intrastat: Intrastat
+      intrastat_paragraph_html: "Con la entrada en vigor del Mercado Interior Comunitario el 01/01/1993 fueron suprimidos los controles aduaneros y abolidas las fronteras fiscales con la NO necesidad del Documento Único Administrativo (DUA), mantenido actualmente con los terceros países. Entonces se estableció un método denominado INTRASTAT, por el que se ha de suministrar información estadística periódica, quedando obligados la información estadística a toda persona física o jurídica que intervengan en una operación intracomunitaria, todos aquellos que el volumen de comercio intracomunitario, su flujo de introducción o expedición en su total facturado sea igual o superior a 250.000,00€, mediante 3ros declarantes."
+      intrastat_paragraph2_html: "Para ello ponemos nuestro departamento especializado en la cumplimentación y tramitación, con la nomenclatura combinable actualizada anualmente, pesos estadísticos, tipos de transportes para realizar mensual su obligación, facilitando a nuestros clientes el tedioso tramite ante la Administración y evitando así errores, y constantes requerimientos por incidencias."
       subtitle_others: Otros Servicios
       others_description: "En la empresa ninguna área de actividad está desvinculada de as restantes. Todas ellas se interrelacionan entre sí. Por ello, ya sea de forma directa o mediantes alianzas, ofrecemos todos los servicios que su empresa puede precisar, para que queden integrados dentro del conjunto de forma armónica y eficaz."
       others_1: Auditorias.
       others_2: Extranjería.
       others_3: Prevención de riesgos laborales.
       others_4: Administración de fincas.
+      subtitle_domiciliary: "Domiciliación de Sociedades"
+      domiciliary_paragraph_html: "Le ofrecemos la posibilidad de tener una domiciliación en nuestras oficinas, logrando así:"
+      domiciliary_1: "Ofrecer una buena imagen de negocio."
+      domiciliary_2: "Evitar costes innecesarios."
+      domiciliary_3: "Disponer de una dirección que haga constar en sus tarjetas de visitas."
+      domiciliary_4: "Tener un lugar donde recibir correo o paquetería, siéndole todo reenviado donde usted indique."
+      domiciliary_5: "Ser avisado por teléfono a SMS si es algo urgente."
 
     enlaces:
       title: Enlaces de interés - De Rosa Abogados

@@ -274,7 +274,7 @@ body.one_col #footer #itnig_link {
 }
 
 .line_separation {
-  background-image: url("/images/line_servicios.png");
+  background-image: url("/images/line_services.png");
   background-repeat: repeat-x;
   height: 3em;
   margin-top: 2em;
@@ -293,6 +293,9 @@ body #container {
   font-family: "Trebuchet MS", "Arial", "Helvetica", sans-serif;
   font-size: 0.9em;
   color: #444444;
+}
+body #container p {
+  text-align: justify;
 }
 
 #pre_header {
@@ -406,14 +409,10 @@ body #container {
 #main #servicios_menu ul li a {
   color: #444444;
   text-decoration: none;
-  padding-top: 2.3em;
-  padding-bottom: 2.4em;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding: 2.3em 1em 2.4em;
 }
 #main #servicios_menu ul li a:hover {
-  background-image: url("/images/back_menu_services.png");
-  background-repeat: no-repeat;
+  background-color: #1a1f2b;
   color: white;
 }
 #main #servicios_title {
@@ -546,10 +545,15 @@ body #container {
 #main #servicios h2 + p {
   font-size: 1.1em;
   margin-bottom: 3em;
+  line-height: 1.7em;
 }
 #main #servicios h3 {
   margin-bottom: 1em;
   font-size: 1.5em;
+}
+#main #servicios p {
+  line-height: 2em;
+  letter-spacing: 0.02em;
 }
 #main #servicios ul {
   margin-left: 2em;
@@ -656,6 +660,25 @@ body #container {
   background-repeat: no-repeat;
   color: #1f2c47;
 }
+#main #servicios #btn_instrastat {
+  text-align: right;
+  margin-top: 6em;
+}
+#main #servicios #btn_instrastat a {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px 3px;
+  background-repeat: no-repeat;
+  margin-right: 29px;
+  padding-top: 40px;
+  color: #999;
+  text-decoration: none;
+}
+#main #servicios #btn_instrastat a:hover {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px -56px;
+  background-repeat: no-repeat;
+  color: #1f2c47;
+}
 #main #servicios #btn_others {
   text-align: right;
 }
@@ -669,6 +692,24 @@ body #container {
   text-decoration: none;
 }
 #main #servicios #btn_others a:hover {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px -56px;
+  background-repeat: no-repeat;
+  color: #1f2c47;
+}
+#main #servicios #btn_domiciliary {
+  text-align: right;
+}
+#main #servicios #btn_domiciliary a {
+  background-image: url("/images/back_up_button.png");
+  background-position: -1px 3px;
+  background-repeat: no-repeat;
+  margin-right: 29px;
+  padding-top: 40px;
+  color: #999;
+  text-decoration: none;
+}
+#main #servicios #btn_domiciliary a:hover {
   background-image: url("/images/back_up_button.png");
   background-position: -1px -56px;
   background-repeat: no-repeat;

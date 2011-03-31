@@ -56,6 +56,8 @@ ca:
       link_labour: Comptables
       link_juridical: Jurídics
       link_auditory: Auditoria
+      link_intrastat: Intrastat
+      link_domiciliary: "Domiciliación de S."
       link_others: Altres
       subtitle_fiscales: Serveis Fiscals
       fiscales_description: "El assessorament i gestió d'empreses i particulars constitueix una de les nostres principals especialitats a la qual dediquem recursos humans i material de primer ordre, amb lo que podem garantir un excel·lent eficàcia en la nostre actuació."
@@ -142,6 +144,15 @@ ca:
       forensia_3: Dictámenes financieros
       forensia_4: Resolución de conflictos
       forensia_5: Prevención e investigación de fraudes
+      subtitle_intrastat: Intrastat
+      intrastat_paragraph_html: "Con la entrada en vigor del Mercado Interior Comunitario el 01/01/1993 fueron suprimidos los controles aduaneros y abolidas las fronteras fiscales con la NO necesidad del Documento Único Administrativo (DUA), mantenido actualmente con los terceros países. Entonces se estableció un método denominado INTRASTAT, por el que se ha de suministrar información estadística periódica, quedando obligados la información estadística a toda persona física o jurídica que intervengan en una operación intracomunitaria, todos aquellos que el volumen de comercio intracomunitario, su flujo de introducción o expedición en su total facturado sea igual o superior a 250.000,00€, mediante 3ros declarantes."
+      intrastat_paragraph2_html: "Para ello ponemos nuestro departamento especializado en la cumplimentación y tramitación, con la nomenclatura combinable actualizada anualmente, pesos estadísticos, tipos de transportes para realizar mensual su obligación, facilitando a nuestros clientes el tedioso tramite ante la Administración y evitando así errores, y constantes requerimientos por incidencias."
+      domiciliary_paragraph_html: "Le ofrecemos la posibilidad de tener una domiciliación en nuestras oficinas, logrando así:"
+      domiciliary_1: "Ofrecer una buena imagen de negocio."
+      domiciliary_2: "Evitar costes innecesarios."
+      domiciliary_3: "Disponer de una dirección que haga constar en sus tarjetas de visitas."
+      domiciliary_4: "Tener un lugar donde recibir correo o paquetería, siéndole todo reenviado donde usted indique."
+      domiciliary_5: "Ser avisado por teléfono a SMS si es algo urgente."
       subtitle_others: Altres Serveis
       others_description: "En l'empresa ninguna àrea d'activitat està desvinculada de les restants. totes elles s'interrelacionen entre si. així que ja sigui de forma directe o mitjançant aliances, oferim tots els serveis que la seva empresa pot precisar, per tal que quedin integrats dintre del conjunt de forma amònica i eficaç."
       others_1: Auditories.
