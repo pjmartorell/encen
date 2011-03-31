@@ -3,16 +3,14 @@ ENVIRONMENTS = {
   :production => 'heroku'
 }
 
-namespace :deploy do
-  ENVIRONMENTS.keys.each do |env|
-    desc "Deploy to #{env}"
-    task env do
-      current_branch = `git branch | grep ^* | awk '{ print $2 }'`.strip
+namespace :heroku do
+  desc "Deploy to production"
+  task :deploy do
+    current_branch = `git branch | grep ^* | awk '{ print $2 }'`.strip
 
-      Rake::Task['deploy:before_deploy'].invoke(env, current_branch)
-      Rake::Task['deploy:update_code'].invoke(env, current_branch)
-      Rake::Task['deploy:after_deploy'].invoke(env, current_branch)
-    end
+    Rake::Task['deploy:before_deploy'].invoke(env, current_branch)
+    Rake::Task['deploy:update_code'].invoke(env, current_branch)
+    Rake::Task['deploy:after_deploy'].invoke(env, current_branch)
   end
 
   task :before_deploy, :env, :branch do |t, args|
@@ -33,13 +31,14 @@ namespace :deploy do
     `heroku rake db:migrate --app #{args[:branch]}`
     `heroku rake interpret:update --app #{args[:branch]}`
     puts "Done rake interpret:update within #{args[:branch]} app."
+    puts "Done rake db:migrate within #{args[:branch]} app."
     puts "Deployment Complete"
   end
 
   task :update_code, :env, :branch do |t, args|
     FileUtils.cd Rails.root do
-      puts "Updating #{ENVIRONMENTS[args[:env]]} with branch #{args[:branch]}"
-      `git push #{ENVIRONMENTS[args[:env]]}-#{args[:branch]} +#{args[:branch]}:master`
+      puts "Updating heroku with branch #{args[:branch]}"
+      `git push heroku-#{args[:branch]} +#{args[:branch]}:master`
     end
   end
 end

@@ -1,6 +1,4 @@
 Encen::Application.routes.draw do
-
-
   scope "(:locale)" do
     devise_for :users, :controllers => {:sessions => 'user_sessions'}
 
