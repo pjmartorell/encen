@@ -31,16 +31,14 @@ $green-color: #10562C;
 //Extra fonts.
 @include font-face("Little", font-files("/fonts/littledays.ttf", truetype), "littledays.eot");
 
-
-
-.clearfix {
-  @include clearfix;
-}
-
 .clear {
   clear:both;
   height: 2em;
   overflow:hidden;
+}
+
+.separation{
+  height: 4em;
 }
 
 .separation_line{
@@ -63,7 +61,7 @@ body {
     list-style: none;
   }
   p {
-    margin-bottom: 0;
+    margin-bottom: .5em;
     line-height: 1.6em;
     text-align: justify;
     letter-spacing: 0.02em;

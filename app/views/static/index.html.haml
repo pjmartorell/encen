@@ -5,13 +5,13 @@
 
 #home
   %p=t ".fisrt_paragraph_html"
+  %p=t ".paragraph2_html"
+  %p=t ".paragraph3_html"
+  %p=t ".paragraph4_html"
 
-  #more_info.seven_col
-    %p= t ".more_info_html"
-    %p=t ".new_store_html"
+  .separation
 
-  .six_col
-    %img{:alt => "taygra deportivas", :src => "images/ibiza_store.png"}/
+  %img.home{:alt => "taygra deportivas", :src => "images/index_photo.png"}/
 
   .separation_line
 
@@ -25,11 +25,16 @@
 
   .seven_col
     %h2= t ".taygra"
-    %p=t ".taygra_info_html"
+    %p=t ".taygra_paragraph1_html"
+
   .six_col
-    %img{:alt => "taygra deportivas", :src => "images/home_taygra.png"}/
+    %img{:alt => "taygra deportivas", :src => "images/index_taygra.png"}/
 
   .clear
+  
+  %p=t ".taygra_paragraph2_html"
+  %p=t ".taygra_paragraph3_html"
+  %p=t ".taygra_paragraph4_html"
 
 - content_for :info_box do
   = render 'shared/info'

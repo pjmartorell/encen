@@ -45,36 +45,20 @@
 /*                         home                            */
 /* ======================================================= */
 
-#home{
-  h2{
+#home {
+  h2 {
     color: $dark-brown-color;
     font-size: 2em;
   }
-  p:first-child{
+
+  p {
     color: $dark-brown-color;
-    font-size: 1.1em;
-    line-height: 1.6em;
-    text-align: justify;
   }
-  p{
-    color: $strong-blue-color;
+
+  img.home {
+    margin-left: 8em;
   }
-  #more_info{
-    background-image: url("/images/more_info.png");
-    background-repeat: no-repeat;
-    height: 6em;
-    padding-top: 3em;
-    p:first-child{
-      font-family: $special-font;
-      font-size: 3em;
-      line-height: 0.7em;
-      padding-left: 2.6em;
-    }
-    p:last-child{
-      font-size: 1.2em;
-      padding-left: 9em;
-    }
-  }
+
 }
 
 /* ======================================================= */
@@ -171,13 +155,12 @@
 /*                        zapatitos                        */
 /* ======================================================= */
 
-#zapatitos{ 
+#zapatitos{
   .wrap{
     border: dashed 1px $light-brown-color;
   }
-  p:first-child{
+  p{
     color: $dark-brown-color;
-    font-size: 1.1em;
   }
   .btn{
     border: dashed 1px $light-brown-color;

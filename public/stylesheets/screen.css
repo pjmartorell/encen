@@ -140,15 +140,14 @@ body.two_col #container .four_col {
   src: local("☺"), url(/fonts/littledays.ttf) format('truetype');
 }
 
-.clearfix {
-  overflow: hidden;
-  *zoom: 1;
-}
-
 .clear {
   clear: both;
   height: 2em;
   overflow: hidden;
+}
+
+.separation {
+  height: 4em;
 }
 
 .separation_line {
@@ -171,7 +170,7 @@ body li {
   list-style: none;
 }
 body p {
-  margin-bottom: 0;
+  margin-bottom: .5em;
   line-height: 1.6em;
   text-align: justify;
   letter-spacing: 0.02em;
@@ -238,30 +237,11 @@ body .six_col {
   color: #62371c;
   font-size: 2em;
 }
-#home p:first-child {
-  color: #62371c;
-  font-size: 1.1em;
-  line-height: 1.6em;
-  text-align: justify;
-}
 #home p {
-  color: #6b8eb9;
+  color: #62371c;
 }
-#home #more_info {
-  background-image: url("/images/more_info.png");
-  background-repeat: no-repeat;
-  height: 6em;
-  padding-top: 3em;
-}
-#home #more_info p:first-child {
-  font-family: "Little";
-  font-size: 3em;
-  line-height: 0.7em;
-  padding-left: 2.6em;
-}
-#home #more_info p:last-child {
-  font-size: 1.2em;
-  padding-left: 9em;
+#home img.home {
+  margin-left: 8em;
 }
 
 /* ======================================================= */
@@ -351,9 +331,8 @@ body .six_col {
 #zapatitos .wrap {
   border: dashed 1px #c49d5b;
 }
-#zapatitos p:first-child {
+#zapatitos p {
   color: #62371c;
-  font-size: 1.1em;
 }
 #zapatitos .btn {
   border: dashed 1px #c49d5b;

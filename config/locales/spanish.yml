@@ -21,7 +21,7 @@ es:
     reseller: Te interesa nuestro negocio?
     share: Comparte tus fotos
     subscribe: Suscribete al newsletter
-    press: La prensa habla de...
+    press: Zapatitos en los medios
     news: Ultimas noticias
     links: Recomendamos
     findus: Dónde estamos
@@ -70,13 +70,19 @@ es:
     index:
       title: "inicio"
       home: "Inicio"
-      fisrt_paragraph_html: "En 1998, buscando una alternativa a la oferta de calzado infantil, nos lanzamos a la aventura de crear un nuevo concepto de zapatería para niñas, niños... !y mamás! Nuestra intención era innovar, ofreciendo zapatos cómodos y funcionales que respondieran a las necesidades del público infantil, sin renunciar al diseño y a las tendencias de la moda. Mocasines, bailarinas, sandalias, zuecos, botas, botines... con una amplia numeración del 15 al 41, de este modo toda la familia podría caminar a la última."
+      fisrt_paragraph_html: "En 1998,tras realizar un estudio de mercado de la oferta en calzado infantil, iniciamos nuestro proyecto: crear un nuevo concepto de zapatería infantil y juvenil."
+      paragraph2_html: "Quedó clara la necesidad de innovar y perfeccionar, ofreciendo un calzado cómodo y funcional que respondiera a las necesidades mayoritarias del público infantil y juvenil sin renunciar, por ello, al diseño y a las últimas tendencias de la moda, sin estridencias, conjugando el estilo propio y la exclusividad, la sofisticación e innovación con la tradición y líneas clásicas. Todo ello con el carácter sobrio que nos identifica y distingue de la competencia."
+      paragraph3_html: "Mocasines, bailarinas, merceditas, sandalias, zuecos, botas y botines, deportivas, badanas, zapatos de ceremonia,escolares, zapatillas ……. con una numeración para todos, del 15 al 41, las últimas tendencias en moda para calzar a toda la familia."
+      paragraph4_html: "Así. diseñamos nuestras primeras colecciones. Nuestro proyecto rapidamente se consolidó como una exitosa realidad y muy pronto Za-patitos fue reconocida como una marca de tendencia por revistas y profesionales especializados. Hoy, tras años de entusiasta dedicación, contamos con tiendas propias y un avanzado sistema de tiendas franquiciadas y corners a la vez que impulsamos la expansión internacional de nuestra marca mediante la distribución de nuestros productos en nuevos mercados."
       more_info_html: "Próxima apertura"
       new_store_html: "Za-patitos en Ibiza"
       autumn_winter_title: "Avance Otoño/Invierno"
       autumn_winter_html: "Estamos ultimando los detalles de la próxima colección. Marrón tundra, gris cobalto y azul petróleo serán los protagonistas de una moda que te va a encantar."
       taygra: "Taygra, las más buscadas del momento!"
-      taygra_info_html: "Zapatitos trae a España en exclusiva las zapatillas brasileñas Taygra, la moda que triunfa en las capitales de la moda mundial. Mucho más que unas deportivas, las Taygra con sus vistosos colores y gran ligereza y flexibilidad aportan una imagen  desenfadada. Originarias de Brasil están realizadas a mano sin productos de origen animal y respetando los derechos de sus productores."
+      taygra_paragraph1_html: "Llegan a España las zapatillas brasileñas Taygra. Mucho más que unas deportivas las Taygra triunfan en las principales capitales de la moda en Europa."
+      taygra_paragraph2_html: "Al probarlas, lo primero que te sorprende es que son increíblemente cómodas, extraordinariamente flexibles y ligeras, la sensación de bienestar es inmediata. Perfectas para caminar ,viajar, deportes náuticos, moda, baile y descanso. Ideales para toda la familia."
+      taygra_paragraph3_html: "Su producción es artesanal y respetuosa con el medio ambiente , fomentan el comercio justo y son producto vegan ,sin producción de origen animal."
+      taygra_paragraph4_html: "En 16 combinaciones diferentes, son lavables. Numeración disponible: del nº 20 al 47."
 
     aboutus:
       title: "Saber más"
@@ -92,10 +98,9 @@ es:
 
     zapatitos:
       title: "Colección Za-patitos"
-      first_paragraph_html: "Los modelos que les presentamos son una muestra representativa de anteriores colecciones, fiel reflejo del estilo de Za-patitos."
       zapatitos: "Colección Za-patitos"
-      catalog1: Primavera Verano 2010
-      catalog2: Otoño Invierno 2009
+      catalog1: "Primavera Verano"
+      catalog2: "Otoño Invierno"
       catalog3: Taygra
       descripcion1: "Breve descripción de los zapatos,Breve descripción de los zapatos,Breve descripción de los zapatos"
       descripcion2: "Breve descripción de los zapatos"
@@ -140,7 +145,7 @@ es:
       horary_number1_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
       saturday1_html: "Sábados: 10.30 a 14.00h"
       map_html: Ver en mapa
-      address2_html: "Pso. Sant Juan 53"
+      address2_html: "Pso. Sant Juan Bosco 53"
       zip_code2_html: "08037 Barcelona"
       phone_number2_html: "93 414 67 35"
       horary_number2_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
@@ -173,6 +178,12 @@ es:
       phone_number8_html: "93 414 67 35"
       horary_number8_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
       saturday8_html: "Sábados: 10.30 a 14.00h"
+      palma_de_mallorca: "Palma de Mallorca."
+      address16_html: "Jaime III, 26"
+      zip_code16_html: "Palma de Mallorca"
+      phone_number16_html: "97 172 76 53"
+      horary_number16_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
+      saturday16_html: "Sábados: 10.30 a 14.00h"
       andorra: Andorra
       address9_html: "María Pla 12-14"
       zip_code9_html: "08037 Andorra la Vella"
@@ -186,34 +197,21 @@ es:
       phone_number14_html: "91 352 04 88"
       horary_number14_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
       saturday14_html: "Sábados: 10.30 a 14.00h"
-      coruña: "La coruña"
-      address15_html: "C/ Ramón de la Sagra, 16"
-      zip_code15_html: "08037 La coruña"
+      canarias: "Gran Canarias"
+      address15_html: "Nùvole, c/ torres 6"
+      zip_code15_html: "Gran Canarias"
       phone_number15_html: "88 189 24 66"
       horary_number15_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
       saturday15_html: "Sábados: 10.30 a 14.00h"
-      address10_html: "Arte de Segre 5"
-      zip_code10_html: "08037 Barcelona"
+      reus: "Reus"
+      address10_html: "Anna Bosch 13, c/ San Joan"
+      zip_code10_html: "Reus"
       phone_number10_html: "93 414 67 35"
       horary_number10_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
       saturday10_html: "Sábados: 10.30 a 14.00h"
-      address11_html: Pso. Sant Juan 53
-      zip_code11_html: "08037 Barcelona"
-      phone_number11_html: "93 414 67 35"
-      horary_number11_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
-      saturday11_html: "Sábados: 10.30 a 14.00h"
-      address12_html: "Sant Jordi 30"
-      zip_code12_html: "08037 S.Cugat del Vallés"
-      zip_code12_html: "08037 Barcelona"
-      phone_number12_html: "93 414 67 35"
-      horary_number12_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
-      saturday12_html: "Sábados: 10.30 a 14.00h"
-      address13_html: "Sant Cristófol 19"
-      zip_code13_html: "08037 Mataró"
-      zip_code13_html: "08037 Barcelona"
-      phone_number13_html: "93 414 67 35"
-      horary_number13_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
-      saturday13_html: "Sábados: 10.30 a 14.00h"
+      coruna: "La Coruña"
+      coruna_address: "C/ Ramón de la Sagra, 16"
+      coruna_zip: "La Coruña"
 
     reseller:
       title: "Te interesa nuestras franquicias"
@@ -235,7 +233,7 @@ es:
       photo_caption_html: "Esta bonita imagen es de Yvonne de Holanda, su comentario ha sido muy expresivo igual que la imagen de sus botas de nuestra marca!"
 
     press:
-      title: "La prensa habla de"
+      title: "Zapatitos en los medios"
       press: "Za-patitos en los medios"
       name_magazine1: ¡HOLA!
       date_html1: "19/10/2010"
