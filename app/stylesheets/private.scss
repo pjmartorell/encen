@@ -1,22 +1,19 @@
 // This import applies a global reset to any page that imports this stylesheet.
 @import "blueprint/reset";
 
+// To configure blueprint, edit the partials/base.sass file.
+@import "private_partials/base";
+
 // Import all the default blueprint modules so that we can access their mixins.
 @import "blueprint";
 
-// To configure blueprint, edit the partials/_base.sass file.
-@import "partials/base";
-
 // Combine the partials into a single screen stylesheet.
-@import "partials/style";
+@import "private_partials/page";
+@import "private_partials/form";
 
-// Import the non-default scaffolding module.
-@import "blueprint/scaffolding";
+@import "private_partials/ckeditor";
 
-// Slideshow
-@import "partials/slideshow";
+@import "compass/utilities/lists/inline-list";
 
-// Generate the blueprint framework according to your configuration:
-@include blueprint;
-
-@include blueprint-scaffolding;
+// Main
+@import "private_partials/main";

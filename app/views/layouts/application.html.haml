@@ -24,6 +24,8 @@
       = stylesheet_link_tag 'ie', :media => 'screen, projection'
 
   %body.two_col
+    - if current_user
+      = render "shared/admin_preheader"
     #container
       #header
         = render 'shared/header'
@@ -65,4 +67,5 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
+    = include_interpret_javascript
     = yield :custom_js

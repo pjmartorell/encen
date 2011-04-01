@@ -10,11 +10,10 @@ if ENV['HEROKU'].present?
           :mail__domain
          ]
 
-  require 'lazy_hash'
   APP_CONFIG = LazyHash.build_hash
 
   keys.each do |key|
-    LazyHash.lazy_add(APP_CONFIG, key.to_s.split("__").join("."), ENV[key.to_s.upcase])
+    LazyHash.add(APP_CONFIG, key.to_s.split("__").join("."), ENV[key.to_s.upcase])
   end
 
 else

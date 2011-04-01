@@ -1,5 +1,7 @@
 Encen::Application.routes.draw do
   devise_for :users, :controllers => {:sessions => 'user_sessions'}
+  post "toggle_edition_mode", :to => "application#toggle_edition_mode"
+
 
   match 'contact', :to => "static#contact"
   match 'reformas', :to => "static#reformas"
