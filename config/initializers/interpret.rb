@@ -1,1 +1,1 @@
-Interpret.controller = 'admin/admin_controller'
+Interpret.parent_controller = 'admin/admin_controller'
