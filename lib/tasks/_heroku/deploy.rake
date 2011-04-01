@@ -1,16 +1,11 @@
-# List of environments and their heroku git remotes
-ENVIRONMENTS = {
-  :production => 'heroku'
-}
-
 namespace :heroku do
   desc "Deploy to production"
   task :deploy do
     current_branch = `git branch | grep ^* | awk '{ print $2 }'`.strip
 
-    Rake::Task['deploy:before_deploy'].invoke(env, current_branch)
-    Rake::Task['deploy:update_code'].invoke(env, current_branch)
-    Rake::Task['deploy:after_deploy'].invoke(env, current_branch)
+    Rake::Task['heroku:before_deploy'].invoke(:production, current_branch)
+    Rake::Task['heroku:update_code'].invoke(:production, current_branch)
+    Rake::Task['heroku:after_deploy'].invoke(:production, current_branch)
   end
 
   task :before_deploy, :env, :branch do |t, args|
