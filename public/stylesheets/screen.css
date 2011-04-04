@@ -454,6 +454,8 @@ body .six_col {
 /* ======================================================= */
 #footer {
   background-color: white;
+  background-image: url("/images/back_footer.png");
+  background-repeat: no-repeat;
   border: dashed 1px #c49d5b;
   text-align: center;
   color: #62371c;

@@ -293,6 +293,8 @@
 
 #footer {
   background-color: white;
+  background-image: url("/images/back_footer.png");
+  background-repeat: no-repeat;
   border: dashed 1px $light-brown-color;
   text-align: center;
   color: $dark-brown-color;
