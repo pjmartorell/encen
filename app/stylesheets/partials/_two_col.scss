@@ -10,14 +10,10 @@ body.two_col{
       @include column(7);
     }
 
-    #main{
+    #main, #footer{
       @include column(14);
       @include prepend(1);
       @include append(1);
-    }
-
-    #footer{
-      @include span(23);
     }
 
     .six_col{

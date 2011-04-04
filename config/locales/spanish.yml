@@ -66,6 +66,9 @@ es:
       title: Envíanos tu foto
       paragraph_html: "Si tienes fotos con tus Za-patitos y quieres compartirlas en nuestra web envíalas y las publicaremos."
 
+  footer:
+    itnig: "Itnig: servicios web"
+  
   static:
     index:
       title: "inicio"

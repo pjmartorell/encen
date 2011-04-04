@@ -1,10 +1,7 @@
 #language_menu
   %p=t("language", :scope => "menu_language")
-  #flags
-    %a{:href => "/es"}
-      %img{:alt => "spanish_language", :src => "/images/spanish_flag.png"}/
-    %a{:href => "/en"}
-      %img{:alt => "england_language", :src => "/images/england_flag.png"}/
+  %a{:href => "/es"}=t("spanish", :scope => "menu_language")
+  %a{:href => "/en"}=t("english", :scope => "menu_language")
 
 #menu
   %ul

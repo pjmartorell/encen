@@ -3,18 +3,20 @@
     background-color: $blue-color;
     border: 1px dashed $strong-blue-color;
     height: 2.5em;
-    padding: 0.2em 1.5em 0.5em;
+    padding: .5em 1.5em 0.5em;
     p{
       float: left;
       color: white;
       font-family: $special-font;
       font-size: 2em;
       letter-spacing: 0.1em;
+      padding-right: 1em;
     }
-    #flags{
-      float: right;
-      img {
-        padding-top: 0.2em;
+    a{
+      margin-left: 1em;
+      color: $strong-blue-color;
+      &:hover{
+        color: white;
       }
     }
   }

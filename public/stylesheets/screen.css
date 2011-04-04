@@ -92,7 +92,7 @@ body.two_col #container #side_bar {
 * html body.two_col #container #side_bar {
   overflow-x: hidden;
 }
-body.two_col #container #main {
+body.two_col #container #main, body.two_col #container #footer {
   display: inline;
   float: left;
   margin-right: 10px;
@@ -100,11 +100,8 @@ body.two_col #container #main {
   padding-left: 40px;
   padding-right: 40px;
 }
-* html body.two_col #container #main {
+* html body.two_col #container #main, * html body.two_col #container #footer {
   overflow-x: hidden;
-}
-body.two_col #container #footer {
-  width: 910px;
 }
 body.two_col #container .six_col {
   display: inline;
@@ -456,17 +453,26 @@ body .six_col {
 /*                         Footer                          */
 /* ======================================================= */
 #footer {
-  text-align: right;
+  background-color: white;
+  border: dashed 1px #c49d5b;
+  text-align: center;
   color: #62371c;
-  margin-top: 4em;
-  margin-bottom: 1em;
+  margin: 1em 0 1em 23em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+#footer p {
+  text-align: center;
+}
+#footer a {
+  color: #6b8eb9;
 }
 
 #side_bar #language_menu {
   background-color: #8fc5eb;
   border: 1px dashed #6b8eb9;
   height: 2.5em;
-  padding: 0.2em 1.5em 0.5em;
+  padding: .5em 1.5em 0.5em;
 }
 #side_bar #language_menu p {
   float: left;
@@ -474,12 +480,14 @@ body .six_col {
   font-family: "Little";
   font-size: 2em;
   letter-spacing: 0.1em;
+  padding-right: 1em;
 }
-#side_bar #language_menu #flags {
-  float: right;
+#side_bar #language_menu a {
+  margin-left: 1em;
+  color: #6b8eb9;
 }
-#side_bar #language_menu #flags img {
-  padding-top: 0.2em;
+#side_bar #language_menu a:hover {
+  color: white;
 }
 #side_bar #menu {
   background-color: white;
