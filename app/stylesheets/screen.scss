@@ -15,6 +15,9 @@
 // Import the non-default scaffolding module.
 @import "blueprint/scaffolding";
 
+@import "partials/form";
+
+
 // Generate the blueprint framework according to your configuration:
 @include blueprint;
 

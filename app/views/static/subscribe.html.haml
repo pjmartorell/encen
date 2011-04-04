@@ -3,48 +3,48 @@
 #title
   %h1= t ".subscribe"
 
-#subscribe
-  %p=t ".first_paragraph"
+%p=t ".first_paragraph"
 
-  .subscribe_box
-    %input{:class=> "checkbox" , :name => "particular", :type => "radio", :value => "particular"}/
-    %p.checkbox=t ".particular_html"
-    %br/
+#form
+  %form{"accept-charset" => "UTF-8", :action => "/new_question", "data-remote" => "true", :method => "post"}
+    %fieldset#basic_information
+      %input{:class=> "checkbox" , :name => "particular", :type => "radio", :value => "particular"}/
+      %label.checkbox=t ".particular_html"
+      %br/
 
-    %form#question_form{"accept-charset" => "UTF-8", :action => "/new_question", "data-remote" => "true", :method => "post"}
-      //%input{:name => "authenticity_token", :type => "hidden", :value => "7F+N/YbtIH2OY4kFkCWOgdr+jxY6SEttYpg0SbMGN14="}/
-
-      %label{:for => :name}= t(:name, :scope => "side_bar.questionnaire")
-      %input.fill{:id => "name", :required => "required", :type => "text", :value => ""}/
+      %label{:for => :name}=t(:name, :scope => "side_bar.questionnaire")
+      %input{:id => "name", :required => "required", :type => "text", :value => ""}/
       %br/
 
       %label{:for => :secondname}= t(:secondname, :scope => "side_bar.questionnaire")
-      %input.fill{:id => "secondname", :required => "required", :type => "text", :value => ""}/
+      %input{:id => "secondname", :required => "required", :type => "text", :value => ""}/
       %br/
 
       %label{:for => :mail}= t(:mail, :scope => "side_bar.questionnaire")
-      %input.fill{:id => "mail", :required => "required", :type => "text", :value => ""}/
+      %input{:id => "mail", :required => "required", :type => "text", :value => ""}/
       %br/
 
       %input{:class=> "checkbox", :name => "business", :type => "radio", :value => "business"}/
-      %p.checkbox=t ".business_html"
+      %label.checkbox=t ".business_html"
       %br/
 
       %label{:for => :company}= t(:company, :scope => "side_bar.questionnaire")
-      %input.fill{:id => "company", :required => "required", :type => "text", :value => ""}/
+      %input{:id => "company", :required => "required", :type => "text", :value => ""}/
       %br/
 
       %label{:for => :name2}= t(:name, :scope => "side_bar.questionnaire")
-      %input.fill{:id => "name2", :required => "required", :type => "text", :value => ""}/
+      %input{:id => "name2", :required => "required", :type => "text", :value => ""}/
       %br/
 
       %label{:for => :charge}= t(:title, :scope => "side_bar.questionnaire")
-      %input.fill{:id => "charge", :required => "required", :type => "text", :value => ""}/
+      %input{:id => "charge", :required => "required", :type => "text", :value => ""}/
       %br/
 
       %label{:for => :mail2}= t(:mail, :scope => "side_bar.questionnaire")
-      %input.fill{:id => "mail2", :required => "required", :type => "text", :value => ""}/
+      %input{:id => "mail2", :required => "required", :type => "text", :value => ""}/
       %br/
+
+      %input#button{:name => "commit", :type => "submit", :value => "Enviar"}/
 
 - content_for :info_box do
   = render 'shared/aboutus_side'
