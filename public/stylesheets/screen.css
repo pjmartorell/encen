@@ -655,6 +655,7 @@ form.bp textarea {
 #form fieldset#basic_information #button {
   color: #6b8eb9;
   border: 1px solid #8fc5eb;
+  cursor: pointer;
   float: right;
   margin-top: 3em;
   height: 2em;
@@ -709,6 +710,15 @@ form.bp textarea {
   border: 1px solid #ccc;
   width: 15em;
   height: 8em;
+}
+#side_form fieldset #button {
+  color: #6b8eb9;
+  border: 1px solid #8fc5eb;
+  cursor: pointer;
+  float: right;
+  margin-top: 3em;
+  height: 2em;
+  width: 6em;
 }
 
 body {

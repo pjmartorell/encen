@@ -67,6 +67,7 @@ form.bp {
     #button{
       color: $strong-blue-color;
       border: 1px solid $blue-color;
+      cursor: pointer;
       float: right;
       margin-top: 3em;
       height: 2em;
@@ -124,6 +125,15 @@ form.bp {
       border: 1px solid #ccc;
       width: 15em;
       height: 8em;
+    }
+    #button{
+      color: $strong-blue-color;
+      border: 1px solid $blue-color;
+      cursor: pointer;
+      float: right;
+      margin-top: 3em;
+      height: 2em;
+      width: 6em;
     }
   }
 }
