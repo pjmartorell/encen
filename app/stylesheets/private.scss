@@ -1,183 +1,21 @@
 // This import applies a global reset to any page that imports this stylesheet.
 @import "blueprint/reset";
 
-// Import all the default blueprint modules so that we can access their mixins.
+// To configure blueprint, edit the partials/base.sass file.
+@import "private_partials/base";
+
 @import "blueprint";
 
 // To configure blueprint, edit the partials/base.sass file.
 @import "partials/base";
 
 // Combine the partials into a single screen stylesheet.
-@import "partials/page";
+@import "private_partials/page";
+@import "private_partials/form";
 
-// Load the form layout
-@import "partials/form";
+@import "private_partials/ckeditor";
 
-// Loading facebox style
-@import "partials/facebox";
+@import "compass/utilities/lists/inline-list";
 
-
-//// This import applies a global reset to any page that imports this stylesheet.
-//@import "blueprint/reset";
-
-//// To configure blueprint, edit the partials/base.sass file.
-//@import "partials/base";
-
-//// Import all the default blueprint modules so that we can access their mixins.
-//@import "blueprint";
-
-//// Combine the partials into a single screen stylesheet.
-//@import "partials/page";
-//@import "partials/form";
-
-//@import "compass/utilities/lists/inline-list";
-
-//body.bp
-//{
-  //background-color: #cfcfcf;
-  //font-family: Verdana;
-  //font-size: 16px;
-  //color: #555555;
-
-  //#container {
-    //@include container;
-  //}
-//}
-
-//#login_container {
-  //margin: 0 auto;
-  //width:400px;
-  //@include span(10);
-//}
-
-//a {
-  //color: #222222;
-  //text-decoration: none;
-//}
-
-//a:hover.homelink {
-  //color: #ffffff;
-  //background-color: #444444;
-  //padding: 1px;
-  //-moz-border-radius: 3px;
-  //-webkit-border-radius: 3px;
-//}
-
-//#loginbox  {
-  //border: #999999 solid 2px;
-  //background-color:#f1f1f1;
-  //margin-top:20px;
-  //padding-top:10px;
-  //height: 300px;
-//}
-
-
-//#logo{
-  //margin-top: 50px;
-  //text-align: center;
-
-  //h1 {
-    //font-size: 2em;
-  //}
-//}
-
-//.center {
-  //text-align: center;
-//}
-
-//.info_form{
-  //color: #666666;
-  //padding-top: 10px;
-  //padding-bottom: 10px;
-//}
-
-//.info_form_error{
-  //color: #666666;
-  //margin-bottom: 10px;
-  //font-size: 14px;
-//}
-
-//#errorExplanation {
-  //background-color:#f1f1f1;
-//}
-
-//input.loginput   {
-  //font-family: Verdana;
-  //color: #333333;
-  //-moz-border-radius: 5px;
-  //-webkit-border-radius: 5px;
-  //height: 30px;
-  //width: 275px;
-  //padding: 2px;
-  //text-align: center;
-  //font-size: 16px;
-  //color: #444;
-//}
-
-
-//input#user_session_submit{
-  //background-color: #000000;
-  //border: none;
-  //color: #dddddd;
-  //width: 125px;
-  //height: 25px;
-  //margin-top: 10px;
-  //margin-bottom: 20px;
-//}
-
-//label {
-  //font-weight: normal;
-  //margin: 10px;
-//}
-
-//input.button {
-  //background-color: #000000;
-  //border: none;
-  //color: #dddddd;
-  //width: 125px;
-  //height: 25px;
-  //margin-top: 10px;
-//}
-
-//input.button:hover {
-  //border: 1px solid #666;
-  //background-color: #555;
-  //cursor: pointer;
-//}
-
-//#credits {
-  //text-align:center;
-  //margin-top:20px;
-//}
-
-//#menu {
-  //@include span(24);
-  //margin-bottom: 30px;
-
-  //#admin_menu {
-    //@include span(20);
-    //ul {
-      //@include inline-list;
-    //}
-  //}
-
-  //#user_menu {
-    //float: right;
-    //margin-top: -20px;
-    //ul {
-      //@include inline-list;
-    //}
-  //}
-//}
-
-//form.bp {
-  //@include column(15, true);
-
-  //label {
-    //@include column(10);
-  //}
-
-  //fieldset {
-    //border-color: black;
-  //}
-//}
+// Main
+@import "private_partials/main";

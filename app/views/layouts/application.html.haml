@@ -1,0 +1,53 @@
+!!! 5
+%html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => I18n.locale }
+  %head
+    %title= yield :title
+    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}
+    %meta{:name => "google-site-verification", :content => "_cWPtvAa6urPWfXT4MVrmerMJrEIPWXpHQHiNM2sTY0"}
+    %meta{:content => yield(:meta_keywords), :name => "keywords"}
+    %meta{:content => yield(:meta_description), :name => "description"}
+    %meta{:content => "Itnig", :name => "author"}
+    %meta{:content => "Itnig", :name => "generator"}
+    %meta{:content => "Itnig", :name => "origen"}
+    %meta{:content => t(:locality), :name => "locality"}
+    %meta{:content => I18n.locale, :name => "language"}
+    %meta{:content => "index, follow", :name => "robots"}
+    %meta{:content => t(:geo_region), :name => "geo.region"}
+    %meta{:content => t(:geo_placename), :name => "geo.placename"}
+    %meta{:content => t(:geo_position), :name => "geo.position"}
+    %meta{:content => t(:icbm), :name => "ICBM"}
+    = csrf_meta_tag
+    = stylesheet_link_tag 'screen', :media => :screen
+    = stylesheet_link_tag 'print', :media => :print
+    /[if lt IE 8 ]
+      = stylesheet_link_tag 'ie', :media => 'screen, projection'
+  %body.one_col
+    - if current_user
+      = render "shared/admin_preheader"
+
+    #container
+      #header
+        = link_to "", root_path, :id => "click_area"
+        #menu= render :partial => "shared/menu"
+        %h1
+          %a{:href => root_path}= raw t('title')
+      #info_box= yield
+      #footer= render :partial => "shared/footer"
+    %script{:src => "http://www.google.com/jsapi?key=ABQIAAAA0ylfVAz-VO81YNZU6tZcBBS0wYR1CwRzgIDun2kbXwmuPB7-BRStiMt_6Fbyr1sdhUvYaOBolxf_bw", :type => "text/javascript"}
+    :javascript
+      google.load("jquery", "1.4.4");
+    %script{:src => "http://maps.google.com/maps/api/js?sensor=false", :type => "text/javascript"}
+    = javascript_include_tag "facebox","application"
+    = interpret_live_edition
+    :javascript
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-6507713-4']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    = yield :custom_js

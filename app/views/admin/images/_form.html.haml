@@ -1,0 +1,3 @@
+= simple_form_for [:admin, @post, Image.new], :html => { :multipart => true } do |f|
+  <input type="hidden" value="poni" name="poni" />
+  =f.input :file, :as => "file"

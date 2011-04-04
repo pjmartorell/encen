@@ -1,0 +1,33 @@
+es:
+  home: Inicio
+  contact: Contacto
+
+  metakeywords: "ejemplo,itnig,test"
+  metadescription: "Ejemplo de plan basico"
+  locality: Barcelona
+  geo_region: Spain
+  geo_placename: Spain
+  geo_position: Alguna posicion
+  icbm: Algun numero icbm
+
+
+  static:
+    index:
+      title: "Inicio -- Ejemplo Plan Basico"
+      line1: "Esto es la pagina de inicio"
+
+    contact:
+      title: "Contacto -- Ejemplo Plan Basico"
+      line1: "Y esto es la pagina de contacto"
+
+  date:
+    order: [ :year, :month, :day ]
+    formats:
+      default: "%Y-%m-%d"
+      short: "%b %d"
+      long: "%B %d, %Y"
+    day_names: [Lunes, Martes, Miércoles, Jueves, Viernes, Sábado, Domingo]
+    abbr_day_names: [L, M, X, J, V, S, D]
+    month_names: [~, Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre]
+    abbr_month_names: [~, E, F, M, A, M, J, J, A, S, O, N, D]
+

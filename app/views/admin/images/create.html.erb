@@ -1,0 +1,6 @@
+<%= render "admin/images/image", :image => @image %>
+
+<script>
+  initImageDelete("image-"+<%=@image.id%>);
+  initDragAndDrop();
+</script>
