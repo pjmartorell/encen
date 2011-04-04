@@ -33,7 +33,7 @@ namespace :heroku do
   task :update_code, :env, :branch do |t, args|
     FileUtils.cd Rails.root do
       puts "Updating heroku with branch #{args[:branch]}"
-      `git push heroku-#{args[:branch]} +#{args[:branch]}:master`
+      `git push heroku-#{args[:branch]} #{args[:branch]}:master`
     end
   end
 end
