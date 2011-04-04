@@ -9,15 +9,14 @@ GIT
 
 GIT
   remote: git://github.com/rogercampos/interpret.git
-  revision: dff0eb606260e70f3f71f89623dc3bd6fd57a8df
+  revision: e56a4e2e99838e54c3e6a06a0ea70980cc0f2442
   specs:
-    interpret (0.1.4)
+    interpret (0.1.5)
       best_in_place (>= 0.1.7)
       i18n (~> 0.5.0)
       i18n-active_record
       lazyhash (>= 0.1.1)
       rails (~> 3.0.3)
-      will_paginate (>= 3.0.pre2)
       ya2yaml (>= 0.30.0)
 
 GIT
@@ -100,8 +99,8 @@ GEM
     mysql2 (0.2.6)
     orm_adapter (0.0.3)
     polyglot (0.3.1)
-    rack (1.2.1)
-    rack-mount (0.6.13)
+    rack (1.2.2)
+    rack-mount (0.6.14)
       rack (>= 1.0.0)
     rack-test (0.5.7)
       rack (>= 1.0)
@@ -146,10 +145,9 @@ GEM
     thor (0.14.6)
     treetop (1.4.9)
       polyglot (>= 0.3.1)
-    tzinfo (0.3.24)
+    tzinfo (0.3.26)
     warden (1.0.3)
       rack (>= 1.0.0)
-    will_paginate (3.0.pre2)
     ya2yaml (0.30)
 
 PLATFORMS
