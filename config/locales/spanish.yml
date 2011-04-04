@@ -37,7 +37,7 @@ es:
       state: "* Población :"
       city: "* Provincia :"
       mail: "* Email :"
-      message: Mensaje
+      message: "Mensaje :"
       phone: Teléfono
       code_security: "*Código seguridad inserta el código de la imagen siguiente (para evitar el Spam)"
       privacy_terms_title: "Política de privacidad"
@@ -215,13 +215,13 @@ es:
 
     reseller:
       title: "Te interesa nuestras franquicias"
-      reseller: "Te interesa nuestro negocios?"
+      reseller: "Unete a nuestro proyecto"
       first_paragraph_html: "Si estas interesado en formar parte de nuestro negocio y quieres informarte sobre franquicias,corners o distribución de zapatitos rellena este formulario y a la mayor brevedad contactaremos con usted para concertar una reunión informativa."
       particular_html: Particular
       business_html: Empresa
-      interest: Estoy interesado en
-      corners_html: "Corners. Espacios en tiendas establecidas donde podrán distribuir nuestros productos."
-      franquicias_html: Franquicias
+      interest: "Estoy interesado en:"
+      corners_html: "Corners. <span>Espacios en tiendas establecidas donde podrán distribuir nuestros productos.</span>"
+      franquicias_html: "Franquicias"
       code_html: "*Código seguridad inserta el código de la imagen siguiente (para evitar el Spam)"
       position_html: Cargo
 

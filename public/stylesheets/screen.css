@@ -413,9 +413,13 @@ body .six_col {
   margin-top: 2em;
 }
 #reseller h2 {
+  border-bottom: 1px dotted #c49d5b;
   color: #62371c;
   font-size: 1.5em;
   margin-top: 1.5em;
+}
+#reseller p {
+  color: #62371c;
 }
 #reseller #form {
   border: 1px dashed #8fc5eb;
@@ -427,6 +431,14 @@ body .six_col {
   border: none;
   padding: 0;
 }
+#reseller #form fieldset#basic_information input {
+  font-family: "Arial", "Helvetica", sans-serif;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  border: 1px solid #ccc;
+  background-color: #def1ff;
+  color: #666;
+}
 #reseller #form fieldset#basic_information label {
   text-align: right;
   font-weight: normal;
@@ -434,8 +446,9 @@ body .six_col {
   clear: left;
   display: block;
   float: left;
-  padding-right: 2em;
-  width: 7em;
+  padding-right: 1em;
+  width: 8em;
+  color: #666;
 }
 #reseller #form fieldset#basic_information label.checkbox {
   font-family: "Georgia", "Times New Roman", "Times", serif;
@@ -443,6 +456,31 @@ body .six_col {
   color: #6b8eb9;
   display: inline;
   float: none;
+  line-height: 2em;
+}
+#reseller #form fieldset#basic_information label.checkbox span {
+  font-size: .5em;
+}
+#reseller #form fieldset#basic_information input.checkbox {
+  margin-left: 0;
+}
+#reseller #form fieldset#basic_information #message {
+  font-family: "Arial", "Helvetica", sans-serif;
+  background-color: #def1ff;
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  color: #666;
+  border: 1px solid #ccc;
+  width: 21em;
+  height: 8em;
+}
+#reseller #form fieldset#basic_information #button {
+  color: #6b8eb9;
+  border: 1px solid #8fc5eb;
+  float: right;
+  margin-top: 3em;
+  height: 2em;
+  width: 6em;
 }
 
 /* ======================================================= */

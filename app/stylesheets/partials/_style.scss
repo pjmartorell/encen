@@ -250,9 +250,13 @@
 #reseller{
   margin-top: 2em;
   h2{
+    border-bottom: 1px dotted $light-brown-color;
     color: $dark-brown-color;
     font-size: $title-font-size;
     margin-top: 1.5em;
+  }
+  p{
+    color: $dark-brown-color;
   }
   #form{
     border: 1px dashed $blue-color;
@@ -262,6 +266,14 @@
     fieldset#basic_information{
       border: none;
       padding:0;
+      input{
+        font-family: $main-font-family;
+        font-size: 1.2em;
+        letter-spacing: 0.05em;
+        border: 1px solid #ccc;
+        background-color: #def1ff;
+        color: #666;
+      }
       label{
         text-align: right;
         font-weight: normal;
@@ -269,8 +281,9 @@
         clear: left;
         display: block;
         float: left;
-        padding-right: 2em;
-        width: 7em;
+        padding-right: 1em;
+        width: 8em;
+        color: #666;
       }
       label.checkbox{
         font-family: $title-font-family;
@@ -278,6 +291,31 @@
         color: $strong-blue-color;
         display: inline;
         float: none;
+        line-height: 2em;
+        span{
+          font-size: .5em;
+        }
+      }
+      input.checkbox{
+        margin-left: 0;
+      }
+      #message{
+        font-family: $main-font-family;
+        background-color: #def1ff;
+        font-size: 1.2em;
+        letter-spacing: 0.05em;
+        color: #666;
+        border: 1px solid #ccc;
+        width: 21em;
+        height: 8em;
+      }
+      #button{
+        color: $strong-blue-color;
+        border: 1px solid $blue-color;
+        float: right;
+        margin-top: 3em;
+        height: 2em;
+        width: 6em;
       }
     }
   }
