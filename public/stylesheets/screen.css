@@ -384,6 +384,17 @@ body .six_col {
 #press p {
   text-align: left;
 }
+#press ul {
+  color: #62371c;
+  padding-left: 2em;
+}
+#press ul li {
+  line-height: 2em;
+  list-style: disc outside none;
+}
+#press h2 {
+  color: #6b8eb9;
+}
 #press .wrap {
   border: 1px solid #8fc5eb;
   padding-left: .5em;

@@ -219,6 +219,17 @@
   p{
     text-align: left;
   }
+  ul{
+    color: $dark-brown-color;
+    padding-left: 2em;
+    li{
+      line-height: 2em;
+      list-style: disc outside none;
+    }
+  }
+  h2{
+    color: $strong-blue-color;
+  }
   .wrap{
     border: 1px solid $blue-color;
     padding-left: .5em;
