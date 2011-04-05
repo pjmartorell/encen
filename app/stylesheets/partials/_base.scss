@@ -1,5 +1,9 @@
+@import "compass/css3/font-face";
+@import "compass/css3/transform";
+@import "blueprint/scaffolding";
+
+
 // Here is where you can define your constants for your application and to configure the blueprint framework.
-// Feel free to delete these if you want keep the defaults:
 
 $blueprint-grid-columns: 24;
 $blueprint-container-size: 950px;
@@ -8,3 +12,54 @@ $blueprint-grid-margin: 10px;
 // Use this to calculate the width based on the total width.
 // Or you can set $blueprint-grid-width to a fixed value and unset $blueprint-container-size -- it will be calculated for you.
 $blueprint-grid-width: ($blueprint-container-size + $blueprint-grid-margin) / $blueprint-grid-columns - $blueprint-grid-margin;
+
+// basic colors
+$bg-color: #f0f0f0;
+$gray-color: #999;
+$blue-light-color: #4e97c0;
+$blue-strong-color: #072237;
+
+// fonts attributes
+$main-font-size: 1em;
+
+.separator {
+  height: 2em;
+}
+
+.clear {
+  clear:both;
+  height: 2em;
+  overflow:hidden;
+}
+
+// Basic css
+
+body {
+	margin: 0 auto;
+	font-size: $main-font-size;
+	background-color: $bg-color;
+	color: black;
+	text-align: justify;
+  #container{
+    background-color: $bg-color;
+  }
+	h1{
+	  color: white;
+	  font-size: 2.5em;
+	  letter-spacing: 0.03em;
+	}
+
+  p{
+    letter-spacing: .04em;
+    line-height: 1.4em;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  li{
+    list-style: none;
+  }
+
+}

@@ -20,15 +20,18 @@
     = stylesheet_link_tag 'print', :media => :print
     /[if lt IE 8 ]
       = stylesheet_link_tag 'ie', :media => 'screen, projection'
-  %body
-    = render 'shared/header'
-    = render 'shared/menu'
 
-    #info_box
-      = yield
+  %body.grid
+    #container
+      #header
+        = render 'shared/header'
+        = render 'shared/menu'
 
-    #footer
-      = render 'shared/footer'
+      #main
+        = yield
+
+      #footer
+        = render 'shared/footer'
 
     %script{:src => "http://www.google.com/jsapi?key=ABQIAAAA0ylfVAz-VO81YNZU6tZcBBQmeMglRFmXFoqbXzJidjd95_9FnxR5zSzQGNAQ-NQNKLi_4635iBfvLA", :type => "text/javascript"}
     :javascript
