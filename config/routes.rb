@@ -1,11 +1,12 @@
 Encen::Application.routes.draw do
-  
+
 
   scope "(:locale)" do
     devise_for :users, :controllers => {:sessions => 'user_sessions'}
 
-    match 'contact', :to => "static#contact"
-    match 'gallery', :to => "static#gallery"
+    match 'especialidades', :to => "static#areas_of_practice"
+    match 'consulta', :to => "static#query"
+    match 'contacto', :to => "static#contact"
 
     namespace :admin do
       resources :users, :except => :index

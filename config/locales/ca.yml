@@ -10,8 +10,8 @@ ca:
 
   menu:
     home: "Inici"
-    specialties: "Arees d’ especialització"
-    consult: "Consulta"
+    areas_of_practice: "Arees d’ especialització"
+    query: "Consulta"
     contact: "Localizació"
 
   footer:
