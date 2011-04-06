@@ -74,6 +74,11 @@ a img {
   border: none;
 }
 
+@font-face {
+  font-family: "geosans";
+  src: local("☺"), url(/fonts/geosans.ttf) format('truetype');
+}
+
 .separator {
   height: 2em;
 }
@@ -88,6 +93,7 @@ body {
   margin: 0 auto;
   font-size: 1em;
   background-color: #f0f0f0;
+  font-family: "geosans";
   color: black;
   text-align: justify;
 }

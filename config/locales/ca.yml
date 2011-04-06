@@ -1,5 +1,4 @@
 ca:
-
   metakeywords: "ejemplo,itnig,test"
   metadescription: "Ejemplo de plan basico"
   locality: Barcelona
@@ -25,7 +24,7 @@ ca:
   static:
     index:
       title: "Inicio -- Ejemplo Plan Basico"
-      first_paragraph_html: "Des dels inicis al despatx de Bombí advocats ens hem preocupat per vetllar pels nostres clients amb el màxim rigor i professionalitat adaptant-nos a les seves necessitats."
+      first_paragraph_html: "Des dels inicis al despatx de Bombí advocats ens hem preocupat per vetllar pels nostres clients amb el <span>màxim rigor i professionalitat</span> adaptant-nos a les seves necessitats."
       paragraph1_html: "El nostre objectiu principal, doncs, és prestar un servei legal amb el més alt nivell de qualitat, eficàcia i de forma personalitzada. Creiem de vital importància una confiança entre lletrat i client, basant-nos en un respecte per la intimitat de les persones per tal de trobar la millor solució als seus problemes."
       services: "Servicios"
       services_paragraph_html: "A BOMBÍ ADVOCATS oferim un assessorament complet en el qual comptem amb una col·laboració de :"

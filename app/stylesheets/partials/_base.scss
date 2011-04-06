@@ -19,8 +19,12 @@ $gray-color: #999;
 $blue-light-color: #4e97c0;
 $blue-strong-color: #072237;
 
+//Extra Fonts
+@include font-face("geosans", font-files("/fonts/geosans.ttf",truetype));
+
 // fonts attributes
 $main-font-size: 1em;
+$main-font-family: "geosans";
 
 .separator {
   height: 2em;
@@ -38,6 +42,7 @@ body {
 	margin: 0 auto;
 	font-size: $main-font-size;
 	background-color: $bg-color;
+	font-family: $main-font-family;
 	color: black;
 	text-align: justify;
   #container{
