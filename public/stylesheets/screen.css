@@ -217,6 +217,9 @@ span {
 #areas ul {
   margin-top: 2em;
 }
+#areas .note p {
+  color: #4e97c0;
+}
 
 #footer {
   background-color: #072237;
@@ -308,12 +311,30 @@ body.grid #main, body.grid #footer {
   padding-right: 40px;
   padding-left: 40px;
 }
-body.grid .one_second {
+body.grid .twelve_col {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 470px;
+}
+* html body.grid .twelve_col {
+  overflow-x: hidden;
+}
+body.grid .eight_col {
   display: inline;
   float: left;
   margin-right: 10px;
   width: 310px;
 }
-* html body.grid .one_second {
+* html body.grid .eight_col {
+  overflow-x: hidden;
+}
+body.grid .one_col {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  width: 30px;
+}
+* html body.grid .one_col {
   overflow-x: hidden;
 }

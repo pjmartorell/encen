@@ -35,9 +35,18 @@ body.grid {
     @include append(1);
     @include prepend(1);
   }
+  
+  .twelve_col {
+    @include column(12);
+  }
 
-  .one_second{
+  .eight_col {
     @include column(8);
   }
+  
+  .one_col {
+    @include column(1);
+  }
+  
 
 }
