@@ -1,6 +1,4 @@
 es:
-  home: Inicio
-  contact: Contacto
 
   metakeywords: "ejemplo,itnig,test"
   metadescription: "Ejemplo de plan basico"
@@ -9,12 +7,19 @@ es:
   geo_placename: Spain
   geo_position: Alguna posicion
   icbm: Algun numero icbm
-
+  
+  menu:
+    home: "espanol"
+    specialties: "Arees d’ especialització"
+    consult: "Consulta"
+    contact: "Localización"
 
   static:
     index:
       title: "Inicio -- Ejemplo Plan Basico"
-      line1: "Esto es la pagina de inicio"
+      first_paragraph_index: "Des dels inicis al despatx de Bombí advocats ens hem preocupat per vetllar pels nostres clients amb el màxim rigor i professionalitat adaptant-nos a les seves necessitats."
+      paragraph1_index: "El nostre objectiu principal, doncs, és prestar un servei legal amb el més alt nivell de qualitat, eficàcia i de forma personalitzada. Creiem de vital importància una confiança entre lletrat i client, basant-nos en un respecte per la intimitat de les persones per tal de trobar la millor solució als seus problemes."
+      services: "Servicios"
 
     contact:
       title: "Contacto -- Ejemplo Plan Basico"

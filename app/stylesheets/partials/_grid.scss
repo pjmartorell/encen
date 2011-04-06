@@ -25,9 +25,15 @@ body.grid {
   #container {
     @include container;
   }
+  
+  #header {
+    @include span(24);
+  }
 
-  #header, #main, #footer {
-    @include span (19);
+  #main, #footer {
+    @include span (22);
+    @include append(1);
+    @include prepend(1);
   }
   
   .one_third{
