@@ -25,7 +25,7 @@ body.grid {
   #container {
     @include container;
   }
-  
+
   #header {
     @include span(24);
   }
@@ -35,9 +35,9 @@ body.grid {
     @include append(1);
     @include prepend(1);
   }
-  
-  .one_third{
-    @include column(5);
+
+  .one_second{
+    @include column(8);
   }
-  
+
 }

@@ -106,7 +106,6 @@ body h1 {
   letter-spacing: 0.03em;
 }
 body p {
-  letter-spacing: .04em;
   line-height: 1.4em;
 }
 body a {
@@ -114,6 +113,80 @@ body a {
 }
 body li {
   list-style: none;
+  line-height: 1.5em;
+}
+
+p:first-child {
+  color: #072237;
+  font-size: 1.5em;
+  letter-spacing: .04em;
+}
+
+span {
+  background-color: white;
+  padding-left: .3em;
+  padding-right: .3em;
+}
+
+.wrap {
+  color: white;
+  border: .3em solid white;
+  outline: 0.1em solid #999999;
+  padding: 1em;
+  margin-left: 4em;
+  height: 13em;
+  background-color: #4e97c0;
+}
+.wrap h3 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: .3em;
+}
+.wrap ul {
+  margin-top: .5em;
+  margin-left: 4em;
+}
+
+.wrap2 {
+  color: white;
+  border: .3em solid white;
+  outline: 0.1em solid #999999;
+  padding: 1em;
+  margin-left: 4em;
+  height: 13em;
+  background-color: #072237;
+}
+.wrap2 h3 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: .3em;
+}
+
+#footer {
+  background-color: #072237;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  margin-top: 4em;
+}
+#footer p {
+  color: white;
+  font-size: 1em;
+}
+#footer ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+#footer li {
+  display: inline;
+  border-right: 1px solid white;
+  padding-left: 1em;
+  padding-right: 1em;
+  letter-spacing: 0.07em;
+}
+#footer li:last-child {
+  border: none;
 }
 
 form.bp label {
@@ -179,12 +252,12 @@ body.grid #main, body.grid #footer {
   padding-right: 40px;
   padding-left: 40px;
 }
-body.grid .one_third {
+body.grid .one_second {
   display: inline;
   float: left;
   margin-right: 10px;
-  width: 190px;
+  width: 310px;
 }
-* html body.grid .one_third {
+* html body.grid .one_second {
   overflow-x: hidden;
 }
