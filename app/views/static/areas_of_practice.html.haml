@@ -1,16 +1,21 @@
 = title t(".title")
 
-%p=t ".first_paragraph_html"
-%p=t ".paragraph1_html"
+#areas
+  %p=t ".first_paragraph_html"
 
-%h3=t ".services"
-%p=t ".services_paragraph_html"
+  .separator
 
-%ul
-  %li=t ".service_list1"
-  %li=t ".service_list2"
-  %li=t ".service_list3"
-  %li=t ".service_list4"
+  %p=t ".paragraph1_html"
 
-%h3=t ".compromise"
-%p=t ".compromise_paragraph_html"
+  %ul
+    %li
+      = link_to t('.area_list1'), penal_path
+    %li
+      = link_to t('.area_list2'), sucesions_path
+    %li
+      = link_to t('.area_list3'), familiar_path
+    %li
+      = link_to t('.area_list4'), civil_path
+
+- content_for :photo do
+  = render 'shared/areas'

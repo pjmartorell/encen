@@ -209,6 +209,15 @@ span {
   margin-bottom: .3em;
 }
 
+#areas p:first-child {
+  color: #072237;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+#areas ul {
+  margin-top: 2em;
+}
+
 #footer {
   background-color: #072237;
   color: white;

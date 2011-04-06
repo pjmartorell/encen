@@ -78,6 +78,18 @@ span {
   background-color: $blue-strong-color;
 }
 
+// . . . . . . . . . . . . . . . .  AREAS OF PRACTICE
+
+#areas {
+  p:first-child {
+    color: $blue-strong-color;
+    font-size: 1.1em;
+    line-height: 1.5em;
+  }
+  ul {
+    margin-top: 2em;
+  }
+}
 
 
 // . . . . . . . . . . . . . . . .  FOOTER
