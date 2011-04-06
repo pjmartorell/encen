@@ -1,6 +1,45 @@
 // . . . . . . . . . . . . . . . .  HEADER
 
+#header{
+  background-image: url("/images/bg_header.png");
+  height: 22em;
+  padding-top: 10em;
+  margin-bottom: 4em;
+  #menu{
+    text-align: center;
+    li{
+      display: inline;
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+    a{
+      color: black;
+      font-size: 1.3em;
+      &:hover{
+        border-bottom: 1px solid $gray-color;
+        padding-bottom: .3em;
+      }
+    }
+    .current {
+      color: $blue-light-color;
+      font-size: 1.5em;
+      &:hover {
+        border: none;
+      }
+    }
+  }
 
+/* This is the logo link clickable area */
+
+  #click_area {
+    background-color: transparent;
+    position: absolute;
+    left: 11.3em;
+    top: 3em;
+    height: 5em;
+    width: 11em;
+  }
+}
 
 
 // . . . . . . . . . . . . . . . .  MAIN

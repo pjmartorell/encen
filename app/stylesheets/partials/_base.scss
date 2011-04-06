@@ -41,7 +41,7 @@ $main-font-family: "geosans";
 body {
 	margin: 0 auto;
 	font-size: $main-font-size;
-	background-color: $bg-color;
+	background-color: white;
 	font-family: $main-font-family;
 	color: black;
 	text-align: justify;
@@ -78,6 +78,7 @@ body {
   padding: 1em;
   margin-left: 4em;
   height: 13em;
+  margin-top: 4em;
   h3{
 	  font-size: 1.5em;
 	  text-align: center;
