@@ -1,4 +1,5 @@
 Encen::Application.routes.draw do
+  post "toggle_edition_mode", :to => "application#toggle_edition_mode"
 
   devise_for :users, :controllers => {:sessions => 'user_sessions'}
 
