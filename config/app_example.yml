@@ -17,6 +17,11 @@ production:
       enable_starttls_auto: true
 
   hostname: yourapp.com
+  hosting: true
+
+  hosts:
+    bombi-abogados.es: es
+    bombi-advocats.cat: ca
 
 
 development:
@@ -33,3 +38,8 @@ development:
       enable_starttls_auto: true
 
   hostname: localhost:3000
+  hosting: false
+
+  hosts:
+    bombi-abogados.es: es
+    bombi-advocats.cat: ca

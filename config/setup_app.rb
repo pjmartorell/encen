@@ -21,3 +21,4 @@ else
 
 end
 
+HOST_LOCALES = APP_CONFIG['hosts']
