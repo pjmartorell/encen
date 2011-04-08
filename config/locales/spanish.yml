@@ -218,15 +218,12 @@ es:
       
     reseller:
       title: "Te interesa nuestras franquicias"
-      reseller: "Unete a nuestro proyecto"
-      first_paragraph_html: "Si estas interesado en formar parte de nuestro negocio y quieres informarte sobre franquicias,corners o distribución de zapatitos rellena este formulario y a la mayor brevedad contactaremos con usted para concertar una reunión informativa."
-      particular_html: Particular
-      business_html: Empresa
+      reseller: "Únete a nuestro proyecto"
+      particular_html: "Particular"
+      business_html: "Empresa"
       interest: "Estoy interesado en:"
-      corners_html: "Corners. <span>Espacios en tiendas establecidas donde podrán distribuir nuestros productos.</span>"
+      corners_html: "Corners"
       franquicias_html: "Franquicias"
-      code_html: "*Código seguridad inserta el código de la imagen siguiente (para evitar el Spam)"
-      position_html: Cargo
 
     share:
       title: Za-patitos en la calle
@@ -234,6 +231,7 @@ es:
       first_paragraph_html: "Envíanos tus fotos favoritas con za-patitos y conviértete en modelo de nuestro book fotográfico virtual. Participa de esta divertida experiencia luciendo diferentes modelos de nuestra marca."
       date1_html: 10/05/2010
       photo_caption_html: "Esta bonita imagen es de Yvonne de Holanda, su comentario ha sido muy expresivo igual que la imagen de sus botas de nuestra marca!"
+      under_construction: "Sección en construcción"
 
     press:
       title: "Zapatitos en los medios"

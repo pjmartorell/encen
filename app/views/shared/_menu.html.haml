@@ -1,7 +1,8 @@
 #language_menu
-  %p=t("language", :scope => "menu_language")
-  %a{:href => "/es"}=t("spanish", :scope => "menu_language")
-  %a{:href => "/en"}=t("english", :scope => "menu_language")
+  %p
+    =t("language", :scope => "menu_language")
+    %a{:href => "/es"} ES
+  -# %a{:href => "/en"}=t("english", :scope => "menu_language")
 
 #menu
   %ul
@@ -11,7 +12,7 @@
     %li= section_link_to t(:collection, :scope => "menu"), zapatitos_path
     %li= section_link_to t(:deportivas, :scope => "menu"), deportivas_path
     %li= section_link_to t(:reseller, :scope => "menu"), reseller_path
-    %li= section_link_to t(:share, :scope => "menu"), share_path
+    -# %li= section_link_to t(:share, :scope => "menu"), share_path
     %li= section_link_to t(:press, :scope => "menu"), press_path
     %li= section_link_to t(:subscribe, :scope => "menu"), subscribe_path
     %li= section_link_to t(:news, :scope => "menu"), news_path
