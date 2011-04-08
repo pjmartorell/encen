@@ -65,18 +65,16 @@ es:
     share:
       title: Envíanos tu foto
       paragraph_html: "Si tienes fotos con tus Za-patitos y quieres compartirlas en nuestra web envíalas y las publicaremos."
-
-  footer:
-    itnig: "Itnig: servicios web"
-  
+    
   static:
     index:
       title: "inicio"
       home: "Inicio"
-      fisrt_paragraph_html: "En 1998,tras realizar un estudio de mercado de la oferta en calzado infantil, iniciamos nuestro proyecto: crear un nuevo concepto de zapatería infantil y juvenil."
-      paragraph2_html: "Quedó clara la necesidad de innovar y perfeccionar, ofreciendo un calzado cómodo y funcional que respondiera a las necesidades mayoritarias del público infantil y juvenil sin renunciar, por ello, al diseño y a las últimas tendencias de la moda, sin estridencias, conjugando el estilo propio y la exclusividad, la sofisticación e innovación con la tradición y líneas clásicas. Todo ello con el carácter sobrio que nos identifica y distingue de la competencia."
-      paragraph3_html: "Mocasines, bailarinas, merceditas, sandalias, zuecos, botas y botines, deportivas, badanas, zapatos de ceremonia,escolares, zapatillas ……. con una numeración para todos, del 15 al 41, las últimas tendencias en moda para calzar a toda la familia."
-      paragraph4_html: "Así. diseñamos nuestras primeras colecciones. Nuestro proyecto rapidamente se consolidó como una exitosa realidad y muy pronto Za-patitos fue reconocida como una marca de tendencia por revistas y profesionales especializados. Hoy, tras años de entusiasta dedicación, contamos con tiendas propias y un avanzado sistema de tiendas franquiciadas y corners a la vez que impulsamos la expansión internacional de nuestra marca mediante la distribución de nuestros productos en nuevos mercados."
+      fisrt_paragraph_html: "En 1998,tras realizar un estudio de mercado de la oferta en calzado infantil y calzado juvenil, iniciamos nuestro proyecto: crear un nuevo concepto de zapatería infantil y zapatería juvenil."
+      paragraph2_html: "Quedó clara la necesidad de innovar y perfeccionar, ofreciendo un calzado cómodo y funcional que respondiera a las necesidades mayoritarias del público infantil y juvenil sin renunciar, por ello, al diseño y a las últimas tendencias de la moda, sin estridencias, conjugando el diseño propio y exclusivo, la sofisticación e innovación con la tradición y líneas clásicas. Todo ello con el carácter sobrio que nos identifica y distingue de la competencia."
+      paragraph3_html: "Mocasines, bailarinas, merceditas, zapatos de comunión, sandalias, zuecos, botas y botines, deportivas, badanas, zapatos de ceremonia,escolares, zapatillas ……. con una numeración para todos, del 15 al 41, las últimas tendencias en moda para calzar a toda la familia."
+      paragraph4_html: "Así. diseñamos nuestras primeras colecciones. Nuestro proyecto se consolidó rapidamente como una exitosa realidad en España y Andorra y muy pronto Za-patitos fue reconocida como una marca de tendencia por revistas y profesionales especializados. Hoy, tras años de entusiasta dedicación, contamos con tiendas propias, franquicias y conrners a la vez que impulsamos la expansión internacional de nuestra marca mediante la distribución de nuestros productos en nuevos mercados."
+      paragraph5_html: " En 1996 zapatitos fue pionera en España en el desarrollo empersarial del modelo de negocio de calzado infantil y juvenil mediante la formula  de franquicia. Abriendo la primera tienda franquiciada de calzado infantil en España."
       more_info_html: "Próxima apertura"
       new_store_html: "Za-patitos en Ibiza"
       autumn_winter_title: "Avance Otoño/Invierno"
@@ -137,10 +135,9 @@ es:
     findus:
       title: "Donde estamos"
       our_store: Nuestras tiendas
-      shoestore: Zapaterías
       barcelona: Barcelona
       corners_html: Corners
-      address1_html: Artesa de Segre
+      address1_html: "Artesa de Segre 5, (Mandrid)"
       zip_code_html: 08037 Barcelona
       phone: Telefono
       phone_number1_html: 93 414 67 35
@@ -153,6 +150,7 @@ es:
       phone_number2_html: "93 414 67 35"
       horary_number2_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
       saturday2_html: "Sábados: 10.30 a 14.00h"
+      s_cugat: "S.Cugat"
       address3_html: "Sant Jordi 30 "
       zip_code3_html: "08037 S.Cugat del Vallés"
       phone_number3_html: "93 414 67 35"
@@ -163,7 +161,7 @@ es:
       phone_number5_html: "93 414 67 35"
       horary_number5_html: "Lunes a viernes: 10.30 a 14.00h / 17.00h 0 20:00h"
       saturday5_html: "Sábados: 10.30 a 14.00h"
-      larioja: La Rioja
+      logrono: "Logroño"
       address6_html: "Avda. de Portugal 27-29"
       zip_code6_html: "08037 Logroño"
       phone_number6_html: "93 414 67 35"
@@ -321,7 +319,3 @@ es:
       date3_html: 10/05/2010
       title_news3: "Avance Otoño/Invierno"
       news3_html: "Estamos ultimando los detalles de la próxima colección. Marrón tundra, gris cobalto y azul petróleo serán los protagonistas de una moda que te va a encantar. Estamos ultimando los detalles de la próxima colección. Marrón tundra, gris cobalto y azul petróleo serán los protagonistas de una moda que te va a encantar."
-
-    contact:
-      title: "Contacto -- Ejemplo Plan Basico"
-      line1: "Y esto es la pagina de contacto"
