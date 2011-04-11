@@ -1,9 +1,9 @@
-.title
-  %h3= t(:title, :scope => "side_bar.share")
-
-%p= t(:paragraph_html, :scope => "side_bar.share")
-
 #side_form
+  .title
+    %h3= t(:title, :scope => "side_bar.share")
+
+  %p= t(:paragraph_html, :scope => "side_bar.share")
+
   %form{"accept-charset" => "UTF-8", :action => "/new_question", "data-remote" => "true", :method => "post"}
     %fieldset
       %label{:for => :name}= t(:name, :scope => "side_bar.questionnaire")

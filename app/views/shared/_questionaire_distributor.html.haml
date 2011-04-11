@@ -1,9 +1,9 @@
-.title
-  %h3= t(:title, :scope => "side_bar.deportivas")
-
-%p= t(:paragraph_html, :scope => "side_bar.deportivas")
-
 #side_form
+  .title
+    %h3= t(:title, :scope => "side_bar.deportivas")
+
+  %p= t(:paragraph_html, :scope => "side_bar.deportivas")
+
   %form{"accept-charset" => "UTF-8", :action => "/new_question", "data-remote" => "true", :method => "post"}
     %fieldset
 

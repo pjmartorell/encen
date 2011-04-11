@@ -1,9 +1,9 @@
-.title
-  %h3= t(:title, :scope => "side_bar.press")
-
-%p= t(:paragraph_html, :scope => "side_bar.press")
-
 #side_form
+  .title
+    %h3= t(:title, :scope => "side_bar.press")
+
+  %p= t(:paragraph_html, :scope => "side_bar.press")
+
   %form{"accept-charset" => "UTF-8", :action => "/new_question", "data-remote" => "true", :method => "post"}
     %fieldset
       %label{:for => :editorial}= t(:editorial, :scope => "side_bar.press")

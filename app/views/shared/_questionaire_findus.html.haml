@@ -1,9 +1,9 @@
-.title
-  %h3= t(:title, :scope => "side_bar.find_us")
-
-%p= t(:paragraph_html, :scope => "side_bar.find_us")
-
 #side_form
+  .title
+    %h3= t(:title, :scope => "side_bar.find_us")
+
+  %p= t(:paragraph_html, :scope => "side_bar.find_us")
+
   %form{"accept-charset" => "UTF-8", :action => "/new_question", "data-remote" => "true", :method => "post"}
     %fieldset
       %input{:class=> "checkbox" , :name => "category", :type => "radio", :value => ""}/

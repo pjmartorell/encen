@@ -3,8 +3,27 @@
 #title
   %h1= t ".share"
 
+
 #share
-  %p=t ".under_construction"
+
+  %img.home{:alt => "Comparte tus fotos", :src => "/images/img1.jpg"}/
+
+  .separation_line
+
+  %img.home{:alt => "Comparte tus fotos", :src => "/images/img2.jpg"}/
+
+  .separation_line
+
+  %img.home{:alt => "Comparte tus fotos", :src => "/images/img3.jpg"}/
+
+  .separation_line
+
+  %img.home{:alt => "Comparte tus fotos", :src => "/images/img4.jpg"}/
+
+  .separation_line
+
+  %img.home{:alt => "Comparte tus fotos", :src => "/images/img5.jpg"}/
+
 
 - content_for :info_box do
   = render 'shared/questionaire_share'

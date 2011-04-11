@@ -259,19 +259,15 @@ body .six_col {
 }
 #aboutus #contact a {
   color: #62371c;
-  letter-spacing: -0.06em;
 }
 #aboutus #contact a:hover {
   color: #c49d5b;
 }
 #aboutus #contact p {
   color: #62371c;
-  font-size: 1.4em;
+  font-size: 1.3em;
   margin-bottom: 0;
-}
-#aboutus #contact p:last-child {
-  color: #6b8eb9;
-  font-size: 1em;
+  text-align: left;
 }
 
 /* ======================================================= */
@@ -326,7 +322,7 @@ body .six_col {
 /*                        zapatitos                        */
 /* ======================================================= */
 #zapatitos .wrap {
-  border: dashed 1px #c49d5b;
+  border: solid 1px #c49d5b;
 }
 #zapatitos p {
   color: #62371c;
@@ -406,13 +402,6 @@ body .six_col {
 /* ======================================================= */
 /*                           Share                         */
 /* ======================================================= */
-#share .share_image {
-  background-color: #ccc;
-  height: 30em;
-  margin-bottom: 1em;
-  margin-top: 1em;
-}
-
 /* ======================================================= */
 /*                         News                            */
 /* ======================================================= */
@@ -511,8 +500,7 @@ body .six_col {
   padding-left: 1em;
 }
 #side_bar #info_box {
-  border: 2px dotted #6b8eb9;
-  background-color: white;
+  padding-top: 1em;
   /* ======================================================= */
   /*                          Index                          */
   /* ======================================================= */
@@ -528,7 +516,6 @@ body .six_col {
 #side_bar #info_box .title {
   background-color: #8fc5eb;
   border: 1px dashed #6b8eb9;
-  margin-top: 2em;
   padding-top: 1.5em;
   margin-bottom: 2em;
   margin-left: .5em;
@@ -664,7 +651,9 @@ form.bp textarea {
 }
 
 #side_form {
-  color: red;
+  background-color: white;
+  color: #333;
+  padding-top: 1em;
 }
 #side_form h2 {
   color: #62371c;

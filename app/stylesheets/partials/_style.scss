@@ -79,18 +79,15 @@
     }
     a{
       color: $dark-brown-color;
-      letter-spacing: -0.06em;
       &:hover{color: $light-brown-color;}
     }
     p {
       color: $dark-brown-color;
-      font-size: 1.4em;
+      font-size: 1.3em;
       margin-bottom: 0;
+      text-align: left;
     }
-    p:last-child {
-      color: $strong-blue-color;
-      font-size: $main-font-size;
-    }
+
   }
 
 }
@@ -157,7 +154,7 @@
 
 #zapatitos{
   .wrap{
-    border: dashed 1px $light-brown-color;
+    border: solid 1px $light-brown-color;
   }
   p{
     color: $dark-brown-color;
@@ -245,15 +242,6 @@
 /* ======================================================= */
 /*                           Share                         */
 /* ======================================================= */
-
-#share{
-  .share_image{
-    background-color: #ccc;
-    height: 30em;
-    margin-bottom: 1em;
-    margin-top: 1em;
-  }
-}
 
 /* ======================================================= */
 /*                         News                            */

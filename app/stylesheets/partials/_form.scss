@@ -80,7 +80,9 @@ form.bp {
 // . . . . . . . . . . . . . . . . . . . .  Forms from  partials pages (side bar)
 
 #side_form{
-  color: red;
+  background-color: white;
+  color: #333;
+  padding-top: 1em;
   h2{
     color: $dark-brown-color;
     border-bottom: 1px dotted $light-brown-color;

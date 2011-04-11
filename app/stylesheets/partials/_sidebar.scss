@@ -33,15 +33,14 @@
         color: $light-brown-color;
       }
     }
-    ul { 
+    ul {
       margin-right: 0;
       padding-left: 1em;
     }
   }
-  
+
   #info_box {
-    border: 2px dotted $strong-blue-color;
-    background-color: white;
+    padding-top: 1em;
     p{
       margin-left: 1em;
       margin-right: 1em;
@@ -53,7 +52,6 @@
     .title{
       background-color: $blue-color;
       border: 1px dashed $strong-blue-color;
-      margin-top: 2em;
       padding-top: 1.5em;
       margin-bottom: 2em;
       margin-left: .5em;
@@ -63,7 +61,7 @@
         text-align: center;
       }
     }
-    
+
 /* ======================================================= */
 /*                          Index                          */
 /* ======================================================= */

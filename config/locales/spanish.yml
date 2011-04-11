@@ -90,7 +90,8 @@ es:
       aboutus: "Saber más"
       contact: Contacto
       phone_html: "(+34) 93 252 00 48"
-      address_html: "Paseo San Juan Bosco, 53, 8017 Barcelona."
+      address_html: "Paseo San Juan Bosco, 53"
+      zip_code: "8017 Barcelona"
       line1_html: "Za-patitos es una empresa constituida en Barcelona y dedicada, a través de nuestra red de tiendas propias y franquiciadas, a la comercialización de calzado infantil y juvenil de diseño propio o seleccionados en exclusiva para nuestros clientes."
       line2_html: "Nuestras tiendas son conocidas por su imagen, estilo y diseño diferenciados así como por una línea de productos exclusivos que diseñamos cada temporada."
       line3_html: "Las tiendas Za-patitos destacan claramente por una decoración funcional, diáfana, con líneas sobrias y sencillas y una distribución espaciosa y bien segmentada de las diferentes líneas de productos, dónde nuestros clientes pueden desenvolverse libremente y escoger los artículos que mejor se ajustan a sus gustos y necesidades, asesorados, si lo desean, por nuestras dependientas. El trato personalizado a nuestros clientes es una de nuestras principales premisas y nuestro objetivo prioritario su máxima satisfacción."
@@ -266,32 +267,8 @@ es:
     links:
       title: Links
       links: Links
-      link_title1: Publicaciones
-      link_title2: ONGS
-      link_title3: Actividades infantiles
-      link_title4: Publicaciones
-      link_title5: ONGS
-      link_title6: Actividades infantiles
-      link1_html: ¡Hola!
-      link2_html: La Vanguadia
-      link3_html: Vogue Niños
-      link4_html: Global Humanitaria
-      link5_html: Médicos sin Fronteras
-      link6_html: Cruz Roja Española
-      link7_html: Fundación Vicente Ferrer
-      link8_html: Chiquipark
-      link9_html: Galletas Carlota's
-      link10_html: Imaginarium
-      link11_html: ¡Hola!
-      link12_html: La Vanguadia
-      link13_html: Vogue Niños
-      link14_html: Global Humanitaria
-      link15_html: Médicos sin Fronteras
-      link16_html: Cruz Roja Española
-      link17_html: Fundación Vicente Ferrer
-      link18_html: Chiquipark
-      link19_html: Galletas Carlota's
-      link20_html: Imaginarium
+      link_title1: Servicios Web
+      itnig: "itnig: servicios web"
 
     subscribe:
       title: Subscripción.

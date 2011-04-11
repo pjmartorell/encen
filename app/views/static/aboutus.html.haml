@@ -8,17 +8,18 @@
   .six_col
     %img{:alt => "zapatitos", :src => "/images/saber_mas.png"}/
     #contact
-      %h2= t ".contact"
+      %h2=t ".contact"
       %p= mail_to 'info@za-patitos.com', nil, :encode => :hex
-      %P= t ".phone_html"
-      %P= t ".address_html"
+      %P=t ".phone_html"
+      %P=t ".address_html"
+      %p=t ".zip_code" 
 
   .seven_col
-    %p= t ".line1_html"
-    %p= t ".line2_html"
-    %p= t ".line3_html"
-    %p= t ".line4_html"
-    %p= t ".line5_html"
+    %p=t ".line1_html"
+    %p=t ".line2_html"
+    %p=t ".line3_html"
+    %p=t ".line4_html"
+    %p=t ".line5_html"
 
 - content_for :info_box do
   = render 'shared/aboutus_side'
