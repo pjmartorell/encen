@@ -1,56 +1,44 @@
 body {
 	margin: auto;
-	background-color: #CFCFCF;
+	background-color: #FFF;
 	background-repeat: no-repeat;
 	background-position: center top;
-	#container{
-		font-family: $main-font-family;
-		font-size: $main-font-size;
-		color: $font-color;
-		
-// LOGIN
-		
-		#login_box{
-		  background-color: #F1F1F1;
-      border: 2px solid #999999;
-      padding-top: 40px;
-      padding-bottom: 30px;
-      margin-top: 100px;
-      margin-left: 250px;
-      p{
-        margin-bottom: 20px;
-        text-align: center;
+  font-family: $main-font-family;
+}
+
+#container {
+	font-size: $main-font-size;
+	color: $font-color;
+}
+
+
+#login-form {
+  background-color: #DDD;
+  width: 30em;
+  @include border-radius(5px);
+  padding: .5em;
+  margin: auto;
+  @include box-shadow;
+  input {
+    margin-top: .4em;
+    width: 93%;
+    padding: .5em;
+    font-size: 1.3em;
+    &[type=submit] {
+      width: 10em;
+      line-height: 1em;
+      background-color: #666;
+      color: #FFF;
+      @include linear-gradient(color-stops(#444, #888), left top);
+      &:hover {
+        @include linear-gradient(color-stops(#999, #DDD), left top);
+        cursor: hand;
+        cursor: pointer;
+        color: #333;
       }
-      input#user_login{
-        border: 1px solid #BBBBBB;
-        color: $font-color;
-        text-align: center;
-        font-size: 16px;
-        height: 30px;
-        padding: 2px;
-        width: 275px;
-      }
-      input#user_password{
-        border: 1px solid #BBBBBB;
-        color: $font-color;
-        text-align: center;
-        font-size: 16px;
-        height: 30px;
-        padding: 2px;
-        width: 275px;
-      }
-      input#user_submit{
-        background-color: #000000;
-        color: white;
-        border: medium none;
-        height: 25px;
-        margin-bottom: 10px;
-        width: 125px;
-      }
-      input#user_submit:hover{
-        background-color: #666;
-      }
-		}
+    }
+  }
+}
 
 // BACKOFFICE
   
@@ -84,7 +72,7 @@ body {
         }
       }
     }
-    #main{
+    #main {
       background-color: #F1F1F1;
       border: 2px solid #999999;
       padding-top: 40px;
@@ -116,6 +104,3 @@ body {
         }
       }
     }
-
-	}
-}

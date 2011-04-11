@@ -102,6 +102,18 @@ body.one_col #container #itnig_link {
   width: 950px;
 }
 
+.center {
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
 .clear {
   clear: both;
   height: 1px;
@@ -116,57 +128,58 @@ body.one_col #container #itnig_link {
 
 body {
   margin: auto;
-  background-color: #CFCFCF;
+  background-color: #FFF;
   background-repeat: no-repeat;
   background-position: center top;
-}
-body #container {
   font-family: "Verdana";
+}
+
+#container {
   font-size: 0.9em;
   color: #444444;
 }
-body #container #login_box {
-  background-color: #F1F1F1;
-  border: 2px solid #999999;
-  padding-top: 40px;
-  padding-bottom: 30px;
-  margin-top: 100px;
-  margin-left: 250px;
+
+#login-form {
+  background-color: #DDD;
+  width: 30em;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding: .5em;
+  margin: auto;
+  -moz-box-shadow: #333333 1px 1px 5px 0;
+  -webkit-box-shadow: #333333 1px 1px 5px 0;
+  -o-box-shadow: #333333 1px 1px 5px 0;
+  box-shadow: #333333 1px 1px 5px 0;
 }
-body #container #login_box p {
-  margin-bottom: 20px;
-  text-align: center;
+#login-form input {
+  margin-top: .4em;
+  width: 93%;
+  padding: .5em;
+  font-size: 1.3em;
 }
-body #container #login_box input#user_login {
-  border: 1px solid #BBBBBB;
-  color: #444444;
-  text-align: center;
-  font-size: 16px;
-  height: 30px;
-  padding: 2px;
-  width: 275px;
-}
-body #container #login_box input#user_password {
-  border: 1px solid #BBBBBB;
-  color: #444444;
-  text-align: center;
-  font-size: 16px;
-  height: 30px;
-  padding: 2px;
-  width: 275px;
-}
-body #container #login_box input#user_submit {
-  background-color: #000000;
-  color: white;
-  border: medium none;
-  height: 25px;
-  margin-bottom: 10px;
-  width: 125px;
-}
-body #container #login_box input#user_submit:hover {
+#login-form input[type=submit] {
+  width: 10em;
+  line-height: 1em;
   background-color: #666;
+  color: #FFF;
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #444444), color-stop(100%, #888888));
+  background-image: -moz-linear-gradient(left top, #444444 0%, #888888 100%);
+  background-image: linear-gradient(left top, #444444 0%, #888888 100%);
 }
-body #container #header {
+#login-form input[type=submit]:hover {
+  background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0%, #999999), color-stop(100%, #dddddd));
+  background-image: -moz-linear-gradient(left top, #999999 0%, #dddddd 100%);
+  background-image: linear-gradient(left top, #999999 0%, #dddddd 100%);
+  cursor: hand;
+  cursor: pointer;
+  color: #333;
+}
+
+#header {
   background-color: #555;
   color: #eee;
   font-size: 0.9em;
@@ -175,60 +188,61 @@ body #container #header {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-body #container #header h1 {
+#header h1 {
   color: #f1f1f1;
   text-align: center;
   font-size: 1.5em;
   margin-bottom: 12px;
 }
-body #container #header a {
+#header a {
   color: #F1F1F1;
 }
-body #container #header p {
+#header p {
   margin-bottom: 5px;
 }
-body #container #header #upload_btn input {
+#header #upload_btn input {
   background-color: black;
   border: medium none;
   color: #999999;
   margin-top: 9px;
   padding: 7px 15px;
 }
-body #container #header #upload_btn input:hover {
+#header #upload_btn input:hover {
   background-color: #222;
 }
-body #container #main {
+
+#main {
   background-color: #F1F1F1;
   border: 2px solid #999999;
   padding-top: 40px;
   padding-bottom: 20px;
 }
-body #container #main a {
+#main a {
   color: black;
   text-decoration: none;
 }
-body #container #main a:hover {
+#main a:hover {
   color: #999;
 }
-body #container #main table thead {
+#main table thead {
   background-color: #666;
   color: white;
   height: 30px;
 }
-body #container #main table thead th:first-child {
+#main table thead th:first-child {
   padding-left: 10px;
 }
-body #container #main table tbody td {
+#main table tbody td {
   border-top: 1px solid #CCCCCC;
   margin-bottom: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
 }
-body #container #main table tbody td:first-child {
+#main table tbody td:first-child {
   padding-left: 10px;
   padding-right: 30px;
   text-align: justify;
 }
-body #container #main table tbody td:last-child {
+#main table tbody td:last-child {
   padding-left: 10px;
 }
