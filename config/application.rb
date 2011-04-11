@@ -40,3 +40,5 @@ module Encen
     config.filter_parameters += [:password, :password_confirmation]
   end
 end
+
+require 'digest/sha1'
