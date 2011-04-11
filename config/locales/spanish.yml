@@ -65,7 +65,7 @@ es:
     share:
       title: Envíanos tu foto
       paragraph_html: "Si tienes fotos con tus Za-patitos y quieres compartirlas en nuestra web envíalas y las publicaremos."
-    
+
   static:
     index:
       title: "inicio"
@@ -97,20 +97,13 @@ es:
       line4_html: "Za-patitos es ya hoy un estilo propio y diferenciado."
       line5_html: "Nuestra marca se ha posicionado como uno de los referentes del calzado infantil y juvenil en España y es un claro distintivo de tendencia reconocida por nuestros clientes y por los profesionales especializados del sector, nos encontramos en plena expansión internacional con la distribución de nuestros productos y el próximo lanzamiento de Za-patitos on line, nuestra tienda virtual en Internet."
 
-    zapatitos:
+    collection-spring-summer:
       title: "Colección Za-patitos"
+      zapatitos: " Colección primavera-verano"
       paragraph1: "En breve colgaremos la campana verano 2011"
-      zapatitos: "Colección Za-patitos"
       catalog1: "Primavera Verano"
       catalog2: "Otoño Invierno"
       catalog3: Taygra
-      descripcion1: "Breve descripción de los zapatos,Breve descripción de los zapatos,Breve descripción de los zapatos"
-      descripcion2: "Breve descripción de los zapatos"
-      descripcion3: "Breve descripción de los zapatos"
-      descripcion4: "Breve descripción de los zapatos"
-      descripcion5: "Breve descripción de los zapatos"
-      descripcion6: "Breve descripción de los zapatos"
-      descripcion7: "Breve descripción de los zapatos"
 
     deportivas:
       title: "Las deportivas que triunfan"
@@ -215,7 +208,7 @@ es:
       sunday1: "Domingos: 10 a 13.30h."
       sunday2: "Lunes mañanas cerrado."
       sunday3: "No cierran al mediodia."
-      
+
     reseller:
       title: "Te interesa nuestras franquicias"
       reseller: "Únete a nuestro proyecto"

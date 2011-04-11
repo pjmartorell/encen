@@ -5,7 +5,7 @@ Encen::Application.routes.draw do
     devise_for :users, :controllers => {:sessions => 'user_sessions'}
 
     match 'aboutus', :to => "static#aboutus"
-    match 'zapatitos', :to => "static#zapatitos"
+    # match 'zapatitos', :to => "static#zapatitos"
     match 'deportivas', :to => "static#deportivas"
     match 'findus', :to => "static#findus"
     match 'reseller', :to => "static#reseller"
@@ -14,6 +14,9 @@ Encen::Application.routes.draw do
     match 'subscribe', :to => "static#subscribe"
     match 'news', :to => "static#news"
     match 'links', :to => "static#links"
+    match 'collection_spring_summer', :to => "static#collection-spring-summer"
+    match 'collection_fall_winter', :to => "static#collection-fall-winter"
+    match 'collection_taygra', :to => "static#collection-taygra"
 
     namespace :admin do
       resources :users, :except => :index
