@@ -505,10 +505,10 @@ body #container p {
 }
 #main #home #news_area a {
   text-decoration: none;
-  color: #444444;
+  color: white;
 }
 #main #home #news_area a:hover {
-  color: #5e73a3;
+  color: #F9E19A;
 }
 #main #aboutus {
   padding-top: 3em;
