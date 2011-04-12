@@ -1,7 +1,9 @@
 Encen::Application.routes.draw do
   post "toggle_edition_mode", :to => "application#toggle_edition_mode"
 
-  scope "(:locale)" do
+  root :to => redirect("/es")
+
+  scope "(:locale)", :constraints => {:locale => /(es|ca)/} do
     devise_for :users, :controllers => {:sessions => 'user_sessions'}
 
     match 'contacto' => 'static#contact', :as => :contact
@@ -26,4 +28,5 @@ Encen::Application.routes.draw do
 
     root :to => "static#index"
   end
+
 end
