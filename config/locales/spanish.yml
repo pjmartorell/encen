@@ -28,6 +28,11 @@ es:
     reseller: Franquicias y corners
     contact: Contacto
 
+  menu_collection:
+    catalog1: "Primavera Verano"
+    catalog2: "Otoño Invierno"
+    catalog3: Taygra
+
   side_bar:
     questionnaire:
       name: "* Nombre :"
@@ -102,9 +107,16 @@ es:
       title: "Colección Za-patitos"
       zapatitos: " Colección primavera-verano"
       paragraph1: "En breve colgaremos la campana verano 2011"
-      catalog1: "Primavera Verano"
-      catalog2: "Otoño Invierno"
-      catalog3: Taygra
+
+    collection-fall-winter:
+      title: "Colección Za-patitos"
+      zapatitos: " Colección primavera-verano"
+      paragraph1: "En breve colgaremos la campana verano 2011"
+
+    collection-taygra:
+      title: "Colección Za-patitos"
+      zapatitos: " Colección primavera-verano"
+      paragraph1: "En breve colgaremos la campana verano 2011"
 
     deportivas:
       title: "Las deportivas que triunfan"

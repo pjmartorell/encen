@@ -352,6 +352,10 @@ body .six_col {
 #zapatitos .btn:hover h2 {
   color: #62371c;
 }
+#zapatitos img {
+  width: 19em;
+  height: 13em;
+}
 
 /* ======================================================= */
 /*                     Deportivas                          */
@@ -1533,7 +1537,7 @@ input.span-24, textarea.span-24, select.span-24 {
 }
 
 .showgrid {
-  background: url('/images/grid.png?1301580623');
+  background: url('/images/grid.png?1302602538');
 }
 
 .error {
