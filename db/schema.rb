@@ -10,7 +10,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110412154312) do
+ActiveRecord::Schema.define(:version => 20110412172132) do
 
   create_table "assets", :force => true do |t|
     t.string   "type"
@@ -25,6 +25,20 @@ ActiveRecord::Schema.define(:version => 20110412154312) do
     t.string   "email"
     t.text     "body"
     t.integer  "post_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "page_contents", :force => true do |t|
+    t.string   "locale"
+    t.string   "url"
+    t.integer  "page_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "pages", :force => true do |t|
+    t.string   "key"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -47,6 +61,8 @@ ActiveRecord::Schema.define(:version => 20110412154312) do
     t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "company"
+    t.string   "charge"
   end
 
   create_table "translations", :force => true do |t|

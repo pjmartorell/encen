@@ -25,6 +25,7 @@ Encen::Application.routes.draw do
       root :to => "users#index"
     end
 
+    match "/:page", :to => "pages#show"
     root :to => "static#index"
   end
 end

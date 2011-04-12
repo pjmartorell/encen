@@ -8,4 +8,10 @@ puts "Resetting posts and comments..."
 Post.delete_all
 Comment.delete_all
 
+Page.delete_all
+PageContent.delete_all
+
+puts "Creating /cucota dynamic page"
+page = Page.create! :key => :cucota
+PageContent.create! :page => page, :locale => "es", :url => "cucota"
 puts "Done!"
