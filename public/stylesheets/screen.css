@@ -169,7 +169,6 @@ body li {
 body p {
   margin-bottom: .5em;
   line-height: 1.6em;
-  text-align: justify;
   letter-spacing: 0.02em;
 }
 body h1 {
@@ -267,7 +266,6 @@ body .six_col {
   color: #62371c;
   font-size: 1.3em;
   margin-bottom: 0;
-  text-align: left;
 }
 
 /* ======================================================= */
