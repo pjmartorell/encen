@@ -5,6 +5,7 @@ class CreateSubscriptors < ActiveRecord::Migration
       t.string :last_name
       t.string :token
       t.string :email
+      t.boolean :subscribed, :default => false
 
       t.timestamps
     end

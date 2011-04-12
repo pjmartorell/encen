@@ -1,5 +1,8 @@
 Encen::Application.routes.draw do
   post "toggle_edition_mode", :to => "application#toggle_edition_mode"
+  get "unsubscribe", :to => "mailchimp#unsubscribe"
+
+  resources :subscriptors, :only => :create
 
   scope "(:locale)" do
     devise_for :users, :controllers => {:sessions => 'user_sessions'}
@@ -20,6 +23,7 @@ Encen::Application.routes.draw do
 
     namespace :admin do
       resources :users, :except => :index
+      resources :subscriptors, :only => [:index, :destroy]
 
       resources :posts do
         resources :comments, :only => :create
