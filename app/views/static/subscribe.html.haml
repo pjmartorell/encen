@@ -6,45 +6,45 @@
 %p=t ".first_paragraph"
 
 #form
-  %form{"accept-charset" => "UTF-8", :action => "/new_question", "data-remote" => "true", :method => "post"}
+  = form_for Subscriptor.new do |f|
     %fieldset#basic_information
-      %input{:class=> "checkbox" , :name => "particular", :type => "radio", :value => "particular"}/
-      %label.checkbox=t ".particular_html"
+      = radio_button_tag "fiscal_type", "particular", true, :class => "checkbox"
+      %label.checkbox= t ".particular_html"
       %br/
 
-      %label{:for => :name}=t(:name, :scope => "side_bar.questionnaire")
-      %input{:id => "name", :required => "required", :type => "text", :value => ""}/
+      = f.label :name, t(:name, :scope => "side_bar.questionnaire")
+      = f.text_field :name
+      %br/
+      = f.label :last_name, t(:last_name, :scope => "side_bar.questionnaire")
+      = f.text_field :last_name
+      %br/
+      = f.label :email, t(:email, :scope => "side_bar.questionnaire")
+      = f.text_field :email
       %br/
 
-      %label{:for => :secondname}= t(:secondname, :scope => "side_bar.questionnaire")
-      %input{:id => "secondname", :required => "required", :type => "text", :value => ""}/
+      = radio_button_tag "fiscal_type", "business", false, :class => "checkbox"
+      %label.checkbox= t ".business_html"
       %br/
 
-      %label{:for => :mail}= t(:mail, :scope => "side_bar.questionnaire")
-      %input{:id => "mail", :required => "required", :type => "text", :value => ""}/
+      = f.label :company, t(:company, :scope => "side_bar.questionnaire")
+      = f.text_field :company
+      %br/
+      = f.label :name, t(:name, :scope => "side_bar.questionnaire")
+      = f.text_field :name
+      %br/
+      = f.label :charge, t(:charge, :scope => "side_bar.questionnaire")
+      = f.text_field :charge
+      %br/
+      = f.label :email, t(:email, :scope => "side_bar.questionnaire")
+      = f.text_field :email
       %br/
 
-      %input{:class=> "checkbox", :name => "business", :type => "radio", :value => "business"}/
-      %label.checkbox=t ".business_html"
-      %br/
+      %input#button{:name => "commit", :type => "submit", :value => t(:send, :scope => "side_bar.questionnaire")}/
 
-      %label{:for => :company}= t(:company, :scope => "side_bar.questionnaire")
-      %input{:id => "company", :required => "required", :type => "text", :value => ""}/
-      %br/
-
-      %label{:for => :name2}= t(:name, :scope => "side_bar.questionnaire")
-      %input{:id => "name2", :required => "required", :type => "text", :value => ""}/
-      %br/
-
-      %label{:for => :charge}= t(:title, :scope => "side_bar.questionnaire")
-      %input{:id => "charge", :required => "required", :type => "text", :value => ""}/
-      %br/
-
-      %label{:for => :mail2}= t(:mail, :scope => "side_bar.questionnaire")
-      %input{:id => "mail2", :required => "required", :type => "text", :value => ""}/
-      %br/
-
-      %input#button{:name => "commit", :type => "submit", :value => "Enviar"}/
 
 - content_for :info_box do
   = render 'shared/aboutus_side'
+
+- content_for :custom_js do
+  :javascript
+    // We need to deactivate and activate all the inputs belonging to each radio button to avoid sending all of them

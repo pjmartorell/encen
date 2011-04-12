@@ -36,13 +36,14 @@ es:
   side_bar:
     questionnaire:
       name: "* Nombre :"
-      secondname: "* Apellidos :"
+      last_name: "* Apellidos :"
       company: "* Compañia :"
-      title: "* Cargo :"
+      charge: "* Cargo :"
       state: "* Población :"
       city: "* Provincia :"
-      mail: "* Email :"
+      email: "* Email :"
       message: "Mensaje :"
+      send: "Enviar"
       phone: Teléfono
       code_security: "*Código seguridad inserta el código de la imagen siguiente (para evitar el Spam)"
       privacy_terms_title: "Política de privacidad"
