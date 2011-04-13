@@ -264,6 +264,12 @@
       text-align: center;
       margin-bottom: 0;
     }
+    a{
+      color: $strong-blue-color;
+      &:hover{
+        color: $blue-color;
+      }
+    }
   }
 }
 

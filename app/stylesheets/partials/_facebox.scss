@@ -9,7 +9,7 @@
 
 #facebox .popup{
   position:relative;
-  border:3px solid rgba(0,0,0,0);
+  border: 1em solid $blue-color;
   -webkit-border-radius:5px;
   -moz-border-radius:5px;
   border-radius:5px;
@@ -75,6 +75,6 @@
 }
 
 .facebox_overlayBG {
-  background-color: #000;
+  background-color: $light-brown-color;
   z-index: 99;
 }

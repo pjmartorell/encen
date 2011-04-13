@@ -421,6 +421,12 @@ body .six_col {
   text-align: center;
   margin-bottom: 0;
 }
+#press .wrap a {
+  color: #6b8eb9;
+}
+#press .wrap a:hover {
+  color: #8fc5eb;
+}
 
 /* ======================================================= */
 /*                         News                            */
@@ -564,7 +570,7 @@ body .six_col {
 
 #facebox .popup {
   position: relative;
-  border: 3px solid rgba(0, 0, 0, 0);
+  border: 1em solid #8fc5eb;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
@@ -633,7 +639,7 @@ body .six_col {
 }
 
 .facebox_overlayBG {
-  background-color: #000;
+  background-color: #c49d5b;
   z-index: 99;
 }
 
