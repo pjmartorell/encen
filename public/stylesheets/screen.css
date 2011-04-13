@@ -195,6 +195,16 @@ body .six_col {
   margin-top: 1em;
 }
 
+/* This is the logo link clickable area */
+#click_area {
+  background-color: transaparent;
+  height: 8em;
+  left: 48em;
+  position: absolute;
+  top: 7px;
+  width: 35em;
+}
+
 /* ======================================================= */
 /*                      Main container                     */
 /* ======================================================= */
@@ -342,6 +352,9 @@ body .six_col {
   text-align: center;
   line-height: 1em;
   letter-spacing: 0.01em;
+}
+#zapatitos .btn a {
+  padding: 4em 12em;
 }
 #zapatitos .btn:hover {
   background-color: #c49d5b;

@@ -25,6 +25,7 @@
       = render "shared/admin_preheader"
     #container
       #header= render 'shared/header'
+      = link_to "", root_path, :id => "click_area"
 
       #side_bar
         = render 'shared/menu'
@@ -33,7 +34,7 @@
 
       #main
         = yield
-      
+
       #footer
         = render 'shared/footer'
 

@@ -10,6 +10,17 @@
   margin-top: 1em;
 }
 
+/* This is the logo link clickable area */
+
+#click_area {
+	background-color: transaparent;
+  height: 8em;
+  left: 48em;
+  position: absolute;
+  top: 7px;
+  width: 35em;
+}
+
 /* ======================================================= */
 /*                      Main container                     */
 /* ======================================================= */
@@ -175,6 +186,9 @@
       line-height: 1em;
       letter-spacing: 0.01em;
     }
+    a{
+      padding: 4em 12em;
+    }
     &:hover{
       background-color: $light-brown-color;
       border: dashed 1px $dark-brown-color;
@@ -183,6 +197,7 @@
       }
     }
   }
+
   img{
     width: 19em;
     height: 13em;
