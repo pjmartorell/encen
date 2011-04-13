@@ -30,5 +30,11 @@ class Admin::PageContentsController < Admin::AdminController
       render :action => :new
     end
   end
+
+  def destroy
+    @page_content = PageContent.find params[:id]
+    @page_content.destroy
+    redirect_to admin_pages_url
+  end
 end
 
