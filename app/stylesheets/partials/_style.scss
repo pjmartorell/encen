@@ -240,11 +240,16 @@
     text-align: left;
   }
   ul{
-    color: $dark-brown-color;
     padding-left: 2em;
     li{
       line-height: 2em;
       list-style: disc outside none;
+    }
+    a{
+      color: $dark-brown-color;
+      &:hover{
+        color: $light-brown-color;
+      }
     }
   }
   h2{

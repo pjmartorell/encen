@@ -41,7 +41,7 @@ es:
       charge: "* Cargo :"
       state: "* Población :"
       city: "* Provincia :"
-      email: "* Email :"
+      mail: "* Email :"
       message: "Mensaje :"
       send: "Enviar"
       phone: Teléfono
@@ -276,6 +276,7 @@ es:
       name_magazine7: "VOGUE"
       name_magazine8: "VOGUE"
       name_magazine9: "VOGUE"
+      more: "más"
 
     links:
       title: Links

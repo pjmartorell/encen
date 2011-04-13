@@ -7,22 +7,37 @@
   %h2=t ".subtitle1"
   %ul
     %li
-    %a{:href => "#dulce", :rel => "facebox"}=t ".link1"
-    %li=t ".link2"
-    %li=t ".link3"
-    %li=t ".link4"
-    %li=t ".link5"
-    %li=t ".link6"
-    %li=t ".link7"
-    %li=t ".link8"
-    %li=t ".link9"
-    %li=t ".link10"
-    %li=t ".link11"
-    %li=t ".link12"
-    %li=t ".link13"
-    %li=t ".link14"
-    %li=t ".link15"
-    %li=t ".link16"
+      %a{:href => "#news1", :rel => "facebox"}=t ".link1"
+    %li
+      %a{:href => "#news2", :rel => "facebox"}=t ".link2"
+    %li
+      %a{:href => "#news3", :rel => "facebox"}=t ".link3"
+    %li
+      %a{:href => "#news4", :rel => "facebox"}=t ".link4"
+    %li
+      %a{:href => "#news5", :rel => "facebox"}=t ".link5"
+    %li
+      %a{:href => "#news6", :rel => "facebox"}=t ".link6"
+    %li
+      %a{:href => "#news7", :rel => "facebox"}=t ".link7"
+    %li
+      %a{:href => "#news8", :rel => "facebox"}=t ".link8"
+    %li
+      %a{:href => "#news9", :rel => "facebox"}=t ".link9"
+    %li
+      %a{:href => "#news10", :rel => "facebox"}=t ".link10"
+    %li
+      %a{:href => "#news11", :rel => "facebox"}=t ".link11"
+    %li
+      %a{:href => "#news12", :rel => "facebox"}=t ".link12"
+    %li
+      %a{:href => "#news13", :rel => "facebox"}=t ".link13"
+    %li
+      %a{:href => "#news14", :rel => "facebox"}=t ".link14"
+    %li
+      %a{:href => "#news15", :rel => "facebox"}=t ".link15"
+    %li
+      %a{:href => "#news16", :rel => "facebox"}=t ".link16"
 
   .separation_line
 
@@ -34,21 +49,21 @@
     %p=t ".magazine_caption_html1"
     .image
       %img{:alt => "taygra deportivas", :src => "/images/vogue1.png"}/
-      <a href="<%= # %>">más</a>
+      %a{:href => "#press1", :rel => "facebox"}=t ".more"
   .wrap.four_col
     %h2=t ".name_magazine2"
     %p=t ".date_html2"
     %p=t ".magazine_caption_html2"
     .image
       %img{:alt => "taygra deportivas", :src => "/images/hola1.png"}/
-      <a href="<%= # %>">más</a>
+      %a{:href => "#press2", :rel => "facebox"}=t ".more"
   .wrap.four_col
     %h2=t ".name_magazine3"
     %p=t ".date_html3"
     %p=t ".magazine_caption_html3"
     .image
       %img{:alt => "taygra deportivas", :src => "/images/telva1.png"}/
-      <a href="<%= # %>">más</a>
+      %a{:href => "#press3", :rel => "facebox"}=t ".more"
   .clear
 
   .wrap.four_col
@@ -57,21 +72,21 @@
     %p=t ".magazine_caption_html1"
     .image
       %img{:alt => "taygra deportivas", :src => "/images/magazine1.png"}/
-      <a href="<%= # %>">más</a>
+      %a{:href => "#press4", :rel => "facebox"}=t ".more"
   .wrap.four_col
     %h2=t ".name_magazine5"
     %p=t ".date_html2"
     %p=t ".magazine_caption_html2"
     .image
       %img{:alt => "taygra deportivas", :src => "/images/vogue2.png"}/
-      <a href="<%= # %>">más</a>
+      %a{:href => "#press5", :rel => "facebox"}=t ".more"
   .wrap.four_col
     %h2=t ".name_magazine6"
     %p=t ".date_html3"
     %p=t ".magazine_caption_html3"
     .image
       %img{:alt => "taygra deportivas", :src => "/images/hola2.png"}/
-      <a href="<%= # %>">más</a>
+      %a{:href => "#press6", :rel => "facebox"}=t ".more"
   .clear
 
   .wrap.four_col
@@ -80,25 +95,96 @@
     %p=t ".magazine_caption_html1"
     .image
       %img{:alt => "taygra deportivas", :src => "/images/vogue3.png"}/
-      <a href="<%= # %>">más</a>
+      %a{:href => "#press7", :rel => "facebox"}=t ".more"
   .wrap.four_col
     %h2=t ".name_magazine8"
     %p=t ".date_html2"
     %p=t ".magazine_caption_html2"
     .image
       %img{:alt => "taygra deportivas", :src => "/images/vogue4.png"}/
-      <a href="<%= # %>">más</a>
+      %a{:href => "#press8", :rel => "facebox"}=t ".more"
   .wrap.four_col
     %h2=t ".name_magazine9"
     %p=t ".date_html3"
     %p=t ".magazine_caption_html3"
     .image
       %img{:alt => "taygra deportivas", :src => "/images/vogue5.png"}/
-      <a href="<%= # %>">más</a>
+      %a{:href => "#press9", :rel => "facebox"}=t ".more"
   .clear
 
-#dulce{:style => "display:none"}
-  hola esto es un conteido
+/* . . . . . . . . . . . . . . . . . . . . . .  . Lightbox primera lista
+#news1{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/elcorreo.png"}/
+
+#news2{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/pais.jpg"}/
+
+#news3{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/diario.jpg"}/
+
+#news4{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/franquicia.jpg"}/
+
+#news6{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/negocios.jpg"}/
+
+#news7{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/expansion.jpg"}/
+
+#news8{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/dolcecity.jpg"}/
+  
+#news9{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/franchising.jpg"}/  
+
+#news10{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/topfranquicias.jpg"}/  
+
+#news12{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/franquiciashoy.jpg"}/
+
+#news13{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/bestzapatosbolsos.jpg"}/
+
+#news14{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/tormo.jpeg"}/
+
+#news15{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/franquiciasynegocios200.jpg"}/
+
+#news16{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/franquiciasynegocios.jpg"}/
+
+
+/* . . . . . . . . . . . . . . . . . . . . . .  . Lightbox segunda lista
+
+#press1{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/vogueprimavera.jpg"}/
+
+#press2{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/hola.jpg"}/
+  
+#press3{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/telva.jpg"}/
+
+#press4{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/hola2.jpg"}/
+
+#press5{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/vogueotono.jpg"}/
+
+#press6{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/holanovias.jpg"}/
+
+#press7{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/vogueinvierno.jpg"}/
+
+#press8{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/vogueninos.jpg"}/
+
+#press9{:style => "display:none"}
+  %img{:alt => "taygra deportivas", :src => "/images/2vogueninos.jpg"}/
+
 
 - content_for :info_box do
   = render 'shared/questionaire_press'

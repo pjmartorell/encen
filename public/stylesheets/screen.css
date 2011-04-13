@@ -396,12 +396,17 @@ body .six_col {
   text-align: left;
 }
 #press ul {
-  color: #62371c;
   padding-left: 2em;
 }
 #press ul li {
   line-height: 2em;
   list-style: disc outside none;
+}
+#press ul a {
+  color: #62371c;
+}
+#press ul a:hover {
+  color: #c49d5b;
 }
 #press h2 {
   color: #6b8eb9;
@@ -1634,7 +1639,7 @@ input.span-24, textarea.span-24, select.span-24 {
 }
 
 .showgrid {
-  background: url('/images/grid.png?1302623929');
+  background: url('/images/grid.png?1302602538');
 }
 
 .error {
