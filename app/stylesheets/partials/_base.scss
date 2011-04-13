@@ -67,6 +67,23 @@ $green-font-color: #618C15;
   }
 }
 
+@mixin forward_button {
+  margin-top: 3em;
+  a{
+    background-image: url("/images/forward_button.png");
+    background-position: 2px -33px;
+    background-repeat: no-repeat;
+    padding: 10px 0 6px 43px;
+    &:hover {
+      background-image: url("/images/forward_button.png");
+      background-position: 2px 1px;
+      color: #618C15;
+      padding-top: 9px;
+      text-decoration: none;
+    }
+  }
+}
+
 @mixin listado_con_estilo{
   ul{
     margin-left: 20px;

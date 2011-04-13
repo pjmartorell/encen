@@ -83,7 +83,7 @@
   }
 
   #request{
-    a{color: $green-font-color;}
+    text-align: center;
   }
 
 //....................................Home
@@ -312,6 +312,16 @@
       }
     }
 
+    .forward_button {
+      @include forward_button;
+      a{
+        background-image: url("/images/forward_button.png");
+        &:hover {
+          background-image: url("/images/forward_button.png");
+          color: #618C15;
+        }
+      }
+    }
   }
 
 //.....................................Manager section
@@ -374,6 +384,16 @@
       }
     }
 
+    .forward_button {
+      @include forward_button;
+      a{
+        background-image: url("/images/forward_button_conserjeria.png");
+        &:hover {
+          background-image: url("/images/forward_button_conserjeria.png");
+          color: #333;
+        }
+      }
+    }
   }
 
 //......................................Garden section
@@ -407,14 +427,24 @@
     .back_button {
       @include back_button;
       a{
-        background-image: url("/images/back_button_conserjeria.png");
+        background-image: url("/images/back_button_jardineria.png");
         &:hover {
-          background-image: url("/images/back_button_conserjeria.png");
+          background-image: url("/images/back_button_jardineria.png");
           color: #333;
         }
       }
     }
 
+    .forward_button {
+      @include forward_button;
+      a{
+        background-image: url("/images/forward_button_jardineria.png");
+        &:hover {
+          background-image: url("/images/forward_button_jardineria.png");
+          color: #333;
+        }
+      }
+    }
   }
 
 //...................................Pool section
@@ -456,6 +486,17 @@
         background-image: url("/images/back_button_piscina.png");
         &:hover {
           background-image: url("/images/back_button_piscina.png");
+          color: #333;
+        }
+      }
+    }
+
+    .forward_button {
+      @include forward_button;
+      a{
+        background-image: url("/images/forward_button_piscina.png");
+        &:hover {
+          background-image: url("/images/forward_button_piscina.png");
           color: #333;
         }
       }

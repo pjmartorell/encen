@@ -324,8 +324,8 @@ body #container {
   font-size: 1.7em;
   margin-bottom: 1em;
 }
-#info_box #request a {
-  color: #618c15;
+#info_box #request {
+  text-align: center;
 }
 #info_box #index {
   padding-top: 2em;
@@ -548,6 +548,29 @@ body #container {
   background-image: url("/images/back_button.png");
   color: #618C15;
 }
+#info_box #clean_section .forward_button {
+  margin-top: 3em;
+}
+#info_box #clean_section .forward_button a {
+  background-image: url("/images/forward_button.png");
+  background-position: 2px -33px;
+  background-repeat: no-repeat;
+  padding: 10px 0 6px 43px;
+}
+#info_box #clean_section .forward_button a:hover {
+  background-image: url("/images/forward_button.png");
+  background-position: 2px 1px;
+  color: #618C15;
+  padding-top: 9px;
+  text-decoration: none;
+}
+#info_box #clean_section .forward_button a {
+  background-image: url("/images/forward_button.png");
+}
+#info_box #clean_section .forward_button a:hover {
+  background-image: url("/images/forward_button.png");
+  color: #618C15;
+}
 #info_box #manager_section {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -622,6 +645,29 @@ body #container {
   background-image: url("/images/back_button_conserjeria.png");
   color: #333;
 }
+#info_box #manager_section .forward_button {
+  margin-top: 3em;
+}
+#info_box #manager_section .forward_button a {
+  background-image: url("/images/forward_button.png");
+  background-position: 2px -33px;
+  background-repeat: no-repeat;
+  padding: 10px 0 6px 43px;
+}
+#info_box #manager_section .forward_button a:hover {
+  background-image: url("/images/forward_button.png");
+  background-position: 2px 1px;
+  color: #618C15;
+  padding-top: 9px;
+  text-decoration: none;
+}
+#info_box #manager_section .forward_button a {
+  background-image: url("/images/forward_button_conserjeria.png");
+}
+#info_box #manager_section .forward_button a:hover {
+  background-image: url("/images/forward_button_conserjeria.png");
+  color: #333;
+}
 #info_box #garden_section {
   padding-top: 2em;
   padding-bottom: 2em;
@@ -671,10 +717,33 @@ body #container {
   text-decoration: none;
 }
 #info_box #garden_section .back_button a {
-  background-image: url("/images/back_button_conserjeria.png");
+  background-image: url("/images/back_button_jardineria.png");
 }
 #info_box #garden_section .back_button a:hover {
-  background-image: url("/images/back_button_conserjeria.png");
+  background-image: url("/images/back_button_jardineria.png");
+  color: #333;
+}
+#info_box #garden_section .forward_button {
+  margin-top: 3em;
+}
+#info_box #garden_section .forward_button a {
+  background-image: url("/images/forward_button.png");
+  background-position: 2px -33px;
+  background-repeat: no-repeat;
+  padding: 10px 0 6px 43px;
+}
+#info_box #garden_section .forward_button a:hover {
+  background-image: url("/images/forward_button.png");
+  background-position: 2px 1px;
+  color: #618C15;
+  padding-top: 9px;
+  text-decoration: none;
+}
+#info_box #garden_section .forward_button a {
+  background-image: url("/images/forward_button_jardineria.png");
+}
+#info_box #garden_section .forward_button a:hover {
+  background-image: url("/images/forward_button_jardineria.png");
   color: #333;
 }
 #info_box #pool_section {
@@ -734,6 +803,29 @@ body #container {
 }
 #info_box #pool_section .back_button a:hover {
   background-image: url("/images/back_button_piscina.png");
+  color: #333;
+}
+#info_box #pool_section .forward_button {
+  margin-top: 3em;
+}
+#info_box #pool_section .forward_button a {
+  background-image: url("/images/forward_button.png");
+  background-position: 2px -33px;
+  background-repeat: no-repeat;
+  padding: 10px 0 6px 43px;
+}
+#info_box #pool_section .forward_button a:hover {
+  background-image: url("/images/forward_button.png");
+  background-position: 2px 1px;
+  color: #618C15;
+  padding-top: 9px;
+  text-decoration: none;
+}
+#info_box #pool_section .forward_button a {
+  background-image: url("/images/forward_button_piscina.png");
+}
+#info_box #pool_section .forward_button a:hover {
+  background-image: url("/images/forward_button_piscina.png");
   color: #333;
 }
 #info_box #contact {
