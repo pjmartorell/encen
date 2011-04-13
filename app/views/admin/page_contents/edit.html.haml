@@ -4,7 +4,7 @@
 %h1 Editar página '#{@page}' en el idioma #{@page_content.locale}
 
 = simple_form_for [:admin, @page_content ] do |f|
-  = f.input :url
+  = f.input :url, :required => false, :input_html => {:type => :text}
   - unless @page_content.new_record?
     =f.input :body, :label => "Body", :input_html => { :class => "editor" }
     #pseudodroppable <!-- Needed for image drag and drop -->
