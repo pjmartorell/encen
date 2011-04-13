@@ -22,6 +22,11 @@ Encen::Application.routes.draw do
       resources :comments, :only => :destroy
       resources :images, :only => :destroy
 
+      resources :page_contents, :except => [:index, :show]
+      resources :pages, :only => [:index] do
+        resources :images, :only => :create
+      end
+
       root :to => "users#index"
     end
 

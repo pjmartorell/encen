@@ -10,14 +10,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110412172132) do
+ActiveRecord::Schema.define(:version => 20110413164335) do
 
   create_table "assets", :force => true do |t|
     t.string   "type"
-    t.integer  "post_id"
+    t.integer  "owner_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "file"
+    t.string   "owner_type"
   end
 
   create_table "comments", :force => true do |t|
@@ -35,6 +36,7 @@ ActiveRecord::Schema.define(:version => 20110412172132) do
     t.integer  "page_id"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.text     "body"
   end
 
   create_table "pages", :force => true do |t|

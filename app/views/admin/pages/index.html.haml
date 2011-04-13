@@ -1,0 +1,25 @@
+%h1 Listing dynamic pages
+
+%table
+  %tr
+    %th Clave única
+    %th Contenidos por idiomas
+
+  - @pages.each do |page|
+    %tr
+      %td= page.key
+      %td
+        - page.page_contents.each do |content|
+          %ul
+            %li
+              Idioma: #{ content.locale }
+            %li
+              Url: #{content.url}
+            %li
+              = link_to "Editar", edit_admin_page_content_path(content)
+
+      %td
+        %p
+          - unless page.has_all_locales?
+            = link_to "Crear", new_admin_page_content_path(page)
+            nuevo idioma para esta página.
