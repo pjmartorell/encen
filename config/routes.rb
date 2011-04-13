@@ -22,7 +22,7 @@ Encen::Application.routes.draw do
       resources :comments, :only => :destroy
       resources :images, :only => :destroy
 
-      resources :pages, :only => [:index, :destroy] do
+      resources :pages, :only => [:new, :create, :index, :destroy] do
         resources :images, :only => :create
         resources :page_contents, :only => [:edit, :update, :destroy, :new, :create]
       end

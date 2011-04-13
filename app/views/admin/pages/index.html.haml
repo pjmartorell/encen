@@ -1,13 +1,21 @@
 %h1 Listing dynamic pages
 
+
+%p
+  = link_to "Crear", new_admin_page_path
+  una nueva página
+
 %table
   %tr
-    %th Clave única
+    %th Identificador
     %th Contenidos por idiomas
 
   - @pages.each do |page|
     %tr
-      %td= page.key
+      %td
+        = page.key
+        |
+        = link_to "Destroy", [:admin, page], :method => :delete, :confirm => "Seguro que quieres borrar esta pagina y todos sus contenidos?"
       %td
         - page.page_contents.each do |content|
           %ul
