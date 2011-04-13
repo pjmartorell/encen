@@ -16,10 +16,10 @@
             %li
               Url: #{content.url}
             %li
-              = link_to "Editar", edit_admin_page_content_path(content)
+              = link_to "Editar", edit_admin_page_page_content_path(page, content)
 
       %td
         %p
           - unless page.has_all_locales?
-            = link_to "Crear", new_admin_page_content_path(page)
+            = link_to "Crear", new_admin_page_page_content_path(page)
             nuevo idioma para esta página.

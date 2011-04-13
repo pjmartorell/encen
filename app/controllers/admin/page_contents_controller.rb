@@ -14,5 +14,21 @@ class Admin::PageContentsController < Admin::AdminController
       render :action => :edit
     end
   end
+
+  def new
+    @page = Page.find params[:page_id]
+    @page_content = @page.page_contents.new
+  end
+
+  def create
+    @page = Page.find params[:page_id]
+    @page_content = @page.page_contents.build params[:page_content]
+
+    if @page_content.save
+      redirect_to admin_pages_url
+    else
+      render :action => :new
+    end
+  end
 end
 

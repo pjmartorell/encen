@@ -5,6 +5,6 @@ class PagesController < ApplicationController
       raise ActionController::RoutingError, "invalid route"
       return
     end
-    @key = @page_content.key
+    @page = @page_content.page
   end
 end
