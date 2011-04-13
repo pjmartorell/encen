@@ -6,7 +6,8 @@
 #press
   %h2=t ".subtitle1"
   %ul
-    %li=t ".link1"
+    %li
+    %a{:href => "#dulce", :rel => "facebox"}=t ".link1"
     %li=t ".link2"
     %li=t ".link3"
     %li=t ".link4"
@@ -96,6 +97,8 @@
       <a href="<%= # %>">más</a>
   .clear
 
+#dulce{:style => "display:none"}
+  hola esto es un conteido
 
 - content_for :info_box do
   = render 'shared/questionaire_press'
