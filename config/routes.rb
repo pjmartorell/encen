@@ -4,7 +4,7 @@ Encen::Application.routes.draw do
 
   resources :subscriptors, :only => :create
 
-  scope "(:locale)" do
+  scope "(:locale)", :constraints => {:locale => /ca/} do
     devise_for :users, :controllers => {:sessions => 'user_sessions'}
 
     match 'aboutus', :to => "static#aboutus"

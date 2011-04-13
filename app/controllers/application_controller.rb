@@ -7,7 +7,11 @@ class ApplicationController < ActionController::Base
   end
 
   def default_url_options(options = {})
-    options.merge({:locale => I18n.locale})
+    unless I18n.locale == I18n.default_locale
+      options.merge({:locale => I18n.locale})
+    else
+      {}
+    end
   end
 
   def toggle_edition_mode
