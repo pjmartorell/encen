@@ -189,6 +189,7 @@ body .six_col {
 /* ======================================================= */
 #header {
   background-image: url("/images/header2.png");
+  background-color: transparent;
   background-repeat: no-repeat;
   background-position: right center;
   height: 10em;
@@ -231,9 +232,11 @@ body .six_col {
 #main #up_button a {
   color: #C49D5B;
   text-decoration: none;
+  margin-left: -4em;
+  padding: 0.3em 4.3em;
 }
-#main #up_button a:hover {
-  color: #62371c;
+#main #up_button:hover {
+  background-color: #62371c;
 }
 
 /* ======================================================= */
