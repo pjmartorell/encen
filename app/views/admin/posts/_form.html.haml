@@ -1,5 +1,5 @@
 - unless @post.new_record?
-  =render "asset-picker"
+  =render "admin/shared/asset-picker", :owner => @post
 = simple_form_for [:admin, @post] do |f|
   -if @post.errors.any?
     #error_explanation

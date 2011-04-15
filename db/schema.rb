@@ -10,14 +10,15 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20110324154535) do
+ActiveRecord::Schema.define(:version => 20110413164335) do
 
   create_table "assets", :force => true do |t|
     t.string   "type"
-    t.integer  "post_id"
+    t.integer  "owner_id"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "file"
+    t.string   "owner_type"
   end
 
   create_table "comments", :force => true do |t|
@@ -25,6 +26,21 @@ ActiveRecord::Schema.define(:version => 20110324154535) do
     t.string   "email"
     t.text     "body"
     t.integer  "post_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "page_contents", :force => true do |t|
+    t.string   "locale"
+    t.string   "url"
+    t.integer  "page_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.text     "body"
+  end
+
+  create_table "pages", :force => true do |t|
+    t.string   "key"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -38,6 +54,17 @@ ActiveRecord::Schema.define(:version => 20110324154535) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.datetime "published_at"
+  end
+
+  create_table "subscriptors", :force => true do |t|
+    t.string   "name"
+    t.string   "last_name"
+    t.string   "token"
+    t.string   "email"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "company"
+    t.string   "charge"
   end
 
   create_table "translations", :force => true do |t|

@@ -1,9 +1,7 @@
 class Admin::ImagesController < ApplicationController
-
   def create
-    @image = Image.new(params[:image])
-    @post = Post.find(params[:post_id])
-    @image.post = @post
+    @owner = get_owner
+    @image = @owner.images.build(params[:image])
     @image.save
 
     respond_to do |format|
@@ -18,5 +16,15 @@ class Admin::ImagesController < ApplicationController
     respond_to do |format|
       format.js
     end
+  end
+
+private
+  def get_owner
+    params.each do |name, value|
+      if name =~ /(.+)_id$/
+        return $1.classify.constantize.find(value)
+      end
+    end
+    nil
   end
 end

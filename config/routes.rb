@@ -1,4 +1,8 @@
 Encen::Application.routes.draw do
+  post "toggle_edition_mode", :to => "application#toggle_edition_mode"
+  get "unsubscribe", :to => "mailchimp#unsubscribe"
+
+  resources :subscriptors, :only => :create
 
   match 'contacto', :to => "static#contact"
   match 'servicios', :to => "static#services"
@@ -21,6 +25,7 @@ Encen::Application.routes.draw do
 
   namespace :admin do
     resources :users, :except => :index
+    resources :subscriptors, :only => [:index, :destroy]
 
     resources :posts do
       resources :comments, :only => :create
@@ -30,8 +35,14 @@ Encen::Application.routes.draw do
     resources :comments, :only => :destroy
     resources :images, :only => :destroy
 
+    resources :pages, :only => [:new, :create, :index, :destroy] do
+      resources :images, :only => :create
+      resources :page_contents, :only => [:edit, :update, :destroy, :new, :create]
+    end
+
     root :to => "users#index"
   end
 
+  match "/:page", :to => "pages#show"
   root :to => "static#index"
 end

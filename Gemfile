@@ -14,6 +14,8 @@ gem 'heroku'
 gem 'carrierwave'
 gem 'mini_magick'
 
+gem 'hominid'
+
 group :development, :test do
   gem 'sqlite3-ruby', :require => 'sqlite3'
   gem 'rspec-rails'

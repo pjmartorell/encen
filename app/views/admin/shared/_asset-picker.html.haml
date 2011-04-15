@@ -1,8 +1,8 @@
 .asset_picker
   %b Upload image:
-  = render "admin/images/form", :post => @post
+  = render "admin/images/form", :owner => owner
   #images
-    - @post.images.each do |image|
+    - owner.images.each do |image|
       = render "admin/images/image", :image => image
 
 - content_for :custom_js do
