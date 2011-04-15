@@ -157,10 +157,9 @@ body.one_col #container #footer {
 
 body {
   background-image: url("/images/bg.png");
-  margin: 0 auto;
   font-family: "champagne";
-  font-size: 1.3em;
-  color: #d9cdc2;
+  font-size: 1.5em;
+  color: #462b1d;
   text-align: justify;
 }
 body h1 {
@@ -179,9 +178,9 @@ body h1, body h2 {
   letter-spacing: 0.1em;
 }
 body h3, body h4 {
-  font-family: "walkway_oblique";
+  font-family: "walkway_bold";
   letter-spacing: 0.06em;
-  color: white;
+  color: #897d0b;
 }
 body h5 {
   font-family: "walkway_oblique";
@@ -191,7 +190,7 @@ body h5 {
 }
 body p {
   font-family: "champagne";
-  color: #d9cdc2;
+  color: #462b1d;
   letter-spacing: 0.08em;
   line-height: 1.8em;
   text-indent: 2em;
@@ -199,19 +198,19 @@ body p {
 body li {
   list-style: none;
   font-family: "champagne";
-  color: #d9cdc2;
+  color: #462b1d;
 }
 body a {
   text-decoration: none;
   letter-spacing: 0.1em;
-  color: #d9cdc2;
+  color: #462b1d;
   font-family: "champagne";
 }
-body #container {
-  -moz-box-shadow: #847e66 0 0 29px -5px;
-  -webkit-box-shadow: #847e66 0 0 29px -5px;
-  -o-box-shadow: #847e66 0 0 29px -5px;
-  box-shadow: #847e66 0 0 29px -5px;
+
+#container {
+  border-left: 1em solid #dcdbd7;
+  border-right: 1em solid #dcdbd7;
+  border-bottom: 1em solid #dcdbd7;
 }
 
 #header {
@@ -253,38 +252,37 @@ body #container {
 }
 
 #main {
-  background-color: #27211c;
-  font-size: 1.3em;
+  background-color: white;
+  font-size: 1.5em;
   padding-top: 5em;
   padding-bottom: 3em;
 }
 #main a {
-  color: #d9cdc2;
+  color: white;
 }
 #main .intro {
-  color: #e3b778;
   font-size: 1.4em;
   line-height: 1.6em;
 }
 #main .read_more a {
-  color: #e3b778;
+  color: #897D0B;
   text-decoration: underline;
 }
 #main .up_button {
   background-image: url("/images/back_up_button.png");
   background-repeat: no-repeat;
-  text-align: center;
+  padding-left: 1.5em;
   height: 2.5em;
   margin-top: 1em;
-  margin-left: 45em;
-  padding-top: 0.5em;
+  margin-left: 39em;
+  padding-top: 0;
   width: 6em;
 }
 #main #services .subservices_list {
   background-image: url("/images/sub_services_list.png");
   background-repeat: no-repeat;
   background-position: center;
-  height: 15em;
+  height: 16em;
   padding-left: 3em;
   padding-right: 2em;
   padding-top: 1em;
@@ -292,43 +290,42 @@ body #container {
 #main #services h5 {
   color: white;
   font-size: 1.05em;
-  padding-left: 4.7em;
-  padding-top: 0.5em;
+  padding-left: 3em;
+  padding-top: 0.8em;
 }
 #main #services ul {
   text-align: center;
   padding-left: 1.5em;
   padding-right: 1em;
-  margin-top: 3.5em;
+  margin-top: 4em;
 }
 #main #services ul.big_list {
-  margin-top: 1em;
-  padding-left: 1.5em;
+  margin-top: 1.5em;
+  padding-left: .8em;
   padding-right: 0.1em;
 }
 #main #services li {
-  background-color: #d3cbc0;
+  background-color: #f8efe5;
   margin-bottom: 1em;
 }
 #main #services a {
-  text-shadow: white 1px 0 0;
-  color: #27211c;
+  color: #897D0B;
   padding-bottom: 0.2em;
   padding-top: 0.2em;
 }
 #main #services li:hover {
-  background-color: #d7c9b5;
+  background-color: white;
 }
 #main #contact_info p {
-  text-indent: 1em;
+  text-indent: 0;
   line-height: 1em;
-  color: #e3b778;
+  color: #402c11;
 }
 #main #contact_info a {
-  color: #e3b778;
+  color: #402c11;
 }
 #main #contact_info a:hover {
-  color: white;
+  text-decoration: underline;
 }
 #main #map_canvas {
   border: solid 1px white;
@@ -346,12 +343,13 @@ body #container {
 }
 
 #footer {
-  background-image: url("/images/back_footer.jpg");
-  border-top: 3px solid #2F2721;
+  background-color: #402c11;
+  border-top: 1em solid #dcdbd7;
   font-family: "walkway_oblique";
   text-align: center;
   height: 20em;
   padding-bottom: 3em;
+  margin-top: 7em;
 }
 #footer li {
   border-right: 1px solid;
@@ -366,12 +364,13 @@ body #container {
   border-right: none;
 }
 #footer a {
-  color: #e3b778;
+  color: white;
   text-decoration: none;
   font-size: 1.5em;
 }
 #footer a:hover {
   color: white;
+  text-decoration: underline;
 }
 #footer #footer_title {
   background-image: url("/images/back_title_footer.png");
@@ -379,10 +378,11 @@ body #container {
   text-align: left;
   height: 6em;
   margin-bottom: 2em;
-  padding-left: 1.5em;
+  margin-left: 14em;
+  padding-left: 1.1em;
   padding-top: 1.5em;
 }
-#footer #footer_title h2 {
+#footer #footer_title h4 {
   color: white;
   font-size: 1.7em;
 }
@@ -1212,7 +1212,7 @@ input.span-24, textarea.span-24, select.span-24 {
 }
 
 .showgrid {
-  background: url('/images/grid.png?1301312751');
+  background: url('/images/grid.png?1302602538');
 }
 
 .error {

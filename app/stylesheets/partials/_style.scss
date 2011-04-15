@@ -40,34 +40,33 @@
 // ........................... MAIN
 
 #main{
-	background-color: $back-brown-color;
+	background-color: white;
 	font-size: $main-font-size;
 	padding-top: 5em;
 	padding-bottom: 3em;
 	a{
-	  color: $main-font-color;
+	  color: white;
   }
 
   .intro{
-     color: $wheat-font-color;
-     font-size: 1.4em;
-     line-height: 1.6em;
+    font-size: 1.4em;
+    line-height: 1.6em;
   }
 
   .read_more{
     a{
-      color: $wheat-font-color;
+      color: #897D0B;
       text-decoration: underline;
     }
   }
 	.up_button{
 	  background-image: url("/images/back_up_button.png");
 	  background-repeat: no-repeat;
-	  text-align:center;
+    padding-left: 1.5em;
     height: 2.5em;
     margin-top: 1em;
-    margin-left: 45em;
-    padding-top: 0.5em;
+    margin-left: 39em;
+    padding-top: 0;
     width: 6em;
 	}
 
@@ -78,7 +77,7 @@
       background-image: url("/images/sub_services_list.png");
       background-repeat: no-repeat;
       background-position: center;
-      height: 15em;
+      height: 16em;
       padding-left: 3em;
       padding-right: 2em;
       padding-top: 1em;
@@ -86,32 +85,31 @@
     h5{
       color: white;
       font-size: 1.05em;
-      padding-left: 4.7em;
-      padding-top: 0.5em;
+      padding-left: 3em;
+      padding-top: 0.8em;
     }
     ul{
       text-align: center;
       padding-left: 1.5em;
       padding-right: 1em;
-      margin-top: 3.5em;
+      margin-top: 4em;
     }
     ul.big_list{
-      margin-top: 1em;
-      padding-left: 1.5em;
+      margin-top: 1.5em;
+      padding-left: .8em;
       padding-right: 0.1em;
     }
     li{
-      background-color: #d3cbc0;
+      background-color: #f8efe5;
       margin-bottom: 1em;
     }
     a{
-      @include text-shadow(white, 1px, 0, 0);
-      color: $brown-font-color;
+      color: #897D0B;
       padding-bottom: 0.2em;
       padding-top: 0.2em;
     }
     li:hover{
-      background-color: #d7c9b5;
+      background-color: white;
     }
   }
 
@@ -120,13 +118,13 @@
 // ........................... Contact
   #contact_info{
     p{
-      text-indent: 1em;
+      text-indent: 0;
       line-height: 1em;
-      color: $wheat-font-color;
+      color: #402c11;
     }
     a{
-      color: $wheat-font-color;
-      &:hover{color: white;}
+      color: #402c11;
+      &:hover{ text-decoration: underline;}
     }
   }
 
@@ -149,12 +147,13 @@
 // ........................... FOOTER
 
 #footer{
-  background-image: url("/images/back_footer.jpg");
-  border-top: 3px solid #2F2721;
+  background-color: #402c11;
+  border-top: 1em solid #dcdbd7;
   font-family: $title-font-family;
   text-align: center;
   height: 20em;
   padding-bottom: 3em;
+  margin-top: 7em;
   li{
 		border-right: 1px solid;
 		font-size: 1.4em;
@@ -168,10 +167,13 @@
 	  border-right: none;
 	}
 	a{
-	  color: $wheat-font-color;
+	  color: white;
 	  text-decoration: none;
 	  font-size: $title-font-size;
-	  &:hover{color: white;}
+	  &:hover{
+	    color: white;
+	    text-decoration: underline;
+	  }
 	}
 
 	#footer_title{
@@ -180,9 +182,10 @@
 	  text-align: left;
     height: 6em;
     margin-bottom: 2em;
-    padding-left: 1.5em;
+    margin-left: 14em;
+    padding-left: 1.1em;
     padding-top: 1.5em;
-    h2{
+    h4{
       color: white;
       font-size: 1.7em;
     }

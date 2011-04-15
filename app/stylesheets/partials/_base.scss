@@ -1,7 +1,6 @@
 @import "partials/one_col";
 @import "compass/css3/box-shadow";
 @import "compass/css3/font-face";
-@import "compass/css3/text-shadow";
 
 
 
@@ -20,12 +19,12 @@ $main-font-family: "champagne";
 $title-font-family: "walkway_oblique";
 $bold-title:"walkway_bold";
 
-$main-font-color: #d9cdc2;
+$main-font-color: #462b1d;
 $brown-font-color: #27211c;
 $back-brown-color: #27211c;
 $wheat-font-color: #e3b778;
 
-$main-font-size: 1.3em;
+$main-font-size: 1.5em;
 $title-font-size: 1.5em;
 
 //Extra fonts.
@@ -55,7 +54,6 @@ $title-font-size: 1.5em;
 
 body{
   background-image: url("/images/bg.png");
-  margin: 0 auto;
   font-family: $main-font-family;
   font-size: $main-font-size;
   color: $main-font-color;
@@ -76,9 +74,9 @@ body{
     letter-spacing: 0.1em;
   }
   h3,h4{
-    font-family: $title-font-family;
+    font-family: $bold-title;
     letter-spacing: 0.06em;
-    color: white;
+    color: #897d0b;
   }
   h5{
     font-family: $title-font-family;
@@ -104,7 +102,10 @@ body{
     color: $main-font-color;
     font-family: $main-font-family;
   }
-  #container{
-    @include box-shadow(#847e66, 0, 0, 29px,-5px);
-  }
+}
+
+#container {
+  border-left: 1em solid #dcdbd7;
+  border-right: 1em solid #dcdbd7;
+  border-bottom: 1em solid #dcdbd7;
 }
