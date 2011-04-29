@@ -63,8 +63,6 @@ ActiveRecord::Schema.define(:version => 20110413164335) do
     t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "company"
-    t.string   "charge"
   end
 
   create_table "translations", :force => true do |t|

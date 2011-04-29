@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/plataformatec/devise.git
-  revision: c27bc21af9462ecd92e1d107fb9e5a2abee4b7cc
+  revision: c27bc21
   specs:
     devise (1.2.rc)
       bcrypt-ruby (~> 2.1.2)
@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/rogercampos/interpret.git
-  revision: e56a4e2e99838e54c3e6a06a0ea70980cc0f2442
+  revision: e56a4e2
   specs:
     interpret (0.1.5)
       best_in_place (>= 0.1.7)
@@ -21,7 +21,7 @@ GIT
 
 GIT
   remote: http://github.com/rails/exception_notification.git
-  revision: 192a49a02d63d28b23ed41cebadfedd490929cf1
+  revision: 192a49a
   specs:
     exception_notification (1.0.0)
 
