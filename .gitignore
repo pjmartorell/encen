@@ -17,5 +17,4 @@ public/system/*
 public/stylesheets/cache/*
 public/javascripts/cache/*
 
-config/app.yml
-config/database.yml
+
