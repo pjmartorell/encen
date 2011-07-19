@@ -1,7 +1,13 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
-  before_filter :set_locale
+  before_filter :set_locale, :determine_pages
 
+  private
+  def determine_pages
+    @pages = Page.all 
+  end
+  
+  public
   def set_locale
     I18n.locale = params[:locale] || I18n.default_locale
   end
