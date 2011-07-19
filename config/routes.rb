@@ -4,7 +4,7 @@ Encen::Application.routes.draw do
 
   resources :subscriptors, :only => :create
 
-  scope "(:locale)" do
+  #scope "(:locale)" do
     devise_for :users, :controllers => {:sessions => 'user_sessions'}
 
     match 'contact', :to => "static#contact"
@@ -29,8 +29,11 @@ Encen::Application.routes.draw do
 
       root :to => "users#index"
     end
+    
+    resources :posts
 
+    #match "/:post", :to => "posts#show"
     match "/:page", :to => "pages#show"
-    root :to => "static#index"
-  end
+    root :to => "posts#index"
+  #end
 end

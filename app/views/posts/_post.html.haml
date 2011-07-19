@@ -1,19 +1,19 @@
 %p
   %b Title:
-  = @post.title
+  = post.title
 %p
   %b Body:
-  = @post.body
+  = post.body
 %p
   %b Date
-  = @post.date
+  = post.date
 %p
   %b User:
-  = @post.user.email
+  = post.user.email
 %p
   %b Published:
-  = @post.published
+  = post.published
+%p= link_to "#{pluralize(post.comments.count, "Comentari")}", "#{post_path(post)}#comentaris"
 %br
-%p
-  = render "comments"
 
+-# render "comments"
