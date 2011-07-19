@@ -1,21 +1,21 @@
 #admin_menu
   %ul
     %li
-      = link_to "Site", root_path
+      = link_to "Portada", root_path
       |
-      = link_to "Users", admin_root_path
+      = link_to "Usuaris", admin_root_path
       |
-      = link_to "Translations", interpret_root_path
+      = link_to "Traduccions", interpret_root_path
       |
       = link_to "Posts", admin_posts_path
       |
-      = link_to "Newsletter subscriptors", admin_subscriptors_path
+      = link_to "Llista de correu", admin_subscriptors_path
       |
-      = link_to "Dynamic pages", admin_pages_path
+      = link_to "Pàgines dinàmiques", admin_pages_path
 
 #user_menu
   %ul
     %li= current_user.to_s.humanize
     |
     %li
-      = link_to "Logout", destroy_user_session_path
+      = link_to "Sortir", destroy_user_session_path
