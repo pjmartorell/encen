@@ -9,7 +9,7 @@ class Admin::ImagesController < ApplicationController
     end
   end
 
-   def destroy
+  def destroy
     @image = Image.find(params[:id])
     @image.destroy
 
