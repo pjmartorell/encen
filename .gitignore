@@ -16,5 +16,7 @@ public/uploads
 public/system/*
 public/stylesheets/cache/*
 public/javascripts/cache/*
+config/database.yml
+config/app.yml
 
 
