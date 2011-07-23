@@ -1,43 +1,43 @@
 ca:
   errors:
     messages:
-      not_found: 'no encontrado'
-      already_confirmed: 'ya ha sido confirmada'
-      not_locked: 'no está bloqueada'
+      not_found: "no trobat"
+      already_confirmed: "ja ha estat comfirmada"
+      not_locked: "no està bloquejada"
 
   devise:
     failure:
-      unauthenticated: 'Necesitas acceder a tu cuenta o registrarte antes de continuar.'
-      unconfirmed: 'Necesitas confirmar tu cuenta antes de continuar.'
-      locked: 'Tu cuenta esta bloqueada.'
-      invalid: 'Contraseña o Email incorrecto.'
-      invalid_token: 'Token de autenticación incorrecto.'
-      timeout: 'Tu sesión ha expirado, por favor accede de nuevo para continuar.'
-      inactive: 'Tu cuenta no ha sido activada.'
+      unauthenticated: "Has d'accedir al teu compte o registrar-te abans de continuar."
+      unconfirmed: "Has de comfirmar el teu compte abans de continuar."
+      locked: "La teva compta està bloquejada."
+      invalid: "Contrasenya o correu electrònic invàlid."
+      invalid_token: "Token d'autenticació incorrecte."
+      timeout: "La teva sessió ha caducat. Si us plau, torna a iniciar sessió per a continuar."
+      inactive: "El teu compte encara no ha estat activat."
     sessions:
-      signed_in: 'Has ingresado correctamente.'
-      signed_out: 'Has salido correctamente.'
+      signed_in: "Sessió iniciada correctament."
+      signed_out: "Sessió finalitzada correctament."
     passwords:
-      send_instructions: 'Recibirás un email con instrucciones para cambiar tu contraseña en poco minutos.'
-      updated: 'Tu contraseña ha sido modificada. Ya has accedido a tu cuenta.'
+      send_instructions: "En breu rebràs un correu electrònic amb instruccions sobre com restablir la teva contrasenya."
+      updated: "La teva contrasenya ha estat canviada correctament. S'ha iniciat la sessió."
     confirmations:
-      send_instructions: 'Recibirás un email con instrucciones para confirmar tu cuenta en poco minutos.'
-      confirmed: 'Tu cuenta ha sido confirmada. Ya has accedido a tu cuenta.'
+      send_instructions: "Recibirás un email con instrucciones para confirmar tu cuenta en poco minutos."
+      confirmed: "Tu cuenta ha sido confirmada. Ya has accedido a tu cuenta."
     registrations:
-      signed_up: 'Te has registrado correctamente. Si está disponible, te habremos enviado un email de confirmación.'
-      updated: 'Has actualizado tu cuenta correctamente.'
-      destroyed: '!Adiós! Tu cuenta ha sido cancelada. Esperamos verte pronto.'
+      signed_up: 'Has estat registrat correctament.'
+      updated: 'Has actualitzat el teu compte correctament.'
+      destroyed: 'Adéu! El teu compte ha estat cancel·lat correctament. Esperem tornar-te a veure!'
     unlocks:
-      send_instructions: 'Recibirás un email con instrucciones para desbloquear tu cuenta en pocos minutos.'
-      unlocked: 'Tu cuenta ha sido desbloqueada. Ya has accedido a tu cuenta.'
-    oauth_callbacks:
-      success: 'Has sido autorizado satisfactoriamente de la cuenta %{kind}.'
-      failure: 'No has sido autorizado en la cuenta %{kind} porque "%{reason}".'
+      send_instructions: 'En breu rebràs un correu electrònic amb instruccions sobre com desbloquejar el teu compte.'
+      unlocked: "El teu compte ha estat desbloquejat correctament. S'ha iniciat la sessió."
+    omniauth_callbacks:
+      success: 'Autoritzat satisfactoriament el compte des de %{kind}.'
+      failure: 'No hem pogut autoritzar el compte des de %{kind} perquè "%{reason}".'
     mailer:
       confirmation_instructions:
-        subject: 'Instrucciones de confirmación'
+        subject: 'Instruccions de confirmació'
       reset_password_instructions:
-        subject: 'Instrucciones para cambiar tu contraseña'
+        subject: 'Instruccions de regeneració de contrasenya'
       unlock_instructions:
-        subject: 'Instrucciones para desbloquear tu cuenta'
+        subject: 'Instruccions de desbloqueig'
 
