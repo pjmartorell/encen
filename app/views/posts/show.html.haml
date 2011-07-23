@@ -1,17 +1,17 @@
 %p
-  %b Title:
+  %b Titol:
   = @post.title
 %p
-  %b Body:
-  = simple_format @post.body
+  %b Text:
+  = raw @post.body
 %p
-  %b Date
+  %b Data
   = @post.date
 %p
-  %b User:
+  %b Usuari:
   = @post.user.email
 %p
-  %b Published:
+  %b Publicat:
   = @post.published
 %br
 %p

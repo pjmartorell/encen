@@ -20,9 +20,9 @@
     = stylesheet_link_tag 'print', :media => :print
     /[if lt IE 8 ]
       = stylesheet_link_tag 'ie', :media => 'screen, projection'
-  %body
+  %body.two-col
     - if current_user
-      = render "shared/admin_preheader"
+      -#= render "shared/admin_preheader"
     = render 'shared/header'
     = render 'shared/menu'
 

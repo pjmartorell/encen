@@ -1,6 +1,6 @@
-%b New comment
-= simple_form_for [:admin, @post, Comment.new] do |f|
-  =f.input :name, :label => "Name"
-  =f.input :email, :label => "E-mail"
-  =f.input :body, :label => "Body"
-  =f.button :submit, "Post"
+%b Nou comentari
+= simple_form_for [@post, Comment.new], :remote => true do |f|
+  =f.input :name, :label => "Nom"
+  =f.input :email, :label => "Correu"
+  =f.input :body, :label => "Text"
+  =f.button :submit, "Enviar"

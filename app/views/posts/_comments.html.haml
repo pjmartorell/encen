@@ -1,10 +1,9 @@
 %span#comments_count
-%b= pluralize(@post.comments.count, "Comment")
+	%b= pluralize(@post.comments.count, "Comentari")
 %br
 %br
 %div#comments
-- @post.comments.each do |comment|
-  = render "comments/show", :comment => comment
-  %br
+	- @post.comments.each do |comment|
+		= render "comments/comment", :comment => comment
 %div#comment-notice
 = render "comments/form"
