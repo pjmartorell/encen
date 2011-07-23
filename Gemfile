@@ -6,7 +6,6 @@ gem 'i18n', "~> 0.5.0"
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 gem 'compass', "~> 0.10.6"
 gem 'haml-rails'
-gem 'interpret', :git => "git://github.com/rogercampos/interpret.git"
 
 gem 'simple_form'
 gem 'heroku'

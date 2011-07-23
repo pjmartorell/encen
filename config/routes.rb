@@ -1,10 +1,9 @@
 Encen::Application.routes.draw do
-  post "toggle_edition_mode", :to => "application#toggle_edition_mode"
   get "unsubscribe", :to => "mailchimp#unsubscribe"
 
   resources :subscriptors, :only => :create
 
-  scope "(:locale)" do
+  #scope "(:locale)" do
     devise_for :users, :controllers => {:sessions => 'user_sessions'}
 
     match 'contact', :to => "static#contact"
@@ -35,5 +34,5 @@ Encen::Application.routes.draw do
     #match "/:post", :to => "posts#show"
     match "/:page", :to => "pages#show"
     root :to => "posts#index"
-  end
+  #end
 end

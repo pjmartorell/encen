@@ -1,4 +1,3 @@
-I18n.locale = :en
 
 User.delete_all
 puts "Creating users..."
@@ -13,5 +12,5 @@ PageContent.delete_all
 
 puts "Creating /cucota dynamic page"
 page = Page.create! :key => :cucota
-PageContent.create! :page => page, :locale => "es", :url => "cucota"
+PageContent.create! :page => page, :locale => "ca", :url => "cucota"
 puts "Done!"

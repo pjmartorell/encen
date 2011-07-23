@@ -1,8 +1,8 @@
-es:
+ca:
   home: Inici
   contact: Contacte
 
-  metakeywords: "ejemplo,itnig,test"
+  metakeywords: "ejemplo,test"
   metadescription: "Josep Romeu"
   locality: Tarragona
   geo_region: Spain
@@ -31,6 +31,41 @@ es:
     month_names: [~, Enero, Febrero, Marzo, Abril, Mayo, Junio, Julio, Agosto, Septiembre, Octubre, Noviembre, Diciembre]
     abbr_month_names: [~, E, F, M, A, M, J, J, A, S, O, N, D]
 
+  # Used in distance_of_time_in_words(), distance_of_time_in_words_to_now(), time_ago_in_words()
+  datetime:
+    distance_in_words:
+      half_a_minute: "mig minut" 
+      less_than_x_seconds:
+        one:  "menys d'1 segon" 
+        other: "menys de %{count} segons"
+      x_seconds:
+        one:  "1 segon" 
+        other: "%{count} segons" 
+      less_than_x_minutes:
+        one:  "menys d'1 minut" 
+        other: "menys de %{count} minuts" 
+      x_minutes:
+        one:  "1 minut" 
+        other: "%{count} minuts" 
+      about_x_hours:
+        one:  "aproximadament 1 hora" 
+        other: "aproximadament %{count} hores" 
+      x_days:
+        one:  "1 dia" 
+        other: "%{count} dies" 
+      about_x_months:
+        one:  "aproximadament 1 mes" 
+        other: "aproximadament %{count} mesos" 
+      x_months:
+        one:  "1 mes" 
+        other: "%{count} mesos" 
+      about_x_years:
+        one:  "aproximadament 1 any" 
+        other: "aproximadament %{count} anys" 
+      over_x_years:
+        one:  "més d'1 any" 
+        other: "més de %{count} anys"
+        
   posts:
       index:
           line1: "Últimes noticies"
