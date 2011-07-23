@@ -16,7 +16,7 @@ CKEDITOR.editorConfig = function(config){
       ['JustifyLeft','JustifyCenter','JustifyRight','JustifyBlock'],
       ['BidiLtr', 'BidiRtl' ],
       ['Link','Unlink'],
-      ['Image','Table','HorizontalRule']
+      ['Image','Table','HorizontalRule'],
       ['Print','About']
     ];
   config.toolbar = "Custom";
