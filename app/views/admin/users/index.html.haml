@@ -1,17 +1,17 @@
-%h1 Users in the system
+%h1 Usuaris del sistema
 
 %table
   %tr
-    %th Login
-    %th Operations
+    %th Nom d'usuari
+    %th Accions
   - @users.each do |user|
     %tr
       %td= user.login
       %td
-        = link_to "Edita", edit_admin_user_path(user)
+        = link_to "Editar", edit_admin_user_path(user)
         |
-        = link_to "Elimina", [:admin, user], :method => :delete, :confirm => "Are u sure?"
+        = link_to "Eliminar", [:admin, user], :method => :delete, :confirm => "N'estàs segur?"
 
 %hr
 %p
-  = link_to "Crea un nou usuari", new_admin_user_path
+  = link_to "Nou usuari", new_admin_user_path

@@ -1,6 +1,6 @@
 %span{ :id => "image-#{image.id}", :class => "image" }
   = image_tag(image.file.thumb.url, :class => "placeholder")
-  = button_to "Destroy", admin_image_path(image), { :method => :delete, :remote => true, :confirm => "N'estas segur?"}
+  = button_to "Eliminar", admin_image_path(image), { :method => :delete, :remote => true, :confirm => "N'estàs segur?"}
   %span{ :id => "destroy-image-#{image.id}", :class => "destroy" }
 
 - content_for :custom_js do

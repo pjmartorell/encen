@@ -1,39 +1,37 @@
 !!! 5
 %html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => I18n.locale }
-  %head
-    %title= yield :title
-    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}
-    %meta{:content => yield(:meta_keywords), :name => "keywords"}
-    %meta{:content => yield(:meta_description), :name => "description"}
-    %meta{:content => "Itnig", :name => "author"}
-    %meta{:content => "Itnig", :name => "generator"}
-    %meta{:content => "Itnig", :name => "origen"}
-    %meta{:content => t(:locality), :name => "locality"}
-    %meta{:content => I18n.locale, :name => "language"}
-    %meta{:content => "index, follow", :name => "robots"}
-    %meta{:content => t(:geo_region), :name => "geo.region"}
-    %meta{:content => t(:geo_placename), :name => "geo.placename"}
-    %meta{:content => t(:geo_position), :name => "geo.position"}
-    %meta{:content => t(:icbm), :name => "ICBM"}
-    = csrf_meta_tag
-    = stylesheet_link_tag 'screen', :media => :screen
-    = stylesheet_link_tag 'print', :media => :print
-    /[if lt IE 8 ]
-      = stylesheet_link_tag 'ie', :media => 'screen, projection'
-  %body.two-col
-    - if current_user
-      -#= render "shared/admin_preheader"
-    = render 'shared/header'
-    = render 'shared/menu'
+	%head
+		%title= yield :title
+		%meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}
+		%meta{:content => yield(:meta_keywords), :name => "keywords"}
+		%meta{:content => yield(:meta_description), :name => "description"}
+		%meta{:content => "Itnig", :name => "author"}
+		%meta{:content => "Itnig", :name => "generator"}
+		%meta{:content => "Itnig", :name => "origen"}
+		%meta{:content => t(:locality), :name => "locality"}
+		%meta{:content => I18n.locale, :name => "language"}
+		%meta{:content => "index, follow", :name => "robots"}
+		%meta{:content => t(:geo_region), :name => "geo.region"}
+		%meta{:content => t(:geo_placename), :name => "geo.placename"}
+		%meta{:content => t(:geo_position), :name => "geo.position"}
+		%meta{:content => t(:icbm), :name => "ICBM"}
+		= csrf_meta_tag
+		= stylesheet_link_tag 'screen', :media => :screen
+		= stylesheet_link_tag 'print', :media => :print
+		/[if lt IE 8 ]
+			= stylesheet_link_tag 'ie', :media => 'screen, projection'
+	%body.two-col
+		= render 'shared/header'
+		= render 'shared/menu'
 
-    #info_box
-      = yield
+		#info_box
+			= yield
 
-    #footer
-      = render 'shared/footer'
+		#footer
+			= render 'shared/footer'
 
-    = javascript_include_tag "jquery-1.5.1"
-    = javascript_include_tag "jquery-ui-1.8.11.min"
-    = javascript_include_tag "application"
-    = javascript_include_tag "rails"
-    = yield :custom_js
+		= javascript_include_tag "jquery-1.5.1"
+		= javascript_include_tag "jquery-ui-1.8.11.min"
+		= javascript_include_tag "application"
+		= javascript_include_tag "rails"
+		= yield :custom_js

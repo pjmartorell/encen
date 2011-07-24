@@ -1,32 +1,32 @@
 !!! 5
 %html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => I18n.locale }
-  %head
-    %title Administració
-    %meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}
-    %meta{:content => "Itnig", :name => "author"}
-    %meta{:content => "Itnig", :name => "generator"}
-    %meta{:content => "Itnig", :name => "origen"}
-    %meta{:content => t(:locality), :name => "locality"}
-    %meta{:content => I18n.locale, :name => "language"}
-    = csrf_meta_tag
-    = stylesheet_link_tag "private"
-    /[if lt IE 8 ]
-      = stylesheet_link_tag 'ie', :media => 'screen, projection'
-  %body.bp
-    #container
-      #menu
-        = render 'admin/shared/menu'
-      #content
-        = yield
+	%head
+		%title Administració
+		%meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}
+		%meta{:content => "Itnig", :name => "author"}
+		%meta{:content => "Itnig", :name => "generator"}
+		%meta{:content => "Itnig", :name => "origen"}
+		%meta{:content => t(:locality), :name => "locality"}
+		%meta{:content => I18n.locale, :name => "language"}
+		= csrf_meta_tag
+		= stylesheet_link_tag "private"
+		/[if lt IE 8 ]
+			= stylesheet_link_tag 'ie', :media => 'screen, projection'
+	%body.bp
+		#container
+			#menu
+				= render 'admin/shared/menu'
+			#content
+				= yield
 
-    -#%script{:type => "text/javascript", :src  => "http://www.google.com/jsapi?key=ABQIAAAALy3hj-F80ucolZq1sevJGxQy9TusGK6D_dw7xKWtcTJbKPyiEhQ2HXkEN9UJJowAVIun52JrUbnugQ"}
-    = javascript_include_tag "jquery-1.5.1"
-    = javascript_include_tag "jquery-ui-1.8.11.min"
-    = javascript_include_tag "jquery.form"
-    = javascript_include_tag "ckeditor/ckeditor"
-    = javascript_include_tag "ckeditor/adapters/jquery"
-    = javascript_include_tag "ckeditor/config"
-    = javascript_include_tag "rails"
-    = javascript_include_tag "ckeditor-load"
-    = javascript_include_tag "dragdrop-img"
-    = yield :custom_js
+		-#%script{:type => "text/javascript", :src  => "http://www.google.com/jsapi?key=ABQIAAAALy3hj-F80ucolZq1sevJGxQy9TusGK6D_dw7xKWtcTJbKPyiEhQ2HXkEN9UJJowAVIun52JrUbnugQ"}
+		= javascript_include_tag "jquery-1.5.1"
+		= javascript_include_tag "jquery-ui-1.8.11.min"
+		= javascript_include_tag "jquery.form"
+		= javascript_include_tag "ckeditor/ckeditor"
+		= javascript_include_tag "ckeditor/adapters/jquery"
+		= javascript_include_tag "ckeditor/config"
+		= javascript_include_tag "rails"
+		= javascript_include_tag "ckeditor-load"
+		= javascript_include_tag "dragdrop-img"
+		= yield :custom_js

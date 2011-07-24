@@ -1,12 +1,12 @@
-%h1 Listing posts
+%h1 Llistat d'entrades
 
 %table
   %tr
-    %th Title
-    %th Date
-    %th User
-    %th Comments
-    %th Published
+    %th Títol
+    %th Data
+    %th Usuari
+    %th Comentaris
+    %th Publicat
     %th
     %th
     %th
@@ -18,10 +18,10 @@
       %td= post.user.email
       %td= post.comments.size
       %td= post.published ? "Sí" : "No"
-      %td= link_to 'Show', [:admin, post]
-      %td= link_to 'Edit', edit_admin_post_path(post)
-      %td= button_to 'Destroy', admin_post_path(post), :confirm => 'Are you sure?', :method => :delete
+      %td= link_to 'Mostrar', [:admin, post]
+      %td= link_to 'Editar', edit_admin_post_path(post)
+      %td= button_to 'Eliminar', admin_post_path(post), :confirm => "N'estàs segur?", :method => :delete
 
 %br
 
-= link_to 'New Post', new_admin_post_path
+= link_to 'Nova entrada', new_admin_post_path

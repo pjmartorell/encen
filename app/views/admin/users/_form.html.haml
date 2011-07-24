@@ -1,7 +1,7 @@
 = simple_form_for [:admin, @user], :html => {:class => :bp} do |f|
   %fieldset
     %legend Dades
-    = f.input :login
+    = f.input :login, :label => "Usuari"
     = f.input :password
 
-    = f.button :submit
+    = f.button :submit, :value => "Crear usuari"

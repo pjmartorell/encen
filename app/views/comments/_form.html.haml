@@ -1,6 +1,6 @@
 %b Nou comentari
 = simple_form_for [@post, Comment.new], :remote => true do |f|
   =f.input :name, :label => "Nom"
-  =f.input :email, :label => "Correu"
-  =f.input :body, :label => "Text"
+  =f.input :email, :label => "E-mail"
+  =f.input :body, :label => "Contingut"
   =f.button :submit, "Enviar"

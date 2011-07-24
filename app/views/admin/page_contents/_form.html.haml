@@ -4,7 +4,7 @@
   = f.input :url, :required => false, :input_html => {:type => :text}
   - if @page_content.new_record?
     = f.input :locale, :collection => @page.page_localizations_left, :include_blank => false
-  = f.input :body, :label => "Body", :input_html => { :class => "editor" }
+  = f.input :body, :label => "Contingut", :input_html => { :class => "editor" }
   #pseudodroppable <!-- Needed for image drag and drop -->
 
   = f.button :submit, :id => "editor-button"

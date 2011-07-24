@@ -8,14 +8,14 @@
 %table
   %tr
     %th Identificador
-    %th Contenidos por idiomas
+    %th Continguts
 
   - @pages.each do |page|
     %tr
       %td
         = page.key
         |
-        = link_to "Destroy", [:admin, page], :method => :delete, :confirm => "Seguro que quieres borrar esta pagina y todos sus contenidos?"
+        = link_to "Eliminar", [:admin, page], :method => :delete, :confirm => "Estàs segur que vols eliminar aquesta pàgina i tots els seus continguts?"
       %td
         - page.page_contents.each do |content|
           %ul
@@ -26,7 +26,7 @@
             %li
               = link_to "Editar", edit_admin_page_page_content_path(page, content)
             %li
-              = link_to "Destroy", [:admin, page, content], :method => :delete, :confirm => "Seguro que quiere eliminar esta pagina?"
+              = link_to "Eliminar", [:admin, page, content], :method => :delete, :confirm => "Estàs segur que vols eliminar aquest contingut?"
 
       %td
         %p

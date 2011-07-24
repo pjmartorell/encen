@@ -2,7 +2,7 @@
   %b Titol:
   = @post.title
 %p
-  %b Text:
+  %b Contingut:
   = raw @post.body
 %p
   %b Data
@@ -18,6 +18,6 @@
 
 = render :partial => 'comments'
 
-= link_to 'Edit', edit_admin_post_path(@post)
+= link_to 'Edita', edit_admin_post_path(@post)
 \|
-= link_to 'Back', admin_posts_path
+= link_to 'Enrere', admin_posts_path

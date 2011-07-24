@@ -3,13 +3,13 @@
 = simple_form_for [:admin, @post] do |f|
   -if @post.errors.any?
     #error_explanation
-      %h2= "#{pluralize(@post.errors.count, "error")} prohibited this post from being saved:"
+      %h2= "No s'ha pogut guardar l'entrada degut a #{pluralize(@post.errors.count, "error")}:"
       %ul
         - @post.errors.full_messages.each do |msg|
           %li= msg
-  =f.input :title, :label => "Title"
+  =f.input :title, :label => "Títol"
   - unless @post.new_record?
-    =f.input :body, :label => "Body", :input_html => { :class => "editor" }
+    =f.input :body, :label => "Contingut", :input_html => { :class => "editor" }
     #pseudodroppable <!-- Needed for image drag and drop -->
-    =f.input :published, :label => "Publish it"
+    =f.input :published, :label => "Publicar"
   =f.button :submit, @post.new_record? ? "Crear" : "Actualitzar", :id => "editor-button"

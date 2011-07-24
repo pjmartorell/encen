@@ -1,11 +1,11 @@
 #login_container
   %b
-    Benvingut a Encen
+    Panell d'administració
   %hr/
   %br/
   = form_for(resource, :as => resource_name, :url => session_path(resource_name)) do |f|
     .info_form
-      = f.label :login, "LOGIN"
+      = f.label :login, "USUARI"
       %br/
       = f.text_field :login, :class => "loginput"
 
@@ -18,7 +18,7 @@
 
       - if devise_mapping.rememberable?
         = f.check_box :remember_me
-        = f.label :remember_me, "Recorda'm la proxima vegada"
+        = f.label :remember_me, "Recorda'm la pròxima vegada"
 
     .center
       = f.submit "Entra", :class => "button"
