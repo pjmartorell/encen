@@ -22,4 +22,7 @@ CKEDITOR.editorConfig = function(config){
   config.toolbar = "Custom";
   config.width = "650px";
   config.height = "250px";
+	config.resize_enabled = false;
+	// Load the Catalan interface.
+	config.language = 'ca';
 };
