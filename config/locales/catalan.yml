@@ -10,7 +10,11 @@ ca:
   geo_position: Alguna posicio
   icbm: Algun numero icbm
 
-
+  posts:
+    index:
+      title: "Blog"
+      line1: "Últimes noticies"
+        
   static:
     index:
       title: "Inici - Josep Romeu"
@@ -65,7 +69,3 @@ ca:
       over_x_years:
         one:  "més d'1 any" 
         other: "més de %{count} anys"
-        
-  posts:
-      index:
-          line1: "Últimes noticies"
