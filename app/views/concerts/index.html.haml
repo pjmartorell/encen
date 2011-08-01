@@ -1,0 +1,19 @@
+%h1 Listing concerts
+
+%table
+  %tr
+    %th Date
+    %th Event
+    %th City
+    %th Place
+    %th
+    %th
+    %th
+
+  - @concerts.each do |concert|
+    %tr
+      %td= concert.date
+      %td= concert.event
+      %td= concert.city
+      %td= concert.place
+%br

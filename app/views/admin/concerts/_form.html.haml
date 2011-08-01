@@ -1,0 +1,12 @@
+= simple_form_for [:admin, @concert] do |f|
+  -if @concert.errors.any?
+    #error_explanation
+      %h2= "No s'ha pogut guardar l'entrada degut a #{pluralize(@concert.errors.count, "error")}:"
+      %ul
+        - @concert.errors.full_messages.each do |msg|
+          %li= msg
+  = f.input :date, :label => "Data"
+  = f.input :event, :label => "Acte"
+  = f.input :city, :label => "Municipi"
+  = f.input :place, :label => "Lloc"
+  = f.button :submit, "Crear concert"

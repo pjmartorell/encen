@@ -1,6 +1,8 @@
 .menu
 	%ul
 		%li= section_link_to t(:home), root_path
+		%li= link_to "Concerts", concerts_path
 		- @pages.each do |page|
 			%li= link_to page.key, page.key
 		%li= section_link_to t(:contact), contact_path
+		
