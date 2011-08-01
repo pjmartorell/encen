@@ -445,3 +445,10 @@ body.two-col #content {
 * html body.two-col #content {
   overflow-x: hidden;
 }
+
+/* CSS provisional */
+
+ol, ul, th, td {
+  line-height: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
