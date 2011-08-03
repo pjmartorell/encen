@@ -19,6 +19,7 @@ Encen::Application.routes.draw do
   get "unsubscribe", :to => "mailchimp#unsubscribe"
   match 'contact', :to => "static#contact"
   match 'gallery', :to => "static#gallery"
+  match 'newsletter', :to => "static#newsletter"
   resources :concerts, :only => :index
   resources :posts do
     resources :comments, :only => [:create, :destroy]
