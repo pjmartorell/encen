@@ -32,4 +32,9 @@ class ImageUploader < CarrierWave::Uploader::Base
         %w(jpg jpeg gif png)
   end
 
+  # Album Cover version
+  version :cover do
+    process :square_crop => [72,72]
+  end
+  
 end

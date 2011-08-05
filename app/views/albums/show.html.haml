@@ -1,0 +1,15 @@
+%p#notice= notice
+
+%table
+  %tr
+    %td= image_tag @album.image_url(:thumb).to_s
+    %td
+      %div
+        %div 
+          %strong
+            =@album.title + " | " + @album.date.year.to_s
+        %div= @album.body
+
+= link_to 'Edit', edit_album_path(@album)
+\|
+= link_to 'Back', albums_path

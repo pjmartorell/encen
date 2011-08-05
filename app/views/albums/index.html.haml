@@ -1,0 +1,19 @@
+%h1 Llistat d'àlbums
+
+%table
+  - @albums.each do |album|
+    %tr
+      %td= image_tag album.image_url(:thumb).to_s
+      %td
+        %div
+          %div 
+            %strong
+              =album.title + " | " + album.date.year.to_s
+          %div= album.body
+      %td= link_to 'Show', album
+      %td= link_to 'Edit', edit_album_path(album)
+      %td= link_to 'Destroy', album, :confirm => 'Are you sure?', :method => :delete
+
+%br
+
+= link_to 'New Album', new_album_path

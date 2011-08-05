@@ -20,6 +20,7 @@ Encen::Application.routes.draw do
   match 'contact', :to => "static#contact"
   match 'gallery', :to => "static#gallery"
   match 'newsletter', :to => "static#newsletter"
+  resources :albums
   resources :concerts, :only => :index
   resources :posts do
     resources :comments, :only => [:create, :destroy]
