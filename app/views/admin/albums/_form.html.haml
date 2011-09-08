@@ -1,0 +1,16 @@
+= simple_form_for [:admin, @album], :html => {:multipart => true} do |f|
+  -if @album.errors.any?
+    #error_explanation
+      %h2= "No s'ha pogut guardar l'entrada degut a #{pluralize(@album.errors.count, "error")}:"
+      %ul
+        - @album.errors.full_messages.each do |msg|
+          %li= msg
+
+  -if @album.image?
+    = image_tag @album.image_url(:cover).to_s
+  -else
+    = image_tag "albums/blank.jpg"
+  = f.file_field :image
+  = f.input :title, :label => "Títol"
+  = f.input :body, :label => "Text"
+  = f.button :submit, 'Enviar'

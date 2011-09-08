@@ -5,7 +5,6 @@ html, body {
   font-weight: inherit;
   font-style: inherit;
   font-size: 100%;
-  font-family: inherit;
   vertical-align: baseline;
 }
 
@@ -73,204 +72,204 @@ a img {
   border: none;
 }
 
-body.bp {
+body {
   line-height: 1.5;
-  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #333333;
   font-size: 75%;
 }
-body.bp h1, body.bp h2, body.bp h3, body.bp h4, body.bp h5, body.bp h6 {
+body h1, body h2, body h3, body h4, body h5, body h6 {
   font-weight: normal;
   color: #222222;
 }
-body.bp h1 img, body.bp h2 img, body.bp h3 img, body.bp h4 img, body.bp h5 img, body.bp h6 img {
+body h1 img, body h2 img, body h3 img, body h4 img, body h5 img, body h6 img {
   margin: 0;
 }
-body.bp h1 {
+body h1 {
   font-size: 3em;
   line-height: 1;
   margin-bottom: 0.50em;
 }
-body.bp h2 {
+body h2 {
   font-size: 2em;
   margin-bottom: 0.75em;
 }
-body.bp h3 {
+body h3 {
   font-size: 1.5em;
   line-height: 1;
   margin-bottom: 1.00em;
 }
-body.bp h4 {
+body h4 {
   font-size: 1.2em;
   line-height: 1.25;
   margin-bottom: 1.25em;
 }
-body.bp h5 {
+body h5 {
   font-size: 1em;
   font-weight: bold;
   margin-bottom: 1.50em;
 }
-body.bp h6 {
+body h6 {
   font-size: 1em;
   font-weight: bold;
 }
-body.bp p {
+body p {
   margin: 0 0 1.5em;
 }
-body.bp p img.left {
+body p img.left {
   display: inline;
   float: left;
   margin: 1.5em 1.5em 1.5em 0;
   padding: 0;
 }
-body.bp p img.right {
+body p img.right {
   display: inline;
   float: right;
   margin: 1.5em 0 1.5em 1.5em;
   padding: 0;
 }
-body.bp a {
+body a {
   text-decoration: underline;
   color: #000099;
 }
-body.bp a:visited {
+body a:visited {
   color: #000066;
 }
-body.bp a:focus {
+body a:focus {
   color: black;
 }
-body.bp a:hover {
+body a:hover {
   color: black;
 }
-body.bp a:active {
+body a:active {
   color: #cc0099;
 }
-body.bp blockquote {
+body blockquote {
   margin: 1.5em;
   color: #666666;
   font-style: italic;
 }
-body.bp strong {
+body strong {
   font-weight: bold;
 }
-body.bp em {
+body em {
   font-style: italic;
 }
-body.bp dfn {
+body dfn {
   font-style: italic;
   font-weight: bold;
 }
-body.bp sup, body.bp sub {
+body sup, body.bp sub {
   line-height: 0;
 }
-body.bp abbr, body.bp acronym {
+body abbr, body.bp acronym {
   border-bottom: 1px dotted #666666;
 }
-body.bp address {
+body address {
   margin: 0 0 1.5em;
   font-style: italic;
 }
-body.bp del {
+body del {
   color: #666666;
 }
-body.bp pre {
+body pre {
   margin: 1.5em 0;
   white-space: pre;
 }
-body.bp pre, body.bp code, body.bp tt {
-  font: 1em "andale mono", "lucida console", monospace;
+body pre, body code, body tt {
+  font: 1em Arial, Helvetica, sans-serif;
   line-height: 1.5;
 }
-body.bp li ul, body.bp li ol {
+body li ul, body li ol {
   margin: 0;
 }
-body.bp ul, body.bp ol {
+body ul, body ol {
   margin: 0 1.5em 1.5em 0;
   padding-left: 3.333em;
 }
-body.bp ul {
+body ul {
   list-style-type: disc;
 }
-body.bp ol {
+body ol {
   list-style-type: decimal;
 }
-body.bp dl {
+body dl {
   margin: 0 0 1.5em 0;
 }
-body.bp dl dt {
+body dl dt {
   font-weight: bold;
 }
-body.bp dd {
+body dd {
   margin-left: 1.5em;
 }
-body.bp table {
+body table {
   margin-bottom: 1.4em;
   width: 100%;
 }
-body.bp th {
+body th {
   font-weight: bold;
 }
-body.bp thead th {
+body thead th {
   background: #c3d9ff;
 }
-body.bp th, body.bp td, body.bp caption {
+body th, body td, body caption {
   padding: 4px 10px 4px 5px;
 }
-body.bp tr.even td {
+body tr.even td {
   background: #e5ecf9;
 }
-body.bp tfoot {
+body tfoot {
   font-style: italic;
 }
-body.bp caption {
+body caption {
   background: #eeeeee;
 }
-body.bp .quiet {
+body .quiet {
   color: #666666;
 }
-body.bp .loud {
+body .loud {
   color: #111111;
 }
-body.bp .clear {
+body .clear {
   clear: both;
 }
-body.bp .nowrap {
+body .nowrap {
   white-space: nowrap;
 }
-body.bp .clearfix {
+body .clearfix {
   overflow: hidden;
   *zoom: 1;
 }
-body.bp .small {
+body .small {
   font-size: 0.8em;
   margin-bottom: 1.875em;
   line-height: 1.875em;
 }
-body.bp .large {
+body .large {
   font-size: 1.2em;
   line-height: 2.5em;
   margin-bottom: 1.25em;
 }
-body.bp .first {
+body .first {
   margin-left: 0;
   padding-left: 0;
 }
-body.bp .last {
+body .last {
   margin-right: 0;
   padding-right: 0;
 }
-body.bp .top {
+body .top {
   margin-top: 0;
   padding-top: 0;
 }
-body.bp .bottom {
+body .bottom {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-body.bp .showgrid {
+body .showgrid {
   background: url('/images/grid.png?1302885971');
 }
-body.bp .error {
+body .error {
   padding: 0.8em;
   margin-bottom: 1em;
   border: 2px solid #dddddd;
@@ -278,10 +277,10 @@ body.bp .error {
   color: #8a1f11;
   border-color: #fbc2c4;
 }
-body.bp .error a {
+body .error a {
   color: #8a1f11;
 }
-body.bp .notice {
+body .notice {
   padding: 0.8em;
   margin-bottom: 1em;
   border: 2px solid #dddddd;
@@ -289,10 +288,10 @@ body.bp .notice {
   color: #514721;
   border-color: #ffd324;
 }
-body.bp .notice a {
+body .notice a {
   color: #514721;
 }
-body.bp .success {
+body .success {
   padding: 0.8em;
   margin-bottom: 1em;
   border: 2px solid #dddddd;
@@ -300,40 +299,40 @@ body.bp .success {
   color: #264409;
   border-color: #c6d880;
 }
-body.bp .success a {
+body .success a {
   color: #264409;
 }
-body.bp .hide {
+body .hide {
   display: none;
 }
-body.bp .highlight {
+body .highlight {
   background: yellow;
 }
-body.bp .added {
+body .added {
   background: #006600;
   color: white;
 }
-body.bp .removed {
+body .removed {
   background: #990000;
   color: white;
 }
 
-body.bp .box {
+body .box {
   padding: 1.5em;
   margin-bottom: 1.5em;
   background: #e5ecf9;
 }
-body.bp div.border {
+body div.border {
   padding-right: 4px;
   margin-right: 5px;
   border-right: 1px solid #eeeeee;
 }
-body.bp div.colborder {
+body div.colborder {
   padding-right: 24px;
   margin-right: 25px;
   border-right: 1px solid #eeeeee;
 }
-body.bp hr {
+body hr {
   background: #dddddd;
   color: #dddddd;
   clear: both;
@@ -343,7 +342,7 @@ body.bp hr {
   margin: 0 0 1.45em;
   border: none;
 }
-body.bp hr.space {
+body hr.space {
   background: #dddddd;
   color: #dddddd;
   clear: both;
@@ -356,10 +355,10 @@ body.bp hr.space {
   color: white;
   visibility: hidden;
 }
-body.bp form.inline {
+body form.inline {
   line-height: 3;
 }
-body.bp form.inline p {
+body form.inline p {
   margin-bottom: 0;
 }
 
@@ -413,16 +412,17 @@ form.bp textarea {
 }
 
 body.two-col #container {
-  width: 950px;
+  width: 955px;
   margin: 0 auto;
   overflow: hidden;
   *zoom: 1;
+	background: #fff url("/images/body_shadow_L.gif") repeat-y left top; /*--Left drop shadow--*/
 }
+
 body.two-col #header, body.two-col #footer {
   display: inline;
   float: left;
-  margin-right: 10px;
-  width: 950px;
+  width: 935px;
 }
 * html body.two-col #header, * html body.two-col #footer {
   overflow-x: hidden;
@@ -431,7 +431,8 @@ body.two-col #sidebar {
   display: inline;
   float: left;
   margin-right: 10px;
-  width: 310px;
+  width: 260px;
+	border: black solid 1px;
 }
 * html body.two-col #sidebar {
   overflow-x: hidden;
@@ -452,3 +453,79 @@ ol, ul, th, td {
   line-height: 18px;
   padding: 10px;
   margin-bottom: 10px;
+	margin-left: 1.5em;
+}
+
+/* ======================================================= */
+/*                         Header                          */
+/* ======================================================= */
+
+body.two-col #header {
+  background-image: url("/images/header.jpg");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  height: 214px;
+margin-bottom: 5px;
+}
+
+.menu{
+	margin-bottom: 20px;
+	background-color: #5f2B16;
+	padding: 5px 0 5px;
+}
+.menu ul {
+	margin-left: 0;
+	padding-left: 0;
+	display: inline;
+} 
+
+.menu ul li {
+	margin-left: 0;
+	margin-bottom: 0;
+	padding: 2px 45px 5px;
+	list-style: none;
+	display: inline;
+	font-size: 1.3em;
+}
+		
+.menu ul li.first {
+	margin-left: 0;
+	border-left: none;
+	list-style: none;
+	display: inline;
+}
+
+#content_wrap {
+	background: url("/images/body_shadow_R.gif") repeat-y right top; /*--Right drop shadow--*/
+	margin: 0;
+	padding: 0px 10px 0 10px; /*--Padding inside of the main content--*/
+	overflow: hidden;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.menu a:visited {
+  color: #FFFFFF;
+}
+.menu a:focus {
+  color: #FFFFFF;
+}
+.menu a:hover {
+  color: #FFFFFF;
+}
+.menu a:active {
+  color: #FFFFFF;
+}
+
+#footer {
+  background-color: #333333;
+  background-repeat: no-repeat;
+  border-top: 2px solid black;
+  text-align: center;
+  color: #888;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  height: 3.5em;
+}

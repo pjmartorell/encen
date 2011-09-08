@@ -1,6 +1,9 @@
 Encen::Application.routes.draw do
-  
+    
   namespace :admin do
+    resources :albums do
+      resources :tracks
+    end
     resources :concerts, :only => [:index, :edit, :update, :destroy, :new, :create]
     resources :images, :only => :destroy
     resources :pages, :only => [:new, :create, :index, :destroy] do
@@ -20,7 +23,9 @@ Encen::Application.routes.draw do
   match 'contact', :to => "static#contact"
   match 'gallery', :to => "static#gallery"
   match 'newsletter', :to => "static#newsletter"
-  resources :albums
+  resources :albums, :only => [:index, :show] do
+    resources :tracks, :only => [:show]
+  end
   resources :concerts, :only => :index
   resources :posts do
     resources :comments, :only => [:create, :destroy]

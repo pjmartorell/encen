@@ -1,0 +1,3 @@
+%div#tracks
+	- album.tracks.each do |track|
+		= render "tracks/track", :track => track

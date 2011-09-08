@@ -22,14 +22,17 @@
 		/[if lt IE 8 ]
 			= stylesheet_link_tag 'ie', :media => 'screen, projection'
 	%body.two-col
-		= render 'shared/header'
-		= render 'shared/menu'
+		#container
+			#content_wrap
+				= render 'shared/header'
+				= render 'shared/menu'
+				= render 'shared/sidebar'
+				
+				#content
+					= yield
 
-		#info_box
-			= yield
-
-		#footer
-			= render 'shared/footer'
+				#footer
+					= render 'shared/footer'
 
 		= javascript_include_tag "jquery-1.5.1"
 		= javascript_include_tag "jquery-ui-1.8.11.min"

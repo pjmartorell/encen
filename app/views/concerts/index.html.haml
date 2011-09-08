@@ -2,18 +2,18 @@
 
 %table
   %tr
-    %th Date
-    %th Event
-    %th City
-    %th Place
+    %th Data 
+    %th Població
+    %th Lloc
+    %th Acte
     %th
     %th
     %th
 
   - @concerts.each do |concert|
     %tr
-      %td= concert.date
-      %td= concert.event
+      %td= concert.date.strftime('%d/%m/%Y %k:%M')
       %td= concert.city
       %td= concert.place
+      %td= concert.event
 %br

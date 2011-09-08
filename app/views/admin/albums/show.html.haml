@@ -7,9 +7,11 @@
       %div
         %div 
           %strong
-            =@album.title + " | " + @album.date.year.to_s
+            =@album.title
         %div= @album.body
+%ol
+  = render :partial => 'tracks'
 
-= link_to 'Edit', edit_album_path(@album)
+= link_to 'Editar', edit_admin_album_path(@album)
 \|
-= link_to 'Back', albums_path
+= link_to 'Enrere', admin_albums_path

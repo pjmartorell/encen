@@ -69,3 +69,12 @@ ca:
       over_x_years:
         one:  "més d'1 any" 
         other: "més de %{count} anys"
+
+  activerecord:
+    errors:
+      models:
+        album:
+          attributes:
+            image:
+              blank: ": introdueix la caràtula del disc"
+        

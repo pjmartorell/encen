@@ -1,19 +1,18 @@
-%h1 Llistat d'àlbums
+%h2 Llistat d'àlbums
 
-%table
-  - @albums.each do |album|
+- @albums.each do |album|
+  %table
     %tr
       %td= image_tag album.image_url(:thumb).to_s
       %td
         %div
           %div 
-            %strong
-              =album.title + " | " + album.date.year.to_s
+            %h4
+              =album.title
+          %hr
           %div= album.body
-      %td= link_to 'Show', album
-      %td= link_to 'Edit', edit_album_path(album)
-      %td= link_to 'Destroy', album, :confirm => 'Are you sure?', :method => :delete
+  %strong Temes
+  %ol
+    = render :partial => 'tracks', :locals => { :album => album }
 
 %br
-
-= link_to 'New Album', new_album_path
