@@ -25,4 +25,6 @@ CKEDITOR.editorConfig = function(config){
 	config.resize_enabled = false;
 	// Load the Catalan interface.
 	config.language = 'ca';
+	config.extraPlugins = 'link';
+	config.emailProtection = "encode";
 };

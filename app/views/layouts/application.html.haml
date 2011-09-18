@@ -1,36 +1,46 @@
-!!! 5
+!!!5
 %html{ :xmlns => "http://www.w3.org/1999/xhtml", :lang => I18n.locale }
 	%head
-		%title= yield :title
+		%title= "Josep Romeu - Web oficial | #{yield :title}"
 		%meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}
 		%meta{:content => yield(:meta_keywords), :name => "keywords"}
 		%meta{:content => yield(:meta_description), :name => "description"}
-		%meta{:content => "Itnig", :name => "author"}
+		%meta{:content => "Pere Joan Martorell Calaf", :name => "author"}
 		%meta{:content => "Itnig", :name => "generator"}
-		%meta{:content => "Itnig", :name => "origen"}
+		%meta{:content => "Pere Joan Martorell Calaf", :name => "origen"}
 		%meta{:content => t(:locality), :name => "locality"}
 		%meta{:content => I18n.locale, :name => "language"}
 		%meta{:content => "index, follow", :name => "robots"}
 		%meta{:content => t(:geo_region), :name => "geo.region"}
 		%meta{:content => t(:geo_placename), :name => "geo.placename"}
-		%meta{:content => t(:geo_position), :name => "geo.position"}
-		%meta{:content => t(:icbm), :name => "ICBM"}
+		-#%meta{:content => t(:geo_position), :name => "geo.position"}
+		-#%meta{:content => t(:icbm), :name => "ICBM"}
 		= csrf_meta_tag
 		= stylesheet_link_tag 'screen', :media => :screen
 		= stylesheet_link_tag 'print', :media => :print
 		= stylesheet_link_tag 'jquery-ui-1.8.14'
+		-#= stylesheet_link_tag "http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css"
+    
 		/[if lt IE 8 ]
 			= stylesheet_link_tag 'ie', :media => 'screen, projection'
+		%script{:type =>"text/javascript", :src => "http://www.google.com/jsapi?key=ABQIAAAAgt7PaYuhYN9_nuhmZvaVvRQAsf9EpaHq1VSG0zlzuU5Dysfs-xRhYoAFeu9rJGQrS42mZBXnQXGxQg"}
+		%script{:type =>"text/javascript"}
+			google.load("feeds", "1");
+		= javascript_include_tag "audio-player"
+		%script{:type => "text/javascript"}
+			AudioPlayer.setup("/misc/player.swf", {width: '100%'});  
+		
 	%body.two-col
 		#container
 			#content_wrap
 				= render 'shared/header'
-				= render 'shared/menu'
-				= render 'shared/sidebar'
-				
-				#content
-					= yield
-
+				#main
+					= render 'shared/menu'
+					#content
+						= yield
+						
+					= render 'shared/sidebar'
+				#page_bottom
 				#footer
 					= render 'shared/footer'
 
@@ -38,4 +48,8 @@
 		= javascript_include_tag "jquery-ui-1.8.11.min"
 		= javascript_include_tag "application"
 		= javascript_include_tag "rails"
+		= javascript_include_tag "http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+		= javascript_include_tag "twitfeed"
+	
 		= yield :custom_js
+		= render 'shared/analytics'

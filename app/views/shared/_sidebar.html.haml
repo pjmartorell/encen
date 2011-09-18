@@ -1,2 +1,35 @@
 #sidebar
-	%iframe{:src => "http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fjosepromeu1&amp;width=220&amp;colorscheme=light&amp;show_faces=true&amp;border_color&amp;stream=false&amp;header=false&amp;height=190", :scrolling => "no", :frameborder => "0", :style => "border:none; overflow:hidden; width:220px; height:190px;", :allowTransparency => "true"}
+  #sb-content
+  
+    -#Facebook Like Box
+    #fb-root
+    %script
+      (function(d){var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}js = d.createElement('script'); js.id = id; js.async = true;js.src = "//connect.facebook.net/ca_ES/all.js#xfbml=1";d.getElementsByTagName('head')[0].appendChild(js);}(document));
+    .fb-like-box{"data-href"=>"http://www.facebook.com/josepromeu1", "data-width"=>"250", "data-show-faces" =>"false", "data-stream"=>"false", "data-header"=>"false"}
+  
+    #networks
+      =link_to image_tag("/images/facebook.png"), "http://www.facebook.com/josepromeu1", :target => "_blank" 
+      =link_to image_tag("/images/myspace.png"), "http://www.myspace.com/josepromeu", :target => "_blank"   
+      =link_to image_tag("/images/twitter.png"), "http://www.twitter.com/josepromeu", :target => "_blank"    
+      =link_to image_tag("/images/youtube.png"), "http://www.youtube.com/josepromeu", :target => "_blank"  
+
+    %hr
+    -#Banner Promocio
+    =link_to image_tag("/images/promo.jpg", :mouseover => "/images/promo_over.jpg"), "http://productesdelaterra.cat/9872-cd-josep-romeu-la-mirada-infinita.html", :target => "_blank"
+    
+    %hr
+    -#Audio Player
+    %h3 
+      =image_tag("/images/headset.png", :width => "32", :height => '32') 
+      Música
+    #div-audio
+      %p#audioplayer_1
+    %script{:type => "text/javascript"}
+      AudioPlayer.embed("audioplayer_1", {soundFile: "/tracks/futur.mp3,/tracks/paritot.mp3,/tracks/rebel.mp3",titles: "En clau de futur,Que pari tot,Companya Rebel",artists: "Josep Romeu, Josep Romeu, Josep Romeu",autostart: "no",loop: "yes", animation:"no", loader:"E9D2AB"});  
+    -#Player css -> bg:"999999", leftbg:"000000", lefticon:"ffffff", rightbg:"ffffff", rightbghover:"cc0000", righticon:"000000", righticonhover:"cccccc", text:"cc0000",	slider:"cc0000", track:"cccccc", border:"FFD1A6", loader:"ffcccc"
+  
+    %hr
+      #twitter_div
+        #twitter-feed
+    
+  #sidebar-bottom
