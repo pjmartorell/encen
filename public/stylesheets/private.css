@@ -619,3 +619,7 @@ form.bp label {
 form.bp fieldset {
   border-color: black;
 }
+
+.actions {
+	float:right;
+}
