@@ -1,19 +1,22 @@
-%h1 Listing concerts
+= title (t ".title")
 
-%table
-  %tr
-    %th Data 
-    %th Població
-    %th Lloc
-    %th Acte
-    %th
-    %th
-    %th
+%h2 Concerts
 
-  - @concerts.each do |concert|
+%table#concerts
+  %thead
     %tr
-      %td= concert.date.strftime('%d/%m/%Y %k:%M')
+      %th Data 
+      %th Població
+      %th Lloc
+      %th Hora
+      %th Informació
+
+
+  - @concerts.each do |concert|	
+    %tr{:class => cycle('parell', 'senar')}
+      %td= concert.date.strftime('%d/%m/%Y')
       %td= concert.city
       %td= concert.place
+      %td= concert.date.strftime('%k:%M')
       %td= concert.event
 %br

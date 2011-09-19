@@ -9,4 +9,4 @@
   = f.input :event, :label => "Acte"
   = f.input :city, :label => "Municipi"
   = f.input :place, :label => "Lloc"
-  = f.button :submit, "Crear concert"
+  = f.button :submit, @concert.new_record? ? "Crear" : "Actualitzar"

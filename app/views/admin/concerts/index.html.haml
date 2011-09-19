@@ -1,23 +1,22 @@
-%h1 Llistant concerts
+%h1 Concerts
 
 %table
   %tr
-    %th Date
-    %th Event
-    %th City
-    %th Place
-    %th
+    %th Data 
+    %th Població
+    %th Lloc
+    %th Hora
+    %th Informació
     %th
     %th
 
   - @concerts.each do |concert|
     %tr
-      %td= concert.date
-      %td= concert.event
+      %td= concert.date.strftime('%d/%m/%Y')
       %td= concert.city
       %td= concert.place
-      -#%td= link_to 'Edit', edit_admin_concert_path(concert)
-      -#%td= link_to 'Destroy', concert, :confirm => 'Are you sure?', :method => :delete
+      %td= concert.date.strftime('%k:%M')
+      %td= concert.event
       %td= link_to "Editar", edit_admin_concert_path(concert)
       %td= link_to "Eliminar", [:admin, concert], :method => :delete, :confirm => "N'estàs segur?"
 
