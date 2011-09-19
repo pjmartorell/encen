@@ -1,18 +1,18 @@
-%h2 Llistat d'àlbums
+= title (t ".title")
+
+%h2 Discografia 
 
 - @albums.each do |album|
   %table
     %tr
-      %td= image_tag album.image_url(:thumb).to_s
+      %td= image_tag album.image_url(:cover).to_s
       %td
         %div
           %div 
             %h4
               =album.title
           %hr
-          %div= album.body
-  %strong Temes
-  %ol
-    = render :partial => 'tracks', :locals => { :album => album }
+          .alb_body= album.body
+  = render :partial => 'tracks', :locals => { :album => album }
 
 %br

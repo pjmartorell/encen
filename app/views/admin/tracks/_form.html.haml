@@ -1,4 +1,5 @@
+%p#notice= notice
 = simple_form_for  [:admin, @album, @track] do |f|
 
 	= f.input :name
-	= f.button :submit, "Enviar"
+	= f.button :submit, @track.new_record? ? "Crear" : "Actualitzar"

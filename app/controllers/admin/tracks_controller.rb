@@ -50,7 +50,7 @@ class Admin::TracksController < Admin::AdminController
         
     respond_to do |format|
       if @track.save
-        format.html { redirect_to([:admin, @album], :notice => 'Track was successfully created.') }
+        format.html { redirect_to([:admin, @album], :notice => "Cançó creada correctament") }
         format.xml  { render :xml => @track, :status => :created, :location => @track }
       else
         format.html { render :action => "new" }
@@ -67,7 +67,7 @@ class Admin::TracksController < Admin::AdminController
 
     respond_to do |format|
       if @track.update_attributes(params[:track])
-        format.html { redirect_to([:admin, @album], :notice => 'Track was successfully updated.') }
+        format.html { redirect_to([:admin, @album], :notice => "Cançó acutalitzada correctament") }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

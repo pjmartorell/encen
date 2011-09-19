@@ -46,7 +46,7 @@ class Admin::AlbumsController < Admin::AdminController
 
     respond_to do |format|
       if @album.save
-        format.html { redirect_to(admin_album_path(@album), :notice => 'Album was successfully created.') }
+        format.html { redirect_to(admin_album_path(@album), :notice => 'Àlbum creat correctament.') }
         format.xml  { render :xml => [:admin, @album], :status => :created, :location => @album }
       else
         format.html { render :action => "new" }
@@ -62,7 +62,7 @@ class Admin::AlbumsController < Admin::AdminController
 
     respond_to do |format|
       if @album.update_attributes(params[:album])
-        format.html { redirect_to([:admin, @album], :notice => 'Album was successfully updated.') }
+        format.html { redirect_to([:admin, @album], :notice => 'Àlbum actualitzat correctament.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }

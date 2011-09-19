@@ -10,6 +10,11 @@ class ImageUploader < CarrierWave::Uploader::Base
   def store_dir
     "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
   end
+  
+  # Album Cover version
+  version :cover do
+    process :square_resize => [150,150]
+  end
 
   # Thumb version
   version :thumb do
@@ -26,15 +31,16 @@ class ImageUploader < CarrierWave::Uploader::Base
       img
     end
   end
+  
+  def square_resize(width, height)
+    manipulate! do |img|
+      img.resize("#{width}x#{height}")
+      img
+    end
+  end
 
   # Valid list
   def extension_white_list
         %w(jpg jpeg gif png)
   end
-
-  # Album Cover version
-  version :cover do
-    process :square_crop => [72,72]
-  end
-  
 end

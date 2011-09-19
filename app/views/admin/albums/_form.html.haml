@@ -13,4 +13,4 @@
   = f.file_field :image
   = f.input :title, :label => "Títol"
   = f.input :body, :label => "Text"
-  = f.button :submit, 'Enviar'
+  = f.button :submit, @album.new_record? ? "Crear" : "Actualitzar"

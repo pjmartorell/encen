@@ -2,16 +2,20 @@
 
 %table
   %tr
-    %td= image_tag @album.image_url(:thumb).to_s
+    %td= image_tag @album.image_url(:cover).to_s
     %td
       %div
         %div 
           %strong
             =@album.title
         %div= @album.body
-%ol
-  = render :partial => 'tracks'
 
+.actions
 = link_to 'Editar', edit_admin_album_path(@album)
 \|
 = link_to 'Enrere', admin_albums_path
+
+%ol
+  = render :partial => 'tracks'
+
+

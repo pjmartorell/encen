@@ -1,7 +1,8 @@
-%h1 Editing track
+%h1 Editant pista
 
 = render 'form'
 
-= link_to 'Mostrar', [:admin, @album]
-\|
-= link_to 'Enrere', admin_album_path(@album)
+.actions
+  = link_to 'Mostrar', [:admin, @album]
+  \|
+  = link_to 'Enrere', admin_album_path(@album)

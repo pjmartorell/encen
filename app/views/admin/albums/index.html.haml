@@ -3,7 +3,7 @@
 %table
   - @albums.each do |album|
     %tr
-      %td= image_tag album.image_url(:thumb).to_s
+      %td= image_tag album.image_url(:cover).to_s
       %td
         %div
           %div 
