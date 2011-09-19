@@ -37,7 +37,7 @@ class Admin::PostsController < Admin::AdminController
 
     respond_to do |format|
       if @post.save
-        format.html { redirect_to(edit_admin_post_path(@post), :notice => 'Post was successfully created.') }
+        format.html { redirect_to(edit_admin_post_path(@post), :notice => 'Entrada creada correctament.') }
         format.xml  { render :xml => @post, :status => :created, :location => @post }
       else
         format.html { render :action => "new" }
@@ -51,7 +51,7 @@ class Admin::PostsController < Admin::AdminController
 
     respond_to do |format|
       if @post.update_attributes(params[:post])
-        format.html { redirect_to([:admin, @post], :notice => 'Post was successfully updated.') }
+        format.html { redirect_to([:admin, @post], :notice => 'Entrada actualitzada correctament.') }
         format.xml  { head :ok }
       else
         format.html { render :action => "edit" }
