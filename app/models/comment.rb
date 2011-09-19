@@ -5,7 +5,7 @@ class Comment < ActiveRecord::Base
 
   validates_presence_of :name
   validates_presence_of :email
-  #validate :is_valid_email?
+  validate :is_valid_email?
   validates_presence_of :body
 
   default_scope order('created_at asc')

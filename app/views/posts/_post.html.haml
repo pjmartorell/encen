@@ -1,17 +1,10 @@
-%p
-  %b Títol:
-  = post.title
-%p
-  %b Contingut:
-  = raw post.body
-%p
-  %b Data
-  = post.date
-%p
-  %b Usuari:
-  = post.user.email
-%p
-  %b Publicat:
-  = post.published
-%p= link_to "#{pluralize(post.comments.count, "Comentari")}", "#{post_path(post)}#comentaris"
-%br
+.post
+  %h3
+    = link_to post.title, post_path(post)
+  .meta
+    %time
+      = pretty_date post.created_at
+    .comments
+      = link_to "#{pluralize(post.comments.count, "Comentari")}", "#{post_path(post)}#comments"
+  %p
+    = raw post.body

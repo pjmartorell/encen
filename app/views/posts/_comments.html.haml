@@ -1,9 +1,8 @@
-%span#comments_count
-	%b= pluralize(@post.comments.count, "Comentari")
-%br
-%br
-%div#comments
-	- @post.comments.each do |comment|
-		= render "comments/comment", :comment => comment
+- unless @post.comments.count == 0
+  %div#comments
+    %span#comments_count
+      %p= "◕ #{pluralize(@post.comments.count, "comentari")} a l'entrada:"
+    - @post.comments.each do |comment|
+      = render "comments/comment", :comment => comment
 %div#comment-notice
 = render "comments/form"

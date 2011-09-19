@@ -1,6 +1,7 @@
-%b Nou comentari
+%h4 Deixa'ns un comentari
+
 = simple_form_for [@post, Comment.new], :remote => true do |f|
-  =f.input :name, :label => "Nom"
+  =f.input :name, :label => "Nom", :hint => "Introduïu un correu vàlid, no serà mostrat."
   =f.input :email, :label => "E-mail"
   =f.input :body, :label => "Contingut"
   =f.button :submit, "Enviar"

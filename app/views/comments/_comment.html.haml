@@ -1,4 +1,6 @@
 = div_for comment do
+	-if logged_in?
+		= link_to 'Eliminar', post_comment_path(@post,comment), :method => :delete, :class => "delete", :remote => true, :confirm => "N'estas segur?"
 	.gravatar_comentaris
 		= raw gravatar(comment.email, :size => 60, :default => 'mm')
 	%b 
@@ -6,4 +8,5 @@
 	= "fa #{time_ago_in_words(comment.created_at)} ha escrit:"
 	%p
 		= content_tag(:p, comment.body, :class => "comment-body")
-		= link_to 'Eliminar', post_comment_path(@post,comment), :method => :delete, :class => "delete", :remote => true, :confirm => "N'estas segur?"
+  
+ 

@@ -1,29 +1,25 @@
 %p
-  %b Title:
-  = @post.title
+  %h3
+    = @post.title
 %p
-  %b Body:
+  %b
+    = pretty_date @post.date
+    = "per #{@post.user}"
+%p
   = raw @post.body
-%p
-  %b Date
-  = @post.date
-%p
-  %b User:
-  = @post.user.email
-%p
-  %b Published:
-  = @post.published
-%br
+-#%p
+  -#%b Published:
+  -#= @post.published
 %p
   %span#comments_count
     %b= pluralize(@post.comments.count, "Comentari")
-  %br
-  %br
+
   %div#comments
   - @post.comments.each do |comment|
     = render "comments/comment", :comment => comment
     %br
 
-= link_to 'Editar', edit_admin_post_path(@post)
-\|
-= link_to 'Enrere', admin_posts_path
+.actions
+  = link_to 'Editar', edit_admin_post_path(@post)
+  \|
+  = link_to 'Enrere', admin_posts_path

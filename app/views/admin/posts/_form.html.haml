@@ -11,5 +11,5 @@
   - unless @post.new_record?
     =f.input :body, :label => "Contingut", :input_html => { :class => "editor" }
     #pseudodroppable <!-- Needed for image drag and drop -->
-    =f.input :published, :label => "Publicar"
+    -#=f.input :published, :label => "Publicar"
   =f.button :submit, @post.new_record? ? "Crear" : "Actualitzar", :id => "editor-button"
