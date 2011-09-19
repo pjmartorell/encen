@@ -7,4 +7,4 @@
   = f.input :body, :label => "Contingut", :input_html => { :class => "editor" }
   #pseudodroppable <!-- Needed for image drag and drop -->
 
-  = f.button :submit, :id => "editor-button"
+  = f.button :submit, @page_content.new_record? ? "Crear" : "Actualitzar", :id => "editor-button"

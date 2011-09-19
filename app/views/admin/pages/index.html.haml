@@ -1,9 +1,9 @@
-%h1 Listing dynamic pages
+%h1 Pàgines de text
 
 
 %p
   = link_to "Crear", new_admin_page_path
-  una nueva página
+  una nova pàgina
 
 %table
   %tr
@@ -19,8 +19,8 @@
       %td
         - page.page_contents.each do |content|
           %ul
-            %li
-              Idioma: #{ content.locale }
+            -#%li
+              -#Idioma: #{ content.locale }
             %li
               Url: #{content.url}
             %li
@@ -30,6 +30,7 @@
 
       %td
         %p
-          - unless page.has_all_locales?
+          -# unless page.has_all_locales?
+          - unless page.page_contents.count == 1
             = link_to "Crear", new_admin_page_page_content_path(page)
-            nuevo idioma para esta página.
+            nou contingut per aquesta pàgina.

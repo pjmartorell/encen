@@ -3,7 +3,8 @@ class Page < ActiveRecord::Base
   has_many :images, :as => :owner, :dependent => :destroy
 
   validates :key, :presence => true, :uniqueness => true
-
+  default_scope order('created_at asc')
+  
   def has_all_locales?
     I18n.available_locales == page_contents.map{|x| x.locale.to_sym}
   end

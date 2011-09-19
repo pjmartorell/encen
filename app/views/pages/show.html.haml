@@ -1,5 +1,6 @@
-Aquesta és la pàgina #{@page.key}!
-%hr
+= title (@page.key)
+
+-#Aquesta és la pàgina #{@page.key}!
 
 -#= t @key, :scope => "pages"
 = raw @page.get_body
