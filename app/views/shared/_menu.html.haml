@@ -1,8 +1,12 @@
-.menu
-	%ul
-		%li= section_link_to t(:home), root_path
-		%li= link_to "Discografia", albums_path
-		%li= link_to "Concerts", concerts_path
-		- @pages.each do |page|
-			%li= link_to page.key, page.key
-		%li= section_link_to t(:newsletter), newsletter_path		
+.rhm1
+	.rhm1-right
+	.rhm1-left
+	.rhm1-bg
+		%ul
+			%li= section_link_to content_tag(:span, t(:home)), root_path
+			%li= link_to content_tag(:span, "Biografia"), "/Biografia"
+			%li= link_to content_tag(:span,"Discografia"), albums_path
+			%li= link_to content_tag(:span, "Concerts"), concerts_path
+			%li= link_to content_tag(:span, "Contractació"), "/Contractació"
+			-#- @pages.each do |page|
+				-#%li= link_to content_tag(:span, page.key), page.key
