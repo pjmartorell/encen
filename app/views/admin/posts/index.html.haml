@@ -6,7 +6,7 @@
     %th Data
     %th Usuari
     %th Comentaris
-    %th Publicat
+    -#%th Publicat
     %th
     %th
     %th
@@ -17,7 +17,7 @@
       %td= post.date
       %td= post.user.email
       %td= post.comments.size
-      %td= post.published ? "Sí" : "No"
+      -#%td= post.published ? "Sí" : "No"
       %td= link_to 'Mostrar', [:admin, post]
       %td= link_to 'Editar', edit_admin_post_path(post)
       %td= button_to 'Eliminar', admin_post_path(post), :confirm => "N'estàs segur?", :method => :delete

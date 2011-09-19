@@ -8,9 +8,11 @@ class Post < ActiveRecord::Base
   validates_presence_of :date
 
   before_save :update_published_at
-  default_scope limit(4).order('created_at desc')
+  default_scope order('created_at desc')
   
   scope :published, where(:published => true).order("published_at DESC")  #TODO
+
+  self.per_page = 2
 
   def to_s
     title
