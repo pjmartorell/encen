@@ -14,7 +14,7 @@ Encen::Application.routes.draw do
       resources :images, :only => :create
     end
     resources :subscriptors, :only => [:index, :destroy]
-    root :to => "users#index"
+    root :to => "posts#index"
     resources :users, :except => :index
   end
 

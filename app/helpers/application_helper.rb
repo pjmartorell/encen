@@ -37,6 +37,15 @@ module ApplicationHelper
     end
   end
   
+  def pretty_date(date)
+    return '' if date.nil?
+    if date.to_time.utc > 2.day.ago
+      "Publicat fa #{time_ago_in_words date}"
+    else
+      "Publicat el #{date.strftime('%d/%m/%Y')}"
+    end
+  end
+  
   def section_link_to(name, options = {}, html_options = {})
     html_options.merge!({ :class => 'current' }) if current_page?(options)
     link_to name, options, html_options
