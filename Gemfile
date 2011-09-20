@@ -15,6 +15,7 @@ gem 'mini_magick'
 
 gem 'hominid'
 gem 'will_paginate', '~> 3.0.0'
+gem 'taps'
 
 group :development, :test do
   gem 'sqlite3-ruby', :require => 'sqlite3'
