@@ -75,7 +75,7 @@ a img {
 
 body {
   line-height: 1.5;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Arial, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", Arial, sans-serif;
   color: #333333;
   font-size: 75%;
 }
@@ -881,7 +881,7 @@ body.two-col #sidebar {
   float: left;
 }
 #sb-content{
-	padding: 30px 10px;
+	padding: 15px 10px;
   width: 260px;
   background: url("/images/sidebar_divider.png") no-repeat scroll right top transparent;	
 }
@@ -905,14 +905,16 @@ body.two-col #sidebar {
 	margin: 0 0 9px 10px ;
 }
 
+/* Facebook widget */
+
 #sidebar .fb-like-box{
 	background-color: lightblue;
 	display: block;
 	text-align: center;
-	-moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
+	width: 240px;
+	margin: 0 auto 15px;
 }
+
 #sidebar #networks {
 	margin: 10px 0 10px;
 	text-align:center;
