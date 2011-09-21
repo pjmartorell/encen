@@ -24,7 +24,7 @@ namespace :heroku do
     chr = STDIN.gets.chomp
     exit 0 unless chr =~ /^(y|Y)$/
 
-    `heroku config:add #{conf.map{|k,v| "#{k}=#{v}"}.join(" ")} --app #{current_branch}`
+    `heroku config:add #{conf.map{|k,v| "#{k}=#{v}"}.join(" ")}`
     puts "Done."
   end
 end
