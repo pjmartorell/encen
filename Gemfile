@@ -12,10 +12,13 @@ gem 'heroku'
 
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'fog'
+gem 'sass'
 
 gem 'hominid'
 gem 'will_paginate', '~> 3.0.0'
 gem 'taps'
+gem "lazyhash"
 
 group :development, :test do
   gem 'sqlite3-ruby', :require => 'sqlite3'
@@ -25,8 +28,5 @@ end
 
 group :production, :staging do
   gem 'mysql2'
-end
-
-group :production do
   gem "exception_notification", :git => "http://github.com/rails/exception_notification.git", :require => 'exception_notifier'
 end
