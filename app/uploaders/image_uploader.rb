@@ -5,14 +5,14 @@ class ImageUploader < CarrierWave::Uploader::Base
   include CarrierWave::MiniMagick
 
   # Storing and URL config
-  storage :s3
+  storage :fog
 
   def store_dir
     "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
   end
   
   def cache_dir
-    "#{Rails.root}/tmp/uploads"
+    "uploads/cache"
   end
   
   # Album Cover version

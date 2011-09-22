@@ -12,7 +12,7 @@ gem 'heroku'
 
 gem 'carrierwave'
 gem 'mini_magick'
-gem "aws-s3"
+gem 'fog'
 gem 'sass'
 
 gem 'hominid'
