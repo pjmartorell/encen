@@ -4,15 +4,12 @@ class ImageUploader < CarrierWave::Uploader::Base
 
   include CarrierWave::MiniMagick
 
-  # Storing and URL config
-  storage :fog
-
   def store_dir
-    "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
+    "uploads/#{model_name}/#{mounted_as}/#{model.id}"
   end
   
   def cache_dir
-    "uploads/cache"
+    Rails.root.join *%w[ tmp uploads model_name ]
   end
   
   # Album Cover version
@@ -47,4 +44,9 @@ class ImageUploader < CarrierWave::Uploader::Base
   def extension_white_list
         %w(jpg jpeg gif png)
   end
+  
+  private
+    def model_name
+      @model_name ||= model.class.to_s.underscore
+    end
 end
