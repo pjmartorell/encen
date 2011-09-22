@@ -7,6 +7,9 @@ production:
   <<: *defaults
   exception_notification_sender: your_account@mail.com
   exception_notification_recipient: who_will_be_notified@me.com
+  storage:
+    s3_access: some_access_key
+    s3_secret: some_secret_key
   mail:
     account:
       user_name: some@address.com
@@ -23,6 +26,9 @@ production:
 
 development:
   <<: *defaults
+  storage:
+    s3_access: some_access_key
+    s3_secret: some_secret_key
   mail:
     account:
       user_name: some@address.com
