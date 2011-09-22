@@ -1,4 +1,5 @@
 CarrierWave.configure do |config|
+  config.root = Rails.root.join('tmp')
   config.fog_credentials = {
     :provider               => 'AWS', 
     :aws_access_key_id      => APP_CONFIG['storage']['s3_access'],
