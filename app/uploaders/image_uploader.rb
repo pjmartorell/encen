@@ -12,7 +12,7 @@ class ImageUploader < CarrierWave::Uploader::Base
   end
   
   def cache_dir
-    "#{Rails.root}/tmp/uploads"
+    "uploads/cache"
   end
   
   # Album Cover version
