@@ -1,5 +1,6 @@
 %div#tracks
 	- @album.tracks.each do |track|
 		= render "admin/tracks/track", :track => track
+%br
 %div#tracks-notice
 = render "admin/tracks/form"

@@ -1,5 +1,3 @@
-%p#notice= notice
-
 %table
   %tr
     %td= image_tag @album.image_url(:cover).to_s
@@ -14,6 +12,9 @@
 = link_to 'Editar', edit_admin_album_path(@album)
 \|
 = link_to 'Enrere', admin_albums_path
+
+%br
+%br
 
 %ol
   = render :partial => 'tracks'
