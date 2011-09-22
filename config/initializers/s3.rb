@@ -11,4 +11,5 @@ CarrierWave.configure do |config|
     config.storage        = :fog
   else
     config.storage        = :file
+  end
 end
