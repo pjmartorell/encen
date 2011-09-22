@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/plataformatec/devise.git
-  revision: 08a8d7b
+  revision: f199557
   specs:
-    devise (1.4.6)
+    devise (1.4.7)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.0.3)
       warden (~> 1.0.3)
@@ -45,6 +45,10 @@ GEM
     activesupport (3.0.10)
     addressable (2.2.6)
     arel (2.0.10)
+    aws-s3 (0.6.2)
+      builder
+      mime-types
+      xml-simple
     bcrypt-ruby (3.0.1)
     builder (2.1.2)
     carrierwave (0.5.7)
@@ -55,25 +59,13 @@ GEM
     diff-lcs (1.1.3)
     erubis (2.6.6)
       abstract (>= 1.0.0)
-    excon (0.6.6)
-    fog (0.11.0)
-      builder
-      excon (~> 0.6.5)
-      formatador (~> 0.2.0)
-      mime-types
-      multi_json (~> 1.0.3)
-      net-scp (~> 1.0.4)
-      net-ssh (~> 2.1.4)
-      nokogiri (~> 1.5.0)
-      ruby-hmac
-    formatador (0.2.1)
     haml (3.1.3)
     haml-rails (0.3.4)
       actionpack (~> 3.0)
       activesupport (~> 3.0)
       haml (~> 3.0)
       railties (~> 3.0)
-    heroku (2.8.0)
+    heroku (2.8.1)
       launchy (>= 0.3.2)
       rest-client (~> 1.6.1)
       rubyzip
@@ -93,12 +85,7 @@ GEM
     mime-types (1.16)
     mini_magick (3.3)
       subexec (~> 0.1.0)
-    multi_json (1.0.3)
     mysql2 (0.3.7)
-    net-scp (1.0.4)
-      net-ssh (>= 1.99.1)
-    net-ssh (2.1.4)
-    nokogiri (1.5.0)
     orm_adapter (0.0.5)
     polyglot (0.3.2)
     rack (1.2.4)
@@ -143,7 +130,6 @@ GEM
       ruby-debug-base (~> 0.10.4.0)
     ruby-debug-base (0.10.4)
       linecache (>= 0.3)
-    ruby-hmac (0.4.0)
     rubyzip (0.9.4)
     sass (3.1.7)
     sequel (3.20.0)
@@ -171,16 +157,17 @@ GEM
     warden (1.0.5)
       rack (>= 1.0)
     will_paginate (3.0.1)
+    xml-simple (1.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-s3
   carrierwave
   compass (~> 0.10.6)
   devise!
   exception_notification!
-  fog
   haml-rails
   heroku
   hominid
