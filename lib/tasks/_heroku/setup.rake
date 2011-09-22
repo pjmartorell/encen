@@ -13,7 +13,9 @@ namespace :heroku do
      "MAIL__ACCOUNT__PASSWORD" => APP_CONFIG["mail"]["account"]["password"],
      "MAIL__ACCOUNT__USER_NAME" => APP_CONFIG["mail"]["account"]["user_name"],
      "NAME" => APP_CONFIG["name"],
-     "BUNDLE_WITHOUT" => "development:test"
+     "BUNDLE_WITHOUT" => "development:test",
+     "STORAGE__S3_ACCESS" => APP_CONFIG['storage']['s3_access'],
+     "STORAGE__S3_SECRET" => APP_CONFIG['storage']['s3_secret']
     }
 
     puts "We're about to set the following conf vars on Heroku for '#{current_branch}' application:"
