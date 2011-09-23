@@ -11,6 +11,7 @@
   -else
     = image_tag "albums/blank.jpg"
   = f.file_field :image
+  = f.hidden_field :image_cache
   = f.input :title, :label => "Títol"
   = f.input :body, :label => "Text"
   = f.button :submit, @album.new_record? ? "Crear" : "Actualitzar"
