@@ -43,7 +43,7 @@ class Admin::AlbumsController < Admin::AdminController
   # POST /albums.xml
   def create
     @album = Album.new(params[:album])
-    inspect @album
+    y @album
 
     respond_to do |format|
       if @album.save
