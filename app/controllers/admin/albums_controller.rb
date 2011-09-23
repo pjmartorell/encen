@@ -43,7 +43,8 @@ class Admin::AlbumsController < Admin::AdminController
   # POST /albums.xml
   def create
     @album = Album.new(params[:album])
-
+    y @album
+    
     respond_to do |format|
       if @album.save
         format.html { redirect_to(admin_album_path(@album), :notice => 'Àlbum creat correctament.') }
