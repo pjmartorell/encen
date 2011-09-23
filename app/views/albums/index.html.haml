@@ -5,7 +5,7 @@
 - @albums.each do |album|
   %table
     %tr
-      %td= image_tag album.image_url(:cover).to_s
+      %td= image_tag (album.image_url(:cover).to_s)
       %td
         %div
           %div 
