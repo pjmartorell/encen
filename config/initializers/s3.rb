@@ -9,6 +9,7 @@ CarrierWave.configure do |config|
     config.fog_host       = 'http://romeu.s3.amazonaws.com'
     config.fog_public     = true
     config.storage        = :fog
+    config.root = Rails.root.join('tmp') # adding these...
   else
     config.storage        = :file
   end
