@@ -10,9 +10,9 @@ gem 'haml-rails'
 gem 'simple_form'
 gem 'heroku'
 
-gem 'carrierwave', '0.5.1'
+gem 'carrierwave'
 gem 'mini_magick'
-gem 'fog', '0.5.3'
+gem 'fog'
 gem 'sass'
 
 gem 'hominid'
