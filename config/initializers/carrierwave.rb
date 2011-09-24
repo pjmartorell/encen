@@ -3,9 +3,10 @@ CarrierWave.configure do |config|
       :provider               => 'AWS', 
       :aws_access_key_id      => APP_CONFIG['storage']['s3_access'],
       :aws_secret_access_key  => APP_CONFIG['storage']['s3_secret'],
+      :region                 => 'eu-west-1'
     }
     config.fog_directory  = 'romeu'
-    config.fog_host       = 'http://s3.amazonaws.com/romeu'
+    config.fog_host       = 'http://romeu.s3.amazonaws.com'
     config.fog_public     = true
     
     config.root = Rails.root.join('tmp')
