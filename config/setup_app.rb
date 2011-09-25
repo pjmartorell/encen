@@ -7,7 +7,9 @@ if ENV['HEROKU'].present?
           :mail__password,
           :mail__smtp__address,
           :mail__smtp__port,
-          :mail__domain
+          :mail__domain,
+          :storage__s3_access,
+          :storage__s3_secret
          ]
 
   APP_CONFIG = LazyHash.build_hash
