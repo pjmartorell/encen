@@ -14,8 +14,8 @@ Encen::Application.routes.draw do
       resources :images, :only => :create
     end
     resources :subscriptors, :only => [:index, :destroy]
-    root :to => "users#index"
-    resources :users, :except => :index
+    resources :users
+    root :to => "posts#index"
   end
 
   devise_for :users, :controllers => {:sessions => 'user_sessions'}
