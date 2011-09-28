@@ -92,7 +92,7 @@ body h1 {
   margin-bottom: 0.50em;
 }
 body h2 {
-  font-size: 2em;
+  font-size: 1.8em; /*2em*/
   margin-bottom: 0.75em;
 }
 body h3 {
