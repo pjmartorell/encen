@@ -56,5 +56,8 @@ module ApplicationHelper
       page_title
     end
   end
-
+  
+  def urlize(url)
+    url.mb_chars.normalize(:kd).strip.gsub(/[^\x00-\x7F]/n,'').gsub!(/\ /,'-').downcase.to_s
+  end
 end
