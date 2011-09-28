@@ -75,7 +75,7 @@ a img {
 
 body {
   line-height: 1.5;
-  font-family: "Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", Arial, sans-serif;
+  font-family: "Verdana", "Lucida Sans Unicode", "Lucida Sans", Arial, sans-serif;
   color: #333333;
   font-size: 75%;
 }
@@ -181,7 +181,7 @@ body pre {
   white-space: pre;
 }
 body pre, body code, body tt {
-  font: 1em Arial, Helvetica, sans-serif;
+  font: 1em "Verdana", Arial, Helvetica, sans-serif;
   line-height: 1.5;
 }
 body li ul, body li ol {
@@ -692,7 +692,7 @@ body.two-col #header {
 #concerts thead th {
 	text-align:center;
 	background:white;
-	font:bold 1.35em/2em "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
+	font:bold 1.35em/2em "Verdana", "Century Gothic","Trebuchet MS",Arial,Helvetica,sans-serif;
 	color:#a08762;
 	}
 table#concerts {
