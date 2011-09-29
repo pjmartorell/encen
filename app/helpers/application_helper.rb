@@ -57,6 +57,7 @@ module ApplicationHelper
     end
   end
   
+  # Converts a string to a format suitable for a URL without ever using escaped characters.
   def urlize(url)
     url.mb_chars.normalize(:kd).strip.gsub(/[^\x00-\x7F]/n,'').gsub!(/\ /,'-').downcase.to_s
   end

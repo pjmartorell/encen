@@ -677,7 +677,7 @@ body.two-col #header {
 
 #concerts td {
 	color:#705f44;
-	border-top: 1px dotted #ede9e3;
+	border-top: 2px dotted #ede9e3;
 
 	padding:.3em 1em;
 	text-align:center;
@@ -897,6 +897,7 @@ body.two-col #sidebar {
 	width: 90%;
 	margin: 10px auto 15px auto;
 	display: block;
+	text-align: center;
 	height: 24px;
 }
 
@@ -1055,4 +1056,7 @@ body.two-col #sidebar {
 }
 .alb_body{
 	text-align:justify;
+}
+td.cover{
+	width: 150px;
 }
