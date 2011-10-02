@@ -14,6 +14,14 @@
       =link_to image_tag("/images/youtube.png"), "http://www.youtube.com/josepromeu", :target => "_blank"  
 
     %hr
+      #nwsltr
+        %h3 Llista de correu
+        %h5 Vols rebre les últimes novetats, promocions i dates de concerts?
+        = simple_form_for [Subscriptor.new] do |f|
+          =f.input :email, :label => false, :required => false, :placeholder => "correu electrònic"
+          =f.submit :Enviar, :class => "button icon mail"
+    %hr
+    
     -#Banner Promocio
     =link_to image_tag("/images/promo.jpg", :mouseover => "/images/promo_over.jpg"), "http://productesdelaterra.cat/9872-cd-josep-romeu-la-mirada-infinita.html", :target => "_blank"
     
