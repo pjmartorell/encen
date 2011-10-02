@@ -2,7 +2,7 @@ class ConcertsController < ApplicationController
   # GET /concerts
   # GET /concerts.xml
   def index
-    @concerts = Concert.all
+    @concerts = Concert.pending
 
     respond_to do |format|
       format.html # index.html.erb
