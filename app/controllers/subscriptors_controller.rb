@@ -1,11 +1,27 @@
 class SubscriptorsController < ApplicationController
   def create
-    @subscriptor = Subscriptor.new params[:subscriptor]
+    
+    h = Hominid::API.new(MAILCHIMP_API_KEY, :secure => true)
+    list_id = h.lists['data'].first['id']
+    @errors = []
 
-    if @subscriptor.save
-      redirect_to root_url
+    if params[:subscriptor][:email].blank?
+        @errors << t('subscriptors.missing_email')
+    elsif params[:subscriptor][:email] !~ /[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}/i
+        @errors << t('subscriptors.invalid_email')
     else
-      redirect_to root_url
+        begin
+          @member = h.listMemberInfo(list_id, params[:subscriptor])
+          # Adding subscriber
+          h.list_subscribe(list_id, params[:subscriptor][:email])
+          @subscriptor = Subscriptor.new params[:subscriptor]
+        rescue Hominid::APIError => e
+          @errors << t('subscriptors.already_subscribed')
+        end
+    end
+
+    respond_to do |wants|
+        wants.js  
     end
   end
 end

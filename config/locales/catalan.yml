@@ -24,7 +24,14 @@ ca:
   concerts:
     index:
       title: "Concerts"
-      
+  
+  subscriptors:
+    already_subscribed: Ja estàs subscrit a la nostra llista de correu.
+    something_went_wrong: Alguna cosa ha anat malament a l'intentar realitzar la teva subscripció. Torna-ho a intentar més tard.
+    invalid_email: Introdueix una adreça electrònica vàlida (p.e. correu@exemple.com)
+    you_have_been_subscribed: T\'\has subscrit a la nostra llista de correu. Si su plau, comprova el teu correu per confirmar la subscripció. Gràcies! 
+    missing_email: Introdueix una adreça electrònica.
+    
   static:
     index:
       title: "Inici - Josep Romeu"

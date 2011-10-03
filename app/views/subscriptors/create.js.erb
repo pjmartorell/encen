@@ -1,0 +1,18 @@
+<% flash[:notice] = nil %>
+
+var modal_opts = { 
+	closeHTML : '<div><img src="/images/x.png" alt="Tancar" title="Tancar" /></div>', 
+	containerCss : { height: '105' },
+  onOpen: function (dialog) {
+  	dialog.overlay.fadeIn('fast', function() {
+    dialog.data.show();
+    dialog.container.fadeIn('fast');
+    });
+   }
+};
+<% if @errors.empty? %>
+    $.modal('<div id="modal-notice"><strong><%= t("subscriptors.you_have_been_subscribed") %></strong></div>', modal_opts);
+<% else %>
+		$.modal("<div id='modal-notice'><strong>S'han produït els següents errors:</strong><li><ul><%= @errors.join('<ul /><ul>') %></ul></li></div>", modal_opts);
+<% end %>
+

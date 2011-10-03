@@ -820,18 +820,18 @@ h3#reply-title {
 	display:block;
 	width:96%;
 }
-#new_comment #comment_submit {
-		width: 150px;
+#new_comment #comment_submit { 
     margin: 12px auto;
-    font-size: 14px;
+		width: 150px;
 		display:block;
-		background: #f9f9f9;
-    border: 1px solid #ccc;
- 		-moz-box-shadow: 0px 0px 5px #81817C; 
-		-webkit-box-shadow: 0px 0px 5px #81817C; 
-		box-shadow: 0px 0px 5px #81817C;
-    padding: 10px;
 }
+.button.big {
+    font-size: 14px; 
+}
+
+.button.big.icon:before { top: 0; }
+
+
 #new_comment input.string,
 #new_comment textarea {
     background: #f9f9f9;
@@ -946,7 +946,7 @@ body.two-col #sidebar {
 
 #nwsltr form {display:block; position:relative; text-align: center; padding:0 0 10px 0}
 
-#nwsltr .button { 
+.button { 
     position: relative; 
     overflow: visible; 
     display: inline-block; 
@@ -977,10 +977,10 @@ body.two-col #sidebar {
     *display: inline; 
 }
 
-#nwsltr .button:hover,
-#nwsltr .button:focus,
-#nwsltr .button:active,
-#nwsltr .button.active {
+.button:hover,
+.button:focus,
+.button:active,
+.button.active {
     border-color: #3072b3;
     border-bottom-color: #2a65a0;
     text-decoration: none; 
@@ -993,8 +993,8 @@ body.two-col #sidebar {
     background-image: linear-gradient(#599bdc, #3072b3);
 }
 
-#nwsltr .button:active,
-#nwsltr .button.active {
+.button:active,
+.button.active {
     border-color: #2a65a0;
     border-bottom-color: #3884CF;
     background-color: #3072b3;
@@ -1005,7 +1005,7 @@ body.two-col #sidebar {
 }
 
 /* overrides extra padding on button elements in Firefox */
-#nwsltr .button::-moz-focus-inner {
+.button::-moz-focus-inner {
     padding: 0;
     border: 0;
 }
@@ -1023,7 +1023,31 @@ body.two-col #sidebar {
 	border-radius: 3px;
 }
 
-/* Dynamic Feed */
+
+/*		NEWSLETTER SIMPLEMODAL DIALOG		*/
+/* 					- basic style -					  */
+
+.simplemodal-overlay {
+    background: #333;
+}
+.simplemodal-container {
+    border: 2px solid #162f54;
+    background: #fff;
+    width: 45%;
+}
+.simplemodal-close {
+    border-bottom: 1px solid #fff;
+    text-align: right;
+    background: #162f54;
+    color: #fff;
+}
+.simplemodal-data {
+    padding: 0.7em;
+}
+
+
+/* 				DYNAMIC FEED			 */
+
 .gfg-root {
   width : 95%;
   height : auto;

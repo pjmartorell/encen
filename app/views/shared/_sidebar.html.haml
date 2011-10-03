@@ -17,9 +17,9 @@
       #nwsltr
         %h3 Llista de correu
         %h5 Vols rebre les últimes novetats, promocions i dates de concerts?
-        = simple_form_for [Subscriptor.new] do |f|
+        = simple_form_for [Subscriptor.new], :remote => true do |f|
           =f.input :email, :label => false, :required => false, :placeholder => "correu electrònic"
-          =f.submit :Enviar, :class => "button icon mail"
+          =f.submit :Enviar, :class => "button icon"
     %hr
     
     -#Banner Promocio

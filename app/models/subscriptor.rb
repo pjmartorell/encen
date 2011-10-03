@@ -4,8 +4,8 @@ class Subscriptor < ActiveRecord::Base
 
   before_validation :set_token
 
-  after_create :subscribe
-  before_destroy :unsubscribe
+  #after_create :subscribe
+  #before_destroy :unsubscribe
 
 
   def subscribe
