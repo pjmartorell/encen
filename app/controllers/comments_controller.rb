@@ -6,7 +6,7 @@ class CommentsController < ApplicationController
     if @comment.save
       flash[:notice] = "Gràcies pel teu comentari!"
     else
-      flash[:alert] = "Verifica que has omplert TOTS els camps correctament."
+      flash[:alert] = "Verifica que has omplert tots els camps correctament."
     end
     respond_to do |format|
       format.html { redirect_to(@post) }
