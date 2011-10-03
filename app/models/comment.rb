@@ -4,8 +4,8 @@ class Comment < ActiveRecord::Base
   belongs_to :post
 
   validates_presence_of :name
-  validates_presence_of :email
-  validate :is_valid_email?
+  validates :email, :presence => true, :format => { :with => /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i }
+  #validate :is_valid_email?
   validates_presence_of :body
 
   default_scope order('created_at asc')
