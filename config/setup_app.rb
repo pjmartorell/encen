@@ -9,7 +9,8 @@ if ENV['HEROKU'].present?
           :mail__smtp__port,
           :mail__domain,
           :storage__s3_access,
-          :storage__s3_secret
+          :storage__s3_secret,
+          :mailchimp_key
          ]
 
   APP_CONFIG = LazyHash.build_hash
