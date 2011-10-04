@@ -3,6 +3,7 @@
 var modal_opts = { 
 	closeHTML : '<div><img src="/images/x.png" alt="Tancar" title="Tancar" /></div>', 
 	containerCss : { height: '105' },
+	overlayClose : true,
   onOpen: function (dialog) {
   	dialog.overlay.fadeIn('fast', function() {
     dialog.data.show();

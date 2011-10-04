@@ -1038,6 +1038,7 @@ body.two-col #sidebar {
 .simplemodal-close {
     border-bottom: 1px solid #fff;
     text-align: right;
+		height: 25px;
     background: #162f54;
     color: #fff;
 }
