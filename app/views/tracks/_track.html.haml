@@ -1,6 +1,6 @@
 %li
   %b
     - if !track.doc_url.blank?
-      = link_to track.name, track.doc_url.to_s, :title => "lletra"
+      = link_to track.name, track.doc_url.to_s, :title => "lletra", :target => "_blank"
     - else
       = track.name

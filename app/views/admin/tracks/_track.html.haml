@@ -3,7 +3,8 @@
 %li
   %b= track.name
   - if !track.doc_url.to_s.blank?
-    = link_to "Lletra", track.doc_url.to_s
+    = link_to "Lletra", track.doc_url.to_s, :target => "_blank"
+    \|
   = link_to 'Editar', edit_admin_album_track_path(@album,track)
   \|
   = link_to 'Eliminar', admin_album_track_path(@album,track), :method => :delete, :class => "delete", :confirm => "N'estas segur?"
