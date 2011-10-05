@@ -1173,9 +1173,13 @@ body.two-col #sidebar {
 #tracks {
 	margin-left: 30%;
 }
-.alb_body{
+.alb_body {
 	text-align:justify;
 }
-td.cover{
+td.cover {
 	width: 150px;
+}
+#tracks .doc {
+	background: url("/images/albums/tracks/page.png") no-repeat center center transparent;
+	padding: 4px 8px 4px 8px;
 }

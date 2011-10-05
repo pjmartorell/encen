@@ -557,6 +557,7 @@ input.button {
   width: 125px;
   height: 25px;
   margin-top: 10px;
+	display:block;
 }
 
 input.button:hover {

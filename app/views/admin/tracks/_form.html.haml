@@ -1,7 +1,8 @@
 %p#notice= notice
 = simple_form_for  [:admin, @album, @track], :html => {:multipart => true} do |f|
 
-	= f.input :name, :label => "Nom"
+	= f.input :name, :label => "Nom pista:"
+	= f.label "Lletra:"
 	= f.file_field :doc
 	= f.hidden_field :doc_cache
 	= f.button :submit, @track.new_record? ? "Crear" : "Actualitzar"

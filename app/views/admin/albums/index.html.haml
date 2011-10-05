@@ -10,8 +10,8 @@
             %strong
               =album.title
           %div= album.body
-      %td= link_to 'Mostrar', [:admin, album]
-      %td= link_to 'Editar', edit_admin_album_path(album)
+      %td= link_to 'Editar', [:admin, album]
+      -#%td= link_to 'Editar', edit_admin_album_path(album)
       %td= link_to 'Eliminar', admin_album_path(album), :confirm => "N'estàs segur?", :method => :delete
 
 %br
