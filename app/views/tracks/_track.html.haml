@@ -1,2 +1,4 @@
 %li
-	%b= track.name
+  %b= track.name
+  - if !track.doc_url.blank?
+    = link_to "Lletra", track.doc_url.to_s
