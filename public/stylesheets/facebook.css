@@ -8,7 +8,7 @@
 	border: white !important;
 }
 
-.fan_box .connections{padding: 5px 0 0 5px !important;}
+.fan_box .connections{padding: 5px 0 5px !important;}
 .fan_box .connections .connections_grid{padding: 3px !important;}
 .fan_box .connections_grid .grid_item{padding: 0 3px 8px 3px !important;}
 .fan_box .full_widget .connect_top{background:transparent !important;}
