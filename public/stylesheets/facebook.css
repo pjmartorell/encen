@@ -4,7 +4,7 @@
 	background-color: lightblue !important;
 	display: block !important;
 	text-align: center !important;
-	margin: 0 auto 15px !important;
+	margin: 0 auto 0 !important;
 	border: white !important;
 }
 
@@ -13,7 +13,7 @@
 .fan_box .connections_grid .grid_item{padding: 0 3px 8px 3px !important;}
 .fan_box .full_widget .connect_top{background:transparent !important;}
 
-.fan_box, .connect_widget {
+.fan_box, .auto_resize_iframe {
 	-moz-border-radius: 15px !important;
 	-webkit-border-radius: 15px !important;
 	border-radius: 15px !important;
