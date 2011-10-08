@@ -1185,8 +1185,11 @@ body.two-col #sidebar {
 }
 td.cover {
 	width: 150px;
+	top: 0px;
+	display: block;
 }
 #tracks .doc {
 	background: url("/images/albums/tracks/page.png") no-repeat center center transparent;
 	padding: 4px 8px 4px 8px;
 }
+
