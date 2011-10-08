@@ -1,4 +1,9 @@
 /* Eliminate the comment by fading it out */
 $('#comment_#{@comment.id}').fadeOut();
-/* Replace the count of comments */
-$("#comments_count").html("<p>◕ #{pluralize(@post.comments.count, 'comentari')} a l\'\entrada:");
+- if @post.comments.count > 0
+  /* Replace the count of comments */
+  $("#comments_count").html("<p>◕ #{pluralize(@post.comments.count, 'comentari')} a l\'\entrada:</p>");
+- else
+  /* Remove comments count */
+  $("#comments_count").html("");
+  

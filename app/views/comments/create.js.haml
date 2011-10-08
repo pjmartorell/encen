@@ -10,7 +10,7 @@
 	$("#comment-notice").html('<div class="flash notice">#{escape_javascript(flash.delete(:notice))}</div>');
 
 	/* Replace the count of comments */
-	$("#comments_count").html("<p>◕ #{pluralize(@post.comments.count, 'comentari')} a l\'\entrada:");
+	$("#comments_count").html("<p>◕ #{pluralize(@post.comments.count, 'comentari')} a l\'\entrada:</p>");
 
 	/* Add the new comment to the bottom of the comments list */
 	$("#comments").append("#{escape_javascript(render(@comment))}");
