@@ -677,7 +677,7 @@ body.two-col #header {
 
 #concerts td {
 	color:#705f44;
-	border-top: 2px dotted #ede9e3;
+	border-top: 2px solid #ede9e3;
 
 	padding:.3em 1em;
 	text-align:center;
