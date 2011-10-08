@@ -1,6 +1,6 @@
 /* Facebook widget */
 
-.fan_box {
+.fb-like-box, .fan_box, .full_widget {
 	background-color: lightblue !important;
 	display: block !important;
 	text-align: center !important;
