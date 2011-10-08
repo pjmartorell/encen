@@ -5,8 +5,12 @@
     #fb-root
     %script
       (function(d){var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}js = d.createElement('script'); js.id = id; js.async = true;js.src = "//connect.facebook.net/ca_ES/all.js#xfbml=1";d.getElementsByTagName('head')[0].appendChild(js);}(document));
-    .fb-like-box{"data-href"=>"http://www.facebook.com/josepromeu1", "data-width"=>"240", "data-show-faces" =>"true", "data-stream"=>"false", "data-header"=>"false", "data-border-color"=>"white"}
-  
+
+    %fb:fan{:href=>"http://www.facebook.com/josepromeu1", :profile_id => "203466522999773", :connections => "4", :width=>"240", :height=>"160", "show-faces" =>"true", :stream=>"false", :header=>"false", "border-color"=>"white", :css => "http://josepromeu.cat/stylesheets/facebook.css?18", :class => "fb-like-box"}
+
+    .fb-like-box{"data-href"=>"http://www.facebook.com/josepromeu1", "data-width"=>"240", "data-show-faces" =>"true", "data-stream"=>"false", "data-header"=>"false", "data-border-color"=>"white", "data-connections" => "4"}
+
+      
     #networks
       =link_to image_tag("/images/facebook.png"), "http://www.facebook.com/josepromeu1", :target => "_blank" 
       =link_to image_tag("/images/myspace.png"), "http://www.myspace.com/josepromeu", :target => "_blank"   
@@ -16,7 +20,7 @@
     %hr
     
     -#Banner Promocio
-    =link_to image_tag("/images/promo.jpg", :mouseover => "/images/promo_over.jpg"), "http://productesdelaterra.cat/9872-cd-josep-romeu-la-mirada-infinita.html", :target => "_blank"
+    =link_to image_tag("/images/mirada_infinita_banner.gif", :id => "promo"), "http://productesdelaterra.cat/9872-cd-josep-romeu-la-mirada-infinita.html", :target => "_blank"
     
     %hr
     

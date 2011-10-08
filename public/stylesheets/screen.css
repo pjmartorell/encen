@@ -876,6 +876,15 @@ h3#reply-title {
 /*                        Sidebar                          */
 /* ======================================================= */
 
+/* Facebook widget */
+
+.fb-like-box {
+	display: block !important;
+	text-align: center !important;
+	margin: 0 auto 15px !important;
+}
+
+
 body.two-col #sidebar {
   display: inline;
   float: left;
@@ -906,16 +915,6 @@ body.two-col #sidebar {
 	margin: 0 0 9px 10px ;
 }
 
-/* Facebook widget */
-
-#sidebar .fb-like-box{
-	background-color: lightblue;
-	display: block;
-	text-align: center;
-	width: 240px;
-	margin: 0 auto 15px;
-}
-
 #sidebar #networks {
 	margin: 10px 0 10px;
 	text-align:center;
@@ -927,6 +926,14 @@ body.two-col #sidebar {
 	font-size: 12px;
 	color: black;
 	font-weight: bold;
+}
+
+/* PROMOCIO */
+
+#promo {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 17px;
 }
 
 
