@@ -1188,6 +1188,11 @@ td.cover {
 	top: 0px;
 	display: block;
 }
+td.desc { 
+	top: 0px;
+}
+
+
 #tracks .doc {
 	background: url("/images/albums/tracks/page.png") no-repeat center center transparent;
 	padding: 4px 8px 4px 8px;
