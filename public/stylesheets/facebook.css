@@ -4,12 +4,13 @@
 	background-color: lightblue !important;
 	display: block !important;
 	text-align: center !important;
-
 	margin: 0 auto 15px !important;
 	border: white !important;
-	-moz-border-radius: 10px !important;
-	-webkit-border-radius: 10px !important;
-	border-radius: 10px !important;
+}
+.fb-ltr {
+	-moz-border-radius: 15px !important;
+	-webkit-border-radius: 15px !important;
+	border-radius: 15px !important;
 }
 .fan_box .connections{padding: 5px 0 4px 5px !important;}
 .fan_box .connections .connections_grid{padding: 3px !important;}
