@@ -12,7 +12,7 @@ class Post < ActiveRecord::Base
   
   scope :published, where(:published => true).order("published_at DESC")  #TODO
 
-  self.per_page = 2
+  self.per_page = 4
 
   def to_s
     title
