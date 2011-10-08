@@ -1,9 +1,10 @@
 /* Facebook widget */
 
-.fb-like-box, .fan_box {
+.fb-like-box, .fan_box, .full_widget {
 	background-color: lightblue !important;
 	display: block !important;
 	text-align: center !important;
 	width: 240px !important;
 	margin: 0 auto 15px !important;
+	height: 160px !important;
 }
