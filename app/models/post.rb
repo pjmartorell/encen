@@ -17,6 +17,11 @@ class Post < ActiveRecord::Base
   def to_s
     title
   end
+  
+  def to_param
+    permlink = self.title.mb_chars.normalize(:kd).strip.gsub(/[^\x00-\x7F]/n,'').gsub!(/\ /,'-').downcase.to_s
+    "#{self.id}-#{permlink}"
+  end
 
   def update_published_at
     if published_changed? && !published_was && published
