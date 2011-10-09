@@ -718,8 +718,7 @@ table#concerts {
 .meta {
     border-top:1px solid #f0f0f0;
     border-bottom:1px solid #f0f0f0;
-    line-height:28px;
-    margin-bottom:10px;
+		padding: 7px 0 7px 0;
     position:relative;
     overflow:hidden;
 }
@@ -727,13 +726,25 @@ table#concerts {
     padding: 0 4px;
 }
 .meta .comments {
+		margin: 0 10px 0 10px;
     float:right;
+}
+.meta .date {
+	vertical-align: middle;
+	float: left;
 }
 .post {
 	padding-bottom: 30px;	
 	clear:both;
-	
 }
+
+.fb_edge_widget_with_comment span.fb_edge_comment_widget iframe.fb_ltr {
+display: none !important;}
+.fb_edge_widget_with_comment {
+	float:right;
+	height:20px;
+}
+
 
 /* Will_paginate CSS */
 
@@ -886,7 +897,6 @@ h3#reply-title {
 	text-align: center !important;
 	margin: 0 auto 15px !important;
 }
-
 
 body.two-col #sidebar {
   display: inline;

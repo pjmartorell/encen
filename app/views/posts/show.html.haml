@@ -3,8 +3,9 @@
 %h3
   = @post.title
 .meta
-  = pretty_date @post.date
-
+  %span.date
+    = pretty_date @post.date
+  %fb:like{:href=>url_for(:action => 'show', :controller => 'posts', :id=>@post, :only_path=>"true"),:send=>"false", :layout=>"button_count", :width=>"107", :show_faces=>"false", :font=>"verdana"}
 .comment-body
   %p
     = raw @post.body

@@ -2,9 +2,10 @@
   %h3
     = link_to post.title, post_path(post)
   .meta
-    %time
+    .date
       = pretty_date post.created_at
     .comments
       = link_to "#{pluralize(post.comments.count, "Comentari")}", "#{post_path(post)}#comments"
+    %fb:like{:href=>url_for(:action => 'show', :controller => 'posts', :id=>post, :only_path=>"true"),:send=>"false", :layout=>"button_count", :width=>"107", :show_faces=>"false", :font=>"verdana"}
   %p
     = raw post.body
