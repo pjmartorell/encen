@@ -585,8 +585,11 @@ body.two-col #header {
 #footer #credits {
 	text-align:center;
 }
-#footer #credits a:hover {
+#footer #credits a{
 	color: white;
+}
+#footer #credits a:hover {
+	color: darkgray;
 }
 #main{
 	width: 935px;
