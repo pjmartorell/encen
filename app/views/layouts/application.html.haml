@@ -16,7 +16,10 @@
 		-#%meta{:content => t(:geo_placename), :name => "geo.placename"}
 		-#%meta{:content => t(:geo_position), :name => "geo.position"}
 		-#%meta{:content => t(:icbm), :name => "ICBM"}
-		
+		%meta{:property => "og:type", :content => "website"}
+		%meta{:property => "og:site_name", :content => "Josep Romeu"}
+		%meta{:property => "og:image", :content => "http://romeu.s3.amazonaws.com/uploads/image/file/37/Josep_Romeu_-_fotografia_promocional.jpg"}
+				
 		= csrf_meta_tag
 		= stylesheet_link_tag 'screen', :media => :screen
 		= stylesheet_link_tag 'print', :media => :print
