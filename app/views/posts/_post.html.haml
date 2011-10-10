@@ -1,5 +1,5 @@
-- content_for :head do
-  %meta{:property => "og:description", :content => "#{post.body}"}
+- content_for :meta_description do
+  = @post.body
 
 .post
   %h3
