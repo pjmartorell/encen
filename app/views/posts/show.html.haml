@@ -1,4 +1,6 @@
 = title (t ".title")
+- content_for :meta_description do
+  = @post.body
 
 %h3
   = @post.title
