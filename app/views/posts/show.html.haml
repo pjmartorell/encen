@@ -7,7 +7,6 @@
     = pretty_date @post.date
   %fb:like{:href=>url_for(:action => 'show', :controller => 'posts', :id=>@post, :host=>"www.josepromeu.cat") ,:send=>"false", :layout=>"button_count", :width=>"107", :show_faces=>"false", :font=>"verdana"}
 .comment-body
-  %p
-    = raw @post.body
+  = raw @post.body
 
 = render :partial => 'comments'
