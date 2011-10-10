@@ -19,6 +19,7 @@
 		%meta{:property => "og:type", :content => "website"}
 		%meta{:property => "og:site_name", :content => "Josep Romeu"}
 		%meta{:property => "og:image", :content => "http://romeu.s3.amazonaws.com/uploads/image/file/37/Josep_Romeu_-_fotografia_promocional.jpg"}
+		= yield :head
 		
 		= csrf_meta_tag
 		= stylesheet_link_tag 'screen', :media => :screen

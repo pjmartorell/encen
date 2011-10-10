@@ -1,6 +1,8 @@
 = title (t ".title")
 - content_for :meta_description do
   = @post.body
+- content_for :head do
+  %meta{:property => "og:description", :content => "#{@post.body}"}
 
 %h3
   = @post.title
