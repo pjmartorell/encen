@@ -3,8 +3,8 @@
 	%head
 		%title= "Josep Romeu - Web oficial | #{yield :title}"
 		%meta{:content => "text/html; charset=utf-8", "http-equiv" => "content-type"}
-		%meta{:content => yield(:meta_keywords), :name => "keywords"}
-		%meta{:content => yield(:meta_description), :name => "description"}
+		%meta{:content => t(:metakeywords), :name => "keywords"}
+		%meta{:content => t(:metadescription), :name => "description"}
 		%meta{:content => "Pere Joan Martorell Calaf", :name => "author"}
 		%meta{:content => "Itnig", :name => "generator"}
 		= favicon_link_tag
@@ -19,6 +19,7 @@
 		%meta{:property => "og:type", :content => "website"}
 		%meta{:property => "og:site_name", :content => "Josep Romeu"}
 		%meta{:property => "og:image", :content => "http://romeu.s3.amazonaws.com/uploads/image/file/37/Josep_Romeu_-_fotografia_promocional.jpg"}
+		= yield :head
 				
 		= csrf_meta_tag
 		= stylesheet_link_tag 'screen', :media => :screen
