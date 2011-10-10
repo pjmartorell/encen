@@ -9,4 +9,5 @@
     .comments
       = link_to "#{pluralize(post.comments.count, "Comentari")}", "#{post_path(post)}#comments"
     %fb:like{:href=>url_for(:action => 'show', :controller => 'posts', :id=>post,:host=>"www.josepromeu.cat"),:send=>"false", :layout=>"button_count", :width=>"107", :show_faces=>"false", :font=>"verdana"}
-  = raw post.body
+  %p
+    = raw post.body
