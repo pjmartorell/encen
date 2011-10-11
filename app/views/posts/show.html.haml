@@ -1,8 +1,8 @@
 = title (t ".title")
 - content_for :meta_description do
-  = strip_tags @post.body
+  = strip_tags(raw @post.body)
 - content_for :head do
-  %meta{:property => "og:description", :content => "#{strip_tags(@post.body)}"}
+  %meta{:property => "og:description", :content => "#{strip_tags(raw(@post.body))}"}
 
 %h3
   = @post.title
