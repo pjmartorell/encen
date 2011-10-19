@@ -13,17 +13,17 @@ ca:
 
   posts:
     index:
-      title: "Notícies"
+      title: ""
     show:
-      title: "Notícies"
+      title: "| Notícies"
   
   albums:
     index: 
-      title: "Discografia"
+      title: "| Discografia"
     
   concerts:
     index:
-      title: "Concerts"
+      title: "| Concerts"
   
   subscriptors:
     already_subscribed: Ja estàs subscrit a la nostra llista de correu.
