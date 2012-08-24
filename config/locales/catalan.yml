@@ -306,3 +306,8 @@ ca:
           name: "Escriu el teu nom"
           email: "Escriu el correu"
           body: "Escriu el comentari"
+          
+  will_paginate:
+    previous_label: "&#8592; Anterior"
+    next_label: "Següent &#8594;"
+    page_gap: "&hellip;"

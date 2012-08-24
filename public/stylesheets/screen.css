@@ -776,6 +776,9 @@ table#concerts {
 .pagination a:hover, .pagination a:focus {
 		text-decoration: underline; 
 }
+.pagination a:visited {
+	color: black;
+}
 
 /* Comments form */
 
