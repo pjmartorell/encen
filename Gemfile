@@ -16,6 +16,7 @@ gem 'fog'
 gem 'sass'
 
 gem 'hominid'
+gem 'humanizer'
 gem 'will_paginate', '~> 3.0.0'
 gem 'taps'
 gem "lazyhash"
