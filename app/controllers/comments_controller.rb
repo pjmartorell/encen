@@ -1,8 +1,8 @@
 class CommentsController < ApplicationController
   def create
-    @comment = Comment.new(params[:comment])
     @post = Post.find(params[:post_id])
-    @comment.post = @post
+    @comment = @post.comments.create(params[:comment])
+    
     if @comment.save
       flash[:notice] = "Gràcies pel teu comentari!"
     else
