@@ -2,11 +2,14 @@ require "resolv"
 
 class Comment < ActiveRecord::Base
   belongs_to :post
-
+  include Humanizer
+  require_human_on :create
+    
   validates_presence_of :name
-  validates :email, :presence => true, :format => { :with => /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i }
+  validates :email, :allow_blank => true, :format => { :with => /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i }
   #validate :is_valid_email?
   validates_presence_of :body
+  validates_presence_of :humanizer_answer
 
   default_scope order('created_at asc')
 

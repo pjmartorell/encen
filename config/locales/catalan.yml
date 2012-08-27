@@ -298,16 +298,19 @@ ca:
 
       full_messages:
         format: "%{attribute} %{message}"
-
-  simple_form:
-    hints:
-      post:
-        comment:
-          name: "Escriu el teu nom"
-          email: "Escriu el correu"
-          body: "Escriu el comentari"
           
   will_paginate:
     previous_label: "&#8592; Anterior"
     next_label: "Següent &#8594;"
     page_gap: "&hellip;"
+    
+  humanizer:
+    validation:
+      error: "Resposta anti-spam incorrecta, torna a intentar-ho."
+    questions:
+      - question: "Dos més dos?"
+        answers: ["4", "quatre"]
+      - question: "Quin mes de l'any ve després del març?"
+        answer: "abril"
+      - question: "Quin dia de la setmana ve després del dijous?"
+        answer: "divendres"

@@ -3,6 +3,8 @@ class Post < ActiveRecord::Base
   has_many :comments, :dependent => :destroy
   has_many :images, :as => :owner, :dependent => :destroy
 
+  accepts_nested_attributes_for :comments
+  
   validates_presence_of :title
   validates_presence_of :body, :on => :update
   validates_presence_of :date
