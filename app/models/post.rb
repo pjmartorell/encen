@@ -21,7 +21,7 @@ class Post < ActiveRecord::Base
   end
   
   def to_param
-    permlink = self.title.mb_chars.normalize(:kd).strip.gsub(/[^\x00-\x7F]/n,'').gsub!(/\ /,'-').gsub!(/!/,'').downcase.to_s
+    permlink = self.title.parameterize
     "#{self.id}-#{permlink}"
   end
 
