@@ -1,7 +1,8 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 3.0.0'
+gem 'rails', '~> 3.0.20'
 gem 'i18n', "~> 0.5.0"
+gem 'nokogiri'
 
 gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
 gem 'compass', "~> 0.10.6"
