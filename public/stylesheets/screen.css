@@ -930,13 +930,11 @@ body.two-col #sidebar {
 	margin: 10px 0 10px;
 	text-align:center;
 }
-#sidebar #twitter-feed a{
-	text-decoration: underline;
-	display: block;
-	overflow: hidden;
-	font-size: 12px;
-	color: black;
-	font-weight: bold;
+
+#sidebar #twitter-div{
+	margin-left: auto;
+	margin-right: auto;
+	width: 250px;
 }
 
 /* PROMOCIO */
@@ -1064,125 +1062,6 @@ body.two-col #sidebar {
     padding: 0.7em;
 }
 
-
-/* 				DYNAMIC FEED			 */
-
-.gfg-root {
-  width : 95%;
-  height : auto;
-  position : relative;
-  overflow : hidden;
-  text-align : center;
-  font-family: "Arial", sans-serif;
-  font-size: 12px;
-  border: 1px solid #E9D2AB;
-	margin: 0 auto;
-}
-
-.gfg-title {
-  font-size: 14px;
-  font-weight : bold;
-  color : #B86C1D;
-  background-color: #F6F2DD;
-  line-height : 2em;
-  overflow : hidden;
-  white-space : nowrap;
-}
-
-.gfg-title a {
-  color : #B86C1D;
-}
-
-.gfg-subtitle {
-  font-size: 12px;
-  font-weight : bold;
-  color : #B86C1D;
-  background-color: #E9D2AB;
-  line-height : 1.4em;
-  overflow : hidden;
-  white-space : nowrap;
-  margin-bottom : 5px;
-}
-
-.gfg-subtitle a {
-  color : #B86C1D;
-}
-
-.gfg-entry {
-  background-color : white;
-  width : 100%;
-  height : 6.9em;
-  position : relative;
-  overflow : hidden;
-  text-align : left;
-  margin-top : 3px;
-}
-
-/* To allow correct behavior for overlay */
-.gfg-root .gfg-entry .gf-result {
-  position : relative;
-  background-color : white;
-  width : auto;
-  height : 100%;
-  padding-left : 20px;
-  padding-right : 5px;
-}
-
-.gfg-list {
-  position : relative;
-  overflow : hidden;
-  text-align : left;
-  margin-bottom : 5px;
-}
-
-.gfg-listentry {
-  line-height : 1.5em;
-  overflow : hidden;
-  white-space : nowrap;
-  text-overflow : ellipsis;
-  -o-text-overflow : ellipsis;
-  padding-left : 15px;
-  padding-right : 5px;
-  margin-left : 5px;
-  margin-right : 5px;
-}
-
-.gfg-listentry-odd {
-  background-color : #F3F0E6;
-}
-
-.gfg-listentry-even {
-}
-
-.gfg-listentry-highlight { 
-  background-image : url('/images/garrow2.gif');
-  background-repeat: no-repeat;
-  background-position : center left;
-}
-
-/*
- * FeedControl customizations.
- */
-
-.gfg-root .gfg-entry .gf-result .gf-title {
-  font-size: 14px;
-  line-height : 1.2em;
-  overflow : hidden;
-  white-space : nowrap;
-  text-overflow : ellipsis;
-  -o-text-overflow : ellipsis;
-  margin-bottom : 2px;
-}
-
-.gfg-root .gfg-entry .gf-result .gf-snippet {
-  height : 3.8em;
-  color: #000000;
-  margin-top : 3px;
-}
-
-.gfg-entry {
-	height: 120px !important;
-}
 	
 /* ======================================================= */
 /*                         Albums                          */
