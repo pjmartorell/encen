@@ -6,8 +6,10 @@
     %script
       (function(d){var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}js = d.createElement('script'); js.id = id; js.async = true;js.src = "//connect.facebook.net/ca_ES/all.js#xfbml=1";d.getElementsByTagName('head')[0].appendChild(js);}(document));
 
-    %fb:fan{:href=>"http://www.facebook.com/josepromeu.oficial", :profile_id => "238968626156469", :connections => "4", :width=>"250", :height=>"160", "show-faces" =>"false", :stream=>"false", :header=>"false", "border-color"=>"white", :css => "http://josepromeu.cat/stylesheets/facebook.css?18", :class => "fb-like-box"}
-
+    %fb:fan{:href=>"http://www.facebook.com/josepromeu.oficial", :profile_id => "238968626156469", :width=>"250", :height=>"68", "show-faces" =>"false", :stream=>"false", :header=>"false", "border-color"=>"white", :css => "http://josepromeu.cat/stylesheets/facebook.css?18", :class => "fb-like-box"}
+    
+    %hr
+    
     #networks
       =link_to image_tag("/images/facebook.png"), "http://www.facebook.com/josepromeu.oficial", :target => "_blank" 
       =link_to image_tag("/images/myspace.png"), "http://www.myspace.com/josepromeu", :target => "_blank"   
