@@ -9,6 +9,7 @@ CKEDITOR.editorConfig = function(config){
       ['Bold','Italic','Underline','Strike'],
       ['Styles','Format','Font','FontSize'],
       ['TextColor','BGColor'],
+			['Source'],
       '/',
       ['Cut','Copy','Paste','PasteText','PasteFromWord'],
       ['Undo','Redo'],
