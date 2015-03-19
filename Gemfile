@@ -1,10 +1,10 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 3.0.20'
-gem 'i18n', "~> 0.5.0"
+gem 'rails', '~> 3.2.21'
+gem 'i18n', "~> 0.7.0"
 gem 'nokogiri'
 
-gem 'devise', :git => 'git://github.com/plataformatec/devise.git'
+gem 'devise', '~> 3.4.1'
 gem 'compass', "~> 0.10.6"
 gem 'haml-rails'
 
@@ -25,10 +25,9 @@ gem "lazyhash"
 group :development, :test do
   gem 'sqlite3-ruby', :require => 'sqlite3'
   gem 'rspec-rails'
-  gem 'ruby-debug'
 end
 
 group :production, :staging do
   gem 'mysql2'
-  gem "exception_notification", :git => "http://github.com/rails/exception_notification.git", :require => 'exception_notifier'
+  gem 'exception_notification', :require => 'exception_notifier'
 end

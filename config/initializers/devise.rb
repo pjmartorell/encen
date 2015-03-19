@@ -22,6 +22,8 @@ Devise.setup do |config|
   # session. If you need permissions, you should implement that in a before filter.
   config.authentication_keys = [ :login ]
 
+  config.secret_key = APP_CONFIG[:devise][:secret_key]
+
   # Tell if authentication through request.params is enabled. True by default.
   # config.params_authenticatable = true
 
