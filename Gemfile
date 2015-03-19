@@ -23,7 +23,7 @@ gem 'taps'
 gem "lazyhash"
 
 group :development, :test do
-  gem 'sqlite3-ruby', :require => 'sqlite3'
+  gem 'sqlite3'
   gem 'rspec-rails'
 end
 
