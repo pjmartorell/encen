@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
+ruby '2.0.0'
 
 gem 'rails', '~> 3.2.21'
 gem 'i18n', "~> 0.7.0"
@@ -9,7 +10,6 @@ gem 'compass', "~> 0.10.6"
 gem 'haml-rails'
 
 gem 'simple_form'
-gem 'heroku'
 
 gem 'carrierwave'
 gem 'mini_magick'
@@ -23,11 +23,11 @@ gem 'taps'
 gem "lazyhash"
 
 group :development, :test do
-  gem 'sqlite3-ruby', :require => 'sqlite3'
+  gem 'sqlite3'
   gem 'rspec-rails'
 end
 
 group :production, :staging do
-  gem 'mysql2'
-  gem 'exception_notification', :require => 'exception_notifier'
+  gem 'pg', '~> 0.18.1'
+  gem 'exception_notification'
 end
