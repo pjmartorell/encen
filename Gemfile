@@ -28,5 +28,6 @@ end
 
 group :production, :staging do
   gem 'mysql2'
+  gem 'pg', '~> 0.18.1'
   gem 'exception_notification'
 end
