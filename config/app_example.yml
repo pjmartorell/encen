@@ -2,6 +2,8 @@ defaults: &defaults
   name: Encen
   seed: some_seed_token
   mailchimp_key: somekey-us2
+  devise:
+    secret_key: some_key
 
 production:
   <<: *defaults
