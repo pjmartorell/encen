@@ -28,5 +28,5 @@ end
 
 group :production, :staging do
   gem 'mysql2'
-  gem 'exception_notification', :require => 'exception_notifier'
+  gem 'exception_notification'
 end
