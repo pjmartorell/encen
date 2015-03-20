@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
+ruby '2.0.0'
 
 gem 'rails', '~> 3.2.21'
 gem 'i18n', "~> 0.7.0"
@@ -27,7 +28,6 @@ group :development, :test do
 end
 
 group :production, :staging do
-  gem 'mysql2'
   gem 'pg', '~> 0.18.1'
   gem 'exception_notification'
 end
