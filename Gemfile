@@ -9,7 +9,6 @@ gem 'compass', "~> 0.10.6"
 gem 'haml-rails'
 
 gem 'simple_form'
-gem 'heroku'
 
 gem 'carrierwave'
 gem 'mini_magick'
