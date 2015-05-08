@@ -18,15 +18,15 @@
 		-#%meta{:content => t(:icbm), :name => "ICBM"}
 		%meta{:property => "og:type", :content => "website"}
 		%meta{:property => "og:site_name", :content => "Josep Romeu"}
-		%meta{:property => "og:image", :content => "http://romeu.s3.amazonaws.com/uploads/image/file/37/Josep_Romeu_-_fotografia_promocional.jpg"}
+		%meta{:property => "og:image", :content => "http://s3.amazonaws.com/romeu/uploads/image/file/198/Josep_Romeu.jpg"}
 		= yield :head
-		
+
 		= csrf_meta_tag
 		= stylesheet_link_tag 'screen', :media => :screen
 		= stylesheet_link_tag 'print', :media => :print
 		= stylesheet_link_tag 'jquery-ui-1.8.14'
 		-#= stylesheet_link_tag "http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.css"
-    
+
 		/[if lt IE 8 ]
 			= stylesheet_link_tag 'ie', :media => 'screen, projection'
 		%script{:type =>"text/javascript", :src => "http://www.google.com/jsapi?key=ABQIAAAAgt7PaYuhYN9_nuhmZvaVvRQAsf9EpaHq1VSG0zlzuU5Dysfs-xRhYoAFeu9rJGQrS42mZBXnQXGxQg"}
@@ -34,8 +34,8 @@
 			google.load("feeds", "1");
 		= javascript_include_tag "audio-player"
 		%script{:type => "text/javascript"}
-			AudioPlayer.setup("/misc/player.swf", {width: '100%'});  
-		
+			AudioPlayer.setup("/misc/player.swf", {width: '100%'});
+
 	%body.two-col
 		#container
 			#content_wrap
@@ -44,7 +44,7 @@
 					= render 'shared/menu'
 					#content
 						= yield
-						
+
 					= render 'shared/sidebar'
 				#page_bottom
 				#footer
@@ -57,7 +57,7 @@
 		= javascript_include_tag "http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
 		= javascript_include_tag "twitfeed"
 		= javascript_include_tag "simplemodal.1.4.1"
-		
-	
+
+
 		= yield :custom_js
 		= render 'shared/analytics'
