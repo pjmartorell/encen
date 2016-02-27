@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-ruby '2.0.0'
+ruby '2.3.0'
 
 gem 'rails', '~> 3.2.21'
 gem 'i18n', "~> 0.7.0"
