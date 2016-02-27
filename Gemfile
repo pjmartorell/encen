@@ -20,7 +20,8 @@ gem 'hominid'
 gem 'humanizer'
 gem 'will_paginate', '~> 3.0.0'
 gem 'taps'
-gem "lazyhash"
+gem 'lazyhash'
+gem 'rails_12factor'
 
 group :development, :test do
   gem 'sqlite3'
