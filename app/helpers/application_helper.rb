@@ -13,7 +13,7 @@ module ApplicationHelper
   def gravatar_url(email, options={})
     email_hash = Digest::MD5.hexdigest(email)
     options[:default] = CGI::escape(options[:default]) unless options[:default].nil?
-    returning gravatar_api_url(email_hash) do |url|
+    gravatar_api_url(email_hash).tap do |url|
       opts = []
       [:rating, :size, :default].each do |opt|
         unless options[opt].nil?
